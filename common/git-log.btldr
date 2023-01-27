@@ -9,7 +9,7 @@
 
 - Show the history of a particular file or directory, including differences:
 
-`git log -p {directory something: path/to/file_or}`
+`git log -p {file something|path something}`
 
 - Show an overview of which file(s) changed in each commit:
 

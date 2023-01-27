@@ -13,7 +13,7 @@
 
 - Compress content before transferring:
 
-`qrcp send --zip {directory something: path/to/file_or}`
+`qrcp send --zip {file something|path something}`
 
 - Specify a [p]ort to use:
 

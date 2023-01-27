@@ -13,7 +13,7 @@
 
 - Generate a JSON report and save it to a specific file:
 
-`lighthouse --output {any something} --output-path {any something} {any something}`
+`lighthouse --output {any something} --output-path {file something} {any something}`
 
 - Generate a report using the browser in headless mode without logging to stdout:
 
@@ -21,7 +21,7 @@
 
 - Generate a report, using the HTTP header key/value pairs in the specified JSON file for all requests:
 
-`lighthouse --extra-headers={any something} {any something}`
+`lighthouse --extra-headers={file something} {any something}`
 
 - Generate a report for specific categories only:
 

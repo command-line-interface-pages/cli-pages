@@ -5,24 +5,24 @@
 
 - Convert a PDF file to JPEG:
 
-`pdftocairo {any something} -jpeg`
+`pdftocairo {file something} -jpeg`
 
 - Convert to PDF expanding the output to fill the paper:
 
-`pdftocairo {any something} {any something} -pdf -expand`
+`pdftocairo {file something} {any something} -pdf -expand`
 
 - Convert to SVG specifying the first/last page to convert:
 
-`pdftocairo {any something} {any something} -svg -f {any something} -l {any something}`
+`pdftocairo {file something} {any something} -svg -f {any something} -l {any something}`
 
 - Convert to PNG with 200ppi resolution:
 
-`pdftocairo {any something} {any something} -png -r 200`
+`pdftocairo {file something} {any something} -png -r 200`
 
 - Convert to grayscale TIFF setting paper size to A3:
 
-`pdftocairo {any something} -tiff -gray -paper A3`
+`pdftocairo {file something} -tiff -gray -paper A3`
 
 - Convert to PNG cropping x and y pixels from the top-left corner:
 
-`pdftocairo {any something} -png -x {any something} -y {any something}`
+`pdftocairo {file something} -png -x {any something} -y {any something}`

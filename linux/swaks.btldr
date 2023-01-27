@@ -17,7 +17,7 @@
 
 - Test a spam scanner using GTUBE in the body of an email, routed via the MX records for `example.com`:
 
-`swaks --to {any something} --body {file something: path/to/gtube}`
+`swaks --to {any something} --body {file something: gtube}`
 
 - Deliver a standard test email to `user@example.com` using the LMTP protocol via a UNIX domain socket file:
 

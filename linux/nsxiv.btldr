@@ -5,7 +5,7 @@
 
 - Open images:
 
-`nsxiv {file* something}`
+`nsxiv {any something}`
 
 - Open images from directories in image mode:
 

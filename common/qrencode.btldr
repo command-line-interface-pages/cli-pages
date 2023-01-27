@@ -5,11 +5,11 @@
 
 - Convert a string to a QR code and save to an output file:
 
-`qrencode -o {any something} {any something}`
+`qrencode -o {file something: output} {any something}`
 
 - Convert an input file to a QR code and save to an output file:
 
-`qrencode -o {any something} -r {file something: path/to/input}`
+`qrencode -o {file something: output} -r {file something: input}`
 
 - Convert a string to a QR code and print it in terminal:
 

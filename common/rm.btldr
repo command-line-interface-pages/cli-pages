@@ -6,19 +6,19 @@
 
 - Remove specific files:
 
-`rm {file* something}`
+`rm {any something}`
 
 - Remove specific files ignoring nonexistent ones:
 
-`rm -f {file* something}`
+`rm -f {any something}`
 
 - Remove specific files [i]nteractively prompting before each removal:
 
-`rm -i {file* something}`
+`rm -i {any something}`
 
 - Remove specific files printing info about each removal:
 
-`rm -v {file* something}`
+`rm -v {any something}`
 
 - Remove specific files and directories [r]ecursively:
 

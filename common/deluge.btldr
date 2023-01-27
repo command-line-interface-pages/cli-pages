@@ -9,7 +9,7 @@
 
 - Download a torrent using a specific configuration file:
 
-`deluge -c {file something: path/to/configuration} {any something}`
+`deluge -c {file something: configuration} {any something}`
 
 - Download a torrent and launch the specified user interface:
 
@@ -17,4 +17,4 @@
 
 - Download a torrent and output the log to a file:
 
-`deluge -l {file something: path/to/log} {any something}`
+`deluge -l {file something: log} {any something}`

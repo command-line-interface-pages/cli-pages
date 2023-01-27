@@ -5,20 +5,20 @@
 
 - Generate a D3.js visualization based on database data:
 
-`amass viz -d3 -dir {directory something: path/to/database}`
+`amass viz -d3 -dir {directory something: database}`
 
 - Generate a DOT file based on database data:
 
-`amass viz -dot -dir {directory something: path/to/database}`
+`amass viz -dot -dir {directory something: database}`
 
 - Generate a Gephi Graph Exchange XML Format (GEXF) file based on database data:
 
-`amass viz -gexf -dir {directory something: path/to/database}`
+`amass viz -gexf -dir {directory something: database}`
 
 - Generate a Graphistry JSON file based on database data:
 
-`amass viz -graphistry -dir {directory something: path/to/database}`
+`amass viz -graphistry -dir {directory something: database}`
 
 - Generate a Maltego CSV file based on database data:
 
-`amass viz -maltego -dir {directory something: path/to/database}`
+`amass viz -maltego -dir {directory something: database}`

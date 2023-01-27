@@ -5,19 +5,19 @@
 
 - Display information about a package:
 
-`dpkg-deb --info {any something}`
+`dpkg-deb --info {file something}`
 
 - Display the package's name and version on one line:
 
-`dpkg-deb --show {any something}`
+`dpkg-deb --show {file something}`
 
 - List the package's contents:
 
-`dpkg-deb --contents {any something}`
+`dpkg-deb --contents {file something}`
 
 - Extract package's contents into a directory:
 
-`dpkg-deb --extract {any something} {directory something}`
+`dpkg-deb --extract {file something} {directory something}`
 
 - Create a package from a specified directory:
 

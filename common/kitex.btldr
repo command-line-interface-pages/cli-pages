@@ -6,16 +6,16 @@
 
 - Generate client codes when a project is in `$GOPATH`:
 
-`kitex {any something}`
+`kitex {file something: IDL}`
 
 - Generate client codes when a project is not in `$GOPATH`:
 
-` kitex -module {any something} {any something}`
+` kitex -module {any something} {file something: IDL}`
 
 - Generate client codes with protobuf IDL:
 
-`kitex -type protobuf {any something}`
+`kitex -type protobuf {file something: IDL}`
 
 - Generate server codes:
 
-`kitex -service {any something} {any something}`
+`kitex -service {any something} {file something: IDL}`

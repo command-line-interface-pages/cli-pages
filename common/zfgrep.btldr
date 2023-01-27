@@ -22,4 +22,4 @@
 
 - List only filenames whose content matches the search string at least once:
 
-`zfgrep --files-with-matches {any something} {file* something}`
+`zfgrep --files-with-matches {any something} {any something}`

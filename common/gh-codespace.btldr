@@ -17,7 +17,7 @@
 
 - Transfer a specific file to a codespace interactively:
 
-`gh codespace cp {file something: path/to/source} remote:{file something: path/to/remote}`
+`gh codespace cp {file something: source} remote:{file something: remote}`
 
 - List the ports of a codespace interactively:
 

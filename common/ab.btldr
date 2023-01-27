@@ -13,7 +13,7 @@
 
 - Execute 100 HTTP POST requests to a URL, using a JSON payload from a file:
 
-`ab -n {int number: 100} -T {any something} -p {any something} {any something}`
+`ab -n {int number: 100} -T {any something} -p {file something} {any something}`
 
 - Use HTTP [K]eep Alive, i.e. perform multiple requests within one HTTP session:
 

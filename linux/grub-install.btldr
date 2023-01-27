@@ -9,8 +9,8 @@
 
 - Install GRUB on an UEFI system:
 
-`grub-install --target={any something} --efi-directory={directory something: path/to/efi} --bootloader-id={any something}`
+`grub-install --target={any something} --efi-directory={directory something: efi} --bootloader-id={any something}`
 
 - Install GRUB pre-loading specific modules:
 
-`grub-install --target={any something} --efi-directory={directory something: path/to/efi} --modules="{any something}"`
+`grub-install --target={any something} --efi-directory={directory something: efi} --modules="{any something}"`

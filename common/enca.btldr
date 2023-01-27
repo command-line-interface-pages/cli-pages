@@ -5,15 +5,15 @@
 
 - Detect file(s) encoding according to the system's locale:
 
-`enca {file* something}`
+`enca {any something}`
 
 - Detect file(s) encoding specifying a language in the POSIX/C locale format (e.g. zh_CN, en_US):
 
-`enca -L {any something} {file* something}`
+`enca -L {any something} {any something}`
 
 - Convert file(s) to a specific encoding:
 
-`enca -L {any something} -x {any something} {file* something}`
+`enca -L {any something} -x {any something} {any something}`
 
 - Create a copy of an existing file using a different encoding:
 

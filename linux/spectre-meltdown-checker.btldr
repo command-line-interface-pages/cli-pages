@@ -25,4 +25,4 @@
 
 - Check a non-running kernel:
 
-`sudo spectre-meltdown-checker --kernel {file something: path/to/kernel}`
+`sudo spectre-meltdown-checker --kernel {file something: kernel}`

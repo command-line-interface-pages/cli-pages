@@ -13,7 +13,7 @@
 
 - Start wpm using a specific text file:
 
-`wpm --load {any something}`
+`wpm --load {file something}`
 
 - Tag your race scores:
 

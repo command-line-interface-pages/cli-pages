@@ -21,7 +21,7 @@
 
 - Specify an autoload file to load before analyzing:
 
-`phpstan analyse {directory something} --autoload-file {file something: path/to/autoload}`
+`phpstan analyse {directory something} --autoload-file {file something: autoload}`
 
 - Specify a memory limit during analysis:
 

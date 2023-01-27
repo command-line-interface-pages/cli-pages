@@ -13,8 +13,8 @@
 
 - List a .jar/.war file content:
 
-`jar tf {any something}`
+`jar tf {file something}`
 
 - List a .jar/.war file content with verbose output:
 
-`jar tvf {any something}`
+`jar tvf {file something}`

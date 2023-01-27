@@ -17,4 +17,4 @@
 
 - Analyze a log and write it to an HTML file in real-time:
 
-`goaccess {any something} --output {any something} --real-time-html`
+`goaccess {any something} --output {file something} --real-time-html`

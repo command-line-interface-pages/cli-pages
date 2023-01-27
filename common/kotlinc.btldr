@@ -9,7 +9,7 @@
 
 - Compile a Kotlin file:
 
-`kotlinc {any something}`
+`kotlinc {file something}`
 
 - Compile several Kotlin files:
 
@@ -17,8 +17,8 @@
 
 - Execute a specific Kotlin Script file:
 
-`kotlinc -script {any something}`
+`kotlinc -script {file something}`
 
 - Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included:
 
-`kotlinc {any something} -include-runtime -d {any something}`
+`kotlinc {file something} -include-runtime -d {file something}`

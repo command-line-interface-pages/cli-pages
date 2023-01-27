@@ -6,11 +6,11 @@
 
 - Create an X cursor file using a config file:
 
-`xcursorgen {any something} {file something: path/to/output}`
+`xcursorgen {any something} {file something: output}`
 
 - Create an X cursor file using a config file and specify the path to the image files:
 
-`xcursorgen --prefix {any something} {any something} {file something: path/to/output}`
+`xcursorgen --prefix {any something} {any something} {file something: output}`
 
 - Create an X cursor file using a config file and write the output to stdout:
 

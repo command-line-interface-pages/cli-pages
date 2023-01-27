@@ -5,11 +5,11 @@
 
 - Create a new project:
 
-`quarto create-project {directory something: path/to/destination} --type {any something}`
+`quarto create-project {directory something: destination} --type {any something}`
 
 - Create a new blog website:
 
-`quarto create-project {directory something: path/to/destination} --type {any something} --template {any something}`
+`quarto create-project {directory something: destination} --type {any something} --template {any something}`
 
 - Render input file(s) to different formats:
 

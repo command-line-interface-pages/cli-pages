@@ -13,7 +13,7 @@
 
 - Convert the contents of a file to speech:
 
-`flite -f {any something}`
+`flite -f {file something}`
 
 - Specify which voice to use:
 
@@ -21,7 +21,7 @@
 
 - Store output into a wav file:
 
-`flite -voice {any something} -f {any something} -o {any something}`
+`flite -voice {any something} -f {file something} -o {any something}`
 
 - Display version:
 

@@ -9,7 +9,7 @@
 
 - Open specific files:
 
-`cot {file* something}`
+`cot {any something}`
 
 - Open a new blank document:
 

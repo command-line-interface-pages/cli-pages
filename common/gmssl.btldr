@@ -9,27 +9,27 @@
 
 - Encrypt a file using the SM4 cipher:
 
-`gmssl sms4 -e -in {file something} -out {any something}`
+`gmssl sms4 -e -in {file something} -out {file something}`
 
 - Decrypt a file using the SM4 cipher:
 
-`gmssl sms4 -d -in {any something}`
+`gmssl sms4 -d -in {file something}`
 
 - Generate an SM2 private key:
 
-`gmssl sm2 -genkey -out {any something}`
+`gmssl sm2 -genkey -out {file something}`
 
 - Generate an SM2 public key from an existing private key:
 
-`gmssl sm2 -pubout -in {any something} -out {any something}`
+`gmssl sm2 -pubout -in {file something} -out {any something}`
 
 - Encrypt a file using the ZUC cipher:
 
-`gmssl zuc -e -in {file something} -out {any something}`
+`gmssl zuc -e -in {file something} -out {file something}`
 
 - Decrypt a file using the ZUC cipher:
 
-`gmssl zuc -d -in {any something}`
+`gmssl zuc -d -in {file something}`
 
 - Print version:
 

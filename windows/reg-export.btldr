@@ -5,8 +5,8 @@
 
 - Export all sub keys and values of a specific key:
 
-`reg export {any something} {any something}`
+`reg export {any something} {file something}`
 
 - Force overwriting of an existing file without prompt:
 
-`reg export {any something} {any something} /y`
+`reg export {any something} {file something} /y`

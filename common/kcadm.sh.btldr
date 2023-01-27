@@ -17,4 +17,4 @@
 
 - Update a realm with JSON config:
 
-`kcadm.sh update realms/{any something} -f {any something}`
+`kcadm.sh update realms/{any something} -f {file something}`

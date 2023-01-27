@@ -3,13 +3,13 @@
 > Android activity manager
 > More information: https://developer.android.com/studio/command-line/adb#am
 
-- Start a specific activity stdin:
+- Start a specific activity:
 
-`am start {directory* something: remote} {/directory* something: remote} {directory something: path/to/file_or} -n {any something}`
+`am start -n {file something: output} {any something}`
 
 - Start an activity and pass [d]ata to it:
 
-`am start -a {any something} {any something} -d {any something}`
+`am start -a {any something} -d {any something}`
 
 - Start an activity matching a specific action and [c]ategory:
 

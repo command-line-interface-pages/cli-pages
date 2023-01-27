@@ -5,16 +5,16 @@
 
 - Execute a bitcode or IR file:
 
-`lli {any something}`
+`lli {file something}`
 
 - Execute with command line arguments:
 
-`lli {any something} {any something}`
+`lli {file something} {any something}`
 
 - Enable all optimizations:
 
-`lli -O3 {any something}`
+`lli -O3 {file something}`
 
 - Load a dynamic library before linking:
 
-`lli --dlopen={any something} {any something}`
+`lli --dlopen={any something} {file something}`

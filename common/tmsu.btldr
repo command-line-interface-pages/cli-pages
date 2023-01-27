@@ -5,7 +5,7 @@
 
 - Tag a specific file with multiple tags:
 
-`tmsu tag {any something} {any something} {any something} {any something}`
+`tmsu tag {file something} {any something} {any something} {any something}`
 
 - Tag multiple files:
 

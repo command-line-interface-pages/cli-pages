@@ -9,11 +9,11 @@
 
 - Execute script in a given Python file:
 
-`pypy {any something}`
+`pypy {file something}`
 
 - Execute script as part of an interactive shell:
 
-`pypy -i {any something}`
+`pypy -i {file something}`
 
 - Execute a Python expression:
 
@@ -29,4 +29,4 @@
 
 - Interactively debug a Python script:
 
-`pypy -m pdb {any something}`
+`pypy -m pdb {file something}`

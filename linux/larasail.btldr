@@ -13,7 +13,7 @@
 
 - Add a new Laravel site:
 
-`larasail host {any something} {directory something: path/to/site}`
+`larasail host {any something} {directory something: site}`
 
 - Retrieve the Larasail user password:
 

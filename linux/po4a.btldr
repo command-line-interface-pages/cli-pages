@@ -5,4 +5,4 @@
 
 - Update PO files and documents according to the specified config file:
 
-`po4a {file something: path/to/config}`
+`po4a {file something: config}`

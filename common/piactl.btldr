@@ -5,7 +5,7 @@
 
 - Log in to Private Internet Access:
 
-`piactl login {file something: path/to/login}`
+`piactl login {file something: login}`
 
 - Connect to Private Internet Access:
 

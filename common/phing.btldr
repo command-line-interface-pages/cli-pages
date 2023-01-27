@@ -21,7 +21,7 @@
 
 - Specify a log file to output to:
 
-`phing -b {file something: path/to/log} {any something}`
+`phing -b {file something: log} {any something}`
 
 - Specify custom properties to use in the build:
 

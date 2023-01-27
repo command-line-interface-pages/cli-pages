@@ -9,7 +9,7 @@
 
 - Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
 
-`chmod u+rw {directory something: path/to/file_or}`
+`chmod u+rw {file something|path something}`
 
 - Remove e[x]ecutable rights from the [g]roup:
 

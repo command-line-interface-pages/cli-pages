@@ -5,16 +5,16 @@
 
 - Find lines that contain a specified string:
 
-`find "{any something}" {directory something: path/to/file_or}`
+`find "{any something}" {file something|path something}`
 
 - Display lines that do not contain the specified string:
 
-`find "{any something}" {directory something: path/to/file_or} /v`
+`find "{any something}" {file something|path something} /v`
 
 - Display the count of lines that contain the specified string:
 
-`find "{any something}" {directory something: path/to/file_or} /c`
+`find "{any something}" {file something|path something} /c`
 
 - Display line numbers with the list of lines:
 
-`find "{any something}" {directory something: path/to/file_or} /n`
+`find "{any something}" {file something|path something} /n`

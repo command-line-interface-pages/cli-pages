@@ -26,4 +26,4 @@
 
 - Analyze traffic from a `pcap` file:
 
-`zeek --readfile {any something}`
+`zeek --readfile {file something}`

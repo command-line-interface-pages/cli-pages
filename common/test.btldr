@@ -14,7 +14,7 @@
 
 - Test if a file exists:
 
-`test -f "{directory something: path/to/file_or}"`
+`test -f "{file something|path something}"`
 
 - Test if a directory does not exist:
 

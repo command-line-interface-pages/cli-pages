@@ -5,16 +5,16 @@
 
 - Scan file and output strings to `messages.po`:
 
-`xgettext {file something: path/to/input}`
+`xgettext {file something: input}`
 
 - Use a different output filename:
 
-`xgettext --output {file something: path/to/output} {file something: path/to/input}`
+`xgettext --output {file something: output} {file something: input}`
 
 - Append new strings to an existing file:
 
-`xgettext --join-existing --output {file something: path/to/output} {file something: path/to/input}`
+`xgettext --join-existing --output {file something: output} {file something: input}`
 
 - Don't add a header containing metadata to the output file:
 
-`xgettext --omit-header {file something: path/to/input}`
+`xgettext --omit-header {file something: input}`

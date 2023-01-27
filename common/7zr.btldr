@@ -6,7 +6,7 @@
 
 - [a]rchive a file or directory:
 
-`7zr a {any something} {directory something: path/to/file_or}`
+`7zr a {any something} {file something|path something}`
 
 - Encrypt an existing archive (including file names):
 

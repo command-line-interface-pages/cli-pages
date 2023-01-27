@@ -9,7 +9,7 @@
 
 - Commit staged files with a message read from a file:
 
-`git commit --file {file something: path/to/commit_message}`
+`git commit --file {file something: commit_message}`
 
 - Auto stage all modified files and commit with a message:
 

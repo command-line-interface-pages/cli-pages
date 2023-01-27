@@ -13,8 +13,8 @@
 
 - Capture packets to a specific location:
 
-`dumpcap --interface {int number: 1} -w {any something}`
+`dumpcap --interface {int number: 1} -w {file something: output}`
 
 - Write to a ring buffer with a specific max file limit of a specific size:
 
-`dumpcap --interface {int number: 1} -w {any something} --ring-buffer filesize:{int number: 500000} --ring-buffer files:{int number: 10}`
+`dumpcap --interface {int number: 1} -w {file something: output} --ring-buffer filesize:{int number: 500000} --ring-buffer files:{int number: 10}`

@@ -5,11 +5,11 @@
 
 - Create a new searchable PDF/A file from a scanned PDF or image file:
 
-`ocrmypdf {file something: path/to/input} {any something}`
+`ocrmypdf {file something: input} {any something}`
 
 - Replace a scanned PDF file with a searchable PDF file:
 
-`ocrmypdf {any something} {any something}`
+`ocrmypdf {file something} {file something}`
 
 - Skip pages of a mixed-format input PDF file that already contain text:
 
@@ -17,11 +17,11 @@
 
 - Clean, de-skew, and rotate pages of a poor scan:
 
-`ocrmypdf --clean --deskew --rotate-pages {file something: path/to/input} {any something}`
+`ocrmypdf --clean --deskew --rotate-pages {file something: input} {any something}`
 
 - Set the metadata of the searchable PDF file:
 
-`ocrmypdf --title "{any something}" --author "{any something}" --subject "{any something}" --keywords "{any something}" {file something: path/to/input} {any something}`
+`ocrmypdf --title "{any something}" --author "{any something}" --subject "{any something}" --keywords "{any something}" {file something: input} {any something}`
 
 - Display help:
 

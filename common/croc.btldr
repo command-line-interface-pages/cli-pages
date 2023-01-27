@@ -5,11 +5,11 @@
 
 - Send a file or directory:
 
-`croc send {directory something: path/to/file_or}`
+`croc send {file something|path something}`
 
 - Send a file or directory with a specific passphrase:
 
-`croc send --code {any something} {directory something: path/to/file_or}`
+`croc send --code {any something} {file something|path something}`
 
 - Receive a file or directory on receiving machine:
 
@@ -17,7 +17,7 @@
 
 - Send and connect over a custom relay:
 
-`croc --relay {any something} send {directory something: path/to/file_or}`
+`croc --relay {any something} send {file something|path something}`
 
 - Receive and connect over a custom relay:
 

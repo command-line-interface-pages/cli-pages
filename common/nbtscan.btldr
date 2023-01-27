@@ -21,4 +21,4 @@
 
 - Read IP addresses / networks to scan from a file:
 
-`nbtscan -f {any something}`
+`nbtscan -f {file something}`

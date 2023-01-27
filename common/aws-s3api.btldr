@@ -25,7 +25,7 @@
 
 - Download object from a bucket (The output file is always the last argument):
 
-`aws s3api get-object --bucket {any something} --key {any something} {file something: path/to/output}`
+`aws s3api get-object --bucket {any something} --key {any something} {file something: output}`
 
 - Apply an Amazon S3 bucket policy to a specified bucket:
 

@@ -10,7 +10,7 @@
 
 - Send an email that contains file content:
 
-`mail --subject="{any something}" {any something} < {any something}`
+`mail --subject="{any something}" {any something} < {file something}`
 
 - Send a `tar.gz` file as an attachment:
 

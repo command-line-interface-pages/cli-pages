@@ -13,8 +13,8 @@
 
 - Start the Deluge daemon using a specific configuration file:
 
-`deluged -c {file something: path/to/configuration}`
+`deluged -c {file something: configuration}`
 
 - Start the Deluge daemon and output the log to a file:
 
-`deluged -l {file something: path/to/log}`
+`deluged -l {file something: log}`

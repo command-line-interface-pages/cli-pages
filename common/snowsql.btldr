@@ -9,7 +9,7 @@
 
 - Connect to an instance specified by a specific configuration file (defaults to `~/.snowsql/config`):
 
-`snowsql --config {file something: path/to/configuration}`
+`snowsql --config {file something: configuration}`
 
 - Connect to the default instance using a token for multi-factor authentication:
 
@@ -21,4 +21,4 @@
 
 - Execute commands from a specific file on the default connection:
 
-`snowsql --filename {any something}`
+`snowsql --filename {file something}`

@@ -6,4 +6,4 @@
 
 - Create a hard link from a new file to an existing file:
 
-`link {file something: path/to/existing} {file something: path/to/new}`
+`link {file something: existing} {file something: new}`

@@ -5,7 +5,7 @@
 
 - Run a JavaScript or TypeScript file:
 
-`deno run {any something}`
+`deno run {file something}`
 
 - Start a REPL (interactive shell):
 
@@ -13,7 +13,7 @@
 
 - Run a file with network access enabled:
 
-`deno run --allow-net {any something}`
+`deno run --allow-net {file something}`
 
 - Run a file from a URL:
 

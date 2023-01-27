@@ -9,7 +9,7 @@
 
 - Commit a specific file or directory:
 
-`hg commit {directory something: path/to/file_or}`
+`hg commit {file something|path something}`
 
 - Commit with a specific message:
 

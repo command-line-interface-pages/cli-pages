@@ -5,27 +5,27 @@
 
 - Search entries:
 
-`keepassxc-cli lookup {file something: path/to/database} {any something}`
+`keepassxc-cli lookup {file something: database} {any something}`
 
 - List the contents of a folder:
 
-`keepassxc-cli ls {file something: path/to/database} {/directory something}`
+`keepassxc-cli ls {file something: database} {/directory something}`
 
 - Add an entry with an auto-generated password:
 
-`keepassxc-cli add --generate {file something: path/to/database} {any something}`
+`keepassxc-cli add --generate {file something: database} {any something}`
 
 - Delete an entry:
 
-`keepassxc-cli rm {file something: path/to/database} {any something}`
+`keepassxc-cli rm {file something: database} {any something}`
 
 - Copy an entry's password to the clipboard:
 
-`keepassxc-cli clip {file something: path/to/database} {any something}`
+`keepassxc-cli clip {file something: database} {any something}`
 
 - Copy a TOTP code to the clipboard:
 
-`keepassxc-cli clip --totp {file something: path/to/database} {any something}`
+`keepassxc-cli clip --totp {file something: database} {any something}`
 
 - Generate a passphrase with 7 words:
 

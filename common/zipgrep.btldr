@@ -5,20 +5,20 @@
 
 - Search for a pattern within a ZIP archive:
 
-`zipgrep "{any something}" {any something}`
+`zipgrep "{any something}" {file something}`
 
 - Print file name and line number for each match:
 
-`zipgrep -H -n "{any something}" {any something}`
+`zipgrep -H -n "{any something}" {file something}`
 
 - Search for lines that do not match a pattern:
 
-`zipgrep -v "{any something}" {any something}`
+`zipgrep -v "{any something}" {file something}`
 
 - Specify files inside a ZIP archive from search:
 
-`zipgrep "{any something}" {any something} {any something} {any something}`
+`zipgrep "{any something}" {file something} {any something} {any something}`
 
 - Exclude files inside a ZIP archive from search:
 
-`zipgrep "{any something}" {any something} -x {any something} {any something}`
+`zipgrep "{any something}" {file something} -x {any something} {any something}`

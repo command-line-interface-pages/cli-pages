@@ -9,15 +9,15 @@
 
 - Delete a specific keychain:
 
-`security delete-keychain {any something}`
+`security delete-keychain {file something}`
 
 - Create a keychain:
 
-`security create-keychain -p {any something} {any something}`
+`security create-keychain -p {any something} {file something}`
 
 - Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):
 
-`security set-identity-preference -s {any something} -c "{any something}" {any something}`
+`security set-identity-preference -s {any something} -c "{any something}" {file something}`
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 

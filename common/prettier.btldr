@@ -13,15 +13,15 @@
 
 - Run with a specific configuration file:
 
-`prettier --config {file something: path/to/config} {file something}`
+`prettier --config {file something: config} {file something}`
 
 - Format a file or directory, replacing the original:
 
-`prettier --write {directory something: path/to/file_or}`
+`prettier --write {file something|path something}`
 
 - Format files or directories recursively using single quotes and no trailing commas:
 
-`prettier --single-quote --trailing-comma {any something} --write {directory something: path/to/file_or}`
+`prettier --single-quote --trailing-comma {any something} --write {file something|path something}`
 
 - Format JavaScript and TypeScript files recursively, replacing the original:
 

@@ -6,12 +6,12 @@
 
 - View the comments on a zip archive:
 
-`zipnote {any something}`
+`zipnote {file something}`
 
 - Extract the comments on a zip archive to a file:
 
-`zipnote {any something} > {any something}`
+`zipnote {file something} > {file something}`
 
 - Add/Update comments in a zip archive from a file:
 
-`zipnote -w {any something} < {any something}`
+`zipnote -w {file something} < {file something}`

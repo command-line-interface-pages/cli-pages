@@ -5,23 +5,23 @@
 
 - Compare files or directories:
 
-`delta {directory something: path/to/old_file_or} {directory something: path/to/new_file_or}`
+`delta {directory something: old_file_or} {directory something: new_file_or}`
 
 - Compare files or directories, showing the line numbers:
 
-`delta --line-numbers {directory something: path/to/old_file_or} {directory something: path/to/new_file_or}`
+`delta --line-numbers {directory something: old_file_or} {directory something: new_file_or}`
 
 - Compare files or directories, showing the differences side by side:
 
-`delta --side-by-side {directory something: path/to/old_file_or} {directory something: path/to/new_file_or}`
+`delta --side-by-side {directory something: old_file_or} {directory something: new_file_or}`
 
 - Compare files or directories, ignoring any Git configuration settings:
 
-`delta --no-gitconfig {directory something: path/to/old_file_or} {directory something: path/to/new_file_or}`
+`delta --no-gitconfig {directory something: old_file_or} {directory something: new_file_or}`
 
 - Compare, rendering commit hashes, file names, and line numbers as hyperlinks, according to the hyperlink spec for terminal emulators:
 
-`delta --hyperlinks {directory something: path/to/old_file_or} {directory something: path/to/new_file_or}`
+`delta --hyperlinks {directory something: old_file_or} {directory something: new_file_or}`
 
 - Display the current settings:
 

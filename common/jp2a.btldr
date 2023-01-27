@@ -21,8 +21,8 @@
 
 - Write the ASCII output into a file:
 
-`jp2a --output={any something} {any something}`
+`jp2a --output={file something: output} {any something}`
 
 - Write the ASCII output in HTML file format, suitable for viewing in web browsers:
 
-`jp2a --html --output={any something} {any something}`
+`jp2a --html --output={file something: output} {any something}`

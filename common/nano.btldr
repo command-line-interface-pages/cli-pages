@@ -13,7 +13,7 @@
 
 - Open specific files, moving to the next file when closing the previous one:
 
-`nano {file* something}`
+`nano {any something}`
 
 - Open a file and position the cursor at a specific line and column:
 

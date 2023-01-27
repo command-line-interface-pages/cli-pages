@@ -6,8 +6,8 @@
 
 - Compile a source file:
 
-`ocamlopt -o {any something} {any something}`
+`ocamlopt -o {any something} {file something: source}`
 
 - Compile with debugging enabled:
 
-`ocamlopt -g -o {any something} {any something}`
+`ocamlopt -g -o {any something} {file something: source}`

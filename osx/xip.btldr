@@ -6,4 +6,4 @@
 
 - Expand the archive into the current working directory:
 
-`xip --expand {any something}`
+`xip --expand {file something}`

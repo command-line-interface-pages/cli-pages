@@ -18,7 +18,7 @@
 
 - Copy specific files to a remote:
 
-`git scp {any something} {file* something}`
+`git scp {any something} {any something}`
 
 - Copy a specific directory to a remote:
 

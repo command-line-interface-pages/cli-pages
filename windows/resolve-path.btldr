@@ -14,4 +14,4 @@
 
 - Get relative paths:
 
-`Resolve-Path -Path {directory something: path/to/file_or} -Relative`
+`Resolve-Path -Path {file something|path something} -Relative`

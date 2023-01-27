@@ -21,8 +21,8 @@
 
 - Add a command and start it after commands 9 and 12 finish successfully:
 
-`pueue add --after {int number: 9} {int number: 12} --group "{any something}" -- {any something}`
+`pueue add --after {int number: 9} {int number: 12} --group "{any something}" -- {file something: transmission-cli torrent}`
 
 - Add a command with a label after some delay has passed, see `pueue enqueue` for valid datetime formats:
 
-`pueue add --label "{any something}" --delay "{any something}" -- "{any something}"`
+`pueue add --label "{any something}" --delay "{any something}" -- "{file something: 7z a compressed_file.7z large}"`

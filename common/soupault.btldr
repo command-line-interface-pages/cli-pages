@@ -18,7 +18,7 @@
 
 - Extract metadata into a JSON file without generating pages:
 
-`soupault --index-only --dump-index-json {any something}`
+`soupault --index-only --dump-index-json {file something}`
 
 - Show the effective config (values from `soupault.toml` plus defaults):
 

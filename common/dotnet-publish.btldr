@@ -5,24 +5,24 @@
 
 - Compile a .NET project in release mode:
 
-`dotnet publish --configuration Release {file something: path/to/project}`
+`dotnet publish --configuration Release {file something: project}`
 
 - Publish the .NET Core runtime with your application for the specified runtime:
 
-`dotnet publish --self-contained true --runtime {any something} {file something: path/to/project}`
+`dotnet publish --self-contained true --runtime {any something} {file something: project}`
 
 - Package the application into a platform-specific single-file executable:
 
-`dotnet publish --runtime {any something} -p:PublishSingleFile=true {file something: path/to/project}`
+`dotnet publish --runtime {any something} -p:PublishSingleFile=true {file something: project}`
 
 - Trim unused libraries to reduce the deployment size of an application:
 
-`dotnet publish --self-contained true --runtime {any something} -p:PublishTrimmed=true {file something: path/to/project}`
+`dotnet publish --self-contained true --runtime {any something} -p:PublishTrimmed=true {file something: project}`
 
 - Compile a .NET project without restoring dependencies:
 
-`dotnet publish --no-restore {file something: path/to/project}`
+`dotnet publish --no-restore {file something: project}`
 
 - Specify the output directory:
 
-`dotnet publish --output {directory something} {file something: path/to/project}`
+`dotnet publish --output {directory something} {file something: project}`

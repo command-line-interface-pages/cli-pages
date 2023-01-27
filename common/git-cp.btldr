@@ -6,8 +6,8 @@
 
 - Copy an existing file in a Git repo, staying in the same directory:
 
-`git cp {file something} {file something: new}`
+`git cp {any something} {file something: new}`
 
 - Copy an existing file in a Git repo and place it elsewhere:
 
-`git cp {file something} {file something: path/to/new}`
+`git cp {file something} {file something: new}`

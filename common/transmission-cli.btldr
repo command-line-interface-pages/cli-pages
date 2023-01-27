@@ -10,11 +10,11 @@
 
 - Download a torrent to a specific directory:
 
-`transmission-cli --download-dir {directory something: path/to/download} {any something}`
+`transmission-cli --download-dir {directory something: download} {any something}`
 
 - Create a torrent file from a specific file or directory:
 
-`transmission-cli --new {directory something: path/to/source_file_or}`
+`transmission-cli --new {directory something: source_file_or}`
 
 - Set the download speed limit to 50 KB/s:
 

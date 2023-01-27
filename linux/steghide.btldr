@@ -13,7 +13,7 @@
 
 - Display file information, trying to detect an embedded file:
 
-`steghide info {any something}`
+`steghide info {file something}`
 
 - Embed data in a JPEG image, using maximum compression:
 

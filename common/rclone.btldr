@@ -9,23 +9,23 @@
 
 - Copy file or directory from local source to remote destination:
 
-`rclone copy {directory something: path/to/source_file_or} {any something}:{directory something: path/to/destination}`
+`rclone copy {directory something: source_file_or} {any something}:{directory something: destination}`
 
 - Copy file or directory from remote source to local destination:
 
-`rclone copy {any something}:{directory something: path/to/source_file_or} {directory something: path/to/destination}`
+`rclone copy {any something}:{directory something: source_file_or} {directory something: destination}`
 
 - Sync local source to remote destination, changing the destination only:
 
-`rclone sync {directory something: path/to/file_or} {any something}:{directory something}`
+`rclone sync {file something|path something} {any something}:{directory something}`
 
 - Move file or directory from local source to remote destination:
 
-`rclone move {directory something: path/to/file_or} {any something}:{directory something}`
+`rclone move {file something|path something} {any something}:{directory something}`
 
 - Delete remote file or directory (use `--dry-run` to test, remove it to actually delete):
 
-`rclone --dry-run delete {any something}:{directory something: path/to/file_or}`
+`rclone --dry-run delete {any something}:{file something|path something}`
 
 - Mount rclone remote (experimental):
 

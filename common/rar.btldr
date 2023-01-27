@@ -13,16 +13,16 @@
 
 - Split the archive into parts of equal size (50M):
 
-`rar a -v{any something} -R {any something} {directory something: path/to/file_or}`
+`rar a -v{any something} -R {any something} {file something|path something}`
 
 - Password protect the resulting archive:
 
-`rar a -p{any something} {any something} {directory something: path/to/file_or}`
+`rar a -p{any something} {any something} {file something|path something}`
 
 - Encrypt file data and headers with password:
 
-`rar a -hp{any something} {any something} {directory something: path/to/file_or}`
+`rar a -hp{any something} {any something} {file something|path something}`
 
 - Use a specific compression level (0-5):
 
-`rar a -m{any something} {any something} {directory something: path/to/file_or}`
+`rar a -m{any something} {any something} {file something|path something}`

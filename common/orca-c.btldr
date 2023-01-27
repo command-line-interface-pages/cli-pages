@@ -10,7 +10,7 @@
 
 - Start ORCA and open a specific file:
 
-`orca-c {any something}`
+`orca-c {file something}`
 
 - Start ORCA and set a specific tempo (defaults to 120):
 

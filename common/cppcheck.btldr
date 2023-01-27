@@ -14,7 +14,7 @@
 
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 
-`cppcheck --enable={any something} {any something}`
+`cppcheck --enable={any something} {file something}`
 
 - List available tests:
 
@@ -22,7 +22,7 @@
 
 - Check a given file, ignoring specific tests:
 
-`cppcheck --suppress={any something} --suppress={any something} {any something}`
+`cppcheck --suppress={any something} --suppress={any something} {file something}`
 
 - Check the current directory, providing paths for include files located outside it (e.g. external libraries):
 

@@ -13,16 +13,16 @@
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`sha256sum {any something} {any something} > {any something}`
+`sha256sum {any something} {any something} > {file something}`
 
 - Read a file of SHA256 sums and verify all files have matching checksums:
 
-`sha256sum --check {any something}`
+`sha256sum --check {file something}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha256sum --check --quiet {any something}`
+`sha256sum --check --quiet {file something}`
 
 - Only show a message for files for which verification fails, ignoring missing files:
 
-`sha256sum --ignore-missing --check --quiet {any something}`
+`sha256sum --ignore-missing --check --quiet {file something}`

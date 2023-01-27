@@ -9,7 +9,7 @@
 
 - Run backups using a specific configuration file:
 
-`phpbu --configuration={any something}`
+`phpbu --configuration={file something: configuration}`
 
 - Only run the specified backups:
 

@@ -5,12 +5,12 @@
 
 - Build binary and source packages:
 
-`rpmbuild -ba {file something: path/to/spec}`
+`rpmbuild -ba {file something: spec}`
 
 - Build a binary package without source package:
 
-`rpmbuild -bb {file something: path/to/spec}`
+`rpmbuild -bb {file something: spec}`
 
 - Specify additional variables when building a package:
 
-`rpmbuild -bb {file something: path/to/spec} --define "{any something} {any something}" --define "{any something} {any something}"`
+`rpmbuild -bb {file something: spec} --define "{any something} {any something}" --define "{any something} {any something}"`

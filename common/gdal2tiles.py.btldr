@@ -5,8 +5,8 @@
 
 - Generate TMS tiles for the zoom levels 2-5 of a raster dataset:
 
-`gdal2tiles.py --zoom={any something} {any something} {directory something: path/to/output}`
+`gdal2tiles.py --zoom={any something} {any something} {directory something: output}`
 
 - Generate XYZ tiles for the zoom levels 2-5 of a raster dataset:
 
-`gdal2tiles.py --zoom={any something} --xyz {any something} {directory something: path/to/output}`
+`gdal2tiles.py --zoom={any something} --xyz {any something} {directory something: output}`

@@ -13,15 +13,15 @@
 
 - Run a single specification:
 
-`phpspec run {file something: path/to/class_specification}`
+`phpspec run {file something: class_specification}`
 
 - Run specifications using a specific configuration file:
 
-`phpspec run -c {file something: path/to/configuration}`
+`phpspec run -c {file something: configuration}`
 
 - Run specifications using a specific bootstrap file:
 
-`phpspec run -b {file something: path/to/bootstrap}`
+`phpspec run -b {file something: bootstrap}`
 
 - Disable code generation prompts:
 

@@ -13,7 +13,7 @@
 
 - Read commands from a specified file, execute them and then exit:
 
-`debugfs -f {file something: path/to/cmd} {any something}`
+`debugfs -f {file something: cmd} {any something}`
 
 - View the filesystem stats in debugfs console:
 

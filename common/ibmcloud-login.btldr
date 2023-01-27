@@ -21,7 +21,7 @@
 
 - Log in with an API key, passing it as a file:
 
-`ibmcloud login --apikey @{file something: path/to/api_key}`
+`ibmcloud login --apikey @{file something: api_key}`
 
 - Log in with a federated ID (single sign-on):
 

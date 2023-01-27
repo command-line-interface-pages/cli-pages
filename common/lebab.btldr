@@ -14,11 +14,11 @@
 
 - Transpile a file to stdout:
 
-`lebab {file something: path/to/input}`
+`lebab {file something: input}`
 
 - Transpile a file to the specified output file:
 
-`lebab {file something: path/to/input} --out-file {file something: path/to/output}`
+`lebab {file something: input} --out-file {file something: output}`
 
 - Replace all `.js` files in-place in the specified directory, glob or file:
 

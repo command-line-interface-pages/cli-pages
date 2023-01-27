@@ -14,7 +14,7 @@
 
 - Dump daemon settings in JSON format:
 
-`transmission-daemon --dump-settings > {any something}`
+`transmission-daemon --dump-settings > {file something}`
 
 - Start with specific settings for the web interface:
 

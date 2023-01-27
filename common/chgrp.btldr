@@ -5,7 +5,7 @@
 
 - Change the owner group of a file/directory:
 
-`chgrp {any something} {directory something: path/to/file_or}`
+`chgrp {any something} {file something|path something}`
 
 - Recursively change the owner group of a directory and its contents:
 
@@ -17,4 +17,4 @@
 
 - Change the owner group of a file/directory to match a reference file:
 
-`chgrp --reference={file something: path/to/reference} {directory something: path/to/file_or}`
+`chgrp --reference={file something: reference} {file something|path something}`

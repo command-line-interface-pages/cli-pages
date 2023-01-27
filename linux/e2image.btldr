@@ -5,7 +5,7 @@
 
 - Write metadata located on device to a specific file:
 
-`e2image {any something} {file something: path/to/image}`
+`e2image {any something} {file something: image}`
 
 - Print metadata located on device to stdout:
 
@@ -13,12 +13,12 @@
 
 - Restore the filesystem metadata back to the device:
 
-`e2image -I {any something} {file something: path/to/image}`
+`e2image -I {any something} {file something: image}`
 
 - Create a large raw sparse file with metadata at proper offsets:
 
-`e2image -r {any something} {file something: path/to/image}`
+`e2image -r {any something} {file something: image}`
 
 - Create a QCOW2 image file instead of a normal or raw image file:
 
-`e2image -Q {any something} {file something: path/to/image}`
+`e2image -Q {any something} {file something: image}`

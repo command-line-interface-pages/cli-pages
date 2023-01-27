@@ -26,7 +26,7 @@
 
 - Seed a specific file or directory:
 
-`webtorrent seed {directory something: path/to/file_or}`
+`webtorrent seed {file something|path something}`
 
 - Create a new torrent file for the specified file path:
 

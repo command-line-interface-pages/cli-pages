@@ -21,7 +21,7 @@
 
 - Run test suites related to a given source file:
 
-`jest --findRelatedTests {any something}`
+`jest --findRelatedTests {file something: source}`
 
 - Run test suites related to all uncommitted files:
 

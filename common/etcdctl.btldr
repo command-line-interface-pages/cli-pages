@@ -17,7 +17,7 @@
 
 - Store a key-value pair, reading the value from a file:
 
-`etcdctl put {any something} < {any something}`
+`etcdctl put {any something} < {file something}`
 
 - Save a snapshot of the etcd keystore:
 

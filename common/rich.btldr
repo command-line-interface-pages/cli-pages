@@ -5,19 +5,19 @@
 
 - Display a file with syntax highlighting:
 
-`rich {any something}`
+`rich {file something}`
 
 - Add line numbers, and indentation guides:
 
-`rich {any something} --line-number --guides`
+`rich {file something} --line-number --guides`
 
 - Apply a theme:
 
-`rich {any something} --theme {any something}`
+`rich {file something} --theme {any something}`
 
 - Display a file in an interactive pager:
 
-`rich {any something} --pager`
+`rich {file something} --pager`
 
 - Display contents from a URL:
 
@@ -25,7 +25,7 @@
 
 - Export a file as HTML:
 
-`rich {any something} --export-html {any something}`
+`rich {file something} --export-html {file something}`
 
 - Display text with formatting tags, custom alignment, and line width:
 

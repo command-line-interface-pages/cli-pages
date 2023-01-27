@@ -5,15 +5,15 @@
 
 - Build a Flatpak and export it to a new repository:
 
-`flatpak-builder {directory something: path/to/build} {any something}`
+`flatpak-builder {directory something: build} {any something}`
 
 - Build a Flatpak and export it to the specified repository:
 
-`flatpak-builder --repo={any something} {directory something: path/to/build} {any something}`
+`flatpak-builder --repo={any something} {directory something: build} {any something}`
 
 - Build a Flatpak and install it locally:
 
-`flatpak-builder --install {directory something: path/to/build} {any something}`
+`flatpak-builder --install {directory something: build} {any something}`
 
 - Build and sign a Flatpak and export it to the specified repository:
 
@@ -21,4 +21,4 @@
 
 - Run a shell inside of an application sandbox without installing it:
 
-`flatpak-builder --run {directory something: path/to/build} {any something} {any something}`
+`flatpak-builder --run {directory something: build} {any something} {any something}`

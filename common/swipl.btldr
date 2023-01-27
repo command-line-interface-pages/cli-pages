@@ -13,7 +13,7 @@
 
 - Execute a script:
 
-`swipl {any something}`
+`swipl {file something}`
 
 - Print all shell configuration variables:
 

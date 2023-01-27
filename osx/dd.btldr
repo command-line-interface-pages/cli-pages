@@ -5,7 +5,7 @@
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
-`dd if={any something} of={any something} status=progress`
+`dd if={file something} of={any something} status=progress`
 
 - Clone a drive to another drive with 4 MB block, ignore error and show the progress:
 
@@ -13,7 +13,7 @@
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
-`dd if=/dev/urandom of={file something: path/to/random} bs={int number: 100} count={int number: 1}`
+`dd if=/dev/urandom of={file something: random} bs={int number: 100} count={int number: 1}`
 
 - Benchmark the write performance of a disk:
 
@@ -21,11 +21,11 @@
 
 - Generate a system backup into an IMG file and show the progress:
 
-`dd if=/dev/{any something} of={any something} status=progress`
+`dd if=/dev/{any something} of={file something} status=progress`
 
 - Restore a drive from an IMG file and show the progress:
 
-`dd if={any something} of={any something} status=progress`
+`dd if={file something} of={any something} status=progress`
 
 - Check the progress of an ongoing dd operation (run this command from another shell):
 

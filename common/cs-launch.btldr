@@ -13,7 +13,7 @@
 
 - Launch a specific version of an application specifying which is the main file:
 
-`cs launch {any something}:{any something}:{any something} --main-class {file something: path/to/main_class}`
+`cs launch {any something}:{any something}:{any something} --main-class {file something: main_class}`
 
 - Launch an application with specific java options and a jvm memory ones:
 

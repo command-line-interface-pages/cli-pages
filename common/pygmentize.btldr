@@ -17,7 +17,7 @@
 
 - Save output to a file in HTML format:
 
-`pygmentize -f html -o {any something} {any something}`
+`pygmentize -f html -o {file something: output} {file something: input}`
 
 - List available output formats:
 
@@ -25,4 +25,4 @@
 
 - Output an HTML file, with additional formatter options (full page, with line numbers):
 
-`pygmentize -f html -O "full,linenos=True" -o {any something} {file something: input}`
+`pygmentize -f html -O "full,linenos=True" -o {file something: output} {file something: input}`

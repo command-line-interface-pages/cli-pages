@@ -5,20 +5,20 @@
 
 - Create a torrent with 2^21 KB as the piece size:
 
-`mktorrent -a {any something} -l {int number: 21} -o {any something} {directory something: path/to/file_or}`
+`mktorrent -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
 
 - Create a private torrent with a 2^21 KB piece size:
 
-`mktorrent -p -a {any something} -l {int number: 21} -o {any something} {directory something: path/to/file_or}`
+`mktorrent -p -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
 
 - Create a torrent with a comment:
 
-`mktorrent -c "{any something}" -a {any something} -l {int number: 21} -o {any something} {directory something: path/to/file_or}`
+`mktorrent -c "{any something}" -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
 
 - Create a torrent with multiple trackers:
 
-`mktorrent -a {any something} -l {int number: 21} -o {any something} {directory something: path/to/file_or}`
+`mktorrent -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
 
 - Create a torrent with web seed URLs:
 
-`mktorrent -a {any something} -w {any something} -l {int number: 21} -o {any something} {directory something: path/to/file_or}`
+`mktorrent -a {any something} -w {any something} -l {int number: 21} -o {any something} {file something|path something}`

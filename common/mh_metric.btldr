@@ -21,4 +21,4 @@
 
 - Print the code metrics report in HTML or JSON format:
 
-`mh_metric --{any something} {file something: path/to/output}`
+`mh_metric --{any something} {file something: output}`

@@ -5,16 +5,16 @@
 
 - Save an image by redirecting stdout to a tar archive:
 
-`docker save {any something}:{any something} > {any something}`
+`docker save {any something}:{any something} > {file something}`
 
 - Save an image to a tar archive:
 
-`docker save --output {any something} {any something}:{any something}`
+`docker save --output {file something} {any something}:{any something}`
 
 - Save all tags of the image:
 
-`docker save --output {any something} {any something}`
+`docker save --output {file something} {any something}`
 
 - Cherry-pick particular tags of an image to save:
 
-`docker save --output {any something} {any something}`
+`docker save --output {file something} {any something}`

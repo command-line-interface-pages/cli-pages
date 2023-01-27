@@ -25,4 +25,4 @@
 
 - Dump raw bytes of current block to a file:
 
-`> pr > {any something}`
+`> pr > {file something}`

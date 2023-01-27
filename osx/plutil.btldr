@@ -17,8 +17,8 @@
 
 - Convert a plist file to a different format, writing to a new file:
 
-`plutil -convert {any something} {any something} -o {any something}`
+`plutil -convert {any something} {file something} -o {file something: new}`
 
 - Convert a plist file to a different format, writing to stdout:
 
-`plutil -convert {any something} {any something} -o -`
+`plutil -convert {any something} {file something} -o -`

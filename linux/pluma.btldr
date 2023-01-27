@@ -9,11 +9,11 @@
 
 - Open specific documents:
 
-`pluma {file* something}`
+`pluma {any something}`
 
 - Open documents using a specific encoding:
 
-`pluma --encoding {any something} {file* something}`
+`pluma --encoding {any something} {any something}`
 
 - Print all supported encodings:
 

@@ -5,7 +5,7 @@
 
 - Format a file to stdout, with a custom maximum line length:
 
-`autopep8 {any something} --max-line-length {any something}`
+`autopep8 {file something} --max-line-length {any something}`
 
 - Format a file, displaying a diff of the changes:
 
@@ -13,7 +13,7 @@
 
 - Format a file in-place and save the changes:
 
-`autopep8 --in-place {any something}`
+`autopep8 --in-place {file something}`
 
 - Recursively format all files in a directory in-place and save changes:
 

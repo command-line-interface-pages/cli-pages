@@ -13,4 +13,4 @@
 
 - Overwrite the file in the target path if it exists:
 
-`git mv --force {file something} {any something}`
+`git mv --force {any something} {any something}`

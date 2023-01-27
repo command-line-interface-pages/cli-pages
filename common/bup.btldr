@@ -21,4 +21,4 @@
 
 - Restore a specific backup snapshot to a target directory:
 
-`bup -d {any something} restore -C {directory something: path/to/target} {any something}`
+`bup -d {any something} restore -C {directory something: target} {any something}`

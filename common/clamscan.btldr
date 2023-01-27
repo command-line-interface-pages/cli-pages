@@ -17,7 +17,7 @@
 
 - Specify a virus database file or directory of files:
 
-`clamscan --database {directory something: path/to/database_file_or}`
+`clamscan --database {directory something: database_file_or}`
 
 - Scan the current directory and output only infected files:
 
@@ -25,11 +25,11 @@
 
 - Output the scan report to a log file:
 
-`clamscan --log {file something: path/to/log}`
+`clamscan --log {file something: log}`
 
 - Move infected files to a specific directory:
 
-`clamscan --move {directory something: path/to/quarantine}`
+`clamscan --move {directory something: quarantine}`
 
 - Remove infected files:
 

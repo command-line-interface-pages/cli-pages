@@ -6,8 +6,8 @@
 
 - Convert an e-book into another format:
 
-`ebook-convert {file something: path/to/input} {file something: output}`
+`ebook-convert {file something: input} {file something: output}`
 
 - Convert Markdown or HTML to e-book with TOC, title and author:
 
-`ebook-convert {file something: path/to/input} {file something: output} --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title={any something} --authors={any something}`
+`ebook-convert {file something: input} {file something: output} --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title={any something} --authors={any something}`

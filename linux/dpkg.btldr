@@ -7,7 +7,7 @@
 
 - Install a package:
 
-`dpkg -i {any something}`
+`dpkg -i {file something}`
 
 - Remove a package:
 
@@ -23,7 +23,7 @@
 
 - List contents of a local package file:
 
-`dpkg -c {any something}`
+`dpkg -c {file something}`
 
 - Find out which package owns a file:
 

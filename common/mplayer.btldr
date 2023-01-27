@@ -9,7 +9,7 @@
 
 - Play multiple files:
 
-`mplayer {file* something}`
+`mplayer {any something}`
 
 - Play a specific file repeatedly:
 

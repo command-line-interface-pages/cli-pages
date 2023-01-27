@@ -9,11 +9,11 @@
 
 - Execute a specific Python file:
 
-`python {any something}`
+`python {file something}`
 
 - Execute a specific Python file and start a REPL:
 
-`python -i {any something}`
+`python -i {file something}`
 
 - Execute a Python expression:
 
@@ -29,7 +29,7 @@
 
 - Interactively debug a Python script:
 
-`python -m {any something} {any something}`
+`python -m {any something} {file something}`
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 

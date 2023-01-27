@@ -21,7 +21,7 @@
 
 - Break stdin into ~1M blocks, feed each block to stdin of new command:
 
-`cat {any something} | parallel --pipe --block 1M {any something}`
+`cat {file something: big} | parallel --pipe --block 1M {any something}`
 
 - Run on multiple machines via SSH:
 

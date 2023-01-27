@@ -5,11 +5,11 @@
 
 - Run default checks on a source file:
 
-`clang-tidy {any something}`
+`clang-tidy {file something}`
 
 - Don't run any checks other than the `cppcoreguidelines` checks on a file:
 
-`clang-tidy {any something} -checks={any something}`
+`clang-tidy {file something} -checks={any something}`
 
 - List all available checks:
 
@@ -17,4 +17,4 @@
 
 - Specify defines and includes as compilation options (after `--`):
 
-`clang-tidy {any something} -- -I{any something} -D{any something}`
+`clang-tidy {file something} -- -I{any something} -D{any something}`

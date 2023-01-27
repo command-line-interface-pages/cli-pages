@@ -5,11 +5,11 @@
 
 - Open a PDF file:
 
-`xpdf {any something}`
+`xpdf {file something}`
 
 - Open a specific page in a PDF file:
 
-`xpdf {any something} :{any something}`
+`xpdf {file something} :{any something}`
 
 - Open a compressed PDF file:
 
@@ -17,12 +17,12 @@
 
 - Open a PDF file in fullscreen mode:
 
-`xpdf -fullscreen {any something}`
+`xpdf -fullscreen {file something}`
 
 - Specify the initial zoom:
 
-`xpdf -z {int number: 75}% {any something}`
+`xpdf -z {int number: 75}% {file something}`
 
 - Specify the initial zoom at page width or full page:
 
-`xpdf -z {any something} {any something}`
+`xpdf -z {any something} {file something}`

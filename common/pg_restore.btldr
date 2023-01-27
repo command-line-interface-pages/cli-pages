@@ -5,24 +5,24 @@
 
 - Restore an archive into an existing database:
 
-`pg_restore -d {any something} {any something}`
+`pg_restore -d {any something} {file something: archive}`
 
 - Same as above, customize username:
 
-`pg_restore -U {any something} -d {any something} {any something}`
+`pg_restore -U {any something} -d {any something} {file something: archive}`
 
 - Same as above, customize host and port:
 
-`pg_restore -h {any something} -p {any something} -d {any something} {any something}`
+`pg_restore -h {any something} -p {any something} -d {any something} {file something: archive}`
 
 - List database objects included in the archive:
 
-`pg_restore --list {any something}`
+`pg_restore --list {file something: archive}`
 
 - Clean database objects before creating them:
 
-`pg_restore --clean -d {any something} {any something}`
+`pg_restore --clean -d {any something} {file something: archive}`
 
 - Use multiple jobs to do the restoring:
 
-`pg_restore -j {int number: 2} -d {any something} {any something}`
+`pg_restore -j {int number: 2} -d {any something} {file something: archive}`

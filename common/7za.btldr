@@ -6,7 +6,7 @@
 
 - [a]rchive a file or directory:
 
-`7za a {any something} {directory something: path/to/file_or}`
+`7za a {any something} {file something|path something}`
 
 - Encrypt an existing archive (including file names):
 
@@ -26,7 +26,7 @@
 
 - [a]rchive using a specific archive type:
 
-`7za a -t{any something} {any something} {directory something: path/to/file_or}`
+`7za a -t{any something} {any something} {file something|path something}`
 
 - [l]ist the contents of an archive:
 

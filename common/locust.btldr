@@ -9,7 +9,7 @@
 
 - Use a different test file:
 
-`locust --locustfile={any something} --host={any something}`
+`locust --locustfile={file something: test} --host={any something}`
 
 - Run test without web interface, spawning 1 user a second until there are 100 users:
 

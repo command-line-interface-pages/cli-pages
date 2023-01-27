@@ -14,7 +14,7 @@
 
 - Clone a repository inside a specific directory then register the repository as a workspace:
 
-`git bulk --addworkspace {any something} {/directory something: absolute/path/to/parent} --from {any something}`
+`git bulk --addworkspace {any something} {any something} --from {any something}`
 
 - Clone repositories from a newline-separated list of remote locations then register them as workspaces:
 

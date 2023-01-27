@@ -14,7 +14,7 @@
 
 - Execute a command remotely and output the result to a file:
 
-`psexec \\{any something} cmd /c {any something} -an ^>{any something}`
+`psexec \\{any something} cmd /c {any something} -an ^>{file something}`
 
 - Execute a program to interact with users:
 

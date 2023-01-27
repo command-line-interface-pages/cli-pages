@@ -9,8 +9,8 @@
 
 - Decompress a file into a specific output file:
 
-`unzstd {any something} -o {file something: path/to/extracted}`
+`unzstd {any something} -o {file something: extracted}`
 
 - Display information about a compressed file:
 
-`unzip --list {any something}`
+`unzip --list {file something}`

@@ -26,4 +26,4 @@
 
 - Run in the background, logging `autossh` debug output and `ssh` verbose output to files:
 
-`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={any something} autossh -f -M {any something} -v -E {any something} {any something}`
+`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={file something: autossh_log} autossh -f -M {any something} -v -E {file something: ssh_log} {any something}`

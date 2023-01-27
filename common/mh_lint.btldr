@@ -14,8 +14,8 @@
 
 - Check a MATLAB file:
 
-`mh_lint {any something}`
+`mh_lint {file something}`
 
 - Check an Octave file:
 
-`mh_lint --octave {any something}`
+`mh_lint --octave {file something}`

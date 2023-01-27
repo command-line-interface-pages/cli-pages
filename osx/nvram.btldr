@@ -25,4 +25,4 @@
 
 - Set a firmware variable from a specific [x]ML [f]ile:
 
-`sudo nvram -xf {any something}`
+`sudo nvram -xf {file something}`

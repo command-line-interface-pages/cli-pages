@@ -25,7 +25,7 @@
 
 - Take a screenshot of a web page in headless mode:
 
-`firefox --headless --screenshot {any something} {any something}`
+`firefox --headless --screenshot {file something: output} {any something}`
 
 - Use a specific profile to allow multiple separate instances of Firefox to run at once:
 

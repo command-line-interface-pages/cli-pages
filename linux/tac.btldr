@@ -6,7 +6,7 @@
 
 - Concatenate specific files in reversed order:
 
-`tac {file* something}`
+`tac {any something}`
 
 - Display stdin in reversed order:
 
@@ -14,12 +14,12 @@
 
 - Use a specific separator:
 
-`tac --separator {any something} {file* something}`
+`tac --separator {any something} {any something}`
 
 - Use a specific regex as a separator:
 
-`tac --regex --separator {any something} {file* something}`
+`tac --regex --separator {any something} {any something}`
 
 - Use a separator before each file:
 
-`tac --before {file* something}`
+`tac --before {any something}`

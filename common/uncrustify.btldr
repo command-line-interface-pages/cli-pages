@@ -5,7 +5,7 @@
 
 - Format a single file:
 
-`uncrustify -f {any something} -o {any something}`
+`uncrustify -f {file something} -o {any something}`
 
 - Read filenames from stdin, and take backups before writing output back to the original filepaths:
 
@@ -17,7 +17,7 @@
 
 - Use a custom configuration file and write the result to stdout:
 
-`uncrustify -c {any something} -f {any something}`
+`uncrustify -c {any something} -f {file something}`
 
 - Explicitly set a configuration variable's value:
 

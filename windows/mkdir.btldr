@@ -9,4 +9,4 @@
 
 - Create a nested directory tree recursively:
 
-`mkdir {directory something: path/to/sub}`
+`mkdir {directory something: sub}`

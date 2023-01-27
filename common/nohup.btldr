@@ -17,4 +17,4 @@
 
 - Run a process and write the output to a specific file:
 
-`nohup {any something} {any something} > {file something: path/to/output} &`
+`nohup {any something} {any something} > {file something: output} &`

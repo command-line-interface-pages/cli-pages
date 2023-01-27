@@ -13,7 +13,7 @@
 
 - Execute a script:
 
-`cmd {any something}`
+`cmd {file something}`
 
 - Execute a command and then enter an interactive shell:
 

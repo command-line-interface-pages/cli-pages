@@ -6,15 +6,15 @@
 
 - Open a file or directory:
 
-`atom {directory something: path/to/file_or}`
+`atom {file something|path something}`
 
 - Open a file or directory in a new window:
 
-`atom -n {directory something: path/to/file_or}`
+`atom -n {file something|path something}`
 
 - Open a file or directory in an existing window:
 
-`atom --add {directory something: path/to/file_or}`
+`atom --add {file something|path something}`
 
 - Open Atom in safe mode (does not load any additional packages):
 

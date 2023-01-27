@@ -13,4 +13,4 @@
 
 - Package a NuGet specification to a specific directory:
 
-`choco pack {any something} --output-directory {directory something: path/to/output}`
+`choco pack {any something} --output-directory {directory something: output}`

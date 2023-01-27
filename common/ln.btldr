@@ -5,11 +5,11 @@
 
 - Create a symbolic link to a file or directory:
 
-`ln -s {/directory something: path/to/file_or} {any something}`
+`ln -s {/file something|/path something} {any something}`
 
 - Overwrite an existing symbolic link to point to a different file:
 
-`ln -sf {/file something: path/to/new} {any something}`
+`ln -sf {/file something: new} {any something}`
 
 - Create a hard link to a file:
 

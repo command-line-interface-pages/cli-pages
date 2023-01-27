@@ -9,11 +9,11 @@
 
 - Open specific files:
 
-`xed {file* something}`
+`xed {any something}`
 
 - Open files using a specific encoding:
 
-`xed --encoding {any something} {file* something}`
+`xed --encoding {any something} {any something}`
 
 - Print all supported encodings:
 

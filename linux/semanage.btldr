@@ -5,11 +5,11 @@
 
 - Output local customizations:
 
-`semanage -S {any something} -o {file something: path/to/output}`
+`semanage -S {any something} -o {file something: output}`
 
 - Take a set of commands from a specified file and load them in a single transaction:
 
-`semanage -S {any something} -i {file something: path/to/input}`
+`semanage -S {any something} -i {file something: input}`
 
 - Manage booleans. Booleans allow the administrator to modify the confinement of processes based on the current configuration:
 

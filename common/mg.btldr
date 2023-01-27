@@ -13,7 +13,7 @@
 
 - Open files in a read-only mode:
 
-`mg -R {file* something}`
+`mg -R {any something}`
 
 - Disable `~` backup files while editing:
 

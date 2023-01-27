@@ -14,7 +14,7 @@
 
 - Patch a file writing the result to a different file:
 
-`patch {file something: path/to/input} -o {file something: path/to/output} < {any something}`
+`patch {file something: input} -o {file something: output} < {any something}`
 
 - Apply a patch to the current directory:
 

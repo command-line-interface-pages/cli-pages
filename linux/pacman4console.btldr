@@ -13,8 +13,8 @@
 
 - Start the pacman4console level editor, saving to a specified text file:
 
-`pacman4consoleedit {file something: path/to/level}`
+`pacman4consoleedit {file something: level}`
 
 - Play a custom level:
 
-`pacman4console --level={file something: path/to/level}`
+`pacman4console --level={file something: level}`

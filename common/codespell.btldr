@@ -17,11 +17,11 @@
 
 - Use a custom dictionary file when checking (`--dictionary` can be used multiple times):
 
-`codespell --dictionary {any something}`
+`codespell --dictionary {file something}`
 
 - Do not check words that are listed in the specified file:
 
-`codespell --ignore-words {any something}`
+`codespell --ignore-words {file something}`
 
 - Do not check the specified words:
 

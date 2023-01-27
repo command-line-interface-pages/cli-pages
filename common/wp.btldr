@@ -29,4 +29,4 @@
 
 - Import the contents of a WordPress Extended RSS (WXR) file:
 
-`wp import {any something}`
+`wp import {file something}`

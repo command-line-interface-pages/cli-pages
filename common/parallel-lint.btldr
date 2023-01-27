@@ -13,7 +13,7 @@
 
 - Lint a directory, excluding the specified directory:
 
-`parallel-lint --exclude {directory something: path/to/excluded} {directory something}`
+`parallel-lint --exclude {directory something: excluded} {directory something}`
 
 - Lint a directory of files using a comma-separated list of extension(s):
 

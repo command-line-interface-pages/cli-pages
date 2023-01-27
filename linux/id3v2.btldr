@@ -9,11 +9,11 @@
 
 - List all tags of specific files:
 
-`id3v2 --list-tags {file* something}`
+`id3v2 --list-tags {any something}`
 
 - Delete all `id3v2` or `id3v1` tags of specific files:
 
-`id3v2 {any something} {file* something}`
+`id3v2 {any something} {any something}`
 
 - Display help:
 

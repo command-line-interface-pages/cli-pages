@@ -6,27 +6,27 @@
 
 - Initialize a (local) repository:
 
-`borg init {directory something: path/to/repo}`
+`borg init {directory something: repo}`
 
 - Backup a directory into the repository, creating an archive called "Monday":
 
-`borg create --progress {directory something: path/to/repo}::{any something} {directory something: path/to/source}`
+`borg create --progress {directory something: repo}::{any something} {directory something: source}`
 
 - List all archives in a repository:
 
-`borg list {directory something: path/to/repo}`
+`borg list {directory something: repo}`
 
 - Extract a specific directory from the "Monday" archive in a remote repository, excluding all `*.ext` files:
 
-`borg extract {any something}@{any something}:{directory something: path/to/repo}::{any something} {directory something: path/to/target} --exclude '{any something}'`
+`borg extract {any something}@{any something}:{directory something: repo}::{any something} {directory something: target} --exclude '{any something}'`
 
 - Prune a repository by deleting all archives older than 7 days, listing changes:
 
-`borg prune --keep-within {any something} --list {directory something: path/to/repo}`
+`borg prune --keep-within {any something} --list {directory something: repo}`
 
 - Mount a repository as a FUSE filesystem:
 
-`borg mount {directory something: path/to/repo}::{any something} {any something}`
+`borg mount {directory something: repo}::{any something} {any something}`
 
 - Display help on creating archives:
 

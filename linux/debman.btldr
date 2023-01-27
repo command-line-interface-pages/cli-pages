@@ -13,4 +13,4 @@
 
 - Read a man page in a `.deb` file:
 
-`debman -f {any something} {any something}`
+`debman -f {file something} {any something}`

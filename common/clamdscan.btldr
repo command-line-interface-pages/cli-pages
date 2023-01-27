@@ -5,7 +5,7 @@
 
 - Scan a file or directory for vulnerabilities:
 
-`clamdscan {directory something: path/to/file_or}`
+`clamdscan {file something|path something}`
 
 - Scan data from stdin:
 
@@ -17,11 +17,11 @@
 
 - Output the scan report to a log file:
 
-`clamdscan --log {file something: path/to/log}`
+`clamdscan --log {file something: log}`
 
 - Move infected files to a specific directory:
 
-`clamdscan --move {directory something: path/to/quarantine}`
+`clamdscan --move {directory something: quarantine}`
 
 - Remove infected files:
 

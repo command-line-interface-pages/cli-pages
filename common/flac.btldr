@@ -5,16 +5,16 @@
 
 - Encode a WAV file to FLAC (this will create a FLAC file in the same location as the WAV file):
 
-`flac {any something}`
+`flac {file something}`
 
 - Encode a WAV file to FLAC, specifying the output file:
 
-`flac -o {any something} {any something}`
+`flac -o {any something} {file something}`
 
 - Decode a FLAC file to WAV, specifying the output file:
 
-`flac -d -o {any something} {any something}`
+`flac -d -o {any something} {file something}`
 
 - Test a FLAC file for the correct encoding:
 
-`flac -t {any something}`
+`flac -t {file something}`

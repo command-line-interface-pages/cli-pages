@@ -9,7 +9,7 @@
 
 - Create a new project using a local template:
 
-`vue init {directory something: path/to/template} {any something}`
+`vue init {directory something: template} {any something}`
 
 - Create a new project using a template from GitHub:
 

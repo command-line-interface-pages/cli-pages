@@ -9,7 +9,7 @@
 
 - Run a JavaScript file:
 
-`d8 {any something}`
+`d8 {file something}`
 
 - Evaluate a JavaScript expression:
 

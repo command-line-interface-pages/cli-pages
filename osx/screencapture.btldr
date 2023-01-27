@@ -5,11 +5,11 @@
 
 - Take a screenshot and save it to a file:
 
-`screencapture {any something}`
+`screencapture {file something}`
 
 - Take a screenshot including the mouse cursor:
 
-`screencapture -C {any something}`
+`screencapture -C {file something}`
 
 - Take a screenshot and open it in Preview, instead of saving:
 
@@ -17,12 +17,12 @@
 
 - Take a screenshot of a selected rectangular area:
 
-`screencapture -i {any something}`
+`screencapture -i {file something}`
 
 - Take a screenshot after a delay:
 
-`screencapture -T {any something} {any something}`
+`screencapture -T {any something} {file something}`
 
 - Make a screen recording and save it to a file:
 
-`screencapture -v {any something}`
+`screencapture -v {file something}`

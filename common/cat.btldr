@@ -9,11 +9,11 @@
 
 - Concatenate several files into an output file:
 
-`cat {file* something} > {file something: path/to/output}`
+`cat {any something} > {file something: output}`
 
 - Append several files to an output file:
 
-`cat {file* something} >> {file something: path/to/output}`
+`cat {any something} >> {file something: output}`
 
 - Copy the contents of a file into an output file without buffering:
 

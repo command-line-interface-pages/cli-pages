@@ -5,15 +5,15 @@
 
 - Generate a PostScript file from a text file:
 
-`enscript {file something: path/to/input} --output={file something: path/to/output}`
+`enscript {file something: input} --output={file something: output}`
 
 - Generate a file in a different language than PostScript:
 
-`enscript {file something: path/to/input} --language={any something} --output={file something: path/to/output}`
+`enscript {file something: input} --language={any something} --output={file something: output}`
 
 - Generate a PostScript file with a landscape layout, splitting the page into columns (maximum 9):
 
-`enscript {file something: path/to/input} --columns={any something} --landscape --output={file something: path/to/output}`
+`enscript {file something: input} --columns={any something} --landscape --output={file something: output}`
 
 - Display available syntax highlighting languages and file formats:
 
@@ -21,4 +21,4 @@
 
 - Generate a PostScript file with syntax highlighting and color for a specified language:
 
-`enscript {file something: path/to/input} --color=1 --highlight={any something} --output={file something: path/to/output}`
+`enscript {file something: input} --color=1 --highlight={any something} --output={file something: output}`

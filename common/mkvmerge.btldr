@@ -5,16 +5,16 @@
 
 - Display information about a Matroska file:
 
-`mkvmerge --identify {any something}`
+`mkvmerge --identify {file something}`
 
 - Extract the audio from track 1 of a specific file:
 
-`mkvextract tracks {any something} {int number: 1}:{any something}`
+`mkvextract tracks {file something} {int number: 1}:{any something}`
 
 - Extract the subtitle from track 3 of a specific file:
 
-`mkvextract tracks {any something} {int number: 3}:{any something}`
+`mkvextract tracks {file something} {int number: 3}:{any something}`
 
 - Add a subtitle track to a file:
 
-`mkvmerge --output {any something} {any something} {any something}`
+`mkvmerge --output {any something} {file something} {any something}`

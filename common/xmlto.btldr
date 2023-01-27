@@ -9,7 +9,7 @@
 
 - Convert a DocBook XML document to HTML format and store the resulting files in a separate directory:
 
-`xmlto -o {file* something: path/to/html} {any something} {any something}`
+`xmlto -o {any something} {any something} {any something}`
 
 - Convert a DocBook XML document to a single HTML file:
 

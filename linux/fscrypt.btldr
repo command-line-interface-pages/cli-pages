@@ -13,8 +13,8 @@
 
 - Unlock an encrypted directory:
 
-`fscrypt unlock {directory something: path/to/encrypted}`
+`fscrypt unlock {directory something: encrypted}`
 
 - Lock an encrypted directory:
 
-`fscrypt lock {directory something: path/to/encrypted}`
+`fscrypt lock {directory something: encrypted}`

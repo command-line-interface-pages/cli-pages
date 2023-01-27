@@ -5,15 +5,15 @@
 
 - Train the bayesian filter to recognise an email as spam:
 
-`rspamc learn_spam {file something: path/to/email}`
+`rspamc learn_spam {file something: email}`
 
 - Train the bayesian filter to recognise an email as ham:
 
-`rspamc learn_ham {file something: path/to/email}`
+`rspamc learn_ham {file something: email}`
 
 - Generate a manual report on an email:
 
-`rspamc symbols {file something: path/to/email}`
+`rspamc symbols {file something: email}`
 
 - Show server statistics:
 

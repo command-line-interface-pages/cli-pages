@@ -6,12 +6,12 @@
 
 - Display metadata for a specific torrent:
 
-`transmission-show {any something}`
+`transmission-show {file something}`
 
 - Generate a magnet link for a specific torrent:
 
-`transmission-show --magnet {any something}`
+`transmission-show --magnet {file something}`
 
 - Query a torrent's trackers and print the current number of peers:
 
-`transmission-show --scrape {any something}`
+`transmission-show --scrape {file something}`

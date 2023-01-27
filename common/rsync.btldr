@@ -6,32 +6,32 @@
 
 - Transfer file from local to remote host:
 
-`rsync {file something: path/to/local} {any something}:{directory something: path/to/remote}`
+`rsync {file something: local} {any something}:{directory something: remote}`
 
 - Transfer file from remote host to local:
 
-`rsync {any something}:{file something: path/to/remote} {directory something: path/to/local}`
+`rsync {any something}:{file something: remote} {directory something: local}`
 
 - Transfer file in [a]rchive (to preserve attributes) and compressed ([z]ipped) mode with [v]erbose and [h]uman-readable [P]rogress:
 
-`rsync -azvhP {file something: path/to/local} {any something}:{directory something: path/to/remote}`
+`rsync -azvhP {file something: local} {any something}:{directory something: remote}`
 
 - Transfer a directory and all its children from a remote to local:
 
-`rsync -r {any something}:{directory something: path/to/remote} {directory something: path/to/local}`
+`rsync -r {any something}:{directory something: remote} {directory something: local}`
 
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
-`rsync -r {any something}:{directory something: path/to/remote}/ {directory something: path/to/local}`
+`rsync -r {any something}:{directory something: remote}/ {directory something: local}`
 
 - Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer:
 
-`rsync -rauL {any something}:{directory something: path/to/remote} {directory something: path/to/local}`
+`rsync -rauL {any something}:{directory something: remote} {directory something: local}`
 
 - Transfer file over SSH and delete remote files that do not exist locally:
 
-`rsync -e ssh --delete {any something}:{file something: path/to/remote} {file something: path/to/local}`
+`rsync -e ssh --delete {any something}:{file something: remote} {file something: local}`
 
 - Transfer file over SSH using a different port than the default and show global progress:
 
-`rsync -e 'ssh -p {any something}' --info=progress2 {any something}:{file something: path/to/remote} {file something: path/to/local}`
+`rsync -e 'ssh -p {any something}' --info=progress2 {any something}:{file something: remote} {file something: local}`

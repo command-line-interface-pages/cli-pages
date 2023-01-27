@@ -5,7 +5,7 @@
 
 - [a]dd a file or directory to a new or existing archive:
 
-`7z a {any something} {directory something: path/to/file_or}`
+`7z a {any something} {file something|path something}`
 
 - Encrypt an existing archive (including filenames):
 
@@ -25,7 +25,7 @@
 
 - [a]rchive using a specific archive type:
 
-`7z a -t{any something} {any something} {directory something: path/to/file_or}`
+`7z a -t{any something} {any something} {file something|path something}`
 
 - [l]ist the contents of an archive:
 

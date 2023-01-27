@@ -17,7 +17,7 @@
 
 - Execute a file:
 
-`R -f {any something}`
+`R -f {file something}`
 
 - Execute an R expression and then exit:
 

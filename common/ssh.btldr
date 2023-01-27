@@ -10,7 +10,7 @@
 
 - Connect to a remote server with a specific identity (private key):
 
-`ssh -i {file something: path/to/key} {any something}@{any something}`
+`ssh -i {file something: key} {any something}@{any something}`
 
 - Connect to a remote server using a specific port:
 

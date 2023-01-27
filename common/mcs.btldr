@@ -9,7 +9,7 @@
 
 - Specify the output program name:
 
-`mcs -out:{any something} {any something}`
+`mcs -out:{file something} {any something}`
 
 - Specify the output program type:
 

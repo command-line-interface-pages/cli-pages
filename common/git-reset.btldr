@@ -10,7 +10,7 @@
 
 - Unstage specific file(s):
 
-`git reset {file* something}`
+`git reset {any something}`
 
 - Interactively unstage portions of a file:
 

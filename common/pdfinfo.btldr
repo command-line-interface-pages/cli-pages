@@ -5,12 +5,12 @@
 
 - Print PDF file information:
 
-`pdfinfo {any something}`
+`pdfinfo {file something}`
 
 - Specify user password for PDF file to bypass security restrictions:
 
-`pdfinfo -upw {any something} {any something}`
+`pdfinfo -upw {any something} {file something}`
 
 - Specify owner password for PDF file to bypass security restrictions:
 
-`pdfinfo -opw {any something} {any something}`
+`pdfinfo -opw {any something} {file something}`

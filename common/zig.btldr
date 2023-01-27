@@ -21,16 +21,16 @@
 
 - Create and run a test build:
 
-`zig test {any something}`
+`zig test {file something}`
 
 - Reformat Zig source into canonical form:
 
-`zig fmt {any something}`
+`zig fmt {file something}`
 
 - Use Zig as a drop-in C compiler:
 
-`zig cc {any something}`
+`zig cc {file something}`
 
 - Use Zig as a drop-in C++ compiler:
 
-`zig c++ {any something}`
+`zig c++ {file something}`

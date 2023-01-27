@@ -5,16 +5,16 @@
 
 - Lint a file or directory recursively:
 
-`flake8 {directory something: path/to/file_or}`
+`flake8 {file something|path something}`
 
 - Lint a file or directory recursively and show the line on which each error occurred:
 
-`flake8 --show-source {directory something: path/to/file_or}`
+`flake8 --show-source {file something|path something}`
 
 - Lint a file or directory recursively and ignore a list of rules. (All available rules can be found at flake8rules.com):
 
-`flake8 --ignore {any something} {directory something: path/to/file_or}`
+`flake8 --ignore {any something} {file something|path something}`
 
 - Lint a file or directory recursively but exclude files matching the given globs or substrings:
 
-`flake8 --exclude {any something} {directory something: path/to/file_or}`
+`flake8 --exclude {any something} {file something|path something}`

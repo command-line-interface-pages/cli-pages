@@ -13,7 +13,7 @@
 
 - Run with specific daemon PID file:
 
-`dockerd --pidfile {file something: path/to/pid}`
+`dockerd --pidfile {file something: pid}`
 
 - Run in debug mode:
 

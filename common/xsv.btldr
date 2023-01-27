@@ -5,23 +5,23 @@
 
 - Inspect the headers of a file:
 
-`xsv headers {any something}`
+`xsv headers {file something}`
 
 - Count the number of entries:
 
-`xsv count {any something}`
+`xsv count {file something}`
 
 - Get an overview of the shape of entries:
 
-`xsv stats {any something} | xsv table`
+`xsv stats {file something} | xsv table`
 
 - Select a few columns:
 
-`xsv select {any something} {any something}`
+`xsv select {any something} {file something}`
 
 - Show 10 random entries:
 
-`xsv sample {int number: 10} {any something}`
+`xsv sample {int number: 10} {file something}`
 
 - Join a column from one file to another:
 

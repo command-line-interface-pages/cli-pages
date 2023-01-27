@@ -5,15 +5,15 @@
 
 - Record a snippet in "CD" quality (finish with Ctrl-C when done):
 
-`arecord -vv --format=cd {any something}`
+`arecord -vv --format=cd {file something}`
 
 - Record a snippet in "CD" quality, with a fixed duration of 10 seconds:
 
-`arecord -vv --format=cd --duration={int number: 10} {any something}`
+`arecord -vv --format=cd --duration={int number: 10} {file something}`
 
 - Record a snippet and save it as an MP3 (finish with Ctrl-C when done):
 
-`arecord -vv --format=cd --file-type raw | lame -r - {any something}`
+`arecord -vv --format=cd --file-type raw | lame -r - {file something}`
 
 - List all sound cards and digital audio devices:
 

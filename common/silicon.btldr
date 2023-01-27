@@ -5,11 +5,11 @@
 
 - Generate an image from a specific source file:
 
-`silicon  {file something: path/to/source} --output {any something}`
+`silicon  {file something: source} --output {any something}`
 
 - Generate an image from a source file with a specific programing language syntax highlighting (e.g. `rust`, `py`, `js`, etc.):
 
-`silicon  {file something: path/to/source} --output {any something} --language {any something}`
+`silicon  {file something: source} --output {any something} --language {any something}`
 
 - Generate an image from stdin:
 

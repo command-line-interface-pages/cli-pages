@@ -5,20 +5,20 @@
 
 - Print PDF file fonts information:
 
-`pdffonts {any something}`
+`pdffonts {file something}`
 
 - Specify user password for PDF file to bypass security restrictions:
 
-`pdffonts -upw {any something} {any something}`
+`pdffonts -upw {any something} {file something}`
 
 - Specify owner password for PDF file to bypass security restrictions:
 
-`pdffonts -opw {any something} {any something}`
+`pdffonts -opw {any something} {file something}`
 
 - Print additional information on location of the font that will be used when the PDF file is rasterized:
 
-`pdffonts -loc {any something}`
+`pdffonts -loc {file something}`
 
 - Print additional information on location of the font that will be used when the PDF file is converted to PostScript:
 
-`pdffonts -locPS {any something}`
+`pdffonts -locPS {file something}`

@@ -13,7 +13,7 @@
 
 - Iterate over a given list of files:
 
-`for {any something} in {file* something}; do {any something}; done`
+`for {any something} in {any something}; do {any something}; done`
 
 - Iterate over a given list of directories:
 

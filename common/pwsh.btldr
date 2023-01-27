@@ -9,7 +9,7 @@
 
 - Execute a script and then exit:
 
-`pwsh -File {any something}`
+`pwsh -File {file something}`
 
 - Set the execution policy for the current session:
 

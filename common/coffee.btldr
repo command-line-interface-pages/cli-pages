@@ -5,15 +5,15 @@
 
 - Run a script:
 
-`coffee {any something}`
+`coffee {file something}`
 
 - Compile to JavaScript and save to a file with the same name:
 
-`coffee --compile {any something}`
+`coffee --compile {file something}`
 
 - Compile to JavaScript and save to a given output file:
 
-`coffee --compile {any something} --output {any something}`
+`coffee --compile {file something} --output {file something}`
 
 - Start a REPL (interactive shell):
 
@@ -21,4 +21,4 @@
 
 - Watch script for changes and re-run script:
 
-`coffee --watch {any something}`
+`coffee --watch {file something}`

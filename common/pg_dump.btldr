@@ -5,24 +5,24 @@
 
 - Dump database into an SQL-script file:
 
-`pg_dump {any something} > {any something}`
+`pg_dump {any something} > {file something: output}`
 
 - Same as above, customize username:
 
-`pg_dump -U {any something} {any something} > {any something}`
+`pg_dump -U {any something} {any something} > {file something: output}`
 
 - Same as above, customize host and port:
 
-`pg_dump -h {any something} -p {any something} {any something} > {any something}`
+`pg_dump -h {any something} -p {any something} {any something} > {file something: output}`
 
 - Dump a database into a custom-format archive file:
 
-`pg_dump -Fc {any something} > {any something}`
+`pg_dump -Fc {any something} > {file something: output}`
 
 - Dump only database data into an SQL-script file:
 
-`pg_dump -a {any something} > {any something}`
+`pg_dump -a {any something} > {file something: output}`
 
 - Dump only schema (data definitions) into an SQL-script file:
 
-`pg_dump -s {any something} > {any something}`
+`pg_dump -s {any something} > {file something: output}`

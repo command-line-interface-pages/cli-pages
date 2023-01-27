@@ -10,27 +10,27 @@
 
 - Generate APKs from an application bundle (prompts for keystore password):
 
-`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} --output={any something}`
+`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} --output={file something}`
 
 - Generate APKs from an application bundle giving the keystore password:
 
-`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} –ks-pass={any something} --output={any something}`
+`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} –ks-pass={any something} --output={file something}`
 
 - Generate APKs including only one single APK for universal usage:
 
-`bundletool build-apks --bundle={any something} --mode={any something} --ks={any something} --ks-key-alias={any something} --output={any something}`
+`bundletool build-apks --bundle={any something} --mode={any something} --ks={any something} --ks-key-alias={any something} --output={file something}`
 
 - Install the right combination of APKs to an emulator or device:
 
-`bundletool install-apks --apks={any something}`
+`bundletool install-apks --apks={file something}`
 
 - Estimate the download size of an application:
 
-`bundletool get-size total --apks={any something}`
+`bundletool get-size total --apks={file something}`
 
 - Generate a device specification JSON file for an emulator or device:
 
-`bundletool get-device-spec --output={any something}`
+`bundletool get-device-spec --output={file something}`
 
 - Verify a bundle and display detailed information about it:
 

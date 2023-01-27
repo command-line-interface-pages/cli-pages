@@ -13,7 +13,7 @@
 
 - Attempt to repair a specified volume using the provided recovery key file:
 
-`repair-bde {any something} -RecoveryKey {any something}`
+`repair-bde {any something} -RecoveryKey {file something}`
 
 - Attempt to repair a specified volume using the provided numerical recovery password:
 

@@ -5,11 +5,11 @@
 
 - Change the owner user of a file/directory:
 
-`chown {any something} {directory something: path/to/file_or}`
+`chown {any something} {file something|path something}`
 
 - Change the owner user and group of a file/directory:
 
-`chown {any something}:{any something} {directory something: path/to/file_or}`
+`chown {any something}:{any something} {file something|path something}`
 
 - Recursively change the owner of a directory and its contents:
 
@@ -21,4 +21,4 @@
 
 - Change the owner of a file/directory to match a reference file:
 
-`chown --reference={file something: path/to/reference} {directory something: path/to/file_or}`
+`chown --reference={file something: reference} {file something|path something}`

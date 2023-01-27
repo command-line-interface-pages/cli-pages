@@ -5,15 +5,15 @@
 
 - Check if a DocBook XML file is valid:
 
-`daps -d {any something} validate`
+`daps -d {file something} validate`
 
 - Convert a DocBook XML file into PDF:
 
-`daps -d {any something} pdf`
+`daps -d {file something} pdf`
 
 - Convert a DocBook XML file into a single HTML file:
 
-`daps -d {any something} html --single`
+`daps -d {file something} html --single`
 
 - Display help:
 

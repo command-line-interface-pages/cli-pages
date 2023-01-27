@@ -5,7 +5,7 @@
 
 - Put a file or directory under version control, so it will be in the current checkout:
 
-`fossil add {directory something: path/to/file_or}`
+`fossil add {file something|path something}`
 
 - Remove all added files from the current checkout:
 

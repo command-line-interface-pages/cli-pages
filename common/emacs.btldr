@@ -14,7 +14,7 @@
 
 - Run an Emacs Lisp file as a script:
 
-`emacs --script {any something}`
+`emacs --script {file something}`
 
 - Start Emacs in console mode (without an X window):
 

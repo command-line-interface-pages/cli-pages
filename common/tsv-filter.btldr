@@ -5,32 +5,32 @@
 
 - Print the lines where a specific column is numerically equal to a given number:
 
-`tsv-filter -H --eq {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter -H --eq {any something}:{any something} {file something: tsv}`
 
 - Print the lines where a specific column is [eq]ual/[n]on [e]qual/[l]ess [t]han/[l]ess than or [e]qual/[g]reater [t]han/[g]reater than or [e]qual to a given number:
 
-`tsv-filter --{any something} {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter --{any something} {any something}:{any something} {file something: tsv}`
 
 - Print the lines where a specific column is [eq]ual/[n]ot [e]qual/part of/not part of a given string:
 
-`tsv-filter --str-{any something} {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter --str-{any something} {any something}:{any something} {file something: tsv}`
 
 - Filter for non-empty fields:
 
-`tsv-filter --not-empty {any something} {file something: path/to/tsv}`
+`tsv-filter --not-empty {any something} {file something: tsv}`
 
 - Print the lines where a specific column is empty:
 
-`tsv-filter --invert --not-empty {any something} {file something: path/to/tsv}`
+`tsv-filter --invert --not-empty {any something} {file something: tsv}`
 
 - Print the lines that satisfy two conditions:
 
-`tsv-filter --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: tsv}`
 
 - Print the lines that match at least one condition:
 
-`tsv-filter --or --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter --or --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: tsv}`
 
 - Count matching lines, interpreting first line as a [H]eader:
 
-`tsv-filter --count -H --eq {any something}:{any something} {file something: path/to/tsv}`
+`tsv-filter --count -H --eq {any something}:{any something} {file something: tsv}`

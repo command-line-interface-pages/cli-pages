@@ -18,8 +18,8 @@
 
 - Test with parameters from a job file:
 
-`sudo fio {file something: path/to/job}`
+`sudo fio {file something: job}`
 
 - Convert a specific job file to command-line options:
 
-`fio --showcmd {file something: path/to/job}`
+`fio --showcmd {file something: job}`

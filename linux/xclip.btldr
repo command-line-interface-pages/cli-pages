@@ -18,11 +18,11 @@
 
 - Copy the contents of a file into the system clipboard:
 
-`xclip -sel clip {any something}`
+`xclip -sel clip {file something: input}`
 
 - Copy the contents of a PNG into the system clipboard (can be pasted in other programs correctly):
 
-`xclip -sel clip -t image/png {any something}`
+`xclip -sel clip -t image/png {file something: input}`
 
 - Copy the user input in the console into the system clipboard:
 

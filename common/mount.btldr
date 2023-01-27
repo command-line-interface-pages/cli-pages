@@ -9,15 +9,15 @@
 
 - Mount a device to a directory:
 
-`mount -t {any something} {file something: path/to/device} {directory something: path/to/target}`
+`mount -t {any something} {file something: device} {directory something: target}`
 
 - Create a specific directory if it does not exist and mount a device to it:
 
-`mount --mkdir {file something: path/to/device} {directory something: path/to/target}`
+`mount --mkdir {file something: device} {directory something: target}`
 
 - Mount a device to a directory for a specific user:
 
-`mount -o uid={any something},gid={any something} {file something: path/to/device} {directory something: path/to/target}`
+`mount -o uid={any something},gid={any something} {file something: device} {directory something: target}`
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 

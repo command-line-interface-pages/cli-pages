@@ -5,15 +5,15 @@
 
 - Build a sketch:
 
-`arduino --verify {any something}`
+`arduino --verify {file something}`
 
 - Build and upload a sketch:
 
-`arduino --upload {any something}`
+`arduino --upload {file something}`
 
 - Build and upload a sketch to an Arduino Nano with an Atmega328p CPU, connected on port `/dev/ttyACM0`:
 
-`arduino --board {any something} --port {any something} --upload {any something}`
+`arduino --board {any something} --port {any something} --upload {file something}`
 
 - Set the preference `name` to a given `value`:
 
@@ -21,7 +21,7 @@
 
 - Build a sketch, put the build results in the build directory, and reuse any previous build results in that directory:
 
-`arduino --pref build.path={directory something: path/to/build} --verify {any something}`
+`arduino --pref build.path={directory something: build} --verify {file something}`
 
 - Save any (changed) preferences to `preferences.txt`:
 

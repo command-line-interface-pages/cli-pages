@@ -5,7 +5,7 @@
 
 - Disassemble and list a `.class` file:
 
-`javap {any something}`
+`javap {file something}`
 
 - Disassemble and list multiple `.class` files:
 

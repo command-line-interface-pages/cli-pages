@@ -5,7 +5,7 @@
 
 - Upload an artifact to Rekor:
 
-`rekor-cli upload --artifact {any something} --signature {any something} --pki-format={any something} --public-key={any something}`
+`rekor-cli upload --artifact {file something} --signature {any something} --pki-format={any something} --public-key={any something}`
 
 - Get information regarding entries in the Transparency Log:
 
@@ -13,7 +13,7 @@
 
 - Search the Rekor index to find entries by Artifact:
 
-`rekor-cli search --artifact {any something}`
+`rekor-cli search --artifact {file something}`
 
 - Search the Rekor index to find entries by a specific hash:
 

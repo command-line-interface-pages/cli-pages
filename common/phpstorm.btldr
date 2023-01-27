@@ -17,4 +17,4 @@
 
 - View the differences between two files:
 
-`phpstorm diff {file something: path/to/left} {file something: path/to/right}`
+`phpstorm diff {file something: left} {file something: right}`

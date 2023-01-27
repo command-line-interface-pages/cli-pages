@@ -6,15 +6,15 @@
 
 - Intersect two files regarding the sequences' strand and save the result to the specified file:
 
-`bedtools intersect -a {any something} -b {any something} -s > {file something: path/to/output}`
+`bedtools intersect -a {any something} -b {any something} -s > {file something: output}`
 
 - Intersect two files with a left outer join, i.e. report each feature from {{file_1}} and NULL if no overlap with {{file_2}}:
 
-`bedtools intersect -a {any something} -b {any something} -lof > {file something: path/to/output}`
+`bedtools intersect -a {any something} -b {any something} -lof > {file something: output}`
 
 - Using more efficient algorithm to intersect two pre-sorted files:
 
-`bedtools intersect -a {any something} -b {any something} -sorted > {file something: path/to/output}`
+`bedtools intersect -a {any something} -b {any something} -sorted > {file something: output}`
 
 - Group file {{`path/to/file`}} based on the first three and the fifth column and summarize the sixth column by summing it up:
 

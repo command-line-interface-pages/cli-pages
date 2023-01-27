@@ -13,7 +13,7 @@
 
 - Start the server, saving logging output to a custom log file:
 
-`mysqld --log={any something}`
+`mysqld --log={file something}`
 
 - Print the default arguments and their values and exit:
 

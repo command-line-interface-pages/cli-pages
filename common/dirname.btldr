@@ -5,7 +5,7 @@
 
 - Calculate the parent directory of a given path:
 
-`dirname {directory something: path/to/file_or}`
+`dirname {file something|path something}`
 
 - Calculate the parent directory of multiple paths:
 

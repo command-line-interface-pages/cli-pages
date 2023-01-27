@@ -9,12 +9,12 @@
 
 - Compile a Tex file to PDF:
 
-`lualatex {any something}`
+`lualatex {file something}`
 
 - Compile a Tex file without error interruption:
 
-`lualatex -interaction nonstopmode {any something}`
+`lualatex -interaction nonstopmode {file something}`
 
 - Compile a Tex file with a specific output file name:
 
-`lualatex -jobname={any something} {any something}`
+`lualatex -jobname={any something} {file something}`

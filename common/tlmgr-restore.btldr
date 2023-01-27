@@ -22,7 +22,7 @@
 
 - Restore a package from a custom backup directory:
 
-`tlmgr restore {any something} {any something} --backupdir {directory something: path/to/backup}`
+`tlmgr restore {any something} {any something} --backupdir {directory something: backup}`
 
 - Perform a dry-run and print all taken actions without making them:
 

@@ -5,27 +5,27 @@
 
 - Output a YAML file, in pretty-print format (v4+):
 
-`yq eval {any something}`
+`yq eval {file something}`
 
 - Output a YAML file, in pretty-print format (v3):
 
-`yq read {any something} --colors`
+`yq read {file something} --colors`
 
 - Output the first element in a YAML file that contains only an array (v4+):
 
-`yq eval '.[0]' {any something}`
+`yq eval '.[0]' {file something}`
 
 - Output the first element in a YAML file that contains only an array (v3):
 
-`yq read {any something} '[0]'`
+`yq read {file something} '[0]'`
 
 - Set (or overwrite) a key to a value in a file (v4+):
 
-`yq eval '.{any something} = "{any something}"' --inplace {any something}`
+`yq eval '.{any something} = "{any something}"' --inplace {file something}`
 
 - Set (or overwrite) a key to a value in a file (v3):
 
-`yq write --inplace {any something} '{any something}' '{any something}'`
+`yq write --inplace {file something} '{any something}' '{any something}'`
 
 - Merge two files and print to stdout (v4+):
 

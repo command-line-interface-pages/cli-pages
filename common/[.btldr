@@ -30,4 +30,4 @@
 
 - Test if the specified file or directory [e]xists:
 
-`[ -e {directory something: path/to/file_or} ]`
+`[ -e {file something|path something} ]`

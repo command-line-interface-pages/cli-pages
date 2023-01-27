@@ -9,7 +9,7 @@
 
 - Open a file or directory in Sublime Text:
 
-`subl {directory something: path/to/file_or}`
+`subl {file something|path something}`
 
 - Open a file and jump to a specific line number:
 

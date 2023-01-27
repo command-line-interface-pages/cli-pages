@@ -14,7 +14,7 @@
 
 - Make a backup to a custom directory:
 
-`tlmgr backup {any something} --backupdir {directory something: path/to/backup}`
+`tlmgr backup {any something} --backupdir {directory something: backup}`
 
 - Remove a backup of one or more packages:
 

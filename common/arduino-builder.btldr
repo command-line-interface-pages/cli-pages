@@ -14,7 +14,7 @@
 
 - Specify a custom build directory:
 
-`arduino-builder -build-path {directory something: path/to/build}`
+`arduino-builder -build-path {directory something: build}`
 
 - Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time:
 

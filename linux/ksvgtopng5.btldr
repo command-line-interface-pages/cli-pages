@@ -5,4 +5,4 @@
 
 - Convert an SVG file (should be an absolute path) to PNG:
 
-`ksvgtopng5 {any something} {any something} {any something} {any something}`
+`ksvgtopng5 {any something} {any something} {file something} {any something}`

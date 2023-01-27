@@ -5,12 +5,12 @@
 
 - Sign a JAR file:
 
-`jarsigner {any something} {any something}`
+`jarsigner {file something} {any something}`
 
 - Sign a JAR file with a specific algorithm:
 
-`jarsigner -sigalg {any something} {any something} {any something}`
+`jarsigner -sigalg {any something} {file something} {any something}`
 
 - Verify the signature of a JAR file:
 
-`jarsigner -verify {any something}`
+`jarsigner -verify {file something}`

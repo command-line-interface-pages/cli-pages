@@ -9,7 +9,7 @@
 
 - Start the server and serve a specific Markdown file:
 
-`grip {any something}`
+`grip {file something}`
 
 - Start the server and open the `README` file of the current directory in the browser:
 

@@ -9,28 +9,28 @@
 
 - Specify the output filename:
 
-`csc /out:{file something} {any something}`
+`csc /out:{file something} {file something: input}`
 
 - Compile into a `.dll` library instead of an executable:
 
-`csc /target:library {any something}`
+`csc /target:library {file something: input}`
 
 - Reference another assembly:
 
-`csc /reference:{any something} {any something}`
+`csc /reference:{any something} {file something: input}`
 
 - Embed a resource:
 
-`csc /resource:{file something: path/to/resource} {any something}`
+`csc /resource:{file something: resource} {file something: input}`
 
 - Automatically generate XML documentation:
 
-`csc /doc:{any something} {any something}`
+`csc /doc:{any something} {file something: input}`
 
 - Specify an icon:
 
-`csc /win32icon:{any something} {any something}`
+`csc /win32icon:{any something} {file something: input}`
 
 - Strongly-name the resulting assembly with a keyfile:
 
-`csc /keyfile:{any something} {any something}`
+`csc /keyfile:{any something} {file something: input}`

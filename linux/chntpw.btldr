@@ -6,12 +6,12 @@
 
 - List all users in the SAM file:
 
-`chntpw -l {file something: path/to/sam}`
+`chntpw -l {file something: sam}`
 
 - Edit [u]ser interactively:
 
-`chntpw -u {any something} {file something: path/to/sam}`
+`chntpw -u {any something} {file something: sam}`
 
 - Use chntpw [i]nteractively:
 
-`chntpw -i {file something: path/to/sam}`
+`chntpw -i {file something: sam}`

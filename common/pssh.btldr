@@ -13,16 +13,16 @@
 
 - Run a command on multiple hosts, specified in a new-line separated file:
 
-`pssh -i -h {file something: path/to/hosts} {any something}`
+`pssh -i -h {file something: hosts} {any something}`
 
 - Run a command as root (this asks for the root password):
 
-`pssh -i -h {file something: path/to/hosts} -A -l {any something} {any something}`
+`pssh -i -h {file something: hosts} -A -l {any something} {any something}`
 
 - Run a command with extra SSH arguments:
 
-`pssh -i -h {file something: path/to/hosts} -x "{any something}" {any something}`
+`pssh -i -h {file something: hosts} -x "{any something}" {any something}`
 
 - Run a command limiting the number of parallel connections to 10:
 
-`pssh -i -h {file something: path/to/hosts} -p {int number: 10} '{any something}'`
+`pssh -i -h {file something: hosts} -p {int number: 10} '{any something}'`

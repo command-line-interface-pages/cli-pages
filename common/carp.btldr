@@ -13,16 +13,16 @@
 
 - Build a `carp` file:
 
-`carp -b {any something}`
+`carp -b {file something}`
 
 - Build and run a file:
 
-`carp -x {any something}`
+`carp -x {file something}`
 
 - Build a file with optimizations enabled:
 
-`carp -b --optimize {any something}`
+`carp -b --optimize {file something}`
 
 - Transpile a file to C code:
 
-`carp --generate-only {any something}`
+`carp --generate-only {file something}`

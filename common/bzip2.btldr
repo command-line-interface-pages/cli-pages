@@ -9,15 +9,15 @@
 
 - Decompress a file:
 
-`bzip2 -d {any something}`
+`bzip2 -d {file something: compressed}`
 
 - Decompress a file to stdout:
 
-`bzip2 -dc {any something}`
+`bzip2 -dc {file something: compressed}`
 
 - Test the integrity of each file inside the archive file:
 
-`bzip2 --test {any something}`
+`bzip2 --test {file something: compressed}`
 
 - Show the compression ratio for each file processed with detailed information:
 
@@ -25,7 +25,7 @@
 
 - Decompress a file overwriting existing files:
 
-`bzip2 --force {any something}`
+`bzip2 --force {file something: compressed}`
 
 - Display help:
 

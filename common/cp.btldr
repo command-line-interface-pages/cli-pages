@@ -5,28 +5,28 @@
 
 - Copy a file to another location:
 
-`cp {any something} {any something}`
+`cp {file something: source} {file something: target}`
 
 - Copy a file into another directory, keeping the filename:
 
-`cp {any something} {directory something: path/to/target_parent}`
+`cp {file something: source} {directory something: target_parent}`
 
 - Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
-`cp -R {directory something: path/to/source} {directory something: path/to/target}`
+`cp -R {directory something: source} {directory something: target}`
 
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
-`cp -vR {directory something: path/to/source} {directory something: path/to/target}`
+`cp -vR {directory something: source} {directory something: target}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {any something} {directory something: path/to/target}`
+`cp -i {any something} {directory something: target}`
 
 - Follow symbolic links before copying:
 
-`cp -L {any something} {directory something: path/to/target}`
+`cp -L {any something} {directory something: target}`
 
 - Use the first argument as the destination directory (useful for `xargs ... | cp -t <DEST_DIR>`):
 
-`cp -t {directory something: path/to/target} {path* something}`
+`cp -t {directory something: target} {path* something}`

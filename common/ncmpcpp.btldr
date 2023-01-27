@@ -13,8 +13,8 @@
 
 - Use a specified configuration file:
 
-`ncmpcpp --config {file something}`
+`ncmpcpp --config {any something}`
 
 - Use a different set of key bindings from a file:
 
-`ncmpcpp --bindings {file something}`
+`ncmpcpp --bindings {any something}`

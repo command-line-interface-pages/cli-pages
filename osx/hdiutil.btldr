@@ -5,7 +5,7 @@
 
 - Mount an image:
 
-`hdiutil attach {file something: path/to/image}`
+`hdiutil attach {file something: image}`
 
 - Unmount an image:
 
@@ -17,4 +17,4 @@
 
 - Create an ISO image from the contents of a directory:
 
-`hdiutil makehybrid -o {file something: path/to/output} {directory something}`
+`hdiutil makehybrid -o {file something: output} {directory something}`

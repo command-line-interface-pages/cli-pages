@@ -13,16 +13,16 @@
 
 - Calculate and save the list of SHA512 checksums to a file:
 
-`sha512sum {any something} {any something} > {any something}`
+`sha512sum {any something} {any something} > {file something}`
 
 - Read a file of SHA512 sums and verify all files have matching checksums:
 
-`sha512sum --check {any something}`
+`sha512sum --check {file something}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha512sum --check --quiet {any something}`
+`sha512sum --check --quiet {file something}`
 
 - Only show a message for files for which verification fails, ignoring missing files:
 
-`sha512sum --ignore-missing --check --quiet {any something}`
+`sha512sum --ignore-missing --check --quiet {file something}`

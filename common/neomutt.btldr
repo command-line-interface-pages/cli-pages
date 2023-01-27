@@ -13,7 +13,7 @@
 
 - Send an email with files attached:
 
-`neomutt -a {file* something} -- {any something}`
+`neomutt -a {any something} -- {any something}`
 
 - Specify a file to include as the message body:
 

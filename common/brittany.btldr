@@ -5,7 +5,7 @@
 
 - Format a Haskell source file and print the result to stdout:
 
-`brittany {any something}`
+`brittany {file something}`
 
 - Format all Haskell source files in the current directory in-place:
 
@@ -13,12 +13,12 @@
 
 - Check whether a Haskell source file needs changes and indicate the result through the programme's exit code:
 
-`brittany --check-mode {any something}`
+`brittany --check-mode {file something}`
 
 - Format a Haskell source file using the specified amount of spaces per indentation level and line length:
 
-`brittany --indent {int number: 4} --columns {int number: 100} {any something}`
+`brittany --indent {int number: 4} --columns {int number: 100} {file something}`
 
 - Format a Haskell source file according to the style defined in the specified config file:
 
-`brittany --config-file {any something} {any something}`
+`brittany --config-file {any something} {file something}`

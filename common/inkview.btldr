@@ -6,7 +6,7 @@
 
 - Preview an SVG:
 
-`inkview {any something}`
+`inkview {file something}`
 
 - Preview multiple SVGs (use arrow keys to navigate):
 

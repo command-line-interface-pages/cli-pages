@@ -5,11 +5,11 @@
 
 - Read JSON from a file and execute a specified JSONPath expression:
 
-`ajson '{any something}' {any something}`
+`ajson '{any something}' {file something}`
 
 - Read JSON from stdin and execute a specified JSONPath expression:
 
-`cat {any something} | ajson '{any something}'`
+`cat {file something} | ajson '{any something}'`
 
 - Read JSON from a URL and evaluate a specified JSONPath expression:
 

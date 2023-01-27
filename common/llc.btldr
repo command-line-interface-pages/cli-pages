@@ -5,7 +5,7 @@
 
 - Compile a bitcode or IR file to an assembly file with the same base name:
 
-`llc {any something}`
+`llc {file something}`
 
 - Enable all optimizations:
 

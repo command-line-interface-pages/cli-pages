@@ -9,7 +9,7 @@
 
 - Run specifications using a specific configuration file:
 
-`kahlan --config={file something: path/to/configuration}`
+`kahlan --config={file something: configuration}`
 
 - Run specifications and output using a reporter:
 

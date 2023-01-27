@@ -5,11 +5,11 @@
 
 - Run a Crystal file:
 
-`crystal {any something}`
+`crystal {file something}`
 
 - Compile a file and all dependencies to a single executable:
 
-`crystal build {any something}`
+`crystal build {file something}`
 
 - Start a local interactive server for testing the language:
 

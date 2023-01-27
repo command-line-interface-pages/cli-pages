@@ -13,12 +13,12 @@
 
 - List all private keys in a database:
 
-`certutil -K -d . -f {any something}`
+`certutil -K -d . -f {file something: password}`
 
 - Import the signed certificate into the requesters database:
 
-`certutil -A -n "{any something}" -t ",," -i {any something} -d .`
+`certutil -A -n "{any something}" -t ",," -i {file something} -d .`
 
 - Add subject alternative names to a given certificate:
 
-`certutil -S -f {any something} -d . -t ",," -c "{any something}" -n "{any something}" -g {int number: 2048} -s "CN={any something},O={any something}"`
+`certutil -S -f {file something: password} -d . -t ",," -c "{any something}" -n "{any something}" -g {int number: 2048} -s "CN={any something},O={any something}"`

@@ -9,7 +9,7 @@
 
 - Run a JavaScript file:
 
-`just {any something}`
+`just {file something}`
 
 - Evaluate JavaScript code by passing it as an argument:
 
@@ -21,4 +21,4 @@
 
 - Build a JavaScript application into an executable:
 
-`just build {any something} --static`
+`just build {file something} --static`

@@ -17,7 +17,7 @@
 
 - Display information about a specific Phar file:
 
-`box info {file something: path/to/phar}`
+`box info {file something: phar}`
 
 - Validate the first found config file in the working directory:
 
@@ -25,7 +25,7 @@
 
 - Verify the signature of a specific Phar file:
 
-`box verify {file something: path/to/phar}`
+`box verify {file something: phar}`
 
 - Display all available commands and options:
 

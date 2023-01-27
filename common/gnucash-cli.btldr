@@ -5,8 +5,8 @@
 
 - Get quotes for currencies and stocks specified in a file and print them:
 
-`gnucash-cli --quotes get {any something}`
+`gnucash-cli --quotes get {file something}`
 
 - Generate a financial report of a specific type, specified by `--name`:
 
-`gnucash-cli --report run --name "{any something}" {any something}`
+`gnucash-cli --report run --name "{any something}" {file something}`

@@ -9,15 +9,15 @@
 
 - Validate a job file:
 
-`nomad job validate {any something}`
+`nomad job validate {file something}`
 
 - Plan a job for execution on the cluster:
 
-`nomad job plan {any something}`
+`nomad job plan {file something}`
 
 - Run a job on the cluster:
 
-`nomad job run {any something}`
+`nomad job run {file something}`
 
 - Show the status of jobs currently running on the cluster:
 

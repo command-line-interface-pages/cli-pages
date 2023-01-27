@@ -13,7 +13,7 @@
 
 - Open specific files in the LightEdit mode﻿:
 
-`webstorm -e {file* something}`
+`webstorm -e {any something}`
 
 - Open and wait until done editing a specific file in the LightEdit mode:
 
@@ -29,4 +29,4 @@
 
 - Open and perform a three-way merge:
 
-`webstorm merge {file something: path/to/left} {file something: path/to/right} {file something: path/to/target}`
+`webstorm merge {file something: left} {file something: right} {file something: target}`

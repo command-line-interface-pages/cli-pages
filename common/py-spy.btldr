@@ -9,7 +9,7 @@
 
 - Start a program and show a live view of the functions that take the most execution time:
 
-`py-spy top -- python {any something}`
+`py-spy top -- python {file something}`
 
 - Produce an SVG flame graph of the function call execution time:
 

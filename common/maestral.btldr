@@ -21,4 +21,4 @@
 
 - Print sync status of a specific file or folder:
 
-`maestral filestatus {directory something: path/to/file_or}`
+`maestral filestatus {file something|path something}`

@@ -21,4 +21,4 @@
 
 - Compare and then merge, writing the output to a new file:
 
-`sdiff -o {file something: path/to/merged} {any something} {any something}`
+`sdiff -o {file something: merged} {any something} {any something}`

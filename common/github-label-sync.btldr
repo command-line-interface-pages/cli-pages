@@ -9,7 +9,7 @@
 
 - Synchronize labels using a specific labels JSON file:
 
-`github-label-sync --access-token {any something} --labels {file something: url|path/to/json} {any something}`
+`github-label-sync --access-token {any something} --labels {any something} {any something}`
 
 - Perform a dry run instead of actually synchronizing labels:
 

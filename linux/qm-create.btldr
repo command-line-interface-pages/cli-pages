@@ -17,7 +17,7 @@
 
 - Replace an existing machine (requires archiving it):
 
-`qm create {int number: 100} --archive {any something} --force 1`
+`qm create {int number: 100} --archive {file something: backup} --force 1`
 
 - Specify a script that is executed automatically depending on the state of the virtual machine:
 

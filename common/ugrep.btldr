@@ -13,7 +13,7 @@
 
 - Search in a specific file or in all files in a specific directory, showing line numbers of matches:
 
-`ugrep --line-number "{any something}" {directory something: path/to/file_or}`
+`ugrep --line-number "{any something}" {file something|path something}`
 
 - Search in all files in the current directory recursively and print the name of each matching file:
 

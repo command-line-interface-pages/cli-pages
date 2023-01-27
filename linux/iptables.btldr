@@ -29,8 +29,8 @@
 
 - Save iptables configuration of a given table to a file:
 
-`sudo iptables-save -t {any something} > {file something: path/to/iptables}`
+`sudo iptables-save -t {any something} > {file something: iptables}`
 
 - Restore iptables configuration from a file:
 
-`sudo iptables-restore < {file something: path/to/iptables}`
+`sudo iptables-restore < {file something: iptables}`

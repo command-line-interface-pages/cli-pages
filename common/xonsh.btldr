@@ -14,7 +14,7 @@
 
 - Run commands from a script file and then exit:
 
-`xonsh {any something}`
+`xonsh {file something: script}`
 
 - Define environment variables for the shell process:
 

@@ -6,16 +6,16 @@
 
 - Add a new user to a password file (will prompt to enter the password):
 
-`mosquitto_passwd {file something: path/to/password} {any something}`
+`mosquitto_passwd {file something: password} {any something}`
 
 - Create the password file if it doesn't already exist:
 
-`mosquitto_passwd -c {file something: path/to/password} {any something}`
+`mosquitto_passwd -c {file something: password} {any something}`
 
 - Delete the specified username instead:
 
-`mosquitto_passwd -D {file something: path/to/password} {any something}`
+`mosquitto_passwd -D {file something: password} {any something}`
 
 - Upgrade an old plain-text password file to a hashed password file:
 
-`mosquitto_passwd -U {file something: path/to/password}`
+`mosquitto_passwd -U {file something: password}`

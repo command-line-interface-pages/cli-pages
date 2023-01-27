@@ -6,24 +6,24 @@
 
 - Generate a coverage report named `file.cpp.gcov`:
 
-`gcov {any something}`
+`gcov {file something}`
 
 - Write individual execution counts for every basic block:
 
-`gcov --all-blocks {any something}`
+`gcov --all-blocks {file something}`
 
 - Write branch frequencies to the output file and print summary information to stdout as a percentage:
 
-`gcov --branch-probabilities {any something}`
+`gcov --branch-probabilities {file something}`
 
 - Write branch frequencies as the number of branches taken, rather than the percentage:
 
-`gcov --branch-counts {any something}`
+`gcov --branch-counts {file something}`
 
 - Do not create a `gcov` output file:
 
-`gcov --no-output {any something}`
+`gcov --no-output {file something}`
 
 - Write file level as well as function level summaries:
 
-`gcov --function-summaries {any something}`
+`gcov --function-summaries {file something}`

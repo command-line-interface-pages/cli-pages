@@ -13,7 +13,7 @@
 
 - Run a HiveQL file with a variable substitution:
 
-`hive --define {any something}={any something} -f {any something}`
+`hive --define {any something}={any something} -f {file something}`
 
 - Run a HiveQL with HiveConfig (e.g. `mapred.reduce.tasks=32`):
 

@@ -5,19 +5,19 @@
 
 - List key:value extended attributes for a given file:
 
-`xattr -l {file something}`
+`xattr -l {any something}`
 
 - Write an attribute for a given file:
 
-`xattr -w {any something} {any something} {file something}`
+`xattr -w {any something} {any something} {any something}`
 
 - Delete an attribute from a given file:
 
-`xattr -d {any something} {file something}`
+`xattr -d {any something} {any something}`
 
 - Delete all extended attributes from a given file:
 
-`xattr -c {file something}`
+`xattr -c {any something}`
 
 - Recursively delete an attribute in a given directory:
 

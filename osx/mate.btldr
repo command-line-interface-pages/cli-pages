@@ -9,7 +9,7 @@
 
 - Open specific files:
 
-`mate {file* something}`
+`mate {any something}`
 
 - Specify the filetype of a file:
 

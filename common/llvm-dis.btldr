@@ -9,7 +9,7 @@
 
 - Convert a bitcode file to an LLVM IR file with the same filename:
 
-`llvm-dis {any something}`
+`llvm-dis {file something}`
 
 - Convert a bitcode file to LLVM IR, writing the result to the specified file:
 

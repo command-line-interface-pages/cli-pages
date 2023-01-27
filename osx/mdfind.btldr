@@ -5,7 +5,7 @@
 
 - Find a file by its name:
 
-`mdfind -name {file something}`
+`mdfind -name {any something}`
 
 - Find a file by its content:
 

@@ -9,15 +9,15 @@
 
 - Include only specific files from a comma-separated list (globs are allowed):
 
-`phploc {directory something} --names {file* something}`
+`phploc {directory something} --names {any something}`
 
 - Exclude specific files from a comma-separated list (globs are allowed):
 
-`phploc {directory something} --names-exclude {file* something}`
+`phploc {directory something} --names-exclude {any something}`
 
 - Exclude a specific directory from analysis:
 
-`phploc {directory something} --exclude {directory something: path/to/exclude}`
+`phploc {directory something} --exclude {directory something: exclude}`
 
 - Log the results to a specific CSV file:
 

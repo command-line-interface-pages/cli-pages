@@ -18,4 +18,4 @@
 
 - Write the PID to a file:
 
-`guacd -p {any something}`
+`guacd -p {file something}`

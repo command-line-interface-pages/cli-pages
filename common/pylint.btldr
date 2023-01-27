@@ -5,11 +5,11 @@
 
 - Show lint errors in a file:
 
-`pylint {any something}`
+`pylint {file something}`
 
 - Lint a file and use a configuration file (usually named `pylintrc`):
 
-`pylint --rcfile {any something} {any something}`
+`pylint --rcfile {any something} {file something}`
 
 - Lint a file and disable a specific error code:
 

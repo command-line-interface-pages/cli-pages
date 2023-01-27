@@ -21,4 +21,4 @@
 
 - Tell `logrotate` to log verbose output into the log file:
 
-`logrotate {any something} --log {file something: path/to/log}`
+`logrotate {any something} --log {file something: log}`

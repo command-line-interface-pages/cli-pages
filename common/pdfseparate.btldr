@@ -5,12 +5,12 @@
 
 - Extract pages from PDF file and make a separate PDF file for each page:
 
-`pdfseparate {any something} {any something}`
+`pdfseparate {file something: sourcename} {any something}`
 
 - Specify the first/start page for extraction:
 
-`pdfseparate -f {int number: 3} {any something} {any something}`
+`pdfseparate -f {int number: 3} {file something: sourcename} {any something}`
 
 - Specify the last page for extraction:
 
-`pdfseparate -l {int number: 10} {any something} {any something}`
+`pdfseparate -l {int number: 10} {file something: sourcename} {any something}`

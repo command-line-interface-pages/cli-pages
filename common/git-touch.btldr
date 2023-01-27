@@ -6,4 +6,4 @@
 
 - Create new files and add them to the index:
 
-`git touch {file* something}`
+`git touch {any something}`

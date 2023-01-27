@@ -5,20 +5,20 @@
 
 - Uncompress a single-file Cabinet file to the specified directory:
 
-`expand {any something} {directory something}`
+`expand {file something} {directory something}`
 
 - Display the list of files in a source Cabinet file:
 
-`expand {any something} {directory something} -d`
+`expand {file something} {directory something} -d`
 
 - Uncompress all files from the Cabinet file:
 
-`expand {any something} {directory something} -f:*`
+`expand {file something} {directory something} -f:*`
 
 - Uncompress a specific file from a Cabinet file:
 
-`expand {any something} {directory something} -f:{file something}`
+`expand {file something} {directory something} -f:{any something}`
 
 - Ignore the directory structure when uncompressing, and add them to a single directory:
 
-`expand {any something} {directory something} -i`
+`expand {file something} {directory something} -i`

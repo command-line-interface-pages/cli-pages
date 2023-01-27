@@ -6,12 +6,12 @@
 
 - Create a binary from a source file:
 
-`ocamlc {any something}`
+`ocamlc {file something: source}`
 
 - Create a named binary from a source file:
 
-`ocamlc -o {any something} {any something}`
+`ocamlc -o {any something} {file something: source}`
 
 - Automatically generate a module signature (interface) file:
 
-`ocamlc -i {any something}`
+`ocamlc -i {file something: source}`

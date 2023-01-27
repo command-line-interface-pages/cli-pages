@@ -13,7 +13,7 @@
 
 - Execute an Inkfile, specifying SVG input file(s) and an output file:
 
-`inkmake --svg {any something} --out {any something} {any something}`
+`inkmake --svg {file something} --out {any something} {any something}`
 
 - Specify a custom Inkscape binary to use as the backend:
 

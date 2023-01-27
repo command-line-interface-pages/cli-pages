@@ -6,11 +6,11 @@
 
 - Save output to a file:
 
-`httpry -o {any something}`
+`httpry -o {file something}`
 
 - Listen on a specific interface and save output to a binary pcap format file:
 
-`httpry {any something} -b {any something}`
+`httpry {any something} -b {file something}`
 
 - Filter output by a comma-separated list of HTTP verbs:
 
@@ -18,8 +18,8 @@
 
 - Read from an input capture file and filter by IP:
 
-`httpry -r {any something} '{any something}'`
+`httpry -r {file something} '{any something}'`
 
 - Run as daemon process:
 
-`httpry -d -o {any something}`
+`httpry -d -o {file something}`

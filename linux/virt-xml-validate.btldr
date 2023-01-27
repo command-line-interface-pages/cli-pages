@@ -6,7 +6,7 @@
 
 - Validate an XML file against a specific schema:
 
-`virt-xml-validate {any something} {any something}`
+`virt-xml-validate {file something} {any something}`
 
 - Validate the domain XML against the domain schema:
 

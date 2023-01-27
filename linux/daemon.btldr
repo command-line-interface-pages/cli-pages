@@ -17,7 +17,7 @@
 
 - Run a command as a daemon, writing logs to a specific file:
 
-`daemon --name="{any something}" --errlog={any something} {any something}`
+`daemon --name="{any something}" --errlog={file something} {any something}`
 
 - Kill a daemon (SIGTERM):
 

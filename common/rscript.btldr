@@ -5,11 +5,11 @@
 
 - Run a script:
 
-`Rscript {any something}`
+`Rscript {file something}`
 
 - Run a script in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
-`Rscript --vanilla {any something}`
+`Rscript --vanilla {file something}`
 
 - Execute one or more R expressions:
 

@@ -6,20 +6,20 @@
 
 - E[x]tract all members from an archive:
 
-`ar x {any something}`
+`ar x {file something}`
 
 - Lis[t] contents in a specific archive:
 
-`ar t {any something}`
+`ar t {file something}`
 
 - [r]eplace or add specific files to an archive:
 
-`ar r {any something} {any something}`
+`ar r {file something} {any something}`
 
 - In[s]ert an object file index (equivalent to using `ranlib`):
 
-`ar s {any something}`
+`ar s {file something}`
 
 - Create an archive with specific files and an accompanying object file index:
 
-`ar rs {any something} {any something}`
+`ar rs {file something} {any something}`

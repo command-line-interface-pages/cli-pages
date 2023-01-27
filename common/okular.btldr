@@ -9,7 +9,7 @@
 
 - Open specific documents:
 
-`okular {file* something}`
+`okular {any something}`
 
 - Open a document at a specific page:
 

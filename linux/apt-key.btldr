@@ -10,7 +10,7 @@
 
 - Add a key to the trusted keystore:
 
-`apt-key add {any something}`
+`apt-key add {file something: public_key}`
 
 - Delete a key from the trusted keystore:
 

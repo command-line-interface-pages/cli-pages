@@ -17,4 +17,4 @@
 
 - Display line-by-line type coverage stats:
 
-`flow coverage --color {any something}`
+`flow coverage --color {file something}`

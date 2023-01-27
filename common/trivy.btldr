@@ -9,11 +9,11 @@
 
 - Scan the filesystem for vulnerabilities and misconfigurations:
 
-`trivy fs --security-checks {any something} {directory something: path/to/project}`
+`trivy fs --security-checks {any something} {directory something: project}`
 
 - Scan a directory for misconfigurations:
 
-`trivy config {directory something: path/to/iac}`
+`trivy config {directory something: iac}`
 
 - Generate output with a SARIF template:
 

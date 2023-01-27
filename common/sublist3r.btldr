@@ -13,7 +13,7 @@
 
 - Save the found subdomains to a text file:
 
-`sublist3r --domain {any something} --output {file something: path/to/output}`
+`sublist3r --domain {any something} --output {file something: output}`
 
 - Output all available options:
 

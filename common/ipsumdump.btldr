@@ -5,7 +5,7 @@
 
 - Print the source and destination IP addresses of all packets in a pcap file:
 
-`ipsumdump --src --dst {any something}`
+`ipsumdump --src --dst {file something}`
 
 - Print the timestamps, source address, source port, destination address, destination port and protocol of all packets read from a given network interface:
 
@@ -13,4 +13,4 @@
 
 - Print the anonymised source address, anonymised destination address, and IP packet length of all packets in a pcap file:
 
-`ipsumdump --src --dst --length --anonymize {any something}`
+`ipsumdump --src --dst --length --anonymize {file something}`

@@ -14,11 +14,11 @@
 
 - Create an SVG file showing when each system service started, highlighting the time that they spent on initialization:
 
-`systemd-analyze plot > {any something}`
+`systemd-analyze plot > {file something}`
 
 - Plot a dependency graph and convert it to an SVG file:
 
-`systemd-analyze dot | dot -T{any something} > {any something}`
+`systemd-analyze dot | dot -T{any something} > {file something}`
 
 - Show security scores of running units:
 

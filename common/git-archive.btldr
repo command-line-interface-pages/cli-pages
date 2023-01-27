@@ -13,16 +13,16 @@
 
 - Same as above, but write the zip archive to file:
 
-`git archive --verbose --output={any something} HEAD`
+`git archive --verbose --output={file something} HEAD`
 
 - Create a tar archive from the contents of the latest commit on a specific branch:
 
-`git archive --output={any something} {any something}`
+`git archive --output={file something} {any something}`
 
 - Create a tar archive from the contents of a specific directory:
 
-`git archive --output={any something} HEAD:{directory something}`
+`git archive --output={file something} HEAD:{directory something}`
 
 - Prepend a path to each file to archive it inside a specific directory:
 
-`git archive --output={any something} --prefix={any something}/ HEAD`
+`git archive --output={file something} --prefix={any something}/ HEAD`

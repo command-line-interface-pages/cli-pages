@@ -10,12 +10,12 @@
 
 - Replace environment variables in an input file and output to stdout:
 
-`envsubst < {file something: path/to/input}`
+`envsubst < {file something: input}`
 
 - Replace environment variables in an input file and output to a file:
 
-`envsubst < {file something: path/to/input} > {file something: path/to/output}`
+`envsubst < {file something: input} > {file something: output}`
 
 - Replace environment variables in an input file from a space-separated list:
 
-`envsubst '{any something}' < {file something: path/to/input}`
+`envsubst '{any something}' < {file something: input}`

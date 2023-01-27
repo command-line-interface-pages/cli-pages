@@ -5,12 +5,12 @@
 
 - Encode a file and print the result to stdout:
 
-`uuencode {file something: path/to/input} {any something}`
+`uuencode {file something: input} {any something}`
 
 - Encode a file and write the result to a file:
 
-`uuencode -o {file something: path/to/output} {file something: path/to/input} {any something}`
+`uuencode -o {file something: output} {file something: input} {any something}`
 
 - Encode a file using Base64 instead of the default uuencode encoding and write the result to a file:
 
-`uuencode -m -o {file something: path/to/output} {file something: path/to/input} {any something}`
+`uuencode -m -o {file something: output} {file something: input} {any something}`

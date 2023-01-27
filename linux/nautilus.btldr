@@ -18,7 +18,7 @@
 
 - Launch Nautilus with a specific file or directory selected:
 
-`nautilus --select {directory something: path/to/file_or}`
+`nautilus --select {file something|path something}`
 
 - Launch Nautilus in a separated window:
 

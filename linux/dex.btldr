@@ -21,12 +21,12 @@
 
 - Preview the value of the DesktopEntry property `Name`:
 
-`dex --property {any something} {any something}`
+`dex --property {any something} {file something}`
 
 - Create a DesktopEntry for a program in the current directory:
 
-`dex --create {any something}`
+`dex --create {file something}`
 
 - Execute a single program (with `Terminal=true` in the desktop file) in the given terminal:
 
-`dex --term {any something} {any something}`
+`dex --term {any something} {file something}`

@@ -5,7 +5,7 @@
 
 - Set artist and title tag of an MP3 file:
 
-`id3tag --artist={any something} --title={any something} {any something}`
+`id3tag --artist={any something} --title={any something} {file something}`
 
 - Set album title of all MP3 files in the current directory:
 

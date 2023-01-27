@@ -6,20 +6,20 @@
 
 - Check a file for nits:
 
-`idnits {any something}`
+`idnits {file something}`
 
 - Count nits without displaying them:
 
-`idnits --nitcount {any something}`
+`idnits --nitcount {file something}`
 
 - Show extra information about offending lines:
 
-`idnits --verbose {any something}`
+`idnits --verbose {file something}`
 
 - Expect the specified year in the boilerplate instead of the current year:
 
-`idnits --year {int number: 2021} {any something}`
+`idnits --year {int number: 2021} {file something}`
 
 - Assume the document is of the specified status:
 
-`idnits --doctype {any something} {any something}`
+`idnits --doctype {any something} {file something}`

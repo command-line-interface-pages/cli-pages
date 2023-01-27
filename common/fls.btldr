@@ -9,7 +9,7 @@
 
 - Analyze a single partition, providing the sector offset at which the filesystem starts in the image:
 
-`fls -r -m {any something} -o {any something} {file something: path/to/image}`
+`fls -r -m {any something} -o {any something} {file something: image}`
 
 - Analyze a single partition, providing the timezone of the original system:
 

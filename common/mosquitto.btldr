@@ -9,7 +9,7 @@
 
 - Specify a configuration file to use:
 
-`mosquitto --config-file {any something}`
+`mosquitto --config-file {file something}`
 
 - Listen on a specific port:
 

@@ -9,7 +9,7 @@
 
 - Run a Dart file:
 
-`dart run {any something}`
+`dart run {file something}`
 
 - Download dependencies for the current project:
 
@@ -25,4 +25,4 @@
 
 - Compile a Dart file to a native binary:
 
-`dart compile exe {any something}`
+`dart compile exe {file something}`

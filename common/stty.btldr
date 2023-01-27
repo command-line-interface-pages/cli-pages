@@ -13,7 +13,7 @@
 
 - Get the actual transfer speed of a device:
 
-`stty --file {file something: path/to/device} speed`
+`stty --file {file something: device} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

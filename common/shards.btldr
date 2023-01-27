@@ -21,4 +21,4 @@
 
 - List version of dependency:
 
-`shards version {directory something: path/to/dependency}`
+`shards version {directory something: dependency}`

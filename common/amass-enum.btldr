@@ -21,4 +21,4 @@
 
 - Save the results to a database:
 
-`amass enum -o {file something: output} -dir {directory something: path/to/database}`
+`amass enum -o {file something: output} -dir {directory something: database}`

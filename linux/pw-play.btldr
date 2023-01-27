@@ -9,8 +9,8 @@
 
 - Play a wav sound file over the default target:
 
-`pw-play {any something}`
+`pw-play {file something}`
 
 - Play a wav sound file at a different volume level:
 
-`pw-play --volume={float number: 0.1} {any something}`
+`pw-play --volume={float number: 0.1} {file something}`

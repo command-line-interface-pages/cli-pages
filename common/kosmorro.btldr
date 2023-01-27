@@ -17,4 +17,4 @@
 
 - Generate a PDF (note: TeXLive must be installed):
 
-`kosmorro --format={any something} --output={any something}`
+`kosmorro --format={any something} --output={file something}`

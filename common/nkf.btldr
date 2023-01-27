@@ -6,24 +6,24 @@
 
 - Convert to UTF-8 encoding:
 
-`nkf -w {any something}`
+`nkf -w {file something}`
 
 - Convert to SHIFT_JIS encoding:
 
-`nkf -s {any something}`
+`nkf -s {file something}`
 
 - Convert to UTF-8 encoding and overwrite the file:
 
-`nkf -w --overwrite {any something}`
+`nkf -w --overwrite {file something}`
 
 - Set new line code to LF and overwrite (UNIX type):
 
-`nkf -d --overwrite {any something}`
+`nkf -d --overwrite {file something}`
 
 - Set new line code to CRLF and overwrite (windows type):
 
-`nkf -c --overwrite {any something}`
+`nkf -c --overwrite {file something}`
 
 - Decrypt mime file and overwrite:
 
-`nkf -m --overwrite {any something}`
+`nkf -m --overwrite {file something}`

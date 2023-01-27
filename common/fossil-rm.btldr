@@ -6,11 +6,11 @@
 
 - Remove a file or directory from Fossil version control:
 
-`fossil rm {directory something: path/to/file_or}`
+`fossil rm {file something|path something}`
 
 - Remove a file or directory from Fossil version control, and also delete it from the disk:
 
-`fossil rm --hard {directory something: path/to/file_or}`
+`fossil rm --hard {file something|path something}`
 
 - Re-add all previously removed and uncommitted files to Fossil version control:
 

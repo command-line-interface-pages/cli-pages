@@ -6,23 +6,23 @@
 
 - Bundle a Node.js application:
 
-`ncc build {any something}`
+`ncc build {file something}`
 
 - Bundle and minify a Node.js application:
 
-`ncc build --minify {any something}`
+`ncc build --minify {file something}`
 
 - Bundle and minify a Node.js application and generate source maps:
 
-`ncc build --source-map {any something}`
+`ncc build --source-map {file something}`
 
 - Automatically recompile on changes to source files:
 
-`ncc build --watch {any something}`
+`ncc build --watch {file something}`
 
 - Bundle a Node.js application into a temporary directory and run it for testing:
 
-`ncc run {any something}`
+`ncc run {file something}`
 
 - Clean the `ncc` cache:
 

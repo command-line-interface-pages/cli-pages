@@ -6,24 +6,24 @@
 
 - Compile a source file:
 
-`nim compile {any something}`
+`nim compile {file something}`
 
 - Compile and run a source file:
 
-`nim compile -r {any something}`
+`nim compile -r {file something}`
 
 - Compile a source file with release optimizations enabled:
 
-`nim compile -d:release {any something}`
+`nim compile -d:release {file something}`
 
 - Build a release binary optimized for low file size:
 
-`nim compile -d:release --opt:size {any something}`
+`nim compile -d:release --opt:size {file something}`
 
 - Generate HTML documentation for a module (output will be placed in the current directory):
 
-`nim doc {any something}`
+`nim doc {file something}`
 
 - Check a file for syntax and semantics:
 
-`nim check {any something}`
+`nim check {file something}`

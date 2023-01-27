@@ -17,4 +17,4 @@
 
 - Compress files:
 
-`ouch compress {file* something} {any something}`
+`ouch compress {any something} {any something}`

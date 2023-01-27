@@ -13,7 +13,7 @@
 
 - Create a new 7zip archive with two files:
 
-`atool --add {any something} {file* something}`
+`atool --add {any something} {any something}`
 
 - Extract all zip and rar archives in the current directory:
 

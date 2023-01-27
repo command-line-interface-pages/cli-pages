@@ -10,7 +10,7 @@
 
 - Add file/directory to library:
 
-`:add {directory something: path/to/file_or}`
+`:add {file something|path something}`
 
 - Pause/unpause current song:
 

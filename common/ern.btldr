@@ -13,7 +13,7 @@
 
 - Create an Electrode Native container:
 
-`ern create-container --miniapps {/directory something: path/to/miniapp} --platform {any something}`
+`ern create-container --miniapps {/directory something: miniapp} --platform {any something}`
 
 - Publish an Electrode Native container to a local Maven repository:
 

@@ -6,19 +6,19 @@
 
 - Compile a single file:
 
-`rustc {any something}`
+`rustc {file something}`
 
 - Compile with high optimization:
 
-`rustc -O {any something}`
+`rustc -O {file something}`
 
 - Compile with debugging information:
 
-`rustc -g {any something}`
+`rustc -g {file something}`
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`rustc -C target-cpu=native {any something}`
+`rustc -C target-cpu=native {file something}`
 
 - Display architecture-specific optimizations for the current CPU:
 
@@ -30,4 +30,4 @@
 
 - Compile for a specific target:
 
-`rustc --target {any something} {any something}`
+`rustc --target {any something} {file something}`

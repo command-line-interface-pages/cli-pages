@@ -6,7 +6,7 @@
 
 - Concatenate specific files in reversed order:
 
-`tac {file* something}`
+`tac {any something}`
 
 - Display stdin in reversed order:
 
@@ -14,12 +14,12 @@
 
 - Use a specific [s]eparator:
 
-`tac -s {any something} {file* something}`
+`tac -s {any something} {any something}`
 
 - Use a specific [r]egex as a [s]eparator:
 
-`tac -r -s {any something} {file* something}`
+`tac -r -s {any something} {any something}`
 
 - Use a separator [b]efore each file:
 
-`tac -b {file* something}`
+`tac -b {any something}`

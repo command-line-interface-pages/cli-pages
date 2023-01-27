@@ -9,7 +9,7 @@
 
 - Lint specific JavaScript file(s):
 
-`standard {file* something}`
+`standard {any something}`
 
 - Apply automatic fixes during linting:
 

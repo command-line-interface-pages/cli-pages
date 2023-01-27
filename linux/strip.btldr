@@ -9,8 +9,8 @@
 
 - Strip symbols from a file, saving the output to a specific file:
 
-`strip {file something: path/to/input} -o {file something: path/to/output}`
+`strip {file something: input} -o {file something: output}`
 
 - Strip debug symbols only:
 
-`strip --strip-debug {any something}`
+`strip --strip-debug {file something}`

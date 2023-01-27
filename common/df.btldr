@@ -13,7 +13,7 @@
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
-`df {directory something: path/to/file_or}`
+`df {file something|path something}`
 
 - Display statistics on the number of free inodes:
 

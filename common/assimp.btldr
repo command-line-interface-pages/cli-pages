@@ -14,11 +14,11 @@
 
 - Convert a file to one of the supported output formats, using the default parameters:
 
-`assimp export {any something} {any something}`
+`assimp export {file something: input} {file something: output}`
 
 - Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):
 
-`assimp export {any something} {any something} {any something}`
+`assimp export {file something: input} {file something: output} {any something}`
 
 - Display a summary of a 3D file's contents:
 

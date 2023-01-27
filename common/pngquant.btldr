@@ -5,32 +5,32 @@
 
 - Compress a specific PNG as much as possible and write result to a new file:
 
-`pngquant {any something}`
+`pngquant {file something}`
 
 - Compress a specific PNG and override original:
 
-`pngquant --ext .png --force {any something}`
+`pngquant --ext .png --force {file something}`
 
 - Try to compress a specific PNG with custom quality (skip if below the min value):
 
-`pngquant --quality {any something} {any something}`
+`pngquant --quality {any something} {file something}`
 
 - Compress a specific PNG with the number of colors reduced to 64:
 
-`pngquant {int number: 64} {any something}`
+`pngquant {int number: 64} {file something}`
 
 - Compress a specific PNG and skip if the file is larger than the original:
 
-`pngquant --skip-if-larger {any something}`
+`pngquant --skip-if-larger {file something}`
 
 - Compress a specific PNG and remove metadata:
 
-`pngquant --strip {any something}`
+`pngquant --strip {file something}`
 
 - Compress a specific PNG and save it to the given path:
 
-`pngquant {any something} --output {any something}`
+`pngquant {file something} --output {file something}`
 
 - Compress a specific PNG and show progress:
 
-`pngquant --verbose {any something}`
+`pngquant --verbose {file something}`

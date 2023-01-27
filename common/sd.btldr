@@ -13,7 +13,7 @@
 
 - Find and replace in a specific file (output stream: stdout):
 
-`sd -p {any something} {any something} {any something}`
+`sd -p {any something} {any something} {file something}`
 
 - Find and replace in all files in the current project (output stream: stdout):
 

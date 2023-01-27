@@ -5,7 +5,7 @@
 
 - Generate an encrypted file that can be decrypted with a passphrase:
 
-`age --passphrase --output {file something: path/to/encrypted} {file something: path/to/unencrypted}`
+`age --passphrase --output {file something: encrypted} {file something: unencrypted}`
 
 - Generate a key pair, saving the private key to an unencrypted file and printing the public key to stdout:
 
@@ -13,16 +13,16 @@
 
 - Encrypt a file with one or more public keys that are entered as literals:
 
-`age --recipient {any something} --recipient {any something} {file something: path/to/unencrypted} --output {file something: path/to/encrypted}`
+`age --recipient {any something} --recipient {any something} {file something: unencrypted} --output {file something: encrypted}`
 
 - Encrypt a file with one or more public keys that are specified in a recipients file:
 
-`age --recipients-file {file something: path/to/recipients} {file something: path/to/unencrypted} --output {file something: path/to/encrypted}`
+`age --recipients-file {file something: recipients} {file something: unencrypted} --output {file something: encrypted}`
 
 - Decrypt a file with a passphrase:
 
-`age --decrypt --output {file something: path/to/decrypted} {file something: path/to/encrypted}`
+`age --decrypt --output {file something: decrypted} {file something: encrypted}`
 
 - Decrypt a file with a private key file:
 
-`age --decrypt --identity {file something: path/to/private_key} --output {file something: path/to/decrypted} {file something: path/to/encrypted}`
+`age --decrypt --identity {file something: private_key} --output {file something: decrypted} {file something: encrypted}`

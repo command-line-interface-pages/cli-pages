@@ -17,7 +17,7 @@
 
 - Start a specific CI job:
 
-`gitlint --target {directory something: path/to/target}`
+`gitlint --target {directory something: target}`
 
 - Path to a file containing a commit-msg:
 

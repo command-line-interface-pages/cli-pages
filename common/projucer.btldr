@@ -5,15 +5,15 @@
 
 - Display information about a project:
 
-`Projucer --status {file something: path/to/project}`
+`Projucer --status {file something: project}`
 
 - Resave all files and resources in a project:
 
-`Projucer --resave {file something: path/to/project}`
+`Projucer --resave {file something: project}`
 
 - Update the version number in a project:
 
-`Projucer --set-version {any something} {file something: path/to/project}`
+`Projucer --set-version {any something} {file something: project}`
 
 - Generate a JUCE project from a PIP file:
 

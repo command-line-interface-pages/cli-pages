@@ -29,7 +29,7 @@
 
 - Update a specific changelog file and tag a release:
 
-`standard-version --infile {any something}`
+`standard-version --infile {file something}`
 
 - Display the release that would be performed without performing them:
 

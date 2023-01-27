@@ -9,11 +9,11 @@
 
 - Execute a specific Python file:
 
-`ptpython {any something}`
+`ptpython {file something}`
 
 - Execute a specific Python file and start a REPL:
 
-`ptpython -i {any something}`
+`ptpython -i {file something}`
 
 - Open the menu:
 

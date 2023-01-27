@@ -26,7 +26,7 @@
 
 - Check whether a file or directory [e]xists:
 
-`if [[ -e {directory something: path/to/file_or} ]]; then {any something}; fi`
+`if [[ -e {file something|path something} ]]; then {any something}; fi`
 
 - Check whether a variable is defined:
 

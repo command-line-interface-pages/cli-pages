@@ -13,7 +13,7 @@
 
 - Analyze a specific directory or file:
 
-`psalm {directory something: path/to/file_or}`
+`psalm {file something|path something}`
 
 - Analyze a project with a specific configuration file:
 

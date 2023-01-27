@@ -9,8 +9,8 @@
 
 - Set a custom executable name:
 
-`gnatmake -o {any something} {any something}`
+`gnatmake -o {any something} {file something: source}`
 
 - [f]orce recompilation:
 
-`gnatmake -f {any something}`
+`gnatmake -f {file something: source}`

@@ -5,7 +5,7 @@
 
 - Import an existing patch from a file:
 
-`quilt import {any something}`
+`quilt import {file something}`
 
 - Create a new patch:
 

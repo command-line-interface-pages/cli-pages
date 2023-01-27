@@ -21,7 +21,7 @@
 
 - Decompress a gzipped file specifying the output filename:
 
-`gzip -c -d {any something}.gz > {any something}`
+`gzip -c -d {any something}.gz > {file something: uncompressed}`
 
 - Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
 
