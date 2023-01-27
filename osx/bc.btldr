@@ -1,7 +1,7 @@
 # bc
 
 > An arbitrary precision calculator language
-> See also: `dc`
+> See also: dc
 > More information: https://manned.org/man/freebsd-13.0/bc.1
 
 - Start an interactive session:

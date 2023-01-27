@@ -1,7 +1,7 @@
 # xzless
 
 > Display text from `.xz` and `.lzma` files
-> See also: `less`
+> See also: less
 > More information: https://manned.org/xzless
 
 - Open a compressed file:

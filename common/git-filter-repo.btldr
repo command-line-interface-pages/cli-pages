@@ -1,7 +1,7 @@
 # git filter-repo
 
 > A versatile tool for rewriting Git history
-> See also: `bfg`
+> See also: bfg
 > More information: https://github.com/newren/git-filter-repo
 
 - Replace a sensitive string in all files:

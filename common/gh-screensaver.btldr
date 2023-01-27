@@ -1,7 +1,7 @@
 # gh screensaver
 
 > Extension for GitHub CLI that runs animated terminal screensavers
-> See also: `gh extension`
+> See also: gh extension
 > More information: https://github.com/vilmibm/gh-screensaver
 
 - Run a random screensaver:

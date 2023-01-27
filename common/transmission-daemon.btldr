@@ -1,7 +1,7 @@
 # transmission-daemon
 
 > Daemon controlled with `transmission-remote` or its web interface
-> See also: `transmission`
+> See also: transmission
 > More information: https://manned.org/transmission-daemon
 
 - Start a headless `transmission` session:

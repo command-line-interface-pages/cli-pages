@@ -1,7 +1,7 @@
 # unzip
 
 > Extract files/directories from ZIP archives
-> See also: `zip`
+> See also: zip
 > More information: https://manned.org/unzip
 
 - Extract all files/directories from specific archives into the current directory:

@@ -1,7 +1,7 @@
 # ar
 
 > Create, modify, and extract from Unix archives. Typically used for static libraries (`.a`) and Debian packages (`.deb`)
-> See also: `tar`
+> See also: tar
 > More information: https://manned.org/ar
 
 - E[x]tract all members from an archive:

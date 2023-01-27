@@ -1,7 +1,7 @@
 # transmission-edit
 
 > Modify announce URLs from torrent files
-> See also: `transmission`
+> See also: transmission
 > More information: https://manned.org/transmission-edit
 
 - Add or remove a URL from a torrent's announce list:
