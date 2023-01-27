@@ -4,26 +4,26 @@
 > Built-in command of OS X
 > More information: https://ss64.com/osx/afinfo.html
 
-- Display info of a given audio file:
+- Display info of a specific audio file:
 
-`afinfo {file something}`
+`afinfo {file audio: foo.mp3}`
 
-- Print a one line description of the audio file:
+- Display a one line description of a specific audio file:
 
-`afinfo --brief {file something}`
+`afinfo --brief {file audio: foo.mp3}`
 
-- Print metadata info and contents of the audio file's InfoDictionary:
+- Display metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo --info {file something}`
+`afinfo --info {file audio: foo.mp3}`
 
-- Print output in XML format:
+- Display output in XML format:
 
-`afinfo --xml {file something}`
+`afinfo --xml {file audio: foo.mp3}`
 
-- Print warnings for the audio file if any:
+- Display warnings for a specific audio file if any:
 
-`afinfo --warnings {file something}`
+`afinfo --warnings {file audio: foo.mp3}`
 
-- Display help for full usage:
+- Display help:
 
 `afinfo --help`
