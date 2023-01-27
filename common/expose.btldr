@@ -17,7 +17,7 @@
 
 - Share a local URL:
 
-`expose share {any something}`
+`expose share {string url}`
 
 - Run the Expose server:
 

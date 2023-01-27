@@ -5,7 +5,7 @@
 
 - Connect to a specific instance at <https://account.snowflakecomputing.com> (password can be provided in prompt or configuration file):
 
-`snowsql --accountname {any something} --username {any something} --dbname {any something} --schemaname {any something}`
+`snowsql --accountname {any something} --username {string user} --dbname {any something} --schemaname {any something}`
 
 - Connect to an instance specified by a specific configuration file (defaults to `~/.snowsql/config`):
 

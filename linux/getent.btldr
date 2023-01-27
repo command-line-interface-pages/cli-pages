@@ -9,7 +9,7 @@
 
 - See the members of a group:
 
-`getent group {any something}`
+`getent group {string group}`
 
 - Get list of all services:
 

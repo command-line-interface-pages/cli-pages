@@ -18,4 +18,4 @@
 
 - Create an event in a remote machine's event log:
 
-`eventcreate /s {any something} /u {any something} /p {any something} /t {any something} /id {any something} /d "{any something}"`
+`eventcreate /s {any something} /u {string user} /p {any something} /t {any something} /id {any something} /d "{any something}"`

@@ -6,20 +6,20 @@
 
 - Download a URL to a file:
 
-`axel {any something}`
+`axel {string url}`
 
 - Download and specify filename:
 
-`axel {any something} -o {file something}`
+`axel {string url} -o {file something}`
 
 - Download with multiple connections:
 
-`axel -n {any something} {any something}`
+`axel -n {any something} {string url}`
 
 - Search for mirrors:
 
-`axel -S {any something} {any something}`
+`axel -S {any something} {string url}`
 
 - Limit download speed (bytes per second):
 
-`axel -s {any something} {any something}`
+`axel -s {any something} {string url}`

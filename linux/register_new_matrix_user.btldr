@@ -13,4 +13,4 @@
 
 - Create an admin user non-interactively (not recommended):
 
-`register_new_matrix_user --config {any something} --user {any something} --password {any something} --admin`
+`register_new_matrix_user --config {any something} --user {string user} --password {any something} --admin`

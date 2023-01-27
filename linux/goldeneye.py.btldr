@@ -5,19 +5,19 @@
 
 - Test a specific website:
 
-`./goldeneye.py {any something}`
+`./goldeneye.py {string url}`
 
 - Test a specific website with 100 user agents and 200 concurrent sockets:
 
-`./goldeneye.py {any something} --useragents 100 --sockets 200`
+`./goldeneye.py {string url} --useragents 100 --sockets 200`
 
 - Test a specific website without verifying the SSL certificate:
 
-`./goldeneye.py {any something} --nosslcheck`
+`./goldeneye.py {string url} --nosslcheck`
 
 - Test a specific website in debug mode:
 
-`./goldeneye.py {any something} --debug`
+`./goldeneye.py {string url} --debug`
 
 - Display help:
 

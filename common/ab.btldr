@@ -5,20 +5,20 @@
 
 - Execute 100 HTTP GET requests to a given URL:
 
-`ab -n {int number: 100} {any something}`
+`ab -n {int number: 100} {string url}`
 
 - Execute 100 HTTP GET requests, in concurrent batches of 10, to a URL:
 
-`ab -n {int number: 100} -c {int number: 10} {any something}`
+`ab -n {int number: 100} -c {int number: 10} {string url}`
 
 - Execute 100 HTTP POST requests to a URL, using a JSON payload from a file:
 
-`ab -n {int number: 100} -T {any something} -p {file something} {any something}`
+`ab -n {int number: 100} -T {any something} -p {file something} {string url}`
 
 - Use HTTP [K]eep Alive, i.e. perform multiple requests within one HTTP session:
 
-`ab -k {any something}`
+`ab -k {string url}`
 
 - Set the maximum number of seconds to spend for benchmarking:
 
-`ab -t {int number: 60} {any something}`
+`ab -t {int number: 60} {string url}`

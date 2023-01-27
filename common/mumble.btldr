@@ -9,11 +9,11 @@
 
 - Open Mumble and immediately connect to a server:
 
-`mumble mumble://{any something}@{any something}`
+`mumble mumble://{string user}@{any something}`
 
 - Open Mumble and immediately connect to a password protected server:
 
-`mumble mumble://{any something}:{any something}@{any something}`
+`mumble mumble://{string user}:{any something}@{any something}`
 
 - Mute/unmute the microphone in a running Mumble instance:
 

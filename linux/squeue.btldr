@@ -9,7 +9,7 @@
 
 - View jobs queued by a specific user:
 
-`squeue -u {any something}`
+`squeue -u {string user}`
 
 - View the queue and refresh every 5 seconds:
 

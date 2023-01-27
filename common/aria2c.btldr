@@ -6,11 +6,11 @@
 
 - Download a specific URI to a file:
 
-`aria2c "{any something}"`
+`aria2c "{string url}"`
 
 - Download a file from a URI with a specific output name:
 
-`aria2c --out={file something} "{any something}"`
+`aria2c --out={file something} "{string url}"`
 
 - Download multiple different files in parallel:
 
@@ -26,12 +26,12 @@
 
 - Download with multiple connections:
 
-`aria2c --split={any something} "{any something}"`
+`aria2c --split={any something} "{string url}"`
 
 - FTP download with username and password:
 
-`aria2c --ftp-user={any something} --ftp-passwd={any something} "{any something}"`
+`aria2c --ftp-user={string user} --ftp-passwd={any something} "{string url}"`
 
 - Limit download speed in bytes/s:
 
-`aria2c --max-download-limit={any something} "{any something}"`
+`aria2c --max-download-limit={any something} "{string url}"`

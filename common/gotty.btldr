@@ -13,4 +13,4 @@
 
 - Share with credential (Basic Auth):
 
-`gotty -w -c {any something}:{any something} {any something}`
+`gotty -w -c {string user}:{any something} {any something}`

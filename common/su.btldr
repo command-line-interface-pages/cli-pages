@@ -9,12 +9,12 @@
 
 - Switch to a given user (requires the user's password):
 
-`su {any something}`
+`su {string user}`
 
 - Switch to a given user and simulate a full login shell:
 
-`su - {any something}`
+`su - {string user}`
 
 - Execute a command as another user:
 
-`su - {any something} -c "{any something}"`
+`su - {string user} -c "{any something}"`

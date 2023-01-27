@@ -5,7 +5,7 @@
 
 - Scan a web server for common paths with common extensions:
 
-`dirsearch --url {any something} --extensions-list`
+`dirsearch --url {string url} --extensions-list`
 
 - Scan a list of web servers for common paths with the `.php` extension:
 
@@ -13,16 +13,16 @@
 
 - Scan a web server for user-defined paths with common extensions:
 
-`dirsearch --url {any something} --extensions-list --wordlist {any something}`
+`dirsearch --url {string url} --extensions-list --wordlist {any something}`
 
 - Scan a web server using a cookie:
 
-`dirsearch --url {any something} --extensions {any something} --cookie {any something}`
+`dirsearch --url {string url} --extensions {any something} --cookie {any something}`
 
 - Scan a web server using the `HEAD` HTTP method:
 
-`dirsearch --url {any something} --extensions {any something} --http-method {any something}`
+`dirsearch --url {string url} --extensions {any something} --http-method {any something}`
 
 - Scan a web server, saving the results to a `.json` file:
 
-`dirsearch --url {any something} --extensions {any something} --json-report {any something}`
+`dirsearch --url {string url} --extensions {any something} --json-report {any something}`

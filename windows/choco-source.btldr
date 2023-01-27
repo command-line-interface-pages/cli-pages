@@ -9,15 +9,15 @@
 
 - Add a new package source:
 
-`choco source add --name {any something} --source {any something}`
+`choco source add --name {any something} --source {string url}`
 
 - Add a new package source with credentials:
 
-`choco source add --name {any something} --source {any something} --user {any something} --password {any something}`
+`choco source add --name {any something} --source {string url} --user {string user} --password {any something}`
 
 - Add a new package source with a client certificate:
 
-`choco source add --name {any something} --source {any something} --cert {any something}`
+`choco source add --name {any something} --source {string url} --cert {any something}`
 
 - Enable a package source:
 

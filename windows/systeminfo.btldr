@@ -13,7 +13,7 @@
 
 - Display system configuration for a remote machine:
 
-`systeminfo /s {any something} /u {any something} /p {any something}`
+`systeminfo /s {any something} /u {string user} /p {any something}`
 
 - Display detailed usage information:
 

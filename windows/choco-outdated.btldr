@@ -17,4 +17,4 @@
 
 - Provide a username and password for authentication:
 
-`choco outdated --user {any something} --password {any something}`
+`choco outdated --user {string user} --password {any something}`

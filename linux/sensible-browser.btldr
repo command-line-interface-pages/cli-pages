@@ -9,4 +9,4 @@
 
 - Open a URL in the default browser:
 
-`sensible-browser {any something}`
+`sensible-browser {string url}`

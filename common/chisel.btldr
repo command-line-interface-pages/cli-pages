@@ -13,7 +13,7 @@
 
 - Run a chisel server that accepts authenticated connections using username and password:
 
-`chisel server --auth {any something}:{any something}`
+`chisel server --auth {string user}:{any something}`
 
 - Connect to a Chisel server and tunnel a specific port to a remote server and port:
 
@@ -25,4 +25,4 @@
 
 - Connect to a Chisel server using username and password authentication:
 
-`chisel client --auth {any something}:{any something} {any something}:{any something} {any something}:{any something}:{any something}`
+`chisel client --auth {string user}:{any something} {any something}:{any something} {any something}:{any something}:{any something}`

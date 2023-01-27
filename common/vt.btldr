@@ -10,7 +10,7 @@
 
 - Scan a URL for viruses:
 
-`vt scan url {any something}`
+`vt scan url {string url}`
 
 - Display information from a specific analysis:
 
@@ -26,11 +26,11 @@
 
 - Display information about a domain:
 
-`vt domain {any something}`
+`vt domain {string url}`
 
 - Display information for a specific URL:
 
-`vt url {any something}`
+`vt url {string url}`
 
 - Display information for a specific IP address:
 

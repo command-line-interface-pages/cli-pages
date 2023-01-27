@@ -26,7 +26,7 @@
 
 - Download a file from an HTTP server using Basic Auth (also works for FTP):
 
-`wget --user={any something} --password={any something} {any something}`
+`wget --user={string user} --password={any something} {any something}`
 
 - Continue an incomplete download:
 

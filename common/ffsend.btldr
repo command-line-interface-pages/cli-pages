@@ -9,7 +9,7 @@
 
 - Download a file:
 
-`ffsend download {any something}`
+`ffsend download {string url}`
 
 - Upload a file with password:
 

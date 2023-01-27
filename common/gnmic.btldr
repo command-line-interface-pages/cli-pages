@@ -10,7 +10,7 @@
 
 - Provide a username and password to fetch device capabilities:
 
-`gnmic --address {any something} --username {any something} --password {any something} capabilities`
+`gnmic --address {any something} --username {string user} --password {any something} capabilities`
 
 - Get a snapshot of the device state at a specific path:
 

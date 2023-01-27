@@ -14,4 +14,4 @@
 
 - Password protect the server:
 
-`calibre-server --username {any something} --password {any something}`
+`calibre-server --username {string user} --password {any something}`

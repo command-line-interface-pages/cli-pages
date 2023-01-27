@@ -9,4 +9,4 @@
 
 - Cancel all jobs from a user:
 
-`scancel {any something}`
+`scancel {string user}`

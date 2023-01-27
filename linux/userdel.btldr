@@ -6,12 +6,12 @@
 
 - Remove a user:
 
-`sudo userdel {any something}`
+`sudo userdel {string user}`
 
 - Remove a user in other root directory:
 
-`sudo userdel --root {any something} {any something}`
+`sudo userdel --root {any something} {string user}`
 
 - Remove a user along with the home directory and mail spool:
 
-`sudo userdel --remove {any something}`
+`sudo userdel --remove {string user}`

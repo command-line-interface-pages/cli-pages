@@ -22,4 +22,4 @@
 
 - Resume all tasks in a specific group:
 
-`pueue start group {any something}`
+`pueue start group {string group}`

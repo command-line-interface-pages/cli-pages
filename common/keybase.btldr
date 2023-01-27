@@ -5,7 +5,7 @@
 
 - Follow another user:
 
-`keybase follow {any something}`
+`keybase follow {string user}`
 
 - Add a new proof:
 

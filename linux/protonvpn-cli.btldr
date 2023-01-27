@@ -5,7 +5,7 @@
 
 - Log in to the ProtonVPN account:
 
-`protonvpn-cli login {any something}`
+`protonvpn-cli login {string user}`
 
 - Start a kill switch upon connecting to ProtonVPN:
 

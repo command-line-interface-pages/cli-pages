@@ -10,7 +10,7 @@
 
 - Start/stop/restart all processes in a group:
 
-`supervisorctl {any something} {any something}:*`
+`supervisorctl {any something} {string group}:*`
 
 - Show last 100 **bytes** of process stderr:
 

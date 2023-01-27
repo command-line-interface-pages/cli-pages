@@ -9,7 +9,7 @@
 
 - Display information about a specific user:
 
-`finger {any something}`
+`finger {string user}`
 
 - Display the user's login name, real name, terminal name, and other information:
 

@@ -5,7 +5,7 @@
 
 - Log into a Gitea server:
 
-`tea login add --name "{any something}" --url "{any something}" --token "{any something}"`
+`tea login add --name "{any something}" --url "{string url}" --token "{any something}"`
 
 - Display all repositories:
 

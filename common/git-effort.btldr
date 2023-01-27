@@ -14,7 +14,7 @@
 
 - Display files modified by a specific author, showing commits and active days:
 
-`git effort -- --author="{any something}"`
+`git effort -- --author="{string user}"`
 
 - Display files modified since a specific time/date, showing commits and active days:
 

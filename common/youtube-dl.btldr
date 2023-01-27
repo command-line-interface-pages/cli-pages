@@ -17,15 +17,15 @@
 
 - Download the audio from a video and convert it to an MP3:
 
-`youtube-dl -x --audio-format {any something} '{any something}'`
+`youtube-dl -x --audio-format {any something} '{string url}'`
 
 - Download the best quality audio and video and merge them:
 
-`youtube-dl -f bestvideo+bestaudio '{any something}'`
+`youtube-dl -f bestvideo+bestaudio '{string url}'`
 
 - Download video(s) as MP4 files with custom filenames:
 
-`youtube-dl --format {any something} -o "{any something}" '{any something}'`
+`youtube-dl --format {any something} -o "{any something}" '{string url}'`
 
 - Download a particular language's subtitles along with the video:
 

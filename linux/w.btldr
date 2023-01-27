@@ -9,7 +9,7 @@
 
 - Display information about a specific user:
 
-`w {any something}`
+`w {string user}`
 
 - Display information without including the header:
 

@@ -18,7 +18,7 @@
 
 - Make a request with HTTP authentication:
 
-`lwp-request -C {any something}:{any something} -m {any something} {any something}`
+`lwp-request -C {string user}:{any something} -m {any something} {any something}`
 
 - Make a request and print request headers:
 

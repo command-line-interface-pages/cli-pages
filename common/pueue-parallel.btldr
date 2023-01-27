@@ -9,4 +9,4 @@
 
 - Set the maximum number of tasks allowed to run in parallel, in a specific group:
 
-`pueue parallel --group {any something} {any something}`
+`pueue parallel --group {string group} {any something}`

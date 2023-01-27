@@ -13,8 +13,8 @@
 
 - Print how long a particular user has been connected in hours:
 
-`ac -p {any something}`
+`ac -p {string user}`
 
 - Print how long a particular user has been connected in hours per day (with total):
 
-`ac -dp {any something}`
+`ac -dp {string user}`

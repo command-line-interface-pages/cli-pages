@@ -9,8 +9,8 @@
 
 - Copy the given public key to the remote:
 
-`ssh-copy-id -i {any something} {any something}@{any something}`
+`ssh-copy-id -i {any something} {string user}@{any something}`
 
 - Copy the given public key to the remote with specific port:
 
-`ssh-copy-id -i {any something} -p {any something} {any something}@{any something}`
+`ssh-copy-id -i {any something} -p {any something} {string user}@{any something}`

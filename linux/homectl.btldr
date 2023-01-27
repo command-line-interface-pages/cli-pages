@@ -9,27 +9,27 @@
 
 - Create a user account and their associated home directory:
 
-`sudo homectl create {any something}`
+`sudo homectl create {string user}`
 
 - Remove a specific user and the associated home directory:
 
-`sudo homectl remove {any something}`
+`sudo homectl remove {string user}`
 
 - Change the password for a specific user:
 
-`sudo homectl passwd {any something}`
+`sudo homectl passwd {string user}`
 
 - Run a shell or a command with access to a specific home directory:
 
-`sudo homectl with {any something} -- {any something} {any something}`
+`sudo homectl with {string user} -- {any something} {any something}`
 
 - Lock or unlock a specific home directory:
 
-`sudo homectl {any something} {any something}`
+`sudo homectl {any something} {string user}`
 
 - Change the disk space assigned to a specific home directory to 100 GiB:
 
-`sudo homectl resize {any something} {any something}`
+`sudo homectl resize {string user} {any something}`
 
 - Display help:
 

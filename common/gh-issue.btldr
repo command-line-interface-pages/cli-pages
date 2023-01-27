@@ -21,7 +21,7 @@
 
 - List closed issues made by a specific user:
 
-`gh issue list --state closed --author {any something}`
+`gh issue list --state closed --author {string user}`
 
 - Display the status of issues relevant to the user, in a specific repository:
 

@@ -13,7 +13,7 @@
 
 - Upload to PyPI with a specified [u]sername and [p]assword:
 
-`twine upload -u {any something} -p {any something} dist/*`
+`twine upload -u {string user} -p {any something} dist/*`
 
 - Upload to an alternative repository URL:
 

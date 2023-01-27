@@ -17,7 +17,7 @@
 
 - Display the MAC addresses for a remote machine:
 
-`getmac /s {any something} /u {any something} /p {any something}`
+`getmac /s {any something} /u {string user} /p {any something}`
 
 - Display the MAC addresses with verbose information:
 

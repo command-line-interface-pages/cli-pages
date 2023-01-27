@@ -25,4 +25,4 @@
 
 - Provide a username and password for authentication:
 
-`choco list --user {any something} --password {any something}`
+`choco list --user {string user} --password {any something}`

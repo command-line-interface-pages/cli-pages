@@ -17,7 +17,7 @@
 
 - View all logins by a specific user and show the IP address instead of the hostname:
 
-`last {any something} -i`
+`last {string user} -i`
 
 - View all recorded reboots (i.e., the last logins of the pseudo user "reboot"):
 

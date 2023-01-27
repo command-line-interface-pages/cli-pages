@@ -9,7 +9,7 @@
 
 - Enumerate using given login credentials:
 
-`enum4linux -u {any something} -p {any something} {any something}`
+`enum4linux -u {string user} -p {any something} {any something}`
 
 - List usernames from a given host:
 

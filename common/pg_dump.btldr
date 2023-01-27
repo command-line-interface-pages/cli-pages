@@ -9,7 +9,7 @@
 
 - Same as above, customize username:
 
-`pg_dump -U {any something} {any something} > {file something: output}`
+`pg_dump -U {string user} {any something} > {file something: output}`
 
 - Same as above, customize host and port:
 

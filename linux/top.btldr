@@ -13,7 +13,7 @@
 
 - Show only processes owned by given user:
 
-`top -u {any something}`
+`top -u {string user}`
 
 - Sort processes by a field:
 

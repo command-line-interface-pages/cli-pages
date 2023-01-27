@@ -9,4 +9,4 @@
 
 - SSH to a specific host which has Tailscale-SSH enabled:
 
-`tailscale ssh {any something}@{any something}`
+`tailscale ssh {string user}@{any something}`

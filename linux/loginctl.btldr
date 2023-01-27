@@ -13,11 +13,11 @@
 
 - Print all properties of a specific user:
 
-`loginctl show-user {any something}`
+`loginctl show-user {string user}`
 
 - Print a specific property of a user:
 
-`loginctl show-user {any something} --property={any something}`
+`loginctl show-user {string user} --property={any something}`
 
 - Execute a `loginctl` operation on a remote host:
 

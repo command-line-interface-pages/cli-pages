@@ -21,7 +21,7 @@
 
 - List closed issues made by a specific user:
 
-`glab issue list --closed --author {any something}`
+`glab issue list --closed --author {string user}`
 
 - Reopen a specific issue:
 

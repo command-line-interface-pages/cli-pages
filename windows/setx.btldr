@@ -13,7 +13,7 @@
 
 - Set an environment variable for a user on a remote machine:
 
-`setx /s {any something} /u {any something} /p {any something} {any something} {any something}`
+`setx /s {any something} /u {string user} /p {any something} {any something} {any something}`
 
 - Set an environment variable from a registry key value:
 

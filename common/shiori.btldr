@@ -9,7 +9,7 @@
 
 - Save the specified URL as bookmark:
 
-`shiori add {any something}`
+`shiori add {string url}`
 
 - List the saved bookmarks:
 

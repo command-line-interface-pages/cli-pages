@@ -13,7 +13,7 @@
 
 - Start an HTTP server using basic authentication:
 
-`http-server --username {any something} --password {any something}`
+`http-server --username {string user} --password {any something}`
 
 - Start an HTTP server with directory listings disabled:
 

@@ -5,7 +5,7 @@
 
 - Ping the specified URL:
 
-`httping -g {any something}`
+`httping -g {string url}`
 
 - Ping the web server on `host` and `port`:
 
@@ -17,4 +17,4 @@
 
 - Ping the web server on `host` using HTTP basic authentication:
 
-`httping -g http://{any something} -U {any something} -P {any something}`
+`httping -g http://{any something} -U {string user} -P {any something}`

@@ -25,7 +25,7 @@
 
 - Create a dump of a given database with a given username; user will be prompted for password:
 
-`mongodump --username {any something} {any something} --password`
+`mongodump --username {string user} {any something} --password`
 
 - Create a dump from a specific instance; host, user, password and database will be defined in the connection string:
 

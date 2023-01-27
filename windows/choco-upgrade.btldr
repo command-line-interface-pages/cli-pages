@@ -29,4 +29,4 @@
 
 - Provide a username and password for authentication:
 
-`choco upgrade {any something} --user {any something} --password {any something}`
+`choco upgrade {any something} --user {string user} --password {any something}`

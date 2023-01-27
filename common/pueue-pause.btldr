@@ -18,7 +18,7 @@
 
 - Pause all tasks in a group and prevent it from starting new tasks:
 
-`pueue pause --group {any something}`
+`pueue pause --group {string group}`
 
 - Pause all tasks and prevent all groups from starting new tasks:
 

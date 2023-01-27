@@ -13,4 +13,4 @@
 
 - Serve a directory using HTTP basic authentication:
 
-`miniserve --auth {any something}:{any something} {directory something}`
+`miniserve --auth {string user}:{any something} {directory something}`

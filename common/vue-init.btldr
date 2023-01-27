@@ -13,4 +13,4 @@
 
 - Create a new project using a template from GitHub:
 
-`vue init {any something}/{any something} {any something}`
+`vue init {string user}/{any something} {any something}`

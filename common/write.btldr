@@ -6,7 +6,7 @@
 
 - Send a message to a given user on a given terminal id:
 
-`write {any something} {any something}`
+`write {string user} {any something}`
 
 - Send message to "testuser" on terminal `/dev/tty/5`:
 

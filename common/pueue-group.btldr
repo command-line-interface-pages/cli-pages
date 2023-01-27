@@ -9,8 +9,8 @@
 
 - Add a custom group:
 
-`pueue group --add "{any something}"`
+`pueue group --add "{string group}"`
 
 - Remove a group and move its tasks to the default group:
 
-`pueue group --remove "{any something}"`
+`pueue group --remove "{string group}"`

@@ -14,7 +14,7 @@
 
 - Checkout a merge request from its URL:
 
-`git mr {any something}`
+`git mr {string url}`
 
 - Clean up old merge request branches:
 

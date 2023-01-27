@@ -13,11 +13,11 @@
 
 - Print how long a particular user has been connected in hours:
 
-`ac --individual-totals {any something}`
+`ac --individual-totals {string user}`
 
 - Print how long a particular user has been connected in hours per day (with total):
 
-`ac --daily-totals --individual-totals {any something}`
+`ac --daily-totals --individual-totals {string user}`
 
 - Also display additional details:
 

@@ -21,12 +21,12 @@
 
 - Fetch a webpage as Scrapy sees it and print the source to stdout:
 
-`scrapy fetch {any something}`
+`scrapy fetch {string url}`
 
 - Open a webpage in the default browser as Scrapy sees it (disable JavaScript for extra fidelity):
 
-`scrapy view {any something}`
+`scrapy view {string url}`
 
 - Open Scrapy shell for URL, which allows interaction with the page source in a Python shell (or IPython if available):
 
-`scrapy shell {any something}`
+`scrapy shell {string url}`

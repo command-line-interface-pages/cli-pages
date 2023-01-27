@@ -13,7 +13,7 @@
 
 - Switch to a specific user, showing an authentication prompt if required:
 
-`dm-tool switch-to-user {any something} {any something}`
+`dm-tool switch-to-user {string user} {any something}`
 
 - Add a dynamic seat from within a running LightDM session:
 

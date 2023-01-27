@@ -6,20 +6,20 @@
 
 - Change a username:
 
-`sudo usermod --login {any something} {any something}`
+`sudo usermod --login {any something} {string user}`
 
 - Change a user id:
 
-`sudo usermod --uid {any something} {any something}`
+`sudo usermod --uid {any something} {string user}`
 
 - Change a user shell:
 
-`sudo usermod --shell {any something} {any something}`
+`sudo usermod --shell {any something} {string user}`
 
 - Add a user to supplementary groups (mind the lack of whitespace):
 
-`sudo usermod --append --groups {any something} {any something}`
+`sudo usermod --append --groups {any something} {string user}`
 
 - Change a user home directory:
 
-`sudo usermod --move-home --home {any something} {any something}`
+`sudo usermod --move-home --home {any something} {string user}`

@@ -5,11 +5,11 @@
 
 - Remove all fingerprints for a specific user:
 
-`fprintd-delete {any something}`
+`fprintd-delete {string user}`
 
 - Remove a specific fingerprints for a specific user:
 
-`fprintd-delete {any something} --finger {any something}`
+`fprintd-delete {string user} --finger {any something}`
 
 - Display help:
 

@@ -18,7 +18,7 @@
 
 - List files opened by the given user:
 
-`lsof -u {any something}`
+`lsof -u {string user}`
 
 - List files opened by the given command or process:
 

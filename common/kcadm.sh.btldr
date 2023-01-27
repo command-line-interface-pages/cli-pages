@@ -5,11 +5,11 @@
 
 - Start an authenticated session:
 
-`kcadm.sh config credentials --server {any something} --realm {any something} --user {any something} --password {any something}`
+`kcadm.sh config credentials --server {any something} --realm {any something} --user {string user} --password {any something}`
 
 - Create a user:
 
-`kcadm.sh create users -s username={any something} -r {any something}`
+`kcadm.sh create users -s username={string user} -r {any something}`
 
 - List all realms:
 

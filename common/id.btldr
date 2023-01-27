@@ -17,4 +17,4 @@
 
 - Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong:
 
-`id {any something}`
+`id {string user}`

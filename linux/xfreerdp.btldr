@@ -5,20 +5,20 @@
 
 - Connect to a FreeRDP server:
 
-`xfreerdp /u:{any something} /p:{any something} /v:{any something}`
+`xfreerdp /u:{string user} /p:{any something} /v:{any something}`
 
 - Connect to a FreeRDP server and activate audio output redirection using `sys:alsa` device:
 
-`xfreerdp /u:{any something} /p:{any something} /v:{any something} /sound:{any something}`
+`xfreerdp /u:{string user} /p:{any something} /v:{any something} /sound:{any something}`
 
 - Connect to a FreeRDP server with dynamic resolution:
 
-`xfreerdp /v:{any something} /u:{any something} /p:{any something} /dynamic-resolution`
+`xfreerdp /v:{any something} /u:{string user} /p:{any something} /dynamic-resolution`
 
 - Connect to a FreeRDP server with clipboard redirection:
 
-`xfreerdp /v:{any something} /u:{any something} /p:{any something} +clipboard`
+`xfreerdp /v:{any something} /u:{string user} /p:{any something} +clipboard`
 
 - Connect to a FreeRDP server ignoring any certificate checks:
 
-`xfreerdp /v:{any something} /u:{any something} /p:{any something} /cert:ignore`
+`xfreerdp /v:{any something} /u:{string user} /p:{any something} /cert:ignore`

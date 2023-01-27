@@ -13,7 +13,7 @@
 
 - Connect to a database with a given username; user will be prompted for password:
 
-`mongo --username {any something} {any something} --password`
+`mongo --username {string user} {any something} --password`
 
 - Evaluate a JavaScript expression on the database:
 

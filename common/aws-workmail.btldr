@@ -13,7 +13,7 @@
 
 - Create a WorkMail user in a specific organization:
 
-`aws workmail create-user --name {any something} --display-name {any something} --password {any something} --organization-id {any something}`
+`aws workmail create-user --name {string user} --display-name {any something} --password {any something} --organization-id {any something}`
 
 - Register and enable a group/user to WorkMail:
 
@@ -21,7 +21,7 @@
 
 - Create a WorkMail group in a specific organization:
 
-`aws workmail create-group --name {any something} --organization-id {any something}`
+`aws workmail create-group --name {string group} --organization-id {any something}`
 
 - Associate a member to a specific group:
 

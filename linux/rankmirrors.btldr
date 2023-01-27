@@ -18,7 +18,7 @@
 
 - Test only a specific URL:
 
-`rankmirrors --url {any something}`
+`rankmirrors --url {string url}`
 
 - Output only the response times instead of a full mirrorlist:
 

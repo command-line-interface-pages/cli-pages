@@ -9,7 +9,7 @@
 
 - Connect with a specific username (will prompt for a password):
 
-`influx -username {any something} -password ""`
+`influx -username {string user} -password ""`
 
 - Connect to a specific host:
 

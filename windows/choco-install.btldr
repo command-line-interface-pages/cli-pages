@@ -33,4 +33,4 @@
 
 - Provide a username and password for authentication:
 
-`choco install {any something} --user {any something} --password {any something}`
+`choco install {any something} --user {string user} --password {any something}`

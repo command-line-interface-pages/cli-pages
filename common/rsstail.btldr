@@ -5,20 +5,20 @@
 
 - Show the feed of a given URL and wait for new entries appearing at the bottom:
 
-`rsstail -u {any something}`
+`rsstail -u {string url}`
 
 - Show the feed in reverse chronological order (newer at the bottom):
 
-`rsstail -r -u {any something}`
+`rsstail -r -u {string url}`
 
 - Include publication date and link:
 
-`rsstail -pl -u {any something}`
+`rsstail -pl -u {string url}`
 
 - Set update interval:
 
-`rsstail -u {any something} -i {any something}`
+`rsstail -u {string url} -i {any something}`
 
 - Show feed and exit:
 
-`rsstail -1 -u {any something}`
+`rsstail -1 -u {string url}`

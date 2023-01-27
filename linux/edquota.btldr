@@ -10,7 +10,7 @@
 
 - Edit quota of a specific user:
 
-`sudo edquota --user {any something}`
+`sudo edquota --user {string user}`
 
 - Edit quota for a group:
 

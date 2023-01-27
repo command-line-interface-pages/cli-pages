@@ -9,7 +9,7 @@
 
 - Add a new site to Oh Dear:
 
-`ohdear-cli sites:add {any something}`
+`ohdear-cli sites:add {string url}`
 
 - Display a list of sites and their current status:
 

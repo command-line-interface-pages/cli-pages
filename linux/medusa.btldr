@@ -9,7 +9,7 @@
 
 - Execute a login attempt against an HTTP server using the username, password and user-agent specified:
 
-`medusa -M HTTP -h host -u {any something} -p {any something} -m USER-AGENT:"{any something}"`
+`medusa -M HTTP -h host -u {string user} -p {any something} -m USER-AGENT:"{any something}"`
 
 - Execute a brute force against a MySQL server using a file containing usernames and a hash:
 
@@ -17,4 +17,4 @@
 
 - Execute a brute force against a list of SMB servers using a username and a pwdump file:
 
-`medusa -M smbnt -H {file something: hosts} -C {file something: pwdump} -u {any something} -m PASS:HASH`
+`medusa -M smbnt -H {file something: hosts} -C {file something: pwdump} -u {string user} -m PASS:HASH`

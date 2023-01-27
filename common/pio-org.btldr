@@ -13,11 +13,11 @@
 
 - Add a user to an organization:
 
-`pio org add {any something} {any something}`
+`pio org add {any something} {string user}`
 
 - Remove a user from an organization:
 
-`pio org remove {any something} {any something}`
+`pio org remove {any something} {string user}`
 
 - List all organizations the current user is a member of and their owners:
 

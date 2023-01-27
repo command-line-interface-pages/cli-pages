@@ -6,32 +6,32 @@
 
 - Connect to a remote server:
 
-`ssh {any something}@{any something}`
+`ssh {string user}@{any something}`
 
 - Connect to a remote server with a specific identity (private key):
 
-`ssh -i {file something: key} {any something}@{any something}`
+`ssh -i {file something: key} {string user}@{any something}`
 
 - Connect to a remote server using a specific port:
 
-`ssh {any something}@{any something} -p {int number: 2222}`
+`ssh {string user}@{any something} -p {int number: 2222}`
 
 - Run a command on a remote server with a [t]ty allocation allowing interaction with the remote command:
 
-`ssh {any something}@{any something} -t {any something} {any something}`
+`ssh {string user}@{any something} -t {any something} {any something}`
 
 - SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
-`ssh -D {int number: 1080} {any something}@{any something}`
+`ssh -D {int number: 1080} {string user}@{any something}`
 
 - SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:
 
-`ssh -L {int number: 9999}:{any something}:{int number: 80} -N -T {any something}@{any something}`
+`ssh -L {int number: 9999}:{any something}:{int number: 80} -N -T {string user}@{any something}`
 
 - SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
-`ssh -J {any something}@{any something} {any something}@{any something}`
+`ssh -J {string user}@{any something} {string user}@{any something}`
 
 - Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
-`ssh -A {any something}@{any something}`
+`ssh -A {string user}@{any something}`

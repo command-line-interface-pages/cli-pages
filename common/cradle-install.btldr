@@ -21,4 +21,4 @@
 
 - Use specific database details:
 
-`cradle install -h {any something} -u {any something} -p {any something}`
+`cradle install -h {any something} -u {string user} -p {any something}`

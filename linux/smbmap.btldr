@@ -5,32 +5,32 @@
 
 - Display SMB shares and permissions on a host, prompting for user's password or NTLM hash:
 
-`smbmap -u {any something} --prompt -H {any something}`
+`smbmap -u {string user} --prompt -H {any something}`
 
 - Display SMB shares and permissions on a host, specifying the domain and passing the password NTLM hash:
 
-`smbmap -u {any something} --prompt -d {any something} -H {any something}`
+`smbmap -u {string user} --prompt -d {any something} -H {any something}`
 
 - Display SMB shares and list a single level of directories and files:
 
-`smbmap -u {any something} --prompt -H {any something} -r`
+`smbmap -u {string user} --prompt -H {any something} -r`
 
 - Display SMB shares and recursively list a defined number of levels of directories and files:
 
-`smbmap -u {any something} --prompt -H {any something} -R --depth {int number: 3}`
+`smbmap -u {string user} --prompt -H {any something} -R --depth {int number: 3}`
 
 - Display SMB shares and recursively list directories and files, downloading the files matching a regular expression:
 
-`smbmap -u {any something} --prompt -H {any something} -R -A {any something}`
+`smbmap -u {string user} --prompt -H {any something} -R -A {any something}`
 
 - Display SMB shares and recursively list directories and files, searching for file content matching a regular expression:
 
-`smbmap -u {any something} --prompt -H {any something} -R -F {any something}`
+`smbmap -u {string user} --prompt -H {any something} -R -F {any something}`
 
 - Execute a shell command on a remote system:
 
-`smbmap -u {any something} --prompt -H {any something} -x {any something}`
+`smbmap -u {string user} --prompt -H {any something} -x {any something}`
 
 - Upload a file to a remote system:
 
-`smbmap -u {any something} --prompt -H {any something} --upload {any something} {any something}`
+`smbmap -u {string user} --prompt -H {any something} --upload {any something} {any something}`

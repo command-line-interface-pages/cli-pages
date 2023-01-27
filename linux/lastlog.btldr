@@ -9,7 +9,7 @@
 
 - Display the lastlog record of the specified user:
 
-`lastlog --user {any something}`
+`lastlog --user {string user}`
 
 - Display records older than 7 days:
 

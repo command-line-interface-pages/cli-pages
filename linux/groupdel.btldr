@@ -6,4 +6,4 @@
 
 - Delete an existing group:
 
-`sudo groupdel {any something}`
+`sudo groupdel {string group}`

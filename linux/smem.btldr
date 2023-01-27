@@ -13,7 +13,7 @@
 
 - Print memory usage for current processes for a specified user:
 
-`smem --userfilter {any something}`
+`smem --userfilter {string user}`
 
 - Print system memory information:
 

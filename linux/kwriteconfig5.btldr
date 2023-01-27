@@ -9,15 +9,15 @@
 
 - Set a global configuration key:
 
-`kwriteconfig5 --group {any something} --key {any something} {any something}`
+`kwriteconfig5 --group {string group} --key {any something} {any something}`
 
 - Set a key in a specific configuration file:
 
-`kwriteconfig5 --file {file something} --group {any something} --key {any something} {any something}`
+`kwriteconfig5 --file {file something} --group {string group} --key {any something} {any something}`
 
 - Delete a key:
 
-`kwriteconfig5 --group {any something} --key {any something} --delete`
+`kwriteconfig5 --group {string group} --key {any something} --delete`
 
 - Use systemd to start the Plasma session when available:
 

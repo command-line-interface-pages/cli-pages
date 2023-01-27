@@ -13,7 +13,7 @@
 
 - List authorized keys for a specific user:
 
-`nixos-option users.users.{any something}.openssh.authorizedKeys.{any something}`
+`nixos-option users.users.{string user}.openssh.authorizedKeys.{any something}`
 
 - List all remote builders:
 

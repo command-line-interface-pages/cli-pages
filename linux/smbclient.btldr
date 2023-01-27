@@ -9,11 +9,11 @@
 
 - Connect with a different username:
 
-`smbclient {any something} --user {any something}`
+`smbclient {any something} --user {string user}`
 
 - Connect with a different workgroup:
 
-`smbclient {any something} --workgroup {any something} --user {any something}`
+`smbclient {any something} --workgroup {any something} --user {string user}`
 
 - Connect with a username and password:
 

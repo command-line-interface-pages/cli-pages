@@ -9,8 +9,8 @@
 
 - Connect to a database (user will be prompted for a password):
 
-`mycli -u {any something} {any something}`
+`mycli -u {string user} {any something}`
 
 - Connect to a database on another host:
 
-`mycli -h {any something} -P {any something} -u {any something} {any something}`
+`mycli -h {any something} -P {any something} -u {string user} {any something}`

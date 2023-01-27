@@ -18,8 +18,8 @@
 
 - Connect to a specific remote virtual machine over TLS:
 
-`virt-viewer --connect "xen//{any something}" "{any something}"`
+`virt-viewer --connect "xen//{string url}" "{any something}"`
 
 - Connect to a specific remote virtual machine over SSH:
 
-`virt-viewer --connect "qemu+ssh//{any something}@{any something}/system" "{any something}"`
+`virt-viewer --connect "qemu+ssh//{string user}@{string url}/system" "{any something}"`

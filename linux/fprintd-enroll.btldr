@@ -13,11 +13,11 @@
 
 - Enroll the right index finger for a specific user:
 
-`fprintd-enroll {any something}`
+`fprintd-enroll {string user}`
 
 - Enroll a specific finger for a specific user:
 
-`fprintd-enroll --finger {any something} {any something}`
+`fprintd-enroll --finger {any something} {string user}`
 
 - Display help:
 

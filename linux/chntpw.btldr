@@ -10,7 +10,7 @@
 
 - Edit [u]ser interactively:
 
-`chntpw -u {any something} {file something: sam}`
+`chntpw -u {string user} {file something: sam}`
 
 - Use chntpw [i]nteractively:
 

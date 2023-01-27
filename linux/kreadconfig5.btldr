@@ -5,11 +5,11 @@
 
 - Read a key from the global configuration:
 
-`kreadconfig5 --group {any something} --key {any something}`
+`kreadconfig5 --group {string group} --key {any something}`
 
 - Read a key from a specific configuration file:
 
-`kwriteconfig5 --file {file something} --group {any something} --key {any something}`
+`kwriteconfig5 --file {file something} --group {string group} --key {any something}`
 
 - Check if systemd is used to start the Plasma session:
 

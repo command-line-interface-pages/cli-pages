@@ -14,7 +14,7 @@
 
 - Check out a pull request from its URL:
 
-`git pr {any something}`
+`git pr {string url}`
 
 - Clean up old pull request branches:
 

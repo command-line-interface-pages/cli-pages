@@ -13,11 +13,11 @@
 
 - Add a new user to a team:
 
-`pio team add {any something}:{any something} {any something}`
+`pio team add {any something}:{any something} {string user}`
 
 - Remove a user from a team:
 
-`pio team remove {any something}:{any something} {any something}`
+`pio team remove {any something}:{any something} {string user}`
 
 - List all teams that the user is part of and their members:
 

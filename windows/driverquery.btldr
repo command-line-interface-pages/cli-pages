@@ -21,7 +21,7 @@
 
 - Display a list of drivers for a remote machine:
 
-`driverquery /s {any something} /u {any something} /p {any something}`
+`driverquery /s {any something} /u {string user} /p {any something}`
 
 - Display a list of drivers with verbose information:
 

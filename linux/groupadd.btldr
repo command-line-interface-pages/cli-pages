@@ -6,12 +6,12 @@
 
 - Create a new group:
 
-`sudo groupadd {any something}`
+`sudo groupadd {string group}`
 
 - Create a new system group:
 
-`sudo groupadd --system {any something}`
+`sudo groupadd --system {string group}`
 
 - Create a new group with the specific groupid:
 
-`sudo groupadd --gid {any something} {any something}`
+`sudo groupadd --gid {any something} {string group}`

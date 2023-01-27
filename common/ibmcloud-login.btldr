@@ -13,7 +13,7 @@
 
 - Log in by providing username, password and the targeted region as parameters:
 
-`ibmcloud login -u {any something} -p {any something} -r {any something}`
+`ibmcloud login -u {string user} -p {any something} -r {any something}`
 
 - Log in with an API key, passing it as an argument:
 

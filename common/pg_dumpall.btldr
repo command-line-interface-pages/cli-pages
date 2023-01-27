@@ -9,7 +9,7 @@
 
 - Dump all databases using a specific username:
 
-`pg_dumpall --username={any something} > {file something}`
+`pg_dumpall --username={string user} > {file something}`
 
 - Same as above, customize host and port:
 

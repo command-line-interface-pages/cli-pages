@@ -5,11 +5,11 @@
 
 - Install a role:
 
-`ansible-galaxy install {any something}.{any something}`
+`ansible-galaxy install {string user}.{any something}`
 
 - Remove a role:
 
-`ansible-galaxy remove {any something}.{any something}`
+`ansible-galaxy remove {string user}.{any something}`
 
 - List installed roles:
 
@@ -25,8 +25,8 @@
 
 - Get information about a user role:
 
-`ansible-galaxy role info {any something}.{any something}`
+`ansible-galaxy role info {string user}.{any something}`
 
 - Get information about a collection:
 
-`ansible-galaxy collection info {any something}.{any something}`
+`ansible-galaxy collection info {string user}.{any something}`

@@ -10,7 +10,7 @@
 
 - Execute a command on a remote host (pre-authenticated):
 
-`psexec \\{any something} -u {any something} -p {any something}`
+`psexec \\{any something} -u {string user} -p {any something}`
 
 - Execute a command remotely and output the result to a file:
 

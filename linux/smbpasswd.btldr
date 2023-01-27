@@ -10,12 +10,12 @@
 
 - Add a specified user to Samba and set password (user should already exist in system):
 
-`sudo smbpasswd -a {any something}`
+`sudo smbpasswd -a {string user}`
 
 - Modify an existing Samba user's password:
 
-`sudo smbpasswd {any something}`
+`sudo smbpasswd {string user}`
 
 - Delete a Samba user (use `pdbedit` instead if the Unix account has been deleted):
 
-`sudo smbpasswd -x {any something}`
+`sudo smbpasswd -x {string user}`

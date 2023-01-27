@@ -9,7 +9,7 @@
 
 - Import a BSON data dump from a directory to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password):
 
-`mongorestore --host {any something} --db {any something} --username {any something} {directory something} --password`
+`mongorestore --host {any something} --db {any something} --username {string user} {directory something} --password`
 
 - Import a collection from a BSON file to a MongoDB database:
 
@@ -17,4 +17,4 @@
 
 - Import a collection from a BSON file to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password):
 
-`mongorestore --host {any something} --db {any something} --username {any something} {file something} --password`
+`mongorestore --host {any something} --db {any something} --username {string user} {file something} --password`

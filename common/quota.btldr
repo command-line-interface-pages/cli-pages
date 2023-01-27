@@ -21,4 +21,4 @@
 
 - Show disk quotas for another user:
 
-`sudo quota -u {any something}`
+`sudo quota -u {string user}`

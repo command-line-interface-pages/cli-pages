@@ -17,7 +17,7 @@
 
 - Display processes running on a remote machine:
 
-`tasklist /s {any something} /u {any something} /p {any something}`
+`tasklist /s {any something} /u {string user} /p {any something}`
 
 - Display services using each process:
 

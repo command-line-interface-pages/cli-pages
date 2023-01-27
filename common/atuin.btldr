@@ -18,11 +18,11 @@
 
 - Register an account on the default sync server:
 
-`atuin register -u {any something} -e {any something} -p {any something}`
+`atuin register -u {string user} -e {any something} -p {any something}`
 
 - Login to the default sync server:
 
-`atuin login -u {any something} -p {any something}`
+`atuin login -u {string user} -p {any something}`
 
 - Sync history with the sync server:
 

@@ -9,4 +9,4 @@
 
 - Show the status of a specific group:
 
-`pueue status --group {any something}`
+`pueue status --group {string group}`

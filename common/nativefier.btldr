@@ -5,12 +5,12 @@
 
 - Make a desktop app for a website:
 
-`nativefier {any something}`
+`nativefier {string url}`
 
 - Create a desktop app with a custom name:
 
-`nativefier --name {any something} {any something}`
+`nativefier --name {any something} {string url}`
 
 - Use a custom icon, should be a PNG:
 
-`nativefier --icon {any something} {any something}`
+`nativefier --icon {any something} {string url}`

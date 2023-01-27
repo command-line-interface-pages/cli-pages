@@ -10,7 +10,7 @@
 
 - Create a read-only resource group level lock:
 
-`az lock create --name {any something} --resource-group {any something} --lock-type ReadOnly`
+`az lock create --name {any something} --resource-group {string group} --lock-type ReadOnly`
 
 - Delete a subscription level lock:
 
@@ -18,7 +18,7 @@
 
 - Delete a resource group level lock:
 
-`az lock delete --name {any something} --resource-group {any something}`
+`az lock delete --name {any something} --resource-group {string group}`
 
 - List out all locks on the subscription level:
 

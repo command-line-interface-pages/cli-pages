@@ -9,7 +9,7 @@
 
 - Same as above, customize username:
 
-`pg_restore -U {any something} -d {any something} {file something: archive}`
+`pg_restore -U {string user} -d {any something} {file something: archive}`
 
 - Same as above, customize host and port:
 

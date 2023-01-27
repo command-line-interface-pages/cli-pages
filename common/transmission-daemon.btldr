@@ -18,4 +18,4 @@
 
 - Start with specific settings for the web interface:
 
-`transmission-daemon --auth --username {any something} --password {any something} --port {int number: 9091} --allowed {any something}`
+`transmission-daemon --auth --username {string user} --password {any something} --port {int number: 9091} --allowed {any something}`

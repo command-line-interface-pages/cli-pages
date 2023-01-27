@@ -21,7 +21,7 @@
 
 - Get users in a group:
 
-`aws iam get-group --group-name {any something}`
+`aws iam get-group --group-name {string group}`
 
 - Describe an IAM policy:
 
@@ -33,4 +33,4 @@
 
 - List access keys for a specific user:
 
-`aws iam list-access-keys --user-name {any something}`
+`aws iam list-access-keys --user-name {string user}`

@@ -9,7 +9,7 @@
 
 - Create a database owned by a specific user with a description:
 
-`createdb --owner={any something} {any something} '{any something}'`
+`createdb --owner={string user} {any something} '{any something}'`
 
 - Create a database from a template:
 

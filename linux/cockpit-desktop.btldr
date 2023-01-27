@@ -6,7 +6,7 @@
 
 - Open a page:
 
-`cockpit-desktop {any something} {any something}`
+`cockpit-desktop {string url} {any something}`
 
 - Open storage page:
 

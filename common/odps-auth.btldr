@@ -6,15 +6,15 @@
 
 - Add a user to the current project:
 
-`add user {any something};`
+`add user {string user};`
 
 - Grant a set of authorities to a user:
 
-`grant {any something} on {any something} {any something} to user {any something};`
+`grant {any something} on {any something} {any something} to user {string user};`
 
 - Show authorities of a user:
 
-`show grants for {any something};`
+`show grants for {string user};`
 
 - Create a user role:
 
@@ -30,4 +30,4 @@
 
 - Grant a role to a user:
 
-`grant {any something} to {any something};`
+`grant {any something} to {string user};`

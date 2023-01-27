@@ -25,7 +25,7 @@
 
 - List all public gists for any user:
 
-`gist --list {any something}`
+`gist --list {string user}`
 
 - Update a gist using the ID from URL:
 

@@ -6,28 +6,28 @@
 
 - Create a new user:
 
-`sudo useradd {any something}`
+`sudo useradd {string user}`
 
 - Create a new user with the specified user id:
 
-`sudo useradd --uid {any something} {any something}`
+`sudo useradd --uid {any something} {string user}`
 
 - Create a new user with the specified shell:
 
-`sudo useradd --shell {any something} {any something}`
+`sudo useradd --shell {any something} {string user}`
 
 - Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`sudo useradd --groups {any something} {any something}`
+`sudo useradd --groups {any something} {string user}`
 
 - Create a new user with the default home directory:
 
-`sudo useradd --create-home {any something}`
+`sudo useradd --create-home {string user}`
 
 - Create a new user with the home directory filled by template directory files:
 
-`sudo useradd --skel {directory something: template} --create-home {any something}`
+`sudo useradd --skel {directory something: template} --create-home {string user}`
 
 - Create a new system user without the home directory:
 
-`sudo useradd --system {any something}`
+`sudo useradd --system {string user}`

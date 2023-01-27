@@ -26,4 +26,4 @@
 
 - Log in to a registry:
 
-`skopeo login --username {any something} {any something}`
+`skopeo login --username {string user} {any something}`
