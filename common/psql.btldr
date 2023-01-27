@@ -21,4 +21,4 @@
 
 - Execute commands from a file on the given database:
 
-`psql {any something} -f {any something}`
+`psql {any something} -f {file something}`

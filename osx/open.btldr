@@ -5,7 +5,7 @@
 
 - Open a file with the associated application:
 
-`open {any something}`
+`open {file something}`
 
 - Run a graphical macOS [a]pplication:
 

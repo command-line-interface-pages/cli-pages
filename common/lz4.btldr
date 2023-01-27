@@ -9,11 +9,11 @@
 
 - Decompress a file:
 
-`lz4 -d {any something}`
+`lz4 -d {file something}`
 
 - Decompress a file and write to stdout:
 
-`lz4 -dc {any something}`
+`lz4 -dc {file something}`
 
 - Package and compress a directory and its contents:
 

@@ -5,11 +5,11 @@
 
 - Read AVR microcontroller:
 
-`avrdude -p {any something} -c {any something} -U flash:r:{any something}:i`
+`avrdude -p {any something} -c {any something} -U flash:r:{file something}:i`
 
 - Write AVR microcontroller:
 
-`avrdude -p {any something} -c {any something} -U flash:w:{any something}`
+`avrdude -p {any something} -c {any something} -U flash:w:{file something}`
 
 - List available AVR devices:
 

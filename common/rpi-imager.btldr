@@ -5,12 +5,12 @@
 
 - Write a specific image to a specific block device:
 
-`rpi-imager --cli {any something} {any something}`
+`rpi-imager --cli {any something} {/file something: device}`
 
 - Write a specific image to a block device, disabling the checksum verification:
 
-`rpi-imager --cli --disable-verify {any something} {any something}`
+`rpi-imager --cli --disable-verify {any something} {/file something: device}`
 
 - Write a specific image to a block device, which will expect a specific checksum when running the verification:
 
-`rpi-imager --cli --sha256 {any something} {any something} {any something}`
+`rpi-imager --cli --sha256 {any something} {any something} {/file something: device}`

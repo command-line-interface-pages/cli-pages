@@ -9,12 +9,12 @@
 
 - Copy an image file into sdb:
 
-`bmaptool copy --bmap {any something} {any something} {any something}`
+`bmaptool copy --bmap {any something} {any something} {/file something: device}`
 
 - Copy a compressed image file into sdb:
 
-`bmaptool copy --bmap {any something} {any something} {any something}`
+`bmaptool copy --bmap {any something} {any something} {/file something: device}`
 
 - Copy an image file into sdb without using a blockmap:
 
-`bmaptool copy --nobmap {any something} {any something}`
+`bmaptool copy --nobmap {any something} {/file something: device}`

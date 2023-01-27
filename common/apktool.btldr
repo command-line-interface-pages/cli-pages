@@ -5,7 +5,7 @@
 
 - Decode an APK file:
 
-`apktool d {any something}`
+`apktool d {file something}`
 
 - Build an APK file from a directory:
 

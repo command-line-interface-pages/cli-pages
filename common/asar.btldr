@@ -13,7 +13,7 @@
 
 - Extract a specific file from an archive:
 
-`asar extract-file {any something} {any something}`
+`asar extract-file {any something} {file something}`
 
 - List the contents of an archive file:
 

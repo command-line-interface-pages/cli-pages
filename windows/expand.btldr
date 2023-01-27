@@ -17,7 +17,7 @@
 
 - Uncompress a specific file from a Cabinet file:
 
-`expand {file something} {directory something} -f:{any something}`
+`expand {file something} {directory something} -f:{file something}`
 
 - Ignore the directory structure when uncompressing, and add them to a single directory:
 

@@ -6,16 +6,16 @@
 
 - Check filesystem `/dev/sdX`, reporting any damaged blocks:
 
-`fsck {any something}`
+`fsck {/file something: device}`
 
 - Check filesystem `/dev/sdX` only if it is clean, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
-`fsck -f {any something}`
+`fsck -f {/file something: device}`
 
 - Check filesystem `/dev/sdX` only if it is clean, reporting any damaged blocks and automatically repairing them:
 
-`fsck -fy {any something}`
+`fsck -fy {/file something: device}`
 
 - Check filesystem `/dev/sdX`, reporting whether it has been cleanly unmounted:
 
-`fsck -q {any something}`
+`fsck -q {/file something: device}`

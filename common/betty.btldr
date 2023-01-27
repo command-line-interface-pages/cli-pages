@@ -13,7 +13,7 @@
 
 - Download a file:
 
-`betty download {any something} to {any something}`
+`betty download {any something} to {file something}`
 
 - Compress a file or directory to one of the support archive formats:
 

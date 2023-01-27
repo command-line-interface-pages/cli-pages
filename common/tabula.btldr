@@ -5,24 +5,24 @@
 
 - Extract all tables from a PDF to a CSV file:
 
-`tabula -o {any something} {any something}`
+`tabula -o {file something} {file something}`
 
 - Extract all tables from a PDF to a JSON file:
 
-`tabula --format JSON -o {any something} {any something}`
+`tabula --format JSON -o {file something} {file something}`
 
 - Extract tables from pages 1, 2, 3, and 6 of a PDF:
 
-`tabula --pages {any something} {any something}`
+`tabula --pages {any something} {file something}`
 
 - Extract tables from page 1 of a PDF, guessing which portion of the page to examine:
 
-`tabula --guess --pages {int number: 1} {any something}`
+`tabula --guess --pages {int number: 1} {file something}`
 
 - Extract all tables from a PDF, using ruling lines to determine cell boundaries:
 
-`tabula --spreadsheet {any something}`
+`tabula --spreadsheet {file something}`
 
 - Extract all tables from a PDF, using blank space to determine cell boundaries:
 
-`tabula --no-spreadsheet {any something}`
+`tabula --no-spreadsheet {file something}`

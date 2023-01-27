@@ -14,7 +14,7 @@
 
 - Compile resources in `file.gresource.xml` to a chosen target file, with `.c`, `.h` or `.gresource` extension:
 
-`glib-compile-resources --generate --target={any something} {any something}`
+`glib-compile-resources --generate --target={file something} {any something}`
 
 - Print a list of resource files referenced in `file.gresource.xml`:
 

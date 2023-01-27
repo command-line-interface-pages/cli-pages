@@ -9,8 +9,8 @@
 
 - Send a message from a file:
 
-`wall {any something}`
+`wall {file something}`
 
 - Send a message with timeout (default 300):
 
-`wall -t {any something} {any something}`
+`wall -t {any something} {file something}`

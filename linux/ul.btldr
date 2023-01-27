@@ -6,8 +6,8 @@
 
 - Display the contents of the file with underlines where applicable:
 
-`ul {any something}`
+`ul {file something}`
 
 - Display the contents of the file with underlines made of dashes `-`:
 
-`ul -i {any something}`
+`ul -i {file something}`

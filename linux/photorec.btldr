@@ -6,7 +6,7 @@
 
 - Run PhotoRec on a specific device:
 
-`sudo photorec {any something}`
+`sudo photorec {/file something: device}`
 
 - Run PhotoRec on a disk image (`image.dd`):
 

@@ -9,7 +9,7 @@
 
 - Play the mp3 from stdin:
 
-`cat {any something} | mpg123 -`
+`cat {file something} | mpg123 -`
 
 - Jump forward to the next song:
 

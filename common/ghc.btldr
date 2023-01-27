@@ -10,15 +10,15 @@
 
 - Compile a single file:
 
-`ghc {any something}`
+`ghc {file something}`
 
 - Compile using extra optimization:
 
-`ghc -O {any something}`
+`ghc -O {file something}`
 
 - Stop compilation after generating object files (.o):
 
-`ghc -c {any something}`
+`ghc -c {file something}`
 
 - Start a REPL (interactive shell):
 

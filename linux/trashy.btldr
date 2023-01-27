@@ -17,11 +17,11 @@
 
 - Restore a specific file from the trash:
 
-`trash restore {any something}`
+`trash restore {file something}`
 
 - Remove a specific file from the trash:
 
-`trash empty {any something}`
+`trash empty {file something}`
 
 - Restore all files from the trash:
 

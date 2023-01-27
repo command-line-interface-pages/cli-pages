@@ -17,7 +17,7 @@
 
 - Mount an NTFS-formatted disk, forcing read-write access:
 
-`pmount --type {any something} --read-write {any something}`
+`pmount --type {any something} --read-write {/file something: device}`
 
 - Display all mounted removable devices:
 

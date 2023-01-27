@@ -13,4 +13,4 @@
 
 - Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the file `file.zip`:
 
-`sendmail -f {any something} {any something} < {any something}`
+`sendmail -f {any something} {any something} < {file something}`

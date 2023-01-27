@@ -5,7 +5,7 @@
 
 - Highlight file syntax and print to stdout (language is inferred from the file extension):
 
-`pygmentize {any something}`
+`pygmentize {file something}`
 
 - Explicitly set the language for syntax highlighting:
 

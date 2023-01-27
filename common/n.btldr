@@ -17,7 +17,7 @@
 
 - Execute a file with a given version:
 
-`n use {any something} {any something}`
+`n use {any something} {file something}`
 
 - Output binary path for a version:
 

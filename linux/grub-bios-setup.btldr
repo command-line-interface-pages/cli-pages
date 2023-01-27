@@ -6,12 +6,12 @@
 
 - Set up a device to boot with GRUB:
 
-`grub-bios-setup {any something}`
+`grub-bios-setup {/file something: device}`
 
 - Install even if problems are detected:
 
-`grub-bios-setup --force {any something}`
+`grub-bios-setup --force {/file something: device}`
 
 - Install GRUB in a specific directory:
 
-`grub-bios-setup --directory={any something} {any something}`
+`grub-bios-setup --directory={any something} {/file something: device}`

@@ -30,7 +30,7 @@
 
 - Find which packages provide a given file:
 
-`dnf provides {any something}`
+`dnf provides {file something}`
 
 - View all past operations:
 

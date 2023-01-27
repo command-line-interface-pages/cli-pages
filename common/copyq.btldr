@@ -25,7 +25,7 @@
 
 - Copy a file's contents into the clipboard:
 
-`copyq copy < {any something}`
+`copyq copy < {file something}`
 
 - Copy a JPEG image into the clipboard:
 

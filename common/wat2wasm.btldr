@@ -5,12 +5,12 @@
 
 - Parse and check a file for errors:
 
-`wat2wasm {any something}`
+`wat2wasm {file something}`
 
 - Write the output binary to a given file:
 
-`wat2wasm {any something} -o {any something}`
+`wat2wasm {file something} -o {file something}`
 
 - Display simplified representation of every byte:
 
-`wat2wasm -v {any something}`
+`wat2wasm -v {file something}`

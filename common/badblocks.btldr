@@ -6,24 +6,24 @@
 
 - Search a disk for bad blocks by using a non-destructive read-only test:
 
-`sudo badblocks {any something}`
+`sudo badblocks {/file something: device}`
 
 - Search an unmounted disk for bad blocks with a non-destructive read-write test:
 
-`sudo badblocks -n {any something}`
+`sudo badblocks -n {/file something: device}`
 
 - Search an unmounted disk for bad blocks with a destructive write test:
 
-`sudo badblocks -w {any something}`
+`sudo badblocks -w {/file something: device}`
 
 - Search an unmounted disk for bad blocks with a destructive write test and show verbose status:
 
-`sudo badblocks -svw {any something}`
+`sudo badblocks -svw {/file something: device}`
 
 - Search an unmounted disk in destructive mode and output found blocks to a file:
 
-`sudo badblocks -o {file something} -w {any something}`
+`sudo badblocks -o {file something} -w {/file something: device}`
 
 - Search an unmounted disk in destructive mode with improved speed using 4K block size and 64K block count:
 
-`sudo badblocks -w -b {int number: 4096} -c {int number: 65536} {any something}`
+`sudo badblocks -w -b {int number: 4096} -c {int number: 65536} {/file something: device}`

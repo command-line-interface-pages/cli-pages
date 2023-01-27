@@ -9,11 +9,11 @@
 
 - Create a gist from any number of text files:
 
-`gist {any something} {any something}`
+`gist {file something} {any something}`
 
 - Create a private gist with a description:
 
-`gist --private --description "{any something}" {any something} `
+`gist --private --description "{any something}" {file something} `
 
 - Read contents from stdin and create a gist from it:
 
@@ -29,4 +29,4 @@
 
 - Update a gist using the ID from URL:
 
-`gist --update {any something} {any something}`
+`gist --update {any something} {file something}`

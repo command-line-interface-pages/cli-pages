@@ -5,20 +5,20 @@
 
 - Display SMART health summary:
 
-`sudo smartctl --health {any something}`
+`sudo smartctl --health {/file something: device}`
 
 - Display device information:
 
-`sudo smartctl --info {any something}`
+`sudo smartctl --info {/file something: device}`
 
 - Start a short self-test in the background:
 
-`sudo smartctl --test short {any something}`
+`sudo smartctl --test short {/file something: device}`
 
 - Display current/last self-test status and other SMART capabilities:
 
-`sudo smartctl --capabilities {any something}`
+`sudo smartctl --capabilities {/file something: device}`
 
 - Display exhaustive SMART data:
 
-`sudo smartctl --all {any something}`
+`sudo smartctl --all {/file something: device}`

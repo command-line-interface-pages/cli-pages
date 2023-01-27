@@ -5,28 +5,28 @@
 
 - Pretty-print JSON or JSON-Lines data from stdin to stdout:
 
-`cat {any something} | jello`
+`cat {file something} | jello`
 
 - Output a schema of JSON or JSON Lines data from stdin to stdout (useful for grep):
 
-`cat {any something} | jello -s`
+`cat {file something} | jello -s`
 
 - Output all elements from arrays (or all the values from objects) in JSON or JSON-Lines data from stdin to stdout:
 
-`cat {any something} | jello -l`
+`cat {file something} | jello -l`
 
 - Output the first element in JSON or JSON-Lines data from stdin to stdout:
 
-`cat {any something} | jello _[0]`
+`cat {file something} | jello _[0]`
 
 - Output the value of a given key of each element in JSON or JSON-Lines data from stdin to stdout:
 
-`cat {any something} | jello '[i.{any something} for i in _]'`
+`cat {file something} | jello '[i.{any something} for i in _]'`
 
 - Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`):
 
-`cat {any something} | jello '{"{any something}": _.{any something}, "{any something}": _.{any something}}'`
+`cat {file something} | jello '{"{any something}": _.{any something}, "{any something}": _.{any something}}'`
 
 - Output the value of a given key to a string (and disable JSON output):
 
-`cat {any something} | jello -r '"{any something}: " + _.{any something}'`
+`cat {file something} | jello -r '"{any something}: " + _.{any something}'`

@@ -5,7 +5,7 @@
 
 - Compile a `.java` file:
 
-`javac {any something}`
+`javac {file something}`
 
 - Compile several `.java` files:
 
@@ -17,4 +17,4 @@
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {directory something} {any something}`
+`javac -d {directory something} {file something}`

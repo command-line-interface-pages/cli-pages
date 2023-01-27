@@ -13,7 +13,7 @@
 
 - Send a POST request with redirected input:
 
-`http {any something} < {any something}`
+`http {any something} < {file something}`
 
 - Send a PUT request with a given JSON body:
 

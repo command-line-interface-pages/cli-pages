@@ -13,4 +13,4 @@
 
 - View a CSV file with unconventional delimiters:
 
-`x_x --delimiter={any something} --quotechar={any something} {any something}`
+`x_x --delimiter={any something} --quotechar={any something} {file something}`

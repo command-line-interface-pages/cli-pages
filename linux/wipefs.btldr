@@ -5,20 +5,20 @@
 
 - Display signatures for specified device:
 
-`sudo wipefs {any something}`
+`sudo wipefs {/file something: device}`
 
 - Wipe all available signature types for a specific device with no recursion into partitions:
 
-`sudo wipefs --all {any something}`
+`sudo wipefs --all {/file something: device}`
 
 - Wipe all available signature types for the device and partitions using a glob pattern:
 
-`sudo wipefs --all {any something}*`
+`sudo wipefs --all {/file something: device}*`
 
 - Perform dry run:
 
-`sudo wipefs --all --no-act {any something}`
+`sudo wipefs --all --no-act {/file something: device}`
 
 - Force wipe, even if the filesystem is mounted:
 
-`sudo wipefs --all --force {any something}`
+`sudo wipefs --all --force {/file something: device}`

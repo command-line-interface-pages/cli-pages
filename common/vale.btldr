@@ -21,7 +21,7 @@
 
 - Check the style from stdin, specifying markup format:
 
-`cat {any something} | vale --ext=.md`
+`cat {file something} | vale --ext=.md`
 
 - List the current configuration:
 

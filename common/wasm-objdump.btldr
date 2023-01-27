@@ -5,16 +5,16 @@
 
 - Display the section headers of a given binary:
 
-`wasm-objdump -h {any something}`
+`wasm-objdump -h {file something}`
 
 - Display the entire disassembled output of a given binary:
 
-`wasm-objdump -d {any something}`
+`wasm-objdump -d {file something}`
 
 - Display the details of each section:
 
-`wasm-objdump --details {any something}`
+`wasm-objdump --details {file something}`
 
 - Display the details of a given section:
 
-`wasm-objdump --section '{any something}' --details {any something}`
+`wasm-objdump --section '{any something}' --details {file something}`

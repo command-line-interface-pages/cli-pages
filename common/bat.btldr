@@ -22,7 +22,7 @@
 
 - Syntax highlight a JSON file:
 
-`bat --language json {any something}`
+`bat --language json {file something}`
 
 - Display all supported languages:
 

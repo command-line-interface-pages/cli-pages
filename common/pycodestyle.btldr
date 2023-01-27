@@ -5,7 +5,7 @@
 
 - Check the style of a single file:
 
-`pycodestyle {any something}`
+`pycodestyle {file something}`
 
 - Check the style of multiple files:
 
@@ -13,12 +13,12 @@
 
 - Show only the first occurrence of an error:
 
-`pycodestyle --first {any something}`
+`pycodestyle --first {file something}`
 
 - Show the source code for each error:
 
-`pycodestyle --show-source {any something}`
+`pycodestyle --show-source {file something}`
 
 - Show the specific PEP 8 text for each error:
 
-`pycodestyle --show-pep8 {any something}`
+`pycodestyle --show-pep8 {file something}`

@@ -13,4 +13,4 @@
 
 - Print stack traces from Java core dump:
 
-`jstack {any something} {any something}`
+`jstack {any something} {file something}`

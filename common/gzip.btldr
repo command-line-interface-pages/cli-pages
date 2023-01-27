@@ -5,24 +5,24 @@
 
 - Compress a file, replacing it with a gzipped compressed version:
 
-`gzip {any something}`
+`gzip {file something}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`gzip -d {any something}.gz`
+`gzip -d {file something}.gz`
 
 - Compress a file, keeping the original file:
 
-`gzip --keep {any something}`
+`gzip --keep {file something}`
 
 - Compress a file specifying the output filename:
 
-`gzip -c {any something} > {any something}`
+`gzip -c {file something} > {any something}`
 
 - Decompress a gzipped file specifying the output filename:
 
-`gzip -c -d {any something}.gz > {file something: uncompressed}`
+`gzip -c -d {file something}.gz > {file something: uncompressed}`
 
 - Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
 
-`gzip -9 -c {any something} > {any something}`
+`gzip -9 -c {file something} > {any something}`

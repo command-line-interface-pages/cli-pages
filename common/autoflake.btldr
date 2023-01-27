@@ -5,7 +5,7 @@
 
 - Remove unused variables from a single file and display the diff:
 
-`autoflake --remove-unused-variables {any something}`
+`autoflake --remove-unused-variables {file something}`
 
 - Remove unused imports from multiple files and display the diffs:
 
@@ -13,7 +13,7 @@
 
 - Remove unused variables from a file, overwriting the file:
 
-`autoflake --remove-unused-variables --in-place {any something}`
+`autoflake --remove-unused-variables --in-place {file something}`
 
 - Remove unused variables recursively from all files in a directory, overwriting each file:
 

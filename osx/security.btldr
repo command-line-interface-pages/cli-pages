@@ -21,7 +21,7 @@
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k {any something} {any something}`
+`security add-certificates -k {file something} {any something}`
 
 - Add a CA certificate to the per-user Trust Settings:
 

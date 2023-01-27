@@ -9,7 +9,7 @@
 
 - Show detailed information about a device:
 
-`udisksctl info --block-device {any something}`
+`udisksctl info --block-device {/file something: device}`
 
 - Show detailed information about a device partition:
 
