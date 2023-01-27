@@ -21,4 +21,4 @@
 
 - Recursively delete an attribute in a given directory:
 
-`xattr -rd {any something} {any something}`
+`xattr -rd {any something} {directory something}`
