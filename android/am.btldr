@@ -5,7 +5,7 @@
 
 - Start a specific activity:
 
-`am start -n {file something: output} {any something}`
+`am start -n {any something}`
 
 - Start an activity and pass [d]ata to it:
 
