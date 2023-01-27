@@ -1,0 +1,20 @@
+# gdal_translate
+
+> Convert raster data between different formats
+> More information: https://gdal.org/programs/gdal_translate
+
+- Convert a raster dataset to JPEG format:
+
+`gdal_translate -of {any something} {any something} {any something}`
+
+- Assign a projection to a raster dataset:
+
+`gdal_translate -a_srs {any something} {any something} {any something}`
+
+- Reduce the size of a raster dataset to a specific fraction:
+
+`gdal_translate -outsize {any something} {any something} {any something} {any something}`
+
+- Convert a GeoTiff to a Cloud Optimized GeoTiff:
+
+`gdal_translate {any something} {any something} -of COG -co COMPRESS=LZW`

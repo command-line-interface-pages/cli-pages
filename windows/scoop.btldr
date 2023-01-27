@@ -1,0 +1,32 @@
+# scoop
+
+> A command-line installer for Windows
+> More information: https://scoop.sh
+
+- Install a package:
+
+`scoop install {any something}`
+
+- Remove a package:
+
+`scoop uninstall {any something}`
+
+- Update all installed packages:
+
+`scoop update --all`
+
+- List installed packages:
+
+`scoop list`
+
+- Display information about a package:
+
+`scoop info {any something}`
+
+- Search for a package:
+
+`scoop search {any something}`
+
+- Remove old versions of all packages and clear the download cache:
+
+`scoop cleanup --cache --all`

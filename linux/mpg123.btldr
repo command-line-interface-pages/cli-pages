@@ -1,0 +1,32 @@
+# mpg123
+
+> Console MPEG audio player
+> More information: https://manned.org/mpg123
+
+- Play the specified mp3 files:
+
+`mpg123 {any something}`
+
+- Play the mp3 from stdin:
+
+`cat {any something} | mpg123 -`
+
+- Jump forward to the next song:
+
+`f`
+
+- Jump back to the beginning for the song:
+
+`b`
+
+- Stop or replay the current file:
+
+`s`
+
+- Fast forward:
+
+`.`
+
+- Quit:
+
+`q`

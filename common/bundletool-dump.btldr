@@ -1,0 +1,32 @@
+# bundletool dump
+
+> Command-line tool to manipulate Android Application Bundles
+> More information: https://developer.android.com/studio/command-line/bundletool
+
+- Display the `AndroidManifest.xml` of the base module:
+
+`bundletool dump manifest --bundle={any something}`
+
+- Display a specific value from the `AndroidManifest.xml` using XPath:
+
+`bundletool dump manifest --bundle={any something} --xpath={any something}`
+
+- Display the `AndroidManifest.xml` of a specific module:
+
+`bundletool dump manifest --bundle={any something} --module={any something}`
+
+- Display all the resources in the application bundle:
+
+`bundletool dump resources --bundle={any something}`
+
+- Display the configuration for a specific resource:
+
+`bundletool dump resources --bundle={any something} --resource={any something}`
+
+- Display the configuration and values for a specific resource using the ID:
+
+`bundletool dump resources --bundle={any something} --resource={any something} --values`
+
+- Display the contents of the bundle configuration file:
+
+`bundletool dump config --bundle={any something}`

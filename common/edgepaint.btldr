@@ -1,0 +1,21 @@
+# edgepaint
+
+> Colorize edges of a graph layout to clarify crossing edges
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`
+> More information: https://graphviz.org/pdf/edgepaint.1.pdf
+
+- Colorize edges of one or more graph layouts (that already have layout information) to clarify crossing edges:
+
+`edgepaint {any something} {any something} > {any something}`
+
+- Colorize edges using a color scheme. (See <https://graphviz.org/doc/info/colors.html#brewer>):
+
+`edgepaint -color-scheme={any something} {any something} > {any something}`
+
+- Lay out a graph and colorize its edges, then convert to a PNG image:
+
+`dot {any something} | edgepaint | dot -T {any something} > {any something}`
+
+- Display help for `edgepaint`:
+
+`edgepaint -?`

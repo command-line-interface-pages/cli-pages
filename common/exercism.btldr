@@ -1,0 +1,20 @@
+# exercism
+
+> Download and solve problems from the command-line
+> More information: https://exercism.org/docs/using/solving-exercises/working-locally
+
+- Configure the application token and the preferred workspace for Exercism:
+
+`exercism configure --token={any something} --workspace={any something}`
+
+- Download a specific exercise:
+
+`exercism download --exercise={any something} --track={any something}`
+
+- Submit an exercise:
+
+`exercism submit {file something}`
+
+- Print the path to the solution workspace:
+
+`exercism workspace`

@@ -1,0 +1,36 @@
+# nudoku
+
+> Sudoku game in terminal
+> More information: https://jubalh.github.io/nudoku/
+
+- Start a sudoku game:
+
+`nudoku`
+
+- Choose the difficulty of the game:
+
+`nudoku -d {any something}`
+
+- Navigate the board:
+
+`{any something} OR {any something} arrow key`
+
+- Delete a number:
+
+`{any something}`
+
+- Get a hint:
+
+`H`
+
+- See the complete solution:
+
+`S`
+
+- Create a new puzzle:
+
+`N`
+
+- Quit the game:
+
+`Q`

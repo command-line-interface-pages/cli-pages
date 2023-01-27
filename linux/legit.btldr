@@ -1,0 +1,28 @@
+# legit
+
+> Complementary command-line interface for Git
+> More information: https://frostming.github.io/legit
+
+- Switch to a specified branch, stashing and restoring unstaged changes:
+
+`git switch {any something}`
+
+- Synchronize current branch, automatically merging or rebasing, and stashing and unstashing:
+
+`git sync`
+
+- Publish a specified branch to the remote server:
+
+`git publish {any something}`
+
+- Remove a branch from the remote server:
+
+`git unpublish {any something}`
+
+- List all branches and their publication status:
+
+`git branches {any something}`
+
+- Remove the last commit from the history:
+
+`git undo {any something}`

@@ -1,0 +1,25 @@
+# masscan
+
+> Network scanner for scanning as fast as possible
+> Best run with elevated privileges. Nmap compatibility run `masscan --nmap` to find out more
+> More information: https://github.com/robertdavidgraham/masscan
+
+- Scan an IP or network subnet for port 80:
+
+`masscan {any something} --ports {int number: 80}`
+
+- Scan a class B subnet for the top 100 ports at 100,000 packets per second:
+
+`masscan {any something} --top-ports {int number: 100} --rate {int number: 100000}`
+
+- Scan a class B subnet avoiding ranges from a specific exclude file:
+
+`masscan {any something} --top-ports {int number: 100} --excludefile {file something}`
+
+- Scan the Internet for port 443:
+
+`masscan {any something} --ports {int number: 443} --rate {int number: 10000000}`
+
+- Scan the Internet for a specific port range and export to a file:
+
+`masscan {any something} --ports {any something} -output-format {any something} --output-filename {file something}`

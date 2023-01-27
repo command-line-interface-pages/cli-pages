@@ -1,0 +1,28 @@
+# licensor
+
+> Write licenses to `stdout`
+> More information: https://github.com/raftario/licensor
+
+- Write the MIT license to a file named `LICENSE`:
+
+`licensor {any something} > {any something}`
+
+- Write the MIT license with a [p]laceholder copyright notice to a file named `LICENSE`:
+
+`licensor -p {any something} > {any something}`
+
+- Specify a copyright holder named Bobby Tables:
+
+`licensor {any something} {any something} > {any something}`
+
+- Specify licence exceptions with a WITH expression:
+
+`licensor "{any something}" > {any something}`
+
+- List all available licenses:
+
+`licensor --licenses`
+
+- List all available exceptions:
+
+`licensor --exceptions`

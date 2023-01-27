@@ -1,0 +1,29 @@
+# dconf write
+
+> Write key values in dconf databases
+> See also: `dconf`
+> More information: https://manned.org/dconf
+
+- Write a specific key value:
+
+`dconf write {any something} "{any something}"`
+
+- Write a specific string key value:
+
+`dconf write {any something} "'{any something}'"`
+
+- Write a specific integer key value:
+
+`dconf write {any something} "{int number: 5}"`
+
+- Write a specific boolean key value:
+
+`dconf write {any something} "{any something}"`
+
+- Write a specific array key value:
+
+`dconf write {any something} "[{any something}]"`
+
+- Write a specific empty array key value:
+
+`dconf write {any something} "@as []"`

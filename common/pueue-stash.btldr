@@ -1,0 +1,21 @@
+# pueue stash
+
+> Stash tasks to prevent them starting automatically
+> See also `pueue start` and `pueue enqueue`
+> More information: https://github.com/Nukesor/pueue
+
+- Stash an enqueued task:
+
+`pueue stash {any something}`
+
+- Stash multiple tasks at once:
+
+`pueue stash {any something} {any something}`
+
+- Start a stashed task immediately:
+
+`pueue start {any something}`
+
+- Enqueue a task to be executed when preceding tasks finish:
+
+`pueue enqueue {any something}`

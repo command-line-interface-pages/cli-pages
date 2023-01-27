@@ -1,0 +1,29 @@
+# ffe
+
+> Extract fields from a flat database file and write to another format
+> A configuration file is required to interpret the input and format the output
+> More information: http://ff-extractor.sourceforge.net/ffe.html
+
+- Display all input data using the specified data configuration:
+
+`ffe --configuration={any something} {any something}`
+
+- Convert an input file to an output file in a new format:
+
+`ffe --output={any something} -c {any something} {any something}`
+
+- Select input structure and print format from definitions in `~/.fferc` config file:
+
+`ffe --structure={any something} --print={any something} {any something}`
+
+- Write only the selected fields:
+
+`ffe --field-list="{any something}" -c {any something} {any something}`
+
+- Write only the records that match an expression:
+
+`ffe -e "{any something}" -c {any something} {any something}`
+
+- Display help:
+
+`ffe --help`

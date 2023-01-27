@@ -1,0 +1,16 @@
+# zipcloak
+
+> Encrypt the contents within a zipfile
+> More information: https://manned.org/zipcloak
+
+- Encrypt the contents of a zipfile:
+
+`zipcloak {any something}`
+
+- [d]ecrypt the contents of a zipfile:
+
+`zipcloak -d {any something}`
+
+- [O]utput the encrypted contents into a new zipfile:
+
+`zipcloak {any something} -O {any something}`

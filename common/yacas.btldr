@@ -1,0 +1,28 @@
+# yacas
+
+> Yet Another Computer Algebra System
+> More information: http://www.yacas.org
+
+- Start an interactive `yacas` session:
+
+`yacas`
+
+- While in a `yacas` session, execute a statement:
+
+`{any something};`
+
+- While in a `yacas` session, display an example:
+
+`{any something};`
+
+- Quit from a `yacas` session:
+
+`{any something}`
+
+- Execute one or more `yacas` scripts (without terminal or prompts), then exit:
+
+`yacas -p -c {any something} {any something}`
+
+- Execute and print the result of one statement, then exit:
+
+`echo "{any something}" | yacas -p -c /dev/stdin`

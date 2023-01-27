@@ -1,0 +1,24 @@
+# clang
+
+> Compiler for C, C++, and Objective-C source files. Can be used as a drop-in replacement for GCC
+> More information: https://clang.llvm.org/docs/ClangCommandLineReference.html
+
+- Compile a source code file into an executable binary:
+
+`clang {any something} -o {any something}`
+
+- Activate output of all errors and warnings:
+
+`clang {any something} -Wall -o {any something}`
+
+- Include libraries located at a different path than the source file:
+
+`clang {any something} -o {any something} -I{any something} -L{any something} -l{any something}`
+
+- Compile source code into LLVM Intermediate Representation (IR):
+
+`clang -S -emit-llvm {any something} -o {any something}`
+
+- Compile source code without linking:
+
+`clang -c {any something}`

@@ -1,0 +1,25 @@
+# psexec
+
+> Execute a command-line process on a remote machine
+> This is an advanced command and it might potentially be dangerous
+> More information: https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
+
+- Execute a command using `cmd` in a remote shell:
+
+`psexec \\{any something} cmd`
+
+- Execute a command on a remote host (pre-authenticated):
+
+`psexec \\{any something} -u {any something} -p {any something}`
+
+- Execute a command remotely and output the result to a file:
+
+`psexec \\{any something} cmd /c {any something} -an ^>{any something}`
+
+- Execute a program to interact with users:
+
+`psexec \\{any something} -d -i {any something}`
+
+- Display the IP configuration of the remote host:
+
+`psexec \\{any something} ipconfig /all`

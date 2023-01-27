@@ -1,0 +1,12 @@
+# tpp
+
+> Command-Line based presentation tool
+> More information: https://github.com/cbbrowne/tpp
+
+- View a presentation:
+
+`tpp {file something}`
+
+- Output a presentation:
+
+`tpp -t {any something} -o {any something} {file something}`

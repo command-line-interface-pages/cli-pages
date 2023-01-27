@@ -1,0 +1,28 @@
+# octave
+
+> GNU Octave is a programming language for scientific computing
+> More information: https://docs.octave.org/latest/Invoking-Octave-from-the-Command-Line.html
+
+- Start an interactive session:
+
+`octave`
+
+- Execute a specific script file:
+
+`octave {any something}`
+
+- Execute a script file with specific arguments:
+
+`octave {any something} {any something}`
+
+- Start an interactive session with a GUI:
+
+`octave --gui`
+
+- Display help:
+
+`octave --help`
+
+- Display version:
+
+`octave --version`

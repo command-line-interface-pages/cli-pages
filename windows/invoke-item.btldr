@@ -1,0 +1,29 @@
+# Invoke-Item
+
+> Open files in their respective default programs
+> This command can only be used through PowerShell
+> More information: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item
+
+- Open a file in its default program:
+
+`Invoke-Item -Path {file something}`
+
+- Open all files inside a directory:
+
+`Invoke-Item -Path {any something}`
+
+- Open all PNGs inside a directory:
+
+`Invoke-Item -Path {any something}`
+
+- Open all files inside a directory containing a specific keyword:
+
+`Invoke-Item -Path {any something} -Include {any something}`
+
+- Open all files inside a directory except those containing a specific keyword:
+
+`Invoke-Item -Path {any something} -Exclude {any something}`
+
+- Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`:
+
+`Invoke-Item -Path {any something} -WhatIf`

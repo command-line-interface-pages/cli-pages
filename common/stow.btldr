@@ -1,0 +1,25 @@
+# stow
+
+> Symlink manager
+> Often used to manage dotfiles
+> More information: https://www.gnu.org/software/stow
+
+- Symlink all files recursively to a given directory:
+
+`stow --target={directory something: path/to/target} {any something}`
+
+- Delete symlinks recursively from a given directory:
+
+`stow --delete --target={directory something: path/to/target} {any something}`
+
+- Simulate to see what the result would be like:
+
+`stow --simulate --target={directory something: path/to/target} {any something}`
+
+- Delete and resymlink:
+
+`stow --restow --target={directory something: path/to/target} {any something}`
+
+- Exclude files matching a regular expression:
+
+`stow --ignore={any something} --target={directory something: path/to/target} {any something}`

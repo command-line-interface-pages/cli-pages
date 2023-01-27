@@ -1,0 +1,24 @@
+# swapon
+
+> Enables device or file for swapping
+> More information: https://manned.org/swapon
+
+- Get swap information:
+
+`swapon -s`
+
+- Enable a given swap partition:
+
+`swapon {any something}`
+
+- Enable a given swap file:
+
+`swapon {file something}`
+
+- Enable all swap areas:
+
+`swapon -a`
+
+- Enable swap by label of a device or file:
+
+`swapon -L {any something}`

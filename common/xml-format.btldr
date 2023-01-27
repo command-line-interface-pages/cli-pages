@@ -1,0 +1,28 @@
+# xml format
+
+> Format an XML document
+> More information: http://xmlstar.sourceforge.net/docs.php
+
+- Format an XML document, indenting with tabs:
+
+`xml format --indent-tab {any something} > {any something}`
+
+- Format an HTML document, indenting with 4 spaces:
+
+`xml format --html --indent-spaces {int number: 4} {any something} > {any something}`
+
+- Recover parsable parts of a malformed XML document, without indenting:
+
+`xml format --recover --noindent {any something} > {any something}`
+
+- Format an XML document from stdin, removing the `DOCTYPE` declaration:
+
+`cat {any something} | xml format --dropdtd > {any something}`
+
+- Format an XML document, omitting the XML declaration:
+
+`xml format --omit-decl {any something} > {any something}`
+
+- Display help for the `format` subcommand:
+
+`xml format --help`

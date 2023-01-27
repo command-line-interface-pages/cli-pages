@@ -1,0 +1,33 @@
+# nmcli connection
+
+> Connection management with NetworkManager
+> This subcommand can also be called with `nmcli c`
+> More information: https://networkmanager.dev/docs/api/latest/nmcli.html
+
+- List all NetworkManager connections (shows name, UUID, type and device):
+
+`nmcli connection`
+
+- Activate a connection by specifying a UUID:
+
+`nmcli connection up uuid {any something}`
+
+- Deactivate a connection:
+
+`nmcli connection down uuid {any something}`
+
+- Create an auto-configured dual stack connection:
+
+`nmcli connection add ifname {any something} type {any something} ipv4.method {any something} ipv6.method {any something}`
+
+- Create a static IPv6-only connection:
+
+`nmcli connection add ifname {any something} type {any something} ip6 {any something} gw6 {any something} ipv6.dns {any something} ipv4.method {any something}`
+
+- Create a static IPv4-only connection:
+
+`nmcli connection add ifname {any something} type {any something} ip4 {any something} gw4 {any something} ipv4.dns {any something} ipv6.method {any something}`
+
+- Create a VPN connection using OpenVPN from a OVPN file:
+
+`nmcli connection import type {any something} file {any something}`

@@ -1,0 +1,16 @@
+# qlmanage
+
+> QuickLook server tool
+> More information: https://ss64.com/osx/qlmanage.html
+
+- Display QuickLook for one or multiple files:
+
+`qlmanage -p {any something} {any something}`
+
+- Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory:
+
+`qlmanage {any something} -t -s {int number: 300} {directory something}`
+
+- Reset QuickLook:
+
+`qlmanage -r`

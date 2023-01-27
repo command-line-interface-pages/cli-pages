@@ -1,0 +1,16 @@
+# texdoc
+
+> Search for appropriate documentation for (La)TeX commands or packages
+> More information: https://texdoc.org/index.html
+
+- Open the first search result in the default PDF viewer:
+
+`texdoc {any something}`
+
+- List the best search results:
+
+`texdoc --list {any something}`
+
+- Open full documentation of texdoc:
+
+`texdoc {any something}`

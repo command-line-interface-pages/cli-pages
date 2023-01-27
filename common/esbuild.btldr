@@ -1,0 +1,36 @@
+# esbuild
+
+> JavaScript bundler and minifier built for speed
+> More information: https://esbuild.github.io/
+
+- Bundle a JavaScript application and print to stdout:
+
+`esbuild --bundle {any something}`
+
+- Bundle a JSX application from stdin:
+
+`esbuild --bundle --outfile={any something} < {any something}`
+
+- Bundle and minify a JSX application with source maps in `production` mode:
+
+`esbuild --bundle --define:{any something} --minify --sourcemap {any something}`
+
+- Bundle a JSX application for a comma-separated list of browsers:
+
+`esbuild --bundle --minify --sourcemap --target={any something} {any something}`
+
+- Bundle a JavaScript application for a specific node version:
+
+`esbuild --bundle --platform={any something} --target={any something} {any something}`
+
+- Bundle a JavaScript application enabling JSX syntax in `.js` files:
+
+`esbuild --bundle app.js --loader:{any something} {any something}`
+
+- Bundle and serve a JavaScript application on an HTTP server:
+
+`esbuild --bundle --serve={any something} --outfile={any something} {any something}`
+
+- Bundle a list of files to an output directory:
+
+`esbuild --bundle --outdir={directory something: path/to/output} {file* something}`

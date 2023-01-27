@@ -1,0 +1,28 @@
+# asdf
+
+> Command-line interface for managing versions of different packages
+> More information: https://asdf-vm.com
+
+- List all available plugins:
+
+`asdf plugin list all`
+
+- Install a plugin:
+
+`asdf plugin add {any something}`
+
+- List all available versions for a package:
+
+`asdf list all {any something}`
+
+- Install a specific version of a package:
+
+`asdf install {any something} {any something}`
+
+- Set global version for a package:
+
+`asdf global {any something} {any something}`
+
+- Set local version for a package:
+
+`asdf local {any something} {any something}`

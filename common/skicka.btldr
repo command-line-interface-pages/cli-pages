@@ -1,0 +1,28 @@
+# skicka
+
+> Manage your Google Drive
+> More information: https://github.com/google/skicka
+
+- Upload a file/folder to Google Drive:
+
+`skicka upload {any something} {any something}`
+
+- Download a file/folder from Google Drive:
+
+`skicka download {any something} {any something}`
+
+- List files:
+
+`skicka ls {any something}`
+
+- Show amount of space used by children folders:
+
+`skicka du {any something}`
+
+- Create a folder:
+
+`skicka mkdir {any something}`
+
+- Delete a file:
+
+`skicka rm {file something}`

@@ -1,0 +1,36 @@
+# etcdctl
+
+> CLI interface for interacting with etcd, a highly-available key-value pair store
+> More information: https://etcd.io/docs/latest/dev-guide/interacting_v3/
+
+- Display the value associated with a specified key:
+
+`etcdctl get {any something}`
+
+- Store a key-value pair:
+
+`etcdctl put {any something} {any something}`
+
+- Delete a key-value pair:
+
+`etcdctl del {any something}`
+
+- Store a key-value pair, reading the value from a file:
+
+`etcdctl put {any something} < {any something}`
+
+- Save a snapshot of the etcd keystore:
+
+`etcdctl snapshot save {any something}`
+
+- Restore a snapshot of an etcd keystore (restart the etcd server afterwards):
+
+`etcdctl snapshot restore {any something}`
+
+- Add a user:
+
+`etcdctl user add {any something}`
+
+- Watch a key for changes:
+
+`etcdctl watch {any something}`

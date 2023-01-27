@@ -1,0 +1,32 @@
+# git commit
+
+> Commit files to the repository
+> More information: https://git-scm.com/docs/git-commit
+
+- Commit staged files to the repository with a message:
+
+`git commit -m "{any something}"`
+
+- Commit staged files with a message read from a file:
+
+`git commit --file {file something: path/to/commit_message}`
+
+- Auto stage all modified files and commit with a message:
+
+`git commit -a -m "{any something}"`
+
+- Commit staged files and [S]ign them with the GPG key defined in `~/.gitconfig`:
+
+`git commit -S -m "{any something}"`
+
+- Update the last commit by adding the currently staged changes, changing the commit's hash:
+
+`git commit --amend`
+
+- Commit only specific (already staged) files:
+
+`git commit {any something} {any something}`
+
+- Create a commit, even if there are no staged files:
+
+`git commit -m "{any something}" --allow-empty`

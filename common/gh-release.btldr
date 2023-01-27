@@ -1,0 +1,28 @@
+# gh release
+
+> Manage GitHub releases from the command-line
+> More information: https://cli.github.com/manual/gh_release
+
+- List releases in a GitHub repository, limited to 30 items:
+
+`gh release list`
+
+- Display information about a specific release:
+
+`gh release view {any something}`
+
+- Create a new release:
+
+`gh release create {any something}`
+
+- Delete a specific release:
+
+`gh release delete {any something}`
+
+- Download assets from a specific release:
+
+`gh release download {any something}`
+
+- Upload assets to a specific release:
+
+`gh release upload {any something} {any something} {any something}`

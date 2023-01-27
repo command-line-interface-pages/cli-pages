@@ -1,0 +1,29 @@
+# sips
+
+> Apple Scriptable Image Processing System
+> Raster/Query images and ColorSync ICC Profiles
+> More information: https://ss64.com/osx/sips.html
+
+- Specify an output directory so that originals do not get modified:
+
+`sips --out {directory something: out}`
+
+- Resample image at specified size, Image aspect ratio may be altered:
+
+`sips --resampleHeightWidth {int number: 1920} {int number: 300} {any something}`
+
+- Resample image so height and width aren't greater than specified size (notice the capital Z):
+
+`sips --resampleHeightWidthMax {int number: 1920} {int number: 300} {any something}`
+
+- Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
+
+`sips --resampleWidth {int number: 960} {any something}`
+
+- Convert an image from CMYK to RGB:
+
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {any something} {directory something: out}`
+
+- Remove ColorSync ICC profile from an image:
+
+`sips --deleteProperty profile --deleteColorManagementProperties {any something}`

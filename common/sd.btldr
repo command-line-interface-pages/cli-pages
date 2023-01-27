@@ -1,0 +1,20 @@
+# sd
+
+> Intuitive find & replace CLI
+> More information: https://github.com/chmln/sd
+
+- Trim some whitespace using a regular expression (output stream: stdout):
+
+`{any something} | sd '\s+$' ''`
+
+- Replace words using capture groups (output stream: stdout):
+
+`{any something} | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'`
+
+- Find and replace in a specific file (output stream: stdout):
+
+`sd -p {any something} {any something} {any something}`
+
+- Find and replace in all files in the current project (output stream: stdout):
+
+`sd {any something} {any something} "$(find . -type f)"`

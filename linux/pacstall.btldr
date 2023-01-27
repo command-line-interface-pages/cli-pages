@@ -1,0 +1,36 @@
+# pacstall
+
+> An AUR package manager for Ubuntu
+> More information: https://github.com/pacstall/pacstall
+
+- Search the package database for a package name:
+
+`pacstall --search {any something}`
+
+- Install a package:
+
+`pacstall --install {any something}`
+
+- Remove a package:
+
+`pacstall --remove {any something}`
+
+- Add a repository to the database (only GitHub and GitLab are supported):
+
+`pacstall --add-repo {any something}`
+
+- Update pacstall's scripts:
+
+`pacstall --update`
+
+- Update all packages:
+
+`pacstall --upgrade`
+
+- Display information about a package:
+
+`pacstall --query-info {any something}`
+
+- List all installed packages:
+
+`pacstall --list`

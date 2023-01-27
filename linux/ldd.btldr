@@ -1,0 +1,25 @@
+# ldd
+
+> Display shared library dependencies of a binary
+> Do not use on an untrusted binary, use objdump for that instead
+> More information: https://manned.org/ldd
+
+- Display shared library dependencies of a binary:
+
+`ldd {any something}`
+
+- Display all information about dependencies:
+
+`ldd --verbose {any something}`
+
+- Display unused direct dependencies:
+
+`ldd --unused {any something}`
+
+- Report missing data objects and perform data relocations:
+
+`ldd --data-relocs {any something}`
+
+- Report missing data objects and functions, and perform relocations for both:
+
+`ldd --function-relocs {any something}`

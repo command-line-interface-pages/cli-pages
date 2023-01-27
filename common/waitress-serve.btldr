@@ -1,0 +1,28 @@
+# waitress-serve
+
+> Pure Python WSGI HTTP Server
+> More information: https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html
+
+- Run a Python web app:
+
+`waitress-serve {any something}`
+
+- Listen on port 8080 on localhost:
+
+`waitress-serve --listen={any something}:{int number: 8080} {any something}`
+
+- Start waitress on a Unix socket:
+
+`waitress-serve --unix-socket={any something} {any something}`
+
+- Use 4 threads to process requests:
+
+`waitress-serve --threads={int number: 4} {any something}`
+
+- Call a factory method that returns a WSGI object:
+
+`waitress-serve --call {any something}`
+
+- Set the URL scheme to HTTPS:
+
+`waitress-serve --url-scheme={any something} {any something}`

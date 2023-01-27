@@ -1,0 +1,20 @@
+# hexyl
+
+> A simple hex viewer for the terminal. Uses colored output to distinguish different categories of bytes
+> More information: https://github.com/sharkdp/hexyl
+
+- Print the hexadecimal representation of a file:
+
+`hexyl {file something}`
+
+- Print the hexadecimal representation of the first n bytes of a file:
+
+`hexyl -n {any something} {file something}`
+
+- Print bytes 512 through 1024 of a file:
+
+`hexyl -r {int number: 512}:{int number: 1024} {file something}`
+
+- Print 512 bytes starting at the 1024th byte:
+
+`hexyl -r {int number: 1024}:+{int number: 512} {file something}`

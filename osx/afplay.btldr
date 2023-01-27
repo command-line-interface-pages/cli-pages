@@ -1,0 +1,20 @@
+# afplay
+
+> Command-line audio player
+> More information: https://ss64.com/osx/afplay.html
+
+- Play a sound file (waits until playback ends):
+
+`afplay {file something}`
+
+- Play a sound file at 2x speed (playback rate):
+
+`afplay --rate {int number: 2} {file something}`
+
+- Play a sound file at half speed:
+
+`afplay --rate {float number: 0.5} {file something}`
+
+- Play the first N seconds of a sound file:
+
+`afplay --time {any something} {file something}`

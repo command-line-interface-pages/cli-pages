@@ -1,0 +1,24 @@
+# ip neighbour
+
+> Neighbour/ARP tables management IP subcommand
+> More information: https://manned.org/ip-neighbour.8
+
+- Display the neighbour/ARP table entries:
+
+`ip neighbour`
+
+- Remove entries in the neighbour table on device `eth0`:
+
+`sudo ip neighbour flush dev {any something}`
+
+- Perform a neighbour lookup and return a neighbour entry:
+
+`ip neighbour get {any something} dev {any something}`
+
+- Add or delete an ARP entry for the neighbour IP address to `eth0`:
+
+`sudo ip neighbour {any something} {any something} lladdr {any something} dev {any something} nud reachable`
+
+- Change or replace an ARP entry for the neighbour IP address to `eth0`:
+
+`sudo ip neighbour {any something} {any something} lladdr {any something} dev {any something}`

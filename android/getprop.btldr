@@ -1,0 +1,32 @@
+# getprop
+
+> Show information about Android system properties
+> More information: https://manned.org/getprop
+
+- Display information about Android system properties:
+
+`getprop`
+
+- Display information about a specific property:
+
+`getprop {any something}`
+
+- Display the SDK API level:
+
+`getprop {any something}`
+
+- Display the Android version:
+
+`getprop {any something}`
+
+- Display the Android device model:
+
+`getprop {any something}`
+
+- Display the OEM unlock status:
+
+`getprop {any something}`
+
+- Display the MAC address of the Android's Wi-Fi card:
+
+`getprop {any something}`

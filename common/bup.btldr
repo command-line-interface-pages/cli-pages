@@ -1,0 +1,24 @@
+# bup
+
+> Backup system based on the Git packfile format, providing incremental saves and global deduplication
+> More information: https://github.com/bup/bup
+
+- Initialize a backup repository in the specified local directory:
+
+`bup -d {any something} init`
+
+- Prepare a given directory before taking a backup:
+
+`bup -d {any something} index {directory something}`
+
+- Backup a directory to the repository:
+
+`bup -d {any something} save -n {any something} {directory something}`
+
+- Show the backup snapshots currently stored in the repository:
+
+`bup -d {any something} ls`
+
+- Restore a specific backup snapshot to a target directory:
+
+`bup -d {any something} restore -C {directory something: path/to/target} {any something}`

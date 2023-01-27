@@ -1,0 +1,25 @@
+# az login
+
+> Log in to Azure
+> Part of `az`, the command-line client for Microsoft Azure
+> More information: https://learn.microsoft.com/cli/azure/reference-index#az_login
+
+- Log in interactively:
+
+`az login`
+
+- Log in with a service principal using a client secret:
+
+`az login --service-principal --username {any something} --passsword {any something} --tenant {any something}`
+
+- Log in with a service principal using a client certificate:
+
+`az login --service-principal --username {any something} --password {any something} --tenant {any something}`
+
+- Log in using a VM's system assigned identity:
+
+`az login --identity`
+
+- Log in using a VM's user assigned identity:
+
+`az login --identity --username /subscriptions/{any something}/resourcegroups/{any something}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{any something}`

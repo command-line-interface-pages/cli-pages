@@ -1,0 +1,17 @@
+# mashtree
+
+> Makes a fast tree from genomes
+> Does not make a phylogeny
+> More information: https://github.com/lskatz/mashtree
+
+- Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
+
+`mashtree --numcpus {int number: 12} {any something} {any something} > {any something}`
+
+- Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
+
+`mashtree --mindepth {int number: 0} --numcpus {int number: 12} {any something} {any something} > {any something}`
+
+- Most accurate method to create a tree with confidence values (note that any options for `mashtree` itself has to be on the right side of the `--`):
+
+`mashtree_bootstrap.pl --reps {int number: 100} --numcpus {int number: 12} {any something} -- --min-depth {int number: 0} > {any something}`

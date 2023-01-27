@@ -1,0 +1,36 @@
+# tmutil
+
+> Utility for managing Time Machine backups. Most verbs require root privileges
+> More information: https://ss64.com/osx/tmutil.html
+
+- Set an HFS+ drive as the backup destination:
+
+`sudo tmutil setdestination {any something}`
+
+- Set an APF share or SMB share as the backup destination:
+
+`sudo tmutil setdestination "{any something}"`
+
+- Append the given destination to the list of destinations:
+
+`sudo tmutil setdestination -a {any something}`
+
+- Enable automatic backups:
+
+`sudo tmutil enable`
+
+- Disable automatic backups:
+
+`sudo tmutil disable`
+
+- Start a backup, if one is not running already, and release control of the shell:
+
+`sudo tmutil startbackup`
+
+- Start a backup and block until the backup is finished:
+
+`sudo tmutil startbackup -b`
+
+- Stop a backup:
+
+`sudo tmutil stopbackup`

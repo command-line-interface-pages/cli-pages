@@ -1,0 +1,36 @@
+# gdu
+
+> Disk usage analyzer with console interface
+> More information: https://github.com/dundee/gdu
+
+- Interactively show the disk usage of the current directory:
+
+`gdu`
+
+- Interactively show the disk usage of a given directory:
+
+`gdu {directory something}`
+
+- Interactively show the disk usage of all mounted disks:
+
+`gdu --show-disks`
+
+- Interactively show the disk usage of the current directory but ignore some sub-directories:
+
+`gdu --ignore-dirs {any something}`
+
+- Ignore paths by regular expression:
+
+`gdu --ignore-dirs-pattern '{any something}'`
+
+- Ignore hidden directories:
+
+`gdu --no-hidden`
+
+- Only print the result, do not enter interactive mode:
+
+`gdu --non-interactive {directory something}`
+
+- Do not show the progress in non-interactive mode (useful in scripts):
+
+`gdu --no-progress {directory something}`

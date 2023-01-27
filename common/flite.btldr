@@ -1,0 +1,28 @@
+# flite
+
+> Speech synthesis engine
+> More information: http://www.festvox.org/flite/doc/
+
+- List all available voices:
+
+`flite -lv`
+
+- Convert a text string to speech:
+
+`flite -t "{any something}"`
+
+- Convert the contents of a file to speech:
+
+`flite -f {any something}`
+
+- Specify which voice to use:
+
+`flite -voice {any something}`
+
+- Store output into a wav file:
+
+`flite -voice {any something} -f {any something} -o {any something}`
+
+- Display version:
+
+`flite --version`

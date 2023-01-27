@@ -1,0 +1,16 @@
+# faketime
+
+> Fake the system time for a given command
+> More information: https://manned.org/faketime
+
+- Fake the time to this evening, before printing the result of `date`:
+
+`faketime '{any something}' {any something}`
+
+- Open a new `bash` shell, which uses yesterday as the current date:
+
+`faketime '{any something}' {any something}`
+
+- Simulate how a program would act next Friday night:
+
+`faketime '{any something}' {any something}`

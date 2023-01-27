@@ -1,0 +1,36 @@
+# git clone
+
+> Clone an existing repository
+> More information: https://git-scm.com/docs/git-clone
+
+- Clone an existing repository:
+
+`git clone {any something}`
+
+- Clone an existing repository into a specific directory:
+
+`git clone {any something} {directory something}`
+
+- Clone an existing repository and its submodules:
+
+`git clone --recursive {any something}`
+
+- Clone a local repository:
+
+`git clone -l {any something}`
+
+- Clone quietly:
+
+`git clone -q {any something}`
+
+- Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
+
+`git clone --depth {int number: 10} {any something}`
+
+- Clone an existing repository only fetching a specific branch:
+
+`git clone --branch {any something} --single-branch {any something}`
+
+- Clone an existing repository using a specific SSH command:
+
+`git clone --config core.sshCommand="{any something}" {any something}`

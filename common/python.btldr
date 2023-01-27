@@ -1,0 +1,36 @@
+# python
+
+> Python language interpreter
+> More information: https://www.python.org
+
+- Start a REPL (interactive shell):
+
+`python`
+
+- Execute a specific Python file:
+
+`python {any something}`
+
+- Execute a specific Python file and start a REPL:
+
+`python -i {any something}`
+
+- Execute a Python expression:
+
+`python -c "{any something}"`
+
+- Run the script of the specified library module:
+
+`python -m {any something} {any something}`
+
+- Install a package using `pip`:
+
+`python -m {any something} install {any something}`
+
+- Interactively debug a Python script:
+
+`python -m {any something} {any something}`
+
+- Start the built-in HTTP server on port 8000 in the current directory:
+
+`python -m {any something}`

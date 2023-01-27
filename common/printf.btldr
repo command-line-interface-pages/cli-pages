@@ -1,0 +1,24 @@
+# printf
+
+> Format and print text
+> More information: https://www.gnu.org/software/coreutils/printf
+
+- Print a text message:
+
+`printf "{any something}" "{any something}"`
+
+- Print an integer in bold blue:
+
+`printf "{any something}" {int number: 42}`
+
+- Print a float number with the Unicode Euro sign:
+
+`printf "{any something}" {float number: 123.4}`
+
+- Print a text message composed with environment variables:
+
+`printf "{any something}" "{any something}" "{any something}"`
+
+- Store a formatted message in a variable (does not work on zsh):
+
+`printf -v {any something} {any something}`

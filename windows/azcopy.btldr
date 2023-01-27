@@ -1,0 +1,28 @@
+# azcopy
+
+> A file transfer tool for uploading to Azure Cloud Storage Accounts
+> More information: https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10
+
+- Log in to an Azure Tenant:
+
+`azopy login`
+
+- Upload a local file:
+
+`azcopy copy '{any something}' 'https://{any something}.blob.core.windows.net/{any something}/{any something}'`
+
+- Upload files with `.txt` and `.jpg` extensions:
+
+`azcopy copy '{any something}' 'https://{any something}.blob.core.windows.net/{any something}' --include-pattern '{any something}'`
+
+- Copy a container directly between two Azure storage accounts:
+
+`azcopy copy 'https://{any something}.blob.core.windows.net/{any something}' 'https://{any something}.blob.core.windows.net/{any something}'`
+
+- Synchronize a local directory and delete files in the destination if they no longer exist in the source:
+
+`azcopy sync '{any something}' 'https://{any something}.blob.core.windows.net/{any something}' --recursive --delete-destination=true`
+
+- Display detailed usage information:
+
+`azcopy --help`

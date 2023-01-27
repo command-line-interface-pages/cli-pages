@@ -1,0 +1,20 @@
+# logsave
+
+> Save the output of a command in a logfile
+> More information: https://manned.org/logsave
+
+- Execute command with specified argument(s) and save its output to log file:
+
+`logsave {any something} {any something}`
+
+- Take input from stdin and save it in a log file:
+
+`logsave {any something} -`
+
+- Append the output to a log file, instead of replacing its current contents:
+
+`logsave -a {any something} {any something}`
+
+- Show verbose output:
+
+`logsave -v {any something} {any something}`

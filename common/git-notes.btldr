@@ -1,0 +1,36 @@
+# git notes
+
+> Add or inspect object notes
+> More information: https://git-scm.com/docs/git-notes
+
+- List all notes and the objects they are attached to:
+
+`git notes list`
+
+- List all notes attached to a given object (defaults to HEAD):
+
+`git notes list [{any something}]`
+
+- Show the notes attached to a given object (defaults to HEAD):
+
+`git notes show [{any something}]`
+
+- Append a note to a specified object (opens the default text editor):
+
+`git notes append {any something}`
+
+- Append a note to a specified object, specifying the message:
+
+`git notes append --message="{any something}"`
+
+- Edit an existing note (defaults to HEAD):
+
+`git notes edit [{any something}]`
+
+- Copy a note from one object to another:
+
+`git notes copy {any something} {any something}`
+
+- Remove all the notes added to a specified object:
+
+`git notes remove {any something}`

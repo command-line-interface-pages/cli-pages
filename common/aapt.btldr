@@ -1,0 +1,17 @@
+# aapt
+
+> Android Asset Packaging Tool
+> Compile and package an Android app's resources
+> More information: https://elinux.org/Android_aapt
+
+- List files contained in an APK archive:
+
+`aapt list {any something}`
+
+- Display an app's metadata (version, permissions, etc.):
+
+`aapt dump badging {any something}`
+
+- Create a new APK archive with files from the specified directory:
+
+`aapt package -F {any something} {directory something}`

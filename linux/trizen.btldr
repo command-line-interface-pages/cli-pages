@@ -1,0 +1,28 @@
+# trizen
+
+> Arch Linux utility for building packages from the Arch User Repository (AUR)
+> More information: https://github.com/trizen/trizen
+
+- Synchronize and update all AUR packages:
+
+`trizen -Syua`
+
+- Install a new package:
+
+`trizen -S {any something}`
+
+- Remove a package and its dependencies:
+
+`trizen -Rs {any something}`
+
+- Search the package database for a keyword:
+
+`trizen -Ss {any something}`
+
+- Show information about a package:
+
+`trizen -Si {any something}`
+
+- List installed packages and versions:
+
+`trizen -Qe`

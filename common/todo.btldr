@@ -1,0 +1,32 @@
+# todo
+
+> A simple, standards-based, cli todo manager
+> More information: https://todoman.readthedocs.io
+
+- List startable tasks:
+
+`todo list --startable`
+
+- Add a new task to the work list:
+
+`todo new {any something} --list {any something}`
+
+- Add a location to a task with a given ID:
+
+`todo edit --location {any something} {any something}`
+
+- Show details about a task:
+
+`todo show {any something}`
+
+- Mark tasks with the specified IDs as completed:
+
+`todo done {any something}`
+
+- Delete a task:
+
+`todo delete {any something}`
+
+- Delete done tasks and reset the IDs of the remaining tasks:
+
+`todo flush`

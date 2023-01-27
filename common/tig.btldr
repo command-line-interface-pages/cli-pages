@@ -1,0 +1,28 @@
+# tig
+
+> A text-mode interface for Git
+> More information: https://github.com/jonas/tig
+
+- Show the sequence of commits starting from the current one in reverse chronological order:
+
+`tig`
+
+- Show the history of a specific branch:
+
+`tig {any something}`
+
+- Show the history of specific files or directories:
+
+`tig {any something}`
+
+- Show the difference between two references (such as branches or tags):
+
+`tig {any something}..{any something}`
+
+- Display commits from all branches and stashes:
+
+`tig --all`
+
+- Start in stash view, displaying all saved stashes:
+
+`tig stash`

@@ -1,0 +1,28 @@
+# xcaddy
+
+> The custom build tool for the Caddy Web Server
+> More information: https://github.com/caddyserver/xcaddy
+
+- Build Caddy server from source:
+
+`xcaddy build`
+
+- Build Caddy server with a specific version (defaults to latest):
+
+`xcaddy build {any something}`
+
+- Build Caddy with a specific module:
+
+`xcaddy build --with {any something}`
+
+- Build Caddy and output to a specific file:
+
+`xcaddy build --output {file something}`
+
+- Build and run Caddy for a development plugin in the current directory:
+
+`xcaddy run`
+
+- Build and run Caddy for a development plugin using a specific Caddy config:
+
+`xcaddy run --config {file something}`

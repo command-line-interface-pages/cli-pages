@@ -1,0 +1,20 @@
+# tldr
+
+> Display simple help pages for command-line tools from the tldr-pages project
+> More information: https://tldr.sh
+
+- Print the tldr page for a specific command (hint: this is how you got here!):
+
+`tldr {any something}`
+
+- Print the tldr page for a specific subcommand:
+
+`tldr {any something}-{any something}`
+
+- Print the tldr page for a command for a specific [p]latform:
+
+`tldr -p {any something} {any something}`
+
+- [u]pdate the local cache of tldr pages:
+
+`tldr -u`

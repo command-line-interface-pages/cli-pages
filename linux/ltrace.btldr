@@ -1,0 +1,20 @@
+# ltrace
+
+> Display dynamic library calls of a process
+> More information: https://manned.org/ltrace
+
+- Print (trace) library calls of a program binary:
+
+`ltrace ./{any something}`
+
+- Count library calls. Print a handy summary at the bottom:
+
+`ltrace -c {any something}`
+
+- Trace calls to malloc and free, omit those done by libc:
+
+`ltrace -e malloc+free-@libc.so* {any something}`
+
+- Write to file instead of terminal:
+
+`ltrace -o {file something} {any something}`

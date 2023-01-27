@@ -1,0 +1,25 @@
+# clang++
+
+> Compiles C++ source files
+> Part of LLVM
+> More information: https://clang.llvm.org
+
+- Compile a source code file into an executable binary:
+
+`clang++ {any something} -o {any something}`
+
+- Display (almost) all errors and warnings:
+
+`clang++ {any something} -Wall -o {any something}`
+
+- Choose a language standard to compile with:
+
+`clang++ {any something} -std={any something} -o {any something}`
+
+- Include libraries located at a different path than the source file:
+
+`clang++ {any something} -o {any something} -I{any something} -L{any something} -l{any something}`
+
+- Compile source code into LLVM Intermediate Representation (IR):
+
+`clang++ -S -emit-llvm {any something} -o {any something}`

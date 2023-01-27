@@ -1,0 +1,36 @@
+# keepassxc-cli
+
+> Command-line interface for KeepassXC
+> More information: https://manned.org/keepassxc-cli
+
+- Search entries:
+
+`keepassxc-cli lookup {file something: path/to/database} {any something}`
+
+- List the contents of a folder:
+
+`keepassxc-cli ls {file something: path/to/database} {/directory something}`
+
+- Add an entry with an auto-generated password:
+
+`keepassxc-cli add --generate {file something: path/to/database} {any something}`
+
+- Delete an entry:
+
+`keepassxc-cli rm {file something: path/to/database} {any something}`
+
+- Copy an entry's password to the clipboard:
+
+`keepassxc-cli clip {file something: path/to/database} {any something}`
+
+- Copy a TOTP code to the clipboard:
+
+`keepassxc-cli clip --totp {file something: path/to/database} {any something}`
+
+- Generate a passphrase with 7 words:
+
+`keepassxc-cli diceware --words {int number: 7}`
+
+- Generate a password with 16 printable ASCII characters:
+
+`keepassxc-cli generate --lower --upper --numeric --special --length {int number: 16}`

@@ -1,0 +1,28 @@
+# pax
+
+> Archiving and copying utility
+> More information: https://manned.org/pax.1p
+
+- List the contents of an archive:
+
+`pax -f {any something}`
+
+- List the contents of a gzipped archive:
+
+`pax -zf {any something}`
+
+- Create an archive from files:
+
+`pax -wf {any something} {any something} {any something} {any something}`
+
+- Create an archive from files, using output redirection:
+
+`pax -w {any something} {any something} {any something} > {any something}`
+
+- Extract an archive into the current directory:
+
+`pax -rf {any something}`
+
+- Copy to a directory, while keeping the original metadata; `target/` must exist:
+
+`pax -rw {any something} {any something} {any something} {any something}`

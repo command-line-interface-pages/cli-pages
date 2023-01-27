@@ -1,0 +1,16 @@
+# vela
+
+> Command-line tools for the Vela pipeline
+> More information: https://go-vela.github.io/docs/reference/cli/
+
+- Trigger a pipeline to run from a Git branch, commit or tag:
+
+`vela add deployment --org {any something} --repo {any something} --target {any something} --ref {any something} --description "{any something}"`
+
+- List deployments for a repository:
+
+`vela get deployment --org {any something} --repo {any something}`
+
+- Inspect a specific deployment:
+
+`vela view deployment --org {any something} --repo {any something} --deployment {any something}`

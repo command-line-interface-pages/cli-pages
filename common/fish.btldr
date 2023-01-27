@@ -1,0 +1,36 @@
+# fish
+
+> The Friendly Interactive SHell, a command-line interpreter designed to be user friendly
+> More information: https://fishshell.com
+
+- Start an interactive shell session:
+
+`fish`
+
+- Start an interactive shell session without loading startup configs:
+
+`fish --no-config`
+
+- Execute specific commands:
+
+`fish --command "{any something}"`
+
+- Execute a specific script:
+
+`fish {any something}`
+
+- Check a specific script for syntax errors:
+
+`fish --no-execute {any something}`
+
+- Execute specific commands from stdin:
+
+`{any something} | fish`
+
+- Start an interactive shell session in private mode, where the shell does not access old history or save new history:
+
+`fish --private`
+
+- Define and export an environmental variable that persists across shell restarts (builtin):
+
+`set --universal --export {any something} {any something}`

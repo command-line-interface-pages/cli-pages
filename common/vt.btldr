@@ -1,0 +1,37 @@
+# vt
+
+> Command-line interface for VirusTotal
+> API key from a VirusTotal account is required for this command
+> More information: https://github.com/VirusTotal/vt-cli
+
+- Scan a specific file for viruses:
+
+`vt scan file {file something}`
+
+- Scan a URL for viruses:
+
+`vt scan url {any something}`
+
+- Display information from a specific analysis:
+
+`vt analysis {any something}`
+
+- Download files in encrypted `.zip` format (requires premium account):
+
+`vt download {any something} --output {directory something} --zip --zip-password {any something}`
+
+- Initialize or re-initialize `vt` to enter API key interactively:
+
+`vt init`
+
+- Display information about a domain:
+
+`vt domain {any something}`
+
+- Display information for a specific URL:
+
+`vt url {any something}`
+
+- Display information for a specific IP address:
+
+`vt domain {any something}`

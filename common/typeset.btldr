@@ -1,0 +1,28 @@
+# typeset
+
+> Declare variables and give them attributes
+> More information: https://www.gnu.org/software/bash/manual/bash.html#Bash-Builtins
+
+- Declare a string variable with the specified value:
+
+`typeset {any something}="{any something}"`
+
+- Declare an integer variable with the specified value:
+
+`typeset -i {any something}="{any something}"`
+
+- Declare an array variable with the specified value:
+
+`typeset {any something}=({any something})`
+
+- Declare an associative array variable with the specified value:
+
+`typeset -A {any something}=({any something})`
+
+- Declare a readonly variable with the specified value:
+
+`typeset -r {any something}="{any something}"`
+
+- Declare a global variable within a function with the specified value:
+
+`typeset -g {any something}="{any something}"`

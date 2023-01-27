@@ -1,0 +1,28 @@
+# transfersh
+
+> An unofficial command-line client for transfer.sh
+> More information: https://github.com/AlpixTM/transfersh
+
+- Upload a file to transfer.sh:
+
+`transfersh {file something}`
+
+- Upload a file showing a progress bar (requires Python package `requests_toolbelt`):
+
+`transfersh --progress {file something}`
+
+- Upload a file using a different file name:
+
+`transfersh --name {any something} {file something}`
+
+- Upload a file to a custom transfer.sh server:
+
+`transfersh --servername {any something} {file something}`
+
+- Upload all files from a directory recursively:
+
+`transfersh --recursive {any something}`
+
+- Upload a specific directory as an uncompressed tar:
+
+`transfersh -rt {directory something}`

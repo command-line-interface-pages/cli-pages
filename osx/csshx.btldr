@@ -1,0 +1,16 @@
+# csshX
+
+> Cluster SSH tool for macOS
+> More information: https://github.com/brockgr/csshx
+
+- Connect to multiple hosts:
+
+`csshX {any something} {any something}`
+
+- Connect to multiple hosts with a given SSH key:
+
+`csshX {any something} {any something} --ssh_args "-i {any something}"`
+
+- Connect to a pre-defined cluster from `/etc/clusters`:
+
+`csshX cluster1`

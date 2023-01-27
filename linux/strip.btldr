@@ -1,0 +1,16 @@
+# strip
+
+> Discard symbols from executables or object files
+> More information: https://manned.org/strip
+
+- Replace the input file with its stripped version:
+
+`strip {file something}`
+
+- Strip symbols from a file, saving the output to a specific file:
+
+`strip {file something: path/to/input} -o {file something: path/to/output}`
+
+- Strip debug symbols only:
+
+`strip --strip-debug {any something}`

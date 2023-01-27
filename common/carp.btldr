@@ -1,0 +1,28 @@
+# carp
+
+> REPL and build tool for Carp
+> More information: https://carp-lang.github.io/carp-docs/Manual.html
+
+- Start a REPL (interactive shell):
+
+`carp`
+
+- Start a REPL with a custom prompt:
+
+`carp --prompt "{any something}"`
+
+- Build a `carp` file:
+
+`carp -b {any something}`
+
+- Build and run a file:
+
+`carp -x {any something}`
+
+- Build a file with optimizations enabled:
+
+`carp -b --optimize {any something}`
+
+- Transpile a file to C code:
+
+`carp --generate-only {any something}`

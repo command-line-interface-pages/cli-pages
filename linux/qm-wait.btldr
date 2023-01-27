@@ -1,0 +1,16 @@
+# qm wait
+
+> Wait until the virtual machine is stopped
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Wait until the virtual machine is stopped:
+
+`qm wait {any something}`
+
+- Wait until the virtual machine is stopped with a 10 second timeout:
+
+`qm wait --timeout {int number: 10} {any something}`
+
+- Send a shutdown request, then wait until the virtual machine is stopped with a 10 second timeout:
+
+`qm shutdown {any something} && qm wait --timeout {int number: 10} {any something}`

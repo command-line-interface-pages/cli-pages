@@ -1,0 +1,28 @@
+# envoy
+
+> A PHP-based task manager for Laravel remote servers
+> More information: https://laravel.com/docs/envoy
+
+- Initialize a configuration file:
+
+`envoy init {any something}`
+
+- Run a task:
+
+`envoy run {any something}`
+
+- Run a task from a specific project:
+
+`envoy run --path {directory something} {any something}`
+
+- Run a task and continue on failure:
+
+`envoy run --continue {any something}`
+
+- Dump a task as a Bash script for inspection:
+
+`envoy run --pretend {any something}`
+
+- Connect to the specified server via SSH:
+
+`envoy ssh {any something}`

@@ -1,0 +1,28 @@
+# phpstan
+
+> A PHP static analysis tool to discover bugs in code
+> More information: https://github.com/phpstan/phpstan
+
+- Display available options for analysis:
+
+`phpstan analyse --help`
+
+- Analyze the specified space-separated directories:
+
+`phpstan analyse {directory something}`
+
+- Analyze a directory using a configuration file:
+
+`phpstan analyse {directory something} --configuration {any something}`
+
+- Analyze using a specific rule level (0-7, higher is stricter):
+
+`phpstan analyse {directory something} --level {any something}`
+
+- Specify an autoload file to load before analyzing:
+
+`phpstan analyse {directory something} --autoload-file {file something: path/to/autoload}`
+
+- Specify a memory limit during analysis:
+
+`phpstan analyse {directory something} --memory-limit {any something}`

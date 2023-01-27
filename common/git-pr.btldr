@@ -1,0 +1,21 @@
+# git pr
+
+> Check out GitHub pull requests locally
+> Part of `git-extras`
+> More information: https://github.com/tj/git-extras/blob/master/Commands.md#git-pr
+
+- Check out a specific pull request:
+
+`git pr {any something}`
+
+- Check out a pull request from a specific remote:
+
+`git pr {any something} {any something}`
+
+- Check out a pull request from its URL:
+
+`git pr {any something}`
+
+- Clean up old pull request branches:
+
+`git pr clean`

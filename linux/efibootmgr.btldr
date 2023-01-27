@@ -1,0 +1,24 @@
+# efibootmgr
+
+> Manipulate the UEFI Boot Manager
+> More information: https://manned.org/efibootmgr
+
+- List the current settings then bootnums with their name:
+
+`efibootmgr`
+
+- List the filepaths:
+
+`efibootmgr -v`
+
+- Add UEFI Shell v2 as a boot option:
+
+`sudo efibootmgr -c -d {any something} -l {any something} -L "{any something}"`
+
+- Change the current boot order:
+
+`sudo efibootmgr -o {any something}`
+
+- Delete a boot option:
+
+`sudo efibootmgr -b {int number: 0008} --delete-bootnum`

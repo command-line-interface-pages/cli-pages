@@ -1,0 +1,36 @@
+# fly
+
+> Command-line tool for concourse-ci
+> More information: https://concourse-ci.org/fly.html
+
+- Authenticate with and save concourse target:
+
+`fly --target {any something} login --team-name {any something} -c {any something}`
+
+- List targets:
+
+`fly targets`
+
+- List pipelines:
+
+`fly -t {any something} pipelines`
+
+- Upload or update a pipeline:
+
+`fly -t {any something} set-pipeline --config {any something} --pipeline {any something}`
+
+- Unpause pipeline:
+
+`fly -t {any something} unpause-pipeline --pipeline {any something}`
+
+- Show pipeline configuration:
+
+`fly -t {any something} get-pipeline --pipeline {any something}`
+
+- Update local copy of fly:
+
+`fly -t {any something} sync`
+
+- Destroy pipeline:
+
+`fly -t {any something} destroy-pipeline --pipeline {any something}`

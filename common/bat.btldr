@@ -1,0 +1,29 @@
+# bat
+
+> Print and concatenate files
+> A `cat` clone with syntax highlighting and Git integration
+> More information: https://github.com/sharkdp/bat
+
+- Print the contents of a file to the stdout:
+
+`bat {file something}`
+
+- Concatenate several files into the target file:
+
+`bat {any something} {any something} > {file something: target}`
+
+- Append several files into the target file:
+
+`bat {any something} {any something} >> {file something: target}`
+
+- Number all output lines:
+
+`bat --number {file something}`
+
+- Syntax highlight a JSON file:
+
+`bat --language json {any something}`
+
+- Display all supported languages:
+
+`bat --list-languages`

@@ -1,0 +1,24 @@
+# brctl
+
+> Ethernet bridge administration
+> More information: https://manned.org/brctl
+
+- Show a list with information about currently existing Ethernet bridges:
+
+`sudo brctl show`
+
+- Create a new Ethernet bridge interface:
+
+`sudo brctl add {any something}`
+
+- Delete an existing Ethernet bridge interface:
+
+`sudo brctl del {any something}`
+
+- Add an interface to an existing bridge:
+
+`sudo brctl addif {any something} {any something}`
+
+- Remove an interface from an existing bridge:
+
+`sudo brctl delif {any something} {any something}`

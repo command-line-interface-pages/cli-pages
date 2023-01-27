@@ -1,0 +1,28 @@
+# sha384sum
+
+> Calculate SHA384 cryptographic checksums
+> More information: https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html
+
+- Calculate the SHA384 checksum for a file:
+
+`sha384sum {file something}`
+
+- Calculate SHA384 checksums for multiple files:
+
+`sha384sum {any something} {any something}`
+
+- Calculate and save the list of SHA384 checksums to a file:
+
+`sha384sum {any something} {any something} > {any something}`
+
+- Read a file of SHA384 sums and verify all files have matching checksums:
+
+`sha384sum --check {any something}`
+
+- Only show a message for missing files or when verification fails:
+
+`sha384sum --check --quiet {any something}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha384sum --ignore-missing --check --quiet {any something}`

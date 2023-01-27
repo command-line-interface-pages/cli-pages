@@ -1,0 +1,29 @@
+# od
+
+> Display file contents in octal, decimal or hexadecimal format
+> Optionally display the byte offsets and/or printable representation for each line
+> More information: https://www.gnu.org/software/coreutils/od
+
+- Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
+
+`od {file something}`
+
+- Display file in verbose mode, i.e. without replacing duplicate lines with `*`:
+
+`od -v {file something}`
+
+- Display file in hexadecimal format (2-byte units), with byte offsets in decimal format:
+
+`od --format={any something} --address-radix={any something} -v {file something}`
+
+- Display file in hexadecimal format (1-byte units), and 4 bytes per line:
+
+`od --format={any something} --width={int number: 4} -v {file something}`
+
+- Display file in hexadecimal format along with its character representation, and do not print byte offsets:
+
+`od --format={any something} --address-radix={any something} -v {file something}`
+
+- Read only 100 bytes of a file starting from the 500th byte:
+
+`od --read-bytes {int number: 100} --skip-bytes={int number: 500} -v {file something}`

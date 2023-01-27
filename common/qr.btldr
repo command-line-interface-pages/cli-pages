@@ -1,0 +1,12 @@
+# qr
+
+> Generate QR codes in the terminal with ANSI VT-100 escape codes
+> More information: https://github.com/lincolnloop/python-qrcode/
+
+- Generate a QR code:
+
+`echo "{any something}" | qr`
+
+- Specify the error correction level (defaults to M):
+
+`echo "{any something}" | qr --error-correction={any something}`

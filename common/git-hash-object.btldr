@@ -1,0 +1,20 @@
+# git hash-object
+
+> Computes the unique hash key of content and optionally creates an object with specified type
+> More information: https://git-scm.com/docs/git-hash-object
+
+- Compute the object ID without storing it:
+
+`git hash-object {file something}`
+
+- Compute the object ID and store it in the Git database:
+
+`git hash-object -w {file something}`
+
+- Compute the object ID specifying the object type:
+
+`git hash-object -t {any something} {file something}`
+
+- Compute the object ID from stdin:
+
+`cat {file something} | git hash-object --stdin`

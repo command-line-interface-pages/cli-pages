@@ -1,0 +1,24 @@
+# aspell
+
+> Interactive spell checker
+> More information: http://aspell.net/
+
+- Spell check a single file:
+
+`aspell check {file something}`
+
+- List misspelled words from stdin:
+
+`cat {file something} | aspell list`
+
+- Show available dictionary languages:
+
+`aspell dicts`
+
+- Run `aspell` with a different language (takes two-letter ISO 639 language code):
+
+`aspell --lang={any something}`
+
+- List misspelled words from stdin and ignore words from personal word list:
+
+`cat {file something} | aspell --personal={any something} list`

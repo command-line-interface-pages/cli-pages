@@ -1,0 +1,20 @@
+# iw
+
+> Show and manipulate wireless devices
+> More information: https://manned.org/iw
+
+- Scan for available wireless networks:
+
+`iw dev {any something} scan`
+
+- Join an open wireless network:
+
+`iw dev {any something} connect {any something}`
+
+- Close the current connection:
+
+`iw dev {any something} disconnect`
+
+- Show information about the current connection:
+
+`iw dev {any something} link`

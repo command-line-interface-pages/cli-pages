@@ -1,0 +1,25 @@
+# namei
+
+> Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc)
+> This program is useful for finding "too many levels of symbolic links" problems
+> More information: https://manned.org/namei
+
+- Resolve the pathnames specified as the argument parameters:
+
+`namei {any something} {any something} {any something}`
+
+- Display the results in a long-listing format:
+
+`namei --long {any something} {any something} {any something}`
+
+- Show the mode bits of each file type in the style of `ls`:
+
+`namei --modes {any something} {any something} {any something}`
+
+- Show owner and group name of each file:
+
+`namei --owners {any something} {any something} {any something}`
+
+- Don't follow symlinks while resolving:
+
+`namei --nosymlinks {any something} {any something} {any something}`

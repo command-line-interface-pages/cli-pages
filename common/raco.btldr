@@ -1,0 +1,28 @@
+# raco
+
+> Racket command-line tools
+> More information: https://docs.racket-lang.org/raco/
+
+- Install a package, automatically installing dependencies:
+
+`raco pkg install --auto {any something}`
+
+- Install the current directory as a package:
+
+`raco pkg install`
+
+- Build (or rebuild) bytecode, documentation, executables, and metadata indexes for collections:
+
+`raco setup {any something}`
+
+- Run tests in files:
+
+`raco test {any something}`
+
+- Search local documentation:
+
+`raco docs {any something}`
+
+- Display help:
+
+`raco help`

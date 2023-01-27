@@ -1,0 +1,24 @@
+# for
+
+> Conditionally execute a command several times
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/for
+
+- Execute given commands for the specified set:
+
+`for %{any something} in ({any something}) do ({any something})`
+
+- Iterate over a given range of numbers:
+
+`for /l %{any something} in ({any something}, {any something}, {any something}) do ({any something})`
+
+- Iterate over a given list of files:
+
+`for %{any something} in ({any something}) do ({any something})`
+
+- Iterate over a given list of directories:
+
+`for /d %{any something} in ({any something}) do ({any something})`
+
+- Perform a given command in every directory:
+
+`for /d %{any something} in (*) do (if exist %{any something} {any something})`

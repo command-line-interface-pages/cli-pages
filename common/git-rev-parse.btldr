@@ -1,0 +1,16 @@
+# git rev-parse
+
+> Display metadata related to specific revisions
+> More information: https://git-scm.com/docs/git-rev-parse
+
+- Get the commit hash of a branch:
+
+`git rev-parse {any something}`
+
+- Get the current branch name:
+
+`git rev-parse --abbrev-ref {any something}`
+
+- Get the absolute path to the root directory:
+
+`git rev-parse --show-toplevel`

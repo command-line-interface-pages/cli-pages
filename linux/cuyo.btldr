@@ -1,0 +1,20 @@
+# cuyo
+
+> Tetris like game
+> More information: https://www.karimmi.de/cuyo/
+
+- Start a new game:
+
+`cuyo`
+
+- Navigate the piece horizontally:
+
+`{any something} OR {any something} arrow key`
+
+- Turn the piece:
+
+`{any something} `
+
+- Hard drop the piece:
+
+`{any something}`

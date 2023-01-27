@@ -1,0 +1,12 @@
+# utmpdump
+
+> Dump and load btmp, utmp and wtmp accounting files
+> More information: https://manned.org/utmpdump
+
+- Dump the `/var/log/wtmp` file to the stdout as plain text:
+
+`utmpdump {any something}`
+
+- Load a previously dumped file into `/var/log/wtmp`:
+
+`utmpdump -r {any something} > {any something}`

@@ -1,0 +1,20 @@
+# eyeD3
+
+> Read and manipulate metadata of MP3 files
+> More information: https://eyed3.readthedocs.io
+
+- View information about an MP3 file:
+
+`eyeD3 {any something}`
+
+- Set the title of an MP3 file:
+
+`eyeD3 --title "{any something}" {any something}`
+
+- Set the album of all the MP3 files in a directory:
+
+`eyeD3 --album "{any something}" {any something}`
+
+- Set the front cover art for an MP3 file:
+
+`eyeD3 --add-image {any something}:FRONT_COVER: {any something}`

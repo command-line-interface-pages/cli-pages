@@ -1,0 +1,24 @@
+# wg
+
+> Manage the configuration of WireGuard interfaces
+> More information: https://www.wireguard.com/quickstart/
+
+- Check status of currently active interfaces:
+
+`wg`
+
+- Generate a new private key:
+
+`wg genkey`
+
+- Generate a public key from a private key:
+
+`wg pubkey < {any something} > {any something}`
+
+- Generate a public and private key:
+
+`wg genkey | tee {any something} | wg pubkey > {any something}`
+
+- Show the current configuration of a wireguard interface:
+
+`wg showconf {any something}`

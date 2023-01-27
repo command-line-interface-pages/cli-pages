@@ -1,0 +1,25 @@
+# ar
+
+> Create, modify, and extract from Unix archives. Typically used for static libraries (`.a`) and Debian packages (`.deb`)
+> See also: `tar`
+> More information: https://manned.org/ar
+
+- E[x]tract all members from an archive:
+
+`ar x {any something}`
+
+- Lis[t] contents in a specific archive:
+
+`ar t {any something}`
+
+- [r]eplace or add specific files to an archive:
+
+`ar r {any something} {any something}`
+
+- In[s]ert an object file index (equivalent to using `ranlib`):
+
+`ar s {any something}`
+
+- Create an archive with specific files and an accompanying object file index:
+
+`ar rs {any something} {any something}`

@@ -1,0 +1,16 @@
+# pdfinfo
+
+> Portable Document Format (PDF) file information viewer
+> More information: https://www.xpdfreader.com/pdfinfo-man.html
+
+- Print PDF file information:
+
+`pdfinfo {any something}`
+
+- Specify user password for PDF file to bypass security restrictions:
+
+`pdfinfo -upw {any something} {any something}`
+
+- Specify owner password for PDF file to bypass security restrictions:
+
+`pdfinfo -opw {any something} {any something}`

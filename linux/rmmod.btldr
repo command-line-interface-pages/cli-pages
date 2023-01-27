@@ -1,0 +1,24 @@
+# rmmod
+
+> Remove modules from the Linux kernel
+> More information: https://manned.org/rmmod
+
+- Remove a module from the kernel:
+
+`sudo rmmod {any something}`
+
+- Remove a module from the kernel and display verbose information:
+
+`sudo rmmod --verbose {any something}`
+
+- Remove a module from the kernel and send errors to syslog instead of stderr:
+
+`sudo rmmod --syslog {any something}`
+
+- Display help:
+
+`rmmod --help`
+
+- Display version:
+
+`rmmod --version`

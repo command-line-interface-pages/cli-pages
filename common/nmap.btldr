@@ -1,0 +1,37 @@
+# nmap
+
+> Network exploration tool and security / port scanner
+> Some features only activate when Nmap is run with root privileges
+> More information: https://nmap.org
+
+- Check if an IP address is up, and guess the remote host's operating system:
+
+`nmap -O {any something}`
+
+- Try to determine whether the specified hosts are up (ping scan) and what their names are:
+
+`nmap -sn {any something} {any something}`
+
+- Also enable scripts, service detection, OS fingerprinting and traceroute:
+
+`nmap -A {any something}`
+
+- Scan a specific list of ports (use '-p-' for all ports from 1 to 65535):
+
+`nmap -p {any something} {any something}`
+
+- Perform service and version detection of the top 1000 ports using default NSE scripts; writing results ('-oN') to output file:
+
+`nmap -sC -sV -oN {any something} {any something}`
+
+- Scan target(s) carefully using 'default and safe' NSE scripts:
+
+`nmap --script "default and safe" {any something}`
+
+- Scan web server running on standard ports 80 and 443 using all available 'http-*' NSE scripts:
+
+`nmap --script "http-*" {any something} -p 80,443`
+
+- Perform a stealthy very slow scan ('-T0') trying to avoid detection by IDS/IPS and use decoy ('-D') source IP addresses:
+
+`nmap -T0 -D {any something} {any something}`

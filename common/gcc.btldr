@@ -1,0 +1,24 @@
+# gcc
+
+> Preprocess and compile C and C++ source files, then assemble and link them together
+> More information: https://gcc.gnu.org
+
+- Compile multiple source files into executable:
+
+`gcc {any something} -o {any something}`
+
+- Show common warnings, debug symbols in output, and optimize without affecting debugging:
+
+`gcc {any something} -Wall -g -Og -o {any something}`
+
+- Include libraries from a different path:
+
+`gcc {any something} -o {any something} -I{any something} -L{any something} -l{any something}`
+
+- Compile source code into Assembler instructions:
+
+`gcc -S {any something}`
+
+- Compile source code into an object file without linking:
+
+`gcc -c {any something}`

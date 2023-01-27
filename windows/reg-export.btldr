@@ -1,0 +1,12 @@
+# reg export
+
+> Export the specified sub keys and values into a file
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export
+
+- Export all sub keys and values of a specific key:
+
+`reg export {any something} {any something}`
+
+- Force overwriting of an existing file without prompt:
+
+`reg export {any something} {any something} /y`

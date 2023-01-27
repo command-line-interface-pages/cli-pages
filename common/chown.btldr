@@ -1,0 +1,24 @@
+# chown
+
+> Change user and group ownership of files and directories
+> More information: https://www.gnu.org/software/coreutils/chown
+
+- Change the owner user of a file/directory:
+
+`chown {any something} {directory something: path/to/file_or}`
+
+- Change the owner user and group of a file/directory:
+
+`chown {any something}:{any something} {directory something: path/to/file_or}`
+
+- Recursively change the owner of a directory and its contents:
+
+`chown -R {any something} {directory something}`
+
+- Change the owner of a symbolic link:
+
+`chown -h {any something} {any something}`
+
+- Change the owner of a file/directory to match a reference file:
+
+`chown --reference={file something: path/to/reference} {directory something: path/to/file_or}`

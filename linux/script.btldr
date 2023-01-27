@@ -1,0 +1,20 @@
+# script
+
+> Record all terminal output to file
+> More information: https://manned.org/script
+
+- Record a new session to a file named `typescript` in the current directory:
+
+`script`
+
+- Record a new session to a custom filepath:
+
+`script {any something}`
+
+- Record a new session, appending to an existing file:
+
+`script -a {any something}`
+
+- Record timing information (data is outputted to the stderr):
+
+`script -t 2> {any something}`

@@ -1,0 +1,16 @@
+# isosize
+
+> Display the size of an ISO file
+> More information: https://manned.org/isosize
+
+- Display the size of an ISO file:
+
+`isosize {any something}`
+
+- Display the block count and block size of an ISO file:
+
+`isosize --sectors {any something}`
+
+- Display the size of an ISO file divided by a given number (only usable when --sectors is not given):
+
+`isosize --divisor={any something} {any something}`

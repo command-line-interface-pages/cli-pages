@@ -1,0 +1,25 @@
+# axel
+
+> Download accelerator
+> Supports HTTP, HTTPS, and FTP
+> More information: https://github.com/axel-download-accelerator/axel
+
+- Download a URL to a file:
+
+`axel {any something}`
+
+- Download and specify filename:
+
+`axel {any something} -o {file something}`
+
+- Download with multiple connections:
+
+`axel -n {any something} {any something}`
+
+- Search for mirrors:
+
+`axel -S {any something} {any something}`
+
+- Limit download speed (bytes per second):
+
+`axel -s {any something} {any something}`

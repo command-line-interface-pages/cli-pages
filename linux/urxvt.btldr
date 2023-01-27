@@ -1,0 +1,25 @@
+# urxvt
+
+> Rxvt-unicode
+> A customizable terminal emulator
+> More information: https://manned.org/urxvt
+
+- Open a new urxvt window:
+
+`urxvt`
+
+- Run in a specific directory:
+
+`urxvt -cd {directory something}`
+
+- Run a command in a new urxvt window:
+
+`urxvt -e {any something}`
+
+- Run a command and keep the window open:
+
+`urxvt --hold -e {any something}`
+
+- Run a command within the `sh` shell:
+
+`urxvt -e {any something} -c {any something}`

@@ -1,0 +1,25 @@
+# az tag
+
+> Manage tags on a resource
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/tag
+
+- Create a tag value:
+
+`az tag add-value --name {any something} --value {any something}`
+
+- Create a tag in the subscription:
+
+`az tag create --name {any something}`
+
+- Delete a tag from the subscription:
+
+`az tag delete --name {any something}`
+
+- List all tags on a subscription:
+
+`az tag list --resource-id /subscriptions/{any something}`
+
+- Delete a tag value for a specific tag name:
+
+`az tag remove-value --name {any something} --value {any something}`

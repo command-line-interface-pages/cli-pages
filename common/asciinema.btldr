@@ -1,0 +1,36 @@
+# asciinema
+
+> Record and replay terminal sessions, and optionally share them on asciinema.org
+> More information: https://asciinema.org/docs/usage
+
+- Associate the local install of `asciinema` with an asciinema.org account:
+
+`asciinema auth`
+
+- Make a new recording (once finished, user will be prompted to upload it or save it locally):
+
+`asciinema rec`
+
+- Make a new recording and save it to a local file:
+
+`asciinema rec {file something}.cast`
+
+- Replay a terminal recording from a local file:
+
+`asciinema play {file something}.cast`
+
+- Replay a terminal recording hosted on asciinema.org:
+
+`asciinema play https://asciinema.org/a/{any something}`
+
+- Make a new recording, limiting any idle time to at most 2.5 seconds:
+
+`asciinema rec -i {float number: 2.5}`
+
+- Print the full output of a locally saved recording:
+
+`asciinema cat {file something}.cast`
+
+- Upload a locally saved terminal session to asciinema.org:
+
+`asciinema upload {file something}.cast`

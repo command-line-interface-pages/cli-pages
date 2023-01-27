@@ -1,0 +1,32 @@
+# mysql
+
+> The MySQL command-line tool
+> More information: https://www.mysql.com/
+
+- Connect to a database:
+
+`mysql {any something}`
+
+- Connect to a database, user will be prompted for a password:
+
+`mysql -u {any something} --password {any something}`
+
+- Connect to a database on another host:
+
+`mysql -h {any something} {any something}`
+
+- Connect to a database through a Unix socket:
+
+`mysql --socket {any something}`
+
+- Execute SQL statements in a script file (batch file):
+
+`mysql -e "source {any something}" {any something}`
+
+- Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
+
+`mysql --user {any something} --password {any something} < {any something}`
+
+- Restore all databases from a backup (user will be prompted for a password):
+
+`mysql --user {any something} --password < {any something}`

@@ -1,0 +1,33 @@
+# lpr
+
+> CUPS tool for printing files
+> See also: `lpstat` and `lpadmin`
+> More information: https://www.cups.org/doc/man-lpr.html
+
+- Print a file to the default printer:
+
+`lpr {file something}`
+
+- Print 2 copies:
+
+`lpr -# {int number: 2} {file something}`
+
+- Print to a named printer:
+
+`lpr -P {any something} {file something}`
+
+- Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
+
+`lpr -o page-ranges={any something} {file something}`
+
+- Print double-sided either in portrait (long) or in landscape (short):
+
+`lpr -o sides={any something} {file something}`
+
+- Set page size (more options may be available depending on setup):
+
+`lpr -o media={any something} {file something}`
+
+- Print multiple pages per sheet:
+
+`lpr -o number-up={any something} {file something}`

@@ -1,0 +1,12 @@
+# dhcpwn
+
+> Test DHCP IP exhaustion attacks and sniff local DHCP traffic
+> More information: https://github.com/mschwager/dhcpwn
+
+- Flood the network with IP requests:
+
+`dhcpwn --interface {any something} flood --count {any something}`
+
+- Sniff local DHCP traffic:
+
+`dhcpwn --interface {any something} sniff`

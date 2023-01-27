@@ -1,0 +1,24 @@
+# img2pdf
+
+> Command-line lossless converter of raster images to PDF
+> More information: https://gitlab.mister-muffin.de/josch/img2pdf
+
+- Convert multiple images to a single PDF, each image being on its own page:
+
+`img2pdf {any something} {any something} --output {any something}`
+
+- Convert only the first frame of a multi-frame image to PDF:
+
+`img2pdf {any something} --first-frame-only --output {any something}`
+
+- Auto orient the image, use a page size of A4 in landscape mode, and set a border of 2cm horizontally and 5.1cm vertically:
+
+`img2pdf {any something} --auto-orient --pagesize {any something} --border {any something}:{any something} --output {any something}`
+
+- Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page:
+
+`img2pdf {any something} --pagesize {any something}x{any something} --imgsize {any something}x{any something} --fit {any something} --output {any something}`
+
+- Convert an image to PDF, and specify metadata for the resulting file:
+
+`img2pdf {any something} --title {any something} --author {any something} --creationdate {any something} --keywords {any something} --subject {any something} --output {any something}`

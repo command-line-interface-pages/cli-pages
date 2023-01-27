@@ -1,0 +1,20 @@
+# flac
+
+> Encodes, decodes and tests FLAC files
+> More information: https://xiph.org/flac
+
+- Encode a WAV file to FLAC (this will create a FLAC file in the same location as the WAV file):
+
+`flac {any something}`
+
+- Encode a WAV file to FLAC, specifying the output file:
+
+`flac -o {any something} {any something}`
+
+- Decode a FLAC file to WAV, specifying the output file:
+
+`flac -d -o {any something} {any something}`
+
+- Test a FLAC file for the correct encoding:
+
+`flac -t {any something}`

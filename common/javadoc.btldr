@@ -1,0 +1,16 @@
+# javadoc
+
+> Generate Java API documentation in HTML format from source code
+> More information: https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html
+
+- Generate documentation for Java source code and save the result in a directory:
+
+`javadoc -d {any something} {any something}`
+
+- Generate documentation with a specific encoding:
+
+`javadoc -docencoding {any something} {any something}`
+
+- Generate documentation excluding some packages:
+
+`javadoc -exclude {any something} {any something}`

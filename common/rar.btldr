@@ -1,0 +1,28 @@
+# rar
+
+> The RAR archiver. Supports multi-volume archives that can be optionally self-extracting
+> More information: https://manned.org/rar
+
+- Archive 1 or more files:
+
+`rar a {any something} {any something} {any something} {any something}`
+
+- Archive a directory:
+
+`rar a {any something} {directory something}`
+
+- Split the archive into parts of equal size (50M):
+
+`rar a -v{any something} -R {any something} {directory something: path/to/file_or}`
+
+- Password protect the resulting archive:
+
+`rar a -p{any something} {any something} {directory something: path/to/file_or}`
+
+- Encrypt file data and headers with password:
+
+`rar a -hp{any something} {any something} {directory something: path/to/file_or}`
+
+- Use a specific compression level (0-5):
+
+`rar a -m{any something} {any something} {directory something: path/to/file_or}`

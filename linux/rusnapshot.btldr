@@ -1,0 +1,28 @@
+# rusnapshot
+
+> BTRFS snapshotting utility written in Rust
+> More information: https://github.com/Edu4rdSHL/rusnapshot
+
+- Create a snapshot using a config file:
+
+`sudo rusnapshot --config {any something} --cr`
+
+- List created snapshots:
+
+`sudo rusnapshot -c {any something} --list`
+
+- Delete a snapshot by ID or the name of the snapshot:
+
+`sudo rusnapshot -c {any something} --del --id {any something}`
+
+- Delete all `hourly` snapshots:
+
+`sudo rusnapshot -c {any something} --list --keep {int number: 0} --clean --kind {any something}`
+
+- Create a read-write snapshot:
+
+`sudo rusnapshot -c {any something} --cr --rw`
+
+- Restore a snapshot:
+
+`sudo rusnapshot -c {any something} --id {any something} --restore`

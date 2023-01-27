@@ -1,0 +1,32 @@
+# create_ap
+
+> Create an AP (Access Point) at any channel
+> More information: https://github.com/oblique/create_ap
+
+- Create an open network with no passphrase:
+
+`create_ap {any something} {any something} {any something}`
+
+- Use a WPA + WPA2 passphrase:
+
+`create_ap {any something} {any something} {any something} {any something}`
+
+- Create an access point without Internet sharing:
+
+`create_ap -n {any something} {any something} {any something}`
+
+- Create a bridged network with Internet sharing:
+
+`create_ap -m bridge {any something} {any something} {any something} {any something}`
+
+- Create a bridged network with Internet sharing and a pre-configured bridge interface:
+
+`create_ap -m bridge {any something} {any something} {any something} {any something}`
+
+- Create an access port for Internet sharing from the same Wi-Fi interface:
+
+`create_ap {any something} {any something} {any something} {any something}`
+
+- Choose a different Wi-Fi adapter driver:
+
+`create_ap --driver {any something} {any something} {any something} {any something} {any something}`

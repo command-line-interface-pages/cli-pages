@@ -1,0 +1,28 @@
+# wc
+
+> Count lines, words, and bytes
+> More information: https://www.gnu.org/software/coreutils/wc
+
+- Count all lines in a file:
+
+`wc --lines {file something}`
+
+- Count all words in a file:
+
+`wc --words {file something}`
+
+- Count all bytes in a file:
+
+`wc --bytes {file something}`
+
+- Count all characters in a file (taking multi-byte characters into account):
+
+`wc --chars {file something}`
+
+- Count all lines, words and bytes from stdin:
+
+`{any something} | wc`
+
+- Count the length of the longest line in number of characters:
+
+`wc --max-line-length {file something}`

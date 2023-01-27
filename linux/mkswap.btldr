@@ -1,0 +1,20 @@
+# mkswap
+
+> Sets up a Linux swap area on a device or in a file
+> More information: https://manned.org/mkswap
+
+- Setup a given partition as swap area:
+
+`sudo mkswap {any something}`
+
+- Use a given file as swap area:
+
+`sudo mkswap {file something}`
+
+- Check a partition for bad blocks before creating the swap area:
+
+`sudo mkswap -c {any something}`
+
+- Specify a label for the file (to allow `swapon` to use the label):
+
+`sudo mkswap -L {any something} {file something}`

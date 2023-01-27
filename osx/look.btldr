@@ -1,0 +1,12 @@
+# look
+
+> Look for lines in sorted file
+> More information: https://manned.org/look
+
+- Look for lines which begins with the given prefix:
+
+`look {any something} {file something}`
+
+- Look for lines ignoring case:
+
+`look --ignore-case {any something} {file something}`

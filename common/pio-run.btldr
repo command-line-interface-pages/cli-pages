@@ -1,0 +1,28 @@
+# pio run
+
+> Run PlatformIO project targets
+> More information: https://docs.platformio.org/en/latest/core/userguide/cmd_run.html
+
+- List all available project targets:
+
+`pio run --list-targets`
+
+- List all available project targets of a specific environment:
+
+`pio run --list-targets --environment {any something}`
+
+- Run all targets:
+
+`pio run`
+
+- Run all targets of specified environments:
+
+`pio run --environment {any something} --environment {any something}`
+
+- Run specified targets:
+
+`pio run --target {any something} --target {any something}`
+
+- Run the targets of a specified configuration file:
+
+`pio run --project-conf {any something}`

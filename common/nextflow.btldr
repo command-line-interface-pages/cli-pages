@@ -1,0 +1,36 @@
+# nextflow
+
+> Tool for running computational pipelines. Mostly used for bioinformatics workflows
+> More information: https://www.nextflow.io
+
+- Run a pipeline, use cached results from previous runs:
+
+`nextflow run {any something} -resume`
+
+- Run a specific release of a remote workflow from GitHub:
+
+`nextflow run {any something} -revision {any something}`
+
+- Run with a given work directory for intermediate files, save execution report:
+
+`nextflow run {any something} -work-dir {directory something} -with-report {any something}`
+
+- Show details of previous runs in current directory:
+
+`nextflow log`
+
+- Remove cache and intermediate files for a specific run:
+
+`nextflow clean -force {any something}`
+
+- List all downloaded projects:
+
+`nextflow list`
+
+- Pull the latest version of a remote workflow from Bitbucket:
+
+`nextflow pull {any something} -hub bitbucket`
+
+- Update Nextflow:
+
+`nextflow self-update`

@@ -1,0 +1,32 @@
+# phpmd
+
+> A PHP mess detector that checks for common potential problems
+> More information: https://github.com/phpmd/phpmd
+
+- Display a list of available rulesets and formats:
+
+`phpmd`
+
+- Scan a file or directory for problems using comma-separated rulesets:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something}`
+
+- Specify the minimum priority threshold for rules:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something} --minimumpriority {any something}`
+
+- Include only the specified extensions in analysis:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something} --suffixes {any something}`
+
+- Exclude the specified comma-separated directories:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something} --exclude {any something}`
+
+- Output the results to a file instead of stdout:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something} --reportfile {file something: path/to/report}`
+
+- Ignore the use of warning-suppressive PHPDoc comments:
+
+`phpmd {directory something: path/to/file_or} {any something} {any something} --strict`

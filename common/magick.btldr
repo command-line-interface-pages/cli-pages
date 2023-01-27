@@ -1,0 +1,25 @@
+# magick
+
+> Create, edit, compose, or convert bitmap images
+> ImageMagick version 7+. See `convert` for versions 6 and below
+> More information: https://imagemagick.org/
+
+- Convert file type:
+
+`magick {any something} {any something}`
+
+- Resize an image, making a new copy:
+
+`magick convert -resize {any something} {any something} {any something}`
+
+- Create a GIF using images:
+
+`magick {any something} {any something}`
+
+- Create checkerboard pattern:
+
+`magick -size {any something} pattern:checkerboard {any something}`
+
+- Convert images to individual PDF pages:
+
+`magick {any something} +adjoin {any something}`

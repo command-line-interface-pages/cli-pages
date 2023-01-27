@@ -1,0 +1,29 @@
+# sic
+
+> Simple IRC client
+> Part of the suckless tools
+> More information: https://tools.suckless.org/sic/
+
+- Connect to the default host (irc.ofct.net) with the nickname set in the `$USER` environment variable:
+
+`sic`
+
+- Connect to a given host, using a given nickname:
+
+`sic -h {any something} -n {any something}`
+
+- Connect to a given host, using a given nickname and password:
+
+`sic -h {any something} -n {any something} -k {any something}`
+
+- Join a channel:
+
+`:j #{any something}<Enter>`
+
+- Send a message to a channel or user:
+
+`:m #{any something}<Enter>`
+
+- Set default channel or user:
+
+`:s #{any something}<Enter>`

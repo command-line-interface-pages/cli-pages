@@ -1,0 +1,28 @@
+# singularity
+
+> Manage Singularity containers and images
+> More information: https://singularity-docs.readthedocs.io/en/latest/#commands
+
+- Download a remote image from Sylabs Cloud:
+
+`singularity pull --name {any something} {any something}`
+
+- Rebuild a remote image using the latest Singularity image format:
+
+`singularity build {any something} {any something}`
+
+- Start a container from an image and get a shell inside it:
+
+`singularity shell {any something}`
+
+- Start a container from an image and run a command:
+
+`singularity exec {any something} {any something}`
+
+- Start a container from an image and execute the internal runscript:
+
+`singularity run {any something}`
+
+- Build a singularity image from a recipe file:
+
+`sudo singularity build {any something} {any something}`

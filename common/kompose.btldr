@@ -1,0 +1,16 @@
+# kompose
+
+> A tool to convert docker-compose applications to Kubernetes
+> More information: https://github.com/kubernetes/kompose
+
+- Deploy a dockerized application to Kubernetes:
+
+`kompose up -f {any something}`
+
+- Delete instantiated services/deployments from Kubernetes:
+
+`kompose down -f {any something}`
+
+- Convert a docker-compose file into Kubernetes resources file:
+
+`kompose convert -f {any something}`

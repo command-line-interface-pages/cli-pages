@@ -1,0 +1,36 @@
+# postcss
+
+> PostCSS is a tool for transforming styles with JS plugins
+> More information: https://postcss.org
+
+- Parse and transform a CSS file:
+
+`postcss {file something}`
+
+- Parse and transform a CSS file and output to a specific file:
+
+`postcss {file something} --output {file something}`
+
+- Parse and transform a CSS file and output to a specific directory:
+
+`postcss {file something} --dir {directory something}`
+
+- Parse and transform a CSS file in-place:
+
+`postcss {file something} --replace`
+
+- Specify a custom PostCSS parser:
+
+`postcss {file something} --parser {any something}`
+
+- Specify a custom PostCSS syntax:
+
+`postcss {file something} --syntax {any something}`
+
+- Watch for changes to a CSS file:
+
+`postcss {file something} --watch`
+
+- Display available options and examples:
+
+`postcss --help`

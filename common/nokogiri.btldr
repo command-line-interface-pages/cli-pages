@@ -1,0 +1,24 @@
+# nokogiri
+
+> An HTML, XML, SAX and Reader parser
+> More information: https://nokogiri.org
+
+- Parse the contents of a URL or file:
+
+`nokogiri {any something}`
+
+- Parse as a specific type:
+
+`nokogiri {any something} --type {any something}`
+
+- Load a specific initialization file before parsing:
+
+`nokogiri {any something} -C {file something: path/to/config}`
+
+- Parse using a specific encoding:
+
+`nokogiri {any something} --encoding {any something}`
+
+- Validate using a RELAX NG file:
+
+`nokogiri {any something} --rng {any something}`

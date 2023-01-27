@@ -1,0 +1,16 @@
+# resolveip
+
+> Resolve hostnames to their IP addresses and vice versa
+> More information: https://mariadb.com/kb/en/resolveip/
+
+- Resolve a hostname to an IP address:
+
+`resolveip {any something}`
+
+- Resolve an IP address to a hostname:
+
+`resolveip {any something}`
+
+- Silent mode. Produces less output:
+
+`resolveip --silent {any something}`

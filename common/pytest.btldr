@@ -1,0 +1,28 @@
+# pytest
+
+> Run Python tests
+> More information: https://docs.pytest.org/
+
+- Run tests from specific files:
+
+`pytest {any something}`
+
+- Run tests with names matching a specific [k]eyword expression:
+
+`pytest -k {any something}`
+
+- Exit as soon as a test fails or encounters an error:
+
+`pytest --exitfirst`
+
+- Run tests matching or excluding markers:
+
+`pytest -m {any something}`
+
+- Run until a test failure, continuing from the last failing test:
+
+`pytest --stepwise`
+
+- Run tests without capturing output:
+
+`pytest --capture=no`

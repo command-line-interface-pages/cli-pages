@@ -1,0 +1,12 @@
+# gnatprep
+
+> Preprocessor for Ada source code files (part of the GNAT toolchain)
+> More information: https://gcc.gnu.org/onlinedocs/gnat_ugn/Preprocessing-with-gnatprep.html
+
+- Use symbol definitions from a file:
+
+`gnatprep {file something: source} {file something: target} {file something: definitions}`
+
+- Specify symbol values in the command line:
+
+`gnatprep -D{any something}={any something} {file something: source} {file something: target}`

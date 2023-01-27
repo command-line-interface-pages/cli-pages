@@ -1,0 +1,28 @@
+# gs
+
+> GhostScript is a PDF and PostScript interpreter
+> More information: https://manned.org/gs
+
+- To view a file:
+
+`gs -dQUIET -dBATCH {any something}`
+
+- Reduce PDF file size to 150 dpi images for reading on a e-book device:
+
+`gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={any something} {any something}`
+
+- Convert PDF file (pages 1 through 3) to an image with 150 dpi resolution:
+
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage={int number: 1} -dLastPage={int number: 3} -sOutputFile={any something} {any something}`
+
+- Extract pages from a PDF file:
+
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something}`
+
+- Merge PDF files:
+
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something} {any something}`
+
+- Convert from PostScript file to PDF file:
+
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something}`

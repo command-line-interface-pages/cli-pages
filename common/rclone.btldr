@@ -1,0 +1,36 @@
+# rclone
+
+> CLI program to copy/sync/move files and directories to and from many cloud services
+> More information: https://rclone.org
+
+- List contents of a directory on an rclone remote:
+
+`rclone lsf {any something}:{directory something}`
+
+- Copy file or directory from local source to remote destination:
+
+`rclone copy {directory something: path/to/source_file_or} {any something}:{directory something: path/to/destination}`
+
+- Copy file or directory from remote source to local destination:
+
+`rclone copy {any something}:{directory something: path/to/source_file_or} {directory something: path/to/destination}`
+
+- Sync local source to remote destination, changing the destination only:
+
+`rclone sync {directory something: path/to/file_or} {any something}:{directory something}`
+
+- Move file or directory from local source to remote destination:
+
+`rclone move {directory something: path/to/file_or} {any something}:{directory something}`
+
+- Delete remote file or directory (use `--dry-run` to test, remove it to actually delete):
+
+`rclone --dry-run delete {any something}:{directory something: path/to/file_or}`
+
+- Mount rclone remote (experimental):
+
+`rclone mount {any something}:{directory something} {any something}`
+
+- Unmount rclone remote if CTRL-C fails (experimental):
+
+`fusermount -u {any something}`

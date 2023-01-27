@@ -1,0 +1,24 @@
+# st
+
+> A simple terminal emulator for the X Window System
+> More information: https://st.suckless.org
+
+- Open a terminal:
+
+`st`
+
+- Open a terminal with a specific title:
+
+`st -T {any something}`
+
+- Open a terminal, execute a given command, and write the output to a file:
+
+`st -o {file something} -e {any something}`
+
+- Increase/decrease the font size:
+
+`Ctrl + Shift + {any something}`
+
+- Copy/paste from the clipboard:
+
+`Ctrl + Shift + {any something}`

@@ -1,0 +1,32 @@
+# julia
+
+> A high-level, high-performance dynamic programming language for technical computing
+> More information: https://docs.julialang.org/en/v1/manual/getting-started/
+
+- Start a REPL (interactive shell):
+
+`julia`
+
+- Execute a Julia program and exit:
+
+`julia {any something}`
+
+- Execute a Julia program that takes arguments:
+
+`julia {any something} {any something}`
+
+- Evaluate a string containing Julia code:
+
+`julia -e '{any something}'`
+
+- Evaluate a string of Julia code, passing arguments to it:
+
+`julia -e '{any something}' {any something}`
+
+- Evaluate an expression and print the result:
+
+`julia -E '{any something}'`
+
+- Start Julia in parallel mode, using N worker processes:
+
+`julia -p {any something}`

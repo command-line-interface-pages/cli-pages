@@ -1,0 +1,29 @@
+# surfraw
+
+> CLI to query a variety of web search engines
+> Consists of a collection of elvi, each of which knows how to search a specific website
+> More information: http://surfraw.org
+
+- Display the list of supported website search scripts (elvi):
+
+`surfraw -elvi`
+
+- Open the elvi's results page for a specific search in the browser:
+
+`surfraw {any something} "{any something}"`
+
+- Display an elvi description and its specific options:
+
+`surfraw {any something} -local-help`
+
+- Search using an elvi with specific options and open the results page in the browser:
+
+`surfraw {any something} {any something} "{any something}"`
+
+- Display the URL to the elvi's results page for a specific search:
+
+`surfraw -print {any something} "{any something}"`
+
+- Search using the alias:
+
+`sr {any something} "{any something}"`

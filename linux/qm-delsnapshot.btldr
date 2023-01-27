@@ -1,0 +1,12 @@
+# qm delsnapshot
+
+> Delete virtual machine snapshots
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Delete a snapshot:
+
+`qm delsnapshot {any something} {any something}`
+
+- Delete a snapshot from a configuration file (even if removing the disk snapshot fails):
+
+`qm delsnapshot {any something} {any something} --force 1`

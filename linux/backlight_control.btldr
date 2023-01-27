@@ -1,0 +1,16 @@
+# backlight_control
+
+> Control a linux machine's backlight using percentage values
+> More information: https://github.com/Hendrikto/backlight_control
+
+- Increase/decrease the backlight by a specific percent count:
+
+`backlight_control {any something}{int number: 5}`
+
+- Set the backlight strength to a specific percent count:
+
+`backlight_control {int number: 90}`
+
+- Print the help:
+
+`backlight_control`

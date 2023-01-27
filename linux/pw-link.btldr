@@ -1,0 +1,20 @@
+# pw-link
+
+> Manage links between ports in PipeWire
+> More information: https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices
+
+- List all audio output and input ports:
+
+`pw-link --output --input`
+
+- Create a link between an output and an input port:
+
+`pw-link {any something} {any something}`
+
+- Disconnect two ports:
+
+`pw-link --disconnect {any something} {any something}`
+
+- Display help:
+
+`pw-link -h`

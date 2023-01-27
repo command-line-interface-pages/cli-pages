@@ -1,0 +1,20 @@
+# jhsdb
+
+> Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine
+> More information: https://manned.org/jhsdb
+
+- Print stack and locks information of a Java process:
+
+`jhsdb jstack --pid {any something}`
+
+- Open a core dump in interactive debug mode:
+
+`jhsdb clhsdb --core {any something} --exe {any something}`
+
+- Start a remote debug server:
+
+`jhsdb debugd --pid {any something} --serverid {any something}`
+
+- Connect to a process in interactive debug mode:
+
+`jhsdb clhsdb --pid {any something}`

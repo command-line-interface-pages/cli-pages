@@ -1,0 +1,24 @@
+# enum4linux
+
+> Tool for enumerating Windows and Samba information from remote systems
+> More information: https://labs.portcullis.co.uk/tools/enum4linux/
+
+- Try to enumerate using all methods:
+
+`enum4linux -a {any something}`
+
+- Enumerate using given login credentials:
+
+`enum4linux -u {any something} -p {any something} {any something}`
+
+- List usernames from a given host:
+
+`enum4linux -U {any something}`
+
+- List shares:
+
+`enum4linux -S {any something}`
+
+- Get OS information:
+
+`enum4linux -o {any something}`

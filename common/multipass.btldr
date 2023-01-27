@@ -1,0 +1,36 @@
+# multipass
+
+> CLI to manage Ubuntu virtual machines using native hypervisors
+> More information: https://multipass.run/
+
+- List the aliases that can be used to launch an instance:
+
+`multipass find`
+
+- Launch a new instance, set its name and use a cloud-init configuration file:
+
+`multipass launch -n {any something} --cloud-init {file something: configuration}`
+
+- List all the created instances and some of their properties:
+
+`multipass list`
+
+- Start a specific instance by name:
+
+`multipass start {any something}`
+
+- Show the properties of an instance:
+
+`multipass info {any something}`
+
+- Open a shell prompt on a specific instance by name:
+
+`multipass shell {any something}`
+
+- Delete an instance by name:
+
+`multipass delete {any something}`
+
+- Mount a directory into a specific instance:
+
+`multipass mount {any something} {any something}:{any something}`

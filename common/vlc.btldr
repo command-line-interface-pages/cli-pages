@@ -1,0 +1,24 @@
+# vlc
+
+> Cross-platform multimedia player
+> More information: https://wiki.videolan.org/Documentation:Command_line/
+
+- Play a file:
+
+`vlc {file something}`
+
+- Play in fullscreen:
+
+`vlc --fullscreen {file something}`
+
+- Play muted:
+
+`vlc --no-audio {file something}`
+
+- Play repeatedly:
+
+`vlc --loop {file something}`
+
+- Play video from a URL:
+
+`vlc {any something}`

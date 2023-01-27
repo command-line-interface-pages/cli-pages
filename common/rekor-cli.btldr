@@ -1,0 +1,20 @@
+# rekor-cli
+
+> Immutable tamper resistant ledger of metadata generated within a software projects supply chain
+> More information: https://github.com/sigstore/rekor
+
+- Upload an artifact to Rekor:
+
+`rekor-cli upload --artifact {any something} --signature {any something} --pki-format={any something} --public-key={any something}`
+
+- Get information regarding entries in the Transparency Log:
+
+`rekor-cli get --uuid={any something}`
+
+- Search the Rekor index to find entries by Artifact:
+
+`rekor-cli search --artifact {any something}`
+
+- Search the Rekor index to find entries by a specific hash:
+
+`rekor-cli search --sha {any something}`

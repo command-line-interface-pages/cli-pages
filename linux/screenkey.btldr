@@ -1,0 +1,32 @@
+# screenkey
+
+> A screencast tool to display keys pressed
+> More information: https://www.thregr.org/~wavexx/software/screenkey/
+
+- Display keys which are currently being pressed on the screen:
+
+`screenkey`
+
+- Display keys and mouse buttons which are currently being pressed on the screen:
+
+`screenkey --mouse`
+
+- Launch the settings menu of screenkey:
+
+`screenkey --show-settings`
+
+- Launch screenkey at a specific position:
+
+`screenkey --position {any something}`
+
+- Change the format of the key modifiers displayed on screen:
+
+`screenkey --mods-mode {any something}`
+
+- Change the appearance of screenkey:
+
+`screenkey --bg-color "{any something}" --font {any something} --font-color {any something} --opacity {float number: 0.8}`
+
+- Drag and select a window on screen to display screenkey:
+
+`screenkey --position fixed --geometry {any something}`

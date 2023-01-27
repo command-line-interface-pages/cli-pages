@@ -1,0 +1,20 @@
+# pdfimages
+
+> Utility for extracting images from PDFs
+> More information: https://manned.org/pdfimages
+
+- Extract all images from a PDF file and save them as PNGs:
+
+`pdfimages -png {any something} {any something}`
+
+- Extract images from pages 3 to 5:
+
+`pdfimages -f {int number: 3} -l {int number: 5} {any something} {any something}`
+
+- Extract images from a PDF file and include the page number in the output filenames:
+
+`pdfimages -p {any something} {any something}`
+
+- List information about all the images in a PDF file:
+
+`pdfimages -list {any something}`

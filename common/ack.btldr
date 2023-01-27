@@ -1,0 +1,37 @@
+# ack
+
+> A search tool like grep, optimized for developers
+> See also: `rg`, which is much faster
+> More information: https://beyondgrep.com/documentation
+
+- Search for files containing a string or regular expression in the current directory recursively:
+
+`ack "{any something}"`
+
+- Search for a case-insensitive pattern:
+
+`ack --ignore-case "{any something}"`
+
+- Search for lines matching a pattern, printing [o]nly the matched text and not the rest of the line:
+
+`ack -o "{any something}"`
+
+- Limit search to files of a specific type:
+
+`ack --type={any something} "{any something}"`
+
+- Do not search in files of a specific type:
+
+`ack --type=no{any something} "{any something}"`
+
+- Count the total number of matches found:
+
+`ack --count --no-filename "{any something}"`
+
+- Print the file names and the number of matches for each file only:
+
+`ack --count --files-with-matches "{any something}"`
+
+- List all the values that can be used with `--type`:
+
+`ack --help-types`

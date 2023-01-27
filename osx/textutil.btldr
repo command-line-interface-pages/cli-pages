@@ -1,0 +1,24 @@
+# textutil
+
+> Used to manipulate text files of various formats
+> More information: https://ss64.com/osx/textutil.html
+
+- Display information about `foo.rtf`:
+
+`textutil -info {any something}`
+
+- Convert `foo.rtf` into `foo.html`:
+
+`textutil -convert {any something} {any something}`
+
+- Convert rich text to normal text:
+
+`textutil {any something} -convert {any something}`
+
+- Convert `foo.txt` into `foo.rtf`, using Times 10 for the font:
+
+`textutil -convert {any something} -font {any something} -fontsize {int number: 10} {any something}`
+
+- Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files":
+
+`textutil -cat {any something} -title "Several Files" -output {any something} *.rtf`

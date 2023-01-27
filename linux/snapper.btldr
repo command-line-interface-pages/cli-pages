@@ -1,0 +1,28 @@
+# snapper
+
+> Filesystem snapshot management tool
+> More information: http://snapper.io/manpages/snapper.html
+
+- List snapshot configs:
+
+`snapper list-configs`
+
+- Create snapper config:
+
+`snapper -c {any something} create-config {directory something}`
+
+- Create a snapshot with a description:
+
+`snapper -c {any something} create -d "{any something}"`
+
+- List snapshots for a config:
+
+`snapper -c {any something} list`
+
+- Delete a snapshot:
+
+`snapper -c {any something} delete {any something}`
+
+- Delete a range of snapshots:
+
+`snapper -c {any something} delete {any something}-{any something}`

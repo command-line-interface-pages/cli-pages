@@ -1,0 +1,28 @@
+# mp3info
+
+> Viewer/editor for ID3v1 (but not ID3v2) tags of MP3 files
+> More information: http://www.ibiblio.org/mp3info
+
+- Show all ID3v1 tags of a specific MP3 file:
+
+`mp3info {any something}`
+
+- Edit ID3v1 tags interactively:
+
+`mp3info -i {any something}`
+
+- Set values for ID3v1 tags in a specific MP3 file:
+
+`mp3info -a "{any something}" -t "{any something}" -l "{any something}" -y {any something} -c "{any something}" {any something}`
+
+- Set the number of the track in the album for a specific MP3 file:
+
+`mp3info -n {any something} {any something}`
+
+- Print a list of valid genres and their numeric codes:
+
+`mp3info -G`
+
+- Set the music genre for a specific MP3 file:
+
+`mp3info -g {any something} {any something}`

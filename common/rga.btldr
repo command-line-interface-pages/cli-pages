@@ -1,0 +1,24 @@
+# rga
+
+> Ripgrep wrapper with rich file type searching capabilities
+> More information: https://github.com/phiresky/ripgrep-all
+
+- Search recursively for a pattern in all files in the current directory:
+
+`rga {any something}`
+
+- List available adapters:
+
+`rga --rga-list-adapters`
+
+- Change which adapters to use (e.g. ffmpeg, pandoc, poppler etc.):
+
+`rga --rga-adapters={any something} {any something}`
+
+- Search for a pattern using the mime type instead of the file extension (slower):
+
+`rga --rga-accurate {any something}`
+
+- Display detailed help:
+
+`rga --help`

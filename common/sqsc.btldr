@@ -1,0 +1,32 @@
+# sqsc
+
+> A command-line AWS Simple Queue Service client
+> More information: https://github.com/yongfei25/sqsc
+
+- List all queues:
+
+`sqsc lq {any something}`
+
+- List all messages in a queue:
+
+`sqsc ls {any something}`
+
+- Copy all messages from one queue to another:
+
+`sqsc cp {any something} {any something}`
+
+- Move all messages from one queue to another:
+
+`sqsc mv {any something} {any something}`
+
+- Describe a queue:
+
+`sqsc describe {any something}`
+
+- Query a queue with SQL syntax:
+
+`sqsc query "SELECT body FROM {any something} WHERE body LIKE '%user%'"`
+
+- Pull all messages from a queue into a local SQLite database in your present working directory:
+
+`sqsc pull {any something}`

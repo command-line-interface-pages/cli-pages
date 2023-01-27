@@ -1,0 +1,32 @@
+# webstorm
+
+> The JetBrains JavaScript IDE
+> More information: https://www.jetbrains.com/help/webstorm/working-with-the-ide-features-from-command-line.html
+
+- Open the current directory in WebStorm:
+
+`webstorm`
+
+- Open a specific directory in WebStorm:
+
+`webstorm {directory something}`
+
+- Open specific files in the LightEdit mode﻿:
+
+`webstorm -e {file* something}`
+
+- Open and wait until done editing a specific file in the LightEdit mode:
+
+`webstorm --wait -e {file something}`
+
+- Open a file with the cursor at the specific line:
+
+`webstorm --line {any something} {file something}`
+
+- Open and compare files (supports up to 3 files):
+
+`webstorm diff {any something} {any something}`
+
+- Open and perform a three-way merge:
+
+`webstorm merge {file something: path/to/left} {file something: path/to/right} {file something: path/to/target}`

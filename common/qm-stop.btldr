@@ -1,0 +1,20 @@
+# qm stop
+
+> Stop a virtual machine
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Stop a virtual machine immediately:
+
+`qm stop {any something}`
+
+- Stop a virtual machine and wait for at most 10 seconds:
+
+`qm stop --timeout {int number: 10} {any something}`
+
+- Stop a virtual machine and skip lock (only root can use this option):
+
+`qm stop --skiplock {bool flag: true} {any something}`
+
+- Stop a virtual machine and don't deactivate storage volumes:
+
+`qm stop --keepActive {bool flag: true} {any something}`

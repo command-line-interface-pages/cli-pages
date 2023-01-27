@@ -1,0 +1,32 @@
+# virtualenvwrapper
+
+> Group of simple wrapper commands for Python's `virtualenv` tool
+> More information: http://virtualenvwrapper.readthedocs.org
+
+- Create a new Python `virtualenv` in `$WORKON_HOME`:
+
+`mkvirtualenv {any something}`
+
+- Create a `virtualenv` for a specific Python version:
+
+`mkvirtualenv --python {any something} {any something}`
+
+- Activate or use a different `virtualenv`:
+
+`workon {any something}`
+
+- Stop the `virtualenv`:
+
+`deactivate`
+
+- List all virtual environments:
+
+`lsvirtualenv`
+
+- Remove a `virtualenv`:
+
+`rmvirtualenv {any something}`
+
+- Get summary of all virtualenvwrapper commands:
+
+`virtualenvwrapper`

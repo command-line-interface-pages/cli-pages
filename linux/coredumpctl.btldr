@@ -1,0 +1,24 @@
+# coredumpctl
+
+> Retrieve and process saved core dumps and metadata
+> More information: https://www.freedesktop.org/software/systemd/man/coredumpctl.html
+
+- List all captured core dumps:
+
+`coredumpctl list`
+
+- List captured core dumps for a program:
+
+`coredumpctl list {any something}`
+
+- Show information about the core dumps matching a program with `PID`:
+
+`coredumpctl info {any something}`
+
+- Invoke debugger using the last core dump of a program:
+
+`coredumpctl debug {any something}`
+
+- Extract the last core dump of a program to a file:
+
+`coredumpctl --output={file something} dump {any something}`

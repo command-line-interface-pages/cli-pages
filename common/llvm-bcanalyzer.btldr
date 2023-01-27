@@ -1,0 +1,16 @@
+# llvm-bcanalyzer
+
+> LLVM Bitcode (`.bc`) analyzer
+> More information: https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html
+
+- Print statistics about a Bitcode file:
+
+`llvm-bcanalyzer {any something}`
+
+- Print an SGML representation and statistics about a Bitcode file:
+
+`llvm-bcanalyzer -dump {any something}`
+
+- Read a Bitcode file from stdin and analyze it:
+
+`cat {any something} | llvm-bcanalyzer`

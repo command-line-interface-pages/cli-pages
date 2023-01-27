@@ -1,0 +1,32 @@
+# jpegtran
+
+> Perform lossless transformation of JPEG files
+> More information: https://manned.org/jpegtran
+
+- Mirror an image horizontally or vertically:
+
+`jpegtran -flip {any something} {any something} > {any something}`
+
+- Rotate an image 90, 180 or 270 degrees clockwise:
+
+`jpegtran -rotate {any something} {any something} > {any something}`
+
+- Transpose the image across the upper-left to lower right axis:
+
+`jpegtran -transpose {any something} > {any something}`
+
+- Transverse the image across the upper right to lower left axis:
+
+`jpegtran -transverse {any something} > {any something}`
+
+- Convert the image to grayscale:
+
+`jpegtran -grayscale {any something} > {any something}`
+
+- Crop the image to a rectangular region of width `W` and height `H` from the upper-left corner, saving the output to a specific file:
+
+`jpegtran -crop {any something}x{any something} -outfile {any something} {any something}`
+
+- Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper-left corner:
+
+`jpegtran -crop {any something}x{any something}+{any something}+{any something} {any something} > {any something}`

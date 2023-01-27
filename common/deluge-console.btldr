@@ -1,0 +1,36 @@
+# deluge-console
+
+> An interactive interface for the Deluge BitTorrent client
+> More information: https://deluge-torrent.org
+
+- Start the interactive console interface:
+
+`deluge-console`
+
+- Connect to a Deluge daemon instance:
+
+`connect {any something}:{any something}`
+
+- Add a torrent to the daemon:
+
+`add {any something}`
+
+- Display information about all torrents:
+
+`info`
+
+- Display information about a specific torrent:
+
+`info {any something}`
+
+- Pause a torrent:
+
+`pause {any something}`
+
+- Resume a torrent:
+
+`resume {any something}`
+
+- Remove a torrent from the daemon:
+
+`rm {any something}`

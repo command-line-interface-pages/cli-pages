@@ -1,0 +1,36 @@
+# emulator
+
+> Manager Android emulators from the command-line
+> More information: https://developer.android.com/studio/run/emulator-commandline
+
+- Display the help:
+
+`emulator -help`
+
+- Start an Android emulator device:
+
+`emulator -avd {any something}`
+
+- Display the webcams on your development computer that are available for emulation:
+
+`emulator -avd {any something} -webcam-list`
+
+- Start an emulator overriding the facing back camera setting (use `-camera-front` for front camera):
+
+`emulator -avd {any something} -camera-back {any something}`
+
+- Start an emulator, with a maximum network speed:
+
+`emulator -avd {any something} -netspeed {any something}`
+
+- Start an emulator with network latency:
+
+`emulator -avd {any something} -netdelay {any something}`
+
+- Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy (port number is required):
+
+`emulator -avd {any something} -http-proxy {any something}`
+
+- Start an emulator with a given SD card partition image file:
+
+`emulator -avd {any something} -sdcard {any something}`

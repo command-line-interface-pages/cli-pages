@@ -1,0 +1,24 @@
+# gdebi
+
+> Simple tool to install `.deb` files
+> More information: https://www.commandlinux.com/man-page/man1/gdebi.1.html
+
+- Install local `.deb` packages resolving and installing its dependencies:
+
+`gdebi {any something}`
+
+- Display the program version:
+
+`gdebi --version`
+
+- Do not show progress information:
+
+`gdebi {any something} --quiet`
+
+- Set an APT configuration option:
+
+`gdebi {any something} --option={any something}`
+
+- Use alternative root dir:
+
+`gdebi {any something} --root={directory something: root}`

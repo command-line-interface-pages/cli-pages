@@ -1,0 +1,28 @@
+# whiptail
+
+> Display text-based dialog boxes from shell scripts
+> More information: https://manned.org/whiptail
+
+- Display a simple message:
+
+`whiptail --title "{any something}" --msgbox "{any something}" {any something} {any something}`
+
+- Display a boolean choice, returning the result through the exit code:
+
+`whiptail --title "{any something}" --yesno "{any something}" {any something} {any something}`
+
+- Customise the text on the yes / no buttons:
+
+`whiptail --title "{any something}" --yes-button "{any something}" --no-button "{any something}" --yesno "{any something}" {any something} {any something}`
+
+- Display a text input box:
+
+`{any something}="$(whiptail --title "{any something}" --inputbox "{any something}" {any something} {any something} {any something} 3>&1 1>&2 2>&3)"`
+
+- Display a password input box:
+
+`{any something}="$(whiptail --title "{any something}" --passwordbox "{any something}" {any something} {any something} 3>&1 1>&2 2>&3)"`
+
+- Display a multiple-choice menu:
+
+`{any something}=$(whiptail --title "{any something}" --menu "{any something}" {any something} {any something} {any something} "{any something}" "{any something}" "{any something}" "{any something}" ..... 3>&1 1>&2 2>&3)`

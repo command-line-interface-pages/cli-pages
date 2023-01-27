@@ -1,0 +1,36 @@
+# ffmpeg
+
+> Video conversion tool
+> More information: https://ffmpeg.org
+
+- Extract the sound from a video and save it as MP3:
+
+`ffmpeg -i {any something} -vn {any something}.mp3`
+
+- Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
+
+`ffmpeg -i {any something} -vf 'scale=-1:{int number: 1000}' -r {int number: 15} {any something}`
+
+- Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
+
+`ffmpeg -i {any something} -f image2 {any something}`
+
+- Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
+
+`ffmpeg -ss {any something} -i {any something} -frames 1 -s {any something} -f image2 {any something}`
+
+- Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
+
+`ffmpeg -ss {any something} -to {any something} -i {any something} -codec copy {any something}`
+
+- Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
+
+`ffmpeg -i {any something}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {any something}.mp4`
+
+- Remux MKV video to MP4 without re-encoding audio or video streams:
+
+`ffmpeg -i {any something}.mkv -codec copy {any something}.mp4`
+
+- Convert MP4 video to VP9 codec. For the best quality, use a CRF value (recommended range 15-35) and -b:video MUST be 0:
+
+`ffmpeg -i {any something}.mp4 -codec:video libvpx-vp9 -crf {int number: 30} -b:video 0 -codec:audio libopus -vbr on -threads {any something} {any something}.webm`

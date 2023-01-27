@@ -1,0 +1,20 @@
+# go build
+
+> Compile Go sources
+> More information: https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies
+
+- Compile a 'package main' file (output will be the filename without extension):
+
+`go build {any something}`
+
+- Compile, specifying the output filename:
+
+`go build -o {any something} {any something}`
+
+- Compile a package:
+
+`go build -o {any something} {any something}`
+
+- Compile a main package into an executable, enabling data race detection:
+
+`go build -race -o {any something} {any something}`

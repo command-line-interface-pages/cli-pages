@@ -1,0 +1,12 @@
+# compare
+
+> View the difference between 2 images
+> More information: https://imagemagick.org/script/compare.php
+
+- Compare 2 images:
+
+`compare {any something} {any something} {any something}`
+
+- Compare 2 images using a custom metric:
+
+`compare -verbose -metric {any something} {any something} {any something} {any something}`

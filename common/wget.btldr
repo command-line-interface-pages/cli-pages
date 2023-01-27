@@ -1,0 +1,37 @@
+# wget
+
+> Download files from the Web
+> Supports HTTP, HTTPS, and FTP
+> More information: https://www.gnu.org/software/wget
+
+- Download the contents of a URL to a file (named "foo" in this case):
+
+`wget {any something}`
+
+- Download the contents of a URL to a file (named "bar" in this case):
+
+`wget --output-document {any something} {any something}`
+
+- Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
+
+`wget --page-requisites --convert-links --wait=3 {any something}`
+
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
+
+`wget --mirror --no-parent {any something}`
+
+- Limit the download speed and the number of connection retries:
+
+`wget --limit-rate={any something} --tries={int number: 100} {any something}`
+
+- Download a file from an HTTP server using Basic Auth (also works for FTP):
+
+`wget --user={any something} --password={any something} {any something}`
+
+- Continue an incomplete download:
+
+`wget --continue {any something}`
+
+- Download all URLs stored in a text file to a specific directory:
+
+`wget --directory-prefix {directory something} --input-file {any something}`

@@ -1,0 +1,20 @@
+# mkvmerge
+
+> Merge and extract multimedia streams
+> More information: https://mkvtoolnix.download/doc/mkvmerge.html
+
+- Display information about a Matroska file:
+
+`mkvmerge --identify {any something}`
+
+- Extract the audio from track 1 of a specific file:
+
+`mkvextract tracks {any something} {int number: 1}:{any something}`
+
+- Extract the subtitle from track 3 of a specific file:
+
+`mkvextract tracks {any something} {int number: 3}:{any something}`
+
+- Add a subtitle track to a file:
+
+`mkvmerge --output {any something} {any something} {any something}`

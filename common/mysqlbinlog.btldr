@@ -1,0 +1,24 @@
+# mysqlbinlog
+
+> Utility for processing MySQL binary log files
+> More information: https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html
+
+- Show events from a specific binary log file:
+
+`mysqlbinlog {any something}`
+
+- Show entries from a binary log for a specific database:
+
+`mysqlbinlog --database {any something} {any something}`
+
+- Show events from a binary log between specific dates:
+
+`mysqlbinlog --start-datetime='{any something}' --stop-datetime='{any something}' {any something}`
+
+- Show events from a binary log between specific positions:
+
+`mysqlbinlog --start-position={int number: 100} --stop-position={int number: 200} {any something}`
+
+- Show binary log from a MySQL server on the given host:
+
+`mysqlbinlog --host={any something} {any something}`

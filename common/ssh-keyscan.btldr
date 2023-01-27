@@ -1,0 +1,20 @@
+# ssh-keyscan
+
+> Get the public ssh keys of remote hosts
+> More information: https://man.openbsd.org/ssh-keyscan
+
+- Retrieve all public ssh keys of a remote host:
+
+`ssh-keyscan {any something}`
+
+- Retrieve all public ssh keys of a remote host listening on a specific port:
+
+`ssh-keyscan -p {any something} {any something}`
+
+- Retrieve certain types of public ssh keys of a remote host:
+
+`ssh-keyscan -t {any something} {any something}`
+
+- Manually update the ssh known_hosts file with the fingerprint of a given host:
+
+`ssh-keyscan -H {any something} >> ~/.ssh/known_hosts`

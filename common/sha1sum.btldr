@@ -1,0 +1,28 @@
+# sha1sum
+
+> Calculate SHA1 cryptographic checksums
+> More information: https://www.gnu.org/software/coreutils/sha1sum
+
+- Calculate the SHA1 checksum for a file:
+
+`sha1sum {file something}`
+
+- Calculate SHA1 checksums for multiple files:
+
+`sha1sum {any something} {any something}`
+
+- Calculate and save the list of SHA1 checksums to a file:
+
+`sha1sum {any something} {any something} > {any something}`
+
+- Read a file of SHA1 sums and verify all files have matching checksums:
+
+`sha1sum --check {any something}`
+
+- Only show a message for missing files or when verification fails:
+
+`sha1sum --check --quiet {any something}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha1sum --ignore-missing --check --quiet {any something}`

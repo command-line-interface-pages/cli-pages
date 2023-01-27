@@ -1,0 +1,20 @@
+# reg delete
+
+> Delete keys or their values from the registry
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete
+
+- Delete a specific registry key:
+
+`reg delete {any something}`
+
+- Delete a value under a specific key:
+
+`reg delete {any something} /v {any something}`
+
+- Delete all values recursively under the specified key:
+
+`reg delete {any something} /va`
+
+- Forcefully delete all values recursively under a key without a prompt:
+
+`reg delete {any something} /f /va`

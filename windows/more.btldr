@@ -1,0 +1,32 @@
+# more
+
+> Display paginated output from `stdin` or a file
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/more
+
+- Display paginated output from stdin:
+
+`{any something} | more`
+
+- Display paginated output from one or more files:
+
+`more {file something}`
+
+- Convert tabs to the specified number of spaces:
+
+`more {file something} /t{any something}`
+
+- Clear the screen before displaying the page:
+
+`more {file something} /c`
+
+- Display the output starting at line 5:
+
+`more {file something} +{int number: 5}`
+
+- Enable extended interactive mode (see help for usage):
+
+`more {file something} /e`
+
+- Display full usage information:
+
+`more /?`

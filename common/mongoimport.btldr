@@ -1,0 +1,28 @@
+# mongoimport
+
+> Imports content from a JSON, CSV, or TSV file into a MongoDB database
+> More information: https://docs.mongodb.com/database-tools/mongoimport/
+
+- Import a JSON file into a specific collection:
+
+`mongoimport --file={any something} --uri={any something} --collection={any something}`
+
+- Import a CSV file, using the first line of the file to determine field names:
+
+`mongoimport --type={any something} --file={any something} --db={any something} --collection={any something}`
+
+- Import a JSON array, using each element as a separate document:
+
+`mongoimport --jsonArray --file={any something}`
+
+- Import a JSON file using a specific mode and a query to match existing documents:
+
+`mongoimport --file={any something} --mode={any something} --upsertFields="{any something}"`
+
+- Import a CSV file, reading field names from a separate CSV file and ignoring fields with empty values:
+
+`mongoimport --type={any something} --file={any something} --fieldFile={any something} --ignoreBlanks`
+
+- Display help:
+
+`mongoimport --help`

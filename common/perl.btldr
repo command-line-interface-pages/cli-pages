@@ -1,0 +1,36 @@
+# perl
+
+> The Perl 5 language interpreter
+> More information: https://www.perl.org
+
+- Parse and execute a Perl script:
+
+`perl {any something}`
+
+- Check syntax errors on a Perl script:
+
+`perl -c {any something}`
+
+- Parse and execute a Perl statement:
+
+`perl -e {any something}`
+
+- Run a Perl script in debug mode, using `perldebug`:
+
+`perl -d {any something}`
+
+- Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
+
+`perl -p -i'.{any something}' -e 's/{any something}/{any something}/g' {file something}`
+
+- Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:
+
+`perl -p -e 's/{any something}/{any something}/g' {file something: path/to/input} > {file something: path/to/output}`
+
+- Run a regular [e]xpression on stdin, printing matching [l]ines:
+
+`cat {file something} | perl -n -l -e 'print if /{any something}/'`
+
+- Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:
+
+`cat {file something} | perl -n -l -e 'print $1 if /{any something}({any something}){any something}/'`

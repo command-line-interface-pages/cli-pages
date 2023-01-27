@@ -1,0 +1,20 @@
+# sbatch
+
+> Submit a batch job to the SLURM scheduler
+> More information: https://manned.org/sbatch
+
+- Submit a batch job:
+
+`sbatch {any something}`
+
+- Submit a batch job with a custom name:
+
+`sbatch --job-name={any something} {any something}`
+
+- Submit a batch job with a time limit of 30 minutes:
+
+`sbatch --time={any something} {any something}`
+
+- Submit a job and request multiple nodes:
+
+`sbatch --nodes={int number: 3} {any something}`

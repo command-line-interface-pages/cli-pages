@@ -1,0 +1,24 @@
+# fselect
+
+> Find files with SQL-like queries
+> More information: https://github.com/jhspetersson/fselect
+
+- Select full path and size from temporary or config files in a given directory:
+
+`fselect size, path from {directory something} where name = {any something} or name = {any something}`
+
+- Find square images:
+
+`fselect path from {directory something} where width = height`
+
+- Find old-school rap 320kbps MP3 files:
+
+`fselect path from {directory something} where genre = {any something} and bitrate = {int number: 320} and mp3_year lt {int number: 2000}`
+
+- Select only the first 5 results and output as JSON:
+
+`fselect size, path from {directory something} limit {int number: 5} into json`
+
+- Use SQL aggregate functions to calculate minimum, maximum and average size of files in a directory:
+
+`fselect "{any something} from {directory something}"`

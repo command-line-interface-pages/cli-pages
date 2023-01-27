@@ -1,0 +1,32 @@
+# keybase
+
+> Key directory that maps social media identities to encryption keys in a publicly auditable manner
+> More information: https://keybase.io/docs/command_line
+
+- Follow another user:
+
+`keybase follow {any something}`
+
+- Add a new proof:
+
+`keybase prove {any something} {any something}`
+
+- Sign a file:
+
+`keybase sign --infile {file something: input} --outfile {file something: output}`
+
+- Verify a signed file:
+
+`keybase verify --infile {file something: input} --outfile {file something: output}`
+
+- Encrypt a file:
+
+`keybase encrypt --infile {file something: input} --outfile {file something: output} {any something}`
+
+- Decrypt a file:
+
+`keybase decrypt --infile {file something: input} --outfile {file something: output}`
+
+- Revoke current device, log out, and delete local data:
+
+`keybase deprovision`

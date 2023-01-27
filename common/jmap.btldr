@@ -1,0 +1,20 @@
+# jmap
+
+> Java memory map tool
+> More information: https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html
+
+- Print shared object mappings for a Java process (output like pmap):
+
+`jmap {any something}`
+
+- Print heap summary information:
+
+`jmap -heap {any something} {any something}`
+
+- Print histogram of heap usage by type:
+
+`jmap -histo {any something}`
+
+- Dump contents of the heap into a binary file for analysis with jhat:
+
+`jmap -dump:format=b,file={file something} {any something}`

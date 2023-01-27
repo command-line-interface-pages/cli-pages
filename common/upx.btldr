@@ -1,0 +1,16 @@
+# upx
+
+> Compress or decompress executables
+> More information: https://upx.github.io
+
+- Compress executable:
+
+`upx {file something}`
+
+- Decompress executable:
+
+`upx -d {file something}`
+
+- Detailed help:
+
+`upx --help`

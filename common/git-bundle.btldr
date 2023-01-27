@@ -1,0 +1,32 @@
+# git bundle
+
+> Package objects and references into an archive
+> More information: https://git-scm.com/docs/git-bundle
+
+- Create a bundle file that contains all objects and references of a specific branch:
+
+`git bundle create {any something} {any something}`
+
+- Create a bundle file of all branches:
+
+`git bundle create {any something} --all`
+
+- Create a bundle file of the last 5 commits of the current branch:
+
+`git bundle create {any something} -{int number: 5} {any something}`
+
+- Create a bundle file of the latest 7 days:
+
+`git bundle create {any something} --since={any something} {any something}`
+
+- Verify that a bundle file is valid and can be applied to the current repository:
+
+`git bundle verify {any something}`
+
+- Print to the stdout the list of references contained in a bundle:
+
+`git bundle unbundle {any something}`
+
+- Unbundle a specific branch from a bundle file into the current repository:
+
+`git pull {any something} {any something}`

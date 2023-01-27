@@ -1,0 +1,25 @@
+# az storage
+
+> Manage Azure Cloud Storage resources
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/storage
+
+- Create a storage account:
+
+`az storage account create -g {any something} -n {any something} -l {any something} --sku {any something}`
+
+- List all storage accounts in a resource group:
+
+`az storage account list -g {any something}`
+
+- List the access keys for a storage account:
+
+`az storage account keys list -g {any something} -n {any something}`
+
+- Delete a storage account:
+
+`az storage account delete -g {any something} -n {any something}`
+
+- Update the minimum tls version setting for a storage account:
+
+`az storage account update --min-tls-version TLS1_2 -g {any something} -n {any something}`

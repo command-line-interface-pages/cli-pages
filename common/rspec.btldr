@@ -1,0 +1,32 @@
+# rspec
+
+> Behavior-driven development testing framework written in Ruby to test Ruby code
+> More information: https://rspec.info
+
+- Initialize an .rspec config and a spec helper file:
+
+`rspec --init`
+
+- Run all tests:
+
+`rspec`
+
+- Run a specific directory of tests:
+
+`rspec {directory something}`
+
+- Run a specific test file:
+
+`rspec {file something}`
+
+- Run multiple test files:
+
+`rspec {any something} {any something}`
+
+- Run a specific test in a file (e.g. the test starts on line 83):
+
+`rspec {file something}:{int number: 83}`
+
+- Run specs with a specific seed:
+
+`rspec --seed {any something}`

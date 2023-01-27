@@ -1,0 +1,37 @@
+# zsh
+
+> Z SHell, a Bash-compatible command-line interpreter
+> See also: `bash`, `histexpand`
+> More information: https://www.zsh.org
+
+- Start an interactive shell session:
+
+`zsh`
+
+- Execute specific [c]ommands:
+
+`zsh -c "{any something}"`
+
+- Execute a specific script:
+
+`zsh {any something}`
+
+- Check a specific script for syntax errors without executing it:
+
+`zsh --no-exec {any something}`
+
+- Execute specific commands from stdin:
+
+`{any something} | zsh`
+
+- Execute a specific script, printing each command in the script before executing it:
+
+`zsh --xtrace {any something}`
+
+- Start an interactive shell session in verbose mode, printing each command before executing it:
+
+`zsh --verbose`
+
+- Execute a specific command inside `zsh` with disabled glob patterns:
+
+`noglob {any something}`

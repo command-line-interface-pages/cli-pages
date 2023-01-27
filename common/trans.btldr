@@ -1,0 +1,24 @@
+# trans
+
+> Translate Shell is a command-line translator
+> More information: https://github.com/soimort/translate-shell
+
+- Translate a word (language is detected automatically):
+
+`trans "{any something}"`
+
+- Get a brief translation:
+
+`trans --brief "{any something}"`
+
+- Translate a word into french:
+
+`trans :{any something} {any something}`
+
+- Translate a word from German to English:
+
+`trans {any something}:{any something} {any something}`
+
+- Behave like a dictionary to get the meaning of a word:
+
+`trans -d {any something}`

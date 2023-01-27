@@ -1,0 +1,16 @@
+# ftxdiff
+
+> Compare differences between two fonts
+> More information: https://developer.apple.com/fonts
+
+- Output differences to a specific text file:
+
+`ftxdiff --output {any something} {any something} {any something}`
+
+- Include glyph names in output:
+
+`ftxdiff --include-glyph-names`
+
+- Include unicode names in output:
+
+`ftxdiff --include-unicode-names`

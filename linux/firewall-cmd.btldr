@@ -1,0 +1,32 @@
+# firewall-cmd
+
+> The firewalld command-line client
+> More information: https://firewalld.org/documentation/man-pages/firewall-cmd
+
+- View the available firewall zones:
+
+`firewall-cmd --get-active-zones`
+
+- View the rules which are currently applied:
+
+`firewall-cmd --list-all`
+
+- Permanently move the interface into the block zone, effectively blocking all communication:
+
+`firewall-cmd --permanent --zone={any something} --change-interface={any something}`
+
+- Permanently open the port for a service in the specified zone (like port 443 when in the `public` zone):
+
+`firewall-cmd --permanent --zone={any something} --add-service={any something}`
+
+- Permanently close the port for a service in the specified zone (like port 80 when in the `public` zone):
+
+`firewall-cmd --permanent --zone={any something} --remove-service={any something}`
+
+- Permanently open two arbitrary ports in the specified zone:
+
+`firewall-cmd --permanent --zone={any something} --add-port={any something} --add-port={any something}`
+
+- Reload firewalld to force rule changes to take effect:
+
+`firewall-cmd --reload`

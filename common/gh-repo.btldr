@@ -1,0 +1,32 @@
+# gh repo
+
+> Work with GitHub repositories on the command-line
+> More information: https://cli.github.com/manual/gh_repo
+
+- Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
+
+`gh repo create {any something}`
+
+- Clone a repository:
+
+`gh repo clone {any something}/{any something}`
+
+- Fork and clone a repository:
+
+`gh repo fork {any something}/{any something} --clone`
+
+- View a repository in the default web browser:
+
+`gh repo view {any something} --web`
+
+- List repositories owned by a specific user or organization (if the owner is not set, the default owner will be the currently logged in user):
+
+`gh repo list {any something}`
+
+- List only non-forks repositories:
+
+`gh repo list {any something} --non-forks`
+
+- List repositories with a specific primary coding language:
+
+`gh repo list {any something} --language {any something}`

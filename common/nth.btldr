@@ -1,0 +1,20 @@
+# nth
+
+> Name That Hash - Instantly name the type of any hash
+> More information: https://github.com/hashpals/name-that-hash
+
+- Name a hash:
+
+`nth -t {any something}`
+
+- Name hashes in a file:
+
+`nth -f {any something}`
+
+- Output in json format:
+
+`nth -t {any something} -g`
+
+- Decode hash in Base64 before naming it:
+
+`nth -t {any something} -b64`

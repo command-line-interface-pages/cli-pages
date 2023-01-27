@@ -1,0 +1,29 @@
+# tail
+
+> Display the last part of a file
+> See also: `head`
+> More information: https://www.gnu.org/software/coreutils/tail
+
+- Show last 'count' lines in file:
+
+`tail --lines {any something} {file something}`
+
+- Print a file from a specific line number:
+
+`tail --lines +{any something} {file something}`
+
+- Print a specific count of bytes from the end of a given file:
+
+`tail --bytes {any something} {file something}`
+
+- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+
+`tail --follow {file something}`
+
+- Keep reading file until `Ctrl + C`, even if the file is inaccessible:
+
+`tail --retry --follow {file something}`
+
+- Show last 'num' lines in 'file' and refresh every 'n' seconds:
+
+`tail --lines {any something} --sleep-interval {any something} --follow {file something}`

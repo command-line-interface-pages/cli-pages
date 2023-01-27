@@ -1,0 +1,24 @@
+# racket
+
+> Racket language interpreter
+> More information: https://racket-lang.org
+
+- Start a REPL (interactive shell):
+
+`racket`
+
+- Execute a Racket script:
+
+`racket {any something}`
+
+- Execute a Racket expression:
+
+`racket --eval "{any something}"`
+
+- Run module as a script (terminates option list):
+
+`racket --lib {any something} --main {any something}`
+
+- Start a REPL (interactive shell) for the `typed/racket` hashlang:
+
+`racket -I typed/racket`

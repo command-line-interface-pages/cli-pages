@@ -1,0 +1,20 @@
+# git revert
+
+> Create new commits which reverse the effect of earlier ones
+> More information: https://git-scm.com/docs/git-revert
+
+- Revert the most recent commit:
+
+`git revert {any something}`
+
+- Revert the 5th last commit:
+
+`git revert HEAD~{int number: 4}`
+
+- Revert multiple commits:
+
+`git revert {any something}`
+
+- Don't create new commits, just change the working tree:
+
+`git revert -n {any something}`

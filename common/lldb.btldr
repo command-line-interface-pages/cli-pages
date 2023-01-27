@@ -1,0 +1,16 @@
+# lldb
+
+> The LLVM Low-Level Debugger
+> More information: https://lldb.llvm.org
+
+- Debug an executable:
+
+`lldb {any something}`
+
+- Attach `lldb` to a running process with a given PID:
+
+`lldb -p {any something}`
+
+- Wait for a new process to launch with a given name, and attach to it:
+
+`lldb -w -n {any something}`

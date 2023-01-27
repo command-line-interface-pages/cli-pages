@@ -1,0 +1,25 @@
+# az provider
+
+> Manage resource providers
+> Part of `azure-cli`
+> More information: https://docs.microsoft.com/cli/azure/provider
+
+- Register a provider:
+
+`az provider register --namespace {any something}`
+
+- Unregister a provider:
+
+`az provider unregister --namespace {any something}`
+
+- List all providers for a subscription:
+
+`az provider list`
+
+- Show information about a specific provider:
+
+`az provider show --namespace {any something}`
+
+- List all resource types for a specific provider:
+
+`az provider list --query "[?namespace=='{any something}'].resourceTypes[].resourceType"`

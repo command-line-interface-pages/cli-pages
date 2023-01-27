@@ -1,0 +1,24 @@
+# rails destroy
+
+> Destroy Rails resources
+> More information: https://guides.rubyonrails.org/command_line.html#bin-rails-destroy
+
+- List all available generators to destroy:
+
+`rails destroy`
+
+- Destroy a model named Post:
+
+`rails destroy model {any something}`
+
+- Destroy a controller named Posts:
+
+`rails destroy controller {any something}`
+
+- Destroy a migration that creates Posts:
+
+`rails destroy migration {any something}`
+
+- Destroy a scaffold for a model named Post:
+
+`rails destroy scaffold {any something}`

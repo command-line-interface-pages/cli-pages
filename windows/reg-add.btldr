@@ -1,0 +1,24 @@
+# reg add
+
+> Add new keys and their values to the registry
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add
+
+- Add a new registry key:
+
+`reg add {any something}`
+
+- Add a new value under a specific key:
+
+`reg add {any something} /v {any something}`
+
+- Add a new value with specific data:
+
+`reg add {any something} /d {any something}`
+
+- Add a new value to a key with a specific data type:
+
+`reg add {any something} /t {any something}`
+
+- Forcefully overwrite the existing registry value without a prompt:
+
+`reg add {any something} /f`

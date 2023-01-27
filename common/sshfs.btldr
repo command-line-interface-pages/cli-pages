@@ -1,0 +1,24 @@
+# sshfs
+
+> Filesystem client based on SSH
+> More information: https://github.com/libfuse/sshfs
+
+- Mount remote directory:
+
+`sshfs {any something}@{any something}:{directory something: remote} {any something}`
+
+- Unmount remote directory:
+
+`umount {any something}`
+
+- Mount remote directory from server with specific port:
+
+`sshfs {any something}@{any something}:{directory something: remote} -p {int number: 2222}`
+
+- Use compression:
+
+`sshfs {any something}@{any something}:{directory something: remote} -C`
+
+- Follow symbolic links:
+
+`sshfs -o follow_symlinks {any something}@{any something}:{directory something: remote} {any something}`

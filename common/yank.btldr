@@ -1,0 +1,20 @@
+# yank
+
+> Read input from `stdin` and display a selection interface that allows a field to be selected and copied to the clipboard
+> More information: https://manned.org/yank
+
+- Yank using the default delimiters (\f, \n, \r, \s, \t):
+
+`{any something} | yank`
+
+- Yank an entire line:
+
+`{any something} | yank -l`
+
+- Yank using a specific delimiter:
+
+`{any something} | yank -d {any something}`
+
+- Only yank fields matching a specific pattern:
+
+`{any something} | yank -g "{any something}"`

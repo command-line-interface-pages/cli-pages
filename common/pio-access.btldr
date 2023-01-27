@@ -1,0 +1,24 @@
+# pio access
+
+> Set the access level on published resources (packages) in the registry
+> More information: https://docs.platformio.org/en/latest/core/userguide/access/
+
+- Grant a user access to a resource:
+
+`pio access grant {any something} {any something} {any something}`
+
+- Remove a user's access to a resource:
+
+`pio access revoke {any something} {any something}`
+
+- Show all resources that a user or team has access to and the access level:
+
+`pio access list {any something}`
+
+- Restrict access to a resource to specific users or team members:
+
+`pio access private {any something}`
+
+- Allow all users access to a resource:
+
+`pio access public {any something}`

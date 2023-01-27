@@ -1,0 +1,13 @@
+# lvremove
+
+> Remove one or more logical volumes
+> See also: `lvm`
+> More information: https://man7.org/linux/man-pages/man8/lvremove.8.html
+
+- Remove a logical volume in a volume group:
+
+`sudo lvremove {any something}/{any something}`
+
+- Remove all logical volumes in a volume group:
+
+`sudo lvremove {any something}`

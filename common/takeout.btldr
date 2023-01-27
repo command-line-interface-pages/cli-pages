@@ -1,0 +1,36 @@
+# takeout
+
+> A Docker-based development-only dependency manager
+> More information: https://github.com/tighten/takeout
+
+- Display a list of available services:
+
+`takeout enable`
+
+- Enable a specific service:
+
+`takeout enable {any something}`
+
+- Enable a specific service with the default parameters:
+
+`takeout enable --default {any something}`
+
+- Display a list of enabled services:
+
+`takeout disable`
+
+- Disable a specific service:
+
+`takeout disable {any something}`
+
+- Disable all services:
+
+`takeout disable --all`
+
+- Start a specific container:
+
+`takeout start {any something}`
+
+- Stop a specific container:
+
+`takeout stop {any something}`

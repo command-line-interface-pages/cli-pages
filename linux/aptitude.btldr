@@ -1,0 +1,36 @@
+# aptitude
+
+> Debian and Ubuntu package management utility
+> More information: https://manpages.debian.org/latest/aptitude/aptitude.8.html
+
+- Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands:
+
+`aptitude update`
+
+- Install a new package and its dependencies:
+
+`aptitude install {any something}`
+
+- Search for a package:
+
+`aptitude search {any something}`
+
+- Search for an installed package (`?installed` is an aptitude search term):
+
+`aptitude search '?installed({any something})'`
+
+- Remove a package and all packages depending on it:
+
+`aptitude remove {any something}`
+
+- Upgrade installed packages to the newest available versions:
+
+`aptitude upgrade`
+
+- Upgrade installed packages (like `aptitude upgrade`) including removing obsolete packages and installing additional packages to meet new package dependencies:
+
+`aptitude full-upgrade`
+
+- Put an installed package on hold to prevent it from being automatically upgraded:
+
+`aptitude hold '?installed({any something})'`

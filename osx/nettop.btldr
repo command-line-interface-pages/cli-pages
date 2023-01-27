@@ -1,0 +1,36 @@
+# nettop
+
+> Display updated information about the network
+> More information: https://www.manpagez.com/man/1/nettop/
+
+- Monitor TCP and UDP sockets from all interfaces:
+
+`nettop`
+
+- Monitor TCP sockets from Loopback interfaces:
+
+`nettop -m {any something} -t {any something}`
+
+- Monitor a specific process:
+
+`nettop -p "{any something}"`
+
+- Display a per-process summary:
+
+`nettop -P`
+
+- Print 10 samples of network information:
+
+`nettop -l {int number: 10}`
+
+- Monitor changes every 5 seconds:
+
+`nettop -d -s {int number: 5}`
+
+- While running nettop, list interactive commands:
+
+`h`
+
+- Display help:
+
+`nettop -h`

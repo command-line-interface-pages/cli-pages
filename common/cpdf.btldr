@@ -1,0 +1,36 @@
+# cpdf
+
+> CLI to manipulate existing PDF files in a variety of ways
+> More information: https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html
+
+- Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:
+
+`cpdf {any something} {any something} -o {any something}`
+
+- Merge two documents into a new one:
+
+`cpdf -merge {any something} {any something} -o {any something}`
+
+- Show the bookmarks of a document:
+
+`cpdf -list-bookmarks {any something}`
+
+- Split a document into ten-page chunks, writing them to `chunk001.pdf`, `chunk002.pdf`, etc:
+
+`cpdf -split {any something} -o {any something} -chunk {int number: 10}`
+
+- Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password:
+
+`cpdf -encrypt {any something} {any something} {any something} {any something} -o {any something}`
+
+- Decrypt a document using the owner password `fred`:
+
+`cpdf -decrypt {any something} owner={any something} -o {any something}`
+
+- Show the annotations of a document:
+
+`cpdf -list-annotations {any something}`
+
+- Create a new document from an existing one with additional metadata:
+
+`cpdf -set-metadata {any something} {any something} -o {any something}`

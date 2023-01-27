@@ -1,0 +1,32 @@
+# docker build
+
+> Build an image from a Dockerfile
+> More information: https://docs.docker.com/engine/reference/commandline/build/
+
+- Build a docker image using the Dockerfile in the current directory:
+
+`docker build .`
+
+- Build a docker image from a Dockerfile at a specified URL:
+
+`docker build {any something}`
+
+- Build a docker image and tag it:
+
+`docker build --tag {any something} .`
+
+- Build a docker image with no build context:
+
+`docker build --tag {any something} - < {any something}`
+
+- Do not use the cache when building the image:
+
+`docker build --no-cache --tag {any something} .`
+
+- Build a docker image using a specific Dockerfile:
+
+`docker build --file {any something} .`
+
+- Build with custom build-time variables:
+
+`docker build --build-arg {any something} --build-arg {any something} .`

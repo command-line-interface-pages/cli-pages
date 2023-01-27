@@ -1,0 +1,16 @@
+# createrepo
+
+> Initializes an RPM repository in the given directory, including all XML and SQLite files
+> More information: https://manned.org/createrepo
+
+- Initialize a basic repository in a directory:
+
+`createrepo {directory something}`
+
+- Initialize a repository, exclude test RPMs and display verbose logs:
+
+`createrepo -v -x {any something} {directory something}`
+
+- Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links:
+
+`createrepo -S -s {any something} {directory something}`

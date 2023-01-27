@@ -1,0 +1,28 @@
+# fakeroot
+
+> Run a command in an environment faking root privileges for file manipulation
+> More information: https://manpages.debian.org/latest/fakeroot/fakeroot.1.html
+
+- Start the default shell as fakeroot:
+
+`fakeroot`
+
+- Run a command as fakeroot:
+
+`fakeroot -- {any something} {any something}`
+
+- Run a command as fakeroot and save the environment to a file on exit:
+
+`fakeroot -s {file something} -- {any something} {any something}`
+
+- Load a fakeroot environment and run a command as fakeroot:
+
+`fakeroot -i {file something} -- {any something} {any something}`
+
+- Run a command keeping the real ownership of files instead of pretending they are owned by root:
+
+`fakeroot --unknown-is-real -- {any something} {any something}`
+
+- Display help:
+
+`fakeroot --help`

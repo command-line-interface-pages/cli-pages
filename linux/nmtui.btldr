@@ -1,0 +1,25 @@
+# nmtui
+
+> Text user interface for controlling NetworkManager
+> Use arrow keys to navigate, enter to select an option
+> More information: https://networkmanager.dev/docs/api/latest/nmtui.html
+
+- Open the user interface:
+
+`nmtui`
+
+- Show a list of available connections, with the option to activate or deactivate them:
+
+`nmtui connect`
+
+- Connect to a given network:
+
+`nmtui connect {any something}`
+
+- Edit/Add/Delete a given network:
+
+`nmtui edit {any something}`
+
+- Set the system hostname:
+
+`nmtui hostname`

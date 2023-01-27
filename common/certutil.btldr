@@ -1,0 +1,24 @@
+# certutil
+
+> Manage keys and certificates in both NSS databases and other NSS tokens
+> More information: https://manned.org/certutil
+
+- Create a new certificate database:
+
+`certutil -N -d .`
+
+- List all certificates in a database:
+
+`certutil -L -d .`
+
+- List all private keys in a database:
+
+`certutil -K -d . -f {any something}`
+
+- Import the signed certificate into the requesters database:
+
+`certutil -A -n "{any something}" -t ",," -i {any something} -d .`
+
+- Add subject alternative names to a given certificate:
+
+`certutil -S -f {any something} -d . -t ",," -c "{any something}" -n "{any something}" -g {int number: 2048} -s "CN={any something},O={any something}"`

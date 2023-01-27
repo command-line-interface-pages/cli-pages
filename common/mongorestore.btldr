@@ -1,0 +1,20 @@
+# mongorestore
+
+> Utility to import a collection or database from a binary dump into a MongoDB instance
+> More information: https://docs.mongodb.com/database-tools/mongorestore/
+
+- Import a BSON data dump from a directory to a MongoDB database:
+
+`mongorestore --db {any something} {directory something}`
+
+- Import a BSON data dump from a directory to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password):
+
+`mongorestore --host {any something} --db {any something} --username {any something} {directory something} --password`
+
+- Import a collection from a BSON file to a MongoDB database:
+
+`mongorestore --db {any something} {file something}`
+
+- Import a collection from a BSON file to a given database in a MongoDB server host, running at a given port, with user authentication (user will be prompted for password):
+
+`mongorestore --host {any something} --db {any something} --username {any something} {file something} --password`

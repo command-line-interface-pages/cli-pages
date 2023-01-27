@@ -1,0 +1,36 @@
+# tlmgr shell
+
+> Start an interactive shell of the native TeX Live manager
+> More information: https://www.tug.org/texlive/tlmgr.html
+
+- Start an interactive shell of `tlmgr`:
+
+`tlmgr shell`
+
+- Run any `tlmgr` sub-command in the interactive shell:
+
+`{any something} {any something}`
+
+- Quit the interactive shell:
+
+`quit`
+
+- List all TeX Live variables:
+
+`get`
+
+- Get the value of a TeX Live variable:
+
+`get {any something}`
+
+- Set the value of a TeX Live variable:
+
+`set {any something} {any something}`
+
+- Restart the interactive shell:
+
+`restart`
+
+- Print the version of the current protocol:
+
+`protocol`

@@ -1,0 +1,17 @@
+# import
+
+> Capture some or all of an X server screen, and save the image to a file
+> Part of the ImageMagick library
+> More information: https://imagemagick.org/script/import.php
+
+- Capture the entire X server screen in the PostScript image format:
+
+`import -window root {any something}`
+
+- Capture contents of a remote X server screen in the PNG format:
+
+`import -window root -display {any something}:{any something}.{any something} {any something}`
+
+- Capture a specific window, given its ID as displayed by `xwininfo`, into the JPEG format:
+
+`import -window {any something} {any something}`

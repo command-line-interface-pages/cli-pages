@@ -1,0 +1,20 @@
+# ouch
+
+> Command-line utility for compressing and decompressing files and directories
+> More information: https://crates.io/crates/ouch
+
+- Decompress a specific file:
+
+`ouch decompress {any something}`
+
+- Decompress a file to a specific location:
+
+`ouch decompress {any something} --dir {directory something}`
+
+- Decompress multiple files:
+
+`ouch decompress {any something}`
+
+- Compress files:
+
+`ouch compress {file* something} {any something}`

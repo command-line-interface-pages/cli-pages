@@ -1,0 +1,24 @@
+# virtualboxvm
+
+> The VirtualBox virtual machine management CLI
+> More information: https://www.virtualbox.org
+
+- Start a virtual machine:
+
+`virtualboxvm --startvm {any something}`
+
+- Start a virtual machine in fullscreen mode:
+
+`virtualboxvm --startvm {any something} --fullscreen`
+
+- Mount the specified DVD image file:
+
+`virtualboxvm --startvm {any something} --dvd {file something: path/to/image}`
+
+- Display a command-line window with debug information:
+
+`virtualboxvm --startvm {any something} --debug-command-line`
+
+- Start a virtual machine in a paused state:
+
+`virtualboxvm --startvm {any something} --start-paused`

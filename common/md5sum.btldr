@@ -1,0 +1,28 @@
+# md5sum
+
+> Calculate MD5 cryptographic checksums
+> More information: https://www.gnu.org/software/coreutils/md5sum
+
+- Calculate the MD5 checksum for a file:
+
+`md5sum {file something}`
+
+- Calculate MD5 checksums for multiple files:
+
+`md5sum {any something} {any something}`
+
+- Calculate a MD5 checksum from the stdin:
+
+`echo "{any something}" | md5sum`
+
+- Read a file of MD5SUMs and verify all files have matching checksums:
+
+`md5sum --check {any something}`
+
+- Only show a message for missing files or when verification fails:
+
+`md5sum --check --quiet {any something}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`md5sum --ignore-missing --check --quiet {any something}`

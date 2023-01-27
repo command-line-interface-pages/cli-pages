@@ -1,0 +1,20 @@
+# swapoff
+
+> Disables device or file for swapping
+> More information: https://manned.org/swapoff
+
+- Disable a given swap partition:
+
+`swapoff {any something}`
+
+- Disable a given swap file:
+
+`swapoff {file something}`
+
+- Disable all swap areas:
+
+`swapoff -a`
+
+- Disable swap by label of a device or file:
+
+`swapoff -L {any something}`

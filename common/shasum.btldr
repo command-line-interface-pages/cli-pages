@@ -1,0 +1,32 @@
+# shasum
+
+> Calculate or check cryptographic SHA checksums
+> More information: https://manned.org/shasum
+
+- Calculate the SHA1 checksum for a file:
+
+`shasum {file something}`
+
+- Calculate the SHA256 checksum for a file:
+
+`shasum --algorithm 256 {file something}`
+
+- Calculate the SHA512 checksum for multiple files:
+
+`shasum --algorithm 512 {any something} {any something}`
+
+- Calculate and save the list of SHA256 checksums to a file:
+
+`shasum --algorithm 256 {any something} {any something} > {any something}`
+
+- Check a file with a list of sums against the directory's files:
+
+`shasum --check {file something}`
+
+- Check a list of sums and only show a message for files for which verification fails:
+
+`shasum --check --quiet {file something}`
+
+- Calculate the SHA1 checksum from stdin:
+
+`{any something} | shasum`

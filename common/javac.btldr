@@ -1,0 +1,20 @@
+# javac
+
+> Java application compiler
+> More information: https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html
+
+- Compile a `.java` file:
+
+`javac {any something}`
+
+- Compile several `.java` files:
+
+`javac {any something} {any something} {any something}`
+
+- Compile all `.java` files in current directory:
+
+`javac {any something}`
+
+- Compile a `.java` file and place the resulting class file in a specific directory:
+
+`javac -d {directory something} {any something}`

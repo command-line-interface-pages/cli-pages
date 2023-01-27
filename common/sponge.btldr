@@ -1,0 +1,12 @@
+# sponge
+
+> Soak up the input before writing the output file
+> More information: https://manned.org/sponge
+
+- Append file content to the source file:
+
+`cat {file something} | sponge -a {file something}`
+
+- Remove all lines starting with # in a file:
+
+`grep -v '^{any something}' {file something} | sponge {file something}`

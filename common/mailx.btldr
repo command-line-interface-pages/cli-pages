@@ -1,0 +1,28 @@
+# mailx
+
+> Send and receive mail
+> More information: https://manned.org/mailx
+
+- Send mail (the content should be typed after the command, and ended with `Ctrl+D`):
+
+`mailx -s "{any something}" {any something}`
+
+- Send mail with content passed from another command:
+
+`echo "{any something}" | mailx -s "{any something}" {any something}`
+
+- Send mail with content read from a file:
+
+`mailx -s "{any something}" {any something} < {any something}`
+
+- Send mail to a recipient and CC to another address:
+
+`mailx -s "{any something}" -c {any something} {any something}`
+
+- Send mail specifying the sender address:
+
+`mailx -s "{any something}" -r {any something} {any something}`
+
+- Send mail with an attachment:
+
+`mailx -a {file something} -s "{any something}" {any something}`

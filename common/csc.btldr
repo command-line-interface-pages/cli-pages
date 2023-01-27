@@ -1,0 +1,36 @@
+# csc
+
+> The Microsoft C# Compiler
+> More information: https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe
+
+- Compile one or more C# files to a CIL executable:
+
+`csc {any something} {any something}`
+
+- Specify the output filename:
+
+`csc /out:{file something} {any something}`
+
+- Compile into a `.dll` library instead of an executable:
+
+`csc /target:library {any something}`
+
+- Reference another assembly:
+
+`csc /reference:{any something} {any something}`
+
+- Embed a resource:
+
+`csc /resource:{file something: path/to/resource} {any something}`
+
+- Automatically generate XML documentation:
+
+`csc /doc:{any something} {any something}`
+
+- Specify an icon:
+
+`csc /win32icon:{any something} {any something}`
+
+- Strongly-name the resulting assembly with a keyfile:
+
+`csc /keyfile:{any something} {any something}`

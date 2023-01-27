@@ -1,0 +1,36 @@
+# xauth
+
+> Edit and display the authorization information used in connecting to the X server
+> More information: https://manned.org/xauth
+
+- Start interactive mode with a specific authority file (defaults to `~/.Xauthority`):
+
+`xauth -f {file something}`
+
+- Display information about the authority file:
+
+`xauth info`
+
+- Display authorization entries for all the displays:
+
+`xauth list`
+
+- Add an authorization for a specific display:
+
+`xauth add {any something} {any something} {any something}`
+
+- Remove the authorization for a specific display:
+
+`xauth remove {any something}`
+
+- Print the authorization entry for the current display to stdout:
+
+`xauth extract - $DISPLAY`
+
+- Merge the authorization entries from a specific file into the authorization database:
+
+`cat {file something} | xauth merge -`
+
+- Display help:
+
+`xauth --help`

@@ -1,0 +1,37 @@
+# gh
+
+> Work seamlessly with GitHub from the command-line
+> Some subcommands such as `gh config` have their own usage documentation
+> More information: https://cli.github.com/
+
+- Clone a GitHub repository locally:
+
+`gh repo clone {any something}/{any something}`
+
+- Create a new issue:
+
+`gh issue create`
+
+- View and filter the open issues of the current repository:
+
+`gh issue list`
+
+- View an issue in the default web browser:
+
+`gh issue view --web {any something}`
+
+- Create a pull request:
+
+`gh pr create`
+
+- View a pull request in the default web browser:
+
+`gh pr view --web {any something}`
+
+- Check out a specific pull request locally:
+
+`gh pr checkout {any something}`
+
+- Check the status of a repository's pull requests:
+
+`gh pr status`

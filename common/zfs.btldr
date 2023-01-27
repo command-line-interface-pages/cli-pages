@@ -1,0 +1,28 @@
+# zfs
+
+> Manage ZFS filesystems
+> More information: https://manned.org/zfs
+
+- List all available zfs filesystems:
+
+`zfs list`
+
+- Create a new ZFS filesystem:
+
+`zfs create {any something}`
+
+- Delete a ZFS filesystem:
+
+`zfs destroy {any something}`
+
+- Create a Snapshot of a ZFS filesystem:
+
+`zfs snapshot {any something}@{any something}`
+
+- Enable compression on a filesystem:
+
+`zfs set compression=on {any something}`
+
+- Change mountpoint for a filesystem:
+
+`zfs set mountpoint={any something} {any something}`

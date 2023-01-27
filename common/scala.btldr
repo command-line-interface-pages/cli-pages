@@ -1,0 +1,24 @@
+# scala
+
+> Scala application launcher and interactive interpreter
+> More information: https://scala-lang.org
+
+- Start a REPL (interactive shell):
+
+`scala`
+
+- Start the interpreter with a dependency in the classpath:
+
+`scala -classpath {any something} {any something}`
+
+- Execute a Scala script:
+
+`scala {any something}`
+
+- Execute a `.jar` program:
+
+`scala {any something}`
+
+- Execute a single Scala command in the command-line:
+
+`scala -e {any something}`

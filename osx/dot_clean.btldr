@@ -1,0 +1,28 @@
+# dot_clean
+
+> Merge ._* files with corresponding native files
+> More information: https://ss64.com/osx/dot_clean.html
+
+- Merge all `._*` files recursively:
+
+`dot_clean {directory something}`
+
+- Don't recursively merge all `._*` in a directory (flat merge):
+
+`dot_clean -f {directory something}`
+
+- Merge and delete all `._*` files:
+
+`dot_clean -m {directory something}`
+
+- Only delete `._*` files if there's a matching native file:
+
+`dot_clean -n {directory something}`
+
+- Follow symlinks:
+
+`dot_clean -s {directory something}`
+
+- Print verbose output:
+
+`dot_clean -v {directory something}`

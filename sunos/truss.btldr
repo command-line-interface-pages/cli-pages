@@ -1,0 +1,25 @@
+# truss
+
+> Troubleshooting tool for tracing system calls
+> SunOS equivalent of strace
+> More information: https://www.unix.com/man-page/linux/1/truss
+
+- Start tracing a program by executing it, following all child processes:
+
+`truss -f {any something}`
+
+- Start tracing a specific process by its PID:
+
+`truss -p {any something}`
+
+- Start tracing a program by executing it, showing arguments and environment variables:
+
+`truss -a -e {any something}`
+
+- Count time, calls, and errors for each system call and report a summary on program exit:
+
+`truss -c -p {any something}`
+
+- Trace a process filtering output by system call:
+
+`truss -p {any something} -t {any something}`

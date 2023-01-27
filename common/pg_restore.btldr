@@ -1,0 +1,28 @@
+# pg_restore
+
+> Restore a PostgreSQL database from an archive file created by pg_dump
+> More information: https://www.postgresql.org/docs/current/app-pgrestore.html
+
+- Restore an archive into an existing database:
+
+`pg_restore -d {any something} {any something}`
+
+- Same as above, customize username:
+
+`pg_restore -U {any something} -d {any something} {any something}`
+
+- Same as above, customize host and port:
+
+`pg_restore -h {any something} -p {any something} -d {any something} {any something}`
+
+- List database objects included in the archive:
+
+`pg_restore --list {any something}`
+
+- Clean database objects before creating them:
+
+`pg_restore --clean -d {any something} {any something}`
+
+- Use multiple jobs to do the restoring:
+
+`pg_restore -j {int number: 2} -d {any something} {any something}`

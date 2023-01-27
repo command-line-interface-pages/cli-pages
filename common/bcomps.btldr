@@ -1,0 +1,21 @@
+# bcomps
+
+> Decompose graphs into their biconnected components
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`
+> More information: https://graphviz.org/pdf/bcomps.1.pdf
+
+- Decompose one or more graphs into their biconnected components:
+
+`bcomps {any something} {any something} > {any something}`
+
+- Print the number of blocks and cutvertices in one or more graphs:
+
+`bcomps -v -s {any something} {any something}`
+
+- Write each block and block-cutvertex tree to multiple numbered filenames based on `output.gv`:
+
+`bcomps -x -o {any something} {any something} {any something}`
+
+- Display help for `bcomps`:
+
+`bcomps -?`

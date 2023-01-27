@@ -1,0 +1,29 @@
+# vegeta
+
+> A command-line utility and a library for HTTP load testing
+> See also `ab`
+> More information: https://github.com/tsenart/vegeta
+
+- Launch an attack lasting 30 seconds:
+
+`echo "{any something}" | vegeta attack -duration={any something}`
+
+- Launch an attack on a server with a self-signed HTTPS certificate:
+
+`echo "{any something}" | vegeta attack -insecure -duration={any something}`
+
+- Launch an attack with a rate of 10 requests per second:
+
+`echo "{any something}" | vegeta attack -duration={any something} -rate={int number: 10}`
+
+- Launch an attack and display a report:
+
+`echo "{any something}" | vegeta attack -duration={any something} | vegeta report`
+
+- Launch an attack and plot the results on a graph (latency over time):
+
+`echo "{any something}" | vegeta attack -duration={any something} | vegeta plot > {any something}`
+
+- Launch an attack against multiple URLs from a file:
+
+`vegeta attack -duration={any something} -targets={any something} | vegeta report`

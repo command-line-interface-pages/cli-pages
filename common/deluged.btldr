@@ -1,0 +1,20 @@
+# deluged
+
+> A daemon process for the Deluge BitTorrent client
+> More information: https://deluge-torrent.org
+
+- Start the Deluge daemon:
+
+`deluged`
+
+- Start the Deluge daemon on a specific port:
+
+`deluged -p {any something}`
+
+- Start the Deluge daemon using a specific configuration file:
+
+`deluged -c {file something: path/to/configuration}`
+
+- Start the Deluge daemon and output the log to a file:
+
+`deluged -l {file something: path/to/log}`

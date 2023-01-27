@@ -1,0 +1,36 @@
+# lynx
+
+> Command-line web browser
+> More information: https://lynx.browser.org
+
+- Visit a website:
+
+`lynx {any something}`
+
+- Apply restrictions for anonymous account:
+
+`lynx -anonymous {any something}`
+
+- Turn on mouse support, if available:
+
+`lynx -use_mouse {any something}`
+
+- Force color mode on, if available:
+
+`lynx -color {any something}`
+
+- Open a link, using a specific file to read and write cookies:
+
+`lynx -cookie_file={file something} {any something}`
+
+- Navigate forwards and backwards through the links on a page:
+
+`Up arrow key, Down arrow key`
+
+- Go back to the previously displayed page:
+
+`Left arrow key or u`
+
+- Exit:
+
+`q then y`

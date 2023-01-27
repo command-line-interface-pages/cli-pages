@@ -1,0 +1,20 @@
+# in-toto-run
+
+> Generating link metadata while carrying out a supply chain step
+> More information: https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-run.html
+
+- Tag a git repo and signing the resulting link file:
+
+`in-toto-run -n {any something} --products {any something} -k {file something: key} -- {any something}`
+
+- Create a tarball, storing files as materials and the tarball as product:
+
+`in-toto-run -n {any something} -m {any something} -p {any something} -- {any something}`
+
+- Generate signed attestations for review work:
+
+`in-toto-run -n {any something} -k {file something: key} -m {any something} -x`
+
+- Scan the image using Trivy and generate link file:
+
+`in-toto-run -n {any something} -k {file something: key} -p {any something} -- {any something}`

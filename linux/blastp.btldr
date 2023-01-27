@@ -1,0 +1,28 @@
+# blastp
+
+> Protein-Protein BLAST
+> More information: https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/
+
+- Align two or more sequences using blastp, with the e-value threshold of 1e-9, pairwise output format, output to screen:
+
+`blastp -query {any something} -subject {any something} -evalue {any something}`
+
+- Align two or more sequences using blastp-fast:
+
+`blastp -task blastp-fast -query {any something} -subject {any something}`
+
+- Align two or more sequences, custom tabular output format, output to file:
+
+`blastp -query {any something} -subject {any something} -outfmt '{any something}' -out {any something}`
+
+- Search protein databases using a protein query, 16 threads to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
+
+`blastp -query {any something} -db {any something} -num_threads {int number: 16} -max_target_seqs {int number: 10}`
+
+- Search the remote non-redundant protein database using a protein query:
+
+`blastp -query {any something} -db {any something} -remote`
+
+- Display help (use `-help` for detailed help):
+
+`blastp -h`

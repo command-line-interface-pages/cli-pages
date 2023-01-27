@@ -1,0 +1,29 @@
+# unzip
+
+> Extract files/directories from ZIP archives
+> See also: `zip`
+> More information: https://manned.org/unzip
+
+- Extract all files/directories from specific archives into the current directory:
+
+`unzip {any something}`
+
+- Extract files/directories from archives to a specific path:
+
+`unzip {any something} -d {any something}`
+
+- Extract files/directories from archives to stdout:
+
+`unzip -c {any something}`
+
+- Extract the contents of the file(s) to stdout alongside the extracted file names:
+
+`unzip -O {any something} {any something}`
+
+- List the contents of a specific archive without extracting them:
+
+`unzip -l {any something}`
+
+- Extract a specific file from an archive:
+
+`unzip -j {any something} {any something}`

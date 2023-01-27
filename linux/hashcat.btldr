@@ -1,0 +1,32 @@
+# hashcat
+
+> Fast and advanced password recovery tool
+> More information: https://hashcat.net/wiki/doku.php?id=hashcat
+
+- Perform a brute-force attack (mode 3) with the default hashcat mask:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 3} {any something}`
+
+- Perform a brute-force attack (mode 3) with a known pattern of 4 digits:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 3} {any something} "{any something}"`
+
+- Perform a brute-force attack (mode 3) using at most 8 of all printable ASCII characters:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 3} --increment {any something} "{any something}"`
+
+- Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 0} {any something} {any something}`
+
+- Perform a rule-based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 0} --rules-file {any something} {any something} {any something}`
+
+- Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
+
+`hashcat --hash-type {any something} --attack-mode {int number: 1} {any something} {any something} {any something}`
+
+- Show result of an already cracked hash:
+
+`hashcat --show {any something}`

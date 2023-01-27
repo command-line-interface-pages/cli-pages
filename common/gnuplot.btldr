@@ -1,0 +1,20 @@
+# gnuplot
+
+> A graph plotter that outputs in several formats
+> More information: http://www.gnuplot.info/
+
+- Start the interactive graph plotting shell:
+
+`gnuplot`
+
+- Plot the graph for the specified graph definition file:
+
+`gnuplot {any something}`
+
+- Set the output format by executing a command before loading the definition file:
+
+`gnuplot -e "{any something}" {any something}`
+
+- Persist the graph plot preview window after gnuplot exits:
+
+`gnuplot --persist {any something}`

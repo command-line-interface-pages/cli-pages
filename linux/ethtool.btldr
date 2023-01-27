@@ -1,0 +1,28 @@
+# ethtool
+
+> Display and modify Network Interface Controller (NIC) parameters
+> More information: http://man7.org/linux/man-pages/man8/ethtool.8.html
+
+- Display the current settings for an interface:
+
+`ethtool {any something}`
+
+- Display the driver information for an interface:
+
+`ethtool --driver {any something}`
+
+- Display all supported features for an interface:
+
+`ethtool --show-features {any something}`
+
+- Display the network usage statistics for an interface:
+
+`ethtool --statistics {any something}`
+
+- Blink one or more LEDs on an interface for 10 seconds:
+
+`ethtool --identify {any something} {int number: 10}`
+
+- Set the link speed, duplex mode, and parameter auto-negotiation for a given interface:
+
+`ethtool -s {any something} speed {any something} duplex {any something} autoneg {any something}`

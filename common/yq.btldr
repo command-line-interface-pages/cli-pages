@@ -1,0 +1,36 @@
+# yq
+
+> A lightweight and portable command-line YAML processor
+> More information: https://mikefarah.gitbook.io/yq/
+
+- Output a YAML file, in pretty-print format (v4+):
+
+`yq eval {any something}`
+
+- Output a YAML file, in pretty-print format (v3):
+
+`yq read {any something} --colors`
+
+- Output the first element in a YAML file that contains only an array (v4+):
+
+`yq eval '.[0]' {any something}`
+
+- Output the first element in a YAML file that contains only an array (v3):
+
+`yq read {any something} '[0]'`
+
+- Set (or overwrite) a key to a value in a file (v4+):
+
+`yq eval '.{any something} = "{any something}"' --inplace {any something}`
+
+- Set (or overwrite) a key to a value in a file (v3):
+
+`yq write --inplace {any something} '{any something}' '{any something}'`
+
+- Merge two files and print to stdout (v4+):
+
+`yq eval-all 'select(filename == "{any something}") * select(filename == "{any something}")' {any something} {any something}`
+
+- Merge two files and print to stdout (v3):
+
+`yq merge {any something} {any something} --colors`

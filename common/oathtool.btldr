@@ -1,0 +1,16 @@
+# oathtool
+
+> OATH one-time password tool
+> More information: https://www.nongnu.org/oath-toolkit/oathtool.1.html
+
+- Generate TOTP token (behaves like Google Authenticator):
+
+`oathtool --totp --base32 "{any something}"`
+
+- Generate a TOTP token for a specific time:
+
+`oathtool --totp --now "{any something}" --base32 "{any something}"`
+
+- Validate a TOTP token:
+
+`oathtool --totp --base32 "{any something}" "{any something}"`

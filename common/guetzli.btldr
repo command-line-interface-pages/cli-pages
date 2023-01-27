@@ -1,0 +1,16 @@
+# guetzli
+
+> JPEG image compression utility
+> More information: https://github.com/google/guetzli
+
+- Compress a JPEG image:
+
+`guetzli {any something} {any something}`
+
+- Create a compressed JPEG from a PNG:
+
+`guetzli {any something} {any something}`
+
+- Compress a JPEG with the desired visual quality (84-100):
+
+`guetzli --quality {any something} {any something} {any something}`

@@ -1,0 +1,28 @@
+# cowsay
+
+> Print ASCII art (by default a cow) saying or thinking something
+> More information: https://github.com/tnalpgge/rank-amateur-cowsay
+
+- Print an ASCII cow saying "hello, world":
+
+`cowsay "{any something}"`
+
+- Print an ASCII cow saying text from stdin:
+
+`echo "{any something}" | cowsay`
+
+- List all available art types:
+
+`cowsay -l`
+
+- Print the specified ASCII art saying "hello, world":
+
+`cowsay -f {any something} "{any something}"`
+
+- Print a dead thinking ASCII cow:
+
+`cowthink -d "{any something}"`
+
+- Print an ASCII cow with custom eyes saying "hello, world":
+
+`cowsay -e {any something} "{any something}"`

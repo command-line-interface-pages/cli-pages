@@ -1,0 +1,20 @@
+# pidof
+
+> Gets the ID of a process using its name
+> More information: https://manned.org/pidof
+
+- List all process IDs with given name:
+
+`pidof {any something}`
+
+- List a single process ID with given name:
+
+`pidof -s {any something}`
+
+- List process IDs including scripts with given name:
+
+`pidof -x {any something}`
+
+- Kill all processes with given name:
+
+`kill $(pidof {any something})`

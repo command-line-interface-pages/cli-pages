@@ -1,0 +1,24 @@
+# pmount
+
+> Mount arbitrary hotpluggable devices as a normal user
+> More information: https://manned.org/pmount
+
+- Mount a device below `/media/` (using device as mount point):
+
+`pmount {any something}`
+
+- Mount a device with a specific filesystem type to `/media/label`:
+
+`pmount --type {any something} {any something} {any something}`
+
+- Mount a CD-ROM (filesystem type ISO9660) in read-only mode:
+
+`pmount --type {any something} --read-only {any something}`
+
+- Mount an NTFS-formatted disk, forcing read-write access:
+
+`pmount --type {any something} --read-write {any something}`
+
+- Display all mounted removable devices:
+
+`pmount`

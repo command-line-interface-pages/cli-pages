@@ -1,0 +1,21 @@
+# ldapdomaindump
+
+> Dump users, computers, groups, OS and membership information via LDAP to HTML, JSON and greppable output
+> See also `ldapsearch`
+> More information: https://github.com/dirkjanm/ldapdomaindump
+
+- Dump all information using the given LDAP account:
+
+`ldapdomaindump --user {any something}\\{any something} --password {any something} {any something}`
+
+- Dump all information, resolving computer hostnames:
+
+`ldapdomaindump --resolve --user {any something}\\{any something} --password {any something} {any something}`
+
+- Dump all information, resolving computer hostnames with the selected DNS server:
+
+`ldapdomaindump --resolve --dns-server {any something} --user {any something}\\{any something} --password {any something} {any something}`
+
+- Dump all information to the given directory without JSON output:
+
+`ldapdomaindump --no-json --outdir {directory something} --user {any something}\\{any something} --password {any something} {any something}`

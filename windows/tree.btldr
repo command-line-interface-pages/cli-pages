@@ -1,0 +1,20 @@
+# tree
+
+> Display a graphical tree of the directory structure for a path
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/tree
+
+- Display the tree for the current directory:
+
+`tree`
+
+- Display the tree for a specific directory:
+
+`tree {directory something}`
+
+- Display the tree for a directory including files:
+
+`tree {directory something} /f`
+
+- Display the tree using ASCII characters instead of extended characters:
+
+`tree {directory something} /a`

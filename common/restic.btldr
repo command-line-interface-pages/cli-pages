@@ -1,0 +1,28 @@
+# restic
+
+> A backup program that aims to be fast, secure and efficient
+> More information: https://restic.net
+
+- Initialize a backup repository in the specified local directory:
+
+`restic init --repo {any something}`
+
+- Backup a directory to the repository:
+
+`restic --repo {any something} backup {directory something}`
+
+- Show backup snapshots currently stored in the repository:
+
+`restic --repo {any something} snapshots`
+
+- Restore a specific backup snapshot to a target directory:
+
+`restic --repo {any something} restore {any something} --target {any something}`
+
+- Restore a specific path from a specific backup to a target directory:
+
+`restic --repo {any something} restore {any something} --target {any something} --include {any something}`
+
+- Clean up the repository and keep only the most recent snapshot of each unique backup:
+
+`restic forget --keep-last 1 --prune`

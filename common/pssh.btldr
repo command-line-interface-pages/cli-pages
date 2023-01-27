@@ -1,0 +1,28 @@
+# pssh
+
+> Parallel SSH program
+> More information: https://manned.org/pssh
+
+- Run a command on two hosts, and print its output on each server inline:
+
+`pssh -i -H "{any something} {any something}" {any something}`
+
+- Run a command and save the output to separate files:
+
+`pssh -H {any something} -H {any something} -o {directory something: output} {any something}`
+
+- Run a command on multiple hosts, specified in a new-line separated file:
+
+`pssh -i -h {file something: path/to/hosts} {any something}`
+
+- Run a command as root (this asks for the root password):
+
+`pssh -i -h {file something: path/to/hosts} -A -l {any something} {any something}`
+
+- Run a command with extra SSH arguments:
+
+`pssh -i -h {file something: path/to/hosts} -x "{any something}" {any something}`
+
+- Run a command limiting the number of parallel connections to 10:
+
+`pssh -i -h {file something: path/to/hosts} -p {int number: 10} '{any something}'`

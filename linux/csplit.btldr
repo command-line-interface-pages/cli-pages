@@ -1,0 +1,25 @@
+# csplit
+
+> Split a file into pieces
+> This generates files named "xx00", "xx01", and so on
+> More information: https://www.gnu.org/software/coreutils/csplit
+
+- Split a file at lines 5 and 23:
+
+`csplit {file something} {int number: 5} {int number: 23}`
+
+- Split a file every 5 lines (this will fail if the total number of lines is not divisible by 5):
+
+`csplit {file something} {int number: 5} {*}`
+
+- Split a file every 5 lines, ignoring exact-division error:
+
+`csplit -k {file something} {int number: 5} {*}`
+
+- Split a file at line 5 and use a custom prefix for the output files:
+
+`csplit {file something} {int number: 5} -f {any something}`
+
+- Split a file at a line matching a regular expression:
+
+`csplit {file something} /{any something}/`

@@ -1,0 +1,28 @@
+# ogr2ogr
+
+> Convert geospatial vector data between file formats
+> More information: https://gdal.org/programs/ogr2ogr.html
+
+- Convert a Shapefile into a GeoPackage:
+
+`ogr2ogr -f GPKG {any something}.gpkg {any something}.shp`
+
+- Reduce a GeoJSON to features matching a condition:
+
+`ogr2ogr -where '{any something}' -f {any something} {any something} {any something}`
+
+- Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`:
+
+`ogr2ogr -s_srs {any something} -t_srs {any something} -f GPKG {any something}.gpkg {any something}.gpkg`
+
+- Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system:
+
+`ogr2ogr -f GPKG {any something}.gpkg {any something}.csv -oo X_POSSIBLE_NAMES={any something} -oo Y_POSSIBLE_NAMES={any something} -a_srs {any something}`
+
+- Load a GeoPackage into a PostGIS database:
+
+`ogr2ogr -f PostgreSQL PG:dbname="{any something}" {any something}.gpkg`
+
+- Clip layers of a GeoPackage file to the given bounding box:
+
+`ogr2ogr -spat {any something} {any something} {any something} {any something} -f GPKG {any something}.gpkg {any something}.gpkg`

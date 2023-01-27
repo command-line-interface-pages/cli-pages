@@ -1,0 +1,16 @@
+# jarsigner
+
+> Sign and verify Java archive (JAR) files
+> More information: https://docs.oracle.com/javase/9/tools/jarsigner.htm
+
+- Sign a JAR file:
+
+`jarsigner {any something} {any something}`
+
+- Sign a JAR file with a specific algorithm:
+
+`jarsigner -sigalg {any something} {any something} {any something}`
+
+- Verify the signature of a JAR file:
+
+`jarsigner -verify {any something}`

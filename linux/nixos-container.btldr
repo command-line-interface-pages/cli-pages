@@ -1,0 +1,28 @@
+# nixos-container
+
+> Starts NixOS containers using Linux containers
+> More information: https://nixos.org/manual/nixos/stable/#ch-containers
+
+- List running containers:
+
+`sudo nixos-container list`
+
+- Create a NixOS container with a specific configuration file:
+
+`sudo nixos-container create {any something} --config-file {any something}`
+
+- Start, stop, terminate, or destroy a specific container:
+
+`sudo nixos-container {any something} {any something}`
+
+- Run a command in a running container:
+
+`sudo nixos-container run {any something} -- {any something} {any something}`
+
+- Update a container configuration:
+
+`sudo $EDITOR /var/lib/container/{any something}/etc/nixos/configuration.nix && sudo nixos-container update {any something}`
+
+- Enter an interactive shell session on an already-running container:
+
+`sudo nixos-container root-login {any something}`

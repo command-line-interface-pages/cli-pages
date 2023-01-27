@@ -1,0 +1,32 @@
+# croc
+
+> Send and receive files easily and securely over any network
+> More information: https://github.com/schollz/croc
+
+- Send a file or directory:
+
+`croc send {directory something: path/to/file_or}`
+
+- Send a file or directory with a specific passphrase:
+
+`croc send --code {any something} {directory something: path/to/file_or}`
+
+- Receive a file or directory on receiving machine:
+
+`croc {any something}`
+
+- Send and connect over a custom relay:
+
+`croc --relay {any something} send {directory something: path/to/file_or}`
+
+- Receive and connect over a custom relay:
+
+`croc --relay {any something} {any something}`
+
+- Host a croc relay on the default ports:
+
+`croc relay`
+
+- Display parameters and options for a croc command:
+
+`croc {any something} --help`

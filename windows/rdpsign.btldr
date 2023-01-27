@@ -1,0 +1,24 @@
+# rdpsign
+
+> A tool for signing Remote Desktop Protocol (RDP) files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign
+
+- Sign an RDP file:
+
+`rdpsign {any something}`
+
+- Sign an RDP file using a specific sha256 hash:
+
+`rdpsign {any something} /sha265 {any something}`
+
+- Enable quiet output:
+
+`rdpsign {any something} /q`
+
+- Display verbose warnings, messages and statuses:
+
+`rdpsign {any something} /v`
+
+- Test the signing by displaying the output to stdout without updating the file:
+
+`rdpsign {any something} /l`

@@ -1,0 +1,25 @@
+# gnmic
+
+> A gNMI command-line client
+> Manage gNMI network device configuration and view operational data
+> More information: https://gnmic.kmrd.dev
+
+- Request device capabilities:
+
+`gnmic --address {any something} capabilities`
+
+- Provide a username and password to fetch device capabilities:
+
+`gnmic --address {any something} --username {any something} --password {any something} capabilities`
+
+- Get a snapshot of the device state at a specific path:
+
+`gnmic -a {any something} get --path {any something}`
+
+- Update device state at a specific path:
+
+`gnmic -a {any something} set --update-path {any something} --update-value {any something}`
+
+- Subscribe to target state updates under the subtree at a specific path:
+
+`gnmic -a {any something} subscribe --path {any something}`

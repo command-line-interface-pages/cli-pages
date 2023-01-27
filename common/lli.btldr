@@ -1,0 +1,20 @@
+# lli
+
+> Directly execute programs from LLVM bitcode
+> More information: https://www.llvm.org/docs/CommandGuide/lli.html
+
+- Execute a bitcode or IR file:
+
+`lli {any something}`
+
+- Execute with command line arguments:
+
+`lli {any something} {any something}`
+
+- Enable all optimizations:
+
+`lli -O3 {any something}`
+
+- Load a dynamic library before linking:
+
+`lli --dlopen={any something} {any something}`

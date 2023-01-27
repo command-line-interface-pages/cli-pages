@@ -1,0 +1,28 @@
+# asciiart
+
+> Convert images to ASCII
+> More information: https://github.com/nodanaonlyzuul/asciiart
+
+- Read an image from a file and print in ASCII:
+
+`asciiart {any something}`
+
+- Read an image from a URL and print in ASCII:
+
+`asciiart {any something}`
+
+- Choose the output width (default is 100):
+
+`asciiart --width {int number: 50} {any something}`
+
+- Colorize the ASCII output:
+
+`asciiart --color {any something}`
+
+- Choose the output format (default format is text):
+
+`asciiart --format {any something} {any something}`
+
+- Invert the character map:
+
+`asciiart --invert-chars {any something}`

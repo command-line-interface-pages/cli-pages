@@ -1,0 +1,29 @@
+# odps resource
+
+> Manage resources in ODPS (Open Data Processing Service)
+> See also `odps`
+> More information: https://www.alibabacloud.com/help/doc-detail/27971.htm
+
+- Show resources in the current project:
+
+`list resources;`
+
+- Add file resource:
+
+`add file {any something} as {any something};`
+
+- Add archive resource:
+
+`add archive {any something} as {any something};`
+
+- Add .jar resource:
+
+`add jar {any something};`
+
+- Add .py resource:
+
+`add py {any something};`
+
+- Delete resource:
+
+`drop resource {any something};`

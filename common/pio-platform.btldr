@@ -1,0 +1,32 @@
+# pio platform
+
+> Manage PlatformIO development platforms
+> More information: https://docs.platformio.org/en/latest/core/userguide/platforms/
+
+- List all installed development platforms:
+
+`pio platform list`
+
+- Search for existing development platforms:
+
+`pio platform search {any something}`
+
+- Show details about a development platform:
+
+`pio platform show {any something}`
+
+- Install a development platform:
+
+`pio platform install {any something}`
+
+- Update installed development platforms:
+
+`pio platform update`
+
+- Uninstall a development platform:
+
+`pio platform uninstall {any something}`
+
+- List all supported frameworks:
+
+`pio platform frameworks`

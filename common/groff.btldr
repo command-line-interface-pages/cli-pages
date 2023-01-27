@@ -1,0 +1,24 @@
+# groff
+
+> GNU replacement for the `troff` and `nroff` typesetting utilities
+> More information: https://www.gnu.org/software/groff
+
+- Format output for a PostScript printer, saving the output to a file:
+
+`groff {any something} > {any something}`
+
+- Render a man page using the ASCII output device, and display it using a pager:
+
+`groff -man -T ascii {any something} | less --RAW-CONTROL-CHARS`
+
+- Render a man page into an HTML file:
+
+`groff -man -T html {any something} > {any something}`
+
+- Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
+
+`groff {any something} {any something} -{any something} -T {any something} {any something} > {any something}`
+
+- Run a `groff` command with preprocessor and macro options guessed by the `grog` utility:
+
+`eval "$(grog -T utf8 {any something})"`

@@ -1,0 +1,24 @@
+# adig
+
+> Prints information received from Domain Name System (DNS) servers
+> More information: https://manned.org/adig
+
+- Display A (default) record from DNS for hostname(s):
+
+`adig {any something}`
+
+- Display extra [d]ebugging output:
+
+`adig -d {any something}`
+
+- Connect to a specific DNS [s]erver:
+
+`adig -s {any something} {any something}`
+
+- Use a specific TCP port to connect to a DNS server:
+
+`adig -T {any something} {any something}`
+
+- Use a specific UDP port to connect to a DNS server:
+
+`adig -U {any something} {any something}`

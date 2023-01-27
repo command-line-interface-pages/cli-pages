@@ -1,0 +1,16 @@
+# xetex
+
+> Compile a PDF document from XeTeX source files
+> More information: https://www.tug.org/xetex/
+
+- Compile a PDF document:
+
+`xetex {any something}`
+
+- Compile a PDF document, specifying an output directory:
+
+`xetex -output-directory={directory something} {any something}`
+
+- Compile a PDF document, exiting if errors occur:
+
+`xetex -halt-on-error {any something}`

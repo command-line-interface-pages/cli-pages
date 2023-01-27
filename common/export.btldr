@@ -1,0 +1,20 @@
+# export
+
+> Command to mark shell variables in the current environment to be exported with any newly forked child processes
+> More information: https://www.gnu.org/software/bash/manual/bash.html#index-export
+
+- Set a new environment variable:
+
+`export {any something}={any something}`
+
+- Remove an environment variable:
+
+`export -n {any something}`
+
+- Mark a shell function for export:
+
+`export -f {any something}`
+
+- Append something to the PATH variable:
+
+`export PATH=$PATH:{any something}`

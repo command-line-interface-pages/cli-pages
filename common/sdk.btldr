@@ -1,0 +1,37 @@
+# sdk
+
+> Tool for managing parallel versions of multiple Software Development Kits
+> Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others
+> More information: https://sdkman.io/usage
+
+- Install an SDK version:
+
+`sdk install {any something} {any something}`
+
+- Use a specific SDK version for the current terminal session:
+
+`sdk use {any something} {any something}`
+
+- Show the stable version of any available SDK:
+
+`sdk current {any something}`
+
+- Show the stable versions of all installed SDKs:
+
+`sdk current`
+
+- List all available SDKs:
+
+`sdk list`
+
+- List all versions of an SDK:
+
+`sdk list {any something}`
+
+- Upgrade an SDK to the latest stable version:
+
+`sdk upgrade {any something}`
+
+- Uninstall a specific SDK version:
+
+`sdk rm {any something} {any something}`

@@ -1,0 +1,16 @@
+# basename
+
+> Remove leading directory portions from a path
+> More information: https://www.gnu.org/software/coreutils/basename
+
+- Show only the file name from a path:
+
+`basename {file something}`
+
+- Show only the rightmost directory name from a path:
+
+`basename {any something}`
+
+- Show only the file name from a path, with a suffix removed:
+
+`basename {file something} {any something}`

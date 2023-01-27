@@ -1,0 +1,20 @@
+# sn
+
+> Mono StrongName utility for signing and verifying IL assemblies
+> More information: https://manned.org/sn
+
+- Generate a new StrongNaming key:
+
+`sn -k {any something}`
+
+- Re-sign an assembly with the specified private key:
+
+`sn -R {any something} {any something}`
+
+- Show the public key of the private key that was used to sign an assembly:
+
+`sn -T {any something}`
+
+- Extract the public key to a file:
+
+`sn -e {any something} {any something}`

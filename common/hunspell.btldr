@@ -1,0 +1,16 @@
+# hunspell
+
+> Check spelling
+> More information: https://github.com/hunspell/hunspell
+
+- Check the spelling of a file:
+
+`hunspell {file something}`
+
+- Check the spelling of a file with the en_US dictionary:
+
+`hunspell -d {any something} {file something}`
+
+- List misspelled words in a file:
+
+`hunspell -l {file something}`

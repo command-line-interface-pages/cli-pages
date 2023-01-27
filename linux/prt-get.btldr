@@ -1,0 +1,32 @@
+# prt-get
+
+> The CRUX package manager
+> More information: https://crux.nu/doc/prt-get%20-%20User%20Manual.html
+
+- Install a package:
+
+`prt-get install {any something}`
+
+- Install a package with dependency handling:
+
+`prt-get depinst {any something}`
+
+- Update a package manually:
+
+`prt-get upgrade {any something}`
+
+- Remove a package:
+
+`prt-get remove {any something}`
+
+- Upgrade the system from the local ports tree:
+
+`prt-get sysup`
+
+- Search the ports tree:
+
+`prt-get search {any something}`
+
+- Search for a file in a package:
+
+`prt-get fsearch {file something}`

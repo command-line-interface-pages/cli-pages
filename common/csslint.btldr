@@ -1,0 +1,28 @@
+# csslint
+
+> A linter for CSS code
+> More information: https://github.com/CSSLint/csslint/wiki/Command-line-interface
+
+- Lint a single CSS file:
+
+`csslint {any something}`
+
+- Lint multiple CSS files:
+
+`csslint {any something} {any something} {any something}`
+
+- List all possible style rules:
+
+`csslint --list-rules`
+
+- Specify certain rules as errors (which result in a non-zero exit code):
+
+`csslint --errors={any something} {any something}`
+
+- Specify certain rules as warnings:
+
+`csslint --warnings={any something} {any something}`
+
+- Specify certain rules to ignore:
+
+`csslint --ignore={any something} {any something}`

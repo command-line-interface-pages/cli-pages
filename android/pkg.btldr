@@ -1,0 +1,24 @@
+# pkg
+
+> Package management utility for Termux
+> More information: https://wiki.termux.com/wiki/Package_Management
+
+- Upgrade all installed packages:
+
+`pkg upgrade`
+
+- Install a package:
+
+`pkg install {any something}`
+
+- Uninstall a package:
+
+`pkg uninstall {any something}`
+
+- Reinstall a package:
+
+`pkg reinstall {any something}`
+
+- Search for a package:
+
+`pkg search {any something}`

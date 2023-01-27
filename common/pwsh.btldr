@@ -1,0 +1,20 @@
+# pwsh
+
+> PowerShell Core is a cross-platform automation and configuration tool/framework
+> More information: https://learn.microsoft.com/powershell/
+
+- Start an instance of PowerShell:
+
+`pwsh`
+
+- Execute a script and then exit:
+
+`pwsh -File {any something}`
+
+- Set the execution policy for the current session:
+
+`pwsh -ExecutionPolicy {any something}`
+
+- Execute a command and then exit:
+
+`pwsh -Command {any something}`

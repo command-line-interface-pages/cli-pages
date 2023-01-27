@@ -1,0 +1,13 @@
+# xdelta
+
+> Delta encoding utility
+> Often used for applying patches to binary files
+> More information: http://xdelta.org
+
+- Apply a patch:
+
+`xdelta -d -s {file something: path/to/input} {any something} {file something: path/to/output}`
+
+- Create a patch:
+
+`xdelta -e -s {file something: path/to/old} {file something: path/to/new} {any something}`

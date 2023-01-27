@@ -1,0 +1,20 @@
+# webpack
+
+> Bundle a web project's js files and other assets into a single output file
+> More information: https://webpack.js.org
+
+- Create a single output file from an entry point file:
+
+`webpack {any something} {any something}`
+
+- Load CSS files too from the JavaScript file (this uses the CSS loader for `.css` files):
+
+`webpack {any something} {any something} --module-bind '{any something}'`
+
+- Pass a config file (with e.g. the entry script and the output filename) and show compilation progress:
+
+`webpack --config {any something} --progress`
+
+- Automatically recompile on changes to project files:
+
+`webpack --watch {any something} {any something}`

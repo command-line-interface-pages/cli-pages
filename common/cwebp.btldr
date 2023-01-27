@@ -1,0 +1,24 @@
+# cwebp
+
+> Compress an image file to a WebP file
+> More information: https://developers.google.com/speed/webp/docs/cwebp
+
+- Compress a WebP file with default settings (q = 75) to the [o]utput file:
+
+`cwebp {file something: path/to/image} -o {any something}`
+
+- Compress a WebP file with the best [q]uality and largest file size:
+
+`cwebp {file something: path/to/image} -o {any something} -q {int number: 100}`
+
+- Compress a WebP file with the worst [q]uality and smallest file size:
+
+`cwebp {file something: path/to/image} -o {any something} -q {int number: 0}`
+
+- Compress a WebP file and apply resize to image:
+
+`cwebp {file something: path/to/image} -o {any something} -resize {any something} {any something}`
+
+- Compress a WebP file and drop alpha channel information:
+
+`cwebp {file something: path/to/image} -o {any something} -noalpha`

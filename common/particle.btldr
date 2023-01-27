@@ -1,0 +1,32 @@
+# particle
+
+> A command-line tool for interacting with Particle devices
+> More information: https://docs.particle.io/tutorials/developer-tools/cli
+
+- Log in or create an account for the Particle CLI:
+
+`particle setup`
+
+- Display a list of devices:
+
+`particle list`
+
+- Create a new Particle project interactively:
+
+`particle project create`
+
+- Compile a Particle project:
+
+`particle compile {any something} {any something}`
+
+- Update a device to use a specific app remotely:
+
+`particle flash {any something} {any something}`
+
+- Update a device to use the latest firmware via serial:
+
+`particle flash --serial {any something}`
+
+- Execute a function on a device:
+
+`particle call {any something} {any something} {any something}`

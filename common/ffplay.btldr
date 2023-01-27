@@ -1,0 +1,16 @@
+# ffplay
+
+> A simple and portable media player using the FFmpeg libraries and the SDL library
+> More information: https://ffmpeg.org/ffplay-all.html
+
+- Play a media file:
+
+`ffplay {file something}`
+
+- Play a video and show motion vectors in real time:
+
+`ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb {file something}`
+
+- Show only video keyframes:
+
+`ffplay -vf select="{any something}" {file something}`

@@ -1,0 +1,25 @@
+# colordiff
+
+> A tool to colorize diff output
+> The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Color schemes can be customized
+> More information: https://github.com/kimmel/colordiff
+
+- Compare files:
+
+`colordiff {any something} {any something}`
+
+- Output in two columns:
+
+`colordiff -y {any something} {any something}`
+
+- Ignore case differences in file contents:
+
+`colordiff -i {any something} {any something}`
+
+- Report when two files are the same:
+
+`colordiff -s {any something} {any something}`
+
+- Ignore white spaces:
+
+`colordiff -w {any something} {any something}`

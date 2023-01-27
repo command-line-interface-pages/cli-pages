@@ -1,0 +1,20 @@
+# qrencode
+
+> QR Code generator. Supports PNG and EPS
+> More information: https://fukuchi.org/works/qrencode
+
+- Convert a string to a QR code and save to an output file:
+
+`qrencode -o {any something} {any something}`
+
+- Convert an input file to a QR code and save to an output file:
+
+`qrencode -o {any something} -r {file something: path/to/input}`
+
+- Convert a string to a QR code and print it in terminal:
+
+`qrencode -t ansiutf8 {any something}`
+
+- Convert input from pipe to a QR code and print it in terminal:
+
+`echo {any something} | qrencode -t ansiutf8`

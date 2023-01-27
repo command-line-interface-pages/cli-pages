@@ -1,0 +1,32 @@
+# helm install
+
+> Install a helm chart
+> More information: https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package
+
+- Install a helm chart:
+
+`helm install {any something} {any something}/{any something}`
+
+- Install a helm chart from an unpacked chart directory:
+
+`helm install {any something} {directory something: path/to/source}`
+
+- Install a helm chart from a URL:
+
+`helm install {any something} {any something}`
+
+- Install a helm chart and generate a name:
+
+`helm install {any something}/{any something} --generate-name`
+
+- Perform a dry run:
+
+`helm install {any something} {any something}/{any something} --dry-run`
+
+- Install a helm chart with custom values:
+
+`helm install {any something} {any something}/{any something} --set {any something}={any something},{any something}={any something}`
+
+- Install a helm chart passing a custom values file:
+
+`helm install {any something} {any something}/{any something} --values {any something}`

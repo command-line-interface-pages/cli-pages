@@ -1,0 +1,24 @@
+# dict
+
+> Command line dictionary using the DICT protocol
+> More information: https://github.com/cheusov/dictd
+
+- List available databases:
+
+`dict -D`
+
+- Get information about a database:
+
+`dict -i {any something}`
+
+- Look up a word in a specific database:
+
+`dict -d {any something} {any something}`
+
+- Look up a word in all available databases:
+
+`dict {any something}`
+
+- Show information about the DICT server:
+
+`dict -I`

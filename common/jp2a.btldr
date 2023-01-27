@@ -1,0 +1,28 @@
+# jp2a
+
+> Convert JPEG images to ASCII
+> More information: https://csl.name/jp2a/
+
+- Read JPEG image from a file and print in ASCII:
+
+`jp2a {any something}`
+
+- Read JPEG image from a URL and print in ASCII:
+
+`jp2a {any something}`
+
+- Colorize the ASCII output:
+
+`jp2a --colors {any something}`
+
+- Specify characters to be used for the ASCII output:
+
+`jp2a --chars='{any something}' {any something}`
+
+- Write the ASCII output into a file:
+
+`jp2a --output={any something} {any something}`
+
+- Write the ASCII output in HTML file format, suitable for viewing in web browsers:
+
+`jp2a --html --output={any something} {any something}`

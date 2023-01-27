@@ -1,0 +1,36 @@
+# parquet-tools
+
+> A tool to show, inspect and manipulate Parquet file
+> More information: https://github.com/apache/parquet-mr/tree/master/parquet-tools-deprecated
+
+- Display the content of a Parquet file:
+
+`parquet-tools cat {any something}`
+
+- Display the first few lines of a Parquet file:
+
+`parquet-tools head {any something}`
+
+- Print the schema of a Parquet file:
+
+`parquet-tools schema {any something}`
+
+- Print the metadata of a Parquet file:
+
+`parquet-tools meta {any something}`
+
+- Print the content and metadata of a Parquet file:
+
+`parquet-tools dump {any something}`
+
+- Concatenate several Parquet files into the target one:
+
+`parquet-tools merge {any something} {any something} {any something}`
+
+- Print the count of rows in a Parquet file:
+
+`parquet-tools rowcount {any something}`
+
+- Print the column and offset indexes of a Parquet file:
+
+`parquet-tools column-index {any something}`

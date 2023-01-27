@@ -1,0 +1,24 @@
+# feedreader
+
+> A GUI desktop RSS client
+> More information: https://jangernert.github.io/FeedReader/
+
+- Print the count of unread articles:
+
+`feedreader --unreadCount`
+
+- Add a URL for a feed to follow:
+
+`feedreader --addFeed={any something}`
+
+- Grab a specific article using its URL:
+
+`feedreader --grabArticle={any something}`
+
+- Download all images from a specific article:
+
+`feedreader --url={any something} --grabImages={any something}`
+
+- Play media from a URL:
+
+`feedreader --playMedia={any something}`

@@ -1,0 +1,24 @@
+# autopkgtest
+
+> Run tests on Debian packages
+> More information: https://wiki.debian.org/ContinuousIntegration/autopkgtest
+
+- Build the package in the current directory and run all tests directly on the system:
+
+`autopkgtest -- {any something}`
+
+- Run a specific test for the package in the current directory:
+
+`autopkgtest --test-name={any something} -- {any something}`
+
+- Download and build a specific package with `apt-get`, then run all tests:
+
+`autopkgtest {any something} -- {any something}`
+
+- Test the package in the current directory using a new root directory:
+
+`autopkgtest -- {any something} {any something}`
+
+- Test the package in the current directory without rebuilding it:
+
+`autopkgtest --no-built-binaries -- {any something}`

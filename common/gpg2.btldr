@@ -1,0 +1,33 @@
+# gpg2
+
+> GNU Privacy Guard 2
+> See `gpg` for GNU Privacy Guard 1
+> More information: https://docs.releng.linuxfoundation.org/en/latest/gpg.html
+
+- List imported keys:
+
+`gpg2 --list-keys`
+
+- Encrypt a specified file for a specified recipient, writing the output to a new file with `.gpg` appended:
+
+`gpg2 --encrypt --recipient {any something} {any something}`
+
+- Encrypt a specified file with only a passphrase, writing the output to a new file with `.gpg` appended:
+
+`gpg2 --symmetric {any something}`
+
+- Decrypt a specified file, writing the result to the stdout:
+
+`gpg2 --decrypt {any something}`
+
+- Import a public key:
+
+`gpg2 --import {any something}`
+
+- Export the public key of a specified email address to the stdout:
+
+`gpg2 --export --armor {any something}`
+
+- Export the private key with a specified email address to the stdout:
+
+`gpg2 --export-secret-keys --armor {any something}`

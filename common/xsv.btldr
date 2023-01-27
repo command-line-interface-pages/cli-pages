@@ -1,0 +1,28 @@
+# xsv
+
+> A CSV command-line toolkit written in Rust
+> More information: https://github.com/BurntSushi/xsv
+
+- Inspect the headers of a file:
+
+`xsv headers {any something}`
+
+- Count the number of entries:
+
+`xsv count {any something}`
+
+- Get an overview of the shape of entries:
+
+`xsv stats {any something} | xsv table`
+
+- Select a few columns:
+
+`xsv select {any something} {any something}`
+
+- Show 10 random entries:
+
+`xsv sample {int number: 10} {any something}`
+
+- Join a column from one file to another:
+
+`xsv join --no-case {any something} {any something} {any something} {any something} | xsv table`

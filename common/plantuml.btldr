@@ -1,0 +1,28 @@
+# plantuml
+
+> Create UML diagrams from a plain text language and render them in different formats
+> More information: https://plantuml.com/en/command-line
+
+- Render diagrams to default format (PNG):
+
+`plantuml {any something} {any something}`
+
+- Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
+
+`plantuml -t {any something} {any something}`
+
+- Render all diagrams of a directory:
+
+`plantuml {any something}`
+
+- Render a diagram to the output directory:
+
+`plantuml -o {any something} {any something}`
+
+- Render a diagram with the configuration file:
+
+`plantuml -config {any something} {any something}`
+
+- Display help:
+
+`plantuml -help`

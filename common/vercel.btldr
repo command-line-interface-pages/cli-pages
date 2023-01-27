@@ -1,0 +1,36 @@
+# vercel
+
+> Deploy and manage your Vercel deployments
+> More information: https://vercel.com/docs/cli
+
+- Deploy the current directory:
+
+`vercel`
+
+- Deploy the current directory to production:
+
+`vercel --prod`
+
+- Deploy a directory:
+
+`vercel {any something}`
+
+- Initialize an example project:
+
+`vercel init`
+
+- Deploy with Environment Variables:
+
+`vercel --env {any something}={any something}`
+
+- Build with Environment Variables:
+
+`vercel --build-env {any something}={any something}`
+
+- Set default regions to enable the deployment on:
+
+`vercel --regions {any something}`
+
+- Remove a deployment:
+
+`vercel remove {any something}`

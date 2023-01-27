@@ -1,0 +1,24 @@
+# expr
+
+> Evaluate expressions and manipulate strings
+> More information: https://www.gnu.org/software/coreutils/expr
+
+- Get string length:
+
+`expr length {any something}`
+
+- Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped:
+
+`expr {any something} {any something} {any something}`
+
+- Get position of the first character in 'string' that matches 'substring':
+
+`echo $(expr index {any something} {any something})`
+
+- Extract part of the string:
+
+`echo $(expr substr {any something} {any something} {any something}`
+
+- Extract part of the string which matches a regular expression:
+
+`echo $(expr {any something} : '\({any something}\)')`

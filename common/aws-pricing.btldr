@@ -1,0 +1,24 @@
+# aws pricing
+
+> Query services, products, and pricing information from Amazon Web Services
+> More information: https://docs.aws.amazon.com/cli/latest/reference/pricing/
+
+- List service codes of a specific region:
+
+`aws pricing describe-services --region {any something}`
+
+- List attributes for a given service code in a specific region:
+
+`aws pricing describe-services --service-code {any something} --region {any something}`
+
+- Print pricing information for a service code in a specific region:
+
+`aws pricing get-products --service-code {any something} --region {any something}`
+
+- List values for a specific attribute for a service code in a specific region:
+
+`aws pricing get-attribute-values --service-code {any something} --attribute-name {any something} --region {any something}`
+
+- Print pricing information for a service code using filters for instance type and location:
+
+`aws pricing get-products --service-code {any something} --filters "{any something}" "{any something}" --region {any something}`

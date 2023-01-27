@@ -1,0 +1,25 @@
+# qm migrate
+
+> Migrate a virtual machine
+> Used to create a new migration task
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Migrate a specific virtual machine:
+
+`qm migrate {any something} {any something}`
+
+- Override the current I/O bandwidth limit with 10 KiB/s:
+
+`qm migrate {any something} {any something} --bwlimit 10`
+
+- Allow migration of virtual machines using local devices (root only):
+
+`qm migrate {any something} {any something} --force true`
+
+- Use online/live migration if a virtual machine is running:
+
+`qm migrate {any something} {any something} --online true`
+
+- Enable live storage migration for local disks:
+
+`qm migrate {any something} {any something} --with-local-disks true`

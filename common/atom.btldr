@@ -1,0 +1,29 @@
+# atom
+
+> A cross-platform pluggable text editor
+> Plugins are managed by `apm`
+> More information: https://atom.io/
+
+- Open a file or directory:
+
+`atom {directory something: path/to/file_or}`
+
+- Open a file or directory in a new window:
+
+`atom -n {directory something: path/to/file_or}`
+
+- Open a file or directory in an existing window:
+
+`atom --add {directory something: path/to/file_or}`
+
+- Open Atom in safe mode (does not load any additional packages):
+
+`atom --safe`
+
+- Prevent Atom from forking into the background, keeping Atom attached to the terminal:
+
+`atom --foreground`
+
+- Wait for Atom window to close before returning (useful for Git commit editor):
+
+`atom --wait`

@@ -1,0 +1,17 @@
+# flock
+
+> Manage locks from shell scripts
+> It can be used to ensure that only one process of a command is running
+> More information: https://manned.org/flock
+
+- Run a command with a file lock as soon as the lock is not required by others:
+
+`flock {any something} --command "{any something}"`
+
+- Run a command with a file lock, and exit if the lock doesn't exist:
+
+`flock {any something} --nonblock --command "{any something}"`
+
+- Run a command with a file lock, and exit with a specific error code if the lock doesn't exist:
+
+`flock {any something} --nonblock --conflict-exit-code {any something} -c "{any something}"`

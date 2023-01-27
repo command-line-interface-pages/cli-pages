@@ -1,0 +1,16 @@
+# complete
+
+> Provides argument autocompletion to shell commands
+> More information: https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html
+
+- Apply a function that performs autocompletion to a command:
+
+`complete -F {any something} {any something}`
+
+- Apply a command that performs autocompletion to another command:
+
+`complete -C {any something} {any something}`
+
+- Apply autocompletion without appending a space to the completed word:
+
+`complete -o nospace -F {any something} {any something}`

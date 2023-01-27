@@ -1,0 +1,16 @@
+# braa
+
+> Ultra-fast mass SNMP scanner allowing multiple hosts simultaneously
+> More information: https://github.com/mteg/braa
+
+- Walk the SNMP tree of host with public string querying all OIDs under `.1.3.6`:
+
+`braa public@{any something}:{any something}`
+
+- Query the whole subnet `ip_range` for `system.sysLocation.0`:
+
+`braa public@{any something}:{any something}`
+
+- Attempt to set the value of `system.sysLocation.0` to a specific workgroup:
+
+`braa private@{any something}:{any something}=s'{any something}'`

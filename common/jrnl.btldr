@@ -1,0 +1,24 @@
+# jrnl
+
+> A simple journal application for your command-line
+> More information: http://jrnl.sh
+
+- Insert a new entry with your editor:
+
+`jrnl`
+
+- Quickly insert a new entry:
+
+`jrnl {any something}: {any something}. {any something}`
+
+- View the last ten entries:
+
+`jrnl -n {int number: 10}`
+
+- View everything that happened from the start of last year to the start of last march:
+
+`jrnl -from "{any something}" -until {any something}`
+
+- Edit all entries tagged with "texas" and "history":
+
+`jrnl {any something} -and {any something} --edit`

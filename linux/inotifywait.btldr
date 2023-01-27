@@ -1,0 +1,36 @@
+# inotifywait
+
+> Waits for changes to one or more files
+> More information: https://manned.org/inotifywait
+
+- Watch a specific file for events, exiting after the first one:
+
+`inotifywait {file something}`
+
+- Continuously watch a specific file for events without exiting:
+
+`inotifywait --monitor {file something}`
+
+- Watch a directory recursively for events:
+
+`inotifywait --monitor --recursive {directory something}`
+
+- Watch a directory for changes, excluding files, whose names match a regular expression:
+
+`inotifywait --monitor --recursive --exclude "{any something}" {directory something}`
+
+- Watch a file for changes, exiting when no event occurs for 30 seconds:
+
+`inotifywait --monitor --timeout {int number: 30} {file something}`
+
+- Only watch a file for file modification events:
+
+`inotifywait --event {any something} {file something}`
+
+- Watch a file printing only events, and no status messages:
+
+`inotifywait --quiet {file something}`
+
+- Run a command when a file is accessed:
+
+`inotifywait --event {any something} {file something} && {any something}`

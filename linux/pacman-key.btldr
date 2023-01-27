@@ -1,0 +1,36 @@
+# pacman-key
+
+> Wrapper script for GnuPG used to manage pacman's keyring
+> More information: https://man.archlinux.org/man/pacman-key
+
+- Initialize the pacman keyring:
+
+`sudo pacman-key --init`
+
+- Add the default Arch Linux keys:
+
+`sudo pacman-key --populate {any something}`
+
+- List keys from the public keyring:
+
+`pacman-key --list-keys`
+
+- Add the specified keys:
+
+`sudo pacman-key --add {any something}`
+
+- Receive a key from a key server:
+
+`sudo pacman-key --recv-keys "{any something}"`
+
+- Print the fingerprint of a specific key:
+
+`pacman-key --finger "{any something}"`
+
+- Sign an imported key locally:
+
+`sudo pacman-key --lsign-key "{any something}"`
+
+- Remove a specific key:
+
+`sudo pacman-key --delete "{any something}"`

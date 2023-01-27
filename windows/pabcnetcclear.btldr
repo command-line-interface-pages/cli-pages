@@ -1,0 +1,24 @@
+# pabcnetcclear
+
+> Preprocess and compile PascalABC.NET source files
+> More information: http://pascalabc.net
+
+- Compile the specified source file into an executable with the same name:
+
+`pabcnetcclear {any something}`
+
+- Compile the specified source file into an executable with the specified name:
+
+`pabcnetcclear /Output:{any something} {any something}`
+
+- Compile the specified source file into an executable with the same name along with/without debug information:
+
+`pabcnetcclear /Debug:{any something} {any something}`
+
+- Allow units to be searched in the specified path while compiling the source file into an executable with the same name:
+
+`pabcnetcclear /SearchDir:{directory something} {any something}`
+
+- Compile the specified source file into an executable, defining a symbol:
+
+`pabcnetcclear /Define:{any something} {any something}`

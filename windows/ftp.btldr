@@ -1,0 +1,36 @@
+# ftp
+
+> Interactively transfer files between a local and remote FTP server
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/ftp
+
+- Connect to a remote FTP server interactively:
+
+`ftp {any something}`
+
+- Log in as an anonymous user:
+
+`ftp -A {any something}`
+
+- Disable automatic login upon initial connection:
+
+`ftp -n {any something}`
+
+- Run a file containing a list of FTP commands:
+
+`ftp -s:{file something} {any something}`
+
+- Download multiple files (glob expression):
+
+`mget {any something}`
+
+- Upload multiple files (glob expression):
+
+`mput {any something}`
+
+- Delete multiple files on the remote server:
+
+`mdelete {any something}`
+
+- Display detailed help:
+
+`ftp --help`

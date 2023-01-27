@@ -1,0 +1,28 @@
+# spotify
+
+> A command-line interface to Spotify
+> More information: https://github.com/hnarayanan/shpotify
+
+- Find a song by name and play it:
+
+`spotify play {any something}`
+
+- Find a playlist by name and play it:
+
+`spotify play list {any something}`
+
+- Pause (or resume) playback:
+
+`spotify pause`
+
+- Skip to the next song in a playlist:
+
+`spotify next`
+
+- Change volume:
+
+`spotify vol {any something}`
+
+- Show the playback status and song details:
+
+`spotify status`

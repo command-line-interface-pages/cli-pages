@@ -1,0 +1,16 @@
+# subst
+
+> Associates a path with a virtual drive letter
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/subst
+
+- List active associations:
+
+`subst`
+
+- Add an association:
+
+`subst {any something} {any something}`
+
+- Remove an association:
+
+`subst {any something} /d`

@@ -1,0 +1,24 @@
+# gitk
+
+> A graphical Git repository browser
+> More information: https://git-scm.com/docs/gitk
+
+- Show the repository browser for the current Git repository:
+
+`gitk`
+
+- Show repository browser for a specific file or directory:
+
+`gitk {directory something: path/to/file_or}`
+
+- Show commits made since 1 week ago:
+
+`gitk --since="{any something}"`
+
+- Show commits older than 1/1/2016:
+
+`gitk --until="{any something}"`
+
+- Show at most 100 changes in all branches:
+
+` gitk --max-count={int number: 100} --all`

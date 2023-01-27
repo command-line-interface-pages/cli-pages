@@ -1,0 +1,32 @@
+# xxd
+
+> Create a hexadecimal representation (hexdump) from a binary file, or vice-versa
+> More information: https://manned.org/xxd
+
+- Generate a hexdump from a binary file and display the output:
+
+`xxd {file something: input}`
+
+- Generate a hexdump from a binary file and save it as a text file:
+
+`xxd {file something: input} {file something: output}`
+
+- Display a more compact output, replacing consecutive zeros (if any) with a star:
+
+`xxd -a {file something: input}`
+
+- Display the output with 10 columns of one octet (byte) each:
+
+`xxd -c {int number: 10} {file something: input}`
+
+- Display output only up to a length of 32 bytes:
+
+`xxd -l {int number: 32} {file something: input}`
+
+- Display the output in plain mode, without any gaps between the columns:
+
+`xxd -p {file something: input}`
+
+- Revert a plaintext hexdump back into binary, and save it as a binary file:
+
+`xxd -r -p {file something: input} {file something: output}`

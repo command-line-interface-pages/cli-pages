@@ -1,0 +1,28 @@
+# defaults
+
+> Read and write macOS user configuration for applications
+> More information: https://ss64.com/osx/defaults.html
+
+- Read system defaults for an application option:
+
+`defaults read "{any something}" "{any something}"`
+
+- Read default values for an application option:
+
+`defaults read -app "{any something}" "{any something}"`
+
+- Search for a keyword in domain names, keys, and values:
+
+`defaults find "{any something}"`
+
+- Write the default value of an application option:
+
+`defaults write "{any something}" "{any something}" {any something} {any something}`
+
+- Speed up Mission Control animations:
+
+`defaults write com.apple.Dock expose-animation-duration -float 0.1`
+
+- Delete all defaults of an application:
+
+`defaults delete "{any something}"`

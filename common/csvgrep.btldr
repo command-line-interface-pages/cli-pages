@@ -1,0 +1,17 @@
+# csvgrep
+
+> Filter CSV rows with string and pattern matching
+> Included in csvkit
+> More information: https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html
+
+- Find rows that have a certain string in column 1:
+
+`csvgrep -c {int number: 1} -m {any something} {any something}`
+
+- Find rows in which columns 3 or 4 match a certain regular expression:
+
+`csvgrep -c {any something} -r {any something} {any something}`
+
+- Find rows in which the "name" column does NOT include the string "John Doe":
+
+`csvgrep -i -c {any something} -m "{any something}" {any something}`

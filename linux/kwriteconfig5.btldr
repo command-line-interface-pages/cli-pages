@@ -1,0 +1,32 @@
+# kwriteconfig5
+
+> Write KConfig entries for KDE Plasma
+> More information: https://userbase.kde.org/KDE_System_Administration/Configuration_Files
+
+- Display help:
+
+`kwriteconfig5 --help`
+
+- Set a global configuration key:
+
+`kwriteconfig5 --group {any something} --key {any something} {any something}`
+
+- Set a key in a specific configuration file:
+
+`kwriteconfig5 --file {file something} --group {any something} --key {any something} {any something}`
+
+- Delete a key:
+
+`kwriteconfig5 --group {any something} --key {any something} --delete`
+
+- Use systemd to start the Plasma session when available:
+
+`kwriteconfig5 --file {any something} --group {any something} --key {any something} {bool flag: true}`
+
+- Hide the title bar when a window is maximized (like Ubuntu):
+
+`kwriteconfig5 --file {any something} --group {any something} --key {any something} {bool flag: true}`
+
+- Configure KRunner to open with the Meta (Command/Windows) global hotkey:
+
+`kwriteconfig5 --file {any something} --group {any something} --key {any something} {any something}`

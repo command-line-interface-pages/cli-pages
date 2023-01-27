@@ -1,0 +1,16 @@
+# agate
+
+> A simple server for the Gemini network protocol
+> More information: https://github.com/mbrubeck/agate
+
+- Run and generate a private key and certificate:
+
+`agate --content {any something} --addr {any something} --addr {any something} --hostname {any something} --lang {any something}`
+
+- Run server:
+
+`agate {file something}`
+
+- Display help:
+
+`agate -h`

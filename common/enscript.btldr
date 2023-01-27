@@ -1,0 +1,24 @@
+# enscript
+
+> Convert text files to PostScript, HTML, RTF, ANSI, and overstrikes
+> More information: https://www.gnu.org/software/enscript
+
+- Generate a PostScript file from a text file:
+
+`enscript {file something: path/to/input} --output={file something: path/to/output}`
+
+- Generate a file in a different language than PostScript:
+
+`enscript {file something: path/to/input} --language={any something} --output={file something: path/to/output}`
+
+- Generate a PostScript file with a landscape layout, splitting the page into columns (maximum 9):
+
+`enscript {file something: path/to/input} --columns={any something} --landscape --output={file something: path/to/output}`
+
+- Display available syntax highlighting languages and file formats:
+
+`enscript --help-highlight`
+
+- Generate a PostScript file with syntax highlighting and color for a specified language:
+
+`enscript {file something: path/to/input} --color=1 --highlight={any something} --output={file something: path/to/output}`

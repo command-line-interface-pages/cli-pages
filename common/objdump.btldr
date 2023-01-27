@@ -1,0 +1,20 @@
+# objdump
+
+> View information about object files
+> More information: https://manned.org/objdump
+
+- Display the file header information:
+
+`objdump -f {any something}`
+
+- Display the disassembled output of executable sections:
+
+`objdump -d {any something}`
+
+- Display the disassembled executable sections in intel syntax:
+
+`objdump -M intel -d {any something}`
+
+- Display a complete binary hex dump of all sections:
+
+`objdump -s {any something}`

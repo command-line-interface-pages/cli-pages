@@ -1,0 +1,36 @@
+# hcitool
+
+> Monitor, configure connections, and send special commands to Bluetooth devices
+> More information: https://manned.org/hcitool
+
+- Scan for Bluetooth devices:
+
+`hcitool scan`
+
+- Output the name of a device, returning its MAC address:
+
+`hcitool name {any something}`
+
+- Fetch information about a remote Bluetooth device:
+
+`hcitool info {any something}`
+
+- Check the link quality to a Bluetooth device:
+
+`hcitool lq {any something}`
+
+- Modify the transmit power level:
+
+`hcitool tpl {any something} {any something}`
+
+- Display the link policy:
+
+`hcitool lp`
+
+- Request authentication with a specific device:
+
+`hcitool auth {any something}`
+
+- Display local devices:
+
+`hcitool dev`

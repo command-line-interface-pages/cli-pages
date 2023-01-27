@@ -1,0 +1,25 @@
+# rename
+
+> Rename multiple files
+> NOTE: this page refers to the command from the `rename` Debian package
+> More information: https://manned.org/file-rename
+
+- Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
+
+`rename {any something} {any something}`
+
+- Dry-run - display which renames would occur without performing them:
+
+`rename -n {any something} {any something}`
+
+- Force renaming even if the operation would remove existing destination files:
+
+`rename -f {any something} {any something}`
+
+- Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors):
+
+`rename 'y/A-Z/a-z/' {any something}`
+
+- Replace whitespace with underscores:
+
+`rename 's/\s+/_/g' {any something}`

@@ -1,0 +1,24 @@
+# khal
+
+> A text-based calendar and scheduling application for the command-line
+> More information: https://lostpackets.de/khal
+
+- Start khal on interactive mode:
+
+`ikhal`
+
+- Print all events scheduled in personal calendar for the next seven days:
+
+`khal list -a {any something} {any something} {any something}`
+
+- Print all events scheduled not in personal calendar for tomorrow at 10:00:
+
+`khal at -d {any something} {any something} {any something}`
+
+- Print a calendar with a list of events for the next three months:
+
+`khal calendar`
+
+- Add new event to personal calendar:
+
+`khal new -a {any something} {any something} {any something} {any something} "{any something}"`

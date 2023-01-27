@@ -1,0 +1,29 @@
+# gource
+
+> Renders an animated tree diagram of Git, SVN, Mercurial and Bazaar repositories
+> It shows files and directories being created, modified or removed over time
+> More information: https://gource.io
+
+- Run gource in a directory (if it isn't the repository's root directory, the root is sought up from there):
+
+`gource {any something}`
+
+- Run gource in the current directory, with a custom output resolution:
+
+`gource -{any something}x{any something}`
+
+- Set a custom timescale for the animation:
+
+`gource -c {any something}`
+
+- Set how long each day should be in the animation (this combines with -c, if provided):
+
+`gource -s {any something}`
+
+- Set fullscreen mode and a custom background color:
+
+`gource -f -b {any something}`
+
+- Set a title for the animation:
+
+`gource --title {any something}`

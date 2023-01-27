@@ -1,0 +1,24 @@
+# you-get
+
+> Download media contents (videos, audios, images) from the Web
+> More information: https://you-get.org
+
+- Print media information about a specific media on the web:
+
+`you-get --info {any something}`
+
+- Download a media from a specific URL:
+
+`you-get {any something}`
+
+- Search on Google Videos and download:
+
+`you-get {any something}`
+
+- Download a media to a specific location:
+
+`you-get --output-dir {directory something} --output-filename {any something} {any something}`
+
+- Download a media using a proxy:
+
+`you-get --http-proxy {any something} {any something}`

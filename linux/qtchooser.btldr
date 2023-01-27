@@ -1,0 +1,24 @@
+# qtchooser
+
+> A wrapper used to select between Qt development binary versions
+> More information: https://manned.org/qtchooser
+
+- List available Qt versions from the configuration files:
+
+`qtchooser --list-versions`
+
+- Print environment information:
+
+`qtchooser --print-env`
+
+- Run the specified tool using the specified Qt version:
+
+`qtchooser --run-tool={any something} --qt={any something}`
+
+- Add a Qt version entry to be able to choose from:
+
+`qtchooser --install {any something} {any something}`
+
+- Display all available options:
+
+`qtchooser --help`

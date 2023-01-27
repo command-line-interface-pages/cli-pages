@@ -1,0 +1,28 @@
+# pipx
+
+> Install and run python applications in isolated environments
+> More information: https://github.com/pypa/pipx
+
+- Run an app in a temporary virtual environment:
+
+`pipx run {any something} {any something}`
+
+- Install a package in a virtual environment and add entry points to path:
+
+`pipx install {any something}`
+
+- List installed packages:
+
+`pipx list`
+
+- Run an app in a temporary virtual environment with a package name different from the executable:
+
+`pipx run --spec {any something} {any something} {any something}`
+
+- Inject dependencies into an existing virtual environment:
+
+`pipx inject {any something} {any something}`
+
+- Install a package in a virtual environment with pip arguments:
+
+`pipx install --pip-args='{any something}' {any something}`

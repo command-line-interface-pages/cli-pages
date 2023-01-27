@@ -1,0 +1,36 @@
+# kjv
+
+> The word of God available right on your desktop
+> More information: https://github.com/bontibon/kjv
+
+- Display books:
+
+`kjv -l`
+
+- Open a specific book:
+
+`kjv {any something}`
+
+- Open a specific chapter of a book:
+
+`kjv {any something} {int number: 2}`
+
+- Open a specific verse of a specific chapter of a book:
+
+`kjv {any something} {int number: 3}:{int number: 16}`
+
+- Open a specific range of verses of a book's chapter:
+
+`kjv {any something} {int number: 3}:{any something}`
+
+- Display a specific range of verses of a book from different chapters:
+
+`kjv {any something} {int number: 1}:{int number: 7}-{int number: 2}:{int number: 6}`
+
+- Display all verses that match a pattern:
+
+`kjv /{any something}`
+
+- Display all verses that match a pattern in a specific book:
+
+`kjv {any something}/{any something}`

@@ -1,0 +1,24 @@
+# fc
+
+> Open the most recent command and edit it
+> More information: https://manned.org/fc
+
+- Open in the default system editor:
+
+`fc`
+
+- Specify an editor to open with:
+
+`fc -e {any something}`
+
+- List recent commands from history:
+
+`fc -l`
+
+- List recent commands in reverse order:
+
+`fc -r`
+
+- List commands in a given interval:
+
+`fc '{int number: 416}' '{int number: 420}'`

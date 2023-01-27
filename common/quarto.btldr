@@ -1,0 +1,24 @@
+# quarto
+
+> An open-source scientific and technical publishing system built on Pandoc
+> More information: https://quarto.org/
+
+- Create a new project:
+
+`quarto create-project {directory something: path/to/destination} --type {any something}`
+
+- Create a new blog website:
+
+`quarto create-project {directory something: path/to/destination} --type {any something} --template {any something}`
+
+- Render input file(s) to different formats:
+
+`quarto render {{path/to/file.{any something}}} --to {any something}`
+
+- Render and preview a document or a website:
+
+`quarto preview {any something}`
+
+- Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify:
+
+`quarto publish {any something}`

@@ -1,0 +1,32 @@
+# musescore
+
+> MuseScore 3 sheet music editor
+> More information: https://musescore.org/en/handbook/3/command-line-options
+
+- Use a specific audio driver:
+
+`musescore --audio-driver {any something}`
+
+- Set the MP3 output bitrate in kbit/s:
+
+`musescore --bitrate {any something}`
+
+- Start MuseScore in debug mode:
+
+`musescore --debug`
+
+- Enable experimental features, such as layers:
+
+`musescore --experimental`
+
+- Export the given file to the specified output file. The file type depends on the given extension:
+
+`musescore --export-to {file something: output} {file something: input}`
+
+- Print a diff between the given scores:
+
+`musescore --diff {any something} {any something}`
+
+- Specify a MIDI import operations file:
+
+`musescore --midi-operations {file something}`

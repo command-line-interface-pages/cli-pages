@@ -1,0 +1,25 @@
+# lrztar
+
+> A wrapper for `lrzip` to simplify compression of directories
+> See also: `tar`, `lrzuntar`, `lrunzip`
+> More information: https://manned.org/lrztar
+
+- Archive a directory with `tar`, then compress:
+
+`lrztar {directory something}`
+
+- Same as above, with ZPAQ - extreme compression, but very slow:
+
+`lrztar -z {directory something}`
+
+- Specify the output file:
+
+`lrztar -o {file something} {directory something}`
+
+- Override the number of processor threads to use:
+
+`lrztar -p {int number: 8} {directory something}`
+
+- Force overwriting of existing files:
+
+`lrztar -f {directory something}`

@@ -1,0 +1,13 @@
+# ocamlopt
+
+> The OCaml native code compiler
+> Produces native executables, e.g. ELF on Linux
+> More information: https://ocaml.org
+
+- Compile a source file:
+
+`ocamlopt -o {any something} {any something}`
+
+- Compile with debugging enabled:
+
+`ocamlopt -g -o {any something} {any something}`

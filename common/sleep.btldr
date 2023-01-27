@@ -1,0 +1,16 @@
+# sleep
+
+> Delay for a specified amount of time
+> More information: https://www.gnu.org/software/coreutils/sleep
+
+- Delay in seconds:
+
+`sleep {any something}`
+
+- Delay in minutes:
+
+`sleep {any something}m`
+
+- Delay in hours:
+
+`sleep {any something}h`

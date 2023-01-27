@@ -1,0 +1,20 @@
+# curlie
+
+> Curlie is a frontend to curl that adds the ease of use of httpie
+> More information: https://github.com/rs/curlie
+
+- Send a GET request:
+
+`curlie {any something}`
+
+- Send a POST request:
+
+`curlie post {any something} {any something} {any something}`
+
+- Send a GET request with query parameters (e.g. `first_param=5&second_param=true`):
+
+`curlie get {any something} {any something} {any something}`
+
+- Send a GET request with a custom header:
+
+`curlie get {any something} {any something}`

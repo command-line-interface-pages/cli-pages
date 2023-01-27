@@ -1,0 +1,36 @@
+# docker volume
+
+> Manage Docker volumes
+> More information: https://docs.docker.com/engine/reference/commandline/volume/
+
+- Create a volume:
+
+`docker volume create {any something}`
+
+- Create a volume with a specific label:
+
+`docker volume create --label {any something} {any something}`
+
+- Create a `tmpfs` volume a size of 100 MiB and an uid of 1000:
+
+`docker volume create --opt {any something}={any something} --opt {any something}={any something} --opt {any something}={any something} {any something}`
+
+- List all volumes:
+
+`docker volume ls`
+
+- Remove a volume:
+
+`docker volume rm {any something}`
+
+- Display information about a volume:
+
+`docker volume inspect {any something}`
+
+- Remove all unused local volumes:
+
+`docker volume prune`
+
+- Display help for a subcommand:
+
+`docker volume {any something} --help`

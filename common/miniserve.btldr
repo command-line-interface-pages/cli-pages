@@ -1,0 +1,16 @@
+# miniserve
+
+> Simple HTTP file server CLI
+> More information: https://github.com/svenstaro/miniserve
+
+- Serve a directory:
+
+`miniserve {directory something}`
+
+- Serve a single file:
+
+`miniserve {file something}`
+
+- Serve a directory using HTTP basic authentication:
+
+`miniserve --auth {any something}:{any something} {directory something}`

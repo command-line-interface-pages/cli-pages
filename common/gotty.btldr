@@ -1,0 +1,16 @@
+# gotty
+
+> Share your terminal as a web application
+> More information: https://github.com/yudai/gotty
+
+- Share result of command:
+
+`gotty {any something}`
+
+- Share with write permission:
+
+`gotty -w {any something}`
+
+- Share with credential (Basic Auth):
+
+`gotty -w -c {any something}:{any something} {any something}`

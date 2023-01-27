@@ -1,0 +1,17 @@
+# git release
+
+> Create a Git tag for a release
+> Part of `git-extras`
+> More information: https://github.com/tj/git-extras/blob/master/Commands.md#git-release
+
+- Create and push a release:
+
+`git release {any something}`
+
+- Create and push a signed release:
+
+`git release {any something} -s`
+
+- Create and push a release with a message:
+
+`git release {{any something}} -m "{any something}"`

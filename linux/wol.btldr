@@ -1,0 +1,28 @@
+# wol
+
+> Client for sending Wake-on-LAN magic packets
+> More information: https://sourceforge.net/projects/wake-on-lan/
+
+- Send a WoL packet to a device:
+
+`wol {any something}`
+
+- Send a WoL packet to a device in another subnet based on its IP:
+
+`wol --ipaddr={any something} {any something}`
+
+- Send a WoL packet to a device in another subnet based on its hostname:
+
+`wol --host={any something} {any something}`
+
+- Send a WoL packet to a specific port on a host:
+
+`wol --port={any something} {any something}`
+
+- Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file:
+
+`wol --file={file something}`
+
+- Turn on verbose output:
+
+`wol --verbose {any something}`

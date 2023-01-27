@@ -1,0 +1,24 @@
+# nbtscan
+
+> Scan networks for NetBIOS name information
+> More information: https://github.com/resurrecting-open-source-projects/nbtscan
+
+- Scan a network for NetBIOS names:
+
+`nbtscan {any something}`
+
+- Scan a single IP address:
+
+`nbtscan {any something}`
+
+- Display verbose output:
+
+`nbtscan -v {any something}`
+
+- Display output in `/etc/hosts` format:
+
+`nbtscan -e {any something}`
+
+- Read IP addresses / networks to scan from a file:
+
+`nbtscan -f {any something}`

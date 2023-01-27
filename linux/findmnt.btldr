@@ -1,0 +1,24 @@
+# findmnt
+
+> Find your filesystem
+> More information: https://manned.org/findmnt
+
+- List all mounted filesystems:
+
+`findmnt`
+
+- Search for a device:
+
+`findmnt {any something}`
+
+- Search for a mountpoint:
+
+`findmnt {any something}`
+
+- Find filesystems in specific type:
+
+`findmnt -t {any something}`
+
+- Find filesystems with specific label:
+
+`findmnt LABEL={any something}`

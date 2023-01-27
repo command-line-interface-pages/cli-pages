@@ -1,0 +1,25 @@
+# btrfs
+
+> A filesystem based on the copy-on-write (COW) principle for Linux
+> Some subcommands such as `btrfs device` have their own usage documentation
+> More information: https://btrfs.readthedocs.io/en/latest/btrfs.html
+
+- Create subvolume:
+
+`sudo btrfs subvolume create {any something}`
+
+- List subvolumes:
+
+`sudo btrfs subvolume list {any something}`
+
+- Show space usage information:
+
+`sudo btrfs filesystem df {any something}`
+
+- Enable quota:
+
+`sudo btrfs quota enable {any something}`
+
+- Show quota:
+
+`sudo btrfs qgroup show {any something}`

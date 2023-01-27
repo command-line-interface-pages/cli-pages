@@ -1,0 +1,16 @@
+# vncserver
+
+> Launches a VNC (Virtual Network Computing) desktop
+> More information: https://manned.org/vncserver.1x
+
+- Launch a VNC Server on next available display:
+
+`vncserver`
+
+- Launch a VNC Server with specific screen geometry:
+
+`vncserver --geometry {any something}x{any something}`
+
+- Kill an instance of VNC Server running on a specific display:
+
+`vncserver --kill :{any something}`

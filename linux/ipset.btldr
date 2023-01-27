@@ -1,0 +1,24 @@
+# ipset
+
+> A tool to create IP sets for firewall rules
+> More information: https://manned.org/ipset
+
+- Create an empty IP set which will contain IP addresses:
+
+`ipset create {any something} hash:ip`
+
+- Destroy a specific IP set:
+
+`ipset destroy {any something}`
+
+- Add an IP address to a specific set:
+
+`ipset add {any something} {any something}`
+
+- Delete a specific IP address from a set:
+
+`ipset del {any something} {any something}`
+
+- Save an IP set:
+
+`ipset save {any something} > {any something}`

@@ -1,0 +1,16 @@
+# zipsplit
+
+> Read a zipfile and split it into smaller zipfiles
+> More information: https://manned.org/zipsplit
+
+- Split zipfile into pieces that are no larger than a particular size [n]:
+
+`zipsplit -n {any something} {any something}`
+
+- [p]ause between the creation of each split zipfile:
+
+`zipsplit -p -n {any something} {any something}`
+
+- Output the split zipfiles into the `archive` directory:
+
+`zipsplit -b {any something} -n {any something} {any something}`

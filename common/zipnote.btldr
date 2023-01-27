@@ -1,0 +1,17 @@
+# zipnote
+
+> View, add, or edit a zip archive's comments
+> Files can also be renamed in the zip archive
+> More information: https://manned.org/zipnote
+
+- View the comments on a zip archive:
+
+`zipnote {any something}`
+
+- Extract the comments on a zip archive to a file:
+
+`zipnote {any something} > {any something}`
+
+- Add/Update comments in a zip archive from a file:
+
+`zipnote -w {any something} < {any something}`

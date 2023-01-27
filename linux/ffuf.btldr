@@ -1,0 +1,28 @@
+# ffuf
+
+> Subdomain and directory discovery tool
+> More information: https://github.com/ffuf/ffuf
+
+- Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:
+
+`ffuf -w {any something} -u {any something} -c -v`
+
+- Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:
+
+`ffuf -w {any something} -u {any something} -H "{any something}" -mc {int number: 200}`
+
+- Discover directories using a [w]ordlist on a target website with a max individual job time of 60 seconds and recursion discovery depth of 2 levels:
+
+`ffuf -w {any something} -u {any something} -maxtime-job {int number: 60} -recursion -recursion-depth {int number: 2}`
+
+- Fuzz GET parameter on a target website and [f]ilter out message [s]ize response of 4242 bytes:
+
+`ffuf -w {any something} -u {any something} -fs {int number: 4242}`
+
+- Fuzz POST method with POST [d]ata of password on a target website and [f]ilter out HTTP response [c]ode 401:
+
+`ffuf -w {any something} -X {any something} -d "{any something}" -u {any something} -fc {int number: 401}`
+
+- Discover subdomains using a subdomain list on a target website:
+
+`ffuf -w {any something} -u {any something} -H "{any something}"`

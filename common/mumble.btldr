@@ -1,0 +1,24 @@
+# mumble
+
+> Low-latency, high quality voice chat software
+> More information: https://www.mumble.info
+
+- Open Mumble:
+
+`mumble`
+
+- Open Mumble and immediately connect to a server:
+
+`mumble mumble://{any something}@{any something}`
+
+- Open Mumble and immediately connect to a password protected server:
+
+`mumble mumble://{any something}:{any something}@{any something}`
+
+- Mute/unmute the microphone in a running Mumble instance:
+
+`mumble rpc {any something}`
+
+- Mute/unmute the microphone and the audio output of Mumble:
+
+`mumble rpc {any something}`

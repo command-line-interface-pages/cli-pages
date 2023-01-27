@@ -1,0 +1,38 @@
+# pacman
+
+> Arch Linux package manager utility
+> Some subcommands such as `pacman sync` have their own usage documentation
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>
+> More information: https://man.archlinux.org/man/pacman.8
+
+- Synchronize and update all packages:
+
+`sudo pacman -Syu`
+
+- Install a new package:
+
+`sudo pacman -S {any something}`
+
+- Remove a package and its dependencies:
+
+`sudo pacman -Rs {any something}`
+
+- Search the package database for a regular expression or keyword:
+
+`pacman -Ss "{any something}"`
+
+- List installed packages and versions:
+
+`pacman -Q`
+
+- List only the explicitly installed packages and versions:
+
+`pacman -Qe`
+
+- List orphan packages (installed as dependencies but not actually required by any package):
+
+`pacman -Qtdq`
+
+- Empty the entire pacman cache:
+
+`sudo pacman -Scc`

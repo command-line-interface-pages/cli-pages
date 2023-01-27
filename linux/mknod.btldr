@@ -1,0 +1,20 @@
+# mknod
+
+> Create block or character device special files
+> More information: https://www.gnu.org/software/coreutils/mknod
+
+- Create a block device:
+
+`sudo mknod {file something: path/to/device} b {any something} {any something}`
+
+- Create a character device:
+
+`sudo mknod {file something: path/to/device} c {any something} {any something}`
+
+- Create a FIFO (queue) device:
+
+`sudo mknod {file something: path/to/device} p`
+
+- Create a device file with default SELinux security context:
+
+`sudo mknod -Z {file something: path/to/device} {any something} {any something} {any something}`

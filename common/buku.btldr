@@ -1,0 +1,24 @@
+# buku
+
+> Command-line browser-independent bookmark manager
+> More information: https://github.com/jarun/Buku
+
+- Display all bookmarks matching "keyword" and with "privacy" tag:
+
+`buku {any something} --stag {any something}`
+
+- Add bookmark with tags "search engine" and "privacy":
+
+`buku --add {any something} {any something}, {any something}`
+
+- Delete a bookmark:
+
+`buku --delete {any something}`
+
+- Open editor to edit a bookmark:
+
+`buku --write {any something}`
+
+- Remove "search engine" tag from a bookmark:
+
+`buku --update {any something} --tag {any something} {any something}`

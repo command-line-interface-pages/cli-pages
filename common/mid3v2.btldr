@@ -1,0 +1,33 @@
+# mid3v2
+
+> Edit audio tags
+> See also: `id3v2`
+> More information: https://manned.org/mid3v2.1
+
+- List all supported ID3v2.3 or ID3v2.4 frames and their meanings:
+
+`id3v2 --list-frames {any something}`
+
+- List all supported ID3v1 numeric genres:
+
+`id3v2 --list-genres {any something}`
+
+- List all tags in specific files:
+
+`id3v2 --list {any something}`
+
+- Set specific artist, album, or song information:
+
+`id3v2 {any something}={any something} {any something}`
+
+- Set specific picture information:
+
+`id3v2 --picture={any something} {any something}`
+
+- Set specific year information:
+
+`id3v2 --year={any something} {any something}`
+
+- Set specific date information:
+
+`id3v2 --date={any something} {any something}`

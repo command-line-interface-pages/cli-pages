@@ -1,0 +1,28 @@
+# cordova
+
+> Mobile apps with HTML, CSS & JS
+> More information: https://cordova.apache.org/docs/en/latest/guide/cli/
+
+- Create a Cordova project:
+
+`cordova create {any something} {any something} {any something}`
+
+- Display the current workspace status:
+
+`cordova info`
+
+- Add a Cordova platform:
+
+`cordova platform add {any something}`
+
+- Remove a Cordova platform:
+
+`cordova platform remove {any something}`
+
+- Add a Cordova plugin:
+
+`cordova plugin add {any something}`
+
+- Remove a Cordova plugin:
+
+`cordova plugin remove {any something}`

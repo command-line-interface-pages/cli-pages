@@ -1,0 +1,24 @@
+# stat
+
+> Display file status
+> More information: https://ss64.com/osx/stat.html
+
+- Show file properties such as size, permissions, creation and access dates among others:
+
+`stat {file something}`
+
+- Same as above but verbose (more similar to Linux's `stat`):
+
+`stat -x {file something}`
+
+- Show only octal file permissions:
+
+`stat -f %Mp%Lp {file something}`
+
+- Show owner and group of the file:
+
+`stat -f "%Su %Sg" {file something}`
+
+- Show the size of the file in bytes:
+
+`stat -f "%z %N" {file something}`

@@ -1,0 +1,32 @@
+# phpspec
+
+> A Behaviour Driven Development tool for PHP
+> More information: https://phpspec.net
+
+- Create a specification for a class:
+
+`phpspec describe {any something}`
+
+- Run all specifications in the "spec" directory:
+
+`phpspec run`
+
+- Run a single specification:
+
+`phpspec run {file something: path/to/class_specification}`
+
+- Run specifications using a specific configuration file:
+
+`phpspec run -c {file something: path/to/configuration}`
+
+- Run specifications using a specific bootstrap file:
+
+`phpspec run -b {file something: path/to/bootstrap}`
+
+- Disable code generation prompts:
+
+`phpspec run --no-code-generation`
+
+- Enable fake return values:
+
+`phpspec run --fake`

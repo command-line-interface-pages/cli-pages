@@ -1,0 +1,28 @@
+# say
+
+> Converts text to speech
+> More information: https://ss64.com/osx/say.html
+
+- Say a phrase aloud:
+
+`say "{any something}"`
+
+- Read a file aloud:
+
+`say --input-file={any something}`
+
+- Say a phrase with a custom voice and speech rate:
+
+`say --voice={any something} --rate={any something} "{any something}"`
+
+- List the available voices (different voices speak in different languages):
+
+`say --voice="?"`
+
+- Say something in Polish:
+
+`say --voice={any something} "{any something}"`
+
+- Create an audio file of the spoken text:
+
+`say --output-file={any something} "{any something}"`

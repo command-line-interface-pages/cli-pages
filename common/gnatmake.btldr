@@ -1,0 +1,16 @@
+# gnatmake
+
+> A low-level build tool for Ada programs (part of the GNAT toolchain)
+> More information: https://gcc.gnu.org/onlinedocs/gnat_ugn/Building-with-gnatmake.html
+
+- Compile an executable:
+
+`gnatmake {any something}`
+
+- Set a custom executable name:
+
+`gnatmake -o {any something} {any something}`
+
+- [f]orce recompilation:
+
+`gnatmake -f {any something}`

@@ -1,0 +1,33 @@
+# bash
+
+> Bourne-Again SHell, an `sh`-compatible command-line interpreter
+> See also: `zsh`, `histexpand` (history expansion)
+> More information: https://gnu.org/software/bash/
+
+- Start an interactive shell session:
+
+`bash`
+
+- Start an interactive shell session without loading startup configs:
+
+`bash --norc`
+
+- Execute specific [c]ommands:
+
+`bash -c "{any something}"`
+
+- Execute a specific script:
+
+`bash {any something}`
+
+- Execute a specific script while printing each command before executing it:
+
+`bash -x {any something}`
+
+- Execute a specific script and stop at the first [e]rror:
+
+`bash -e {any something}`
+
+- Execute specific commands from stdin:
+
+`{any something} | bash`

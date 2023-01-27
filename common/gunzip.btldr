@@ -1,0 +1,24 @@
+# gunzip
+
+> Extract file(s) from a gzip (.gz) archive
+> More information: https://manned.org/gunzip
+
+- Extract a file from an archive, replacing the original file if it exists:
+
+`gunzip {any something}`
+
+- Extract a file to a target destination:
+
+`gunzip --stdout {any something} > {any something}`
+
+- Extract a file and keep the archive file:
+
+`gunzip --keep {any something}`
+
+- List the contents of a compressed file:
+
+`gunzip --list {any something}`
+
+- Decompress an archive from stdin:
+
+`cat {any something} | gunzip`

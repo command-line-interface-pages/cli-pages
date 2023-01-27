@@ -1,0 +1,32 @@
+# trashy
+
+> An alternative to `rm` and `trash-cli` written in Rust
+> More information: https://github.com/oberblastmeister/trashy
+
+- Move a specific file to the trash:
+
+`trash {file something}`
+
+- Move specific files to the trash:
+
+`trash {file* something}`
+
+- List items in the trash:
+
+`trash list`
+
+- Restore a specific file from the trash:
+
+`trash restore {file something}`
+
+- Remove a specific file from the trash:
+
+`trash empty {file something}`
+
+- Restore all files from the trash:
+
+`trash restore --all`
+
+- Remove all files from the trash:
+
+`trash empty --all`

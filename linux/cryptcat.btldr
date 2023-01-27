@@ -1,0 +1,24 @@
+# cryptcat
+
+> Cryptcat is netcat with encryption capabilities
+> More information: http://cryptcat.sourceforge.net
+
+- [l]isten on a specified [p]ort and print any data received:
+
+`cryptcat -k {any something} -l -p {any something}`
+
+- Connect to a certain port:
+
+`cryptcat -k {any something} {any something} {any something}`
+
+- Set a timeout [w]:
+
+`cryptcat -k {any something} -w {any something} {any something} {any something}`
+
+- Scan [z] the open ports of a specified host:
+
+`cryptcat -v -z {any something} {any something}`
+
+- Act as proxy and forward data from a local TCP port to the given remote host:
+
+`cryptcat -k {any something} -l -p {any something} | cryptcat -k {any something} {any something} {any something}`

@@ -1,0 +1,28 @@
+# swc
+
+> JavaScript and TypeScript compiler written in Rust
+> More information: https://swc.rs
+
+- Transpile a specified input file and output to stdout:
+
+`swc {file something}`
+
+- Transpile the input file every time it is changed:
+
+`swc {file something} --watch`
+
+- Transpile a specified input file and output to a specific file:
+
+`swc {file something: path/to/input} --out-file {file something: path/to/output}`
+
+- Transpile a specified input directory and output to a specific directory:
+
+`swc {directory something: path/to/input} --out-dir {directory something: path/to/output}`
+
+- Transpile a specified input directory using a specific configuration file:
+
+`swc {directory something: path/to/input} --config-file {any something}`
+
+- Ignore files in a directory specified using glob path:
+
+`swc {directory something: path/to/input} --ignore {file* something: ignored}`

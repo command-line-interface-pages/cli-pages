@@ -1,0 +1,24 @@
+# mutt
+
+> Command-line email client
+> More information: http://mutt.org
+
+- Open the specified mailbox:
+
+`mutt -f {any something}`
+
+- Send an email and specify a subject and a cc recipient:
+
+`mutt -s {any something} -c {any something} {any something}`
+
+- Send an email with files attached:
+
+`mutt -a {any something} {any something} -- {any something}`
+
+- Specify a file to include as the message body:
+
+`mutt -i {file something} {any something}`
+
+- Specify a draft file containing the header and the body of the message, in RFC 5322 format:
+
+`mutt -H {file something} {any something}`

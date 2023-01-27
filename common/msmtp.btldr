@@ -1,0 +1,17 @@
+# msmtp
+
+> An SMTP client
+> It reads text from standard input and sends it to an SMTP server
+> More information: https://marlam.de/msmtp
+
+- Send an email using the default account configured in `~/.msmtprc`:
+
+`echo "{any something}" | msmtp {any something}`
+
+- Send an email using a specific account configured in `~/.msmtprc`:
+
+`echo "{any something}" | msmtp --account={any something} {any something}`
+
+- Send an email without a configured account. The password should be specified in the `~/.msmtprc` file:
+
+`echo "{any something}" | msmtp --host={any something} --port={int number: 999} --from={any something} {any something}`

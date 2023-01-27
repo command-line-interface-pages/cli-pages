@@ -1,0 +1,32 @@
+# transmission-remote
+
+> Remote control utility for transmission-daemon and transmission
+> More information: https://transmissionbt.com
+
+- Add a torrent file or magnet link to Transmission and download to a specified directory:
+
+`transmission-remote {any something} -a {any something} -w {/directory something: path/to/download}`
+
+- Change the default download directory:
+
+`transmission-remote {any something} -w {/directory something: path/to/download}`
+
+- List all torrents:
+
+`transmission-remote {any something} --list`
+
+- Start torrent 1 and 2, stop torrent 3:
+
+`transmission-remote {any something} -t "{any something}" --start -t {int number: 3} --stop`
+
+- Remove torrent 1 and 2, and also delete local data for torrent 2:
+
+`transmission-remote {any something} -t {int number: 1} --remove -t {int number: 2} --remove-and-delete`
+
+- Stop all torrents:
+
+`transmission-remote {any something} -t {any something} --stop`
+
+- Move torrents 1-10 and 15-20 to a new directory (which will be created if it does not exist):
+
+`transmission-remote {any something} -t "{any something}" --move {/directory something: path/to/new}`

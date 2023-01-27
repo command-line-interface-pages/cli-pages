@@ -1,0 +1,16 @@
+# scriptreplay
+
+> Replay a typescript created by the `script` command to the standard output
+> More information: https://manned.org/scriptreplay
+
+- Replay a typescript at the speed it was recorded:
+
+`scriptreplay {file something: path/to/timing} {any something}`
+
+- Replay a typescript at double the original speed:
+
+`scriptreplay {any something} {any something} 2`
+
+- Replay a typescript at half the original speed:
+
+`scriptreplay {any something} {any something} 0.5`

@@ -1,0 +1,20 @@
+# vncviewer
+
+> Launches a VNC (Virtual Network Computing) client
+> More information: https://manned.org/vncviewer
+
+- Launch a VNC client which connects to a host on a given display:
+
+`vncviewer {any something}:{any something}`
+
+- Launch in full-screen mode:
+
+`vncviewer -FullScreen {any something}:{any something}`
+
+- Launch a VNC client with a specific screen geometry:
+
+`vncviewer --geometry {any something}x{any something} {any something}:{any something}`
+
+- Launch a VNC client which connects to a host on a given port:
+
+`vncviewer {any something}::{any something}`

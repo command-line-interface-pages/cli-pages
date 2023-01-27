@@ -1,0 +1,20 @@
+# nyxt
+
+> Nyxt is a keyboard-driven web browser for power users
+> More information: https://nyxt.atlas.engineer
+
+- List all profiles:
+
+`nyxt --list-data-profiles`
+
+- Set the `init.lisp` file path:
+
+`nyxt --init {file something}`
+
+- Change the path to the auto-config file:
+
+`nyxt --auto-config {file something}`
+
+- Print system information:
+
+`nyxt --system-information`

@@ -1,0 +1,36 @@
+# phar
+
+> Create, update or extract PHP archives (PHAR)
+> More information: https://manned.org/phar
+
+- Add space-separated files or directories to a Phar file:
+
+`phar add -f {file something: path/to/phar} {directory* something: files_or}`
+
+- Display the contents of a Phar file:
+
+`phar list -f {file something: path/to/phar}`
+
+- Delete the specified file or directory from a Phar file:
+
+`phar delete -f {file something: path/to/phar} -e {file something|path something}`
+
+- Display full usage information and available hashing/compression algorithms:
+
+`phar help`
+
+- Compress or uncompress files and directories in a Phar file:
+
+`phar compress -f {file something: path/to/phar} -c {any something}`
+
+- Get information about a Phar file:
+
+`phar info -f {file something: path/to/phar}`
+
+- Sign a Phar file with a specific hash algorithm:
+
+`phar sign -f {file something: path/to/phar} -h {any something}`
+
+- Sign a Phar file with an OpenSSL private key:
+
+`phar sign -f {file something: path/to/phar} -h openssl -y {any something}`

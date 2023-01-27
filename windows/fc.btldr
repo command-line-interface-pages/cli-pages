@@ -1,0 +1,33 @@
+# fc
+
+> Compare the differences between two files or sets of files
+> Use wildcards (*) to compare sets of files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/fc
+
+- Compare 2 specified files:
+
+`fc {any something} {any something}`
+
+- Perform a case-insensitive comparison:
+
+`fc /c {any something} {any something}`
+
+- Compare files as Unicode text:
+
+`fc /u {any something} {any something}`
+
+- Compare files as ASCII text:
+
+`fc /l {any something} {any something}`
+
+- Compare files as binary:
+
+`fc /b {any something} {any something}`
+
+- Disable tab-to-space expansion:
+
+`fc /t {any something} {any something}`
+
+- Compress whitespace (tabs and spaces) for comparisons:
+
+`fc /w {any something} {any something}`

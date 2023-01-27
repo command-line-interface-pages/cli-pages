@@ -1,0 +1,29 @@
+# zeek
+
+> Passive network traffic analyzer
+> Any output and log files will be saved to the current working directory
+> More information: https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility
+
+- Analyze live traffic from a network interface:
+
+`sudo zeek --iface {any something}`
+
+- Analyze live traffic from a network interface and load custom scripts:
+
+`sudo zeek --iface {any something} {any something} {any something}`
+
+- Analyze live traffic from a network interface, without loading any scripts:
+
+`sudo zeek --bare-mode --iface {any something}`
+
+- Analyze live traffic from a network interface, applying a `tcpdump` filter:
+
+`sudo zeek --filter {any something} --iface {any something}`
+
+- Analyze live traffic from a network interface using a watchdog timer:
+
+`sudo zeek --watchdog --iface {any something}`
+
+- Analyze traffic from a `pcap` file:
+
+`zeek --readfile {any something}`

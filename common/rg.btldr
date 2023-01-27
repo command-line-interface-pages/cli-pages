@@ -1,0 +1,37 @@
+# rg
+
+> Ripgrep is a recursive line-oriented CLI search tool
+> Aims to be a faster alternative to `grep`
+> More information: https://github.com/BurntSushi/ripgrep
+
+- Recursively search the current directory for a regular expression:
+
+`rg {any something}`
+
+- Search for regular expressions recursively in the current directory, including hidden files and files listed in `.gitignore`:
+
+`rg --no-ignore --hidden {any something}`
+
+- Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
+
+`rg --type {any something} {any something}`
+
+- Search for a regular expression only in a subset of directories:
+
+`rg {any something} {any something}`
+
+- Search for a regular expression in files matching a glob (e.g. `README.*`):
+
+`rg {any something} --glob {any something}`
+
+- Only list matched files (useful when piping to other commands):
+
+`rg --files-with-matches {any something}`
+
+- Show lines that do not match the given regular expression:
+
+`rg --invert-match {any something}`
+
+- Search a literal string pattern:
+
+`rg --fixed-strings -- {any something}`

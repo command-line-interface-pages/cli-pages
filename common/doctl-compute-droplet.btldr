@@ -1,0 +1,16 @@
+# doctl compute droplet
+
+> List, create, and delete virtual machines which are called droplets
+> More information: https://docs.digitalocean.com/reference/doctl/reference/compute/droplet/
+
+- Create a droplet:
+
+`doctl compute droplet create --region {any something} --image {any something} --size {any something} {any something}`
+
+- Delete a droplet:
+
+`doctl compute droplet delete {any something}`
+
+- List droplets:
+
+`doctl compute droplet list`

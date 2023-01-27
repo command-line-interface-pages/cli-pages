@@ -1,0 +1,20 @@
+# mongo
+
+> MongoDB interactive shell client
+> More information: https://docs.mongodb.com/manual/reference/program/mongo
+
+- Connect to a database:
+
+`mongo {any something}`
+
+- Connect to a database running on a given host on a given port:
+
+`mongo --host {any something} --port {any something} {any something}`
+
+- Connect to a database with a given username; user will be prompted for password:
+
+`mongo --username {any something} {any something} --password`
+
+- Evaluate a JavaScript expression on the database:
+
+`mongo --eval '{any something}' {any something}`

@@ -1,0 +1,20 @@
+# gnmic set
+
+> Modify gnmi network device configuration
+> More information: https://gnmic.kmrd.dev/cmd/set
+
+- Update the value of a path:
+
+`gnmic --address {any something} set --update-path {any something} --update-value {any something}`
+
+- Update the value of a path to match the contents of a json file:
+
+`gnmic -a {any something} set --update-path {any something} --update-file {any something}`
+
+- Replace the value of a path to match the contents of a json file:
+
+`gnmic -a {any something} set --replace-path {any something} --replace-file {any something}`
+
+- Delete the node at a given path:
+
+`gnmic -a {any something} set --delete {any something}`

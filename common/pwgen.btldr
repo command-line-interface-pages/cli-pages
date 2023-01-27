@@ -1,0 +1,16 @@
+# pwgen
+
+> Generate pronounceable passwords
+> More information: https://github.com/tytso/pwgen
+
+- Generate random password with s[y]mbols:
+
+`pwgen -y {any something}`
+
+- Generate secure, hard-to-memorize passwords:
+
+`pwgen -s {any something}`
+
+- Generate password with at least one capital letter in them:
+
+`pwgen -c {any something}`

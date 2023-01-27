@@ -1,0 +1,32 @@
+# jq
+
+> A command-line JSON processor that uses a domain-specific language
+> More information: https://stedolan.github.io/jq/manual/
+
+- Execute a specific expression (print a colored and formatted json):
+
+`{any something} | jq '.'`
+
+- Execute a specific script:
+
+`{any something} | jq --from-file {any something}`
+
+- Pass specific arguments:
+
+`{any something} | jq {any something} '{any something}'`
+
+- Print specific keys:
+
+`{any something} | jq '{any something}'`
+
+- Print specific array items:
+
+`{any something} | jq '{any something}'`
+
+- Print all array items/object keys:
+
+`{any something} | jq '.[]'`
+
+- Add/remove specific keys:
+
+`{any something} | jq '. {any something} {{any something}}'`

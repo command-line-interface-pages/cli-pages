@@ -1,0 +1,32 @@
+# git remote
+
+> Manage set of tracked repositories ("remotes")
+> More information: https://git-scm.com/docs/git-remote
+
+- Show a list of existing remotes, their names and URL:
+
+`git remote -v`
+
+- Show information about a remote:
+
+`git remote show {any something}`
+
+- Add a remote:
+
+`git remote add {any something} {any something}`
+
+- Change the URL of a remote (use `--add` to keep the existing URL):
+
+`git remote set-url {any something} {any something}`
+
+- Show the URL of a remote:
+
+`git remote get-url {any something}`
+
+- Remove a remote:
+
+`git remote remove {any something}`
+
+- Rename a remote:
+
+`git remote rename {any something} {any something}`

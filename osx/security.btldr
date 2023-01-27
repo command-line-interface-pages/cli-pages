@@ -1,0 +1,32 @@
+# security
+
+> Administer keychains, keys, certificates and the Security framework
+> More information: https://ss64.com/osx/security.html
+
+- List all available keychains:
+
+`security list-keychains`
+
+- Delete a specific keychain:
+
+`security delete-keychain {any something}`
+
+- Create a keychain:
+
+`security create-keychain -p {any something} {any something}`
+
+- Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):
+
+`security set-identity-preference -s {any something} -c "{any something}" {any something}`
+
+- Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
+
+`security add-certificates -k {any something} {any something}`
+
+- Add a CA certificate to the per-user Trust Settings:
+
+`security add-trusted-cert -k {any something} {any something}`
+
+- Remove a CA certificate from the per-user Trust Settings:
+
+`security remove-trusted-cert {any something}`

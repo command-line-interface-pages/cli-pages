@@ -1,0 +1,32 @@
+# man
+
+> Format and display manual pages
+> More information: https://manned.org/man
+
+- Display the man page for a command:
+
+`man {any something}`
+
+- Display the man page for a command from section 7:
+
+`man {int number: 7} {any something}`
+
+- List all available sections for a command:
+
+`man --whatis {any something}`
+
+- Display the path searched for manpages:
+
+`man --path`
+
+- Display the location of a manpage rather than the manpage itself:
+
+`man --where {any something}`
+
+- Display the man page using a specific locale:
+
+`man --locale={any something} {any something}`
+
+- Search for manpages containing a search string:
+
+`man --apropos "{any something}"`

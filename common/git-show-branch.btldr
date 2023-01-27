@@ -1,0 +1,36 @@
+# git show-branch
+
+> Show branches and their commits
+> More information: https://git-scm.com/docs/git-show-branch
+
+- Show a summary of the latest commit on a branch:
+
+`git show-branch {any something}`
+
+- Compare commits in the history of multiple commits or branches:
+
+`git show-branch {any something}`
+
+- Compare all remote tracking branches:
+
+`git show-branch --remotes`
+
+- Compare both local and remote tracking branches:
+
+`git show-branch --all`
+
+- List the latest commits in all branches:
+
+`git show-branch --all --list`
+
+- Compare a given branch with the current branch:
+
+`git show-branch --current {any something}`
+
+- Display the commit name instead of the relative name:
+
+`git show-branch --sha1-name --current {any something}`
+
+- Keep going a given number of commits past the common ancestor:
+
+`git show-branch --more {int number: 5} {any something} {any something} {any something}`

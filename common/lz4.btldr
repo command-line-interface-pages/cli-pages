@@ -1,0 +1,28 @@
+# lz4
+
+> Compress or decompress .lz4 files
+> More information: https://github.com/lz4/lz4
+
+- Compress a file:
+
+`lz4 {file something}`
+
+- Decompress a file:
+
+`lz4 -d {any something}`
+
+- Decompress a file and write to stdout:
+
+`lz4 -dc {any something}`
+
+- Package and compress a directory and its contents:
+
+`tar cvf - {directory something} | lz4 - {any something}`
+
+- Decompress and unpack a directory and its contents:
+
+`lz4 -dc {any something} | tar -xv`
+
+- Compress a file using the best compression:
+
+`lz4 -9 {file something}`

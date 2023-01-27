@@ -1,0 +1,20 @@
+# trivy
+
+> Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
+> More information: https://github.com/aquasecurity/trivy
+
+- Scan an image:
+
+`trivy image {any something}`
+
+- Scan the filesystem for vulnerabilities and misconfigurations:
+
+`trivy fs --security-checks {any something} {directory something: path/to/project}`
+
+- Scan a directory for misconfigurations:
+
+`trivy config {directory something: path/to/iac}`
+
+- Generate output with a SARIF template:
+
+`trivy image --format {any something} --template {any something} -o {any something} {any something}`

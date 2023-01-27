@@ -1,0 +1,16 @@
+# dget
+
+> Download Debian packages
+> More information: https://manpages.debian.org/dget
+
+- Download a binary package:
+
+`dget {any something}`
+
+- Download and extract a package source from its `.dsc` file:
+
+`dget {any something}`
+
+- Download a package source tarball from its `.dsc` file but don't extract it:
+
+`dget -d {any something}`

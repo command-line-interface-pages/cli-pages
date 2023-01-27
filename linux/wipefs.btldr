@@ -1,0 +1,24 @@
+# wipefs
+
+> Wipe filesystem, raid, or partition-table signatures from a device
+> More information: https://manned.org/wipefs
+
+- Display signatures for specified device:
+
+`sudo wipefs {any something}`
+
+- Wipe all available signature types for a specific device with no recursion into partitions:
+
+`sudo wipefs --all {any something}`
+
+- Wipe all available signature types for the device and partitions using a glob pattern:
+
+`sudo wipefs --all {any something}*`
+
+- Perform dry run:
+
+`sudo wipefs --all --no-act {any something}`
+
+- Force wipe, even if the filesystem is mounted:
+
+`sudo wipefs --all --force {any something}`

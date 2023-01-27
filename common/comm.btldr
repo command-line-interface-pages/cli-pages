@@ -1,0 +1,24 @@
+# comm
+
+> Select or reject lines common to two files. Both files must be sorted
+> More information: https://www.gnu.org/software/coreutils/comm
+
+- Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+
+`comm {any something} {any something}`
+
+- Print only lines common to both files:
+
+`comm -12 {any something} {any something}`
+
+- Print only lines common to both files, reading one file from stdin:
+
+`cat {any something} | comm -12 - {any something}`
+
+- Get lines only found in first file, saving the result to a third file:
+
+`comm -23 {any something} {any something} > {any something}`
+
+- Print lines only found in second file, when the files aren't sorted:
+
+`comm -13 <(sort {any something}) <(sort {any something})`

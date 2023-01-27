@@ -1,0 +1,29 @@
+# zsteg
+
+> Steganography detection tool for PNG and BMP file formats
+> It detects LSB steganography, ZLIB-compressed data, OpenStego, Camouflage and LSB with the Eratosthenes set
+> More information: https://github.com/zed-0xff/zsteg
+
+- Detect embedded data in a PNG:
+
+`zsteg {any something}`
+
+- Detect embedded data in a BMP image, using all known methods:
+
+`zsteg --all {any something}`
+
+- Detect embedded data in a PNG, iterating pixels vertically and using MSB first:
+
+`zsteg --msb --order yx {any something}`
+
+- Detect embedded data in a BMP image, specifying the bits to consider:
+
+`zsteg --bits {any something} {any something}`
+
+- Detect embedded data in a PNG, extracting only prime pixels and inverting bits:
+
+`zsteg --prime --invert {any something}`
+
+- Detect embedded data in a BMP image, specifying the minimum length of the strings to be found and the find mode:
+
+`zsteg --min-str-len {int number: 10} --strings {any something} {any something}`

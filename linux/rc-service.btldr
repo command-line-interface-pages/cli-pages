@@ -1,0 +1,33 @@
+# rc-service
+
+> Locate and run OpenRC services with arguments
+> See also `openrc`
+> More information: https://manned.org/rc-service
+
+- Show a service's status:
+
+`rc-service {any something} status`
+
+- Start a service:
+
+`sudo rc-service {any something} start`
+
+- Stop a service:
+
+`sudo rc-service {any something} stop`
+
+- Restart a service:
+
+`sudo rc-service {any something} restart`
+
+- Simulate running a service's custom command:
+
+`sudo rc-service --dry-run {any something} {any something}`
+
+- Actually run a service's custom command:
+
+`sudo rc-service {any something} {any something}`
+
+- Resolve the location of a service definition on disk:
+
+`sudo rc-service --resolve {any something}`

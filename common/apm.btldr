@@ -1,0 +1,17 @@
+# apm
+
+> Atom editor Package Manager
+> See `atom`
+> More information: https://github.com/atom/apm
+
+- Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
+
+`apm install {any something}`
+
+- Remove a package/theme:
+
+`apm remove {any something}`
+
+- Upgrade a package/theme:
+
+`apm upgrade {any something}`

@@ -1,0 +1,28 @@
+# tcptraceroute
+
+> A traceroute implementation using TCP packets
+> More information: https://github.com/mct/tcptraceroute
+
+- Trace the route to a host:
+
+`tcptraceroute {any something}`
+
+- Specify the destination port and packet length in bytes:
+
+`tcptraceroute {any something} {any something} {any something}`
+
+- Specify the local source port and source address:
+
+`tcptraceroute {any something} -p {any something} -s {any something}`
+
+- Set the first and maximum TTL:
+
+`tcptraceroute {any something} -f {any something} -m {any something}`
+
+- Specify the wait time and number of queries per hop:
+
+`tcptraceroute {any something} -w {any something} -q {any something}`
+
+- Specify the interface:
+
+`tcptraceroute {any something} -i {any something}`

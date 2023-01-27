@@ -1,0 +1,16 @@
+# apropos
+
+> Search the manual pages for names and descriptions
+> More information: https://manned.org/apropos
+
+- Search for a keyword using a regular expression:
+
+`apropos {any something}`
+
+- Search without restricting the output to the terminal width:
+
+`apropos -l {any something}`
+
+- Search for pages that contain all the expressions given:
+
+`apropos {any something} -a {any something} -a {any something}`

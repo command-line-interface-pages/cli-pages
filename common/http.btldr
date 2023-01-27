@@ -1,0 +1,32 @@
+# http
+
+> HTTPie: HTTP client, aims to be easier to use than cURL
+> More information: https://httpie.org
+
+- Download a URL to a file:
+
+`http --download {any something}`
+
+- Send form-encoded data:
+
+`http --form {any something} {any something} {any something}`
+
+- Send JSON object:
+
+`http {any something} {any something}`
+
+- Specify an HTTP method:
+
+`http {any something} {any something}`
+
+- Include an extra header:
+
+`http {any something} {any something}`
+
+- Pass a username and password for server authentication:
+
+`http --auth {any something} {any something}`
+
+- Specify raw request body via stdin:
+
+`cat {any something} | http PUT {any something}`

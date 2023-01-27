@@ -1,0 +1,16 @@
+# mcs
+
+> Mono C# Compiler
+> More information: https://manned.org/mcs.1
+
+- Compile the specified files:
+
+`mcs {any something}`
+
+- Specify the output program name:
+
+`mcs -out:{any something} {any something}`
+
+- Specify the output program type:
+
+`mcs -target:{any something} {any something}`

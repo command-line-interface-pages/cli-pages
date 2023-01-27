@@ -1,0 +1,28 @@
+# filefrag
+
+> Report how badly fragmented a particular file might be
+> More information: https://manned.org/filefrag
+
+- Display a report for a specific file:
+
+`filefrag {file something}`
+
+- Display a report for space-separated list of files:
+
+`filefrag {any something} {any something}`
+
+- Display a report using a 1024 byte blocksize:
+
+`filefrag -b {file something}`
+
+- Sync the file before requesting the mapping:
+
+`filefrag -s {any something}`
+
+- Display mapping of extended attributes:
+
+`filefrag -x {any something}`
+
+- Display a report with verbose information:
+
+`filefrag -v {any something}`

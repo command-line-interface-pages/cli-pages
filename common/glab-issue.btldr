@@ -1,0 +1,28 @@
+# glab issue
+
+> Manage GitLab issues from the command-line
+> More information: https://glab.readthedocs.io/en/latest/issue
+
+- Display a specific issue:
+
+`glab issue view {any something}`
+
+- Display a specific issue in the default web browser:
+
+`glab issue view {any something} --web`
+
+- Create a new issue in the default web browser:
+
+`glab issue create --web`
+
+- List the last 10 issues with the `bug` label:
+
+`glab issue list --per-page {int number: 10} --label "{any something}"`
+
+- List closed issues made by a specific user:
+
+`glab issue list --closed --author {any something}`
+
+- Reopen a specific issue:
+
+`glab issue reopen {any something}`

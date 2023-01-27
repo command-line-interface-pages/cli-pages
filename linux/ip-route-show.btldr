@@ -1,0 +1,36 @@
+# ip route show
+
+> Display subcommand for IP Routing table management
+> More information: https://manned.org/ip-route
+
+- Display the routing table:
+
+`ip route show`
+
+- Display the main routing table (same as first example):
+
+`ip route show {any something}`
+
+- Display the local routing table:
+
+`ip route show table {any something}`
+
+- Display all routing tables:
+
+`ip route show table {any something}`
+
+- List routes from a given device only:
+
+`ip route show dev {any something}`
+
+- List routes within a given scope:
+
+`ip route show scope link`
+
+- Display the routing cache:
+
+`ip route show cache`
+
+- Display only IPv6 or IPv4 routes:
+
+`ip {any something} route show`

@@ -1,0 +1,20 @@
+# cipher
+
+> Display or alter the encryption of directories and files on NTFS volumes
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cipher
+
+- Display information about a specific encrypted file or directory:
+
+`cipher /c:{directory something: path/to/file_or}`
+
+- [e]ncrypt a file or directory (files added later to the directory are also encrypted as the directory is marked):
+
+`cipher /e:{directory something: path/to/file_or}`
+
+- [d]ecrypt a file or directory:
+
+`cipher /d:{directory something: path/to/file_or}`
+
+- Securely remove a file or directory:
+
+`cipher /w:{directory something: path/to/file_or}`

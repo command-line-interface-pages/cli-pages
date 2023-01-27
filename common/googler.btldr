@@ -1,0 +1,36 @@
+# googler
+
+> Search Google from command-line
+> More information: https://github.com/jarun/googler
+
+- Search Google for a keyword:
+
+`googler {any something}`
+
+- Search Google and open the first result in web browser:
+
+`googler -j {any something}`
+
+- Show N search results (default 10):
+
+`googler -n {any something} {any something}`
+
+- Disable automatic spelling correction:
+
+`googler -x {any something}`
+
+- Search one site for a keyword:
+
+`googler -w {any something} {any something}`
+
+- Show Google search result in JSON format:
+
+`googler --json {any something}`
+
+- Perform in-place self-upgrade:
+
+`googler -u`
+
+- For more help in interactive mode:
+
+`?`

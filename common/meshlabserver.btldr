@@ -1,0 +1,24 @@
+# meshlabserver
+
+> Command-line interface for the MeshLab 3D mesh processing software
+> More information: https://manned.org/meshlabserver
+
+- Convert an STL file to an OBJ file:
+
+`meshlabserver -i {any something} -o {any something}`
+
+- Convert a WRL file to a OFF file, including the vertex and face normals in the output mesh:
+
+`meshlabserver -i {any something} -o {any something} -om vn fn`
+
+- Dump a list of all the available processing filters into a file:
+
+`meshlabserver -d {file something}`
+
+- Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
+
+`meshlabserver -i {any something} -o {any something} -s {any something}`
+
+- Process a 3D file using a filter script, writing the output of the filters into a log file:
+
+`meshlabserver -i {any something} -o {any something} -s {any something} -l {any something}`

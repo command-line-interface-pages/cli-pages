@@ -1,0 +1,32 @@
+# serve
+
+> Static file serving and directory listing
+> More information: https://github.com/vercel/serve
+
+- Start an HTTP server listening on the default port to serve the current directory:
+
+`serve`
+
+- Start an HTTP server on a specific [p]ort to serve a specific directory:
+
+`serve -p {any something} {directory something}`
+
+- Start an HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
+
+`serve --cors`
+
+- Start an HTTP server on the default port rewriting all not-found requests to the `index.html` file:
+
+`serve --single`
+
+- Start an HTTPS server on the default port using the specified certificate:
+
+`serve --ssl-cert {any something} --ssl-key {any something}`
+
+- Start an HTTP server on the default port using a specific configuration file:
+
+`serve --config {any something}`
+
+- Display help:
+
+`serve --help`

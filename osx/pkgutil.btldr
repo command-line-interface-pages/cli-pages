@@ -1,0 +1,20 @@
+# pkgutil
+
+> Query and manipulate Mac OS X Installer packages and receipts
+> More information: https://ss64.com/osx/pkgutil.html
+
+- List package IDs for all installed packages:
+
+`pkgutil --pkgs`
+
+- Verify cryptographic signatures of a package file:
+
+`pkgutil --check-signature {any something}`
+
+- List all the files for an installed package given its ID:
+
+`pkgutil --files {any something}`
+
+- Extract the contents of a package file into a directory:
+
+`pkgutil --expand-full {any something} {directory something}`

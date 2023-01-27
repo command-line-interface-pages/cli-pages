@@ -1,0 +1,33 @@
+# ex
+
+> Command-line text editor
+> See also: `vim`
+> More information: https://www.vim.org
+
+- Open a file:
+
+`ex {file something}`
+
+- Save and Quit:
+
+`wq<Enter>`
+
+- Undo the last operation:
+
+`undo<Enter>`
+
+- Search for a pattern in the file:
+
+`/{any something}<Enter>`
+
+- Perform a regular expression substitution in the whole file:
+
+`%s/{any something}/{any something}/g<Enter>`
+
+- Insert text:
+
+`i<Enter>{any something}<C-c>`
+
+- Switch to Vim:
+
+`visual<Enter>`

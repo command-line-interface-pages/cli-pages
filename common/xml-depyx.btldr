@@ -1,0 +1,16 @@
+# xml depyx
+
+> Convert a PYX (ESIS - ISO 8879) document to XML format
+> More information: http://xmlstar.sourceforge.net/docs.php
+
+- Convert a PYX (ESIS - ISO 8879) document to XML format:
+
+`xml depyx {any something} > {any something}`
+
+- Convert a PYX document from stdin to XML format:
+
+`cat {any something} | xml depyx > {any something}`
+
+- Display help for the `depyx` subcommand:
+
+`xml depyx --help`

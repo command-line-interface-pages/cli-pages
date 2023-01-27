@@ -1,0 +1,36 @@
+# dig
+
+> DNS lookup utility
+> More information: https://manned.org/dig
+
+- Lookup the IP(s) associated with a hostname (A records):
+
+`dig +short {any something}`
+
+- Get a detailed answer for a given domain (A records):
+
+`dig +noall +answer {any something}`
+
+- Query a specific DNS record type associated with a given domain name:
+
+`dig +short {any something} {any something}`
+
+- Get all types of records for a given domain name:
+
+`dig {any something} ANY`
+
+- Specify an alternate DNS server to query:
+
+`dig @{any something} {any something}`
+
+- Perform a reverse DNS lookup on an IP address (PTR record):
+
+`dig -x {any something}`
+
+- Find authoritative name servers for the zone and display SOA records:
+
+`dig +nssearch {any something}`
+
+- Perform iterative queries and display the entire trace path to resolve a domain name:
+
+`dig +trace {any something}`

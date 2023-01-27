@@ -1,0 +1,17 @@
+# ocamlc
+
+> The OCaml bytecode compiler
+> Produces executables runnable by the OCaml interpreter
+> More information: https://ocaml.org
+
+- Create a binary from a source file:
+
+`ocamlc {any something}`
+
+- Create a named binary from a source file:
+
+`ocamlc -o {any something} {any something}`
+
+- Automatically generate a module signature (interface) file:
+
+`ocamlc -i {any something}`

@@ -1,0 +1,24 @@
+# shiori
+
+> Simple bookmark manager built with Go
+> More information: https://github.com/go-shiori/shiori
+
+- Import bookmarks from HTML Netscape bookmark format file:
+
+`shiori import {any something}`
+
+- Save the specified URL as bookmark:
+
+`shiori add {any something}`
+
+- List the saved bookmarks:
+
+`shiori print`
+
+- Open the saved bookmark in a browser:
+
+`shiori open {any something}`
+
+- Start the web interface for managing bookmarks at port 8181:
+
+`shiori serve --port {int number: 8181}`

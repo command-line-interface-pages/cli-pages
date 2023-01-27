@@ -1,0 +1,20 @@
+# ajson
+
+> Executes JSONPath on JSON objects
+> More information: https://github.com/spyzhov/ajson
+
+- Read JSON from a file and execute a specified JSONPath expression:
+
+`ajson '{any something}' {any something}`
+
+- Read JSON from stdin and execute a specified JSONPath expression:
+
+`cat {any something} | ajson '{any something}'`
+
+- Read JSON from a URL and evaluate a specified JSONPath expression:
+
+`ajson '{any something}' '{any something}'`
+
+- Read some simple JSON and calculate a value:
+
+`echo '{int number: 3}' | ajson '{any something}'`

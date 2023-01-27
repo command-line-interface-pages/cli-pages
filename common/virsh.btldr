@@ -1,0 +1,37 @@
+# virsh
+
+> Manage virsh guest domains. (NOTE: 'guest_id' can be the id, name or UUID of the guest)
+> Some subcommands such as `virsh list` have their own usage documentation
+> More information: https://libvirt.org/virshcmdref.html
+
+- Connect to a hypervisor session:
+
+`virsh connect {any something}`
+
+- List all domains:
+
+`virsh list --all`
+
+- Dump guest configuration file:
+
+`virsh dumpxml {any something} > {any something}`
+
+- Create a guest from a configuration file:
+
+`virsh create {any something}`
+
+- Edit a guest's configuration file (editor can be changed with $EDITOR):
+
+`virsh edit {any something}`
+
+- Start/reboot/shutdown/suspend/resume a guest:
+
+`virsh {any something} {any something}`
+
+- Save the current state of a guest to a file:
+
+`virsh save {any something} {any something}`
+
+- Delete a running guest:
+
+`virsh destroy {any something} && virsh undefine {any something}`

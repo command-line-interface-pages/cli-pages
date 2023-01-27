@@ -1,0 +1,33 @@
+# useradd
+
+> Create a new user
+> See also: `users`, `userdel`, `usermod`
+> More information: https://manned.org/useradd
+
+- Create a new user:
+
+`sudo useradd {any something}`
+
+- Create a new user with the specified user id:
+
+`sudo useradd --uid {any something} {any something}`
+
+- Create a new user with the specified shell:
+
+`sudo useradd --shell {any something} {any something}`
+
+- Create a new user belonging to additional groups (mind the lack of whitespace):
+
+`sudo useradd --groups {any something} {any something}`
+
+- Create a new user with the default home directory:
+
+`sudo useradd --create-home {any something}`
+
+- Create a new user with the home directory filled by template directory files:
+
+`sudo useradd --skel {directory something: path/to/template} --create-home {any something}`
+
+- Create a new system user without the home directory:
+
+`sudo useradd --system {any something}`

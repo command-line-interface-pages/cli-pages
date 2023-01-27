@@ -1,0 +1,24 @@
+# for
+
+> Perform a command several times
+> More information: https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs
+
+- Execute the given commands for each of the specified items:
+
+`for {any something} in {any something}; do {any something}; done`
+
+- Iterate over a given range of numbers:
+
+`for {any something} in {{any something}..{any something}..{any something}}; do {any something}; done`
+
+- Iterate over a given list of files:
+
+`for {any something} in {file* something}; do {any something}; done`
+
+- Iterate over a given list of directories:
+
+`for {any something} in {any something}; do {any something}; done`
+
+- Perform a given command in every directory:
+
+`for {any something} in */; do (cd "${any something}" || continue; {any something}) done`

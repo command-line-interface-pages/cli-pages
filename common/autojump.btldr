@@ -1,0 +1,25 @@
+# autojump
+
+> Quickly jump among the directories you visit the most
+> Aliases like j or jc are provided for even less typing
+> More information: https://github.com/wting/autojump
+
+- Jump to a directory that contains the given pattern:
+
+`j {any something}`
+
+- Jump to a sub-directory (child) of the current directory that contains the given pattern:
+
+`jc {any something}`
+
+- Open a directory that contains the given pattern in the operating system file manager:
+
+`jo {any something}`
+
+- Remove non-existing directories from the autojump database:
+
+`j --purge`
+
+- Show the entries in the autojump database:
+
+`j -s`

@@ -1,0 +1,24 @@
+# flarectl
+
+> Official CLI for Cloudflare
+> More information: https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md
+
+- Block a specific IP:
+
+`flarectl firewall rules create --zone="{any something}" --value="{any something}" --mode="{any something}" --notes="{any something}"`
+
+- Add a DNS record:
+
+`flarectl dns create --zone="{any something}" --name="{any something}" --type="{any something}" --content="{any something}" --proxy`
+
+- List all Cloudflare IPv4/IPv6 ranges:
+
+`flarectl ips --ip-type {any something}`
+
+- Create many new Cloudflare zones automatically with names from `domains.txt`:
+
+`for domain in $(cat {any something}); do flarectl zone info --zone=$domain; done`
+
+- List all firewall rules:
+
+`flarectl firewall rules list`

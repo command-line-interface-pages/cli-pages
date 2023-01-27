@@ -1,0 +1,37 @@
+# hydra
+
+> Online password guessing tool
+> Protocols supported include FTP, HTTP(S), SMTP, SNMP, XMPP, SSH, and more
+> More information: https://github.com/vanhauser-thc/thc-hydra
+
+- Start Hydra's wizard:
+
+`hydra-wizard`
+
+- Guess SSH credentials using a given username and a list of passwords:
+
+`hydra -l {any something} -P {any something} {any something} {any something}`
+
+- Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^"):
+
+`hydra -L {any something} -P {any something} {any something} {any something} "{any something}:{any something}:{any something}"`
+
+- Guess FTP credentials using usernames and passwords lists, specifying the number of threads:
+
+`hydra -L {any something} -P {any something} -t {any something} {any something} {any something}`
+
+- Guess MySQL credentials using a username and a passwords list, exiting when a username/password pair is found:
+
+`hydra -l {any something} -P {any something} -f {any something} {any something}`
+
+- Guess RDP credentials using a username and a passwords list, showing each attempt:
+
+`hydra -l {any something} -P {any something} -V {any something}`
+
+- Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs:
+
+`hydra -C {any something} {any something}`
+
+- Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found:
+
+`hydra -L {any something} -P {any something} -M {any something} -F {any something}`

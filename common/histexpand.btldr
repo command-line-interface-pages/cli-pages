@@ -1,0 +1,36 @@
+# history expansion
+
+> Reuse and expand the shell history in `sh`, `bash`, `zsh`, `rbash` and `ksh`
+> More information: https://www.gnu.org/software/bash/manual/html_node/History-Interaction
+
+- Run the previous command as root (`!!` is replaced by the previous command):
+
+`sudo !!`
+
+- Run a command with the last argument of the previous command:
+
+`{any something} !$`
+
+- Run a command with the first argument of the previous command:
+
+`{any something} !^`
+
+- Run the Nth command of the history:
+
+`!{any something}`
+
+- Run the command `n` lines back in the history:
+
+`!-{any something}`
+
+- Run the most recent command containing `string`:
+
+`!?{any something}?`
+
+- Run the previous command, replacing `string1` with `string2`:
+
+`^{any something}^{any something}^`
+
+- Perform a history expansion, but print the command that would be run instead of actually running it:
+
+`{any something}:p`

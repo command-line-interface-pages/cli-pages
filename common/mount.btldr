@@ -1,0 +1,36 @@
+# mount
+
+> Provides access to an entire filesystem in one directory
+> More information: https://manned.org/mount.8
+
+- Show all mounted filesystems:
+
+`mount`
+
+- Mount a device to a directory:
+
+`mount -t {any something} {file something: path/to/device} {directory something: path/to/target}`
+
+- Create a specific directory if it does not exist and mount a device to it:
+
+`mount --mkdir {file something: path/to/device} {directory something: path/to/target}`
+
+- Mount a device to a directory for a specific user:
+
+`mount -o uid={any something},gid={any something} {file something: path/to/device} {directory something: path/to/target}`
+
+- Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
+
+`mount -t {any something} -o ro {any something} {any something}`
+
+- Mount all the filesystem defined in `/etc/fstab`:
+
+`mount -a`
+
+- Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /my_drive ext2 defaults 0 2`):
+
+`mount {any something}`
+
+- Mount a directory to another directory:
+
+`mount --bind {directory something: old} {directory something: new}`

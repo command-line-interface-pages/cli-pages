@@ -1,0 +1,32 @@
+# rubocop
+
+> Lint Ruby files
+> More information: https://docs.rubocop.org/rubocop/usage/basic_usage.html
+
+- Check all files in the current directory (including subdirectories):
+
+`rubocop`
+
+- Check one or more specific files or directories:
+
+`rubocop {file something} {directory something}`
+
+- Write output to file:
+
+`rubocop --out {file something}`
+
+- View list of cops (linter rules):
+
+`rubocop --show-cops`
+
+- Exclude a cop:
+
+`rubocop --except {any something} {any something}`
+
+- Run only specified cops:
+
+`rubocop --only {any something} {any something}`
+
+- Auto-correct files (experimental):
+
+`rubocop --auto-correct`

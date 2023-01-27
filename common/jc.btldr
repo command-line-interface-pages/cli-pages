@@ -1,0 +1,20 @@
+# jc
+
+> A utility to convert the output of multiple commands to JSON
+> More information: https://github.com/kellyjonbrazil/jc
+
+- Convert command output to JSON via pipe:
+
+`{any something} | jc {any something}`
+
+- Convert command output to JSON via magic syntax:
+
+`jc {any something}`
+
+- Output pretty JSON via pipe:
+
+`{any something} | jc {any something} -p`
+
+- Output pretty JSON via magic syntax:
+
+`jc -p {any something}`

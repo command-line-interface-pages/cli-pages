@@ -1,0 +1,20 @@
+# youtube-viewer
+
+> Command-line application for searching and playing videos from YouTube
+> More information: https://github.com/trizen/youtube-viewer
+
+- Search for a video:
+
+`youtube-viewer {any something}`
+
+- Log in to your YouTube account:
+
+`youtube-viewer --login`
+
+- Watch a video with a specific URL in VLC:
+
+`youtube-viewer --player={any something} {any something}`
+
+- Display a search prompt and play the selected video in 720p:
+
+`youtube-viewer -{int number: 7}`

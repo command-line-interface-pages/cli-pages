@@ -1,0 +1,25 @@
+# az storage blob
+
+> Manage blob storage containers and objects in Azure
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/storage/blob
+
+- Download a blob to a file path:
+
+`az storage blob download --account-name {any something} --account-key {any something} -c {any something} -n {any something} -f {file something: path/to/local}`
+
+- Download blobs from a blob container recursively:
+
+`az storage blob download-batch --account-name {any something} --account-key {any something} -s {any something} -d {any something} --pattern {any something} --destination {any something}`
+
+- Upload a local file to blob storage:
+
+`az storage blob upload --account-name {any something} --account-key {any something} -c {any something} -n {any something} -f {file something: path/to/local}`
+
+- Delete a blob object:
+
+`az storage blob delete --account-name {any something} --account-key {any something} -c {any something} -n {any something}`
+
+- Generate a shared access signature for a blob:
+
+`az storage blob generate-sas --account-name {any something} --account-key {any something} -c {any something} -n {any something} --permissions {any something} --expiry {any something} --https-only`

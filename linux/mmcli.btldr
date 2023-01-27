@@ -1,0 +1,12 @@
+# mmcli
+
+> Control and monitor the ModemManager
+> More information: https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html
+
+- List SMS messages available on the modem:
+
+`sudo mmcli --modem={any something} --messaging-list-sms`
+
+- Delete a message from the modem, specifying its path:
+
+`sudo mmcli --modem={any something} --messaging-delete-sms={file something: path/to/message}`

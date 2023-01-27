@@ -1,0 +1,24 @@
+# kubectl describe
+
+> Show details of Kubernetes objects and resources
+> More information: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe
+
+- Show details of pods in a namespace:
+
+`kubectl describe pods -n {any something}`
+
+- Show details of nodes in a namespace:
+
+`kubectl describe nodes -n {any something}`
+
+- Show the details of a specific pod in a namespace:
+
+`kubectl describe pods {any something} -n {any something}`
+
+- Show the details of a specific node in a namespace:
+
+`kubectl describe nodes {any something} -n {any something}`
+
+- Show details of Kubernetes objects defined in a YAML manifest:
+
+`kubectl describe -f {any something}`

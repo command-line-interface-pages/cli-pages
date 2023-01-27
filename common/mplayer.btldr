@@ -1,0 +1,28 @@
+# mplayer
+
+> Cross-platform multimedia player
+> More information: https://mplayerhq.hu/DOCS/HTML/en/commandline.html
+
+- Play the specified file or URL:
+
+`mplayer {any something}`
+
+- Play multiple files:
+
+`mplayer {file* something}`
+
+- Play a specific file repeatedly:
+
+`mplayer -loop {int number: 0} {file something}`
+
+- Pause playback:
+
+`<Space>`
+
+- Quit mplayer:
+
+`<Escape>`
+
+- Seek backward or forward 10 seconds:
+
+`<Left> or <Right>`

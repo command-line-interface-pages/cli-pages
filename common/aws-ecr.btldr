@@ -1,0 +1,36 @@
+# aws ecr
+
+> Push, pull, and manage container images
+> More information: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html
+
+- Authenticate Docker with the default registry (username is AWS):
+
+`aws ecr get-login-password --region {any something} | {any something} --username AWS --password-stdin {any something}.dkr.ecr.{any something}.amazonaws.com`
+
+- Create a repository:
+
+`aws ecr create-repository --repository-name {any something} --image-scanning-configuration scanOnPush={any something} --region {any something}`
+
+- Tag a local image for ECR:
+
+`docker tag {any something}:{any something} {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+
+- Push an image to a repository:
+
+`docker push {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+
+- Pull an image from a repository:
+
+`docker pull {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+
+- Delete an image from a repository:
+
+`aws ecr batch-delete-image  --repository-name {any something} --image-ids imageTag={any something}`
+
+- Delete a repository:
+
+`aws ecr delete-repository --repository-name {any something} --force`
+
+- List images within a repository:
+
+`aws ecr list-images --repository-name {any something}`

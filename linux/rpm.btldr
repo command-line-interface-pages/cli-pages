@@ -1,0 +1,37 @@
+# rpm
+
+> RPM Package Manager
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>
+> More information: https://rpm.org/
+
+- Show version of httpd package:
+
+`rpm --query {any something}`
+
+- List versions of all matching packages:
+
+`rpm --query --all '{any something}'`
+
+- Forcibly install a package regardless of currently installed versions:
+
+`rpm --upgrade {any something} --force`
+
+- Identify owner of a file and show version of the package:
+
+`rpm --query --file {any something}`
+
+- List package-owned files:
+
+`rpm --query --list {any something}`
+
+- Show scriptlets from an RPM file:
+
+`rpm --query --package --scripts {any something}`
+
+- Show changed, missing and/or incorrectly installed files of matching packages:
+
+`rpm --verify --all '{any something}'`
+
+- Display the changelog of a specific package:
+
+`rpm --query --changelog {any something}`

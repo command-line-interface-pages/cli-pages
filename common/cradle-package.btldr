@@ -1,0 +1,32 @@
+# cradle package
+
+> Manage packages for a Cradle instance
+> More information: https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package
+
+- Display a list of available packages:
+
+`cradle package list`
+
+- Search for a package:
+
+`cradle package search {any something}`
+
+- Install a package from Packagist:
+
+`cradle package install {any something}`
+
+- Install a specific version of a package:
+
+`cradle package install {any something} {any something}`
+
+- Update a package:
+
+`cradle package update {any something}`
+
+- Update a package to a specific version:
+
+`cradle package update {any something} {any something}`
+
+- Remove a specific package:
+
+`cradle package remove {any something}`

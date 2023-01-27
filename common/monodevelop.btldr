@@ -1,0 +1,28 @@
+# monodevelop
+
+> Cross platform IDE for C#, F# and more
+> More information: https://www.monodevelop.com/
+
+- Start MonoDevelop:
+
+`monodevelop`
+
+- Open a specific file:
+
+`monodevelop {file something}`
+
+- Open a specific file with the caret at a specific position:
+
+`monodevelop {file something};{any something};{any something}`
+
+- Force opening a new window instead of switching to an existing one:
+
+`monodevelop --new-window`
+
+- Disable redirection of stdout and stderr to a log file:
+
+`monodevelop --no-redirect`
+
+- Enable performance monitoring:
+
+`monodevelop --perf-log`

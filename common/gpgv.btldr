@@ -1,0 +1,16 @@
+# gpgv
+
+> Verify OpenPGP signatures
+> More information: https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html
+
+- Verify a signed file:
+
+`gpgv {file something}`
+
+- Verify a signed file using a detached signature:
+
+`gpgv {any something} {file something}`
+
+- Add a file to the list of keyrings (a single exported key also counts as a keyring):
+
+`gpgv --keyring {any something} {any something} {file something}`

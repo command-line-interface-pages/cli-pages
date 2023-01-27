@@ -1,0 +1,33 @@
+# az pipelines
+
+> Manage Azure Pipelines resources
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/pipelines
+
+- Create a new Azure Pipeline (YAML based):
+
+`az pipelines create --org {any something} --project {any something} --name {any something} --description {any something} --repository {any something} --branch {any something}`
+
+- Delete a specific pipeline:
+
+`az pipelines delete --org {any something} --project {any something} --id {any something}`
+
+- List pipelines:
+
+`az pipelines list --org {any something} --project {any something}`
+
+- Enqueue a specific pipeline to run:
+
+`az pipelines run --org {any something} --project {any something} --name {any something}`
+
+- Get the details of a specific pipeline:
+
+`az pipelines show --org {any something} --project {any something} --name {any something}`
+
+- Update a specific pipeline:
+
+`az pipelines update --org {any something} --project {any something} --name {any something} --new-name {any something} --new-folder-path {any something}`
+
+- Get a list of agents in a pool:
+
+`az pipelines agent list --org {any something} --pool-id {any something}`

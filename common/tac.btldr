@@ -1,0 +1,25 @@
+# tac
+
+> Display and concatenate files with lines in reversed order
+> See also: `cat`
+> More information: https://www.gnu.org/software/coreutils/tac
+
+- Concatenate specific files in reversed order:
+
+`tac {file* something}`
+
+- Display stdin in reversed order:
+
+`{any something} | tac`
+
+- Use a specific [s]eparator:
+
+`tac -s {any something} {file* something}`
+
+- Use a specific [r]egex as a [s]eparator:
+
+`tac -r -s {any something} {file* something}`
+
+- Use a separator [b]efore each file:
+
+`tac -b {file* something}`

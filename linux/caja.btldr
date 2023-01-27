@@ -1,0 +1,24 @@
+# caja
+
+> Manages files and directories in MATE desktop environment
+> More information: https://manned.org/caja
+
+- Open the current user home directory:
+
+`caja`
+
+- Open specific directories in separate windows:
+
+`caja {directory* something}`
+
+- Open specific directories in tabs:
+
+`caja --tabs {directory* something}`
+
+- Open a directory with a specific window size:
+
+`caja --geometry={int number: 600}x{int number: 400} {directory something}`
+
+- Close all windows:
+
+`caja --quit`

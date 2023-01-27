@@ -1,0 +1,36 @@
+# kdeconnect-cli
+
+> KDE's Connect CLI
+> More information: https://kdeconnect.kde.org
+
+- List all devices:
+
+`kdeconnect-cli --list-devices`
+
+- List available (paired and reachable) devices:
+
+`kdeconnect-cli --list-available`
+
+- Request pairing with a specific device, specifying its ID:
+
+`kdeconnect-cli --pair --device {any something}`
+
+- Ring a device, specifying its name:
+
+`kdeconnect-cli --ring --name "{any something}"`
+
+- Share an URL or file with a paired device, specifying its ID:
+
+`kdeconnect-cli --share {any something} --device {any something}`
+
+- Send an SMS with an optional attachment to a specific number:
+
+`kdeconnect-cli --name "{any something}" --send-sms "{any something}" --destination {any something} --attachment {file something}`
+
+- Unlock a specific device:
+
+`kdeconnect-cli --name "{any something}" --unlock`
+
+- Simulate a key press on a specific device:
+
+`kdeconnect-cli --name "{any something}" --send-keys {any something}`

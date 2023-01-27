@@ -1,0 +1,28 @@
+# vgmstream_cli
+
+> Play a wide variety of audio formats used in video games and convert them into `wav`
+> More information: https://vgmstream.org/doc/USAGE
+
+- Decode an `adc` file to `wav`. (Default output name is `input.wav`):
+
+`vgmstream_cli {any something} -o {any something}`
+
+- Print metadata without decoding the audio:
+
+`vgmstream_cli {any something} -m`
+
+- Decode an audio file without loops:
+
+`vgmstream_cli {any something} -o {any something} -i`
+
+- Decode with three loops, then add a 3s delay followed by a 5s fadeout:
+
+`vgmstream_cli {any something} -o {any something} -l {float number: 3.0} -f {float number: 5.0} -d {float number: 3.0}`
+
+- Convert multiple files to `bgm_(original name).wav` (Default `-o` pattern is `?f.wav`):
+
+`vgmstream_cli -o {any something} {any something} {any something}`
+
+- Play the file looping endlessly (`channels` and `rate` must match metadata):
+
+`vgmstream_cli {any something} -pec | aplay --format cd --channels {int number: 1} --rate {int number: 44100}`

@@ -1,0 +1,36 @@
+# aws sqs
+
+> Create, delete, and send messages to queues for the AWS SQS service
+> More information: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html
+
+- List all availables queues:
+
+`aws sqs list-queues`
+
+- Display the URL of a specific queue:
+
+`aws sqs get-queue-url --queue-name {any something}`
+
+- Create a queue with specific attributes from a file in JSON format:
+
+`aws sqs create-queue --queue-name {any something} --attributes {any something}`
+
+- Send a specific message to a queue:
+
+`aws sqs send-message --queue-url https://sqs.{any something}.amazonaws.com/{any something} --message-body "{any something}" --delay-seconds {any something} --message-attributes {any something}`
+
+- Delete the specified message from a queue:
+
+`aws sqs delete-message --queue-url {any something} --receipt-handle {any something}`
+
+- Delete a specific queue:
+
+`aws sqs delete-queue --queue-url https://sqs.{any something}.amazonaws.com/{any something}`
+
+- Delete all messages from the specified queue:
+
+`aws sqs purge-queue --queue-url https://sqs.{any something}.amazonaws.com/{any something}`
+
+- Enable a specific AWS account to send messages to queue:
+
+`aws sqs add-permission --queue-url https://sqs.{any something}.amazonaws.com/{any something} --label {any something} --aws-account-ids {any something} --actions SendMessage`

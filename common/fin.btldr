@@ -1,0 +1,24 @@
+# fin
+
+> Docksal command-line utility
+> More information: https://docs.docksal.io/fin/fin/
+
+- Start the project in the current directory:
+
+`fin project start`
+
+- Stop the project in the current directory:
+
+`fin project stop`
+
+- Open a shell into a specific container:
+
+`fin bash {any something}`
+
+- Display logs of a specific container:
+
+`fin logs {any something}`
+
+- Display logs of a specific container and follow the log:
+
+`fin logs -f {any something}`

@@ -1,0 +1,28 @@
+# wine
+
+> Run Windows executables on Unix-based systems
+> More information: https://wiki.winehq.org/
+
+- Run a specific program inside the `wine` environment:
+
+`wine {any something}`
+
+- Run a specific program in background:
+
+`wine start {any something}`
+
+- Install/uninstall an MSI package:
+
+`wine msiexec /{any something} {any something}`
+
+- Run `File Explorer`, `Notepad`, or `WordPad`:
+
+`wine {any something}`
+
+- Run `Registry Editor`, `Control Panel`, or `Task Manager`:
+
+`wine {any something}`
+
+- Run the configuration tool:
+
+`wine winecfg`

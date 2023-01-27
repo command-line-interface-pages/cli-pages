@@ -1,0 +1,20 @@
+# libreoffice
+
+> CLI for the powerful and free office suite LibreOffice
+> More information: https://www.libreoffice.org/
+
+- Open a space-separated list of files in read-only mode:
+
+`libreoffice --view {any something} {any something}`
+
+- Display the content of specific files:
+
+`libreoffice --cat {any something} {any something}`
+
+- Print files to a specific printer:
+
+`libreoffice --pt {any something} {any something} {any something}`
+
+- Convert all `.doc` files in current directory to PDF:
+
+`libreoffice --convert-to {any something} {any something}`

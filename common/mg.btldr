@@ -1,0 +1,20 @@
+# mg
+
+> A small, fast, and portable text editor based on `emacs`
+> More information: https://github.com/hboetes/mg
+
+- Open a file for editing:
+
+`mg {file something}`
+
+- Open a file at a specified line number:
+
+`mg +{any something} {file something}`
+
+- Open files in a read-only mode:
+
+`mg -R {file* something}`
+
+- Disable `~` backup files while editing:
+
+`mg -n {file something}`

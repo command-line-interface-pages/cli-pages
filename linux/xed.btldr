@@ -1,0 +1,24 @@
+# xed
+
+> Edit files in Cinnamon desktop environment
+> More information: https://github.com/linuxmint/xed
+
+- Start the editor:
+
+`xed`
+
+- Open specific files:
+
+`xed {file* something}`
+
+- Open files using a specific encoding:
+
+`xed --encoding {any something} {file* something}`
+
+- Print all supported encodings:
+
+`xed --list-encodings`
+
+- Open a file and go to a specific line:
+
+`xed +{int number: 10} {file something}`

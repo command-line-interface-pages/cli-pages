@@ -1,0 +1,28 @@
+# pv
+
+> Monitor the progress of data through a pipe
+> More information: https://manned.org/pv
+
+- Print the contents of the file and display a progress bar:
+
+`pv {file something}`
+
+- Measure the speed and amount of data flow between pipes (`--size` is optional):
+
+`command1 | pv --size {any something} | command2`
+
+- Filter a file, see both progress and amount of output data:
+
+`pv -cN in {file something: big_text} | grep {any something} | pv -cN out > {file something: filtered}`
+
+- Attach to an already running process and see its file reading progress:
+
+`pv -d {any something}`
+
+- Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
+
+`pv -EE {any something} > image.img`
+
+- Stop reading after reading specified amount of data, rate limit to 1K/s:
+
+`pv -L 1K --stop-at --size {any something}`

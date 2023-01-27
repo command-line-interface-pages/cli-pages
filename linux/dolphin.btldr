@@ -1,0 +1,32 @@
+# dolphin
+
+> KDE's file manager to manage files and directories
+> More information: https://apps.kde.org/dolphin/
+
+- Launch the file manager:
+
+`dolphin`
+
+- Open specific directories:
+
+`dolphin {directory* something}`
+
+- Open with specific files or directories selected:
+
+`dolphin --select {path* something}`
+
+- Open a new window:
+
+`dolphin --new-window`
+
+- Open specific directories in split view:
+
+`dolphin --split {any something} {any something}`
+
+- Launch the daemon (only required to use the DBus interface):
+
+`dolphin --daemon`
+
+- Display help:
+
+`dolphin --help`

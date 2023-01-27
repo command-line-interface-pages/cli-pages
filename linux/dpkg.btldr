@@ -1,0 +1,30 @@
+# dpkg
+
+> Debian package manager
+> Some subcommands such as `dpkg deb` have their own usage documentation
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>
+> More information: https://manpages.debian.org/latest/dpkg/dpkg.html
+
+- Install a package:
+
+`dpkg -i {any something}`
+
+- Remove a package:
+
+`dpkg -r {any something}`
+
+- List installed packages:
+
+`dpkg -l {any something}`
+
+- List a package's contents:
+
+`dpkg -L {any something}`
+
+- List contents of a local package file:
+
+`dpkg -c {any something}`
+
+- Find out which package owns a file:
+
+`dpkg -S {any something}`

@@ -1,0 +1,28 @@
+# pueue add
+
+> Enqueue a task for execution
+> More information: https://github.com/Nukesor/pueue
+
+- Add any command to the default queue:
+
+`pueue add {any something}`
+
+- Pass a list of flags or arguments to a command when enqueuing:
+
+`pueue add -- {any something}`
+
+- Add a command but do not start it if it's the first in a queue:
+
+`pueue add --stashed -- {any something}`
+
+- Add a command to a group and start it immediately, see `pueue group` to manage groups:
+
+`pueue add --immediate --group "{any something}" -- {any something}`
+
+- Add a command and start it after commands 9 and 12 finish successfully:
+
+`pueue add --after {int number: 9} {int number: 12} --group "{any something}" -- {any something}`
+
+- Add a command with a label after some delay has passed, see `pueue enqueue` for valid datetime formats:
+
+`pueue add --label "{any something}" --delay "{any something}" -- "{any something}"`

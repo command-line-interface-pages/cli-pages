@@ -1,0 +1,28 @@
+# tmsu
+
+> Simple command-line tool for tagging files
+> More information: https://tmsu.org
+
+- Tag a specific file with multiple tags:
+
+`tmsu tag {any something} {any something} {any something} {any something}`
+
+- Tag multiple files:
+
+`tmsu tag --tags "{any something}" {any something}`
+
+- List tags of specified file(s):
+
+`tmsu tags {any something}`
+
+- List files with specified tag(s):
+
+`tmsu files {any something} {any something}`
+
+- List files with tags matching boolean expression:
+
+`tmsu files "{any something} and {any something}"`
+
+- Mount tmsu virtual filesystem to an existing directory:
+
+`tmsu mount {directory something}`

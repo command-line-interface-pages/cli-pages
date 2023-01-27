@@ -1,0 +1,28 @@
+# mutagen
+
+> Real-time file synchronization and network forwarding tool
+> More information: https://mutagen.io
+
+- Start a synchronization session between a local directory and a remote host:
+
+`mutagen sync create --name={any something} {any something} {any something}@{any something}:{any something}`
+
+- Start a synchronization session between a local directory and a Docker container:
+
+`mutagen sync create --name={any something} {any something} docker://{any something}@{any something}{any something}`
+
+- Stop a running session:
+
+`mutagen sync terminate {any something}`
+
+- Start a project:
+
+`mutagen project start`
+
+- Stop a project:
+
+`mutagen project terminate`
+
+- List running sessions for the current project:
+
+`mutagen project list`

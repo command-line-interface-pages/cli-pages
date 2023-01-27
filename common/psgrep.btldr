@@ -1,0 +1,16 @@
+# psgrep
+
+> Search running processes with `grep`
+> More information: https://jvz.github.io/psgrep
+
+- Find process lines containing a specific string:
+
+`psgrep {any something}`
+
+- Find process lines containing a specific string, excluding headers:
+
+`psgrep -n {any something}`
+
+- Search using a simplified format (PID, user, command):
+
+`psgrep -s {any something}`

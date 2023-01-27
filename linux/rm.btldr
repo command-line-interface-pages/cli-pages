@@ -1,0 +1,25 @@
+# rm
+
+> Remove files or directories
+> See also: `rmdir`
+> More information: https://www.gnu.org/software/coreutils/rm
+
+- Remove specific files:
+
+`rm {file* something}`
+
+- Remove specific files ignoring nonexistent ones:
+
+`rm --force {file* something}`
+
+- Remove specific files interactively prompting before each removal:
+
+`rm --interactive {file* something}`
+
+- Remove specific files printing info about each removal:
+
+`rm --verbose {file* something}`
+
+- Remove specific files and directories recursively:
+
+`rm --recursive {path* something}`

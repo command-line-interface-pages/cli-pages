@@ -1,0 +1,12 @@
+# mdls
+
+> Display the metadata attributes for a file
+> More information: https://ss64.com/osx/mdls.html
+
+- Display the list of metadata attributes for file:
+
+`mdls {file something}`
+
+- Display a specific metadata attribute:
+
+`mdls -name {any something} {file something}`

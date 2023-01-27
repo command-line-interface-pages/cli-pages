@@ -1,0 +1,24 @@
+# airpaste
+
+> Share messages and files on the same network using mDNS
+> More information: https://github.com/mafintosh/airpaste
+
+- Wait for a message and display it when received:
+
+`airpaste`
+
+- Send text:
+
+`echo {any something} | airpaste`
+
+- Send a file:
+
+`airpaste < {file something}`
+
+- Receive a file:
+
+`airpaste > {file something}`
+
+- Create or join a channel:
+
+`airpaste {any something}`

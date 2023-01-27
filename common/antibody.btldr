@@ -1,0 +1,16 @@
+# antibody
+
+> "The fastest" shell plugin manager
+> More information: https://getantibody.github.io
+
+- Bundle all plugins for static loading:
+
+`antibody bundle < {any something} > {any something}`
+
+- Update all bundles:
+
+`antibody update`
+
+- List all installed plugins:
+
+`antibody list`

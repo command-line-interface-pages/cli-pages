@@ -1,0 +1,29 @@
+# route
+
+> Manually manipulate the routing tables
+> Necessitates to be root
+> More information: https://www.manpagez.com/man/8/route/
+
+- Add a route to a destination through a gateway:
+
+`sudo route add "{any something}" "{any something}"`
+
+- Add a route to a /24 subnet through a gateway:
+
+`sudo route add "{any something}/24" "{any something}"`
+
+- Run in test mode (does not do anything, just print):
+
+`sudo route -t add "{any something}/24" "{any something}"`
+
+- Remove all routes:
+
+`sudo route flush`
+
+- Delete a specific route:
+
+`sudo route delete "{any something}/24"`
+
+- Lookup and display the route for a destination (hostname or IP address):
+
+`sudo route get "{any something}"`

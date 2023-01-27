@@ -1,0 +1,24 @@
+# kops
+
+> Create, destroy, upgrade and maintain Kubernetes clusters from the command-line
+> More information: https://github.com/kubernetes/kops/
+
+- Create a cluster from the configuration specification:
+
+`kops create cluster -f {any something}`
+
+- Create a new ssh public key:
+
+`kops create secret sshpublickey {any something} -i {any something}`
+
+- Export the cluster configuration to the `~/.kube/config` file:
+
+`kops export kubecfg {any something}`
+
+- Get the cluster configuration as YAML:
+
+`kops get cluster {any something} -o yaml`
+
+- Delete a cluster:
+
+`kops delete cluster {any something} --yes`

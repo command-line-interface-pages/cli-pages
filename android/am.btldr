@@ -1,0 +1,20 @@
+# am
+
+> Android activity manager
+> More information: https://developer.android.com/studio/command-line/adb#am
+
+- Start a specific activity stdin:
+
+`am start {directory* something: remote} {/directory* something: remote} {directory something: path/to/file_or} -n {any something}`
+
+- Start an activity and pass [d]ata to it:
+
+`am start -a {any something} {any something} -d {any something}`
+
+- Start an activity matching a specific action and [c]ategory:
+
+`am start -a {any something} -c {any something}`
+
+- Convert an intent to a URI:
+
+`am to-uri -a {any something} -d {any something}`

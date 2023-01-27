@@ -1,0 +1,20 @@
+# Medusa
+
+> A modular and parallel login brute-forcer for a variety of protocols
+> More information: https://manned.org/medusa
+
+- Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
+
+`medusa -M ftp -h host -U {file something: path/to/username} -P {file something: path/to/password}`
+
+- Execute a login attempt against an HTTP server using the username, password and user-agent specified:
+
+`medusa -M HTTP -h host -u {any something} -p {any something} -m USER-AGENT:"{any something}"`
+
+- Execute a brute force against a MySQL server using a file containing usernames and a hash:
+
+`medusa -M mysql -h host -U {file something: path/to/username} -p {any something} -m PASS:HASH`
+
+- Execute a brute force against a list of SMB servers using a username and a pwdump file:
+
+`medusa -M smbnt -H {file something: path/to/hosts} -C {file something: path/to/pwdump} -u {any something} -m PASS:HASH`

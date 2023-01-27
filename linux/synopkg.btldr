@@ -1,0 +1,36 @@
+# synopkg
+
+> Package management utility for Synology DiskStation Manager
+> More information: https://www.synology.com/dsm
+
+- List the names of installed packages:
+
+`synopkg list --name`
+
+- List packages which depend on a specific package:
+
+`synopkg list --depend-on {any something}`
+
+- Start/Stop a package:
+
+`sudo synopkg {any something} {any something}`
+
+- Print the status of a package:
+
+`synopkg status {any something}`
+
+- Uninstall a package:
+
+`sudo synopkg uninstall {any something}`
+
+- Check if updates are available for a package:
+
+`synopkg checkupdate {any something}`
+
+- Upgrade all packages to the latest version:
+
+`sudo synopkg upgradeall`
+
+- Install a package from a synopkg file:
+
+`sudo synopkg install {any something}`

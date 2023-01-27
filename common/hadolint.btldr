@@ -1,0 +1,24 @@
+# hadolint
+
+> Dockerfile linter
+> More information: https://github.com/hadolint/hadolint
+
+- Lint a Dockerfile:
+
+`hadolint {any something}`
+
+- Lint a Dockerfile, displaying the output in JSON format:
+
+`hadolint --format {any something} {any something}`
+
+- Lint a Dockerfile, displaying the output in a specific format:
+
+`hadolint --format {any something} {any something}`
+
+- Lint a Dockerfile ignoring specific rules:
+
+`hadolint --ignore {any something} --ignore {any something} {any something}`
+
+- Lint multiple Dockerfiles using specific trusted registries:
+
+`hadolint --trusted-registry {any something} --trusted-registry {any something}:{int number: 5000} {any something} {any something}`

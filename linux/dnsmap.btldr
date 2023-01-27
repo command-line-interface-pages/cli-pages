@@ -1,0 +1,20 @@
+# dnsmap
+
+> The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org
+> More information: https://github.com/resurrecting-open-source-projects/dnsmap
+
+- Scan for subdomains using the internal wordlist:
+
+`dnsmap {any something}`
+
+- Specify a list of subdomains to check for:
+
+`dnsmap {any something} -w {any something}`
+
+- Store results to a CSV file:
+
+`dnsmap {any something} -c {any something}`
+
+- Ignore 2 IPs that are false positives (up to 5 possible):
+
+`dnsmap {any something} -i {any something}`

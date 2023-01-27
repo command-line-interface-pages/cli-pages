@@ -1,0 +1,25 @@
+# snoop
+
+> Network packet sniffer
+> SunOS equivalent of tcpdump
+> More information: https://www.unix.com/man-page/sunos/1m/snoop
+
+- Capture packets on a specific network interface:
+
+`snoop -d {any something}`
+
+- Save captured packets in a file instead of displaying them:
+
+`snoop -o {any something}`
+
+- Display verbose protocol layer summary of packets from a file:
+
+`snoop -V -i {any something}`
+
+- Capture network packets that come from a hostname and go to a given port:
+
+`snoop to port {any something} from host {any something}`
+
+- Capture and show a hex-dump of network packets exchanged between two IP addresses:
+
+`snoop -x0 -p4 {any something} {any something}`

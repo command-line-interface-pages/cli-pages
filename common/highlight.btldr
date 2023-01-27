@@ -1,0 +1,24 @@
+# highlight
+
+> Outputs syntax-highlighted source code to a variety of formats
+> More information: http://www.andre-simon.de/doku/highlight/highlight.php
+
+- Produce a complete HTML document from a source code file:
+
+`highlight --out-format={any something} --style {any something} --syntax {any something} {any something}`
+
+- Produce an HTML fragment, suitable for inclusion in a larger document:
+
+`highlight --out-format={any something} --fragment --syntax {any something} {file something: source}`
+
+- Inline the CSS styling in every tag:
+
+`highlight --out-format={any something} --inline-css --syntax {any something} {file something: source}`
+
+- List all supported languages, themes, or plugins:
+
+`highlight --list-scripts {any something}`
+
+- Print a CSS stylesheet for a theme:
+
+`highlight --out-format={any something} --print-style --style {any something} --syntax {any something}] --stdout`

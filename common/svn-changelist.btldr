@@ -1,0 +1,24 @@
+# svn changelist
+
+> Associate a changelist with a set of files
+> More information: http://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html
+
+- Add files to a changelist, creating the changelist if it does not exist:
+
+`svn changelist {any something} {any something} {any something}`
+
+- Remove files from a changelist:
+
+`svn changelist --remove {any something} {any something}`
+
+- Remove the whole changelist at once:
+
+`svn changelist --remove --recursive --changelist {any something} .`
+
+- Add the contents of a space-separated list of directories to a changelist:
+
+`svn changelist --recursive {any something} {any something} {any something}`
+
+- Commit a changelist:
+
+`svn commit --changelist {any something}`

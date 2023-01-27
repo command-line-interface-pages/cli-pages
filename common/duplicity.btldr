@@ -1,0 +1,29 @@
+# duplicity
+
+> Creates incremental, compressed, encrypted and versioned backups
+> Can also upload the backups to a variety of backend services
+> More information: http://duplicity.nongnu.org
+
+- Backup a directory via FTPS to a remote machine, encrypting it with a password:
+
+`FTP_PASSWORD={any something} PASSPHRASE={any something} duplicity {any something} {any something}`
+
+- Backup a directory to Amazon S3, doing a full backup every month:
+
+`duplicity --full-if-older-than {any something} --use-new-style s3://{any something}`
+
+- Delete versions older than 1 year from a backup stored on a WebDAV share:
+
+`FTP_PASSWORD={any something} duplicity remove-older-than {any something} --force {any something}`
+
+- List the available backups:
+
+`duplicity collection-status "file://{any something}"`
+
+- List the files in a backup stored on a remote machine, via ssh:
+
+`duplicity list-current-files --time {any something} scp://{any something}/path/to/backup/dir`
+
+- Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
+
+`PASSPHRASE={any something} duplicity restore --encrypt-key {any something} --file-to-restore {any something} file://{any something} {any something}`

@@ -1,0 +1,36 @@
+# betty
+
+> Use natural language to execute commands
+> More information: https://github.com/pickhardt/betty
+
+- Ask Betty something:
+
+`betty {any something}`
+
+- Ask Betty version:
+
+`betty version`
+
+- Download a file:
+
+`betty download {any something} to {any something}`
+
+- Compress a file or directory to one of the support archive formats:
+
+`betty {any something} {directory something: path/to/file_or}`
+
+- Extract an archive into the current directory:
+
+`betty {any something} {any something}`
+
+- Extract an archive into a directory:
+
+`betty unarchive {any something} to {directory something}`
+
+- Play Spotify:
+
+`betty play {any something}`
+
+- Drive Betty to madness:
+
+`betty go crazy`

@@ -1,0 +1,20 @@
+# notify-send
+
+> Uses the current desktop environment's notification system to create a notification
+> More information: https://manned.org/notify-send
+
+- Show a notification with the title "Test" and the content "This is a test":
+
+`notify-send "{any something}" "{any something}"`
+
+- Show a notification with a custom icon:
+
+`notify-send -i {any something} "{any something}" "{any something}"`
+
+- Show a notification for 5 seconds:
+
+`notify-send -t 5000 "{any something}" "{any something}"`
+
+- Show a notification with an app's icon and name:
+
+`notify-send "{any something}" --icon={any something} --app-name="{any something}"`

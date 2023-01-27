@@ -1,0 +1,28 @@
+# hyperfine
+
+> A command-line benchmarking tool
+> More information: https://github.com/sharkdp/hyperfine/
+
+- Run a basic benchmark, performing at least 10 runs:
+
+`hyperfine '{any something}'`
+
+- Run a comparative benchmark:
+
+`hyperfine '{any something}' '{any something}'`
+
+- Change minimum number of benchmarking runs:
+
+`hyperfine --min-runs {int number: 7} '{any something}'`
+
+- Perform benchmark with warmup:
+
+`hyperfine --warmup {int number: 5} '{any something}'`
+
+- Run a command before each benchmark run (to clear caches, etc.):
+
+`hyperfine --prepare '{any something}' '{any something}'`
+
+- Run a benchmark where a single parameter changes for each run:
+
+`hyperfine --prepare '{any something}' --parameter-scan {any something} {int number: 1} {int number: 10} '{{make -j {num_threads}}}'`

@@ -1,0 +1,28 @@
+# stern
+
+> Tail multiple pods and containers from Kubernetes
+> More information: https://github.com/wercker/stern/
+
+- Tail all pods within a current namespace:
+
+`stern .`
+
+- Tail all pods with a specific status:
+
+`stern . --container-state {any something}`
+
+- Tail all pods that matches a given regular expression:
+
+`stern {any something}`
+
+- Tail matched pods from all namespaces:
+
+`stern {any something} --all-namespaces`
+
+- Tail matched pods from 15 minutes ago:
+
+`stern {any something} --since {any something}`
+
+- Tail matched pods with a specific label:
+
+`stern {any something} --selector {any something}`

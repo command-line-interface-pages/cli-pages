@@ -1,0 +1,28 @@
+# phpcbf
+
+> Fix violations detected by phpcs
+> More information: https://github.com/squizlabs/PHP_CodeSniffer
+
+- Fix issues in the specified directory (defaults to the PEAR standard):
+
+`phpcbf {directory something}`
+
+- Display a list of installed coding standards:
+
+`phpcbf -i`
+
+- Specify a coding standard to validate against:
+
+`phpcbf {directory something} --standard {any something}`
+
+- Specify comma-separated file extensions to include when sniffing:
+
+`phpcbf {directory something} --extensions {any something}`
+
+- A comma-separated list of files to load before processing:
+
+`phpcbf {directory something} --bootstrap {any something}`
+
+- Don't recurse into subdirectories:
+
+`phpcbf {directory something} -l`

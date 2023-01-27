@@ -1,0 +1,28 @@
+# pinky
+
+> Print user information using the `finger` protocol
+> More information: https://manned.org/pinky
+
+- Display details about the current user:
+
+`pinky`
+
+- Display details for a specific user:
+
+`pinky {any something}`
+
+- Display details in the long format:
+
+`pinky {any something} -l`
+
+- Omit the user's home directory and shell in long format:
+
+`pinky {any something} -lb`
+
+- Omit the user's project file in long format:
+
+`pinky {any something} -lh`
+
+- Omit the column headings in short format:
+
+`pinky {any something} -f`

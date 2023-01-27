@@ -1,0 +1,36 @@
+# arduino
+
+> Arduino Studio - Integrated Development Environment for the Arduino platform
+> More information: https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc
+
+- Build a sketch:
+
+`arduino --verify {any something}`
+
+- Build and upload a sketch:
+
+`arduino --upload {any something}`
+
+- Build and upload a sketch to an Arduino Nano with an Atmega328p CPU, connected on port `/dev/ttyACM0`:
+
+`arduino --board {any something} --port {any something} --upload {any something}`
+
+- Set the preference `name` to a given `value`:
+
+`arduino --pref {any something}={any something}`
+
+- Build a sketch, put the build results in the build directory, and reuse any previous build results in that directory:
+
+`arduino --pref build.path={directory something: path/to/build} --verify {any something}`
+
+- Save any (changed) preferences to `preferences.txt`:
+
+`arduino --save-prefs`
+
+- Install the latest SAM board:
+
+`arduino --install-boards "{any something}"`
+
+- Install Bridge and Servo libraries:
+
+`arduino --install-library "{any something}"`

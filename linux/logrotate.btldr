@@ -1,0 +1,24 @@
+# logrotate
+
+> Rotates, compresses, and mails system logs
+> More information: https://manned.org/logrotate
+
+- Trigger a run manually:
+
+`logrotate {any something} --force`
+
+- Run using a specific command to mail reports:
+
+`logrotate {any something} --mail {any something}`
+
+- Run without using a state (lock) file:
+
+`logrotate {any something} --state /dev/null`
+
+- Run and skip the state (lock) file check:
+
+`logrotate {any something} --skip-state-lock`
+
+- Tell `logrotate` to log verbose output into the log file:
+
+`logrotate {any something} --log {file something: path/to/log}`

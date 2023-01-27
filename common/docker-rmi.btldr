@@ -1,0 +1,20 @@
+# docker rmi
+
+> Remove one or more Docker images
+> More information: https://docs.docker.com/engine/reference/commandline/rmi/
+
+- Show help:
+
+`docker rmi`
+
+- Remove one or more images given their names:
+
+`docker rmi {any something}`
+
+- Force remove an image:
+
+`docker rmi --force {any something}`
+
+- Remove an image without deleting untagged parents:
+
+`docker rmi --no-prune {any something}`

@@ -1,0 +1,36 @@
+# rvm
+
+> A tool for easily installing, managing, and working with multiple ruby environments
+> More information: https://rvm.io
+
+- Install one or more space-separated versions of Ruby:
+
+`rvm install {any something}`
+
+- Display a list of installed versions:
+
+`rvm list`
+
+- Use a specific version of Ruby:
+
+`rvm use {any something}`
+
+- Set the default Ruby version:
+
+`rvm --default use {any something}`
+
+- Upgrade a version of Ruby to a new version:
+
+`rvm upgrade {any something} {any something}`
+
+- Uninstall a version of Ruby and keep its sources:
+
+`rvm uninstall {any something}`
+
+- Remove a version of Ruby and its sources:
+
+`rvm remove {any something}`
+
+- Show specific dependencies for your OS:
+
+`rvm requirements`

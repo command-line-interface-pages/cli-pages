@@ -1,0 +1,28 @@
+# glab release
+
+> Manage GitLab releases from the command-line
+> More information: https://glab.readthedocs.io/en/latest/release
+
+- List releases in a Gitlab repository, limited to 30 items:
+
+`glab release list`
+
+- Display information about a specific release:
+
+`glab release view {any something}`
+
+- Create a new release:
+
+`glab release create {any something}`
+
+- Delete a specific release:
+
+`glab release delete {any something}`
+
+- Download assets from a specific release:
+
+`glab release download {any something}`
+
+- Upload assets to a specific release:
+
+`glab release upload {any something} {any something} {any something}`

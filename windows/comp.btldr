@@ -1,0 +1,37 @@
+# comp
+
+> Compare the contents of two files or sets of files
+> Use wildcards (*) to compare sets of files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/comp
+
+- Compare files interactively:
+
+`comp`
+
+- Compare two specified files:
+
+`comp {any something} {any something}`
+
+- Compare two sets of files:
+
+`comp {any something} {any something}`
+
+- Display differences in decimal format:
+
+`comp /d {any something} {any something}`
+
+- Display differences in ASCII format:
+
+`comp /a {any something} {any something}`
+
+- Display line numbers for differences:
+
+`comp /l {any something} {any something}`
+
+- Compare files case-insensitively:
+
+`comp /c {any something} {any something}`
+
+- Compare only the first 5 lines of each file:
+
+`comp /n={int number: 5} {any something} {any something}`

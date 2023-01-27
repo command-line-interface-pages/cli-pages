@@ -1,0 +1,20 @@
+# host
+
+> Lookup Domain Name Server
+> More information: https://manned.org/host
+
+- Lookup A, AAAA, and MX records of a domain:
+
+`host {any something}`
+
+- Lookup a field (CNAME, TXT,...) of a domain:
+
+`host -t {any something} {any something}`
+
+- Reverse lookup an IP:
+
+`host {any something}`
+
+- Specify an alternate DNS server to query:
+
+`host {any something} {any something}`

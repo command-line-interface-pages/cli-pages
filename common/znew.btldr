@@ -1,0 +1,20 @@
+# znew
+
+> Recompress files from `.Z` to `.gz` format
+> More information: https://manned.org/znew
+
+- Recompress a file from `.Z` to `.gz` format:
+
+`znew {any something}`
+
+- Recompress multiple files and display the achieved size reduction % per file:
+
+`znew -v {any something} {any something} {any something}`
+
+- Recompress a file using the slowest compression method (for optimal compression):
+
+`znew -9 {any something}`
+
+- Recompress a file, [K]eeping the `.Z` file if it is smaller than the `.gz` file:
+
+`znew -K {any something}`

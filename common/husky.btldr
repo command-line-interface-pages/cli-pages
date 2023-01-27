@@ -1,0 +1,28 @@
+# husky
+
+> Native Git hooks made easy
+> More information: https://typicode.github.io/husky
+
+- Install Husky in the current directory:
+
+`husky install`
+
+- Install Husky into a specific directory:
+
+`husky install {directory something}`
+
+- Set a specific command as a `pre-push` hook for Git:
+
+`husky set {any something} "{any something} {any something}"`
+
+- Add a specific command to the current `pre-commit` hook:
+
+`husky add {any something} "{any something} {any something}"`
+
+- Uninstall Husky hooks from the current directory:
+
+`husky uninstall`
+
+- Display help:
+
+`husky`

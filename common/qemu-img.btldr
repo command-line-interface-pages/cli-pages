@@ -1,0 +1,24 @@
+# qemu-img
+
+> Tool for Quick Emulator Virtual HDD image creation and manipulation
+> More information: https://qemu.readthedocs.io/en/latest/tools/qemu-img.html
+
+- Create disk image with a specific size (in gigabytes):
+
+`qemu-img create {any something} {any something}G`
+
+- Show information about a disk image:
+
+`qemu-img info {any something}`
+
+- Increase or decrease image size:
+
+`qemu-img resize {any something} {any something}G`
+
+- Dump the allocation state of every sector of the specified disk image:
+
+`qemu-img map {any something}`
+
+- Convert a VMware .vmdk disk image to a KVM .qcow2 disk image:
+
+`qemu-img convert -f {any something} -O {any something} {any something} {any something}`

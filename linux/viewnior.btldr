@@ -1,0 +1,16 @@
+# viewnior
+
+> Simple and elegant image viewer
+> More information: https://manned.org/viewnior
+
+- View an image:
+
+`viewnior {any something}`
+
+- View in fullscreen mode:
+
+`viewnior --fullscreen {any something}`
+
+- View fullscreen in slideshow mode:
+
+`viewnior --slideshow {any something}`

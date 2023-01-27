@@ -1,0 +1,16 @@
+# docker cp
+
+> Copy files or directories between host and container filesystems
+> More information: https://docs.docker.com/engine/reference/commandline/cp
+
+- Copy a file or directory from the host to a container:
+
+`docker cp {any something} {any something}:{any something}`
+
+- Copy a file or directory from a container to the host:
+
+`docker cp {any something}:{any something} {any something}`
+
+- Copy a file or directory from the host to a container, following symlinks (copies the symlinked files directly, not the symlinks themselves):
+
+`docker cp --follow-link {any something} {any something}:{any something}`

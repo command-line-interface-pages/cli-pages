@@ -1,0 +1,24 @@
+# kotlinc
+
+> Kotlin compiler
+> More information: https://kotlinlang.org/docs/command-line.html
+
+- Start a REPL (interactive shell):
+
+`kotlinc`
+
+- Compile a Kotlin file:
+
+`kotlinc {any something}`
+
+- Compile several Kotlin files:
+
+`kotlinc {any something}`
+
+- Execute a specific Kotlin Script file:
+
+`kotlinc -script {any something}`
+
+- Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included:
+
+`kotlinc {any something} -include-runtime -d {any something}`

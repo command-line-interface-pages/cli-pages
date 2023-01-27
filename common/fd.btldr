@@ -1,0 +1,29 @@
+# fd
+
+> An alternative to `find`
+> Aims to be faster and easier to use than `find`
+> More information: https://github.com/sharkdp/fd
+
+- Recursively find files matching a specific pattern in the current directory:
+
+`fd "{any something}"`
+
+- Find files that begin with `foo`:
+
+`fd "^foo"`
+
+- Find files with a specific extension:
+
+`fd --extension txt`
+
+- Find files in a specific directory:
+
+`fd "{any something}" {directory something}`
+
+- Include ignored and hidden files in the search:
+
+`fd --hidden --no-ignore "{any something}"`
+
+- Execute a command on each search result returned:
+
+`fd "{any something}" --exec {any something}`

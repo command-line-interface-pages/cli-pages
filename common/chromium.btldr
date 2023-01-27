@@ -1,0 +1,36 @@
+# chromium
+
+> Open-source web browser principally developed and maintained by Google
+> More information: https://www.chromium.org/developers/how-tos/run-chromium-with-flags/
+
+- Open a specific URL or file:
+
+`chromium {any something}`
+
+- Open in incognito mode:
+
+`chromium --incognito {any something}`
+
+- Open in a new window:
+
+`chromium --new-window {any something}`
+
+- Open in application mode (without toolbars, URL bar, buttons, etc.):
+
+`chromium --app={any something}`
+
+- Use a proxy server:
+
+`chromium --proxy-server="{any something}" {any something}`
+
+- Open with a custom profile directory:
+
+`chromium --user-data-dir={directory something}`
+
+- Open without CORS validation (useful to test an API):
+
+`chromium --user-data-dir={directory something} --disable-web-security`
+
+- Open with a DevTools window for each tab opened:
+
+`chromium --auto-open-devtools-for-tabs`

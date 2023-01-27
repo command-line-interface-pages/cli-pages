@@ -1,0 +1,32 @@
+# nc
+
+> Netcat is a versatile utility for working with TCP or UDP data
+> More information: https://nmap.org/ncat
+
+- Listen on a specified port and print any data received:
+
+`nc -l {any something}`
+
+- Connect to a certain port:
+
+`nc {any something} {any something}`
+
+- Set a timeout:
+
+`nc -w {any something} {any something} {any something}`
+
+- Keep the server up after the client detaches:
+
+`nc -k -l {any something}`
+
+- Keep the client up even after EOF:
+
+`nc -q {any something} {any something}`
+
+- Scan the open ports of a specified host:
+
+`nc -v -z {any something} {any something}`
+
+- Act as proxy and forward data from a local TCP port to the given remote host:
+
+`nc -l {any something} | nc {any something} {any something}`

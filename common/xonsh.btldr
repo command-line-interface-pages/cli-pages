@@ -1,0 +1,29 @@
+# xonsh
+
+> Python-powered, cross-platform, Unix-gazing shell
+> Write and mix sh/Python code in Xonsh (pronounced conch)
+> More information: https://xon.sh
+
+- Start an interactive shell session:
+
+`xonsh`
+
+- Execute a single command and then exit:
+
+`xonsh -c "{any something}"`
+
+- Run commands from a script file and then exit:
+
+`xonsh {any something}`
+
+- Define environment variables for the shell process:
+
+`xonsh -D{any something}={any something} -D{any something}={any something}`
+
+- Load the specified `.xonsh` or `.json` configuration files:
+
+`xonsh --rc {any something} {any something}`
+
+- Skip loading the `.xonshrc` configuration file:
+
+`xonsh --no-rc`

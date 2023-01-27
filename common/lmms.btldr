@@ -1,0 +1,37 @@
+# lmms
+
+> Free, open source, cross-platform digital audio workstation
+> Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI
+> More information: https://lmms.io
+
+- Start the GUI:
+
+`lmms`
+
+- Start the GUI and load external config:
+
+`lmms --config {any something}`
+
+- Start the GUI and import MIDI or Hydrogen file:
+
+`lmms --import {any something}`
+
+- Start the GUI with a specified window size:
+
+`lmms --geometry {any something}x{any something}+{any something}+{any something}`
+
+- Dump a `.mmpz` file:
+
+`lmms dump {any something}`
+
+- Render a project file:
+
+`lmms render {any something}`
+
+- Render the individual tracks of a project file:
+
+`lmms rendertracks {any something} {any something}`
+
+- Render with custom samplerate, format, and as a loop:
+
+`lmms render --samplerate {int number: 88200} --format {any something} --loop --output {any something}`

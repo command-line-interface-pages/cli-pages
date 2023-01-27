@@ -1,0 +1,28 @@
+# ansible-playbook
+
+> Execute tasks defined in playbook on remote machines over SSH
+> More information: https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html
+
+- Run tasks in playbook:
+
+`ansible-playbook {any something}`
+
+- Run tasks in playbook with custom host inventory:
+
+`ansible-playbook {any something} -i {file something: inventory}`
+
+- Run tasks in playbook with extra variables defined via the command-line:
+
+`ansible-playbook {any something} -e "{any something}={any something} {any something}={any something}"`
+
+- Run tasks in playbook with extra variables defined in a JSON file:
+
+`ansible-playbook {any something} -e "@{any something}"`
+
+- Run tasks in playbook for the given tags:
+
+`ansible-playbook {any something} --tags {any something}`
+
+- Run tasks in a playbook starting at a specific task:
+
+`ansible-playbook {any something} --start-at {any something}`

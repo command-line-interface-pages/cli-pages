@@ -1,0 +1,28 @@
+# siege
+
+> HTTP loadtesting and benchmarking tool
+> More information: https://www.joedog.org/siege-manual/
+
+- Test a URL with default settings:
+
+`siege {any something}`
+
+- Test a list of URLs:
+
+`siege --file {any something}`
+
+- Test list of URLs in a random order (Simulates internet traffic):
+
+`siege --internet --file {any something}`
+
+- Benchmark a list of URLs (without waiting between requests):
+
+`siege --benchmark --file {any something}`
+
+- Set the amount of concurrent connections:
+
+`siege --concurrent={int number: 50} --file {any something}`
+
+- Set how long for the siege to run for:
+
+`siege --time={any something} --file {any something}`

@@ -1,0 +1,36 @@
+# safe
+
+> A CLI to interact with HashiCorp Vault
+> More information: https://github.com/starkandwayne/safe
+
+- Add a safe target:
+
+`safe target {any something} {any something}`
+
+- Authenticate the CLI client against the Vault server, using an authentication token:
+
+`safe auth {any something}`
+
+- Print the environment variables describing the current target:
+
+`safe env`
+
+- Display a tree hierarchy of all reachable keys for a given path:
+
+`safe tree {any something}`
+
+- Move a secret from one path to another:
+
+`safe move {any something} {any something}`
+
+- Generate a new 2048-bit SSH key-pair and store it:
+
+`safe ssh {int number: 2048} {any something}`
+
+- Set non-sensitive keys for a secret:
+
+`safe set {any something} {any something}={any something}`
+
+- Set auto-generated password in a secret:
+
+`safe gen {any something} {any something}`

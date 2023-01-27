@@ -1,0 +1,28 @@
+# paru
+
+> An AUR helper and pacman wrapper
+> More information: https://github.com/Morganamilo/paru
+
+- Interactively search for and install a package:
+
+`paru {any something}`
+
+- Synchronize and update all packages:
+
+`paru`
+
+- Upgrade AUR packages:
+
+`paru -Sua`
+
+- Get information about a package:
+
+`paru -Si {any something}`
+
+- Download `PKGBUILD` and other package source files from the AUR or ABS:
+
+`paru --getpkgbuild {any something}`
+
+- Display the `PKGBUILD` file of a package:
+
+`paru --getpkgbuild --print {any something}`

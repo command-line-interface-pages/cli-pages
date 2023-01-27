@@ -1,0 +1,20 @@
+# xml canonic
+
+> Make XML documents canonical
+> More information: http://xmlstar.sourceforge.net/docs.php
+
+- Make an XML document canonical, preserving comments:
+
+`xml canonic {any something} > {any something}`
+
+- Make an XML document canonical, removing comments:
+
+`xml canonic --without-comments {any something} > {any something}`
+
+- Make XML exclusively canonical, using an XPATH from a file, preserving comments:
+
+`xml canonic --exc-with-comments {any something} {any something}`
+
+- Display help for the `canonic` subcommand:
+
+`xml canonic --help`

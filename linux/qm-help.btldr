@@ -1,0 +1,12 @@
+# qm help
+
+> Display help for a specific command
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Display help for a specific command:
+
+`qm help {any something}`
+
+- Display help for a specific command with detailed information:
+
+`qm help {any something} --verbose {any something}`

@@ -1,0 +1,20 @@
+# bison
+
+> GNU parser generator
+> More information: https://www.gnu.org/software/bison/
+
+- Compile a bison definition file:
+
+`bison {any something}`
+
+- Compile in debug mode, which causes the resulting parser to write additional information to the stdout:
+
+`bison --debug {any something}`
+
+- Specify the output filename:
+
+`bison --output {any something} {any something}`
+
+- Be verbose when compiling:
+
+`bison --verbose`

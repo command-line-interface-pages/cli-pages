@@ -1,0 +1,16 @@
+# banner
+
+> Print the given argument as a large ASCII art
+> More information: https://manned.org/banner
+
+- Print the text message as a large banner (quotes are optional):
+
+`banner "{any something}"`
+
+- Print the text message as a banner with a width of 50 characters:
+
+`banner -w {int number: 50} "{any something}"`
+
+- Read text from stdin:
+
+`banner`

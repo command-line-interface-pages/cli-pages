@@ -1,0 +1,28 @@
+# todoist
+
+> Access Todoist from the command-line
+> More information: https://github.com/sachaos/todoist
+
+- Add a task:
+
+`todoist add "{any something}"`
+
+- Add a high priority task with a label, project, and due date:
+
+`todoist add "{any something}" --priority {int number: 1} --label-ids "{any something}" --project-name "{any something}" --date "{any something}"`
+
+- Add a high priority task with a label, project, and due date in quick mode:
+
+`todoist quick '#{any something} "{any something}" p{int number: 1} {any something} @{any something}'`
+
+- List all tasks with a header and color:
+
+`todoist --header --color list`
+
+- List all high priority tasks:
+
+`todoist list --filter p{int number: 1}`
+
+- List today's tasks with high priority that have the specified label:
+
+`todoist list --filter '(@{any something} | {any something}) & p{int number: 1}'`

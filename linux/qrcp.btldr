@@ -1,0 +1,28 @@
+# qrcp
+
+> A file transfer tool
+> More information: https://github.com/claudiodangelis/qrcp
+
+- Send a file or directories:
+
+`qrcp send {any something}`
+
+- Receive files:
+
+`qrcp receive`
+
+- Compress content before transferring:
+
+`qrcp send --zip {directory something: path/to/file_or}`
+
+- Specify a [p]ort to use:
+
+`qrcp {any something} --port {any something}`
+
+- Specify the network [i]nterface to use:
+
+`qrcp {any something} --interface interface`
+
+- Keep the server alive:
+
+`qrcp {any something} --keep-alive`

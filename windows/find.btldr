@@ -1,0 +1,20 @@
+# find
+
+> Find a specified string in one or more files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/find
+
+- Find lines that contain a specified string:
+
+`find "{any something}" {directory something: path/to/file_or}`
+
+- Display lines that do not contain the specified string:
+
+`find "{any something}" {directory something: path/to/file_or} /v`
+
+- Display the count of lines that contain the specified string:
+
+`find "{any something}" {directory something: path/to/file_or} /c`
+
+- Display line numbers with the list of lines:
+
+`find "{any something}" {directory something: path/to/file_or} /n`

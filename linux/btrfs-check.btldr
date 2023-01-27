@@ -1,0 +1,32 @@
+# btrfs check
+
+> Check or repair a btrfs filesystem
+> More information: https://btrfs.readthedocs.io/en/latest/btrfs-check.html
+
+- Check a btrfs filesystem:
+
+`sudo btrfs check {any something}`
+
+- Check and repair a btrfs filesystem (dangerous):
+
+`sudo btrfs check --repair {any something}`
+
+- Show the progress of the check:
+
+`sudo btrfs check --progress {any something}`
+
+- Verify the checksum of each data block (if the filesystem is good):
+
+`sudo btrfs check --check-data-csum {any something}`
+
+- Use the `n`-th superblock (`n` can be 0, 1 or 2):
+
+`sudo btrfs check --super {any something} {any something}`
+
+- Rebuild the checksum tree:
+
+`sudo btrfs check --repair --init-csum-tree {any something}`
+
+- Rebuild the extent tree:
+
+`sudo btrfs check --repair --init-extent-tree {any something}`

@@ -1,0 +1,16 @@
+# iconv
+
+> Converts text from one encoding to another
+> More information: https://manned.org/iconv
+
+- Convert file to a specific encoding, and print to stdout:
+
+`iconv -f {any something} -t {any something} {file something: input}`
+
+- Convert file to the current locale's encoding, and output to a file:
+
+`iconv -f {any something} {file something: input} > {file something: output}`
+
+- List supported encodings:
+
+`iconv -l`

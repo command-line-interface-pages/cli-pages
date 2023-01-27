@@ -1,0 +1,32 @@
+# laravel
+
+> A command-line installer for the Laravel framework
+> More information: https://laravel.com
+
+- Create a new Laravel application:
+
+`laravel new {any something}`
+
+- Use the latest development release:
+
+`laravel new {any something} --dev`
+
+- Overwrite if the directory already exists:
+
+`laravel new {any something} --force`
+
+- Install the Laravel Jetstream scaffolding:
+
+`laravel new {any something} --jet`
+
+- Install the Laravel Jetstream scaffolding with a specific stack:
+
+`laravel new {any something} --jet --stack {any something}`
+
+- Install the Laravel Jetstream scaffolding with support for teams:
+
+`laravel new {any something} --jet --teams`
+
+- List the available installer commands:
+
+`laravel list`

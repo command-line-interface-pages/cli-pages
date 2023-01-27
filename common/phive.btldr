@@ -1,0 +1,36 @@
+# phive
+
+> The Phar Installation and Verification Environment for secure PHP application deployment
+> More information: https://phar.io
+
+- Display a list of available aliased Phars:
+
+`phive list`
+
+- Install a specified Phar to the local directory:
+
+`phive install {any something}`
+
+- Install a specified Phar globally:
+
+`phive install {any something} --global`
+
+- Install a specified Phar to a target directory:
+
+`phive install {any something} --target {directory something}`
+
+- Update all Phar files to the latest version:
+
+`phive update`
+
+- Remove a specified Phar file:
+
+`phive remove {any something}`
+
+- Remove unused Phar files:
+
+`phive purge`
+
+- List all available commands:
+
+`phive help`

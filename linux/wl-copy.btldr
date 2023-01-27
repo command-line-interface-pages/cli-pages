@@ -1,0 +1,21 @@
+# wl-copy
+
+> Wayland clipboard manipulation tool
+> See also: `wl-paste`
+> More information: https://github.com/bugaevc/wl-clipboard
+
+- Copy the text to the clipboard:
+
+`wl-copy "{any something}"`
+
+- Pipe the command (`ls`) output to the clipboard:
+
+`{any something} | wl-copy`
+
+- Copy for only one paste and then clear it:
+
+`wl-copy --paste-once "{any something}"`
+
+- Clear the clipboard:
+
+`wl-copy --clear`

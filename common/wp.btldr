@@ -1,0 +1,32 @@
+# wp
+
+> The official command-line interface to manage WordPress instances
+> More information: https://wp-cli.org/
+
+- Print information about the operating system, shell, PHP, and WP-CLI (`wp`) installation:
+
+`wp --info`
+
+- Update WP-CLI:
+
+`wp cli update`
+
+- Download a fresh WordPress installation to current directory, optionally specifying the locale:
+
+`wp core download --locale={any something}`
+
+- Create basic `wpconfig` file (assuming database on `localhost`):
+
+`wp config create --dbname={any something} --dbuser={any something} --dbpass={any something}`
+
+- Install and activate a WordPress plugin:
+
+`wp plugin install {any something} --activate`
+
+- Replace all instances of a string in the database:
+
+`wp search-replace {any something} {any something}`
+
+- Import the contents of a WordPress Extended RSS (WXR) file:
+
+`wp import {any something}`

@@ -1,0 +1,16 @@
+# blkdiscard
+
+> Discards device sectors on storage devices. Useful for SSDs
+> More information: https://manned.org/blkdiscard
+
+- Discard all sectors on a device, removing all data:
+
+`blkdiscard /dev/{any something}`
+
+- Securely discard all blocks on a device, removing all data:
+
+`blkdiscard --secure /dev/{any something}`
+
+- Discard the first 100 MB of a device:
+
+`blkdiscard --length {any something} /dev/{any something}`

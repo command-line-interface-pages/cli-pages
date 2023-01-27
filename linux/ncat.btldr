@@ -1,0 +1,16 @@
+# ncat
+
+> Use the normal `cat` functionality over networks
+> More information: https://manned.org/ncat
+
+- Listen for input on the specified port and write it to the specified file:
+
+`ncat -l {any something} > {file something}`
+
+- Accept multiple connections and keep ncat open after they have been closed:
+
+`ncat -lk {any something}`
+
+- Write output of specified file to the specified host on the specified port:
+
+`ncat {any something} {any something} < {file something}`

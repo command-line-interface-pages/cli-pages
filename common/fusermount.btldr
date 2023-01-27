@@ -1,0 +1,16 @@
+# fusermount
+
+> Mount and unmount FUSE filesystems
+> More information: https://manned.org/fusermount
+
+- Unmount a FUSE filesystem:
+
+`fusermount -u {any something}`
+
+- Unmount a FUSE filesystem as soon as it becomes unused:
+
+`fusermount -z {any something}`
+
+- Display version:
+
+`fusermount --version`

@@ -1,0 +1,36 @@
+# kcat
+
+> Apache Kafka producer and consumer tool
+> More information: https://github.com/edenhill/kcat
+
+- Consume messages starting with the newest offset:
+
+`kcat -C -t {any something} -b {any something}`
+
+- Consume messages starting with the oldest offset and exit after the last message is received:
+
+`kcat -C -t {any something} -b {any something} -o beginning -e`
+
+- Consume messages as a Kafka consumer group:
+
+`kcat -G {any something} {any something} -b {any something}`
+
+- Publish message by reading from stdin:
+
+` echo {any something} | kcat -P -t {any something} -b {any something}`
+
+- Publish messages by reading from a file:
+
+`kcat -P -t {any something} -b {any something} {file something}`
+
+- List metadata for all topics and brokers:
+
+`kcat -L -b {any something}`
+
+- List metadata for a specific topic:
+
+`kcat -L -t {any something} -b {any something}`
+
+- Get offset for a topic/partition for a specific point in time:
+
+`kcat -Q -t {any something}:{any something}:{any something} -b {any something}`

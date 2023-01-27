@@ -1,0 +1,20 @@
+# stress
+
+> A tool to stress test CPU, memory, and IO on a Linux system
+> More information: https://manned.org/stress
+
+- Spawn 4 workers to stress test CPU:
+
+`stress -c {int number: 4}`
+
+- Spawn 2 workers to stress test IO and timeout after 5 seconds:
+
+`stress -i {int number: 2} -t {int number: 5}`
+
+- Spawn 2 workers to stress test memory (each worker allocates 256M bytes):
+
+`stress -m {int number: 2} --vm-bytes {any something}`
+
+- Spawn 2 workers spinning on write()/unlink() (each worker writes 1G bytes):
+
+`stress -d {int number: 2} --hdd-bytes {any something}`

@@ -1,0 +1,16 @@
+# numfmt
+
+> Convert numbers to and from human-readable strings
+> More information: https://www.gnu.org/software/coreutils/numfmt
+
+- Convert 1.5K (SI Units) to 1500:
+
+`numfmt --from={any something} {any something}`
+
+- Convert 5th field (1-indexed) to IEC Units without converting header:
+
+`ls -l | numfmt --header={int number: 1} --field={int number: 5} --to={any something}`
+
+- Convert to IEC units, pad with 5 characters, left aligned:
+
+`du -s * | numfmt --to={any something} --format="{any something}"`

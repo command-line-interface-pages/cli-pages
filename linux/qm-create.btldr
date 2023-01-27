@@ -1,0 +1,24 @@
+# qm create
+
+> Create or restore a virtual machine on QEMU/KVM Virtual Machine Manager
+> More information: https://pve.proxmox.com/pve-docs/qm.1.html
+
+- Create a virtual machine:
+
+`qm create {int number: 100}`
+
+- Automatically start the machine after creation:
+
+`qm create {int number: 100} --start 1`
+
+- Specify the type of operating system on the machine:
+
+`qm create {int number: 100} --ostype {any something}`
+
+- Replace an existing machine (requires archiving it):
+
+`qm create {int number: 100} --archive {any something} --force 1`
+
+- Specify a script that is executed automatically depending on the state of the virtual machine:
+
+`qm create {int number: 100} --hookscript {any something}`

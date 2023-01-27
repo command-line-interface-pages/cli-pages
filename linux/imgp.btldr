@@ -1,0 +1,16 @@
+# imgp
+
+> Command-line image resizer and rotator for JPEG and PNG images
+> More information: https://github.com/jarun/imgp
+
+- Convert single images and/or whole directories containing valid image formats:
+
+`imgp -x {any something} {directory something} {file something}`
+
+- Scale an image by 75% and overwrite the source image to a target resolution:
+
+`imgp -x {int number: 75} -w {file something}`
+
+- Rotate an image clockwise by 90 degrees:
+
+`imgp -o {int number: 90} {file something}`

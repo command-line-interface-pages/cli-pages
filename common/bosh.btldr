@@ -1,0 +1,36 @@
+# bosh
+
+> Command-line tool to deploy and manage the bosh director
+> More information: https://bosh.io/docs/cli-v2/
+
+- Create local alias for director:
+
+`bosh alias-env {any something} -e {any something} --ca-cert {any something}`
+
+- List environments:
+
+`bosh environments`
+
+- Log in to the director:
+
+`bosh login -e {any something} `
+
+- List deployments:
+
+`bosh -e {any something} deployments`
+
+- List environment virtual machines:
+
+`bosh -e {any something} vms -d {any something}`
+
+- Ssh into virtual machine:
+
+`bosh -e {any something} ssh {any something} -d {any something}`
+
+- Upload stemcell:
+
+`bosh -e {any something} upload-stemcell {any something}`
+
+- Show current cloud config:
+
+`bosh -e {any something} cloud-config`

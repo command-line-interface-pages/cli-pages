@@ -1,0 +1,16 @@
+# ditto
+
+> Copy files and directories
+> More information: https://ss64.com/osx/ditto.html
+
+- Overwrite contents of destination directory with contents of source directory:
+
+`ditto {any something} {any something}`
+
+- Print a line to the Terminal window for every file that's being copied:
+
+`ditto -V {any something} {any something}`
+
+- Copy a given file or directory, while retaining the original file permissions:
+
+`ditto -rsrc {any something} {any something}`

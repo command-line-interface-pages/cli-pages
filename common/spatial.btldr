@@ -1,0 +1,36 @@
+# spatial
+
+> A set of commands for managing and developing SpatialOS projects
+> More information: https://ims.improbable.io/products/spatialos
+
+- Run this when you use a project for the first time:
+
+`spatial worker build`
+
+- Build workers for local deployment on Unity on macOS:
+
+`spatial worker build --target=development --target=Osx`
+
+- Build workers for local deployment on Unreal on Windows:
+
+`spatial worker build --target=local --target=Windows`
+
+- Deploy locally:
+
+`spatial local launch {any something} --snapshot={file something: snapshot}`
+
+- Launch a local worker to connect to your local deployment:
+
+`spatial local worker launch {any something} {any something}`
+
+- Upload an assembly to use for cloud deployments:
+
+`spatial cloud upload {any something}`
+
+- Launch a cloud deployment:
+
+`spatial cloud launch {any something} {any something} {any something}`
+
+- Clean worker directories:
+
+`spatial worker clean`

@@ -1,0 +1,24 @@
+# iverilog
+
+> Preprocesses and compiles Verilog HDL (IEEE-1364) code into executable programs for simulation
+> More information: https://github.com/steveicarus/iverilog
+
+- Compile a source file into an executable:
+
+`iverilog {any something} -o {any something}`
+
+- Compile a source file into an executable while displaying all warnings:
+
+`iverilog {any something} -Wall -o {any something}`
+
+- Compile and run explicitly using the VVP runtime:
+
+`iverilog -o {any something} -tvvp {any something}`
+
+- Compile using Verilog library files from a different path:
+
+`iverilog {any something} -o {any something} -I{directory something: path/to/library}`
+
+- Preprocess Verilog code without compiling:
+
+`iverilog -E {any something}`

@@ -1,0 +1,16 @@
+# wormhole
+
+> Get things from one computer to another, safely
+> More information: https://magic-wormhole.readthedocs.io
+
+- Send a file:
+
+`wormhole send {file something}`
+
+- Receive a file:
+
+`wormhole receive {any something}`
+
+- Send raw text:
+
+`wormhole send`

@@ -1,0 +1,37 @@
+# parted
+
+> A partition manipulation program
+> See also: `partprobe`
+> More information: https://www.gnu.org/software/parted/parted.html
+
+- List partitions on all block devices:
+
+`sudo parted --list`
+
+- Start interactive mode with the specified disk selected:
+
+`sudo parted {any something}`
+
+- Create a new partition table of the specified label-type:
+
+`sudo parted --script {any something} mklabel {any something}`
+
+- Show partition information in interactive mode:
+
+`print`
+
+- Select a disk in interactive mode:
+
+`select {any something}`
+
+- Create a 16 GB partition with the specified filesystem in interactive mode:
+
+`mkpart {any something} {any something} {any something} {any something}`
+
+- Resize a partition in interactive mode:
+
+`resizepart {any something} {any something}`
+
+- Remove a partition in interactive mode:
+
+`rm {any something}`

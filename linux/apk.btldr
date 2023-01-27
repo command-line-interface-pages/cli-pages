@@ -1,0 +1,28 @@
+# apk
+
+> Alpine Linux package management tool
+> More information: https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management
+
+- Update repository indexes from all remote repositories:
+
+`apk update`
+
+- Install a new package:
+
+`apk add {any something}`
+
+- Remove a package:
+
+`apk del {any something}`
+
+- Repair a package or upgrade it without modifying main dependencies:
+
+`apk fix {any something}`
+
+- Search for a package via keywords:
+
+`apk search {any something}`
+
+- Display information about a specific package:
+
+`apk info {any something}`

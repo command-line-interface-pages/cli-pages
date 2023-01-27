@@ -1,0 +1,32 @@
+# kate
+
+> KDE's advanced text editor
+> More information: https://kate-editor.org/
+
+- Open specific files:
+
+`kate {file* something}`
+
+- Open specific remote files:
+
+`kate {any something}`
+
+- Create a new editor instance even if one is already open:
+
+`kate --new`
+
+- Open a file with the cursor at the specific line:
+
+`kate --line {any something} {file something}`
+
+- Open a file with the cursor at the specific line and column:
+
+`kate --line {any something} --column {any something} {file something}`
+
+- Create a file from stdin:
+
+`cat {file something} | kate --stdin`
+
+- Display help:
+
+`kate --help`

@@ -1,0 +1,28 @@
+# dnstracer
+
+> The dnstracer command determines where a DNS gets its information from
+> More information: https://manned.org/dnstracer
+
+- Find out where your local DNS got the information on www.example.com:
+
+`dnstracer {any something}`
+
+- Start with a [s]pecific DNS that you already know:
+
+`dnstracer -s {any something} {any something}`
+
+- Only query IPv4 servers:
+
+`dnstracer -4 {any something}`
+
+- Retry each request 5 times on failure:
+
+`dnstracer -r {int number: 5} {any something}`
+
+- Display all steps during execution:
+
+`dnstracer -v {any something}`
+
+- Display an [o]verview of all received answers after execution:
+
+`dnstracer -o {any something}`

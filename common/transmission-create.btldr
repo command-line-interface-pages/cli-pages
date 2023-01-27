@@ -1,0 +1,24 @@
+# transmission-create
+
+> A CLI utility to create BitTorrent .torrent files
+> More information: https://manned.org/transmission-create
+
+- Create a torrent with 2048 KB as the piece size:
+
+`transmission-create -o {any something} --tracker {any something} --piecesize {int number: 2048} {directory something: path/to/file_or}`
+
+- Create a private torrent with a 2048 KB piece size:
+
+`transmission-create -p -o {any something} --tracker {any something} --piecesize {int number: 2048} {directory something: path/to/file_or}`
+
+- Create a torrent with a comment:
+
+`transmission-create -o {any something} --tracker {any something} -c {any something} {directory something: path/to/file_or}`
+
+- Create a torrent with multiple trackers:
+
+`transmission-create -o {any something} --tracker {any something} --tracker {any something} {directory something: path/to/file_or}`
+
+- Show help page:
+
+`transmission-create --help`

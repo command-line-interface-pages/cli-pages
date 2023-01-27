@@ -1,0 +1,25 @@
+# gvpack
+
+> Combine several graph layouts (that already have layout information)
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`
+> More information: https://graphviz.org/pdf/gvpack.1.pdf
+
+- Combine several graph layouts (that already have layout information):
+
+`gvpack {any something} {any something} > {any something}`
+
+- Combine several graph layouts at the graph level, keeping graphs separate:
+
+`gvpack -g {any something} {any something} > {any something}`
+
+- Combine several graph layouts at the node level, ignoring clusters:
+
+`gvpack -n {any something} {any something} > {any something}`
+
+- Combine several graph layouts without packing:
+
+`gvpack -u {any something} {any something} > {any something}`
+
+- Display help for `gvpack`:
+
+`gvpack -?`

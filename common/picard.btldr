@@ -1,0 +1,16 @@
+# picard
+
+> Next generation MusicBrainz tagging application
+> More information: https://picard.musicbrainz.org/
+
+- Start Picard:
+
+`picard`
+
+- Open a set of files:
+
+`picard {any something} {any something}`
+
+- Display the version of Picard installed:
+
+`picard --long-version`

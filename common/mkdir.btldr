@@ -1,0 +1,16 @@
+# mkdir
+
+> Create directories and set their permissions
+> More information: https://www.gnu.org/software/coreutils/mkdir
+
+- Create specific directories:
+
+`mkdir {directory* something}`
+
+- Create specific directories and their [p]arents if needed:
+
+`mkdir -p {directory* something}`
+
+- Create directories with specific permissions:
+
+`mkdir -m {any something} {directory* something}`

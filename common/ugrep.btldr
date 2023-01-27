@@ -1,0 +1,36 @@
+# ugrep
+
+> Ultra fast search tool with query TUI
+> More information: https://github.com/Genivia/ugrep
+
+- Start a query TUI to search files in the current directory recursively (CTRL-Z for help):
+
+`ugrep --query`
+
+- Search the current directory recursively for files containing a regex search pattern:
+
+`ugrep "{any something}"`
+
+- Search in a specific file or in all files in a specific directory, showing line numbers of matches:
+
+`ugrep --line-number "{any something}" {directory something: path/to/file_or}`
+
+- Search in all files in the current directory recursively and print the name of each matching file:
+
+`ugrep --files-with-matches "{any something}"`
+
+- Fuzzy search files with up to 3 extra, missing or mismatching characters in the pattern:
+
+`ugrep --fuzzy={int number: 3} "{any something}"`
+
+- Also search compressed files, `zip` and `tar` archives recursively:
+
+`ugrep --decompress "{any something}"`
+
+- Search only files whose filenames match a specific glob pattern:
+
+`ugrep --glob="{any something}" "{any something}"`
+
+- Search only C++ source files (use `--file-type=list` to list all file types):
+
+`ugrep --file-type=cpp "{any something}"`

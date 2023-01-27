@@ -1,0 +1,24 @@
+# scontrol
+
+> View information about and modify jobs
+> More information: https://slurm.schedmd.com/scontrol.html
+
+- Show information for job:
+
+`scontrol show job {any something}`
+
+- Suspend a comma-separated list of running jobs:
+
+`scontrol suspend {any something}`
+
+- Resume a comma-separated list of suspended jobs:
+
+`scontrol resume {any something}`
+
+- Hold a comma-separated list of queued jobs (Use `release` command to permit the jobs to be scheduled):
+
+`scontrol hold {any something}`
+
+- Release a comma-separated list of suspended job:
+
+`scontrol release {any something}`

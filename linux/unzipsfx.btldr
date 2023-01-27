@@ -1,0 +1,24 @@
+# unzipsfx
+
+> Create a self-extracting compressed binary file by prepending self-extracting stubs on a `zip` file
+> More information: https://manned.org/unzipsfx
+
+- Create a self-extracting binary file of a `zip` archive:
+
+`cat unzipsfx {any something} > {any something} && chmod 755 {any something}`
+
+- Extract a self-extracting binary in the current directory:
+
+`{any something}`
+
+- Test a self-extracting binary for errors:
+
+`{any something} -t`
+
+- Print content of a file in the self-extracting binary without extraction:
+
+`{any something} -c {file something}`
+
+- Print comments on `zip` archive in the self-extracting binary:
+
+`{any something} -z`

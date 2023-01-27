@@ -1,0 +1,36 @@
+# keyctl
+
+> Manipulate the Linux kernel keyring
+> More information: https://manned.org/keyctl
+
+- List keys in a specific keyring:
+
+`keyctl list {any something}`
+
+- List current keys in the user default session:
+
+`keyctl list {any something}`
+
+- Store a key in a specific keyring:
+
+`keyctl add {any something} {any something} {any something} {any something}`
+
+- Store a key with its value from stdin:
+
+`echo -n {any something} | keyctl padd {any something} {any something} {any something}`
+
+- Put a timeout on a key:
+
+`keyctl timeout {any something} {any something}`
+
+- Read a key and format it as a hex-dump if not printable:
+
+`keyctl read {any something}`
+
+- Read a key and format as-is:
+
+`keyctl pipe {any something}`
+
+- Revoke a key and prevent any further action on it:
+
+`keyctl revoke {any something}`

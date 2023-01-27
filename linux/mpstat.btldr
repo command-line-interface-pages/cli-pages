@@ -1,0 +1,16 @@
+# mpstat
+
+> Report CPU statistics
+> More information: https://manned.org/mpstat
+
+- Display CPU statistics every 2 seconds:
+
+`mpstat {int number: 2}`
+
+- Display 5 reports, one by one, at 2 second intervals:
+
+`mpstat {int number: 2} {int number: 5}`
+
+- Display 5 reports, one by one, from a given processor, at 2 second intervals:
+
+`mpstat -P {int number: 0} {int number: 2} {int number: 5}`

@@ -1,0 +1,28 @@
+# egrep
+
+> Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)
+> More information: https://manned.org/egrep
+
+- Search for a pattern within a file:
+
+`egrep "{any something}" {file something}`
+
+- Search for a pattern within multiple files:
+
+`egrep "{any something}" {any something} {any something} {any something}`
+
+- Search stdin for a pattern:
+
+`cat {file something} | egrep {any something}`
+
+- Print file name and line number for each match:
+
+`egrep --with-filename --line-number "{any something}" {file something}`
+
+- Search for a pattern in all files recursively in a directory, ignoring binary files:
+
+`egrep --recursive --binary-files={any something} "{any something}" {directory something}`
+
+- Search for lines that do not match a pattern:
+
+`egrep --invert-match "{any something}" {file something}`

@@ -1,0 +1,28 @@
+# nextclade
+
+> Bioinformatics tool for virus genome alignment, clade assignment and qc checks
+> More information: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html
+
+- Create a TSV report, auto-downloading the latest [d]ataset:
+
+`nextclade run -d {any something} {any something} -t {any something}`
+
+- List all available datasets:
+
+`nextclade dataset list`
+
+- Download the latest SARS-CoV-2 dataset:
+
+`nextclade dataset get --name sars-cov-2 --output-dir {directory something}`
+
+- Use a downloaded [D]ataset, producing all [O]utputs:
+
+`nextclade run -D {directory something: dataset} -O {directory something: output} {any something}`
+
+- Run on multiple files:
+
+`nextclade run -d {any something} -t {any something} -- {any something}`
+
+- Try reverse complement if sequence does not align:
+
+`nextclade run --retry-reverse-complement -d {any something} -t {any something} {any something}`

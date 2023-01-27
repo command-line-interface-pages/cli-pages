@@ -1,0 +1,32 @@
+# openttd
+
+> Open source clone of the Microprose game "Transport Tycoon Deluxe"
+> More information: https://www.openttd.org
+
+- Start a new game:
+
+`openttd -g`
+
+- Load save game at start:
+
+`openttd -g {file something}`
+
+- Start with the specified window resolution:
+
+`openttd -r {any something}`
+
+- Start with a custom configuration file:
+
+`openttd -c {file something}`
+
+- Start with selected video, sound, and music drivers:
+
+`openttd -v {any something} -s {any something} -m {any something}`
+
+- Start a dedicated server, forked in the background:
+
+`openttd -f -D {any something}:{any something}`
+
+- Join a server with a password:
+
+`openttd -n {any something}:{any something}#{any something} -p {any something}`

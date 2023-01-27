@@ -1,0 +1,36 @@
+# task
+
+> Command-line to-do list manager
+> More information: https://taskwarrior.org/docs/
+
+- Add a new task which is due tomorrow:
+
+`task add {any something} due:{any something}`
+
+- Update a task's priority:
+
+`task {any something} modify priority:{any something}`
+
+- Complete a task:
+
+`task {any something} done`
+
+- Delete a task:
+
+`task {any something} delete`
+
+- List all open tasks:
+
+`task list`
+
+- List open tasks due before the end of the week:
+
+`task list due.before:{any something}`
+
+- Show a graphical burndown chart, by day:
+
+`task burndown.daily`
+
+- List all reports:
+
+`task reports`

@@ -1,0 +1,24 @@
+# netselect
+
+> Speed test for choosing a fast network server
+> More information: https://github.com/apenwarr/netselect
+
+- Choose the server with the lowest latency:
+
+`sudo netselect {any something} {any something}`
+
+- Display nameserver resolution and statistics:
+
+`sudo netselect -vv {any something} {any something}`
+
+- Define maximum TTL (time to live):
+
+`sudo netselect -m {int number: 10} {any something} {any something}`
+
+- Print fastest N servers among the hosts:
+
+`sudo netselect -s {any something} {any something} {any something} {any something}`
+
+- List available options:
+
+`netselect`

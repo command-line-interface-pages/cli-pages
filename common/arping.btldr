@@ -1,0 +1,29 @@
+# arping
+
+> Discover and probe hosts in a network using the ARP protocol
+> Useful for MAC address discovery
+> More information: https://github.com/ThomasHabets/arping
+
+- Ping a host by ARP request packets:
+
+`arping {any something}`
+
+- Ping a host on a specific interface:
+
+`arping -I {any something} {any something}`
+
+- Ping a host and stop at the first reply:
+
+`arping -f {any something}`
+
+- Ping a host a specific number of times:
+
+`arping -c {any something} {any something}`
+
+- Broadcast ARP request packets to update neighbours' ARP caches:
+
+`arping -U {any something}`
+
+- Detect duplicated IP addresses in the network by sending ARP requests with a 3 second timeout:
+
+`arping -D -w {int number: 3} {any something}`

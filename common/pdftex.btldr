@@ -1,0 +1,16 @@
+# pdftex
+
+> Compile a PDF document from TeX source files
+> More information: https://www.tug.org/applications/pdftex/
+
+- Compile a PDF document:
+
+`pdftex {any something}`
+
+- Compile a PDF document, specifying an output directory:
+
+`pdftex -output-directory={directory something} {any something}`
+
+- Compile a PDF document, exiting on each error:
+
+`pdftex -halt-on-error {any something}`

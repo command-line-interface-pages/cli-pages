@@ -1,0 +1,20 @@
+# goaccess
+
+> An open source real-time web log analyzer
+> More information: https://goaccess.io
+
+- Analyze one or more log files in interactive mode:
+
+`goaccess {any something}`
+
+- Use a specific log-format (or pre-defined formats like "combined"):
+
+`goaccess {any something} --log-format={any something}`
+
+- Analyze a log from stdin:
+
+`tail -f {any something} | goaccess -`
+
+- Analyze a log and write it to an HTML file in real-time:
+
+`goaccess {any something} --output {any something} --real-time-html`

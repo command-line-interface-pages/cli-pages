@@ -1,0 +1,24 @@
+# gow
+
+> Watches Go files and restarts the app on changes
+> More information: https://github.com/mitranim/gow
+
+- Start and watch the current directory:
+
+`gow run .`
+
+- Start the application with the specified arguments:
+
+`gow run . {any something}`
+
+- Watch subdirectories in verbose mode:
+
+`gow -v -w={any something} run .`
+
+- Watch the specified file extensions:
+
+`gow -e={any something} run .`
+
+- Display help:
+
+`gow -h`

@@ -1,0 +1,28 @@
+# tb
+
+> CLI for managing tasks and notes across multiple boards
+> More information: https://github.com/klaussinani/taskbook
+
+- Add a new task to a board:
+
+`tb --task {any something} @{any something}`
+
+- Add a new note to a board:
+
+`tb --note {any something} @{any something}`
+
+- Edit item's priority:
+
+`tb --priority @{any something} {any something}`
+
+- Check/uncheck item:
+
+`tb --check {any something}`
+
+- Archive all checked items:
+
+`tb --clear`
+
+- Move item to a board:
+
+`tb --move @{any something} {any something}`

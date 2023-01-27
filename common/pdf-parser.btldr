@@ -1,0 +1,16 @@
+# pdf-parser
+
+> Identify fundamental elements of a PDF file without rendering it
+> More information: https://blog.didierstevens.com/programs/pdf-tools
+
+- Display statistics for a PDF file:
+
+`pdf-parser --stats {any something}`
+
+- Display objects of type `/Font` in a PDF file:
+
+`pdf-parser --type={any something} {any something}`
+
+- Search for strings in indirect objects:
+
+`pdf-parser --search={any something} {any something}`

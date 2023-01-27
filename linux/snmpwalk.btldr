@@ -1,0 +1,24 @@
+# snmpwalk
+
+> SNMP query tool
+> More information: https://manned.org/snmpwalk
+
+- Query the system information of a remote host using SNMPv1 and a community string:
+
+`snmpwalk -v1 -c {any something} {any something}`
+
+- Query system information on a remote host by OID using SNMPv2 on a specified port:
+
+`snmpwalk -v2c -c {any something} {any something}:{any something} {any something}`
+
+- Query system information on a remote host by OID using SNMPv3 and authentication without encryption:
+
+`snmpwalk -v3 -l {any something} -u {any something} -a {any something} -A {any something} {any something} {any something}`
+
+- Query system information on a remote host by OID using SNMPv3, authentication, and encryption:
+
+`snmpwalk -v3 -l {any something} -u {any something} -a {any something} -A {any something} -x {any something} -X {any something} {any something} {any something}`
+
+- Query system information on a remote host by OID using SNMPv3 without authentication or encryption:
+
+`snmpwalk -v3 -l {any something} -u {any something} {any something} {any something}`

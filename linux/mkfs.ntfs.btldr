@@ -1,0 +1,16 @@
+# mkfs.ntfs
+
+> Creates a NTFS filesystem inside a partition
+> More information: https://manned.org/mkfs.ntfs
+
+- Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
+
+`mkfs.ntfs {any something}`
+
+- Create filesystem with a volume-label:
+
+`mkfs.ntfs -L {any something} {any something}`
+
+- Create filesystem with specific UUID:
+
+`mkfs.ntfs -U {any something} {any something}`

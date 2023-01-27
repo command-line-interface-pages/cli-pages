@@ -1,0 +1,20 @@
+# stolonctl
+
+> CLI for Stolon, a cloud native PostgreSQL manager for PostgreSQL high availability
+> More information: https://github.com/sorintlab/stolon
+
+- Get cluster status:
+
+`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} status`
+
+- Get cluster data:
+
+`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} clusterdata`
+
+- Get cluster specification:
+
+`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} spec`
+
+- Update cluster specification with a patch in JSON format:
+
+`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} update --patch '{any something}'`

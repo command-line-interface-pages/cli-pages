@@ -1,0 +1,28 @@
+# spi
+
+> A meta package manager that handles both packages and slackbuilds
+> More information: https://github.com/gapan/spi
+
+- Update the list of available packages and slackbuilds:
+
+`spi --update`
+
+- Install a package or slackbuild:
+
+`spi --install {any something}`
+
+- Upgrade all installed packages to the latest versions available:
+
+`spi --upgrade`
+
+- Locate packages or slackbuilds by package name or description:
+
+`spi {any something}`
+
+- Display information about a package or slackbuild:
+
+`spi --show {any something}`
+
+- Purge the local package and slackbuild caches:
+
+`spi --clean`

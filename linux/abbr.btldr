@@ -1,0 +1,21 @@
+# abbr
+
+> Manage abbreviations for the fish shell
+> User-defined words are replaced with longer phrases after they are entered
+> More information: https://fishshell.com/docs/current/cmds/abbr.html
+
+- Add a new abbreviation:
+
+`abbr --add {any something} {any something} {any something}`
+
+- Rename an existing abbreviation:
+
+`abbr --rename {any something} {any something}`
+
+- Erase an existing abbreviation:
+
+`abbr --erase {any something}`
+
+- Import the abbreviations defined on another host over SSH:
+
+`ssh {any something} abbr --show | source`

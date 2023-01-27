@@ -1,0 +1,12 @@
+# svgcleaner
+
+> SVG optimizing utility
+> More information: https://github.com/RazrFalcon/svgcleaner
+
+- Optimize an SVG:
+
+`svgcleaner {any something} {any something}`
+
+- Optimize an SVG multiple times:
+
+`svgcleaner --multipass {any something} {any something}`

@@ -1,0 +1,36 @@
+# httpie
+
+> A user friendly command-line HTTP tool
+> More information: https://github.com/httpie/httpie
+
+- Send a GET request (default method with no request data):
+
+`http {any something}`
+
+- Send a POST request (default method with request data):
+
+`http {any something} {any something}`
+
+- Send a POST request with redirected input:
+
+`http {any something} < {any something}`
+
+- Send a PUT request with a given JSON body:
+
+`http PUT {any something} {any something}`
+
+- Send a DELETE request with a given request header:
+
+`http DELETE {any something} {any something}`
+
+- Show the whole HTTP exchange (both request and response):
+
+`http -v {any something}`
+
+- Download a file:
+
+`http --download {any something}`
+
+- Follow redirects and show intermediary requests and responses:
+
+`http --follow --all {any something}`

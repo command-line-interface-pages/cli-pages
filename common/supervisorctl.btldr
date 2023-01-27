@@ -1,0 +1,25 @@
+# supervisorctl
+
+> Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems
+> Supervisorctl is the command-line client piece of the supervisor which provides a shell-like interface
+> More information: http://supervisord.org
+
+- Start/stop/restart a process:
+
+`supervisorctl {any something} {any something}`
+
+- Start/stop/restart all processes in a group:
+
+`supervisorctl {any something} {any something}:*`
+
+- Show last 100 **bytes** of process stderr:
+
+`supervisorctl tail -100 {any something} stderr`
+
+- Keep displaying stdout of a process:
+
+`supervisorctl tail -f {any something} stdout`
+
+- Reload process config file to add/remove processes as necessary:
+
+`supervisorctl update`

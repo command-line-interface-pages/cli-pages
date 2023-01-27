@@ -1,0 +1,24 @@
+# gibo
+
+> Fetch gitignore boilerplates
+> More information: https://github.com/simonwhitaker/gibo
+
+- List available boilerplates:
+
+`gibo list`
+
+- Write a boilerplate to stdout:
+
+`gibo dump {any something}`
+
+- Write a boilerplate to .gitignore:
+
+`gibo dump {any something} >>{any something}`
+
+- Search for boilerplates containing a given string:
+
+`gibo search {any something}`
+
+- Update available local boilerplates:
+
+`gibo update`

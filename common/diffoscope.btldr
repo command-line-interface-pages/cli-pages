@@ -1,0 +1,24 @@
+# diffoscope
+
+> Compare files, archives, and directories
+> More information: https://diffoscope.org
+
+- Compare two files:
+
+`diffoscope {any something} {any something}`
+
+- Compare two files without displaying a progress bar:
+
+`diffoscope --no-progress {any something} {any something}`
+
+- Compare two files and write an HTML-report to a file (use `-` for stdout):
+
+`diffoscope --html {any something} {any something} {any something}`
+
+- Compare two directories excluding files with a name matching a specified pattern:
+
+`diffoscope --exclude {any something} {any something} {any something}`
+
+- Compare two directories and control whether directory metadata is considered:
+
+`diffoscope --exclude-directory-metadata {any something} {any something} {any something}`

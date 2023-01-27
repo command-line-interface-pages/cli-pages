@@ -1,0 +1,28 @@
+# qpdf
+
+> Versatile PDF transformation software
+> More information: https://github.com/qpdf/qpdf
+
+- Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
+
+`qpdf --empty --pages {any something} {any something} -- {any something}`
+
+- Merge (concatenate) all the pages of a list of PDF files and save the result as a new PDF:
+
+`qpdf --empty --pages {any something} {any something} {any something} -- {any something}`
+
+- Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF:
+
+`qpdf --empty --pages {any something} {any something} {any something} {any something} -- {any something}`
+
+- Write each group of n pages to a separate output file with a given filename pattern:
+
+`qpdf --split-pages=n {any something} {any something}`
+
+- Rotate certain pages of a PDF with a given angle:
+
+`qpdf --rotate={any something} --rotate={any something} {any something} {any something}`
+
+- Remove the password from a password-protected file:
+
+`qpdf --password={any something} --decrypt {any something} {any something}`

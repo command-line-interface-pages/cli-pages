@@ -1,0 +1,16 @@
+# csv2tsv
+
+> Convert CSV (comma-separated) text to TSV (tab-separated) format
+> More information: https://github.com/eBay/tsv-utils/blob/master/README.md#csv2tsv
+
+- Convert from CSV to TSV:
+
+`csv2tsv {any something} > {any something}`
+
+- Convert field delimiter separated CSV to TSV:
+
+`csv2tsv -c'{any something}' {any something}`
+
+- Convert semicolon separated CSV to TSV:
+
+`csv2tsv -c';' {any something}`

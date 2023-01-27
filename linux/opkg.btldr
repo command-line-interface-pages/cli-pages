@@ -1,0 +1,32 @@
+# opkg
+
+> A lightweight package manager used to install OpenWrt packages
+> More information: https://openwrt.org/docs/guide-user/additional-software/opkg
+
+- Install a package:
+
+`opkg install {any something}`
+
+- Remove a package:
+
+`opkg remove {any something}`
+
+- Update the list of available packages:
+
+`opkg update`
+
+- Upgrade all the installed packages:
+
+`opkg upgrade`
+
+- Upgrade one or more specific package(s):
+
+`opkg upgrade {any something}`
+
+- Display information for a specific package:
+
+`opkg info {any something}`
+
+- List all the available packages:
+
+`opkg list`

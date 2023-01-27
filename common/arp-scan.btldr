@@ -1,0 +1,20 @@
+# arp-scan
+
+> Send ARP packets to hosts (specified as IP addresses or hostnames) to scan the local network
+> More information: https://github.com/royhills/arp-scan
+
+- Scan the current local network:
+
+`arp-scan --localnet`
+
+- Scan an IP network with a custom bitmask:
+
+`arp-scan {any something}/{int number: 24}`
+
+- Scan an IP network within a custom range:
+
+`arp-scan {any something}-{any something}`
+
+- Scan an IP network with a custom net mask:
+
+`arp-scan {any something}:{any something}`

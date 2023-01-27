@@ -1,0 +1,12 @@
+# interdiff
+
+> Show differences between two diff files
+> More information: http://freshmeat.sourceforge.net/projects/patchutils
+
+- Compare diff files:
+
+`interdiff {file something: old} {file something: new}`
+
+- Compare diff files, ignoring whitespace:
+
+`interdiff -w {file something: old} {file something: new}`

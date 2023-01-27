@@ -1,0 +1,20 @@
+# xgettext
+
+> Extract gettext strings from code files
+> More information: https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html
+
+- Scan file and output strings to `messages.po`:
+
+`xgettext {file something: path/to/input}`
+
+- Use a different output filename:
+
+`xgettext --output {file something: path/to/output} {file something: path/to/input}`
+
+- Append new strings to an existing file:
+
+`xgettext --join-existing --output {file something: path/to/output} {file something: path/to/input}`
+
+- Don't add a header containing metadata to the output file:
+
+`xgettext --omit-header {file something: path/to/input}`

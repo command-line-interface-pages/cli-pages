@@ -1,0 +1,20 @@
+# argon2
+
+> Calculate Argon2 cryptographic hashes
+> More information: https://github.com/P-H-C/phc-winner-argon2#command-line-utility
+
+- Calculate a hash with a password and a salt with the default parameters:
+
+`echo "{any something}" | argon2 "{any something}"`
+
+- Calculate a hash with the specified algorithm:
+
+`echo "{any something}" | argon2 "{any something}" -{any something}`
+
+- Display the output hash without additional information:
+
+`echo "{any something}" | argon2 "{any something}" -e`
+
+- Calculate a hash with given iteration [t]imes, [m]emory usage, and [p]arallelism parameters:
+
+`echo "{any something}" | argon2 "{any something}" -t {int number: 5} -m {int number: 20} -p {int number: 7}`

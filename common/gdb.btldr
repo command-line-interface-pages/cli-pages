@@ -1,0 +1,24 @@
+# gdb
+
+> The GNU Debugger
+> More information: https://www.gnu.org/software/gdb
+
+- Debug an executable:
+
+`gdb {any something}`
+
+- Attach a process to gdb:
+
+`gdb -p {any something}`
+
+- Debug with a core file:
+
+`gdb -c {any something} {any something}`
+
+- Execute given GDB commands upon start:
+
+`gdb -ex "{any something}" {any something}`
+
+- Start gdb and pass arguments to the executable:
+
+`gdb --args {any something} {any something} {any something}`

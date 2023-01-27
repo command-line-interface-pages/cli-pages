@@ -1,0 +1,24 @@
+# nest
+
+> Command-line tool to initialize, develop, and maintain Nest applications
+> More information: https://docs.nestjs.com/cli/overview
+
+- Display information about installed nest version:
+
+`nest info`
+
+- Create a new NestJS project in a directory of the same name:
+
+`nest new {any something}`
+
+- Build a specific NestJS project:
+
+`nest build {any something}`
+
+- Run a specific NestJS project:
+
+`nest start {any something}`
+
+- Import a library into the current NestJS project:
+
+`nest add {any something}`

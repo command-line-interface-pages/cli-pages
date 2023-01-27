@@ -1,0 +1,12 @@
+# m4
+
+> Macro processor
+> More information: https://www.gnu.org/software/m4
+
+- Process macros in a file:
+
+`m4 {file something}`
+
+- Define a macro before processing files:
+
+`m4 -D{any something}={any something} {file something}`

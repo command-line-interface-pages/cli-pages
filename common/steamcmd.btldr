@@ -1,0 +1,16 @@
+# steamcmd
+
+> A command-line version of the Steam client
+> More information: https://manned.org/steamcmd
+
+- Install or update an application anonymously:
+
+`steamcmd +login {any something} +app_update {any something} +quit`
+
+- Install or update an application using the specified credentials:
+
+`steamcmd +login {any something} +app_update {any something} +quit`
+
+- Install an application for a specific platform:
+
+`steamcmd +@sSteamCmdForcePlatformType {any something} +login {any something} +app_update {any something} validate +quit`

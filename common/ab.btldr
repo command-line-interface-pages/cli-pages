@@ -1,0 +1,24 @@
+# ab
+
+> Apache HTTP server benchmarking tool
+> More information: https://httpd.apache.org/docs/current/programs/ab.html
+
+- Execute 100 HTTP GET requests to a given URL:
+
+`ab -n {int number: 100} {any something}`
+
+- Execute 100 HTTP GET requests, in concurrent batches of 10, to a URL:
+
+`ab -n {int number: 100} -c {int number: 10} {any something}`
+
+- Execute 100 HTTP POST requests to a URL, using a JSON payload from a file:
+
+`ab -n {int number: 100} -T {any something} -p {any something} {any something}`
+
+- Use HTTP [K]eep Alive, i.e. perform multiple requests within one HTTP session:
+
+`ab -k {any something}`
+
+- Set the maximum number of seconds to spend for benchmarking:
+
+`ab -t {int number: 60} {any something}`

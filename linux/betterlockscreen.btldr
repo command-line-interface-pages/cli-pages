@@ -1,0 +1,20 @@
+# betterlockscreen
+
+> Simple, minimal lock screen
+> More information: https://github.com/pavanjadhaw/betterlockscreen
+
+- Lock the screen:
+
+`betterlockscreen --lock`
+
+- Change the lock screen background:
+
+`betterlockscreen -u {any something}`
+
+- Lock the screen, showing some custom text:
+
+`betterlockscreen -l pixel -t "{any something}"`
+
+- Lock the screen, with a custom monitor off timeout in seconds:
+
+`betterlockscreen --off {int number: 5} -l`

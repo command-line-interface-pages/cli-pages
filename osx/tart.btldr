@@ -1,0 +1,36 @@
+# tart
+
+> Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon
+> More information: https://github.com/cirruslabs/tart
+
+- Pull a remote VM image:
+
+`tart pull {any something}`
+
+- Clone a VM from a local or remote image source:
+
+`tart clone {any something} {any something}`
+
+- Create a new Mac VM from a specific ipsw file:
+
+`tart create --from-ipsw={any something} {any something}`
+
+- Run an existing VM:
+
+`tart run {any something}`
+
+- Run an existing VM with a specific mounted directory:
+
+`tart run --dir={directory something}:{/directory something: path/to/local} {any something}`
+
+- List VMs:
+
+`tart list`
+
+- Get IP address of a running VM:
+
+`tart ip {any something}`
+
+- Change a VM's display resolution:
+
+`tart set {any something} --display {any something}x{any something}`

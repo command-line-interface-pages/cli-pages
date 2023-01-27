@@ -1,0 +1,24 @@
+# javap
+
+> Disassemble one or more class files and list them
+> More information: https://docs.oracle.com/en/java/javase/19/docs/specs/man/javap.html
+
+- Disassemble and list a `.class` file:
+
+`javap {any something}`
+
+- Disassemble and list multiple `.class` files:
+
+`javap {any something}`
+
+- Disassemble and list a built-in class file:
+
+`javap java.{any something}.{any something}`
+
+- Display help:
+
+`javap -help`
+
+- Display version:
+
+`javap -version`

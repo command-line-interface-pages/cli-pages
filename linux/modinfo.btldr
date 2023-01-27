@@ -1,0 +1,12 @@
+# modinfo
+
+> Extract information about a Linux kernel module
+> More information: https://manned.org/modinfo
+
+- List all attributes of a kernel module:
+
+`modinfo {any something}`
+
+- List the specified attribute only:
+
+`modinfo -F {any something} {any something}`

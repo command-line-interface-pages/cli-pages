@@ -1,0 +1,24 @@
+# whatis
+
+> Display one-line descriptions from manual pages
+> More information: https://manned.org/whatis
+
+- Display a description from a man page:
+
+`whatis {any something}`
+
+- Don't cut the description off at the end of the line:
+
+`whatis --long {any something}`
+
+- Display descriptions for all commands matching a glob:
+
+`whatis --wildcard {any something}`
+
+- Search man page descriptions with a regular expression:
+
+`whatis --regex '{any something}'`
+
+- Display descriptions of a specific language (requires `manpage-{{locale}}` package):
+
+`whatis --locale={any something} {any something}`

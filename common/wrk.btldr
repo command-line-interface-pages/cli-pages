@@ -1,0 +1,16 @@
+# wrk
+
+> HTTP benchmarking tool
+> More information: https://github.com/wg/wrk
+
+- Run a benchmark for `30` seconds, using `12` threads, and keeping `400` HTTP connections open:
+
+`wrk -t{int number: 12} -c{int number: 400} -d{any something} "{any something}"`
+
+- Run a benchmark with a custom header:
+
+`wrk -t{int number: 2} -c{int number: 5} -d{any something} -H "{any something}" "{any something}"`
+
+- Run a benchmark with a request timeout of `2` seconds:
+
+`wrk -t{int number: 2} -c{int number: 5} -d{any something} --timeout {any something} "{any something}"`

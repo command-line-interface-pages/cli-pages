@@ -1,0 +1,28 @@
+# okular
+
+> View documents
+> More information: https://docs.kde.org/stable5/en/okular/okular/command-line-options.html
+
+- Launch document viewer:
+
+`okular`
+
+- Open specific documents:
+
+`okular {file* something}`
+
+- Open a document at a specific page:
+
+`okular --page {any something} {file something}`
+
+- Open a specific document in presentation mode:
+
+`okular --presentation {file something}`
+
+- Open a specific document and start a print dialog:
+
+`okular --print {file something}`
+
+- Open a document and search for a specific string:
+
+`okular --find {any something} {file something}`

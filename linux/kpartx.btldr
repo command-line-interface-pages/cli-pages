@@ -1,0 +1,16 @@
+# kpartx
+
+> Create device maps from partition tables
+> More information: https://manned.org/kpartx
+
+- Add partition mappings:
+
+`kpartx -a {any something}`
+
+- Delete partition mappings:
+
+`kpartx -d {any something}`
+
+- List partition mappings:
+
+`kpartx -l {any something}`

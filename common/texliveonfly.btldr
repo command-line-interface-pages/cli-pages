@@ -1,0 +1,16 @@
+# texliveonfly
+
+> Downloads missing TeX Live packages while compiling `.tex` files
+> More information: https://ctan.org/pkg/texliveonfly
+
+- Download missing packages while compiling:
+
+`texliveonfly {any something}`
+
+- Use a specific compiler (defaults to `pdflatex`):
+
+`texliveonfly --compiler={any something} {any something}`
+
+- Use a custom TeX Live `bin` folder:
+
+`texliveonfly --texlive_bin={any something} {any something}`

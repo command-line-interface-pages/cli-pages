@@ -1,0 +1,24 @@
+# echo
+
+> Print given arguments
+> More information: https://www.gnu.org/software/coreutils/echo
+
+- Print a text message. Note: quotes are optional:
+
+`echo "{any something}"`
+
+- Print a message with environment variables:
+
+`echo "{any something}"`
+
+- Print a message without the trailing newline:
+
+`echo -n "{any something}"`
+
+- Append a message to the file:
+
+`echo "{any something}" >> {any something}`
+
+- Enable interpretation of backslash escapes (special characters):
+
+`echo -e "{any something}"`

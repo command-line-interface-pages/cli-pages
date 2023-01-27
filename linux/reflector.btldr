@@ -1,0 +1,16 @@
+# reflector
+
+> Arch script to fetch and sort mirrorlists
+> More information: https://manned.org/reflector
+
+- Get all mirrors, sort for download speed and save them:
+
+`sudo reflector --sort {any something} --save {any something}`
+
+- Only get German HTTPS mirrors:
+
+`reflector --country {any something} --protocol {any something}`
+
+- Only get the 10 recently sync'd mirrors:
+
+`reflector --latest {int number: 10}`

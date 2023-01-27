@@ -1,0 +1,16 @@
+# xvfb-run
+
+> Run a command in a virtual X server environment
+> More information: https://www.x.org/wiki/
+
+- Run the specified command in a virtual X server:
+
+`xvfb-run {any something}`
+
+- Try to get a free server number, if the default (99) is not available:
+
+`xvfb-run --auto-servernum {any something}`
+
+- Pass arguments to the Xvfb server:
+
+`xvfb-run --server-args "{any something}" {any something}`

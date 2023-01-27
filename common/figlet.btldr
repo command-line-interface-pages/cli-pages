@@ -1,0 +1,25 @@
+# figlet
+
+> Generate ASCII banners from user input
+> See also: `showfigfonts`
+> More information: http://www.figlet.org/figlet-man.html
+
+- Generate by directly inputting text:
+
+`figlet {any something}`
+
+- Use a custom font file:
+
+`figlet {any something} -f {any something}`
+
+- Use a font from the default font directory (the extension can be omitted):
+
+`figlet {any something} -f {any something}`
+
+- Pipe command output through FIGlet:
+
+`{any something} | figlet`
+
+- Show available FIGlet fonts:
+
+`showfigfonts {any something}`

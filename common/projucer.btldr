@@ -1,0 +1,28 @@
+# Projucer
+
+> A project manager for JUCE framework applications
+> More information: https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools
+
+- Display information about a project:
+
+`Projucer --status {file something: path/to/project}`
+
+- Resave all files and resources in a project:
+
+`Projucer --resave {file something: path/to/project}`
+
+- Update the version number in a project:
+
+`Projucer --set-version {any something} {file something: path/to/project}`
+
+- Generate a JUCE project from a PIP file:
+
+`Projucer --create-project-from-pip {any something} {any something}`
+
+- Remove all JUCE-style comments (`//=====`, `//-----` or `///////`):
+
+`Projucer --tidy-divider-comments {any something}`
+
+- Display help:
+
+`Projucer --help`

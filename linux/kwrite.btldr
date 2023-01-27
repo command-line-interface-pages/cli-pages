@@ -1,0 +1,21 @@
+# kwrite
+
+> Text editor of the KDE Desktop project
+> See also `kate`
+> More information: https://apps.kde.org/kwrite/
+
+- Open a text file:
+
+`kwrite {file something}`
+
+- Open multiple text files:
+
+`kwrite {any something}`
+
+- Open a text file with a specific encoding:
+
+`kwrite --encoding={any something} {file something}`
+
+- Open a text file and navigate to a specific line and column:
+
+`kwrite --line {any something} --column {any something} {file something}`

@@ -1,0 +1,36 @@
+# find
+
+> Find files or directories under the given directory tree, recursively
+> More information: https://manned.org/find
+
+- Find files by extension:
+
+`find {any something} -name '{any something}'`
+
+- Find files matching multiple path/name patterns:
+
+`find {any something} -path '{any something}' -or -name '{any something}'`
+
+- Find directories matching a given name, in case-insensitive mode:
+
+`find {any something} -type d -iname '{any something}'`
+
+- Find files matching a given pattern, excluding specific paths:
+
+`find {any something} -name '{any something}' -not -path '{any something}'`
+
+- Find files matching a given size range, limiting the recursive depth to "1"::
+
+`find {any something} -maxdepth 1 -size {any something} -size {any something}`
+
+- Run a command for each file (use `{}` within the command to access the filename):
+
+`find {any something} -name '{any something}' -exec {{wc -l {} }}\;`
+
+- Find files modified in the last 7 days:
+
+`find {any something} -daystart -mtime -{int number: 7}`
+
+- Find empty (0 byte) files and delete them:
+
+`find {any something} -type {any something} -empty -delete`

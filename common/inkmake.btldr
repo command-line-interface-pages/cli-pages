@@ -1,0 +1,24 @@
+# inkmake
+
+> GNU Makefile-style SVG exporting using Inkscape's backend
+> More information: https://github.com/wader/inkmake
+
+- Export an SVG file executing the specified Inkfile:
+
+`inkmake {any something}`
+
+- Execute an Inkfile and show detailed information:
+
+`inkmake --verbose {any something}`
+
+- Execute an Inkfile, specifying SVG input file(s) and an output file:
+
+`inkmake --svg {any something} --out {any something} {any something}`
+
+- Specify a custom Inkscape binary to use as the backend:
+
+`inkmake --inkscape {any something} {any something}`
+
+- Display help:
+
+`inkmake --help`

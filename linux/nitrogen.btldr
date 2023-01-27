@@ -1,0 +1,16 @@
+# nitrogen
+
+> Desktop background browser and setter for X Window
+> More information: https://github.com/l3ib/nitrogen
+
+- View and set the wallpapers from a specific directory:
+
+`nitrogen {directory something}`
+
+- Set the wallpaper with automatic size settings:
+
+`nitrogen --set-auto {file something}`
+
+- Restore the previous wallpaper:
+
+`nitrogen --restore`

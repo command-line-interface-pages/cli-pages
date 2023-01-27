@@ -1,0 +1,32 @@
+# nslookup
+
+> Query name server(s) for various domain records
+> More information: https://manned.org/nslookup
+
+- Query your system's default name server for an IP address (A record) of the domain:
+
+`nslookup {any something}`
+
+- Query a given name server for a NS record of the domain:
+
+`nslookup -type=NS {any something} {any something}`
+
+- Query for a reverse lookup (PTR record) of an IP address:
+
+`nslookup -type=PTR {any something}`
+
+- Query for ANY available records using TCP protocol:
+
+`nslookup -vc -type=ANY {any something} `
+
+- Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
+
+`nslookup -vc -type=AXFR {any something} {any something}`
+
+- Query for a mail server (MX record) of the domain, showing details of the transaction:
+
+`nslookup -type=MX -debug {any something}`
+
+- Query a given name server on a specific port number for a TXT record of the domain:
+
+`nslookup -port={any something} -type=TXT {any something} {any something}`

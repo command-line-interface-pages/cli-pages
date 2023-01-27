@@ -1,0 +1,37 @@
+# evil-winrm
+
+> Windows Remote Management (WinRM) shell for pentesting
+> Once connected, we get a PowerShell prompt on the target host
+> More information: https://github.com/Hackplayers/evil-winrm
+
+- Connect to a host:
+
+`evil-winrm --ip {any something} --user {any something} --password {any something}`
+
+- Connect to a host, passing the password hash:
+
+`evil-winrm --ip {any something} --user {any something} --hash {any something}`
+
+- Connect to a host, specifying directories for scripts and executables:
+
+`evil-winrm --ip {any something} --user {any something} --password {any something} --scripts {any something} --executables {any something}`
+
+- Connect to a host, using SSL:
+
+`evil-winrm --ip {any something} --user {any something} --password {any something} --ssl --pub-key {any something} --priv-key {any something}`
+
+- Upload a file to the host:
+
+`PS > upload {any something} {any something}`
+
+- Get a list of loaded PowerShell functions:
+
+`PS > menu`
+
+- Load a PowerShell script from the `--scripts` directory:
+
+`PS > {any something}`
+
+- Invoke a binary on the host from the `--executables` directory:
+
+`PS > Invoke-Binary {any something}`

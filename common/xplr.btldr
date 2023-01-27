@@ -1,0 +1,20 @@
+# xplr
+
+> Terminal-based file system explorer
+> More information: https://xplr.dev
+
+- Open a directory:
+
+`xplr {directory something}`
+
+- Focus on a file:
+
+`xplr {file something}`
+
+- Focus on a directory:
+
+`xplr --force-focus {directory something}`
+
+- Open a directory with specific files or directories selected:
+
+`xplr {directory something} {any something} {any something}`

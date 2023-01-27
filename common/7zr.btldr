@@ -1,0 +1,33 @@
+# 7zr
+
+> File archiver with a high compression ratio
+> Similar to `7z` except that it only supports `.7z` files
+> More information: https://www.7-zip.org
+
+- [a]rchive a file or directory:
+
+`7zr a {any something} {directory something: path/to/file_or}`
+
+- Encrypt an existing archive (including file names):
+
+`7zr a {any something} -p{any something} -mhe=on {any something}`
+
+- E[x]tract an archive preserving the original directory structure:
+
+`7zr x {any something}`
+
+- E[x]tract an archive to a specific directory:
+
+`7zr x {any something} -o{any something}`
+
+- E[x]tract an archive to stdout:
+
+`7zr x {any something} -so`
+
+- [l]ist the contents of an archive:
+
+`7zr l {any something}`
+
+- List available archive types:
+
+`7zr i`

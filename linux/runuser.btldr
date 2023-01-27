@@ -1,0 +1,24 @@
+# runuser
+
+> Run commands as a specific user and group without asking for password (needs root privileges)
+> More information: https://manned.org/runuser
+
+- Run command as a different user:
+
+`runuser {any something} -c '{any something}'`
+
+- Run command as a different user and group:
+
+`runuser {any something} -g {any something} -c '{any something}'`
+
+- Start a login shell as a specific user:
+
+`runuser {any something} -l`
+
+- Specify a shell for running instead of the default shell (also works for login):
+
+`runuser {any something} -s {any something}`
+
+- Preserve the entire environment of root (only if `--login` is not specified):
+
+`runuser {any something} --preserve-environment -c '{any something}'`

@@ -1,0 +1,16 @@
+# watch
+
+> Execute a command repeatedly, and monitor the output in full-screen mode
+> More information: https://manned.org/watch
+
+- Monitor files in the current directory:
+
+`watch {any something}`
+
+- Monitor disk space and highlight the changes:
+
+`watch -d {any something}`
+
+- Monitor "node" processes, refreshing every 3 seconds:
+
+`watch -n {int number: 3} "{any something}"`

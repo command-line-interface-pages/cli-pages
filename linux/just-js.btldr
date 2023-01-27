@@ -1,0 +1,24 @@
+# just
+
+> A V8 JavaScript runtime for Linux
+> More information: https://github.com/just-js/just
+
+- Start a REPL (interactive shell):
+
+`just`
+
+- Run a JavaScript file:
+
+`just {any something}`
+
+- Evaluate JavaScript code by passing it as an argument:
+
+`just eval "{any something}"`
+
+- Initialize a new project in a directory of the same name:
+
+`just init {any something}`
+
+- Build a JavaScript application into an executable:
+
+`just build {any something} --static`

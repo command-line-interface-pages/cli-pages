@@ -1,0 +1,37 @@
+# lsof
+
+> Lists open files and the corresponding processes
+> Note: Root privileges (or sudo) is required to list files opened by others
+> More information: https://manned.org/lsof
+
+- Find the processes that have a given file open:
+
+`lsof {file something}`
+
+- Find the process that opened a local internet port:
+
+`lsof -i :{any something}`
+
+- Only output the process ID (PID):
+
+`lsof -t {file something}`
+
+- List files opened by the given user:
+
+`lsof -u {any something}`
+
+- List files opened by the given command or process:
+
+`lsof -c {any something}`
+
+- List files opened by a specific process, given its PID:
+
+`lsof -p {any something}`
+
+- List open files in a directory:
+
+`lsof +D {directory something}`
+
+- Find the process that is listening on a local IPv6 TCP port and don't convert network or port numbers:
+
+`lsof -i6TCP:{any something} -sTCP:LISTEN -n -P`

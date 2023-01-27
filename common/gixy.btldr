@@ -1,0 +1,20 @@
+# gixy
+
+> Analyze nginx configuration files
+> More information: https://github.com/yandex/gixy
+
+- Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`):
+
+`gixy`
+
+- Analyze nginx configuration but skip specific tests:
+
+`gixy --skips {any something}`
+
+- Analyze nginx configuration with the specific severity level:
+
+`gixy {any something}`
+
+- Analyze nginx configuration files on the specific path:
+
+`gixy {any something} {any something}`

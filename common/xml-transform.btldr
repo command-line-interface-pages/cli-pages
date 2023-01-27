@@ -1,0 +1,12 @@
+# xml transform
+
+> Transform XML documents using XSLT
+> More information: http://xmlstar.sourceforge.net/docs.php
+
+- Transform an XML document using an XSL stylesheet, passing one XPATH parameter and one literal string parameter:
+
+`xml transform {any something} -p "{any something}" -s {any something} {any something}`
+
+- Display help for the `transform` subcommand:
+
+`xml transform --help`

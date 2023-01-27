@@ -1,0 +1,32 @@
+# z
+
+> Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions
+> More information: https://github.com/rupa/z
+
+- Go to a directory that contains "foo" in the name:
+
+`z {any something}`
+
+- Go to a directory that contains "foo" and then "bar":
+
+`z {any something} {any something}`
+
+- Go to the highest-ranked directory matching "foo":
+
+`z -r {any something}`
+
+- Go to the most recently accessed directory matching "foo":
+
+`z -t {any something}`
+
+- List all directories in `z`'s database matching "foo":
+
+`z -l {any something}`
+
+- Remove the current directory from `z`'s database:
+
+`z -x .`
+
+- Restrict matches to subdirectories of the current directory:
+
+`z -c {any something}`

@@ -1,0 +1,24 @@
+# cloc
+
+> Count, and compute differences of, lines of source code and comments
+> More information: https://github.com/AlDanial/cloc
+
+- Count all the lines of code in a directory:
+
+`cloc {directory something}`
+
+- Count all the lines of code in a directory, displaying a progress bar during the counting process:
+
+`cloc --progress=1 {directory something}`
+
+- Compare 2 directory structures and count the differences between them:
+
+`cloc --diff {any something} {any something}`
+
+- Ignore files that are ignored by VCS, such as files specified in `.gitignore`:
+
+`cloc --vcs git {directory something}`
+
+- Count all the lines of code in a directory, displaying the results for each file instead of each language:
+
+`cloc --by-file {directory something}`

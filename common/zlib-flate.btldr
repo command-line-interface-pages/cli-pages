@@ -1,0 +1,17 @@
+# zlib-flate
+
+> Raw zlib compression and decompression program
+> Part of `qpdf`
+> More information: https://manned.org/zlib-flate
+
+- Compress a file:
+
+`zlib-flate -compress < {file something: path/to/input} > {any something}`
+
+- Uncompress a file:
+
+`zlib-flate -uncompress < {any something} > {file something: path/to/output}`
+
+- Compress a file with a specified compression level. 0=Fastest (Worst), 9=Slowest (Best):
+
+`zlib-flate -compress={any something} < {file something: path/to/input} > {any something}`

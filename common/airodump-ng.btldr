@@ -1,0 +1,13 @@
+# airodump-ng
+
+> Capture packets and display information about wireless networks
+> Part of `aircrack-ng`
+> More information: https://www.aircrack-ng.org/doku.php?id=airodump-ng
+
+- Capture packets and display information about a wireless network:
+
+`sudo airodump-ng {any something}`
+
+- Capture packets and display information about a wireless network given the MAC address and channel, and save the output to a file:
+
+`sudo airodump-ng --channel {any something} --write {file something} --bssid {any something} {any something}`

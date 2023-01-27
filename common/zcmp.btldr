@@ -1,0 +1,12 @@
+# zcmp
+
+> Compare compressed files
+> More information: https://manned.org/zcmp
+
+- Invoke `cmp` on two files compressed via `gzip`:
+
+`zcmp {any something} {any something}`
+
+- Compare a file to its gzipped version (assuming `.gz` exists already):
+
+`zcmp {file something}`

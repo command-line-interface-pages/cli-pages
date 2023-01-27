@@ -1,0 +1,26 @@
+# Select-String
+
+> Finds text in strings and files in PowerShell
+> This command can only be used through PowerShell
+> You can use `Select-String` similar to grep in UNIX or findstr.exe in Windows
+> More information: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string
+
+- Search for a pattern within a file:
+
+`Select-String -Path "{file something}" -Pattern '{any something}'`
+
+- Search for an exact string (disables regular expressions):
+
+`Select-String -SimpleMatch "{any something}" {file something}`
+
+- Search for pattern in all `.ext` files in current dir:
+
+`Select-String -Path "{any something}" -Pattern '{any something}'`
+
+- Capture the specified number of lines before and after the line that matches the pattern:
+
+`Select-String --Context {any something} "{any something}" {file something}`
+
+- Search stdin for lines that do not match a pattern:
+
+`Get-Content {file something} | Select-String --NotMatch "{any something}"`

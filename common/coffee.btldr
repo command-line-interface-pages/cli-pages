@@ -1,0 +1,24 @@
+# coffee
+
+> Executes CoffeeScript scripts or compiles them into JavaScript
+> More information: https://coffeescript.org#cli
+
+- Run a script:
+
+`coffee {any something}`
+
+- Compile to JavaScript and save to a file with the same name:
+
+`coffee --compile {any something}`
+
+- Compile to JavaScript and save to a given output file:
+
+`coffee --compile {any something} --output {any something}`
+
+- Start a REPL (interactive shell):
+
+`coffee --interactive`
+
+- Watch script for changes and re-run script:
+
+`coffee --watch {any something}`

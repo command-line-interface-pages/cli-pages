@@ -1,0 +1,24 @@
+# godoc
+
+> Show documentation for go packages
+> More information: https://godoc.org/
+
+- Display help for package "fmt":
+
+`godoc {any something}`
+
+- Display help for the function "Printf" of "fmt" package:
+
+`godoc {any something} {any something}`
+
+- Serve documentation as a web server on port 6060:
+
+`godoc -http=:{int number: 6060}`
+
+- Create an index file:
+
+`godoc -write_index -index_files={file something}`
+
+- Use the given index file to search the docs:
+
+`godoc -http=:{int number: 6060} -index -index_files={file something}`

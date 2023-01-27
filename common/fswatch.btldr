@@ -1,0 +1,20 @@
+# fswatch
+
+> A cross-platform file change monitor
+> More information: https://emcrisostomo.github.io/fswatch
+
+- Run a Bash command on file creation, update or deletion:
+
+`fswatch {file something} | xargs -n 1 {any something}`
+
+- Watch one or more files and/or directories:
+
+`fswatch {file something} {directory something} {any something} | xargs -n 1 {any something}`
+
+- Print the absolute paths of the changed files:
+
+`fswatch {directory something} | xargs -n 1 -I {} echo {}`
+
+- Filter by event type:
+
+`fswatch --event {any something} {directory something} | xargs -n 1 {any something}`

@@ -1,0 +1,16 @@
+# hr
+
+> Print a horizontal rule in the terminal
+> More information: https://github.com/LuRsT/hr
+
+- Print a horizontal rule:
+
+`hr`
+
+- Print a horizontal rule with a custom string:
+
+`hr {any something}`
+
+- Print a multiline horizontal rule:
+
+`hr {any something} {any something} {any something}`

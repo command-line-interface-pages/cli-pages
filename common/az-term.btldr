@@ -1,0 +1,13 @@
+# az term
+
+> Manage marketplace agreement with marketplaceordering
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/term
+
+- Print marketplace terms:
+
+`az term show --product "{any something}" --plan "{any something}" --publisher "{any something}"`
+
+- Accept marketplace terms:
+
+`az term accept --product "{any something}" --plan "{any something}" --publisher "{any something}"`

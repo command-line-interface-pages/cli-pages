@@ -1,0 +1,32 @@
+# driverquery
+
+> Display information about installed device drivers
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery
+
+- Display a list of all installed device drivers:
+
+`driverquery`
+
+- Display a list of drivers in the specified format:
+
+`driverquery /fo {any something}`
+
+- Display a list of drivers with a column to indicate if they are signed:
+
+`driverquery /si`
+
+- Exclude the header in the output list:
+
+`driverquery /nh`
+
+- Display a list of drivers for a remote machine:
+
+`driverquery /s {any something} /u {any something} /p {any something}`
+
+- Display a list of drivers with verbose information:
+
+`driverquery /v`
+
+- Display detailed usage information:
+
+`driverquery /?`

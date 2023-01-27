@@ -1,0 +1,20 @@
+# sublist3r
+
+> Fast subdomains enumeration tool for penetration testers
+> More information: https://github.com/aboul3la/Sublist3r
+
+- Find subdomains for a domain:
+
+`sublist3r --domain {any something}`
+
+- Find subdomains for a domain, also enabling brute force search:
+
+`sublist3r --domain {any something} --bruteforce`
+
+- Save the found subdomains to a text file:
+
+`sublist3r --domain {any something} --output {file something: path/to/output}`
+
+- Output all available options:
+
+`sublist3r --help`

@@ -1,0 +1,37 @@
+# replace
+
+> Replace files
+> See also: `robocopy`, `move`, `copy`, and `del`
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/replace
+
+- Replace the destination file with the one from the source directory:
+
+`replace {directory something: path/to/file_or} {any something}`
+
+- Add files to the destination directory instead of replacing existing files:
+
+`replace {directory something: path/to/file_or} {any something} /a`
+
+- Interactively copy multiple files, with a prompt before replacing or adding a destination file:
+
+`replace {directory something: path/to/file_or} {any something} /p`
+
+- Replace even read only files:
+
+`replace {directory something: path/to/file_or} {any something} /r`
+
+- Wait for you to insert a disk before it replaces files (originally to allow inserting a floppy disk):
+
+`replace {directory something: path/to/file_or} {any something} /w`
+
+- Replace all files in subdirectories of the destination:
+
+`replace {directory something: path/to/file_or} {any something} /s`
+
+- Replace only files in the destination directory which are older than the files in the source directory:
+
+`replace {directory something: path/to/file_or} {any something} /u`
+
+- Display detailed usage information:
+
+`replace /?`

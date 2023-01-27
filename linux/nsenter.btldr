@@ -1,0 +1,29 @@
+# nsenter
+
+> Run a new command in a running process' namespace
+> Particularly useful for docker images or chroot jails
+> More information: https://manned.org/nsenter
+
+- Run a specific command using the same namespaces as an existing process:
+
+`nsenter --target {any something} --all {any something} {any something}`
+
+- Run a specific command in an existing process's network namespace:
+
+`nsenter --target {any something} --net {any something} {any something}`
+
+- Run a specific command in an existing process's PID namespace:
+
+`nsenter --target {any something} --pid {any something} {any something}`
+
+- Run a specific command in an existing process's IPC namespace:
+
+`nsenter --target {any something} --ipc {any something} {any something}`
+
+- Run a specific command in an existing process's UTS, time, and IPC namespaces:
+
+`nsenter --target {any something} --uts --time --ipc -- {any something} {any something}`
+
+- Run a specific command in an existing process's namespace by referencing procfs:
+
+`nsenter --pid=/proc/{any something}/pid/net -- {any something} {any something}`

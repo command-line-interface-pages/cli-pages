@@ -1,0 +1,36 @@
+# lambo new
+
+> A super-powered `laravel new` for Laravel and Valet
+> More information: https://github.com/tighten/lambo
+
+- Create a new Laravel application:
+
+`lambo new {any something}`
+
+- Install the application in a specific path:
+
+`lambo new --path={directory something} {any something}`
+
+- Include authentication scaffolding:
+
+`lambo new --auth {any something}`
+
+- Include a specific frontend:
+
+`lambo new --{any something} {any something}`
+
+- Install npm dependencies after the project has been created:
+
+`lambo new --node {any something}`
+
+- Create a Valet site after the project has been created:
+
+`lambo new --link {any something}`
+
+- Create a new MySQL database with the same name as the project:
+
+`lambo new --create-db --dbuser={any something} --dbpassword={any something} {any something}`
+
+- Open a specific editor after the project has been created:
+
+`lambo new --editor="{any something}" {any something}`

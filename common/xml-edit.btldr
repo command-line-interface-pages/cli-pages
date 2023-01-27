@@ -1,0 +1,28 @@
+# xml edit
+
+> Edit an XML document
+> More information: http://xmlstar.sourceforge.net/docs.php
+
+- Delete elements matching an XPATH from an XML document:
+
+`xml edit --delete "{any something}" {any something}`
+
+- Move an element node of an XML document from XPATH1 to XPATH2:
+
+`xml edit --move "{any something}" "{any something}" {any something}`
+
+- Rename all attributes named "id" to "ID":
+
+`xml edit --rename "{any something}" -v "{any something}" {any something}`
+
+- Rename sub-elements of the element "table" that are named "rec" to "record":
+
+`xml edit --rename "{any something}" -v "{any something}" {any something}`
+
+- Update the XML table record with "id=3" to the value "id=5":
+
+`xml edit --update "{any something}" -v {int number: 5} {any something}`
+
+- Display help for the `edit` subcommand:
+
+`xml edit --help`

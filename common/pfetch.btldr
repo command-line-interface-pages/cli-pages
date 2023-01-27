@@ -1,0 +1,24 @@
+# pfetch
+
+> Display system information
+> More information: https://github.com/dylanaraps/pfetch
+
+- Display the ASCII art and default fields:
+
+`pfetch`
+
+- Display only the ASCII art and color palette fields:
+
+`PF_INFO="{any something}" pfetch`
+
+- Display all possible fields:
+
+`PF_INFO="{any something}" pfetch`
+
+- Display a different username and hostname:
+
+`USER="{any something}" HOSTNAME="{any something}" pfetch`
+
+- Display without colors:
+
+`PF_COLOR={int number: 0} pfetch`

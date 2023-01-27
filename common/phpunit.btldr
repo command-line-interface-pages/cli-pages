@@ -1,0 +1,20 @@
+# phpunit
+
+> PHPUnit command-line test runner
+> More information: https://phpunit.de
+
+- Run tests in the current directory. Note: Expects you to have a 'phpunit.xml':
+
+`phpunit`
+
+- Run tests in a specific file:
+
+`phpunit {any something}`
+
+- Run tests annotated with the given group:
+
+`phpunit --group {any something}`
+
+- Run tests and generate a coverage report in HTML:
+
+`phpunit --coverage-html {directory something}`

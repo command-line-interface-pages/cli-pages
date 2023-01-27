@@ -1,0 +1,20 @@
+# setserial
+
+> Read and modify serial port information
+> More information: https://manned.org/setserial
+
+- Print all information about a specific serial device:
+
+`setserial -a {any something}`
+
+- Print the configuration summary of a specific serial device (useful for printing during bootup process):
+
+`setserial -b {any something}`
+
+- Set a specific configuration parameter to a device:
+
+`sudo setserial {any something} {any something}`
+
+- Print the configuration of a list of devices:
+
+`setserial -g {any something}`

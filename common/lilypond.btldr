@@ -1,0 +1,24 @@
+# lilypond
+
+> Typeset music and/or produce MIDI from file
+> More information: https://lilypond.org
+
+- Compile a lilypond file into a PDF:
+
+`lilypond {file something}`
+
+- Compile into the specified format:
+
+`lilypond --formats={any something} {file something}`
+
+- Compile the specified file, suppressing progress updates:
+
+`lilypond -s {file something}`
+
+- Compile the specified file, and also specify the output filename:
+
+`lilypond --output={file something: path/to/output} {file something: path/to/input}`
+
+- Show the current version of lilypond:
+
+`lilypond --version`

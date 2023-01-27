@@ -1,0 +1,24 @@
+# nix
+
+> Utilities for the Nix language and store
+> More information: https://nixos.org
+
+- Search for a package via its name or description:
+
+`nix search {any something}`
+
+- Start a Nix shell with the specified packages available:
+
+`nix run {any something}`
+
+- Optimise Nix store disk usage by combining duplicate files:
+
+`nix store optimise`
+
+- Start an interactive environment for evaluating Nix expressions:
+
+`nix repl`
+
+- Upgrade Nix to the latest stable version:
+
+`nix upgrade-nix`

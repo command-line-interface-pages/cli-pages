@@ -1,0 +1,24 @@
+# unexpand
+
+> Convert spaces to tabs
+> More information: https://www.gnu.org/software/coreutils/unexpand
+
+- Convert blanks in each file to tabs, writing to stdout:
+
+`unexpand {file something}`
+
+- Convert blanks to tabs, reading from stdout:
+
+`unexpand`
+
+- Convert all blanks, instead of just initial blanks:
+
+`unexpand -a {file something}`
+
+- Convert only leading sequences of blanks (overrides -a):
+
+`unexpand --first-only {file something}`
+
+- Have tabs a certain number of characters apart, not 8 (enables -a):
+
+`unexpand -t {any something} {file something}`

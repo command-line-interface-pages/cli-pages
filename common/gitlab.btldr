@@ -1,0 +1,21 @@
+# gitlab
+
+> Ruby wrapper and CLI for the GitLab API
+> Some subcommands such as `gitlab ctl` have their own usage documentation
+> More information: https://narkoz.github.io/gitlab/
+
+- Create a new project:
+
+`gitlab create_project {any something}`
+
+- Get info about a specific commit:
+
+`gitlab commit {any something} {any something}`
+
+- Get info about jobs in a CI pipeline:
+
+`gitlab pipeline_jobs {any something} {any something}`
+
+- Start a specific CI job:
+
+`gitlab job_play {any something} {any something}`

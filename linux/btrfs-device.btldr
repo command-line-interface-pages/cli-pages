@@ -1,0 +1,24 @@
+# btrfs device
+
+> Manage devices in a btrfs filesystem
+> More information: https://btrfs.readthedocs.io/en/latest/btrfs-device.html
+
+- Add one or more devices to a btrfs filesystem:
+
+`sudo btrfs device add {any something} [{any something}] {any something}`
+
+- Remove a device from a btrfs filesystem:
+
+`sudo btrfs device remove {any something} [{any something}]`
+
+- Display error statistics:
+
+`sudo btrfs device stats {any something}`
+
+- Scan all disks and inform the kernel of all detected btrfs filesystems:
+
+`sudo btrfs device scan --all-devices`
+
+- Display detailed per-disk allocation statistics:
+
+`sudo btrfs device usage {any something}`

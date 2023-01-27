@@ -1,0 +1,36 @@
+# grep
+
+> Find patterns in files using regular expressions
+> More information: https://www.gnu.org/software/grep/manual/grep.html
+
+- Search for a pattern within a file:
+
+`grep "{any something}" {file something}`
+
+- Search for an exact string (disables regular expressions):
+
+`grep --fixed-strings "{any something}" {file something}`
+
+- Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
+
+`grep --recursive --line-number --binary-files={any something} "{any something}" {directory something}`
+
+- Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+
+`grep --extended-regexp --ignore-case "{any something}" {file something}`
+
+- Print 3 lines of context around, before, or after each match:
+
+`grep --{any something}={int number: 3} "{any something}" {file something}`
+
+- Print file name and line number for each match with color output:
+
+`grep --with-filename --line-number --color=always "{any something}" {file something}`
+
+- Search for lines matching a pattern, printing only the matched text:
+
+`grep --only-matching "{any something}" {file something}`
+
+- Search stdin for lines that do not match a pattern:
+
+`cat {file something} | grep --invert-match "{any something}"`

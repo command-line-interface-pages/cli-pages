@@ -1,0 +1,24 @@
+# nemo
+
+> Manages files and directories in Cinnamon desktop environment
+> More information: https://manned.org/nemo
+
+- Open the current user home directory:
+
+`nemo`
+
+- Open specific directories in separate windows:
+
+`nemo {directory* something}`
+
+- Open specific directories in tabs:
+
+`nemo --tabs {directory* something}`
+
+- Open a directory with a specific window size:
+
+`nemo --geometry={int number: 600}x{int number: 400} {directory something}`
+
+- Close all windows:
+
+`nemo --quit`

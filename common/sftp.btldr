@@ -1,0 +1,38 @@
+# sftp
+
+> Secure File Transfer Program
+> Interactive program to copy files between hosts over SSH
+> For non-interactive file transfers, see `scp` or `rsync`
+> More information: https://manned.org/sftp
+
+- Connect to a remote server and enter an interactive command mode:
+
+`sftp {any something}@{any something}`
+
+- Connect using an alternate port:
+
+`sftp -P {any something} {any something}@{any something}`
+
+- Connect using a predefined host (in `~/.ssh/config`):
+
+`sftp {any something}`
+
+- Transfer remote file to the local system:
+
+`get {/file something: path/remote}`
+
+- Transfer local file to the remote system:
+
+`put {/file something: path/local}`
+
+- Transfer remote directory to the local system recursively (works with `put` too):
+
+`get -R {/directory something: path/remote}`
+
+- Get list of files on local machine:
+
+`lls`
+
+- Get list of files on remote machine:
+
+`ls`

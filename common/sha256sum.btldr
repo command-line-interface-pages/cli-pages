@@ -1,0 +1,28 @@
+# sha256sum
+
+> Calculate SHA256 cryptographic checksums
+> More information: https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html
+
+- Calculate the SHA256 checksum for a file:
+
+`sha256sum {file something}`
+
+- Calculate SHA256 checksums for multiple files:
+
+`sha256sum {any something} {any something}`
+
+- Calculate and save the list of SHA256 checksums to a file:
+
+`sha256sum {any something} {any something} > {any something}`
+
+- Read a file of SHA256 sums and verify all files have matching checksums:
+
+`sha256sum --check {any something}`
+
+- Only show a message for missing files or when verification fails:
+
+`sha256sum --check --quiet {any something}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha256sum --ignore-missing --check --quiet {any something}`

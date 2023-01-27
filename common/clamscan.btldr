@@ -1,0 +1,36 @@
+# clamscan
+
+> A command-line virus scanner
+> More information: https://www.clamav.net
+
+- Scan a file for vulnerabilities:
+
+`clamscan {file something}`
+
+- Scan all files recursively in a specific directory:
+
+`clamscan -r {directory something}`
+
+- Scan data from stdin:
+
+`{any something} | clamscan -`
+
+- Specify a virus database file or directory of files:
+
+`clamscan --database {directory something: path/to/database_file_or}`
+
+- Scan the current directory and output only infected files:
+
+`clamscan --infected`
+
+- Output the scan report to a log file:
+
+`clamscan --log {file something: path/to/log}`
+
+- Move infected files to a specific directory:
+
+`clamscan --move {directory something: path/to/quarantine}`
+
+- Remove infected files:
+
+`clamscan --remove yes`

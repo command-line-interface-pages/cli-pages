@@ -1,0 +1,28 @@
+# pueue restart
+
+> Restart tasks
+> More information: https://github.com/Nukesor/pueue
+
+- Restart a specific task:
+
+`pueue restart {any something}`
+
+- Restart multiple tasks at once, and start them immediately (do not enqueue):
+
+`pueue restart --start-immediately {any something} {any something}`
+
+- Restart a specific task from a different path:
+
+`pueue restart --edit-path {any something}`
+
+- Edit a command before restarting:
+
+`pueue restart --edit {any something}`
+
+- Restart a task in-place (without enqueuing as a separate task):
+
+`pueue restart --in-place {any something}`
+
+- Restart all failed tasks and stash them:
+
+`pueue restart --all-failed --stashed`

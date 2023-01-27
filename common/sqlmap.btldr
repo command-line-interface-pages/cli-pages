@@ -1,0 +1,24 @@
+# sqlmap
+
+> Detect and exploit SQL injection flaws
+> More information: https://sqlmap.org
+
+- Run sqlmap against a single target URL:
+
+`python sqlmap.py -u "{any something}"`
+
+- Send data in a POST request (`--data` implies POST request):
+
+`python sqlmap.py -u "{any something}" --data="{any something}"`
+
+- Change the parameter delimiter (& is the default):
+
+`python sqlmap.py -u "{any something}" --data="{any something}" --param-del="{any something}"`
+
+- Select a random `User-Agent` from `./txt/user-agents.txt` and use it:
+
+`python sqlmap.py -u "{any something}" --random-agent`
+
+- Provide user credentials for HTTP protocol authentication:
+
+`python sqlmap.py -u "{any something}" --auth-type {any something} --auth-cred "{any something}"`

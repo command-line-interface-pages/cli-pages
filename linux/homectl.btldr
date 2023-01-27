@@ -1,0 +1,36 @@
+# homectl
+
+> Create, remove, change or inspect home directories using the systemd-homed service
+> More information: https://manned.org/homectl
+
+- List user accounts and their associated home directories:
+
+`homectl list`
+
+- Create a user account and their associated home directory:
+
+`sudo homectl create {any something}`
+
+- Remove a specific user and the associated home directory:
+
+`sudo homectl remove {any something}`
+
+- Change the password for a specific user:
+
+`sudo homectl passwd {any something}`
+
+- Run a shell or a command with access to a specific home directory:
+
+`sudo homectl with {any something} -- {any something} {any something}`
+
+- Lock or unlock a specific home directory:
+
+`sudo homectl {any something} {any something}`
+
+- Change the disk space assigned to a specific home directory to 100 GiB:
+
+`sudo homectl resize {any something} {any something}`
+
+- Display help:
+
+`homectl --help`

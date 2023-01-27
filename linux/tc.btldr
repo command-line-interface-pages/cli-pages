@@ -1,0 +1,32 @@
+# tc
+
+> Show / manipulate traffic control settings
+> More information: https://manned.org/tc
+
+- Add constant network delay to outbound packages:
+
+`tc qdisc add dev {any something} root netem delay {any something}ms`
+
+- Add normal distributed network delay to outbound packages:
+
+`tc qdisc add dev {any something} root netem delay {any something}ms {any something}ms`
+
+- Add package corruption/loss/duplication to a portion of packages:
+
+`tc qdisc add dev {any something} root netem {any something} {any something}%`
+
+- Limit bandwidth, burst rate and max latency:
+
+`tc qdisc add dev eth0 root tbf rate {any something}mbit burst {any something}kbit latency {any something}ms`
+
+- Show active traffic control policies:
+
+`tc qdisc show dev {any something}`
+
+- Delete all traffic control rules:
+
+`tc qdisc del dev {any something}`
+
+- Change traffic control rule:
+
+`tc qdisc change dev {any something} root netem {any something} {any something}`

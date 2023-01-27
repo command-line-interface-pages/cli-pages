@@ -1,0 +1,20 @@
+# gofmt
+
+> Tool for formatting Go source code
+> More information: https://golang.org/cmd/gofmt/
+
+- Format a file and display the result to the console:
+
+`gofmt {any something}`
+
+- Format a file, overwriting the original file in-place:
+
+`gofmt -w {any something}`
+
+- Format a file, and then simplify the code, overwriting the original file:
+
+`gofmt -s -w {any something}`
+
+- Print all (including spurious) errors:
+
+`gofmt -e {any something}`

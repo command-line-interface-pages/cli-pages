@@ -1,0 +1,36 @@
+# iptables
+
+> Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall
+> More information: https://www.netfilter.org/projects/iptables/
+
+- View chains, rules, and packet/byte counters for the filter table:
+
+`sudo iptables -vnL`
+
+- Set chain policy rule:
+
+`sudo iptables -P {any something} {any something}`
+
+- Append rule to chain policy for IP:
+
+`sudo iptables -A {any something} -s {any something} -j {any something}`
+
+- Append rule to chain policy for IP considering protocol and port:
+
+`sudo iptables -A {any something} -s {any something} -p {any something} --dport {any something} -j {any something}`
+
+- Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
+
+`sudo iptables -t {any something} -A {any something} -s {any something} -j {any something}`
+
+- Delete chain rule:
+
+`sudo iptables -D {any something} {any something}`
+
+- Save iptables configuration of a given table to a file:
+
+`sudo iptables-save -t {any something} > {file something: path/to/iptables}`
+
+- Restore iptables configuration from a file:
+
+`sudo iptables-restore < {file something: path/to/iptables}`

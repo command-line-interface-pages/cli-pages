@@ -1,0 +1,36 @@
+# ftp
+
+> Tools to interact with a server via File Transfer Protocol
+> More information: https://manned.org/ftp
+
+- Connect to an FTP server:
+
+`ftp {any something}`
+
+- Connect to an FTP server specifying its IP address and port:
+
+`ftp {any something} {any something}`
+
+- Switch to binary transfer mode (graphics, compressed files, etc):
+
+`binary`
+
+- Transfer multiple files without prompting for confirmation on every file:
+
+`prompt off`
+
+- Download multiple files (glob expression):
+
+`mget {any something}`
+
+- Upload multiple files (glob expression):
+
+`mput {any something}`
+
+- Delete multiple files on the remote server:
+
+`mdelete {any something}`
+
+- Rename a file on the remote server:
+
+`rename {any something} {any something}`

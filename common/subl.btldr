@@ -1,0 +1,24 @@
+# subl
+
+> Sublime Text editor
+> More information: https://www.sublimetext.com
+
+- Open the current directory in Sublime Text:
+
+`subl {any something}`
+
+- Open a file or directory in Sublime Text:
+
+`subl {directory something: path/to/file_or}`
+
+- Open a file and jump to a specific line number:
+
+`subl {file something}:{any something}`
+
+- Open a file or directory in the currently open window:
+
+`subl -a {file something}`
+
+- Open a file or directory in a new window:
+
+`subl -n {file something}`

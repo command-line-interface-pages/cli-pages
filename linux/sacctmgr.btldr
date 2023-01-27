@@ -1,0 +1,20 @@
+# sacctmgr
+
+> View, setup, and manage Slurm accounts
+> More information: https://slurm.schedmd.com/sacctmgr.html
+
+- Show current configuration:
+
+`sacctmgr show configuration`
+
+- Add a cluster to the slurm database:
+
+`sacctmgr add cluster {any something}`
+
+- Add an account to the slurm database:
+
+`sacctmgr add account {any something} cluster={any something}`
+
+- Show details of user/association/cluster/account using a specific format:
+
+`sacctmgr show {any something} format="Account%10" format="GrpTRES%30"`

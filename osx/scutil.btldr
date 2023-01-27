@@ -1,0 +1,29 @@
+# scutil
+
+> Manage system configuration parameters
+> Necessitates to be root when setting configuration
+> More information: https://ss64.com/osx/scutil.html
+
+- Display DNS Configuration:
+
+`scutil --dns`
+
+- Display proxy configuration:
+
+`scutil --proxy`
+
+- Get computer name:
+
+`scutil --get ComputerName`
+
+- Set computer name:
+
+`sudo scutil --set ComputerName {any something}`
+
+- Get hostname:
+
+`scutil --get HostName`
+
+- Set hostname:
+
+`scutil --set HostName {any something}`

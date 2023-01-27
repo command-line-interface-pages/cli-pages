@@ -1,0 +1,29 @@
+# cabal
+
+> Command-line interface to the Haskell package infrastructure (Cabal)
+> Manage Haskell projects and Cabal packages from the Hackage package repository
+> More information: https://cabal.readthedocs.io/en/latest/intro.html
+
+- Search and list packages from Hackage:
+
+`cabal list {any something}`
+
+- Show information about a package:
+
+`cabal info {any something}`
+
+- Download and install a package:
+
+`cabal install {any something}`
+
+- Create a new Haskell project in the current directory:
+
+`cabal init`
+
+- Build the project in the current directory:
+
+`cabal build`
+
+- Run tests of the project in the current directory:
+
+`cabal test`

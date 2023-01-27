@@ -1,0 +1,24 @@
+# choco new
+
+> Generate new package specification files with Chocolatey
+> More information: https://chocolatey.org/docs/commands-new
+
+- Create a new package skeleton:
+
+`choco new {any something}`
+
+- Create a new package with a specific version:
+
+`choco new {any something} --version {any something}`
+
+- Create a new package with a specific maintainer name:
+
+`choco new {any something} --maintainer {any something}`
+
+- Create a new package in a custom output directory:
+
+`choco new {any something} --output-directory {directory something}`
+
+- Create a new package with specific 32-bit and 64-bit installer URLs:
+
+`choco new {any something} url="{any something}" url64="{any something}"`

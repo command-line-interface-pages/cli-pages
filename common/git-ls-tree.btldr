@@ -1,0 +1,16 @@
+# git ls-tree
+
+> List the contents of a tree object
+> More information: https://git-scm.com/docs/git-ls-tree
+
+- List the contents of the tree on a branch:
+
+`git ls-tree {any something}`
+
+- List the contents of the tree on a commit, recursing into subtrees:
+
+`git ls-tree -r {any something}`
+
+- List only the filenames of the tree on a commit:
+
+`git ls-tree --name-only {any something}`

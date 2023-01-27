@@ -1,0 +1,32 @@
+# knife
+
+> CLI for interacting with a Chef server from a local Chef repo
+> More information: https://docs.chef.io/knife.html
+
+- Bootstrap a new node:
+
+`knife bootstrap {any something}`
+
+- List all registered nodes:
+
+`knife node list`
+
+- Show a node:
+
+`knife node show {any something}`
+
+- Edit a node:
+
+`knife node edit {any something}`
+
+- Edit a role:
+
+`knife role edit {any something}`
+
+- View a data bag:
+
+`knife data bag show {any something} {any something}`
+
+- Upload a local cookbook to the Chef server:
+
+`knife cookbook upload {any something}`

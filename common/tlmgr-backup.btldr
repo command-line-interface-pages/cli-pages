@@ -1,0 +1,25 @@
+# tlmgr backup
+
+> Manage backups of TeX Live packages
+> The default backup directory is specified by the `backupdir` option, and can be obtained with `tlmgr option`
+> More information: https://www.tug.org/texlive/tlmgr.html
+
+- Make a backup of one or more packages:
+
+`tlmgr backup {any something}`
+
+- Make a backup of all packages:
+
+`tlmgr backup --all`
+
+- Make a backup to a custom directory:
+
+`tlmgr backup {any something} --backupdir {directory something: path/to/backup}`
+
+- Remove a backup of one or more packages:
+
+`tlmgr backup clean {any something}`
+
+- Remove all backups:
+
+`tlmgr backup clean --all`

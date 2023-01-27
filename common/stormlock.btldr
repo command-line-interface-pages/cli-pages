@@ -1,0 +1,20 @@
+# Stormlock
+
+> Centralized locking system
+> More information: https://github.com/tmccombs/stormlock
+
+- Acquire a lease for resource:
+
+`stormlock acquire {any something}`
+
+- Release the given lease for the given resource:
+
+`stormlock release {any something} {any something}`
+
+- Show information on the current lease for a resource, if any:
+
+`stormlock current {any something}`
+
+- Test if a lease for given resource is currently active:
+
+`stormlock is-held {any something} {any something}`

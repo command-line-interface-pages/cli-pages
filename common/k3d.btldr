@@ -1,0 +1,24 @@
+# k3d
+
+> Wrapper CLI to easily create k3s clusters inside Docker
+> More information: https://k3d.io
+
+- Create a cluster:
+
+`k3d cluster create {any something}`
+
+- Delete a cluster:
+
+`k3d cluster delete {any something}`
+
+- Create a new containerized k3s node:
+
+`k3d node create {any something}`
+
+- Import an image from Docker into a k3d cluster:
+
+`k3d image import {any something} --cluster {any something}`
+
+- Create a new registry:
+
+`k3d registry create {any something}`

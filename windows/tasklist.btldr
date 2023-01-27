@@ -1,0 +1,24 @@
+# tasklist
+
+> Display a list of currently running processes on a local or remote machine
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist
+
+- Display currently running processes:
+
+`tasklist`
+
+- Display running processes in a specified output format:
+
+`tasklist /fo {any something}`
+
+- Display running processes using the specified `.exe` or `.dll` file name:
+
+`tasklist /m {any something}`
+
+- Display processes running on a remote machine:
+
+`tasklist /s {any something} /u {any something} /p {any something}`
+
+- Display services using each process:
+
+`tasklist /svc`

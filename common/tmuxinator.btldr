@@ -1,0 +1,24 @@
+# tmuxinator
+
+> Create and manage tmux sessions easily
+> More information: https://github.com/tmuxinator/tmuxinator
+
+- Create a new project:
+
+`tmuxinator new {any something}`
+
+- Edit a project:
+
+`tmuxinator edit {any something}`
+
+- List projects:
+
+`tmuxinator list`
+
+- Start a tmux session based on project:
+
+`tmuxinator start {any something}`
+
+- Stop a project's tmux session:
+
+`tmuxinator stop {any something}`

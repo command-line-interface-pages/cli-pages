@@ -1,0 +1,32 @@
+# haxelib
+
+> Haxe Library Manager
+> More information: https://lib.haxe.org/
+
+- Search for a Haxe library:
+
+`haxelib search {any something}`
+
+- Install a Haxe library:
+
+`haxelib install {any something}`
+
+- Install a specific version of a Haxe library:
+
+`haxelib install {any something} {any something}`
+
+- Upgrade all installed Haxe libraries:
+
+`haxelib upgrade`
+
+- Install the development version of a library from a Git repository:
+
+`haxelib git {any something} {any something}`
+
+- Uninstall a Haxe library:
+
+`haxelib remove {any something}`
+
+- Print a tree of locally installed Haxe libraries:
+
+`haxelib list`

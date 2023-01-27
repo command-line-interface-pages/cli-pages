@@ -1,0 +1,28 @@
+# yaa
+
+> Create and manipulate YAA archives
+> More information: https://www.manpagez.com/man/1/yaa/
+
+- Create an archive from a directory:
+
+`yaa archive -d {directory something} -o {any something}`
+
+- Create an archive from a file:
+
+`yaa archive -i {file something} -o {any something}`
+
+- Extract an archive to the current directory:
+
+`yaa extract -i {any something}`
+
+- List the contents of an archive:
+
+`yaa list -i {any something}`
+
+- Create an archive with a specific compression algorithm:
+
+`yaa archive -a {any something} -d {directory something} -o {any something}`
+
+- Create an archive with an 8 MB block size:
+
+`yaa archive -b {any something} -d {directory something} -o {any something}`

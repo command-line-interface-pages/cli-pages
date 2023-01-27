@@ -1,0 +1,24 @@
+# git symbolic-ref
+
+> Read, change, or delete files that store references
+> More information: https://git-scm.com/docs/git-symbolic-ref
+
+- Store a reference by a name:
+
+`git symbolic-ref refs/{any something} {any something}`
+
+- Store a reference by name, including a message with a reason for the update:
+
+`git symbolic-ref -m "{any something}" refs/{any something} refs/heads/{any something}`
+
+- Read a reference by name:
+
+`git symbolic-ref refs/{any something}`
+
+- Delete a reference by name:
+
+`git symbolic-ref --delete refs/{any something}`
+
+- For scripting, hide errors with `--quiet` and use `--short` to simplify ("refs/heads/X" prints as "X"):
+
+`git symbolic-ref --quiet --short refs/{any something}`

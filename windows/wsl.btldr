@@ -1,0 +1,36 @@
+# wsl
+
+> Manage the Windows Subsystem for Linux from the command-line
+> More information: https://learn.microsoft.com/windows/wsl/reference
+
+- Start a Linux shell (in the default distribution):
+
+`wsl {any something}`
+
+- Run a Linux command without using a shell:
+
+`wsl --exec {any something} {any something}`
+
+- Specify a particular distribution:
+
+`wsl --distribution {any something} {any something}`
+
+- List available distributions:
+
+`wsl --list`
+
+- Export a distribution to a `.tar` file:
+
+`wsl --export {any something} {any something}`
+
+- Import a distribution from a `.tar` file:
+
+`wsl --import {any something} {any something} {any something}`
+
+- Change the version of wsl used for the specified distribution:
+
+`wsl --set-version {any something} {any something}`
+
+- Shut down Windows Subsystem for Linux:
+
+`wsl --shutdown`

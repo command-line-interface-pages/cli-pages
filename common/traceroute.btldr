@@ -1,0 +1,24 @@
+# traceroute
+
+> Print the route packets trace to network host
+> More information: https://manned.org/traceroute
+
+- Traceroute to a host:
+
+`traceroute {any something}`
+
+- Disable IP address and host name mapping:
+
+`traceroute -n {any something}`
+
+- Specify wait time for response:
+
+`traceroute -w {float number: 0.5} {any something}`
+
+- Specify number of queries per hop:
+
+`traceroute -q {int number: 5} {any something}`
+
+- Specify size in bytes of probing packet:
+
+`traceroute {any something} {int number: 42}`

@@ -1,0 +1,28 @@
+# pup
+
+> Command-line HTML parsing tool
+> More information: https://github.com/ericchiang/pup
+
+- Transform a raw HTML file into a cleaned, indented, and colored format:
+
+`cat {any something} | pup --color`
+
+- Filter HTML by element tag name:
+
+`cat {any something} | pup '{any something}'`
+
+- Filter HTML by id:
+
+`cat {any something} | pup '{any something}'`
+
+- Filter HTML by attribute value:
+
+`cat {any something} | pup '{any something}'`
+
+- Print all text from the filtered HTML elements and their children:
+
+`cat {any something} | pup '{any something} text{}'`
+
+- Print HTML as JSON:
+
+`cat {any something} | pup '{any something} json{}'`

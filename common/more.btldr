@@ -1,0 +1,32 @@
+# more
+
+> Open a file for interactive reading, allowing scrolling and search
+> More information: https://manned.org/more
+
+- Open a file:
+
+`more {file something}`
+
+- Open a file displaying from a specific line:
+
+`more +{any something} {file something}`
+
+- Display help:
+
+`more --help`
+
+- Go to the next page:
+
+`<Space>`
+
+- Search for a string (press `n` to go to the next match):
+
+`/{any something}`
+
+- Exit:
+
+`q`
+
+- Display help about interactive commands:
+
+`h`

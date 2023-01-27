@@ -1,0 +1,21 @@
+# troff
+
+> Typesetting processor for the groff (GNU Troff) document formatting system
+> See also `groff`
+> More information: https://manned.org/troff
+
+- Format output for a PostScript printer, saving the output to a file:
+
+`troff {any something} | grops > {any something}`
+
+- Format output for a PostScript printer using the [me] macro package, saving the output to a file:
+
+`troff -{any something} {any something} | grops > {any something}`
+
+- Format output as [a]SCII text using the [man] macro package:
+
+`troff -T {any something} -{any something} {any something} | grotty`
+
+- Format output as a [pdf] file, saving the output to a file:
+
+`troff -T {any something} {any something} | gropdf > {any something}`

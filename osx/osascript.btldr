@@ -1,0 +1,28 @@
+# osascript
+
+> Run AppleScript or JavaScript for Automation (JXA) from the command-line
+> More information: https://ss64.com/osx/osascript.html
+
+- Run an AppleScript command:
+
+`osascript -e "{any something}"`
+
+- Run multiple AppleScript commands:
+
+`osascript -e "{any something}" -e "{any something}"`
+
+- Run a compiled (`*.scpt`), bundled (`*.scptd`), or plaintext (`*.applescript`) AppleScript file:
+
+`osascript {any something}`
+
+- Get the bundle identifier of an application (useful for `open -b`):
+
+`osascript -e 'id of app "{any something}"'`
+
+- Run a JavaScript command:
+
+`osascript -l JavaScript -e "{any something}"`
+
+- Run a JavaScript file:
+
+`osascript -l JavaScript {any something}`

@@ -1,0 +1,28 @@
+# stack
+
+> Tool for managing Haskell projects
+> More information: https://github.com/commercialhaskell/stack
+
+- Create a new package:
+
+`stack new {any something} {any something}`
+
+- Compile a package:
+
+`stack build`
+
+- Run tests inside a package:
+
+`stack test`
+
+- Compile a project and re-compile every time a file changes:
+
+`stack build --file-watch`
+
+- Compile a project and execute a command after compilation:
+
+`stack build --exec "{any something}"`
+
+- Run a program and pass an argument to it:
+
+`stack exec {any something} -- {any something}`

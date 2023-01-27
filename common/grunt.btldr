@@ -1,0 +1,32 @@
+# grunt
+
+> A JavaScript task runner for automating processes
+> More information: https://github.com/gruntjs/grunt-cli
+
+- Run the default task process:
+
+`grunt`
+
+- Run one or more specific space-separated task(s):
+
+`grunt {any something}`
+
+- Specify an alternative configuration file:
+
+`grunt --gruntfile {file something}`
+
+- Specify an alternative base path for relative files:
+
+`grunt --base {directory something}`
+
+- Specify an additional directory to scan for tasks in:
+
+`grunt --tasks {directory something}`
+
+- Perform a dry-run without writing any files:
+
+`grunt --no-write`
+
+- List all available options:
+
+`grunt --help`

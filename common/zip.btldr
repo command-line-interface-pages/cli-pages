@@ -1,0 +1,33 @@
+# zip
+
+> Package and compress (archive) files into zip file
+> See also: `unzip`
+> More information: https://manned.org/zip
+
+- Add files/directories to a specific archive ([r]ecursively):
+
+`zip -r {any something} {path* something}`
+
+- Remove files/directories from a specific archive ([d]elete):
+
+`zip -d {any something} {path* something}`
+
+- Archive files/directories e[x]cluding specified ones:
+
+`zip -r {any something} {path* something} -x {directory* something: path/to/excluded_files_or}`
+
+- Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
+
+`zip -r -{any something} {any something} {path* something}`
+
+- Create an [e]ncrypted archive with a specific password:
+
+`zip -r -e {any something} {path* something}`
+
+- Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
+
+`zip -r -s {any something} {any something} {path* something}`
+
+- Print a specific archive contents:
+
+`zip -sf {any something}`

@@ -1,0 +1,20 @@
+# xcv
+
+> Cut, copy, and paste in the command-line
+> More information: https://github.com/busterc/xcv
+
+- Cut a file:
+
+`xcv x {file something: input}`
+
+- Copy a file:
+
+`xcv c {file something: input}`
+
+- Paste a file:
+
+`xcv v {file something: output}`
+
+- List files available for pasting:
+
+`xcv l`

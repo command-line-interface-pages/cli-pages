@@ -1,0 +1,16 @@
+# xcodebuild
+
+> Build Xcode projects
+> More information: https://developer.apple.com/library/archive/technotes/tn2339/_index.html
+
+- Build workspace:
+
+`xcodebuild -workspace {any something} -scheme {any something} -configuration {any something} clean build SYMROOT={any something}`
+
+- Build project:
+
+`xcodebuild -target {any something} -configuration {any something} clean build SYMROOT={any something}`
+
+- Show SDKs:
+
+`xcodebuild -showsdks`

@@ -1,0 +1,20 @@
+# docker start
+
+> Start one or more stopped containers
+> More information: https://docs.docker.com/engine/reference/commandline/start/
+
+- Show help:
+
+`docker start`
+
+- Start a docker container:
+
+`docker start {any something}`
+
+- Start a container, attaching stdout and stderr and forwarding signals:
+
+`docker start --attach {any something}`
+
+- Start one or more space-separated containers:
+
+`docker start {any something}`

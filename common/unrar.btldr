@@ -1,0 +1,24 @@
+# unrar
+
+> Extract RAR archives
+> More information: https://manned.org/unrar
+
+- Extract files with original directory structure:
+
+`unrar x {any something}`
+
+- Extract files to a specified path with the original directory structure:
+
+`unrar x {any something} {any something}`
+
+- Extract files into current directory, losing directory structure in the archive:
+
+`unrar e {any something}`
+
+- Test integrity of each file inside the archive file:
+
+`unrar t {any something}`
+
+- List files inside the archive file without decompressing it:
+
+`unrar l {any something}`

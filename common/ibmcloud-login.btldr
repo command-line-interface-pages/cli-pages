@@ -1,0 +1,28 @@
+# ibmcloud login
+
+> Log in to the IBM Cloud
+> More information: https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login
+
+- Log in by using an interactive prompt:
+
+`ibmcloud login`
+
+- Log in to a specific API endpoint (default is `cloud.ibm.com`):
+
+`ibmcloud login -a {any something}`
+
+- Log in by providing username, password and the targeted region as parameters:
+
+`ibmcloud login -u {any something} -p {any something} -r {any something}`
+
+- Log in with an API key, passing it as an argument:
+
+`ibmcloud login --apikey {any something}`
+
+- Log in with an API key, passing it as a file:
+
+`ibmcloud login --apikey @{file something: path/to/api_key}`
+
+- Log in with a federated ID (single sign-on):
+
+`ibmcloud login --sso`

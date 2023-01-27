@@ -1,0 +1,32 @@
+# ansible-galaxy
+
+> Create and manage Ansible roles
+> More information: https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html
+
+- Install a role:
+
+`ansible-galaxy install {any something}.{any something}`
+
+- Remove a role:
+
+`ansible-galaxy remove {any something}.{any something}`
+
+- List installed roles:
+
+`ansible-galaxy list`
+
+- Search for a given role:
+
+`ansible-galaxy search {any something}`
+
+- Create a new role:
+
+`ansible-galaxy init {any something}`
+
+- Get information about a user role:
+
+`ansible-galaxy role info {any something}.{any something}`
+
+- Get information about a collection:
+
+`ansible-galaxy collection info {any something}.{any something}`

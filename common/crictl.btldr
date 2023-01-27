@@ -1,0 +1,36 @@
+# crictl
+
+> Command-line for CRI-compatible container runtimes
+> More information: https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md
+
+- List all kubernetes pods (Ready and NotReady):
+
+`crictl pods`
+
+- List all containers (Running and Exited):
+
+`crictl ps --all`
+
+- List all images:
+
+`crictl images`
+
+- Print information about specific containers:
+
+`crictl inspect {any something}`
+
+- Open a specific shell inside a running container:
+
+`crictl exec -it {any something} {any something}`
+
+- Pull a specific image from a registry:
+
+`crictl pull {any something}`
+
+- Print and [f]ollow logs of a specific container:
+
+`crictl logs -f {any something}`
+
+- Remove one or more images:
+
+`crictl rmi {any something}`

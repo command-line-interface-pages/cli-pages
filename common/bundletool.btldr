@@ -1,0 +1,37 @@
+# bundletool
+
+> Command-line tool to manipulate Android Application Bundles
+> Some subcommands such as `bundletool validate` have their own usage documentation
+> More information: https://developer.android.com/studio/command-line/bundletool
+
+- Display help for a subcommand:
+
+`bundletool help {any something}`
+
+- Generate APKs from an application bundle (prompts for keystore password):
+
+`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} --output={any something}`
+
+- Generate APKs from an application bundle giving the keystore password:
+
+`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} –ks-pass={any something} --output={any something}`
+
+- Generate APKs including only one single APK for universal usage:
+
+`bundletool build-apks --bundle={any something} --mode={any something} --ks={any something} --ks-key-alias={any something} --output={any something}`
+
+- Install the right combination of APKs to an emulator or device:
+
+`bundletool install-apks --apks={any something}`
+
+- Estimate the download size of an application:
+
+`bundletool get-size total --apks={any something}`
+
+- Generate a device specification JSON file for an emulator or device:
+
+`bundletool get-device-spec --output={any something}`
+
+- Verify a bundle and display detailed information about it:
+
+`bundletool validate --bundle={any something}`

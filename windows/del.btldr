@@ -1,0 +1,32 @@
+# del
+
+> Delete one or more files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/del
+
+- Delete one or more space-separated files or patterns:
+
+`del {any something}`
+
+- Prompt for confirmation before deleting each file:
+
+`del {any something} /p`
+
+- Force the deletion of read-only files:
+
+`del {any something} /f`
+
+- Recursively delete file(s) from all subdirectories:
+
+`del {any something} /s`
+
+- Do not prompt when deleting files based on a global wildcard:
+
+`del {any something} /q`
+
+- Display the help and list available attributes:
+
+`del /?`
+
+- Delete files based on specified attributes:
+
+`del {any something} /a {any something}`

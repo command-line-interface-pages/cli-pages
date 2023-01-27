@@ -1,0 +1,32 @@
+# scrcpy
+
+> Display and control your Android device on a desktop
+> More information: https://github.com/Genymobile/scrcpy
+
+- Display a mirror of a connected device:
+
+`scrcpy`
+
+- Display a mirror of a specific device based on its ID or IP address (find it under the `adb devices` command):
+
+`scrcpy --serial {any something}`
+
+- Start display in fullscreen mode:
+
+`scrcpy --fullscreen`
+
+- Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:
+
+`scrcpy --rotation {any something}`
+
+- Show touches on physical device:
+
+`scrcpy --show-touches`
+
+- Record display screen:
+
+`scrcpy --record {any something}`
+
+- Set target directory for pushing files to device by drag and drop (non-APK):
+
+`scrcpy --push-target {directory something}`

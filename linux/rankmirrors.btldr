@@ -1,0 +1,25 @@
+# rankmirrors
+
+> Rank a list of Pacman mirrors by connection and opening speed
+> Writes the new mirrorlist to `stdout`
+> More information: https://wiki.archlinux.org/index.php/mirrors
+
+- Rank a mirror list:
+
+`rankmirrors {any something}`
+
+- Output only a given number of the top ranking servers:
+
+`rankmirrors -n {any something} {any something}`
+
+- Be verbose when generating the mirrorlist:
+
+`rankmirrors -v {any something}`
+
+- Test only a specific URL:
+
+`rankmirrors --url {any something}`
+
+- Output only the response times instead of a full mirrorlist:
+
+`rankmirrors --times {any something}`

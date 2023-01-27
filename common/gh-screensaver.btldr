@@ -1,0 +1,25 @@
+# gh screensaver
+
+> Extension for GitHub CLI that runs animated terminal screensavers
+> See also: `gh extension`
+> More information: https://github.com/vilmibm/gh-screensaver
+
+- Run a random screensaver:
+
+`gh screensaver`
+
+- Run a specific screensaver:
+
+`gh screensaver --saver {any something}`
+
+- Run the "marquee" screensaver with a specific text and font:
+
+`gh screensaver --saver {any something} -- --message="{any something}" --font={any something}`
+
+- Run the "starfield" screensaver with a specific density and speed:
+
+`gh screensaver --saver {any something} -- --density {int number: 500} --speed {int number: 10}`
+
+- List available screensavers:
+
+`gh screensaver --list`

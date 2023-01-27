@@ -1,0 +1,21 @@
+# mh_lint
+
+> Attempt to find bugs in MATLAB or Octave code
+> Please note that this tool is neither sound nor complete
+> More information: https://misshit.org
+
+- Check the current directory:
+
+`mh_lint`
+
+- Check a specific directory recursively:
+
+`mh_lint {directory something}`
+
+- Check a MATLAB file:
+
+`mh_lint {any something}`
+
+- Check an Octave file:
+
+`mh_lint --octave {any something}`

@@ -1,0 +1,36 @@
+# calc
+
+> An interactive arbitrary-precision calculator in the terminal
+> More information: https://github.com/lcn2/calc
+
+- Start `calc` in interactive mode:
+
+`calc`
+
+- Perform a calculation in non-interactive mode:
+
+`calc '{any something}'`
+
+- Perform a calculation without any output formatting (for use with pipes):
+
+`calc -p '{any something}'`
+
+- Perform a calculation and then switch to [i]nteractive mode:
+
+`calc -i '{any something}'`
+
+- Start `calc` in a specific permission [m]ode (0 to 7, defaults to 7):
+
+`calc -m {any something}`
+
+- View an introduction to `calc`:
+
+`calc help intro`
+
+- View an overview of `calc`:
+
+`calc help overview`
+
+- Open the `calc` manual:
+
+`calc help`

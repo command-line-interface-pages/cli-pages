@@ -1,0 +1,32 @@
+# ipcrm
+
+> Delete IPC (Inter-process Communication) resources
+> More information: https://manned.org/ipcrm
+
+- Delete a shared memory segment by ID:
+
+`ipcrm --shmem-id {any something}`
+
+- Delete a shared memory segment by key:
+
+`ipcrm --shmem-key {any something}`
+
+- Delete an IPC queue by ID:
+
+`ipcrm --queue-id {any something}`
+
+- Delete an IPC queue by key:
+
+`ipcrm --queue-key {any something}`
+
+- Delete a semaphore by ID:
+
+`ipcrm --semaphore-id {any something}`
+
+- Delete a semaphore by key:
+
+`ipcrm --semaphore-key {any something}`
+
+- Delete all IPC resources:
+
+`ipcrm --all`

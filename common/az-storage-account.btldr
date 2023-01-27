@@ -1,0 +1,21 @@
+# az storage account
+
+> Manage storage accounts in Azure
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/storage/account
+
+- Create an storage account:
+
+`az storage account create --name {any something} --resource-group {any something} --location {any something} --sku {any something}`
+
+- Generate a shared access signature for a specific storage account:
+
+`az storage account generate-sas --account-name {any something} --name {any something} --permissions {any something} --expiry {any something} --services {any something} --resource-types {any something}`
+
+- List storage accounts:
+
+`az storage account list --resource-group {any something}`
+
+- Delete a specific storage account:
+
+`az storage account delete --name {any something} --resource-group {any something}`

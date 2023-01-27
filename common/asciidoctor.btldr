@@ -1,0 +1,20 @@
+# asciidoctor
+
+> A processor that converts AsciiDoc files to a publishable format
+> More information: https://docs.asciidoctor.org
+
+- Convert a specific `.adoc` file to HTML (the default output format):
+
+`asciidoctor {any something}`
+
+- Convert a specific `.adoc` file to HTML and link a CSS stylesheet:
+
+`asciidoctor -a stylesheet={any something} {any something}`
+
+- Convert a specific `.adoc` file to embeddable HTML, removing everything except the body:
+
+`asciidoctor --embedded {any something}`
+
+- Convert a specific `.adoc` file to a PDF using the `asciidoctor-pdf` library:
+
+`asciidoctor --backend={any something} --require={any something} {any something}`

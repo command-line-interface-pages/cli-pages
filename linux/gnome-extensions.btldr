@@ -1,0 +1,32 @@
+# gnome-extensions
+
+> Manage gnome extensions from the terminal
+> More information: https://wiki.gnome.org/Projects/GnomeShell/Extensions
+
+- Display the version:
+
+`gnome-extensions version`
+
+- List all the installed extensions:
+
+`gnome-extensions list`
+
+- Display information about a specific extension:
+
+`gnome-extensions info "{any something}"`
+
+- Display help for a subcommand (like `list`):
+
+`gnome-extensions help {any something}`
+
+- Enable a specific extension:
+
+`gnome-extensions enable "{any something}"`
+
+- Disable a specific extension:
+
+`gnome-extension disable "{any something}"`
+
+- Uninstall a specific extension:
+
+`gnome-extension uninstall "{any something}"`

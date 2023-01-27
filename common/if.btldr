@@ -1,0 +1,37 @@
+# if
+
+> Performs conditional processing in shell scripts
+> See also: `test`, `[`
+> More information: https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs
+
+- Execute the specified commands if the condition command's exit status is zero:
+
+`if {any something}; then {any something}; fi`
+
+- Execute the specified commands if the condition command's exit status is not zero:
+
+`if ! {any something}; then {any something}; fi`
+
+- Execute the first specified commands if the condition command's exit status is zero otherwise execute the second specified commands:
+
+`if {any something}; then {any something}; else {any something}; fi`
+
+- Check whether a [f]ile exists:
+
+`if [[ -f {file something} ]]; then {any something}; fi`
+
+- Check whether a [d]irectory exists:
+
+`if [[ -d {directory something} ]]; then {any something}; fi`
+
+- Check whether a file or directory [e]xists:
+
+`if [[ -e {directory something: path/to/file_or} ]]; then {any something}; fi`
+
+- Check whether a variable is defined:
+
+`if [[ -n "${any something}" ]]; then {any something}; fi`
+
+- List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
+
+`man [`

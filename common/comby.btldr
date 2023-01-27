@@ -1,0 +1,20 @@
+# comby
+
+> Tool for structural code search and replace that supports many languages
+> More information: https://github.com/comby-tools/comby
+
+- Match and rewrite templates, and print changes:
+
+`comby '{any something}' '{any something}' {any something}`
+
+- Match and rewrite with rewrite properties:
+
+`comby '{any something}' '{any something}' {any something}`
+
+- Match and rewrite in-place:
+
+`comby -in-place '{any something}' '{any something}'`
+
+- Only perform matching and print matches:
+
+`comby -match-only '{any something}' ""`

@@ -1,0 +1,28 @@
+# grex
+
+> Simple command-line tool to generate regular expressions
+> More information: https://github.com/pemistahl/grex
+
+- Generate a simple regular expression:
+
+` grex {any something}`
+
+- Generate a case-insensitive regular expression:
+
+`grex -i {any something}`
+
+- Replace digits with '\d':
+
+`grex -d {any something}`
+
+- Replace Unicode word character with '\w':
+
+`grex -w {any something}`
+
+- Replace spaces with '\s':
+
+`grex -s {any something}`
+
+- Add {min, max} quantifier representation for repeating sub-strings:
+
+`grex -r {any something}`

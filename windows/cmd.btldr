@@ -1,0 +1,36 @@
+# cmd
+
+> The Windows command interpreter
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cmd
+
+- Start an interactive shell session:
+
+`cmd`
+
+- Execute a [c]ommand:
+
+`cmd /c "{any something}"`
+
+- Execute a script:
+
+`cmd {any something}`
+
+- Execute a command and then enter an interactive shell:
+
+`cmd /k "{any something}"`
+
+- Start an interactive shell session where `echo` is disabled in command output:
+
+`cmd /q`
+
+- Start an interactive shell session with delayed [v]ariable expansion enabled or disabled:
+
+`cmd /v:{any something}`
+
+- Start an interactive shell session with command [e]xtensions enabled or disabled:
+
+`cmd /e:{any something}`
+
+- Start an interactive shell session with used Unicode encoding:
+
+`cmd /u`

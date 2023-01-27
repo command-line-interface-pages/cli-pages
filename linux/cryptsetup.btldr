@@ -1,0 +1,20 @@
+# cryptsetup
+
+> Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes
+> More information: https://gitlab.com/cryptsetup/cryptsetup/
+
+- Initialize a LUKS volume (overwrites all data on the partition):
+
+`cryptsetup luksFormat {any something}`
+
+- Open a LUKS volume and create a decrypted mapping at `/dev/mapper/{{target}}`:
+
+`cryptsetup luksOpen {any something} {any something}`
+
+- Remove an existing mapping:
+
+`cryptsetup luksClose {any something}`
+
+- Change the LUKS volume's passphrase:
+
+`cryptsetup luksChangeKey {any something}`

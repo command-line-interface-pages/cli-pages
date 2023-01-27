@@ -1,0 +1,28 @@
+# pipwin
+
+> A tool to install unofficial Python package binaries on Windows
+> More information: https://github.com/lepisma/pipwin
+
+- List all available packages for download:
+
+`pipwin list`
+
+- Search packages:
+
+`pipwin search {any something}`
+
+- Install a package:
+
+`pipwin install {any something}`
+
+- Uninstall a package:
+
+`pipwin uninstall {any something}`
+
+- Download a package to a specific directory:
+
+`pipwin download --dest {directory something} {any something}`
+
+- Install packages according to `requirements.txt`:
+
+`pipwin install --file {any something}`

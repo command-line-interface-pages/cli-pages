@@ -1,0 +1,16 @@
+# xar
+
+> Manage .xar archives
+> More information: https://manned.org/xar
+
+- Create a xar archive of all files in a given directory:
+
+`xar -cf {any something} {directory something}`
+
+- List the contents of a given xar archive:
+
+`xar -tf {any something}`
+
+- Extract the contents of a given xar archive to the current directory:
+
+`xar -xf {any something}`

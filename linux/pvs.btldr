@@ -1,0 +1,33 @@
+# pvs
+
+> Display information about physical volumes
+> See also: `lvm`
+> More information: https://man7.org/linux/man-pages/man8/pvs.8.html
+
+- Display information about physical volumes:
+
+`pvs`
+
+- Display non-physical volumes:
+
+`pvs -a`
+
+- Change default display to show more details:
+
+`pvs -v`
+
+- Display only specific fields:
+
+`pvs -o {any something},{any something}`
+
+- Append field to default display:
+
+`pvs -o +{any something}`
+
+- Suppress heading line:
+
+`pvs --noheadings`
+
+- Use separator to separate fields:
+
+`pvs --separator {any something}`

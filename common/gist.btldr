@@ -1,0 +1,32 @@
+# gist
+
+> Upload code to https://gist.github.com
+> More information: https://github.com/defunkt/gist
+
+- Log in in gist on this computer:
+
+`gist --login`
+
+- Create a gist from any number of text files:
+
+`gist {any something} {any something}`
+
+- Create a private gist with a description:
+
+`gist --private --description "{any something}" {any something} `
+
+- Read contents from stdin and create a gist from it:
+
+`{any something} | gist`
+
+- List your public and private gists:
+
+`gist --list`
+
+- List all public gists for any user:
+
+`gist --list {any something}`
+
+- Update a gist using the ID from URL:
+
+`gist --update {any something} {any something}`

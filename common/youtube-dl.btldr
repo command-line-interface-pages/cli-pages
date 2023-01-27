@@ -1,0 +1,36 @@
+# youtube-dl
+
+> Download videos from YouTube and other websites
+> More information: http://rg3.github.io/youtube-dl/
+
+- Download a video or playlist:
+
+`youtube-dl '{any something}'`
+
+- List all formats that a video or playlist is available in:
+
+`youtube-dl --list-formats '{any something}'`
+
+- Download a video or playlist at a specific quality:
+
+`youtube-dl --format "{any something}" '{any something}'`
+
+- Download the audio from a video and convert it to an MP3:
+
+`youtube-dl -x --audio-format {any something} '{any something}'`
+
+- Download the best quality audio and video and merge them:
+
+`youtube-dl -f bestvideo+bestaudio '{any something}'`
+
+- Download video(s) as MP4 files with custom filenames:
+
+`youtube-dl --format {any something} -o "{any something}" '{any something}'`
+
+- Download a particular language's subtitles along with the video:
+
+`youtube-dl --sub-lang {any something} --write-sub '{any something}'`
+
+- Download a playlist and extract MP3s from it:
+
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {any something}`

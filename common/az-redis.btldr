@@ -1,0 +1,21 @@
+# az redis
+
+> Manage Redis caches
+> Part of `azure-cli`
+> More information: https://docs.microsoft.com/cli/azure/redis
+
+- Create a new Redis cache instance:
+
+`az redis create --location {any something} --name {any something} --resource-group {any something} --sku {any something} --vm-size {any something}`
+
+- Update a Redis cache:
+
+`az redis update --name {any something} --resource-group {any something} --sku {any something} --vm-size {any something}`
+
+- Export data stored in a Redis cache:
+
+`az redis export --container {any something} --file-format {any something} --name {any something} --prefix {any something} --resource-group {any something}`
+
+- Delete a Redis cache:
+
+`az redis delete --name {any something} --resource-group {any something} --yes`

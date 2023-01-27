@@ -1,0 +1,28 @@
+# wmctrl
+
+> CLI for X Window Manager
+> More information: https://manned.org/wmctrl
+
+- List all windows, managed by the window manager:
+
+`wmctrl -l`
+
+- Switch to the first window whose (partial) title matches:
+
+`wmctrl -a {any something}`
+
+- Move a window to the current workspace, raise it and give it focus:
+
+`wmctrl -R {any something}`
+
+- Switch to a workspace:
+
+`wmctrl -s {any something}`
+
+- Select a window and toggle fullscreen:
+
+`wmctrl -r {any something} -b toggle,fullscreen`
+
+- Select a window a move it to a workspace:
+
+`wmctrl -r {any something} -t {any something}`

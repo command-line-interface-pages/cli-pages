@@ -1,0 +1,21 @@
+# gdrive
+
+> Command-line tool to interact with Google Drive
+> Folder/file ID can be obtained from the Google Drive folder or ID URL
+> More information: https://github.com/gdrive-org/gdrive
+
+- Upload a local path to the parent folder with the specified ID:
+
+`gdrive upload -p {any something} {any something}`
+
+- Download file or directory by ID to current directory:
+
+`gdrive download {any something}`
+
+- Download to a given local path by its ID:
+
+`gdrive download --path {any something} {any something}`
+
+- Create a new revision of an ID using a given file or folder:
+
+`gdrive update {any something} {any something}`

@@ -1,0 +1,29 @@
+# skopeo
+
+> Container image management toolbox
+> Provides various utility commands to manage remote container images
+> More information: https://github.com/containers/skopeo
+
+- Inspect a remote image from a registry:
+
+`skopeo inspect docker://{any something}/{any something}`
+
+- List available tags for a remote image:
+
+`skopeo list-tags docker://{any something}/{any something}`
+
+- Download an image from a registry:
+
+`skopeo copy docker://{any something}/{any something} dir:{directory something}`
+
+- Copy an image from one registry to another:
+
+`skopeo copy docker://{any something}/{any something} docker://{any something}/{any something}`
+
+- Delete an image from a registry:
+
+`skopeo delete docker://{any something}/{any something}`
+
+- Log in to a registry:
+
+`skopeo login --username {any something} {any something}`

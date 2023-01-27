@@ -1,0 +1,16 @@
+# offlineimap
+
+> Synchronize a remote IMAP server with local Maildir folders
+> More information: http://www.offlineimap.org
+
+- Synchronize once, without enabling autorefresh:
+
+`offlineimap -o`
+
+- Synchronize a specific account:
+
+`offlineimap -a {any something}`
+
+- Synchronize a specific folder:
+
+`offlineimap -f {any something}`

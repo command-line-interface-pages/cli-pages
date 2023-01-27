@@ -1,0 +1,33 @@
+# borg
+
+> Deduplicating backup tool
+> Creates local or remote backups that are mountable as filesystems
+> More information: https://borgbackup.readthedocs.io/en/stable/usage/general.html
+
+- Initialize a (local) repository:
+
+`borg init {directory something: path/to/repo}`
+
+- Backup a directory into the repository, creating an archive called "Monday":
+
+`borg create --progress {directory something: path/to/repo}::{any something} {directory something: path/to/source}`
+
+- List all archives in a repository:
+
+`borg list {directory something: path/to/repo}`
+
+- Extract a specific directory from the "Monday" archive in a remote repository, excluding all `*.ext` files:
+
+`borg extract {any something}@{any something}:{directory something: path/to/repo}::{any something} {directory something: path/to/target} --exclude '{any something}'`
+
+- Prune a repository by deleting all archives older than 7 days, listing changes:
+
+`borg prune --keep-within {any something} --list {directory something: path/to/repo}`
+
+- Mount a repository as a FUSE filesystem:
+
+`borg mount {directory something: path/to/repo}::{any something} {any something}`
+
+- Display help on creating archives:
+
+`borg create --help`

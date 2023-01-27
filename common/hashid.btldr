@@ -1,0 +1,28 @@
+# hashid
+
+> Python3 program that identifies data and password hashes
+> More information: https://github.com/psypanda/hashID
+
+- Identify hashes from stdin (through typing, copying and pasting, or piping the hash into the program):
+
+`hashid`
+
+- Identify hashes passed as arguments (multiple hashes can be passed):
+
+`hashid {any something}`
+
+- Identify hashes on a file (one hash per line):
+
+`hashid {any something}`
+
+- Show all possible hash types (including salted hashes):
+
+`hashid --extended {any something}`
+
+- Show `hashcat`'s mode number and `john`'s format string of the hash types:
+
+`hashid --mode --john {any something}`
+
+- Save output to a file instead of printing to stdout:
+
+`hashid --outfile {any something} {any something}`

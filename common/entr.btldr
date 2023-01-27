@@ -1,0 +1,20 @@
+# entr
+
+> Run arbitrary commands when files change
+> More information: https://manned.org/entr
+
+- Rebuild with `make` if any file in any subdirectory changes:
+
+`{any something} | entr {any something}`
+
+- Rebuild and test with `make` if any `.c` source files in the current directory change:
+
+`{any something} | entr {any something}`
+
+- Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`:
+
+`{any something} | entr -r {any something}`
+
+- Run a command with the changed file (`/_`) as an argument:
+
+`{any something} | entr {any something} /_`

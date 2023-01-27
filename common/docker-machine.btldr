@@ -1,0 +1,28 @@
+# docker-machine
+
+> Create and manage machines running Docker
+> More information: https://docs.docker.com/machine/reference/
+
+- List currently running docker machines:
+
+`docker-machine ls`
+
+- Create a new docker machine with specific name:
+
+`docker-machine create {any something}`
+
+- Get the status of a machine:
+
+`docker-machine status {any something}`
+
+- Start a machine:
+
+`docker-machine start {any something}`
+
+- Stop a machine:
+
+`docker-machine stop {any something}`
+
+- Inspect information about a machine:
+
+`docker-machine inspect {any something}`

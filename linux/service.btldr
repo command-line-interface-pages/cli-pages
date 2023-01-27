@@ -1,0 +1,21 @@
+# service
+
+> Manage services by running init scripts
+> The full script path should be omitted (`/etc/init.d/` is assumed)
+> More information: https://manned.org/service
+
+- List the name and status of all services:
+
+`service --status-all`
+
+- Start/Stop/Restart/Reload service (start/stop should always be available):
+
+`service {any something} {any something}`
+
+- Do a full restart (runs script twice with start and stop):
+
+`service {any something} --full-restart`
+
+- Show the current status of a service:
+
+`service {any something} status`

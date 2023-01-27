@@ -1,0 +1,28 @@
+# pacman --upgrade
+
+> Arch Linux package manager utility
+> More information: https://man.archlinux.org/man/pacman.8
+
+- Install one or more packages from files:
+
+`sudo pacman --upgrade {any something} {any something}`
+
+- Install a package without prompting:
+
+`sudo pacman --upgrade --noconfirm {any something}`
+
+- Overwrite conflicting files during a package installation:
+
+`sudo pacman --upgrade --overwrite {file something} {any something}`
+
+- Install a package, skipping the dependency version checks:
+
+`sudo pacman --upgrade --nodeps {any something}`
+
+- List packages that would be affected (does not install any packages):
+
+`pacman --upgrade --print {any something}`
+
+- Display help:
+
+`pacman --upgrade --help`

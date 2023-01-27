@@ -1,0 +1,24 @@
+# zipgrep
+
+> Find patterns in files in a ZIP archive using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)
+> More information: https://manned.org/zipgrep
+
+- Search for a pattern within a ZIP archive:
+
+`zipgrep "{any something}" {any something}`
+
+- Print file name and line number for each match:
+
+`zipgrep -H -n "{any something}" {any something}`
+
+- Search for lines that do not match a pattern:
+
+`zipgrep -v "{any something}" {any something}`
+
+- Specify files inside a ZIP archive from search:
+
+`zipgrep "{any something}" {any something} {any something} {any something}`
+
+- Exclude files inside a ZIP archive from search:
+
+`zipgrep "{any something}" {any something} -x {any something} {any something}`

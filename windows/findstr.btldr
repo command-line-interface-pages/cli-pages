@@ -1,0 +1,36 @@
+# findstr
+
+> Find specified text within one or more files
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/findstr
+
+- Find space-separated string(s) in all files:
+
+`findstr "{any something}" *`
+
+- Find space-separated string(s) in a piped command's output:
+
+`{any something} | findstr "{any something}"`
+
+- Find space-separated string(s) in all files recur[s]ively:
+
+`findstr /s "{any something}" *`
+
+- Find strings using a case-insensitive search:
+
+`findstr /i "{any something}" *"`
+
+- Find strings in all files using regular expressions:
+
+`findstr /r "{any something}" *`
+
+- Find a literal string (containing spaces) in all text files:
+
+`findstr /c:"{any something}" *.txt`
+
+- Display the line number before each matching line:
+
+`findstr /n "{any something}" *`
+
+- Display only the filenames that contain a match:
+
+`findstr /m "{any something}" *`

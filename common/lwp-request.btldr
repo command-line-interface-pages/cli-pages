@@ -1,0 +1,29 @@
+# lwp-request
+
+> Simple command-line HTTP client
+> Built with libwww-perl
+> More information: https://metacpan.org/pod/lwp-request
+
+- Make a simple GET request:
+
+`lwp-request -m GET {any something}`
+
+- Upload a file with a POST request:
+
+`lwp-request -m POST {any something} < {file something}`
+
+- Make a request with a custom user agent:
+
+`lwp-request -H 'User-Agent: {any something} -m {any something} {any something}`
+
+- Make a request with HTTP authentication:
+
+`lwp-request -C {any something}:{any something} -m {any something} {any something}`
+
+- Make a request and print request headers:
+
+`lwp-request -U -m {any something} {any something}`
+
+- Make a request and print response headers and status chain:
+
+`lwp-request -E -m {any something} {any something}`

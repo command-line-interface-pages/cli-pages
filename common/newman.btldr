@@ -1,0 +1,12 @@
+# newman
+
+> Collection runner for Postman
+> More information: https://github.com/postmanlabs/newman
+
+- Run a collection (from a file):
+
+`newman run {any something}`
+
+- Run a collection (from a URL):
+
+`newman run {any something}`

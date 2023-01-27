@@ -1,0 +1,20 @@
+# apt-add-repository
+
+> Manages apt repository definitions
+> More information: https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html
+
+- Add a new apt repository:
+
+`apt-add-repository {any something}`
+
+- Remove an apt repository:
+
+`apt-add-repository --remove {any something}`
+
+- Update the package cache after adding a repository:
+
+`apt-add-repository --update {any something}`
+
+- Enable source packages:
+
+`apt-add-repository --enable-source {any something}`

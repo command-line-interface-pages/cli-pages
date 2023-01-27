@@ -1,0 +1,16 @@
+# php yii
+
+> Yii Framework's command-line interface
+> More information: https://yiiframework.com
+
+- Display a list of all available commands:
+
+`php yii {any something}`
+
+- Start PHP's built-in web server for the current Yii application:
+
+`php yii {any something}`
+
+- Generate a controller, views and related files for the CRUD actions on the specified model class:
+
+`php yii {any something} --modelClass={any something} --controllerClass={any something}`

@@ -1,0 +1,29 @@
+# nim
+
+> The Nim compiler
+> Processes, compiles and links Nim language source files
+> More information: https://nim-lang.org/docs/nimc.html
+
+- Compile a source file:
+
+`nim compile {any something}`
+
+- Compile and run a source file:
+
+`nim compile -r {any something}`
+
+- Compile a source file with release optimizations enabled:
+
+`nim compile -d:release {any something}`
+
+- Build a release binary optimized for low file size:
+
+`nim compile -d:release --opt:size {any something}`
+
+- Generate HTML documentation for a module (output will be placed in the current directory):
+
+`nim doc {any something}`
+
+- Check a file for syntax and semantics:
+
+`nim check {any something}`

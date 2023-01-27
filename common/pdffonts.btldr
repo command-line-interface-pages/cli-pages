@@ -1,0 +1,24 @@
+# pdffonts
+
+> Portable Document Format (PDF) file fonts information viewer
+> More information: https://www.xpdfreader.com/pdffonts-man.html
+
+- Print PDF file fonts information:
+
+`pdffonts {any something}`
+
+- Specify user password for PDF file to bypass security restrictions:
+
+`pdffonts -upw {any something} {any something}`
+
+- Specify owner password for PDF file to bypass security restrictions:
+
+`pdffonts -opw {any something} {any something}`
+
+- Print additional information on location of the font that will be used when the PDF file is rasterized:
+
+`pdffonts -loc {any something}`
+
+- Print additional information on location of the font that will be used when the PDF file is converted to PostScript:
+
+`pdffonts -locPS {any something}`

@@ -1,0 +1,12 @@
+# xsltproc
+
+> Transform XML with XSLT to produce output (usually HTML or XML)
+> More information: http://www.xmlsoft.org/xslt/xsltproc.html
+
+- Transform an XML file with a specific XSLT stylesheet:
+
+`xsltproc --output {any something} {any something} {any something}`
+
+- Pass a value to a parameter in the stylesheet:
+
+`xsltproc --output {any something} --stringparam "{any something}" "{any something}" {any something} {any something}`

@@ -1,0 +1,24 @@
+# fdroidcl
+
+> F-Droid CLI client
+> More information: https://github.com/mvdan/fdroidcl
+
+- Fetch the F-Droid index:
+
+`fdroidcl update`
+
+- Display info about an app:
+
+`fdroidcl show {any something}`
+
+- Download an APK file:
+
+`fdroidcl download {any something}`
+
+- Search for an app in the index:
+
+`fdroidcl search {any something}`
+
+- Install an app on a connected device:
+
+`fdroidcl install {any something}`

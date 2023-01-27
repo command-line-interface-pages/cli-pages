@@ -1,0 +1,16 @@
+# getcap
+
+> Command to display the name and capabilities of each specified file
+> More information: https://manned.org/getcap
+
+- Get capabilities for the given files:
+
+`getcap {file* something}`
+
+- Get capabilities for all the files recursively under the given directories:
+
+`getcap -r {directory* something}`
+
+- Displays all searched entries even if no capabilities are set:
+
+`getcap -v {file* something}`

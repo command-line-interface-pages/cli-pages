@@ -1,0 +1,32 @@
+# lftp
+
+> Sophisticated file transfer program
+> More information: https://lftp.yar.ru/lftp-man.html
+
+- Connect to an FTP server:
+
+`lftp {any something}`
+
+- Download multiple files (glob expression):
+
+`mget {any something}`
+
+- Upload multiple files (glob expression):
+
+`mput {any something}`
+
+- Delete multiple files on the remote server:
+
+`mrm {any something}`
+
+- Rename a file on the remote server:
+
+`mv {any something} {any something}`
+
+- Download or update an entire directory:
+
+`mirror {directory something: remote} {directory something: local_output}`
+
+- Upload or update an entire directory:
+
+`mirror -R {directory something: local} {directory something: remote_output}`

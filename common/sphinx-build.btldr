@@ -1,0 +1,12 @@
+# sphinx-build
+
+> Sphinx documentation generator
+> More information: http://www.sphinx-doc.org/en/master/man/sphinx-build.html
+
+- Build documentation:
+
+`sphinx-build -b {any something} {directory something: source} {directory something: build}`
+
+- Build documentations intended for readthedocs.io (requires the sphinx-rtd-theme pip package):
+
+`sphinx-build -b {any something} {directory something: docs} {directory something: build}`

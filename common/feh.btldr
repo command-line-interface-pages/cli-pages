@@ -1,0 +1,32 @@
+# feh
+
+> Lightweight image viewing utility
+> More information: https://feh.finalrewind.org
+
+- View images locally or using a URL:
+
+`feh {any something}`
+
+- View images recursively:
+
+`feh --recursive {any something}`
+
+- View images without window borders:
+
+`feh --borderless {any something}`
+
+- Exit after the last image:
+
+`feh --cycle-once {any something}`
+
+- Set the slideshow cycle delay:
+
+`feh --slideshow-delay {any something} {any something}`
+
+- Set your wallpaper (centered, filled, maximized, scaled or tiled):
+
+`feh --bg-{any something} {any something}`
+
+- Create a montage of all images within a directory. Outputs as a new image:
+
+`feh --montage --thumb-height {int number: 150} --thumb-width {int number: 150} --index-info "{any something}" --output {any something}`

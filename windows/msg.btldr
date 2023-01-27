@@ -1,0 +1,24 @@
+# msg
+
+> Send a message to a specific user or session
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/msg
+
+- Send a message to a specified user or session:
+
+`msg {any something} {any something}`
+
+- Send a message from stdin:
+
+`echo "{any something}" | msg {any something}`
+
+- Send a message to a specific server:
+
+`msg /server:{any something} {any something}`
+
+- Send a message to all users of the current machine:
+
+`msg *`
+
+- Set a delay in seconds for a message:
+
+`msg /time:{any something}`

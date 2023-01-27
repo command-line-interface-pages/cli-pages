@@ -1,0 +1,16 @@
+# type
+
+> Display the type of command the shell will execute
+> More information: https://manned.org/type
+
+- Display the type of a command:
+
+`type {any something}`
+
+- Display all locations containing the specified executable:
+
+`type -a {any something}`
+
+- Display the name of the disk file that would be executed:
+
+`type -p {any something}`

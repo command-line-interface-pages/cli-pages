@@ -1,0 +1,21 @@
+# csvcut
+
+> Filter and truncate CSV files. Like Unix's `cut` command, but for tabular data
+> Included in csvkit
+> More information: https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html
+
+- Print indices and names of all columns:
+
+`csvcut -n {any something}`
+
+- Extract the first and third columns:
+
+`csvcut -c {any something} {any something}`
+
+- Extract all columns **except** the fourth one:
+
+`csvcut -C {int number: 4} {any something}`
+
+- Extract the columns named "id" and "first name" (in that order):
+
+`csvcut -c {any something} {any something}`

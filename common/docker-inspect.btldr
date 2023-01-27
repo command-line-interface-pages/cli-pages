@@ -1,0 +1,32 @@
+# docker inspect
+
+> Return low-level information on Docker objects
+> More information: https://docs.docker.com/engine/reference/commandline/inspect/
+
+- Show help:
+
+`docker inspect`
+
+- Display information about a container, image, or volume using a name or ID:
+
+`docker inspect {any something}`
+
+- Display a container's IP address:
+
+`docker inspect --format='{any something}{any something}{any something}' {any something}`
+
+- Display the path to the container's log file:
+
+`docker inspect --format='{any something}' {any something}`
+
+- Display the image name of the container:
+
+`docker inspect --format='{any something}' {any something}`
+
+- Display the configuration information as JSON:
+
+`docker inspect --format='{any something}' {any something}`
+
+- Display all port bindings:
+
+`docker inspect --format='{any something} {any something} -> {any something} {any something}' {any something}`

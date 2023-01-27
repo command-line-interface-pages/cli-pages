@@ -1,0 +1,32 @@
+# rich
+
+> Rich CLI is a toolbox for fancy output in the terminal
+> More information: https://github.com/Textualize/rich-cli
+
+- Display a file with syntax highlighting:
+
+`rich {any something}`
+
+- Add line numbers, and indentation guides:
+
+`rich {any something} --line-number --guides`
+
+- Apply a theme:
+
+`rich {any something} --theme {any something}`
+
+- Display a file in an interactive pager:
+
+`rich {any something} --pager`
+
+- Display contents from a URL:
+
+`rich {any something} --markdown --pager`
+
+- Export a file as HTML:
+
+`rich {any something} --export-html {any something}`
+
+- Display text with formatting tags, custom alignment, and line width:
+
+`rich --print {any something} --{any something} --width {int number: 10}`

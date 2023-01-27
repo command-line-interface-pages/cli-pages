@@ -1,0 +1,24 @@
+# screenfetch
+
+> Display system information
+> More information: https://github.com/KittyKatt/screenFetch
+
+- Start screenfetch:
+
+`screenfetch`
+
+- Take a screenshot (requires 'scrot'):
+
+`screenfetch -s`
+
+- Specify distribution logo:
+
+`screenfetch -A '{any something}'`
+
+- Specify distribution logo and text:
+
+`screenfetch -D '{any something}'`
+
+- Strip all color:
+
+`screenfetch -N`

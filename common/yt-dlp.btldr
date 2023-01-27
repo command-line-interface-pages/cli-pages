@@ -1,0 +1,37 @@
+# yt-dlp
+
+> A youtube-dl fork with additional features and fixes
+> Download videos from YouTube and other websites
+> More information: https://github.com/yt-dlp/yt-dlp
+
+- Download a video or playlist (with the default options from command below):
+
+`yt-dlp "{any something}"`
+
+- Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
+
+`yt-dlp --format "{any something}" "{any something}"`
+
+- Extract audio from videos (required ffmpeg or ffprobe):
+
+`yt-dlp --extract-audio "{any something}"`
+
+- Specify audio format of extracted audio (the default is "best"):
+
+`yt-dlp --extract-audio --audio-format {any something} "{any something}"`
+
+- Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
+
+`yt-dlp --extract-audio --audio-format {any something} --audio-quality {int number: 0} "{any something}"`
+
+- Download all playlists of YouTube channel/user keeping each playlist in separate directory:
+
+`yt-dlp -o "{any something}" "{any something}"`
+
+- Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home:
+
+`yt-dlp -u {any something} -p {any something} -P "{any something}" -o "{any something}" "{any something}"`
+
+- Download entire series season keeping each series and each season in separate directory under C:/MyVideos:
+
+`yt-dlp -P "{any something}" -o "{any something}" "{any something}"`

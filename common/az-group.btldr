@@ -1,0 +1,21 @@
+# az group
+
+> Manage resource groups and template deployments
+> Part of `azure-cli`
+> More information: https://docs.microsoft.com/cli/azure/group
+
+- Create a new resource group:
+
+`az group create --name {any something} --location {any something}`
+
+- Check if a resource group exists:
+
+`az group exists --name {any something}`
+
+- Delete a resource group:
+
+`az group delete --name {any something}`
+
+- Wait until a condition of the resource group is met:
+
+`az group wait --name {any something} --{any something}`

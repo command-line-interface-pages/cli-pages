@@ -1,0 +1,16 @@
+# debman
+
+> Read man pages from uninstalled packages
+> More information: https://manpages.debian.org/latest/debian-goodies/debman.1.html
+
+- Read a man page for a command that is provided by a specified package name:
+
+`debman -p {any something} {any something}`
+
+- Specify a package version to download:
+
+`debman -p {any something}={any something} {any something}`
+
+- Read a man page in a `.deb` file:
+
+`debman -f {any something} {any something}`

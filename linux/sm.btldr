@@ -1,0 +1,28 @@
+# sm
+
+> Displays a short message fullscreen
+> More information: https://github.com/nomeata/screen-message
+
+- Display a message in full-screen:
+
+`sm "{any something}"`
+
+- Display a message with inverted colors:
+
+`sm -i "{any something}"`
+
+- Display a message with a custom foreground color:
+
+`sm -f {any something} "{any something}"`
+
+- Display a message with a custom background color:
+
+`sm -b {any something} "{any something}"`
+
+- Display a message rotated 3 times (in steps of 90 degrees, counterclockwise):
+
+`sm -r {int number: 3} "{any something}"`
+
+- Display a message using the output from another command:
+
+`{any something} | sm -`

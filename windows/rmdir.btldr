@@ -1,0 +1,16 @@
+# rmdir
+
+> Remove a directory and its contents
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir
+
+- Remove an empty directory:
+
+`rmdir {directory something}`
+
+- Remove a directory and its contents recursively:
+
+`rmdir {directory something} /s`
+
+- Remove a directory and its contents recursively without prompting:
+
+`rmdir {directory something} /s /q`

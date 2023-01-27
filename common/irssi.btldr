@@ -1,0 +1,28 @@
+# irssi
+
+> Text based IRC client
+> More information: https://irssi.org
+
+- Open Irssi and connect to a server with a nickname:
+
+`irssi -n {any something} -c {any something}`
+
+- Open Irssi and connect with a specific server on a given port:
+
+`irssi -c {any something} -p {any something}`
+
+- View the help:
+
+`irssi --help`
+
+- Join a channel:
+
+`/join {any something}`
+
+- Change active window (starts at 1):
+
+`/win {any something}`
+
+- Exit the application cleanly and quitting any server(s):
+
+`/quit`

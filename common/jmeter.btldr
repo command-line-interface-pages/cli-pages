@@ -1,0 +1,20 @@
+# jmeter
+
+> Open source java application designed for load testing functional behavior and measure performance
+> More information: https://jmeter.apache.org
+
+- Run a specific test plan in nongui mode:
+
+`jmeter --nongui --testfile {file something}.jmx`
+
+- Run a test plan in nongui mode using a specific log file:
+
+`jmeter --nogui --testfile {file something}.jmx --logfile {any something}.jtl`
+
+- Run a test plan in nongui mode using a specific proxy:
+
+`jmeter --nongui --testfile {file something}.jmx --proxyHost {any something} --proxyPort {int number: 8888}`
+
+- Run a test plan in nongui mode using a specific JMeter property:
+
+`jmeter --jmeterproperty {any something}='{any something}' --nongui --testfile {file something}.jmx`

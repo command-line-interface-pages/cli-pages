@@ -1,0 +1,16 @@
+# ark
+
+> KDE's archiving tool
+> More information: https://docs.kde.org/stable5/en/ark/ark/
+
+- Extract a specific archive into the current directory:
+
+`ark --batch {any something}`
+
+- Extract an archive into a specific directory:
+
+`ark --batch --destination {directory something} {any something}`
+
+- Create an archive if it does not exist and add specific files to it:
+
+`ark --add-to {any something} {file* something}`

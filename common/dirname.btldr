@@ -1,0 +1,16 @@
+# dirname
+
+> Calculates the parent directory of a given file or directory path
+> More information: https://www.gnu.org/software/coreutils/dirname
+
+- Calculate the parent directory of a given path:
+
+`dirname {directory something: path/to/file_or}`
+
+- Calculate the parent directory of multiple paths:
+
+`dirname {any something} {any something}`
+
+- Delimit output with a NUL character instead of a newline (useful when combining with `xargs`):
+
+`dirname --zero {any something} {any something}`

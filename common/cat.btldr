@@ -1,0 +1,24 @@
+# cat
+
+> Print and concatenate files
+> More information: https://www.gnu.org/software/coreutils/cat
+
+- Print the contents of a file to the stdout:
+
+`cat {file something}`
+
+- Concatenate several files into an output file:
+
+`cat {file* something} > {file something: path/to/output}`
+
+- Append several files to an output file:
+
+`cat {file* something} >> {file something: path/to/output}`
+
+- Copy the contents of a file into an output file without buffering:
+
+`cat -u {any something} > {any something}`
+
+- Write stdin to a file:
+
+`cat - > {file something}`

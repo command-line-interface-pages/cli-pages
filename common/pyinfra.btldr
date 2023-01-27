@@ -1,0 +1,20 @@
+# pyinfra
+
+> Automates infrastructure at a large scale
+> More information: https://docs.pyinfra.com
+
+- Execute a command over SSH:
+
+`pyinfra {any something} exec -- {any something}`
+
+- Execute contents of a deploy file on a list of targets:
+
+`pyinfra {any something} {any something}`
+
+- Execute commands on locally:
+
+`pyinfra @local {any something}`
+
+- Execute commands over Docker:
+
+`pyinfra @docker/{any something} {any something}`

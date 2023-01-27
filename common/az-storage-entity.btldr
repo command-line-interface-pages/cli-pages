@@ -1,0 +1,25 @@
+# az storage entity
+
+> Manage Azure Table storage entities
+> Part of `azure-cli`
+> More information: https://learn.microsoft.com/cli/azure/storage/entity
+
+- Insert an entity into a table:
+
+`az storage entity insert --entity {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+
+- Delete an existing entity from a table:
+
+`az storage entity delete --partition-key {any something} --row-key {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+
+- Update an existing entity by merging its properties:
+
+`az storage entity merge --entity {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+
+- List entities which satisfy a query:
+
+`az storage entity query --filter {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+
+- Get an entity from the specified table:
+
+`az storage entity show --partition-key {any something} --row-key {any something} --table-name {any something} --account-name {any something} --account-key {any something}`

@@ -1,0 +1,28 @@
+# pageres
+
+> Capture screenshots of websites in various resolutions
+> More information: https://github.com/sindresorhus/pageres-cli
+
+- Take multiple screenshots of multiple URLs at different resolutions:
+
+`pageres {any something} {any something} {any something} {any something}`
+
+- Provide specific options for a URL, overriding global options:
+
+`pageres [{any something} {any something} --no-crop] [{any something} {any something}] --crop`
+
+- Provide a custom filename template:
+
+`pageres {any something} {any something} --filename={any something}`
+
+- Capture a specific element on a page:
+
+`pageres {any something} {any something} --selector='{any something}'`
+
+- Hide a specific element:
+
+`pageres {any something} {any something} --hide='{any something}'`
+
+- Capture a screenshot of a local file:
+
+`pageres {any something} {any something}`

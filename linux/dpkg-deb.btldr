@@ -1,0 +1,24 @@
+# dpkg-deb
+
+> Pack, unpack and provide information about Debian archives
+> More information: https://manpages.debian.org/latest/dpkg/dpkg-deb.html
+
+- Display information about a package:
+
+`dpkg-deb --info {any something}`
+
+- Display the package's name and version on one line:
+
+`dpkg-deb --show {any something}`
+
+- List the package's contents:
+
+`dpkg-deb --contents {any something}`
+
+- Extract package's contents into a directory:
+
+`dpkg-deb --extract {any something} {directory something}`
+
+- Create a package from a specified directory:
+
+`dpkg-deb --build {directory something}`

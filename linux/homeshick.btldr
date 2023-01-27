@@ -1,0 +1,24 @@
+# homeshick
+
+> Synchronize Git dotfiles
+> More information: https://github.com/andsens/homeshick/wiki
+
+- Create a new castle:
+
+`homeshick generate {any something}`
+
+- Add a file to your castle:
+
+`homeshick track {any something} {file something}`
+
+- Go to a castle:
+
+`homeshick cd {any something}`
+
+- Clone a castle:
+
+`homeshick clone {any something}/{any something}`
+
+- Symlink all files from a castle:
+
+`homeshick link {any something}`

@@ -1,0 +1,20 @@
+# kcadm.sh
+
+> Perform administration tasks from the command-line interface (CLI)
+> More information: https://www.keycloak.org/docs/latest/server_admin/#admin-cli
+
+- Start an authenticated session:
+
+`kcadm.sh config credentials --server {any something} --realm {any something} --user {any something} --password {any something}`
+
+- Create a user:
+
+`kcadm.sh create users -s username={any something} -r {any something}`
+
+- List all realms:
+
+`kcadm.sh get realms`
+
+- Update a realm with JSON config:
+
+`kcadm.sh update realms/{any something} -f {any something}`

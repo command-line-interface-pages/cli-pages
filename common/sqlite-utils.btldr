@@ -1,0 +1,36 @@
+# sqlite-utils
+
+> Command-line tool used to manipulate SQLite databases in a number of different ways
+> More information: https://sqlite-utils.datasette.io/en/stable/cli.html
+
+- Create a database:
+
+`sqlite-utils create-database {any something}`
+
+- Create a table:
+
+`sqlite-utils create-table {any something} {any something} {any something}`
+
+- List tables:
+
+`sqlite-utils tables {any something}`
+
+- Upsert a record:
+
+`{{echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'}} | sqlite-utils upsert {any something} {any something} - {any something}`
+
+- Select records:
+
+`sqlite-utils rows {any something} {any something}`
+
+- Delete a record:
+
+`sqlite-utils query {any something} "{any something}"`
+
+- Drop a table:
+
+`sqlite-utils drop-table {any something} {any something}`
+
+- Show help information:
+
+`sqlite-utils -h`

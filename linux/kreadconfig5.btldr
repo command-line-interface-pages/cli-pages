@@ -1,0 +1,16 @@
+# kreadconfig5
+
+> Read KConfig entries for KDE Plasma
+> More information: https://userbase.kde.org/KDE_System_Administration/Configuration_Files
+
+- Read a key from the global configuration:
+
+`kreadconfig5 --group {any something} --key {any something}`
+
+- Read a key from a specific configuration file:
+
+`kwriteconfig5 --file {file something} --group {any something} --key {any something}`
+
+- Check if systemd is used to start the Plasma session:
+
+`kreadconfig5 --file {any something} --group {any something} --key {any something}`

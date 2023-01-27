@@ -1,0 +1,29 @@
+# pueue enqueue
+
+> Enqueue stashed tasks
+> See also: `pueue stash`
+> More information: https://github.com/Nukesor/pueue
+
+- Enqueue multiple stashed tasks at once:
+
+`pueue enqueue {any something} {any something}`
+
+- Enqueue a stashed task after 60 seconds:
+
+`pueue enqueue --delay {int number: 60} {any something}`
+
+- Enqueue a stashed task next Wednesday:
+
+`pueue enqueue --delay {any something} {any something}`
+
+- Enqueue a stashed task after four months:
+
+`pueue enqueue --delay "4 months" {any something}`
+
+- Enqueue a stashed task on 2021-02-19:
+
+`pueue enqueue --delay {any something} {any something}`
+
+- List all available date/time formats:
+
+`pueue enqueue --help`

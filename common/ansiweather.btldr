@@ -1,0 +1,16 @@
+# ansiweather
+
+> A shell script for displaying the current weather conditions in your terminal
+> More information: https://github.com/fcambus/ansiweather
+
+- Display a forecast using metric units for the next five days for Rzeszow, Poland:
+
+`ansiweather -u {any something} -f {int number: 5} -l {any something}`
+
+- Display a forecast showing symbols and daylight data for your current location:
+
+`ansiweather -s {bool flag: true} -d {bool flag: true}`
+
+- Display a forecast showing wind and humidity data for your current location:
+
+`ansiweather -w {bool flag: true} -h {bool flag: true}`

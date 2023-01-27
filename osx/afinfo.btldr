@@ -1,0 +1,29 @@
+# afinfo
+
+> Audio file metadata parser for OS X
+> Built-in command of OS X
+> More information: https://ss64.com/osx/afinfo.html
+
+- Display info of a given audio file:
+
+`afinfo {file something}`
+
+- Print a one line description of the audio file:
+
+`afinfo --brief {file something}`
+
+- Print metadata info and contents of the audio file's InfoDictionary:
+
+`afinfo --info {file something}`
+
+- Print output in XML format:
+
+`afinfo --xml {file something}`
+
+- Print warnings for the audio file if any:
+
+`afinfo --warnings {file something}`
+
+- Display help for full usage:
+
+`afinfo --help`

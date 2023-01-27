@@ -1,0 +1,24 @@
+# weasyprint
+
+> Render HTML to PDF or PNG
+> More information: https://weasyprint.org/
+
+- Render an HTML file to PDF:
+
+`weasyprint {any something} {any something}.pdf`
+
+- Render an HTML file to PNG, including an additional user stylesheet:
+
+`weasyprint {any something} {any something}.png --stylesheet {any something}`
+
+- Output additional debugging information when rendering:
+
+`weasyprint {any something} {any something}.pdf --verbose`
+
+- Specify a custom resolution when outputting to PNG:
+
+`weasyprint {any something} {any something}.png --resolution {int number: 300}`
+
+- Specify a base URL for relative URLs in the input HTML file:
+
+`weasyprint {any something} {any something}.png --base-url {any something}`

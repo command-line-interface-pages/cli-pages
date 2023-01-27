@@ -1,0 +1,21 @@
+# envsubst
+
+> Substitutes environment variables with their value in shell format strings
+> Variables to be replaced should be in either `${var}` or `$var` format
+> More information: https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html
+
+- Replace environment variables in stdin and output to stdout:
+
+`echo '{any something}' | envsubst`
+
+- Replace environment variables in an input file and output to stdout:
+
+`envsubst < {file something: path/to/input}`
+
+- Replace environment variables in an input file and output to a file:
+
+`envsubst < {file something: path/to/input} > {file something: path/to/output}`
+
+- Replace environment variables in an input file from a space-separated list:
+
+`envsubst '{any something}' < {file something: path/to/input}`

@@ -1,0 +1,36 @@
+# babel
+
+> A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax
+> More information: https://babeljs.io/
+
+- Transpile a specified input file and output to stdout:
+
+`babel {file something}`
+
+- Transpile a specified input file and output to a specific file:
+
+`babel {file something: path/to/input} --out-file {file something: path/to/output}`
+
+- Transpile the input file every time it is changed:
+
+`babel {file something: path/to/input} --watch`
+
+- Transpile a whole directory of files:
+
+`babel {directory something: path/to/input}`
+
+- Ignore specified comma-separated files in a directory:
+
+`babel {directory something: path/to/input} --ignore {file* something: ignored}`
+
+- Transpile and output as minified JavaScript:
+
+`babel {file something: path/to/input} --minified`
+
+- Choose a set of presets for output formatting:
+
+`babel {file something: path/to/input} --presets {any something}`
+
+- Output all available options:
+
+`babel --help`

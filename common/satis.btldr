@@ -1,0 +1,24 @@
+# satis
+
+> The command-line utility for the Satis static Composer repository
+> More information: https://github.com/composer/satis
+
+- Initialize a Satis configuration:
+
+`satis init {any something}`
+
+- Add a VCS repository to the Satis configuration:
+
+`satis add {any something}`
+
+- Build the static output from the configuration:
+
+`satis build {any something} {directory something: path/to/output}`
+
+- Build the static output by updating only the specified repository:
+
+`satis build --repository-url {any something} {any something} {directory something: path/to/output}`
+
+- Remove useless archive files:
+
+`satis purge {any something} {directory something: path/to/output}`

@@ -1,0 +1,16 @@
+# gdalwarp
+
+> Image reprojection and warping utility
+> More information: https://gdal.org/programs/gdalwarp
+
+- Reproject a raster dataset:
+
+`gdalwarp -t_srs {any something} {any something} {any something}`
+
+- Crop a raster dataset by using specific coordinates:
+
+`gdalwarp -te {any something} {any something} {any something} {any something} -te_srs {any something} {any something} {any something}`
+
+- Crop a raster dataset using a vector layer:
+
+`gdalwarp -cutline {any something} -crop_to_cutline {any something} {any something}`

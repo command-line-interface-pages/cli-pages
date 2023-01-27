@@ -1,0 +1,32 @@
+# tea
+
+> A command-line tool to interact with Gitea servers
+> More information: https://gitea.com/gitea/tea
+
+- Log into a Gitea server:
+
+`tea login add --name "{any something}" --url "{any something}" --token "{any something}"`
+
+- Display all repositories:
+
+`tea repos ls`
+
+- Display a list of issues:
+
+`tea issues ls`
+
+- Display a list of issues for a specific repository:
+
+`tea issues ls --repo "{any something}"`
+
+- Create a new issue:
+
+`tea issues create --title "{any something}" --body "{any something}"`
+
+- Display a list of open pull requests:
+
+`tea pulls ls`
+
+- Open the current repository in a browser:
+
+`tea open`

@@ -1,0 +1,20 @@
+# chfn
+
+> Update `finger` info for a user
+> More information: https://manned.org/chfn
+
+- Update a user's "Name" field in the output of `finger`:
+
+`chfn -f {any something} {any something}`
+
+- Update a user's "Office Room Number" field for the output of `finger`:
+
+`chfn -o {any something} {any something}`
+
+- Update a user's "Office Phone Number" field for the output of `finger`:
+
+`chfn -p {any something} {any something}`
+
+- Update a user's "Home Phone Number" field for the output of `finger`:
+
+`chfn -h {any something} {any something}`

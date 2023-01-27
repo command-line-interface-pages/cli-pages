@@ -1,0 +1,20 @@
+# dexdump
+
+> Display information about Android DEX files
+> More information: https://manned.org/dexdump
+
+- Extract classes and methods from an APK file:
+
+`dexdump {any something}`
+
+- Display header information of DEX files contained in an APK file:
+
+`dexdump -f {any something}`
+
+- Display the dis-assembled output of executable sections:
+
+`dexdump -d {any something}`
+
+- Output results to a file:
+
+`dexdump -o {file something} {any something}`

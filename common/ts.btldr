@@ -1,0 +1,20 @@
+# ts
+
+> Add timestamps to every line from standard input
+> More information: https://joeyh.name/code/moreutils/
+
+- Add a timestamp to the beginning of each line:
+
+`{any something} | ts`
+
+- Add timestamps with microsecond precision:
+
+`{any something} | ts "{any something}"`
+
+- Add [i]ncremental timestamps with microsecond precision, starting from zero:
+
+`{any something} | ts -i "{any something}"`
+
+- Convert existing timestamps in a text file (eg. a log file) into [r]elative format:
+
+`cat {file something} | ts -r`

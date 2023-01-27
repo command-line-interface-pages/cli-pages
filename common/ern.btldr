@@ -1,0 +1,32 @@
+# ern
+
+> Electrode Native platform command line client
+> More information: https://native.electrode.io/reference/index-6
+
+- Create a new `ern` application (`MiniApp`):
+
+`ern create-miniapp {any something}`
+
+- Run one or more `MiniApps` in the iOS / Android Runner application:
+
+`ern run-{any something}`
+
+- Create an Electrode Native container:
+
+`ern create-container --miniapps {/directory something: path/to/miniapp} --platform {any something}`
+
+- Publish an Electrode Native container to a local Maven repository:
+
+`ern publish-container --publisher {any something} --platform {any something} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
+
+- Transform an iOS container into a pre-compiled binary framework:
+
+`ern transform-container --platform {any something} --transformer {any something}`
+
+- List all installed versions of Electrode Native:
+
+`ern platform versions`
+
+- Set a logging level:
+
+`ern platform config set logLevel {any something}`

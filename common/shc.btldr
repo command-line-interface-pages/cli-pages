@@ -1,0 +1,20 @@
+# shc
+
+> Generic shell script compiler
+> More information: https://manned.org/shc
+
+- Compile a shell script:
+
+`shc -f {any something}`
+
+- Compile a shell script and specify an output binary file:
+
+`shc -f {any something} -o {any something}`
+
+- Compile a shell script and set an expiration date for the executable:
+
+`shc -f {any something} -e {any something}`
+
+- Compile a shell script and set a message to display upon expiration:
+
+`shc -f {any something} -e {any something} -m "{any something}"`

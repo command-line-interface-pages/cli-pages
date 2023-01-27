@@ -1,0 +1,29 @@
+# dconf
+
+> Manage dconf databases
+> See also: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`
+> More information: https://manned.org/dconf
+
+- Print a specific key value:
+
+`dconf read {any something}`
+
+- Print a specific path sub-directories and sub-keys:
+
+`dconf list {any something}`
+
+- Write a specific key value:
+
+`dconf write {any something} "{any something}"`
+
+- Reset a specific key value:
+
+`dconf reset {any something}`
+
+- Watch a specific key/directory for changes:
+
+`dconf watch {any something}`
+
+- Dump a specific directory in INI file format:
+
+`dconf dump {any something}`

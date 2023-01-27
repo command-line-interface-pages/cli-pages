@@ -1,0 +1,16 @@
+# gacutil
+
+> Global Assembly Cache (CAG) management utility
+> More information: https://manned.org/gacutil
+
+- Install the specified assembly into GAC:
+
+`gacutil -i {any something}`
+
+- Uninstall the specified assembly from GAC:
+
+`gacutil -i {any something}`
+
+- Print the content of GAC:
+
+`gacutil -l`

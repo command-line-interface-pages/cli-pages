@@ -1,0 +1,32 @@
+# html5validator
+
+> A command-line tool for testing HTML5 validity
+> More information: https://github.com/svenkreiss/html5validator
+
+- Validate a specific file:
+
+`html5validator {file something}`
+
+- Validate all HTML files in a specific directory:
+
+`html5validator --root {directory something}`
+
+- Show warnings as well as errors:
+
+`html5validator --show-warnings {file something}`
+
+- Match multiple files using a glob pattern:
+
+`html5validator --root {directory something} --match "{any something}"`
+
+- Ignore specific directory names:
+
+`html5validator --root {directory something} --blacklist "{any something}"`
+
+- Output the results in a specific format:
+
+`html5validator --format {any something} {file something}`
+
+- Output the log at a specific verbosity level:
+
+`html5validator --root {directory something} --log {any something}`

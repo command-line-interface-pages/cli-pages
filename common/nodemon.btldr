@@ -1,0 +1,32 @@
+# nodemon
+
+> Watch files and automatically restart a node application when changes are detected
+> More information: https://nodemon.io
+
+- Execute the specified file and watch a specific file for changes:
+
+`nodemon {any something}`
+
+- Manually restart nodemon (note nodemon must already be active for this to work):
+
+`rs`
+
+- Ignore specific files:
+
+`nodemon --ignore {directory something: path/to/file_or}`
+
+- Pass arguments to the node application:
+
+`nodemon {any something} {any something}`
+
+- Pass arguments to node itself if they're not nodemon arguments already (e.g. `--inspect`):
+
+`nodemon {any something} {any something}`
+
+- Run an arbitrary non-node script:
+
+`nodemon --exec "{any something} {any something}" {any something}`
+
+- Run a Python script:
+
+`nodemon --exec "python {any something}" {any something}`

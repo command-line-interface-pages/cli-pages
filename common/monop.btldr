@@ -1,0 +1,32 @@
+# monop
+
+> Finds and displays signatures of Types and methods inside .NET assemblies
+> More information: https://manned.org/monop
+
+- Show the structure of a Type built-in of the .NET Framework:
+
+`monop {any something}`
+
+- List the types in an assembly:
+
+`monop -r:{any something}`
+
+- Show the structure of a Type in a specific assembly:
+
+`monop -r:{any something} {any something}`
+
+- Only show members defined in the specified Type:
+
+`monop -r:{any something} --only-declared {any something}`
+
+- Show private members:
+
+`monop -r:{any something} --private {any something}`
+
+- Hide obsolete members:
+
+`monop -r:{any something} --filter-obsolete {any something}`
+
+- List the other assemblies that a specified assembly references:
+
+`monop -r:{any something} --refs`

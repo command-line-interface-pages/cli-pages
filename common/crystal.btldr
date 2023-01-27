@@ -1,0 +1,24 @@
+# crystal
+
+> Tool for managing Crystal source code
+> More information: https://crystal-lang.org/reference/using_the_compiler
+
+- Run a Crystal file:
+
+`crystal {any something}`
+
+- Compile a file and all dependencies to a single executable:
+
+`crystal build {any something}`
+
+- Start a local interactive server for testing the language:
+
+`crystal play`
+
+- Create a project directory for a Crystal application:
+
+`crystal init app {any something}`
+
+- Display all help options:
+
+`crystal help`

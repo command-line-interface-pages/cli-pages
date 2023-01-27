@@ -1,0 +1,28 @@
+# twurl
+
+> Curl-like command but tailored specifically for the Twitter API
+> More information: https://github.com/twitter/twurl
+
+- Authorize `twurl` to access a Twitter account:
+
+`twurl authorize --consumer-key {any something} --consumer-secret {any something}`
+
+- Make a GET request to an API endpoint:
+
+`twurl -X GET {any something}`
+
+- Make a POST request to an API endpoint:
+
+`twurl -X POST -d '{any something}' {any something}`
+
+- Upload media to Twitter:
+
+`twurl -H "{any something}" -X POST "{any something}" --file "{any something}" --file-field "media"`
+
+- Access a different Twitter API host:
+
+`twurl -H {any something} -X GET {any something}`
+
+- Create an alias for a requested resource:
+
+`twurl alias {any something} {any something}`

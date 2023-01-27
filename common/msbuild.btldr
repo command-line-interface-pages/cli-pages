@@ -1,0 +1,32 @@
+# msbuild
+
+> The Microsoft build tool for Visual Studio project solutions
+> More information: https://learn.microsoft.com/visualstudio/msbuild
+
+- Build the first project file in the current directory:
+
+`msbuild`
+
+- Build a specific project file:
+
+`msbuild {file something: path/to/project}`
+
+- Set one or more semicolon-separated targets to build:
+
+`msbuild {file something: path/to/project} /target:{any something}`
+
+- Set one or more semicolon-separated properties:
+
+`msbuild {file something: path/to/project} /property:{any something}`
+
+- Set the build tools version to use:
+
+`msbuild {file something: path/to/project} /toolsversion:{any something}`
+
+- Display detailed information at the end of the log about how the project was configured:
+
+`msbuild {file something: path/to/project} /detailedsummary`
+
+- Display detailed help information:
+
+`msbuild /help`

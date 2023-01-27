@@ -1,0 +1,20 @@
+# phpstorm
+
+> A cross-platform IDE for PHP based on the JetBrains IntelliJ platform
+> More information: https://jetbrains.com/phpstorm
+
+- Open a specific directory:
+
+`phpstorm {directory something}`
+
+- Open a file:
+
+`phpstorm {file something}`
+
+- Open a file at a specific line:
+
+`phpstorm --line {any something} {file something}`
+
+- View the differences between two files:
+
+`phpstorm diff {file something: path/to/left} {file something: path/to/right}`

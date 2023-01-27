@@ -1,0 +1,37 @@
+# curl
+
+> Transfers data from or to a server
+> Supports most protocols, including HTTP, FTP, and POP3
+> More information: https://curl.se
+
+- Download the contents of a URL to a file:
+
+`curl {any something} --output {file something}`
+
+- Download a file, saving the output under the filename indicated by the URL:
+
+`curl --remote-name {any something}`
+
+- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
+
+`curl --fail --remote-name --location --continue-at - {any something}`
+
+- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
+
+`curl --data {any something} {any something}`
+
+- Send a request with an extra header, using a custom HTTP method:
+
+`curl --header {any something} --request {any something} {any something}`
+
+- Send data in JSON format, specifying the appropriate content-type header:
+
+`curl --data {{'{"name":"bob"}'}} --header {any something} {any something}`
+
+- Pass a username and password for server authentication:
+
+`curl --user myusername:mypassword {any something}`
+
+- Pass client certificate and key for a resource, skipping certificate validation:
+
+`curl --cert {any something} --key {any something} --insecure {any something}`

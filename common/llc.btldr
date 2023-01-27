@@ -1,0 +1,20 @@
+# llc
+
+> Compiles LLVM Intermediate Representation or bitcode to target-specific assembly language
+> More information: https://www.llvm.org/docs/CommandGuide/llc.html
+
+- Compile a bitcode or IR file to an assembly file with the same base name:
+
+`llc {any something}`
+
+- Enable all optimizations:
+
+`llc -O3 {any something}`
+
+- Output assembly to a specific file:
+
+`llc --output {any something}`
+
+- Emit fully relocatable, position independent code:
+
+`llc -relocation-model=pic {any something}`

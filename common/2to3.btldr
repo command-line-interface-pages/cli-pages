@@ -1,0 +1,32 @@
+# 2to3
+
+> Automated Python 2 to 3 code conversion
+> More information: https://docs.python.org/3/library/2to3.html
+
+- Display the changes that would be performed without performing them (dry-run):
+
+`2to3 {any something}`
+
+- Convert a Python 2 file to Python 3:
+
+`2to3 --write {any something}`
+
+- Convert specific Python 2 language features to Python 3:
+
+`2to3 --write {any something} --fix={any something} --fix={any something}`
+
+- Convert all Python 2 language features except the specified ones to Python 3:
+
+`2to3 --write {any something} --nofix={any something} --nofix={any something}`
+
+- Display a list of all available language features that can be converted from Python 2 to Python 3:
+
+`2to3 --list-fixes`
+
+- Convert all Python 2 files in a directory to Python 3:
+
+`2to3 --output-dir={directory something: path/to/python3} --write-unchanged-files --nobackups {directory something: path/to/python2}`
+
+- Run 2to3 with multiple threads:
+
+`2to3 --processes={int number: 4} --output-dir={directory something: path/to/python3} --write --nobackups --no-diff {directory something: path/to/python2}`

@@ -1,0 +1,32 @@
+# mimetype
+
+> Automatically determine the MIME type of a file
+> More information: https://manned.org/mimetype
+
+- Print the MIME type of a given file:
+
+`mimetype {file something}`
+
+- Display only the MIME type, and not the filename:
+
+`mimetype --brief {file something}`
+
+- Display a description of the MIME type:
+
+`mimetype --describe {file something}`
+
+- Determine the MIME type of stdin (does not check a filename):
+
+`{any something} | mimetype --stdin`
+
+- Display debug information about how the MIME type was determined:
+
+`mimetype --debug {file something}`
+
+- Display all the possible MIME types of a given file in confidence order:
+
+`mimetype --all {file something}`
+
+- Explicitly specify the 2-letter language code of the output:
+
+`mimetype --language {file something}`

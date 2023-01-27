@@ -1,0 +1,24 @@
+# tlmgr install
+
+> Install TeX Live packages
+> More information: https://www.tug.org/texlive/tlmgr.html
+
+- Install a package and its dependencies:
+
+`sudo tlmgr install {any something}`
+
+- Reinstall a package:
+
+`sudo tlmgr install --reinstall {any something}`
+
+- Simulate installing a package without making any changes:
+
+`tlmgr install --dry-run {any something}`
+
+- Install a package without its dependencies:
+
+`sudo tlmgr install --no-depends {any something}`
+
+- Install a package from a specific file:
+
+`sudo tlmgr install --file {any something}`

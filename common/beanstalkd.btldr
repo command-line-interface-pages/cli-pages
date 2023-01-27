@@ -1,0 +1,20 @@
+# beanstalkd
+
+> A simple and generic work-queue server
+> More information: https://beanstalkd.github.io/
+
+- Start beanstalkd, listening on port 11300:
+
+`beanstalkd`
+
+- Start beanstalkd listening on a custom port and address:
+
+`beanstalkd -l {any something} -p {any something}`
+
+- Persist work queues by saving them to disk:
+
+`beanstalkd -b {directory something: path/to/persistence}`
+
+- Sync to the persistence directory every 500 milliseconds:
+
+`beanstalkd -b {directory something: path/to/persistence} -f {int number: 500}`

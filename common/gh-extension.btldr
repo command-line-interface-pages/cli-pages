@@ -1,0 +1,36 @@
+# gh extension
+
+> Manage extensions for the GitHub CLI
+> More information: https://cli.github.com/manual/gh_extension
+
+- Initialize a new GitHub CLI extension project in a directory of the same name:
+
+`gh extension create {any something}`
+
+- Install an extension from a GitHub repository:
+
+`gh extension install {any something}/{any something}`
+
+- List installed extensions:
+
+`gh extension list`
+
+- Upgrade a specific extension:
+
+`gh extension upgrade {any something}`
+
+- Upgrade all extensions:
+
+`gh extension upgrade --all`
+
+- List installed extensions:
+
+`gh extension list`
+
+- Remove an extension:
+
+`gh extension remove {any something}`
+
+- Display help about a subcommand:
+
+`gh extension {any something} --help`

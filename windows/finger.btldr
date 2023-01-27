@@ -1,0 +1,21 @@
+# finger
+
+> Return information about one or more users on a specified system
+> The remote system must be running the Finger service
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/finger
+
+- Display information about a specific user:
+
+`finger {any something}@{any something}`
+
+- Display information about all users on the specified host:
+
+`finger @{any something}`
+
+- Display information in a longer format:
+
+`finger {any something}@{any something} -l`
+
+- Display help information:
+
+`finger /?`

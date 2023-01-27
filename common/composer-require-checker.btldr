@@ -1,0 +1,12 @@
+# composer-require-checker
+
+> A CLI tool to analyze Composer dependencies for soft dependencies
+> More information: https://github.com/maglnet/ComposerRequireChecker
+
+- Analyze a Composer JSON file:
+
+`composer-require-checker check {any something}`
+
+- Analyze a Composer JSON file with a specific configuration:
+
+`composer-require-checker check --config-file {any something} {any something}`

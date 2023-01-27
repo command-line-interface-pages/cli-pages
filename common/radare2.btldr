@@ -1,0 +1,28 @@
+# radare2
+
+> A set of reverse engineering tools
+> More information: https://radare.gitbooks.io/radare2book/
+
+- Open a file in write mode without parsing the file format headers:
+
+`radare2 -nw {any something}`
+
+- Debug a program:
+
+`radare2 -d {any something}`
+
+- Run a script before entering the interactive CLI:
+
+`radare2 -i {any something} {any something}`
+
+- Show help text for any command in the interactive CLI:
+
+`> {any something}?`
+
+- Run a shell command from the interactive CLI:
+
+`> !{any something}`
+
+- Dump raw bytes of current block to a file:
+
+`> pr > {any something}`

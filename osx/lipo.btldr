@@ -1,0 +1,20 @@
+# lipo
+
+> Tool for handling Mach-O Universal Binaries
+> More information: https://ss64.com/osx/lipo.html
+
+- Create a universal file from two single-architecture files:
+
+`lipo {any something} {any something} -create -output {any something}`
+
+- List all architectures contained in a universal file:
+
+`lipo {any something} -archs`
+
+- Display detailed information about a universal file:
+
+`lipo {any something} -detailed_info`
+
+- Extract a single-architecture file from a universal file:
+
+`lipo {any something} -thin {any something} -output {any something}`

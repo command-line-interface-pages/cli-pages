@@ -1,0 +1,36 @@
+# crunch
+
+> Wordlist generator
+> More information: https://sourceforge.net/projects/crunch-wordlist/
+
+- Output a list of words of length 1 to 3 with only lowercase characters:
+
+`crunch {int number: 1} {int number: 3}`
+
+- Output a list of hexadecimal words of length 8:
+
+`crunch {int number: 8} {int number: 8} {any something}`
+
+- Output a list of all permutations of abc (lengths are not processed):
+
+`crunch {int number: 1} {int number: 1} -p {any something}`
+
+- Output a list of all permutations of the given strings (lengths are not processed):
+
+`crunch {int number: 1} {int number: 1} -p {any something} {any something} {any something}`
+
+- Output a list of words generated according to the given pattern and a maximum number of duplicate letters:
+
+`crunch {int number: 5} {int number: 5} {any something} -t {any something} -d 2@`
+
+- Write a list of words in chunk files of a given size, starting with the given string:
+
+`crunch {int number: 3} {int number: 5} -o {any something} -b {any something} -s {any something}`
+
+- Write a list of words stopping with the given string and inverting the wordlist:
+
+`crunch {int number: 1} {int number: 5} -o {any something} -e {any something} -i`
+
+- Write a list of words in compressed chunk files with a specified number of words:
+
+`crunch {int number: 1} {int number: 5} -o {any something} -c {int number: 1000} -z {any something}`

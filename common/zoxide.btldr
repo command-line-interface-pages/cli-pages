@@ -1,0 +1,29 @@
+# zoxide
+
+> Keep track of the most frequently used directories
+> Uses a ranking algorithm to navigate to the best match
+> More information: https://github.com/ajeetdsouza/zoxide
+
+- Go to the highest-ranked directory that contains "foo" in the name:
+
+`zoxide query {any something}`
+
+- Go to the highest-ranked directory that contains "foo" and then "bar":
+
+`zoxide query {any something} {any something}`
+
+- Start an interactive directory search (requires `fzf`):
+
+`zoxide query --interactive`
+
+- Add a directory or increment its rank:
+
+`zoxide add {directory something}`
+
+- Remove a directory from `zoxide`'s database interactively:
+
+`zoxide remove {directory something} --interactive`
+
+- Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
+
+`zoxide init {any something}`

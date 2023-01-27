@@ -1,0 +1,24 @@
+# nasm
+
+> The Netwide Assembler, a portable 80x86 assembler
+> More information: https://nasm.us
+
+- Assemble `source.asm` into a binary file `source`, in the (default) raw binary format:
+
+`nasm {any something}`
+
+- Assemble `source.asm` into a binary file `output_file`, in the specified format:
+
+`nasm -f {any something} {any something} -o {file something: output}`
+
+- List valid output formats (along with basic nasm help):
+
+`nasm -hf`
+
+- Assemble and generate an assembly listing file:
+
+`nasm -l {file something: list} {any something}`
+
+- Add a directory (must be written with trailing slash) to the include file search path before assembling:
+
+`nasm -i {any something} {any something}`

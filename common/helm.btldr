@@ -1,0 +1,37 @@
+# helm
+
+> Helm is a package manager for Kubernetes
+> Some subcommands such as `helm install` have their own usage documentation
+> More information: https://helm.sh/
+
+- Create a helm chart:
+
+`helm create {any something}`
+
+- Add a new helm repository:
+
+`helm repo add {any something}`
+
+- List helm repositories:
+
+`helm repo list`
+
+- Update helm repositories:
+
+`helm repo update`
+
+- Delete a helm repository:
+
+`helm repo remove {any something}`
+
+- Install a helm chart:
+
+`helm install {any something} {any something}/{any something}`
+
+- Download helm chart as a tar archive:
+
+`helm get {any something}`
+
+- Update helm dependencies:
+
+`helm dependency update`

@@ -1,0 +1,16 @@
+# openscad
+
+> Software for creating solid 3D CAD objects
+> More information: https://openscad.org
+
+- Open a file:
+
+`openscad {any something}`
+
+- Convert a file to STL:
+
+`openscad -o {any something} {any something}`
+
+- Render a file to PNG in a specific colorscheme:
+
+`openscad -o {any something} --colorscheme {any something} {any something}`

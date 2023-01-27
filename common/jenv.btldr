@@ -1,0 +1,28 @@
+# jenv
+
+> Command-line tool to manage the "JAVA_HOME" environment variable
+> More information: https://www.jenv.be/
+
+- Add a Java version to jEnv:
+
+`jenv add {any something}`
+
+- Display the current JDK version used:
+
+`jenv version`
+
+- Display all managed JDKs:
+
+`jenv versions`
+
+- Set the global JDK version:
+
+`jenv global {any something}`
+
+- Set the JDK version for the current shell session:
+
+`jenv shell {any something}`
+
+- Enable a jEnv plugin:
+
+`jenv enable-plugin {any something}`

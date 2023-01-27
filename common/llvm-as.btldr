@@ -1,0 +1,16 @@
+# llvm-as
+
+> LLVM Intermediate Representation (`.ll`) to Bitcode (`.bc`) assembler
+> More information: https://llvm.org/docs/CommandGuide/llvm-as.html
+
+- Assemble an IR file:
+
+`llvm-as -o {any something} {any something}`
+
+- Assemble an IR file and include a module hash in the produced Bitcode file:
+
+`llvm-as --module-hash -o {any something} {any something}`
+
+- Read an IR file from stdin and assemble it:
+
+`cat {any something} | llvm-as -o {any something}`

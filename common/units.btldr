@@ -1,0 +1,32 @@
+# units
+
+> Provide the conversion between two units of measure
+> More information: https://www.gnu.org/software/units/
+
+- Run in interactive mode:
+
+`units`
+
+- List all units containing a specific string in interactive mode:
+
+`search {any something}`
+
+- Show the conversion between two simple units:
+
+`units {any something} {any something}`
+
+- Convert between units with quantities:
+
+`units "{any something}" {any something}`
+
+- Show the conversion between two compound units:
+
+`units "{any something}" "{any something}"`
+
+- Show the conversion between units with different dimensions:
+
+`units "{any something}" "{any something}"`
+
+- Show the conversion of byte multipliers:
+
+`units "{any something}" {any something}`

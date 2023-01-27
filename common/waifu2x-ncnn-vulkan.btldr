@@ -1,0 +1,16 @@
+# waifu2x-ncnn-vulkan
+
+> Image upscaler for manga/anime-style images using NCNN neural network framework
+> More information: https://github.com/nihui/waifu2x-ncnn-vulkan
+
+- Upscale an image:
+
+`waifu2x-ncnn-vulkan -i {file something: path/to/input} -o {file something: path/to/output}`
+
+- Upscale an image by a custom scale factor and denoise it:
+
+`waifu2x-ncnn-vulkan -i {file something: path/to/input} -o {file something: path/to/output} -s {any something} -n {any something}`
+
+- Save the upscaled image in a specific format:
+
+`waifu2x-ncnn-vulkan -i {file something: path/to/input} -o {file something: path/to/output} -f {any something}`

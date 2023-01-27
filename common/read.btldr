@@ -1,0 +1,36 @@
+# read
+
+> BASH builtin for retrieving data from standard input
+> More information: https://manned.org/read.1p
+
+- Store data that you type from the keyboard:
+
+`read {any something}`
+
+- Store each of the next lines you enter as values of an array:
+
+`read -a {any something}`
+
+- Specify the number of maximum characters to be read:
+
+`read -n {any something} {any something}`
+
+- Use a specific character as a delimiter instead of a new line:
+
+`read -d {any something} {any something}`
+
+- Do not let backslash (\\) act as an escape character:
+
+`read -r {any something}`
+
+- Display a prompt before the input:
+
+`read -p "{any something}" {any something}`
+
+- Do not echo typed characters (silent mode):
+
+`read -s {any something}`
+
+- Read stdin and perform an action on every line:
+
+`while read line; do echo "$line"; done`

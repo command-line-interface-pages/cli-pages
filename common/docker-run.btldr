@@ -1,0 +1,36 @@
+# docker run
+
+> Run a command in a new Docker container
+> More information: https://docs.docker.com/engine/reference/commandline/run/
+
+- Run command in a new container from a tagged image:
+
+`docker run {any something} {any something}`
+
+- Run command in a new container in background and display its ID:
+
+`docker run --detach {any something} {any something}`
+
+- Run command in a one-off container in interactive mode and pseudo-TTY:
+
+`docker run --rm --interactive --tty {any something} {any something}`
+
+- Run command in a new container with passed environment variables:
+
+`docker run --env '{any something}={any something}' --env {any something} {any something} {any something}`
+
+- Run command in a new container with bind mounted volumes:
+
+`docker run --volume {any something}:{any something} {any something} {any something}`
+
+- Run command in a new container with published ports:
+
+`docker run --publish {any something}:{any something} {any something} {any something}`
+
+- Run command in a new container overwriting the entrypoint of the image:
+
+`docker run --entrypoint {any something} {any something}`
+
+- Run command in a new container connecting it to a network:
+
+`docker run --network {any something} {any something}`

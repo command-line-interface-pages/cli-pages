@@ -1,0 +1,20 @@
+# ledctl
+
+> Intel(R) Enclosure LED Control Application
+> More information: https://manned.org/ledctl
+
+- Turn on the "Locate" LED for specified device(s):
+
+`sudo ledctl locate={any something}`
+
+- Turn off the "Locate" LED for specified device(s):
+
+`sudo ledctl locate_off={any something}`
+
+- Turn off the "Status" LED and "Failure" LED for specified device(s):
+
+`sudo ledctl off={any something}`
+
+- Turn off the "Status" LED, "Failure" LED and "Locate" LED for specified device(s):
+
+`sudo ledctl normal={any something}`

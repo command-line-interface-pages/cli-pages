@@ -1,0 +1,24 @@
+# cot
+
+> The Plain-Text Editor for macOS
+> More information: https://coteditor.com/
+
+- Start CotEditor:
+
+`cot`
+
+- Open specific files:
+
+`cot {file* something}`
+
+- Open a new blank document:
+
+`cot --new`
+
+- Open a specific file and block the terminal until it is closed:
+
+`cot --wait {file something}`
+
+- Open a specific file with the cursor at a specific line and column:
+
+`cot --line {any something} --column {any something} {file something}`

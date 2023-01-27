@@ -1,0 +1,24 @@
+# e2image
+
+> Save critical ext2/ext3/ext4 filesystem metadata to a file
+> More information: https://manned.org/e2image
+
+- Write metadata located on device to a specific file:
+
+`e2image {any something} {file something: path/to/image}`
+
+- Print metadata located on device to stdout:
+
+`e2image {any something} -`
+
+- Restore the filesystem metadata back to the device:
+
+`e2image -I {any something} {file something: path/to/image}`
+
+- Create a large raw sparse file with metadata at proper offsets:
+
+`e2image -r {any something} {file something: path/to/image}`
+
+- Create a QCOW2 image file instead of a normal or raw image file:
+
+`e2image -Q {any something} {file something: path/to/image}`

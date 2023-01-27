@@ -1,0 +1,24 @@
+# beep
+
+> A utility to beep the PC speaker
+> More information: https://github.com/spkr-beep/beep
+
+- Play a beep:
+
+`beep`
+
+- Play a beep that repeats:
+
+`beep -r {any something}`
+
+- Play a beep at a specified frequency (Hz) and duration (milliseconds):
+
+`beep -f {any something} -l {any something}`
+
+- Play each new frequency and duration as a distinct beep:
+
+`beep -f {any something} -l {any something} -n -f {any something} -l {any something}`
+
+- Play the C major scale:
+
+`beep -f {int number: 262} -n -f {int number: 294} -n -f {int number: 330} -n -f {int number: 349} -n -f {int number: 392} -n -f {int number: 440} -n -f {int number: 494} -n -f {int number: 523}`

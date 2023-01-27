@@ -1,0 +1,17 @@
+# ocamlfind
+
+> The findlib package manager for OCaml
+> Simplifies linking executables with external libraries
+> More information: http://projects.camlcity.org/projects/findlib.html
+
+- Compile a source file to a native binary and link with packages:
+
+`ocamlfind ocamlopt -package {any something},{any something} -linkpkg -o {any something} {any something}`
+
+- Compile a source file to a bytecode binary and link with packages:
+
+`ocamlfind ocamlc -package {any something},{any something} -linkpkg -o {any something} {any something}`
+
+- Cross-compile for a different platform:
+
+`ocamlfind -toolchain {any something} ocamlopt -o {any something} {any something}`

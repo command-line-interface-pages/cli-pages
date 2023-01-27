@@ -1,0 +1,29 @@
+# rdesktop
+
+> Remote Desktop Protocol client
+> It can be used to connect the remote computer using the RDP protocol
+> More information: https://manned.org/rdesktop
+
+- Connect to a remote computer (default port is 3389):
+
+`rdesktop -u {any something} -p {any something} {any something}`
+
+- Simple Examples:
+
+`rdesktop -u Administrator -p passwd123 192.168.1.111:3389`
+
+- Connect to a remote computer with full screen (press `Ctrl + Alt + Enter` to exist):
+
+`rdesktop -u {any something} -p {any something} -f {any something}`
+
+- Use the customed resolution (use the letter 'x' between the number):
+
+`rdesktop -u {any something} -p {any something} -g 1366x768 {any something}`
+
+- Connect to a remote computer using domain user:
+
+`rdesktop -u {any something} -p {any something} -d {any something} {any something}`
+
+- Use the 16-bit color (speed up):
+
+`rdesktop -u {any something} -p {any something} -a 16 {any something}`

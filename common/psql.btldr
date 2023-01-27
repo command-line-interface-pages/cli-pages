@@ -1,0 +1,24 @@
+# psql
+
+> PostgreSQL command-line client
+> More information: https://www.postgresql.org/docs/current/app-psql.html
+
+- Connect to the database. By default, it connects to the local socket using port 5432 with the currently logged in user:
+
+`psql {any something}`
+
+- Connect to the database on given server host running on given port with given username, without a password prompt:
+
+`psql -h {any something} -p {any something} -U {any something} {any something}`
+
+- Connect to the database; user will be prompted for password:
+
+`psql -h {any something} -p {any something} -U {any something} -W {any something}`
+
+- Execute a single SQL query or PostgreSQL command on the given database (useful in shell scripts):
+
+`psql -c '{any something}' {any something}`
+
+- Execute commands from a file on the given database:
+
+`psql {any something} -f {any something}`

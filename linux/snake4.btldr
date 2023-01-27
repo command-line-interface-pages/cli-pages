@@ -1,0 +1,28 @@
+# snake4
+
+> Snake game in the terminal
+> More information: https://manpages.debian.org/snake4/snake4.6.en.html
+
+- Start a snake game:
+
+`snake4`
+
+- Choose level:
+
+`{any something}`
+
+- Navigate the snake:
+
+`{any something} arrow key`
+
+- Pause game:
+
+`Spacebar`
+
+- Quit game:
+
+`q`
+
+- Show the high scores:
+
+`snake4 --highscores`

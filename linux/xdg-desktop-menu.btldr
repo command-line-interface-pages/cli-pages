@@ -1,0 +1,20 @@
+# xdg-desktop-menu
+
+> Command-line tool for installing or uninstalling desktop menu items
+> More information: https://manned.org/xdg-desktop-menu
+
+- Install an application to the desktop menu system:
+
+`xdg-desktop-menu install {any something}`
+
+- Install an application to the desktop menu system with the vendor prefix check disabled:
+
+`xdg-desktop-menu install --novendor {any something}`
+
+- Uninstall an application from the desktop menu system:
+
+`xdg-desktop-menu uninstall {any something}`
+
+- Force an update of the desktop menu system:
+
+`xdg-desktop-menu forceupdate --mode {any something}`

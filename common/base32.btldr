@@ -1,0 +1,20 @@
+# base32
+
+> Encode or decode file or standard input to/from Base32, to standard output
+> More information: https://www.gnu.org/software/coreutils/base32
+
+- Encode a file:
+
+`base32 {file something}`
+
+- Decode a file:
+
+`base32 --decode {file something}`
+
+- Encode from stdin:
+
+`{any something} | base32`
+
+- Decode from stdin:
+
+`{any something} | base32 --decode`

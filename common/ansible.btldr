@@ -1,0 +1,33 @@
+# ansible
+
+> Manage groups of computers remotely over SSH. (use the `/etc/ansible/hosts` file to add new groups/hosts)
+> Some subcommands such as `ansible galaxy` have their own usage documentation
+> More information: https://www.ansible.com/
+
+- List hosts belonging to a group:
+
+`ansible {any something} --list-hosts`
+
+- Ping a group of hosts by invoking the ping module:
+
+`ansible {any something} -m ping`
+
+- Display facts about a group of hosts by invoking the setup module:
+
+`ansible {any something} -m setup`
+
+- Execute a command on a group of hosts by invoking command module with arguments:
+
+`ansible {any something} -m command -a '{any something}'`
+
+- Execute a command with administrative privileges:
+
+`ansible {any something} --become --ask-become-pass -m command -a '{any something}'`
+
+- Execute a command using a custom inventory file:
+
+`ansible {any something} -i {file something: inventory} -m command -a '{any something}'`
+
+- List the groups in an inventory:
+
+`ansible localhost -m debug -a '{any something}'`

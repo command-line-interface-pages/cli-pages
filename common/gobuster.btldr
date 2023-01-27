@@ -1,0 +1,28 @@
+# gobuster
+
+> Brute-forces hidden paths on web servers and more
+> More information: https://github.com/OJ/gobuster
+
+- Discover directories and files that match in the wordlist:
+
+`gobuster dir --url {any something} --wordlist {file something}`
+
+- Discover subdomains:
+
+`gobuster dns --domain {any something} --wordlist {file something}`
+
+- Discover Amazon S3 buckets:
+
+`gobuster s3 --wordlist {file something}`
+
+- Discover other virtual hosts on the server:
+
+`gobuster vhost --url {any something} --wordlist {file something}`
+
+- Fuzz the value of a parameter:
+
+`gobuster fuzz --url {any something} --wordlist {file something}`
+
+- Fuzz the name of a parameter:
+
+`gobuster fuzz --url {any something} --wordlist {file something}`
