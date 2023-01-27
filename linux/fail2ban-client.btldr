@@ -9,7 +9,7 @@
 
 - Remove the specified IP from the jail service's ban list:
 
-`fail2ban-client set {any something} unbanip {any something}`
+`fail2ban-client set {any something} unbanip {string ip}`
 
 - Verify fail2ban server is alive:
 

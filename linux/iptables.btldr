@@ -13,11 +13,11 @@
 
 - Append rule to chain policy for IP:
 
-`sudo iptables -A {any something} -s {any something} -j {any something}`
+`sudo iptables -A {any something} -s {string ip} -j {any something}`
 
 - Append rule to chain policy for IP considering protocol and port:
 
-`sudo iptables -A {any something} -s {any something} -p {any something} --dport {any something} -j {any something}`
+`sudo iptables -A {any something} -s {string ip} -p {any something} --dport {any something} -j {any something}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 

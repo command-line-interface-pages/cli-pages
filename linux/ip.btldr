@@ -30,8 +30,8 @@
 
 - Add/Delete an IP address to an interface:
 
-`ip addr add/del {any something}/{any something} dev {any something}`
+`ip addr add/del {string ip}/{any something} dev {any something}`
 
 - Add a default route:
 
-`ip route add default via {any something} dev {any something}`
+`ip route add default via {string ip} dev {any something}`

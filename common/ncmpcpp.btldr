@@ -5,7 +5,7 @@
 
 - Connect to a music player daemon on a given host and port:
 
-`ncmpcpp --host {any something} --port {any something}`
+`ncmpcpp --host {string ip} --port {any something}`
 
 - Display metadata of the current song to console:
 

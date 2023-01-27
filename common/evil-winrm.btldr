@@ -6,19 +6,19 @@
 
 - Connect to a host:
 
-`evil-winrm --ip {any something} --user {any something} --password {any something}`
+`evil-winrm --ip {string ip} --user {any something} --password {any something}`
 
 - Connect to a host, passing the password hash:
 
-`evil-winrm --ip {any something} --user {any something} --hash {any something}`
+`evil-winrm --ip {string ip} --user {any something} --hash {any something}`
 
 - Connect to a host, specifying directories for scripts and executables:
 
-`evil-winrm --ip {any something} --user {any something} --password {any something} --scripts {any something} --executables {any something}`
+`evil-winrm --ip {string ip} --user {any something} --password {any something} --scripts {any something} --executables {any something}`
 
 - Connect to a host, using SSL:
 
-`evil-winrm --ip {any something} --user {any something} --password {any something} --ssl --pub-key {any something} --priv-key {any something}`
+`evil-winrm --ip {string ip} --user {any something} --password {any something} --ssl --pub-key {any something} --priv-key {any something}`
 
 - Upload a file to the host:
 

@@ -9,7 +9,7 @@
 
 - Run docker daemon and config it to listen to specific sockets (UNIX and TCP):
 
-`dockerd --host unix://{any something} --host tcp://{any something}`
+`dockerd --host unix://{any something} --host tcp://{string ip}`
 
 - Run with specific daemon PID file:
 

@@ -5,20 +5,20 @@
 
 - Query the system information of a remote host using SNMPv1 and a community string:
 
-`snmpwalk -v1 -c {any something} {any something}`
+`snmpwalk -v1 -c {any something} {string ip}`
 
 - Query system information on a remote host by OID using SNMPv2 on a specified port:
 
-`snmpwalk -v2c -c {any something} {any something}:{any something} {any something}`
+`snmpwalk -v2c -c {any something} {string ip}:{any something} {any something}`
 
 - Query system information on a remote host by OID using SNMPv3 and authentication without encryption:
 
-`snmpwalk -v3 -l {any something} -u {string user} -a {any something} -A {any something} {any something} {any something}`
+`snmpwalk -v3 -l {any something} -u {string user} -a {any something} -A {any something} {string ip} {any something}`
 
 - Query system information on a remote host by OID using SNMPv3, authentication, and encryption:
 
-`snmpwalk -v3 -l {any something} -u {string user} -a {any something} -A {any something} -x {any something} -X {any something} {any something} {any something}`
+`snmpwalk -v3 -l {any something} -u {string user} -a {any something} -A {any something} -x {any something} -X {any something} {string ip} {any something}`
 
 - Query system information on a remote host by OID using SNMPv3 without authentication or encryption:
 
-`snmpwalk -v3 -l {any something} -u {string user} {any something} {any something}`
+`snmpwalk -v3 -l {any something} -u {string user} {string ip} {any something}`
