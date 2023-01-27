@@ -6,23 +6,23 @@
 
 - Display info of a specific audio file:
 
-`afinfo {file audio: foo.mp3}`
+`afinfo {/?file audio: foo.mp3}`
 
 - Display a one line description of a specific audio file:
 
-`afinfo --brief {file audio: foo.mp3}`
+`afinfo --brief {/?file audio: foo.mp3}`
 
 - Display metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo --info {file audio: foo.mp3}`
+`afinfo --info {/?file audio: foo.mp3}`
 
 - Display output in XML format:
 
-`afinfo --xml {file audio: foo.mp3}`
+`afinfo --xml {/?file audio: foo.mp3}`
 
 - Display warnings for a specific audio file if any:
 
-`afinfo --warnings {file audio: foo.mp3}`
+`afinfo --warnings {/?file audio: foo.mp3}`
 
 - Display help:
 

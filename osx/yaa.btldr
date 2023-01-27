@@ -6,24 +6,24 @@
 
 - Create an archive from a specific [d]irectory:
 
-`yaa archive -d {directory input: foo} -o {file output archive: foo.yaa}`
+`yaa archive -d {/?directory input: foo} -o {/?file output archive: foo.yaa}`
 
 - Create an archive from a specific file:
 
-`yaa archive -i {file input: foo.txt} -o {file output archive: foo.yaa}`
+`yaa archive -i {/?file input: foo.txt} -o {/?file output archive: foo.yaa}`
 
 - Extract an archive to the current directory:
 
-`yaa extract -i {file input archive: foo.yaa}`
+`yaa extract -i {/?file input archive: foo.yaa}`
 
 - List the contents of a specific archive:
 
-`yaa list -i {file input archive: foo.yaa}`
+`yaa list -i {/?file input archive: foo.yaa}`
 
 - Create an archive with a specific compression [a]lgorithm:
 
-`yaa archive -a {string algorithm: lzfse, lzma, lz4, zlib, raw} -d {directory input: foo} -o {file output archive: foo.yaa}`
+`yaa archive -a {string algorithm: lzfse, lzma, lz4, zlib, raw} -d {/?directory input: foo} -o {/?file output archive: foo.yaa}`
 
 - Create an archive with a specific [b]lock size:
 
-`yaa archive -b {string block size: 8m} -d {directory input: foo} -o {directory input: foo}`
+`yaa archive -b {string block size: 8m} -d {/?directory input: foo} -o {/?directory input: foo}`
