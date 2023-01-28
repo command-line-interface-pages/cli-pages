@@ -9,7 +9,7 @@
 
 - Sync files and directories from local to bucket:
 
-`aws s3 sync {string value: path/to/files} s3://{string value: bucket_name}`
+`aws s3 sync {file* value} s3://{string value: bucket_name}`
 
 - Sync files and directories from bucket to local:
 
@@ -17,7 +17,7 @@
 
 - Sync files and directories with exclusions:
 
-`aws s3 sync {string value: path/to/files} s3://{string value: bucket_name} --exclude {file value} --exclude {directory value}/*`
+`aws s3 sync {file* value} s3://{string value: bucket_name} --exclude {file value} --exclude {directory value}/*`
 
 - Remove file from bucket:
 

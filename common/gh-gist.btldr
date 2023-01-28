@@ -5,7 +5,7 @@
 
 - Create a new Gist from a space-separated list of files:
 
-`gh gist create {string value: path/to/files}`
+`gh gist create {file* value}`
 
 - Create a new Gist with a description:
 

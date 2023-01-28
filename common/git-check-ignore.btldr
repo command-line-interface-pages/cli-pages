@@ -17,8 +17,8 @@
 
 - Do not check the index (used to debug why paths were tracked and not ignored):
 
-`git check-ignore --no-index {string value: path/to/files_or_directories}`
+`git check-ignore --no-index {directory* value: files_or}`
 
 - Include details about the matching pattern for each path:
 
-`git check-ignore --verbose {string value: path/to/files_or_directories}`
+`git check-ignore --verbose {directory* value: files_or}`

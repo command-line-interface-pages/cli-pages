@@ -17,12 +17,12 @@
 
 - Sync the file before requesting the mapping:
 
-`filefrag -s {string value: path/to/files}`
+`filefrag -s {file* value}`
 
 - Display mapping of extended attributes:
 
-`filefrag -x {string value: path/to/files}`
+`filefrag -x {file* value}`
 
 - Display a report with verbose information:
 
-`filefrag -v {string value: path/to/files}`
+`filefrag -v {file* value}`

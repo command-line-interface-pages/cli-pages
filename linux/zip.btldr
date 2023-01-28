@@ -14,7 +14,7 @@
 
 - Archive files/directories e[x]cluding specified ones:
 
-`zip {string value: path/to/compressed.zip} {path* value} --exclude {string value: path/to/excluded_files_or_directories}`
+`zip {string value: path/to/compressed.zip} {path* value} --exclude {directory* value: excluded_files_or}`
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 

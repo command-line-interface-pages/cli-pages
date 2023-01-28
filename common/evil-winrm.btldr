@@ -14,7 +14,7 @@
 
 - Connect to a host, specifying directories for scripts and executables:
 
-`evil-winrm --ip {string ip} --user {string value: user} --password {string value: password} --scripts {string value: path/to/scripts} --executables {string value: path/to/executables}`
+`evil-winrm --ip {string ip} --user {string value: user} --password {string value: password} --scripts {file* value} --executables {file* value}`
 
 - Connect to a host, using SSL:
 
