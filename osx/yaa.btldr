@@ -1,28 +1,29 @@
 # yaa
 
 > Create and manipulate YAA archives
+> Aliases: aa
 > More information: https://www.manpagez.com/man/1/yaa/
 
-- Create an archive from a directory:
+- Create an archive from a specific [d]irectory:
 
-`yaa archive -d {directory value} -o {string value: path/to/output.yaa}`
+`yaa archive -d {/?directory input: foo} -o {/?file output archive: foo.yaa}`
 
-- Create an archive from a file:
+- Create an archive from a specific file:
 
-`yaa archive -i {file value} -o {string value: path/to/output.yaa}`
+`yaa archive -i {/?file input: foo.txt} -o {/?file output archive: foo.yaa}`
 
 - Extract an archive to the current directory:
 
-`yaa extract -i {string value: path/to/archive.yaa}`
+`yaa extract -i {/?file input archive: foo.yaa}`
 
-- List the contents of an archive:
+- List the contents of a specific archive:
 
-`yaa list -i {string value: path/to/archive.yaa}`
+`yaa list -i {/?file input archive: foo.yaa}`
 
-- Create an archive with a specific compression algorithm:
+- Create an archive with a specific compression [a]lgorithm:
 
-`yaa archive -a {string value: algorithm} -d {directory value} -o {string value: path/to/output.yaa}`
+`yaa archive -a {string algorithm: lzfse, lzma, lz4, zlib, raw} -d {/?directory input: foo} -o {/?file output archive: foo.yaa}`
 
-- Create an archive with an 8 MB block size:
+- Create an archive with a specific [b]lock size:
 
-`yaa archive -b {string value: 8m} -d {directory value} -o {string value: path/to/output.yaa}`
+`yaa archive -b {string block size: 8m} -d {/?directory input: foo} -o {/?directory input: foo}`
