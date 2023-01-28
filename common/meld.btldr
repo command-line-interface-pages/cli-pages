@@ -9,20 +9,20 @@
 
 - Compare 2 files:
 
-`meld {string value: path/to/file_1} {string value: path/to/file_2}`
+`meld {file value} {file value}`
 
 - Compare 2 directories:
 
-`meld {string value: path/to/directory_1} {string value: path/to/directory_2}`
+`meld {directory value} {directory value}`
 
 - Compare 3 files:
 
-`meld {string value: path/to/file_1} {string value: path/to/file_2} {string value: path/to/file_3}`
+`meld {file value} {file value} {file value}`
 
 - Open a comparison as a new tab in a pre-existing meld instance:
 
-`meld --newtab {string value: path/to/file_1} {string value: path/to/file_2}`
+`meld --newtab {file value} {file value}`
 
 - Compare multiple sets of files:
 
-`meld --diff {string value: path/to/file_1} {string value: path/to/file_2} --diff {string value: path/to/file_3} {string value: path/to/file_4}`
+`meld --diff {file value} {file value} --diff {file value} {file value}`

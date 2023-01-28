@@ -21,4 +21,4 @@
 
 - Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source:
 
-`bluetoothd --debug={string value: path/to/file1}:{string value: path/to/file2}:{string value: path/to/file3}`
+`bluetoothd --debug={file value}:{file value}:{file value}`

@@ -5,12 +5,12 @@
 
 - Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.ntfs {string value: /dev/sdb1}`
+`mkfs.ntfs {/file value: device}`
 
 - Create filesystem with a volume-label:
 
-`mkfs.ntfs -L {string value: volume_label} {string value: /dev/sdb1}`
+`mkfs.ntfs -L {string value: volume_label} {/file value: device}`
 
 - Create filesystem with specific UUID:
 
-`mkfs.ntfs -U {string value: UUID} {string value: /dev/sdb1}`
+`mkfs.ntfs -U {string value: UUID} {/file value: device}`

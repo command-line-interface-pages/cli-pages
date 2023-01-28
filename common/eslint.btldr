@@ -9,7 +9,7 @@
 
 - Lint on a given set of files:
 
-`eslint {file value}.js {string value: filename1}.js`
+`eslint {file value}.js {file value}.js`
 
 - Fix lint issues:
 

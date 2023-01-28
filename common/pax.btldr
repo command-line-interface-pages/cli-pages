@@ -13,11 +13,11 @@
 
 - Create an archive from files:
 
-`pax -wf {string value: target.tar} {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3}`
+`pax -wf {string value: target.tar} {file value} {file value} {file value}`
 
 - Create an archive from files, using output redirection:
 
-`pax -w {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3} > {string value: target.tar}`
+`pax -w {file value} {file value} {file value} > {string value: target.tar}`
 
 - Extract an archive into the current directory:
 
@@ -25,4 +25,4 @@
 
 - Copy to a directory, while keeping the original metadata; `target/` must exist:
 
-`pax -rw {string value: path/to/file1} {string value: path/to/directory1} {string value: path/to/directory2} {string value: target/}`
+`pax -rw {file value} {directory value} {directory value} {string value: target/}`

@@ -5,16 +5,16 @@
 
 - Create a vfat filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.vfat {string value: /dev/sdb1}`
+`mkfs.vfat {/file value: device}`
 
 - Create filesystem with a volume-name:
 
-`mkfs.vfat -n {string value: volume_name} {string value: /dev/sdb1}`
+`mkfs.vfat -n {string value: volume_name} {/file value: device}`
 
 - Create filesystem with a volume-id:
 
-`mkfs.vfat -i {string value: volume_id} {string value: /dev/sdb1}`
+`mkfs.vfat -i {string value: volume_id} {/file value: device}`
 
 - Use 5 instead of 2 file allocation tables:
 
-`mkfs.vfat -f 5 {string value: /dev/sdb1}`
+`mkfs.vfat -f 5 {/file value: device}`

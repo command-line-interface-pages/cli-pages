@@ -9,11 +9,11 @@
 
 - Calculate SHA512 checksums for multiple files:
 
-`sha512sum {string value: path/to/file1} {string value: path/to/file2}`
+`sha512sum {file value} {file value}`
 
 - Calculate and save the list of SHA512 checksums to a file:
 
-`sha512sum {string value: path/to/file1} {string value: path/to/file2} > {file value: sample.sha512}`
+`sha512sum {file value} {file value} > {file value: sample.sha512}`
 
 - Read a file of SHA512 sums and verify all files have matching checksums:
 

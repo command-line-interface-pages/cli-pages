@@ -5,12 +5,12 @@
 
 - Create an ext2 filesystem in partition 1 of device b (`sdb1`):
 
-`mkfs.ext2 {string value: /dev/sdb1}`
+`mkfs.ext2 {/file value: device}`
 
 - Create an ext3 filesystem in partition 1 of device b (`sdb1`):
 
-`mkfs.ext3 {string value: /dev/sdb1}`
+`mkfs.ext3 {/file value: device}`
 
 - Create an ext4 filesystem in partition 1 of device b (`sdb1`):
 
-`mkfs.ext4 {string value: /dev/sdb1}`
+`mkfs.ext4 {/file value: device}`

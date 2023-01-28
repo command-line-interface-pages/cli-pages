@@ -5,7 +5,7 @@
 
 - Merge two (or more) PDFs:
 
-`pdfjam {string value: path/to/file1.pdf} {string value: path/to/file2.pdf} --outfile {file value: output.pdf}`
+`pdfjam {file value: sample.pdf} {file value: sample.pdf} --outfile {file value: output.pdf}`
 
 - Merge the first page of each file together:
 
@@ -13,7 +13,7 @@
 
 - Merge subranges from two PDFs:
 
-`pdfjam {string value: path/to/file1.pdf 3-5,1} {string value: path/to/file2.pdf 4-6} --outfile {file value: output.pdf}`
+`pdfjam {file value: sample.pdf 3-5,1} {file value: sample.pdf 4-6} --outfile {file value: output.pdf}`
 
 - Sign an A4 page (adjust delta to height for other formats) with a scanned signature by overlaying them:
 

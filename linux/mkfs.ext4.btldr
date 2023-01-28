@@ -5,8 +5,8 @@
 
 - Create an ext4 filesystem inside partition 1 on device b (`sdb1`):
 
-`sudo mkfs.ext4 {string value: /dev/sdb1}`
+`sudo mkfs.ext4 {/file value: device}`
 
 - Create an ext4 filesystem with a volume-label:
 
-`sudo mkfs.ext4 -L {string value: volume_label} {string value: /dev/sdb1}`
+`sudo mkfs.ext4 -L {string value: volume_label} {/file value: device}`

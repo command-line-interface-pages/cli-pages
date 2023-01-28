@@ -6,28 +6,28 @@
 
 - Compare 2 specified files:
 
-`fc {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc {file value} {file value}`
 
 - Perform a case-insensitive comparison:
 
-`fc /c {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /c {file value} {file value}`
 
 - Compare files as Unicode text:
 
-`fc /u {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /u {file value} {file value}`
 
 - Compare files as ASCII text:
 
-`fc /l {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /l {file value} {file value}`
 
 - Compare files as binary:
 
-`fc /b {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /b {file value} {file value}`
 
 - Disable tab-to-space expansion:
 
-`fc /t {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /t {file value} {file value}`
 
 - Compress whitespace (tabs and spaces) for comparisons:
 
-`fc /w {string value: path/to/file_1} {string value: path/to/file_2}`
+`fc /w {file value} {file value}`

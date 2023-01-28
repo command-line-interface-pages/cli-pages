@@ -1,10 +1,9 @@
 # am
 
 > Android activity manager
-> See also: gimp, d, awk
 > More information: https://developer.android.com/studio/command-line/adb#am
 
-- Start a specific activity stdin:
+- Start a specific activity:
 
 `am start -n {string value: com.android.settings/.Settings}`
 

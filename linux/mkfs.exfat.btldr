@@ -5,12 +5,12 @@
 
 - Create an exfat filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.exfat {string value: /dev/sdb1}`
+`mkfs.exfat {/file value: device}`
 
 - Create filesystem with a volume-name:
 
-`mkfs.exfat -n {string value: volume_name} {string value: /dev/sdb1}`
+`mkfs.exfat -n {string value: volume_name} {/file value: device}`
 
 - Create filesystem with a volume-id:
 
-`mkfs.exfat -i {string value: volume_id} {string value: /dev/sdb1}`
+`mkfs.exfat -i {string value: volume_id} {/file value: device}`

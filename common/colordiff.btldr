@@ -6,20 +6,20 @@
 
 - Compare files:
 
-`colordiff {string value: file1} {string value: file2}`
+`colordiff {file value} {file value}`
 
 - Output in two columns:
 
-`colordiff -y {string value: file1} {string value: file2}`
+`colordiff -y {file value} {file value}`
 
 - Ignore case differences in file contents:
 
-`colordiff -i {string value: file1} {string value: file2}`
+`colordiff -i {file value} {file value}`
 
 - Report when two files are the same:
 
-`colordiff -s {string value: file1} {string value: file2}`
+`colordiff -s {file value} {file value}`
 
 - Ignore white spaces:
 
-`colordiff -w {string value: file1} {string value: file2}`
+`colordiff -w {file value} {file value}`

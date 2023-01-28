@@ -17,4 +17,4 @@
 
 - Analyze nginx configuration files on the specific path:
 
-`gixy {string value: path/to/configuration_file_1} {string value: path/to/configuration_file_2}`
+`gixy {file value: configuration} {file value: configuration}`

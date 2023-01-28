@@ -33,4 +33,4 @@
 
 - Compare different files from the current branch to other branch:
 
-`git diff {string value: branch}:{string value: path/to/file2} {file value}`
+`git diff {string value: branch}:{file value} {file value}`

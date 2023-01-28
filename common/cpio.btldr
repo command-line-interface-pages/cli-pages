@@ -6,7 +6,7 @@
 
 - Take a list of file names from stdin and add them [o]nto an archive in cpio's binary format:
 
-`echo "{string value: file1} {string value: file2} {string value: file3}" | cpio -o > {string value: archive.cpio}`
+`echo "{file value} {file value} {file value}" | cpio -o > {string value: archive.cpio}`
 
 - Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:
 

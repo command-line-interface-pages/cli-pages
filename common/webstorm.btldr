@@ -25,7 +25,7 @@
 
 - Open and compare files (supports up to 3 files):
 
-`webstorm diff {string value: path/to/file1} {string value: path/to/file2}`
+`webstorm diff {file value} {file value}`
 
 - Open and perform a three-way merge:
 

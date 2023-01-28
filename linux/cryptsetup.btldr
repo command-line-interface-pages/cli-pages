@@ -5,11 +5,11 @@
 
 - Initialize a LUKS volume (overwrites all data on the partition):
 
-`cryptsetup luksFormat {string value: /dev/sda1}`
+`cryptsetup luksFormat {/file value: device}`
 
 - Open a LUKS volume and create a decrypted mapping at `/dev/mapper/{{target}}`:
 
-`cryptsetup luksOpen {string value: /dev/sda1} {string value: target}`
+`cryptsetup luksOpen {/file value: device} {string value: target}`
 
 - Remove an existing mapping:
 
@@ -17,4 +17,4 @@
 
 - Change the LUKS volume's passphrase:
 
-`cryptsetup luksChangeKey {string value: /dev/sda1}`
+`cryptsetup luksChangeKey {/file value: device}`

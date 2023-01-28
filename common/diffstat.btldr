@@ -5,8 +5,8 @@
 
 - Display changes in a histogram:
 
-`diff {string value: file1} {string value: file2} | diffstat`
+`diff {file value} {file value} | diffstat`
 
 - Display inserted, deleted and modified changes as a table:
 
-`diff {string value: file1} {string value: file2} | diffstat -t`
+`diff {file value} {file value} | diffstat -t`

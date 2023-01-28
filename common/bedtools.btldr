@@ -6,15 +6,15 @@
 
 - Intersect two files regarding the sequences' strand and save the result to the specified file:
 
-`bedtools intersect -a {string value: path/to/file_1} -b {string value: path/to/file_2} -s > {file value: output}`
+`bedtools intersect -a {file value} -b {file value} -s > {file value: output}`
 
 - Intersect two files with a left outer join, i.e. report each feature from {{file_1}} and NULL if no overlap with {{file_2}}:
 
-`bedtools intersect -a {string value: path/to/file_1} -b {string value: path/to/file_2} -lof > {file value: output}`
+`bedtools intersect -a {file value} -b {file value} -lof > {file value: output}`
 
 - Using more efficient algorithm to intersect two pre-sorted files:
 
-`bedtools intersect -a {string value: path/to/file_1} -b {string value: path/to/file_2} -sorted > {file value: output}`
+`bedtools intersect -a {file value} -b {file value} -sorted > {file value: output}`
 
 - Group file {{`path/to/file`}} based on the first three and the fifth column and summarize the sixth column by summing it up:
 
@@ -26,4 +26,4 @@
 
 - Find for all features in {{file_1}}.bed the closest one in {{file_2}}.bed and write their distance in an extra column (input files must be sorted):
 
-`bedtools closest -a {string value: path/to/file_1}.bed -b {string value: path/to/file_2}.bed -d`
+`bedtools closest -a {file value}.bed -b {file value}.bed -d`

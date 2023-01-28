@@ -5,24 +5,24 @@
 
 - Print multiple files with a default header and footer:
 
-`pr {string value: file1} {string value: file2} {string value: file3}`
+`pr {file value} {file value} {file value}`
 
 - Print with a custom centered header:
 
-`pr -h "{string value: header}" {string value: file1} {string value: file2} {string value: file3}`
+`pr -h "{string value: header}" {file value} {file value} {file value}`
 
 - Print with numbered lines and a custom date format:
 
-`pr -n -D "{string value: format}" {string value: file1} {string value: file2} {string value: file3}`
+`pr -n -D "{string value: format}" {file value} {file value} {file value}`
 
 - Print all files together, one in each column, without a header or footer:
 
-`pr -m -T {string value: file1} {string value: file2} {string value: file3}`
+`pr -m -T {file value} {file value} {file value}`
 
 - Print, beginning at page 2 up to page 5, with a given page length (including header and footer):
 
-`pr +{int value: 2}:{int value: 5} -l {string value: page_length} {string value: file1} {string value: file2} {string value: file3}`
+`pr +{int value: 2}:{int value: 5} -l {string value: page_length} {file value} {file value} {file value}`
 
 - Print with an offset for each line and a truncating custom page width:
 
-`pr -o {string value: offset} -W {string value: width} {string value: file1} {string value: file2} {string value: file3}`
+`pr -o {string value: offset} -W {string value: width} {file value} {file value} {file value}`

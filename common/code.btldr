@@ -13,7 +13,7 @@
 
 - Compare two specific files:
 
-`code --diff {string value: path/to/file1} {string value: path/to/file2}`
+`code --diff {file value} {file value}`
 
 - Open specific files/directories in a new window:
 

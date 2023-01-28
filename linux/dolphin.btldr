@@ -21,7 +21,7 @@
 
 - Open specific directories in split view:
 
-`dolphin --split {string value: path/to/directory1} {string value: path/to/directory2}`
+`dolphin --split {directory value} {directory value}`
 
 - Launch the daemon (only required to use the DBus interface):
 

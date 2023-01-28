@@ -10,11 +10,11 @@
 
 - Concatenate several files into the target file:
 
-`bat {string value: file1} {string value: file2} > {file value: target}`
+`bat {file value} {file value} > {file value: target}`
 
 - Append several files into the target file:
 
-`bat {string value: file1} {string value: file2} >> {file value: target}`
+`bat {file value} {file value} >> {file value: target}`
 
 - Number all output lines:
 

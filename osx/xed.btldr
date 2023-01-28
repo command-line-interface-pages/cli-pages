@@ -5,11 +5,11 @@
 
 - Open file in Xcode:
 
-`xed {string value: file1}`
+`xed {file value}`
 
 - Open file(s) in Xcode, create if it doesn't exist:
 
-`xed --create {string value: filename1}`
+`xed --create {file value}`
 
 - Open a file in Xcode and jump to line number 75:
 

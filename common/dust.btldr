@@ -9,7 +9,7 @@
 
 - Display information for a space-separated list of directories:
 
-`dust {string value: path/to/directory1} {string value: path/to/directory2}`
+`dust {directory value} {directory value}`
 
 - Display 30 directories (defaults to 21):
 

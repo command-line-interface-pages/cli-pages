@@ -5,7 +5,7 @@
 
 - Compare two files, uncompressing them if necessary:
 
-`zdiff {string value: path/to/file1.gz} {string value: path/to/file2.gz}`
+`zdiff {file value: sample.gz} {file value: sample.gz}`
 
 - Compare a file to a gzipped archive with the same name:
 

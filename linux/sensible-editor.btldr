@@ -17,4 +17,4 @@
 
 - Open 3 files in vertically split editor windows at the same time:
 
-`sensible-editor -O3 {string value: file_1} {string value: file_2} {string value: file_3}`
+`sensible-editor -O3 {file value} {file value} {file value}`

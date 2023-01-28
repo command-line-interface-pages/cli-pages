@@ -21,7 +21,7 @@
 
 - Run all given test files:
 
-`hardhat test {string value: path/to/file1.js} {string value: path/to/file2.js}`
+`hardhat test {file value: sample.js} {file value: sample.js}`
 
 - Start a local Ethereum JSON-RPC node for development:
 

@@ -9,7 +9,7 @@
 
 - Create a gist from any number of text files:
 
-`gist {file value: sample.txt} {string value: file2.txt}`
+`gist {file value: sample.txt} {file value: sample.txt}`
 
 - Create a private gist with a description:
 

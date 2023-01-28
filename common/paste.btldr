@@ -13,12 +13,12 @@
 
 - Merge two files side by side, each in its column, using TAB as delimiter:
 
-`paste {string value: file1} {string value: file2}`
+`paste {file value} {file value}`
 
 - Merge two files side by side, each in its column, using the specified delimiter:
 
-`paste -d {string value: delimiter} {string value: file1} {string value: file2}`
+`paste -d {string value: delimiter} {file value} {file value}`
 
 - Merge two files, with lines added alternatively:
 
-`paste -d '\n' {string value: file1} {string value: file2}`
+`paste -d '\n' {file value} {file value}`

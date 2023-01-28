@@ -9,7 +9,7 @@
 
 - Enable a given swap partition:
 
-`swapon {string value: /dev/sdb7}`
+`swapon {/file value: device}`
 
 - Enable a given swap file:
 

@@ -5,20 +5,20 @@
 
 - Compare two files:
 
-`diffoscope {string value: path/to/file1} {string value: path/to/file2}`
+`diffoscope {file value} {file value}`
 
 - Compare two files without displaying a progress bar:
 
-`diffoscope --no-progress {string value: path/to/file1} {string value: path/to/file2}`
+`diffoscope --no-progress {file value} {file value}`
 
 - Compare two files and write an HTML-report to a file (use `-` for stdout):
 
-`diffoscope --html {string value: path/to/outfile|-} {string value: path/to/file1} {string value: path/to/file2}`
+`diffoscope --html {string value: path/to/outfile|-} {file value} {file value}`
 
 - Compare two directories excluding files with a name matching a specified pattern:
 
-`diffoscope --exclude {string value: pattern} {string value: path/to/directory1} {string value: path/to/directory2}`
+`diffoscope --exclude {string value: pattern} {directory value} {directory value}`
 
 - Compare two directories and control whether directory metadata is considered:
 
-`diffoscope --exclude-directory-metadata {string value: auto|yes|no|recursive} {string value: path/to/directory1} {string value: path/to/directory2}`
+`diffoscope --exclude-directory-metadata {string value: auto|yes|no|recursive} {directory value} {directory value}`

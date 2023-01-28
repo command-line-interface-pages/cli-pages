@@ -21,7 +21,7 @@
 
 - Run multiple test files:
 
-`rspec {string value: path/to/file1} {string value: path/to/file2}`
+`rspec {file value} {file value}`
 
 - Run a specific test in a file (e.g. the test starts on line 83):
 

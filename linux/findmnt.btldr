@@ -9,7 +9,7 @@
 
 - Search for a device:
 
-`findmnt {string value: /dev/sdb1}`
+`findmnt {/file value: device}`
 
 - Search for a mountpoint:
 

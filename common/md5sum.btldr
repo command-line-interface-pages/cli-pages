@@ -9,7 +9,7 @@
 
 - Calculate MD5 checksums for multiple files:
 
-`md5sum {string value: path/to/file1} {string value: path/to/filen2}`
+`md5sum {file value} {string value: path/to/filen2}`
 
 - Calculate a MD5 checksum from the stdin:
 

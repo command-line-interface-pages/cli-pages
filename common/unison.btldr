@@ -5,15 +5,15 @@
 
 - Sync two directories (creates log first time these two directories are synchronized):
 
-`unison {string value: path/to/directory_1} {string value: path/to/directory_2}`
+`unison {directory value} {directory value}`
 
 - Automatically accept the (non-conflicting) defaults:
 
-`unison {string value: path/to/directory_1} {string value: path/to/directory_2} -auto`
+`unison {directory value} {directory value} -auto`
 
 - Ignore some files using a pattern:
 
-`unison {string value: path/to/directory_1} {string value: path/to/directory_2} -ignore {string value: pattern}`
+`unison {directory value} {directory value} -ignore {string value: pattern}`
 
 - Show documentation:
 

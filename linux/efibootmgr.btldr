@@ -13,7 +13,7 @@
 
 - Add UEFI Shell v2 as a boot option:
 
-`sudo efibootmgr -c -d {string value: /dev/sda1} -l {string value: \EFI\tools\Shell.efi} -L "{string value: UEFI Shell}"`
+`sudo efibootmgr -c -d {/file value: device} -l {string value: \EFI\tools\Shell.efi} -L "{string value: UEFI Shell}"`
 
 - Change the current boot order:
 

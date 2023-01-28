@@ -29,8 +29,8 @@
 
 - Merge two files and print to stdout (v4+):
 
-`yq eval-all 'select(filename == "{string value: path/to/file1.yaml}") * select(filename == "{string value: path/to/file2.yaml}")' {string value: path/to/file1.yaml} {string value: path/to/file2.yaml}`
+`yq eval-all 'select(filename == "{file value: sample.yaml}") * select(filename == "{file value: sample.yaml}")' {file value: sample.yaml} {file value: sample.yaml}`
 
 - Merge two files and print to stdout (v3):
 
-`yq merge {string value: path/to/file1.yaml} {string value: path/to/file2.yaml} --colors`
+`yq merge {file value: sample.yaml} {file value: sample.yaml} --colors`

@@ -6,8 +6,8 @@
 
 - Create a new volume group called vg1 using the `/dev/sda1` device:
 
-`vgcreate {string value: vg1} {string value: /dev/sda1}`
+`vgcreate {string value: vg1} {/file value: device}`
 
 - Create a new volume group called vg1 using multiple devices:
 
-`vgcreate {string value: vg1} {string value: /dev/sda1} {string value: /dev/sdb1} {string value: /dev/sdc1}`
+`vgcreate {string value: vg1} {/file value: device} {/file value: device} {/file value: device}`

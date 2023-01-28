@@ -9,7 +9,7 @@
 
 - Check the style of multiple files:
 
-`pycodestyle {string value: file1.py} {string value: file2.py} {string value: file3.py}`
+`pycodestyle {file value: sample.py} {file value: sample.py} {file value: sample.py}`
 
 - Show only the first occurrence of an error:
 

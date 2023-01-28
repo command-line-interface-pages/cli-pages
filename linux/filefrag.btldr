@@ -9,7 +9,7 @@
 
 - Display a report for space-separated list of files:
 
-`filefrag {string value: path/to/file1} {string value: path/to/file2}`
+`filefrag {file value} {file value}`
 
 - Display a report using a 1024 byte blocksize:
 

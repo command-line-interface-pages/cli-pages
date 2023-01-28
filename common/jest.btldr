@@ -9,7 +9,7 @@
 
 - Run the test suites from the given files:
 
-`jest {string value: path/to/file1} {string value: path/to/file2}`
+`jest {file value} {file value}`
 
 - Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
 

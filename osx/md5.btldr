@@ -9,7 +9,7 @@
 
 - Calculate MD5 checksums for multiple files:
 
-`md5 {string value: filename1} {string value: filename2}`
+`md5 {file value} {file value}`
 
 - Output only the md5 checksum (no filename):
 

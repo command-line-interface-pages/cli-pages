@@ -5,4 +5,4 @@
 
 - Concatenate Bitcode files:
 
-`llvm-cat {string value: path/to/file1.bc} {string value: path/to/file2.bc} -o {string value: path/to/out.bc}`
+`llvm-cat {file value: sample.bc} {file value: sample.bc} -o {string value: path/to/out.bc}`

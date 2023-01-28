@@ -25,7 +25,7 @@
 
 - Print a diff between the given scores:
 
-`musescore --diff {string value: path/to/file1} {string value: path/to/file2}`
+`musescore --diff {file value} {file value}`
 
 - Specify a MIDI import operations file:
 

@@ -17,4 +17,4 @@
 
 - Check all Python files found in multiple directories:
 
-`pyflakes iterSourceCode {string value: path/to/directory_1} {string value: path/to/directory_2}`
+`pyflakes iterSourceCode {directory value} {directory value}`

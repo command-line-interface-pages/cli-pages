@@ -9,7 +9,7 @@
 
 - Lint a given set of files:
 
-`xo {string value: file1}.js {string value: file2}.js`
+`xo {file value}.js {file value}.js`
 
 - Automatically fix any lint issues found:
 

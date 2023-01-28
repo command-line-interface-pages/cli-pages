@@ -5,7 +5,7 @@
 
 - Merge two PDFs into one with the default suffix "joined":
 
-`pdfjoin {string value: path/to/file1.pdf} {string value: path/to/file2.pdf}`
+`pdfjoin {file value: sample.pdf} {file value: sample.pdf}`
 
 - Merge the first page of each given file together:
 
@@ -17,4 +17,4 @@
 
 - Merge page subranges from two PDFs:
 
-`pdfjoin {/path/to/file1.pdf}} {string value: 2-} {string value: file2} {string value: last-3} --outfile {file value: output}`
+`pdfjoin {/path/to/file1.pdf}} {string value: 2-} {file value} {string value: last-3} --outfile {file value: output}`

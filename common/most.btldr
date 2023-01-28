@@ -9,7 +9,7 @@
 
 - Open several files:
 
-`most {string value: path/to/file1} {string value: path/to/file2}`
+`most {file value} {file value}`
 
 - Open a file at the first occurrence of "string":
 

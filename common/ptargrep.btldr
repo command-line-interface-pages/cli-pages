@@ -9,7 +9,7 @@
 
 - Search for a pattern within multiple files:
 
-`ptargrep "{string value: search_pattern}" {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3}`
+`ptargrep "{string value: search_pattern}" {file value} {file value} {file value}`
 
 - Extract to the current directory using the basename of the file from the archive:
 

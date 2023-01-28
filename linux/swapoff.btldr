@@ -5,7 +5,7 @@
 
 - Disable a given swap partition:
 
-`swapoff {string value: /dev/sdb7}`
+`swapoff {/file value: device}`
 
 - Disable a given swap file:
 

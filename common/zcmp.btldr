@@ -5,7 +5,7 @@
 
 - Invoke `cmp` on two files compressed via `gzip`:
 
-`zcmp {string value: path/to/file1.gz} {string value: path/to/file2.gz}`
+`zcmp {file value: sample.gz} {file value: sample.gz}`
 
 - Compare a file to its gzipped version (assuming `.gz` exists already):
 

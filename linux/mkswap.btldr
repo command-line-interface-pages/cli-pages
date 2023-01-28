@@ -5,7 +5,7 @@
 
 - Setup a given partition as swap area:
 
-`sudo mkswap {string value: /dev/sdb7}`
+`sudo mkswap {/file value: device}`
 
 - Use a given file as swap area:
 
@@ -13,7 +13,7 @@
 
 - Check a partition for bad blocks before creating the swap area:
 
-`sudo mkswap -c {string value: /dev/sdb7}`
+`sudo mkswap -c {/file value: device}`
 
 - Specify a label for the file (to allow `swapon` to use the label):
 

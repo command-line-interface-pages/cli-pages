@@ -9,7 +9,7 @@
 
 - Search for a pattern within multiple files:
 
-`egrep "{string value: search_pattern}" {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3}`
+`egrep "{string value: search_pattern}" {file value} {file value} {file value}`
 
 - Search stdin for a pattern:
 

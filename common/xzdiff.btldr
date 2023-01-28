@@ -6,24 +6,24 @@
 
 - Compare files:
 
-`xzdiff {string value: path/to/file1} {string value: path/to/file2}`
+`xzdiff {file value} {file value}`
 
 - Compare files, showing the differences side by side:
 
-`xzdiff --side-by-side {string value: path/to/file1} {string value: path/to/file2}`
+`xzdiff --side-by-side {file value} {file value}`
 
 - Compare files and report only that they differ (no details on what is different):
 
-`xzdiff --brief {string value: path/to/file1} {string value: path/to/file2}`
+`xzdiff --brief {file value} {file value}`
 
 - Compare files and report when the files are the same:
 
-`xzdiff --report-identical-files {string value: path/to/file1} {string value: path/to/file2}`
+`xzdiff --report-identical-files {file value} {file value}`
 
 - Compare files using paginated results:
 
-`xzdiff --paginate {string value: path/to/file1} {string value: path/to/file2}`
+`xzdiff --paginate {file value} {file value}`
 
 - Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
-`diff --recursive {string value: path/to/file1} {string value: path/to/file2}`
+`diff --recursive {file value} {file value}`

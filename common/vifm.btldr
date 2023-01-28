@@ -9,4 +9,4 @@
 
 - Open specified directories on left or right plane:
 
-`vifm {string value: path/to/directory_1} {string value: path/to/directory_2}`
+`vifm {directory value} {directory value}`

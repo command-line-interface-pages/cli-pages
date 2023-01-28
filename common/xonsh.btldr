@@ -22,7 +22,7 @@
 
 - Load the specified `.xonsh` or `.json` configuration files:
 
-`xonsh --rc {string value: path/to/file1.xonsh} {string value: path/to/file2.json}`
+`xonsh --rc {file value: sample.xonsh} {file value: sample.json}`
 
 - Skip loading the `.xonshrc` configuration file:
 

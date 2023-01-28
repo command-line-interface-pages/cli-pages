@@ -17,4 +17,4 @@
 
 - Show 5 logfiles while merging 2 and put them in 2 columns with only one in the left column:
 
-`multitail -s 2 -sn 1,3 {string value: mergefile} -I {string value: file1} {string value: file2} {string value: file3} {string value: file4}`
+`multitail -s 2 -sn 1,3 {string value: mergefile} -I {file value} {file value} {file value} {file value}`

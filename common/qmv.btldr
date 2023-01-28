@@ -13,7 +13,7 @@
 
 - Move multiple directories:
 
-`qmv -d {string value: path/to/directory1} {string value: path/to/directory2} {string value: path/to/directory3}`
+`qmv -d {directory value} {directory value} {directory value}`
 
 - Move all files and directories inside a directory:
 

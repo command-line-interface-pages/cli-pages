@@ -9,7 +9,7 @@
 
 - Compile several `.java` files:
 
-`javac {string value: file1.java} {string value: file2.java} {string value: file3.java}`
+`javac {file value: sample.java} {file value: sample.java} {file value: sample.java}`
 
 - Compile all `.java` files in current directory:
 
