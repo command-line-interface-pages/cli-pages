@@ -30,8 +30,8 @@
 
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar tvf {string value: source.tar}`
+`tar tvf {file value: sample.tar}`
 
 - E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar xf {string value: source.tar} --wildcards "{string value: *.html}"`
+`tar xf {file value: sample.tar} --wildcards "{string value: *.html}"`

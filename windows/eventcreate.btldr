@@ -14,7 +14,7 @@
 
 - Create an event with a specific source:
 
-`eventcreate /so {string value: source_name} /t {string value: type} /id {string value: id} /d "{string value: message}"`
+`eventcreate /so {file value} /t {string value: type} /id {string value: id} /d "{string value: message}"`
 
 - Create an event in a remote machine's event log:
 

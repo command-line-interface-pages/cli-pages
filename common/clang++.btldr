@@ -6,20 +6,20 @@
 
 - Compile a source code file into an executable binary:
 
-`clang++ {string value: path/to/source.cpp} -o {file value: output}`
+`clang++ {file value: sample.cpp} -o {file value: output}`
 
 - Display (almost) all errors and warnings:
 
-`clang++ {string value: path/to/source.cpp} -Wall -o {file value: output}`
+`clang++ {file value: sample.cpp} -Wall -o {file value: output}`
 
 - Choose a language standard to compile with:
 
-`clang++ {string value: path/to/source.cpp} -std={string value: c++20} -o {file value: output}`
+`clang++ {file value: sample.cpp} -std={string value: c++20} -o {file value: output}`
 
 - Include libraries located at a different path than the source file:
 
-`clang++ {string value: path/to/source.cpp} -o {file value: output} -I{string value: path/to/header_path} -L{string value: path/to/library_path} -l{string value: path/to/library_name}`
+`clang++ {file value: sample.cpp} -o {file value: output} -I{string value: path/to/header_path} -L{string value: path/to/library_path} -l{string value: path/to/library_name}`
 
 - Compile source code into LLVM Intermediate Representation (IR):
 
-`clang++ -S -emit-llvm {string value: path/to/source.cpp} -o {string value: path/to/output.ll}`
+`clang++ -S -emit-llvm {file value: sample.cpp} -o {string value: path/to/output.ll}`

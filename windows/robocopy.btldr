@@ -6,27 +6,27 @@
 
 - Copy all `.jpg` and `.bmp` files from one directory to another:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} {string value: *.jpg} {string value: *.bmp}`
+`robocopy {file value} {string value: path/to/destination} {string value: *.jpg} {string value: *.bmp}`
 
 - Copy all files and subdirectories, including empty ones:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} /E`
+`robocopy {file value} {string value: path/to/destination} /E`
 
 - Mirror/Sync a directory, deleting anything not in source and include all attributes and permissions:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} /MIR /COPYALL`
+`robocopy {file value} {string value: path/to/destination} /MIR /COPYALL`
 
 - Copy all files and subdirectories, excluding source files that are older than destination files:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} /E /XO`
+`robocopy {file value} {string value: path/to/destination} /E /XO`
 
 - List all files 50 MB or larger instead of copying them:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} /MIN:{int value: 52428800} /L`
+`robocopy {file value} {string value: path/to/destination} /MIN:{int value: 52428800} /L`
 
 - Allow resuming if network connection is lost and limit retries to 5 and wait time to 15 sec:
 
-`robocopy {string value: path/to/source} {string value: path/to/destination} /Z /R:5 /W:15`
+`robocopy {file value} {string value: path/to/destination} /Z /R:5 /W:15`
 
 - Display detailed usage information:
 

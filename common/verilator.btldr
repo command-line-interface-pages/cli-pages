@@ -5,11 +5,11 @@
 
 - Build a specific C project in the current directory:
 
-`verilator --binary --build-jobs 0 -Wall {string value: path/to/source.v}`
+`verilator --binary --build-jobs 0 -Wall {file value: sample.v}`
 
 - Create a C++ executable in a specific folder:
 
-`verilator --cc --exe --build --build-jobs 0 -Wall {string value: path/to/source.cpp} {string value: path/to/output.v}`
+`verilator --cc --exe --build --build-jobs 0 -Wall {file value: sample.cpp} {string value: path/to/output.v}`
 
 - Perform linting over a code in the current directory:
 

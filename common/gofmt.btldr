@@ -5,16 +5,16 @@
 
 - Format a file and display the result to the console:
 
-`gofmt {string value: source.go}`
+`gofmt {file value: sample.go}`
 
 - Format a file, overwriting the original file in-place:
 
-`gofmt -w {string value: source.go}`
+`gofmt -w {file value: sample.go}`
 
 - Format a file, and then simplify the code, overwriting the original file:
 
-`gofmt -s -w {string value: source.go}`
+`gofmt -s -w {file value: sample.go}`
 
 - Print all (including spurious) errors:
 
-`gofmt -e {string value: source.go}`
+`gofmt -e {file value: sample.go}`

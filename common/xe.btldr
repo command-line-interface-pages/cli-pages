@@ -5,11 +5,11 @@
 
 - Run a command once for each line of input data as arguments:
 
-`{string value: arguments_source} | xe {string value: command}`
+`{file value: arguments} | xe {string value: command}`
 
 - Execute the commands, replacing any occurrence of the placeholder (marked as `{}`) with the input line:
 
-`{string value: arguments_source} | xe {string value: command} {} {string value: optional_extra_arguments}`
+`{file value: arguments} | xe {string value: command} {} {string value: optional_extra_arguments}`
 
 - Execute a shellscript, joining every `N` lines into a single call:
 
@@ -21,4 +21,4 @@
 
 - Run up to `max-jobs` processes in parallel; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
 
-`{string value: arguments_source} | xe -j {string value: max-jobs} {string value: command}`
+`{file value: arguments} | xe -j {string value: max-jobs} {string value: command}`

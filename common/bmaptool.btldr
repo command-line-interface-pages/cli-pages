@@ -5,11 +5,11 @@
 
 - Create a blockmap from image file:
 
-`bmaptool create -o {string value: blockmap.bmap} {string value: source.img}`
+`bmaptool create -o {string value: blockmap.bmap} {file value: sample.img}`
 
 - Copy an image file into sdb:
 
-`bmaptool copy --bmap {string value: blockmap.bmap} {string value: source.img} {/file value: device}`
+`bmaptool copy --bmap {string value: blockmap.bmap} {file value: sample.img} {/file value: device}`
 
 - Copy a compressed image file into sdb:
 
@@ -17,4 +17,4 @@
 
 - Copy an image file into sdb without using a blockmap:
 
-`bmaptool copy --nobmap {string value: source.img} {/file value: device}`
+`bmaptool copy --nobmap {file value: sample.img} {/file value: device}`

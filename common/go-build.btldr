@@ -9,7 +9,7 @@
 
 - Compile, specifying the output filename:
 
-`go build -o {string value: path/to/binary} {string value: path/to/source.go}`
+`go build -o {string value: path/to/binary} {file value: sample.go}`
 
 - Compile a package:
 

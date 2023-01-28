@@ -5,28 +5,28 @@
 
 - Rename a file or directory when the target is not an existing directory:
 
-`mv {string value: source} {string value: target}`
+`mv {file value} {string value: target}`
 
 - Move a file or directory into an existing directory:
 
-`mv {string value: source} {directory value: existing}`
+`mv {file value} {directory value: existing}`
 
 - Move multiple files into an existing directory, keeping the filenames unchanged:
 
-`mv {string value: source1} {string value: source2} {string value: source3} {directory value: existing}`
+`mv {file value} {file value} {file value} {directory value: existing}`
 
 - Do not prompt for confirmation before overwriting existing files:
 
-`mv -f {string value: source} {string value: target}`
+`mv -f {file value} {string value: target}`
 
 - Prompt for confirmation before overwriting existing files, regardless of file permissions:
 
-`mv -i {string value: source} {string value: target}`
+`mv -i {file value} {string value: target}`
 
 - Do not overwrite existing files at the target:
 
-`mv -n {string value: source} {string value: target}`
+`mv -n {file value} {string value: target}`
 
 - Move files in verbose mode, showing files after they are moved:
 
-`mv -v {string value: source} {string value: target}`
+`mv -v {file value} {string value: target}`

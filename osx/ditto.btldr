@@ -5,12 +5,12 @@
 
 - Overwrite contents of destination directory with contents of source directory:
 
-`ditto {string value: path/to/source} {string value: path/to/destination}`
+`ditto {file value} {string value: path/to/destination}`
 
 - Print a line to the Terminal window for every file that's being copied:
 
-`ditto -V {string value: path/to/source} {string value: path/to/destination}`
+`ditto -V {file value} {string value: path/to/destination}`
 
 - Copy a given file or directory, while retaining the original file permissions:
 
-`ditto -rsrc {string value: path/to/source} {string value: path/to/destination}`
+`ditto -rsrc {file value} {string value: path/to/destination}`

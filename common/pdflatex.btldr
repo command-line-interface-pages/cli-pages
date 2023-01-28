@@ -5,12 +5,12 @@
 
 - Compile a PDF document:
 
-`pdflatex {string value: source.tex}`
+`pdflatex {file value: sample.tex}`
 
 - Compile a PDF document specifying an output directory:
 
-`pdflatex -output-directory={directory value} {string value: source.tex}`
+`pdflatex -output-directory={directory value} {file value: sample.tex}`
 
 - Compile a PDF document, exiting on each error:
 
-`pdflatex -halt-on-error {string value: source.tex}`
+`pdflatex -halt-on-error {file value: sample.tex}`

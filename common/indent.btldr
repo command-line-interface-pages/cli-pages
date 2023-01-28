@@ -5,12 +5,12 @@
 
 - Format C/C++ source according to the Linux style guide, automatically back up the original files, and replace with the indented versions:
 
-`indent --linux-style {string value: path/to/source.c} {string value: path/to/another_source.c}`
+`indent --linux-style {file value: sample.c} {file value: another.c}`
 
 - Format C/C++ source according to the GNU style, saving the indented version to a different file:
 
-`indent --gnu-style {string value: path/to/source.c} -o {string value: path/to/indented_source.c}`
+`indent --gnu-style {file value: sample.c} -o {file value: indented.c}`
 
 - Format C/C++ source according to the style of Kernighan & Ritchie (K&R), no tabs, 3 spaces per indent, and wrap lines at 120 characters:
 
-`indent --k-and-r-style --indent-level3 --no-tabs --line-length120 {string value: path/to/source.c} -o {string value: path/to/indented_source.c}`
+`indent --k-and-r-style --indent-level3 --no-tabs --line-length120 {file value: sample.c} -o {file value: indented.c}`

@@ -5,12 +5,12 @@
 
 - Compile a DVI document:
 
-`latex {string value: source.tex}`
+`latex {file value: sample.tex}`
 
 - Compile a DVI document, specifying an output directory:
 
-`latex -output-directory={directory value} {string value: source.tex}`
+`latex -output-directory={directory value} {file value: sample.tex}`
 
 - Compile a DVI document, exiting on each error:
 
-`latex -halt-on-error {string value: source.tex}`
+`latex -halt-on-error {file value: sample.tex}`
