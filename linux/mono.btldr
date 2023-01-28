@@ -5,8 +5,8 @@
 
 - Run a .NET assembly in debug mode:
 
-`mono --debug {string value: path/to/program.exe}`
+`mono --debug {file value: sample.exe}`
 
 - Run a .NET assembly:
 
-`mono {string value: path/to/program.exe}`
+`mono {file value: sample.exe}`

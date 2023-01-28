@@ -9,7 +9,7 @@
 
 - Execute a Racket script:
 
-`racket {string value: path/to/script.rkt}`
+`racket {file value: sample.rkt}`
 
 - Execute a Racket expression:
 

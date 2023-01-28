@@ -17,4 +17,4 @@
 
 - Compile a main package into an executable, enabling data race detection:
 
-`go build -race -o {string value: path/to/executable} {string value: path/to/main/package}`
+`go build -race -o {file value} {string value: path/to/main/package}`

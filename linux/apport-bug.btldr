@@ -13,7 +13,7 @@
 
 - Report a bug about a specific executable:
 
-`apport-bug {string value: path/to/executable}`
+`apport-bug {file value}`
 
 - Report a bug about a specific process:
 

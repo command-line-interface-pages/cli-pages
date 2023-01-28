@@ -10,7 +10,7 @@
 
 - Execute a specific script [f]ile and print the result to stdout:
 
-`{string value: command} | sed -f {string value: path/to/script.sed}`
+`{string value: command} | sed -f {file value: sample.sed}`
 
 - Print just a first line to stdout:
 

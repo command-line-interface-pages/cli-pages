@@ -25,4 +25,4 @@
 
 - Run a JavaScript file:
 
-`osascript -l JavaScript {string value: path/to/script.js}`
+`osascript -l JavaScript {file value: sample.js}`

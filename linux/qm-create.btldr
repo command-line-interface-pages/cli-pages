@@ -21,4 +21,4 @@
 
 - Specify a script that is executed automatically depending on the state of the virtual machine:
 
-`qm create {int value: 100} --hookscript {string value: path/to/script.pl}`
+`qm create {int value: 100} --hookscript {file value: sample.pl}`

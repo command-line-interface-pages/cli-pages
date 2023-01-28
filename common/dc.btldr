@@ -10,7 +10,7 @@
 
 - Execute a script:
 
-`dc {string value: path/to/script.dc}`
+`dc {file value: sample.dc}`
 
 - Calculate an expression with the specified scale:
 

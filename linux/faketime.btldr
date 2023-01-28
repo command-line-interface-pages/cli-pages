@@ -13,4 +13,4 @@
 
 - Simulate how a program would act next Friday night:
 
-`faketime '{string value: next Friday 1 am}' {string value: path/to/program}`
+`faketime '{string value: next Friday 1 am}' {file value}`

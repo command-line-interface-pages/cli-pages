@@ -9,4 +9,4 @@
 
 - Enable a set of CPUs via a range of CPU ID numbers:
 
-`chcpu -e {string value: 1-10}`
+`chcpu -e {int range: 1..10}`

@@ -9,7 +9,7 @@
 
 - Execute a script:
 
-`ngs {string value: path/to/script.ngs}`
+`ngs {file value: sample.ngs}`
 
 - Print the version:
 

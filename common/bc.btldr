@@ -18,7 +18,7 @@
 
 - Execute a script:
 
-`bc {string value: path/to/script.bc}`
+`bc {file value: sample.bc}`
 
 - Calculate an expression with the specified scale:
 

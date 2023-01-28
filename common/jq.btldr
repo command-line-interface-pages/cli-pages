@@ -9,7 +9,7 @@
 
 - Execute a specific script:
 
-`{string value: cat path/to/file.json} | jq --from-file {string value: path/to/script.jq}`
+`{string value: cat path/to/file.json} | jq --from-file {file value: sample.jq}`
 
 - Pass specific arguments:
 

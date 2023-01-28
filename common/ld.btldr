@@ -5,12 +5,12 @@
 
 - Link a specific object file with no dependencies into an executable:
 
-`ld {file value: sample.o} --output {string value: path/to/output_executable}`
+`ld {file value: sample.o} --output {file value: output}`
 
 - Link two object files together:
 
-`ld {file value: sample.o} {file value: sample.o} --output {string value: path/to/output_executable}`
+`ld {file value: sample.o} {file value: sample.o} --output {file value: output}`
 
 - Dynamically link an x86_64 program to glibc (file paths change depending on the system):
 
-`ld --output {string value: path/to/output_executable} --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {file value: sample.o} /lib/crtn.o`
+`ld --output {file value: output} --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {file value: sample.o} /lib/crtn.o`

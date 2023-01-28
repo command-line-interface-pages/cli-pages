@@ -17,4 +17,4 @@
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 
-`shuf --head-count={int value: 3} --input-range={string value: 1-10} --repeat`
+`shuf --head-count={int value: 3} --input-range={int range: 1..10} --repeat`

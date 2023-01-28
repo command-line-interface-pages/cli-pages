@@ -9,11 +9,11 @@
 
 - Execute a specific script file:
 
-`octave {string value: path/to/script.m}`
+`octave {file value: sample.m}`
 
 - Execute a script file with specific arguments:
 
-`octave {string value: path/to/script.m} {string value: argument1 argument2 ...}`
+`octave {file value: sample.m} {string value: argument1 argument2 ...}`
 
 - Start an interactive session with a GUI:
 

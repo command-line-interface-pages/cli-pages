@@ -14,7 +14,7 @@
 
 - Execute a script:
 
-`sh {string value: path/to/script.sh}`
+`sh {file value: sample.sh}`
 
 - Read and execute commands from stdin:
 

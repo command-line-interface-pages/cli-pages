@@ -18,11 +18,11 @@
 
 - Execute a specific script:
 
-`tcsh {string value: path/to/script.tcsh}`
+`tcsh {file value: sample.tcsh}`
 
 - Check a specific script for syntax errors:
 
-`tcsh -n {string value: path/to/script.tcsh}`
+`tcsh -n {file value: sample.tcsh}`
 
 - Execute specific commands from stdin:
 

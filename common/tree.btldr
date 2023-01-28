@@ -29,7 +29,7 @@
 
 - Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
-`tree -P {string value: directory_name} --matchdirs --prune`
+`tree -P {directory value} --matchdirs --prune`
 
 - Print the tree ignoring the given directories:
 

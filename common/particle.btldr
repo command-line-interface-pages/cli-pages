@@ -21,7 +21,7 @@
 
 - Update a device to use a specific app remotely:
 
-`particle flash {string value: device_name} {string value: path/to/program.bin}`
+`particle flash {string value: device_name} {file value: sample.bin}`
 
 - Update a device to use the latest firmware via serial:
 

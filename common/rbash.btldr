@@ -15,15 +15,15 @@
 
 - Execute a script:
 
-`rbash {string value: path/to/script.sh}`
+`rbash {file value: sample.sh}`
 
 - Execute a script, printing each command before executing it:
 
-`rbash -x {string value: path/to/script.sh}`
+`rbash -x {file value: sample.sh}`
 
 - Execute commands from a script, stopping at the first error:
 
-`rbash -e {string value: path/to/script.sh}`
+`rbash -e {file value: sample.sh}`
 
 - Read and execute commands from stdin:
 

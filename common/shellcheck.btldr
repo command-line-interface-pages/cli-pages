@@ -6,23 +6,23 @@
 
 - Check a shell script:
 
-`shellcheck {string value: path/to/script.sh}`
+`shellcheck {file value: sample.sh}`
 
 - Check a shell script interpreting it as the specified shell dialect (overrides the shebang at the top of the script):
 
-`shellcheck --shell {string value: sh|bash|dash|ksh} {string value: path/to/script.sh}`
+`shellcheck --shell {string value: sh|bash|dash|ksh} {file value: sample.sh}`
 
 - Ignore one or more error types:
 
-`shellcheck --exclude {string value: SC1009,SC1073} {string value: path/to/script.sh}`
+`shellcheck --exclude {string value: SC1009,SC1073} {file value: sample.sh}`
 
 - Also check any sourced shell scripts:
 
-`shellcheck --checked-sourced {string value: path/to/script.sh}`
+`shellcheck --checked-sourced {file value: sample.sh}`
 
 - Display output in the specified format (defaults to `tty`):
 
-`shellcheck --format {string value: tty|checkstyle|diff|gcc|json|json1|quiet} {string value: path/to/script.sh}`
+`shellcheck --format {string value: tty|checkstyle|diff|gcc|json|json1|quiet} {file value: sample.sh}`
 
 - Enable one or more optional checks:
 

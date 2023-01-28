@@ -18,7 +18,7 @@
 
 - Execute a specific script:
 
-`powershell -File {string value: path/to/script.ps1}`
+`powershell -File {file value: sample.ps1}`
 
 - Start a session with a specific version of PowerShell:
 

@@ -17,11 +17,11 @@
 
 - Execute a specific script:
 
-`fish {string value: path/to/script.fish}`
+`fish {file value: sample.fish}`
 
 - Check a specific script for syntax errors:
 
-`fish --no-execute {string value: path/to/script.fish}`
+`fish --no-execute {file value: sample.fish}`
 
 - Execute specific commands from stdin:
 

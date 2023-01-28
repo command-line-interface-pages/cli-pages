@@ -14,4 +14,4 @@
 
 - Execute a specific script:
 
-`elvish {string value: path/to/script.elv}`
+`elvish {file value: sample.elv}`

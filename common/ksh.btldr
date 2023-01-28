@@ -14,12 +14,12 @@
 
 - Execute a specific script:
 
-`ksh {string value: path/to/script.ksh}`
+`ksh {file value: sample.ksh}`
 
 - Check a specific script for syntax errors without executing it:
 
-`ksh -n {string value: path/to/script.ksh}`
+`ksh -n {file value: sample.ksh}`
 
 - Execute a specific script, printing each command in the script before executing it:
 
-`ksh -x {string value: path/to/script.ksh}`
+`ksh -x {file value: sample.ksh}`

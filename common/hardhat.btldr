@@ -13,7 +13,7 @@
 
 - Run a user-defined script after compiling the project:
 
-`hardhat run {string value: path/to/script.js}`
+`hardhat run {file value: sample.js}`
 
 - Run Mocha tests:
 

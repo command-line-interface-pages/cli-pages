@@ -14,8 +14,8 @@
 
 - Execute a specific script:
 
-`nu {string value: path/to/script.nu}`
+`nu {file value: sample.nu}`
 
 - Execute a specific script with logging:
 
-`nu --loglevel {string value: error|warn|info|debug|trace} {string value: path/to/script.nu}`
+`nu --loglevel {string value: error|warn|info|debug|trace} {file value: sample.nu}`

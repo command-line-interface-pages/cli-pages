@@ -13,4 +13,4 @@
 
 - Run a MATLAB script:
 
-`matlab -r "run({string value: path/to/script.m})"`
+`matlab -r "run({file value: sample.m})"`

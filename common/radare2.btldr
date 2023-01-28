@@ -13,7 +13,7 @@
 
 - Run a script before entering the interactive CLI:
 
-`radare2 -i {string value: path/to/script.r2} {string value: path/to/binary}`
+`radare2 -i {file value: sample.r2} {string value: path/to/binary}`
 
 - Show help text for any command in the interactive CLI:
 

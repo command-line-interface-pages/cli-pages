@@ -18,15 +18,15 @@
 
 - Execute a specific script:
 
-`bash {string value: path/to/script.sh}`
+`bash {file value: sample.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`bash -x {string value: path/to/script.sh}`
+`bash -x {file value: sample.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`bash -e {string value: path/to/script.sh}`
+`bash -e {file value: sample.sh}`
 
 - Execute specific commands from stdin:
 

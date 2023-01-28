@@ -17,4 +17,4 @@
 
 - Generate random numbers in range 1-10:
 
-`shuf --input-range={string value: 1-10}`
+`shuf --input-range={int range: 1..10}`

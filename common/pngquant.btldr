@@ -13,7 +13,7 @@
 
 - Try to compress a specific PNG with custom quality (skip if below the min value):
 
-`pngquant --quality {string value: 0-100} {file value: sample.png}`
+`pngquant --quality {int range: 0..100} {file value: sample.png}`
 
 - Compress a specific PNG with the number of colors reduced to 64:
 

@@ -13,7 +13,7 @@
 
 - Run a shell script that can live beyond the terminal:
 
-`nohup {string value: path/to/script.sh} &`
+`nohup {file value: sample.sh} &`
 
 - Run a process and write the output to a specific file:
 

@@ -9,7 +9,7 @@
 
 - Evaluate a script [f]ile:
 
-`bb -f {string value: path/to/script.clj}`
+`bb -f {file value: sample.clj}`
 
 - Bind input to a sequence of lines from stdin:
 

@@ -22,4 +22,4 @@
 
 - Scan the Internet for a specific port range and export to a file:
 
-`masscan {string value: 0.0.0.0/0} --ports {string value: 0-65535} -output-format {string value: binary|grepable|json|list|xml} --output-filename {file value}`
+`masscan {string value: 0.0.0.0/0} --ports {int range: 0..65535} -output-format {string value: binary|grepable|json|list|xml} --output-filename {file value}`

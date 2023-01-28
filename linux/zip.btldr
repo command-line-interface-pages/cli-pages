@@ -18,7 +18,7 @@
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -{string value: 0-9} {string value: path/to/compressed.zip} {path* value}`
+`zip -r -{int range: 0..9} {string value: path/to/compressed.zip} {path* value}`
 
 - Create an encrypted archive with a specific password:
 

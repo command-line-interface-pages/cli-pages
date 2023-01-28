@@ -5,12 +5,12 @@
 
 - Display the filename and line number of the source code from an instruction address of an executable:
 
-`addr2line --exe={string value: path/to/executable} {string value: address}`
+`addr2line --exe={file value} {string value: address}`
 
 - Display the function name, filename and line number:
 
-`addr2line --exe={string value: path/to/executable} --functions {string value: address}`
+`addr2line --exe={file value} --functions {string value: address}`
 
 - Demangle the function name for C++ code:
 
-`addr2line --exe={string value: path/to/executable} --functions --demangle {string value: address}`
+`addr2line --exe={file value} --functions --demangle {string value: address}`

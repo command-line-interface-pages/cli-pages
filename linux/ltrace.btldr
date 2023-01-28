@@ -9,12 +9,12 @@
 
 - Count library calls. Print a handy summary at the bottom:
 
-`ltrace -c {string value: path/to/program}`
+`ltrace -c {file value}`
 
 - Trace calls to malloc and free, omit those done by libc:
 
-`ltrace -e malloc+free-@libc.so* {string value: path/to/program}`
+`ltrace -e malloc+free-@libc.so* {file value}`
 
 - Write to file instead of terminal:
 
-`ltrace -o {file value} {string value: path/to/program}`
+`ltrace -o {file value} {file value}`

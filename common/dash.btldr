@@ -13,19 +13,19 @@
 
 - Execute a specific script:
 
-`dash {string value: path/to/script.sh}`
+`dash {file value: sample.sh}`
 
 - Check a specific script for syntax errors:
 
-`dash -n {string value: path/to/script.sh}`
+`dash -n {file value: sample.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`dash -x {string value: path/to/script.sh}`
+`dash -x {file value: sample.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`dash -e {string value: path/to/script.sh}`
+`dash -e {file value: sample.sh}`
 
 - Execute specific commands from stdin:
 
