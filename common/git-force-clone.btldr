@@ -6,12 +6,12 @@
 
 - Clone a Git repository into a new directory:
 
-`git force-clone {any something} {directory something}`
+`git force-clone {string value: remote_repository_location} {directory value}`
 
 - Clone a Git repository into a new directory, checking out an specific branch:
 
-`git force-clone -b {any something} {any something} {directory something}`
+`git force-clone -b {string value: branch_name} {string value: remote_repository_location} {directory value}`
 
 - Clone a Git repository into an existing directory of a Git repository, performing a force-reset to resemble it to the remote and checking out an specific branch:
 
-`git force-clone -b {any something} {any something} {directory something}`
+`git force-clone -b {string value: branch_name} {string value: remote_repository_location} {directory value}`

@@ -5,19 +5,19 @@
 
 - Execute a java `.class` file that contains a main method by using just the class name:
 
-`java {any something}`
+`java {string value: classname}`
 
 - Execute a java program and use additional third-party or user-defined classes:
 
-`java -classpath {any something}:{any something}:. {any something}`
+`java -classpath {string value: path/to/classes1}:{string value: path/to/classes2}:. {string value: classname}`
 
 - Execute a `.jar` program:
 
-`java -jar {any something}`
+`java -jar {file value: sample.jar}`
 
 - Execute a `.jar` program with debug waiting to connect on port 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {any something}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {file value: sample.jar}`
 
 - Display JDK, JRE and HotSpot versions:
 

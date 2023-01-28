@@ -5,16 +5,16 @@
 
 - Repeatedly run a command and show the result:
 
-`watch {any something}`
+`watch {string value: command}`
 
 - Re-run a command every 60 seconds:
 
-`watch -n {int number: 60} {any something}`
+`watch -n {int value: 60} {string value: command}`
 
 - Monitor the contents of a directory, highlighting differences as they appear:
 
-`watch -d {any something}`
+`watch -d {string value: ls -l}`
 
 - Repeatedly run a pipeline and show the result:
 
-`watch '{any something} | {any something} | {any something}'`
+`watch '{string value: command_1} | {string value: command_2} | {string value: command_3}'`

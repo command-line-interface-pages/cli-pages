@@ -5,8 +5,8 @@
 
 - Set up a VPN tunnel:
 
-`wg-quick up {any something}`
+`wg-quick up {string value: interface_name}`
 
 - Delete a VPN tunnel:
 
-`wg-quick down {any something}`
+`wg-quick down {string value: interface_name}`

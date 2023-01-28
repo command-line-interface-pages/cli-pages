@@ -5,16 +5,16 @@
 
 - Rename all files with a certain extension to a different extension:
 
-`mmv "*{any something}" "#1{any something}"`
+`mmv "*{string value: .old_extension}" "#1{string value: .new_extension}"`
 
 - Copy `report6part4.txt` to `./french/rapport6partie4.txt` along with all similarly named files:
 
-`mmv -c "{any something}" "{any something}"`
+`mmv -c "{string value: report*part*.txt}" "{string value: ./french/rapport#1partie#2.txt}"`
 
 - Append all `.txt` files into one file:
 
-`mmv -a "{any something}" "{any something}"`
+`mmv -a "{string value: *.txt}" "{string value: all.txt}"`
 
 - Convert dates in filenames from "M-D-Y" format to "D-M-Y" format:
 
-`mmv "{any something}" "{any something}"`
+`mmv "{string value: [0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt}" "{string value: #3#4-#1#2-#5#6#7#8.txt}"`

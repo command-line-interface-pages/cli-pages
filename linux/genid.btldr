@@ -9,7 +9,7 @@
 
 - Generate a UUIDv5 using a namespace UUID and a specific name:
 
-`genid uuidv5 {{any something}} {any something}`
+`genid uuidv5 {{string value: ce598faa-8dd0-49ee-8525-9e24fff71dca}} {string value: name}`
 
 - Generate a Discord Snowflake, without a trailing newline (useful in shell scripts):
 
@@ -17,8 +17,8 @@
 
 - Generate a Generic Anonymous ID with a specific "real ID":
 
-`genid gaid {any something}`
+`genid gaid {string value: real_id}`
 
 - Generate a Snowflake with the epoch set to a specific date:
 
-`genid snowflake --epoch={any something}`
+`genid snowflake --epoch={string value: unix_epoch_time}`

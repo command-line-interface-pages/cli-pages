@@ -6,8 +6,8 @@
 
 - Output processes to a file and to the console:
 
-`Get-Process | Tee-Object -FilePath {file something}`
+`Get-Process | Tee-Object -FilePath {file value}`
 
 - Output processes to a variable and `Select-Object`:
 
-`Get-Process notepad | Tee-Object -Variable {any something} | Select-Object processname,handles`
+`Get-Process notepad | Tee-Object -Variable {string value: proc} | Select-Object processname,handles`

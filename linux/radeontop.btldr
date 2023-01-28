@@ -14,8 +14,8 @@
 
 - Select a specific GPU (the bus number is the first number in the output of `lspci`):
 
-`radeontop --bus {any something}`
+`radeontop --bus {string value: bus_number}`
 
 - Specify the display refresh rate (higher means more GPU overhead):
 
-`radeontop --ticks {any something}`
+`radeontop --ticks {string value: samples_per_second}`

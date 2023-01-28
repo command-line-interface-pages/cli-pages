@@ -10,7 +10,7 @@
 
 - Create a serverless project from a template:
 
-`serverless create --template {any something}`
+`serverless create --template {string value: template_name}`
 
 - Deploy to a cloud provider:
 
@@ -22,7 +22,7 @@
 
 - Invoke a deployed function:
 
-`serverless invoke -f {any something}`
+`serverless invoke -f {string value: function_name}`
 
 - Follow the logs for a project:
 

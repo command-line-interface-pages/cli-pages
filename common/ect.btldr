@@ -6,20 +6,20 @@
 
 - Compress a file:
 
-`ect {file something}`
+`ect {file value: sample.png}`
 
 - Compress a file with specified compression level and multithreading (1=Fastest (Worst), 9=Slowest (Best), default is 3):
 
-`ect -{int number: 9} --mt-deflate {file something}`
+`ect -{int value: 9} --mt-deflate {file value: sample.zip}`
 
 - Compress all files in a directory recursively:
 
-`ect -recurse {directory something}`
+`ect -recurse {directory value}`
 
 - Compress a file, keeping the original modification time:
 
-`ect -keep {file something}`
+`ect -keep {file value: sample.png}`
 
 - Compress a file, stripping metadata:
 
-`ect -strip {file something}`
+`ect -strip {file value: sample.png}`

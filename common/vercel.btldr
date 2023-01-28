@@ -13,7 +13,7 @@
 
 - Deploy a directory:
 
-`vercel {any something}`
+`vercel {string value: path/to/project}`
 
 - Initialize an example project:
 
@@ -21,16 +21,16 @@
 
 - Deploy with Environment Variables:
 
-`vercel --env {any something}={any something}`
+`vercel --env {string value: ENV}={string value: var}`
 
 - Build with Environment Variables:
 
-`vercel --build-env {any something}={any something}`
+`vercel --build-env {string value: ENV}={string value: var}`
 
 - Set default regions to enable the deployment on:
 
-`vercel --regions {any something}`
+`vercel --regions {string value: region_id}`
 
 - Remove a deployment:
 
-`vercel remove {any something}`
+`vercel remove {string value: project_name}`

@@ -5,7 +5,7 @@
 
 - Log in to Private Internet Access:
 
-`piactl login {file something: login}`
+`piactl login {file value: login}`
 
 - Connect to Private Internet Access:
 
@@ -17,7 +17,7 @@
 
 - Enable or disable the Private Internet Access daemon in the background:
 
-`piactl background {any something}`
+`piactl background {string value: enable|disable}`
 
 - List all available VPN regions:
 
@@ -29,7 +29,7 @@
 
 - Set your VPN region:
 
-`piactl set region {any something}`
+`piactl set region {string value: region}`
 
 - Log out of Private Internet Access:
 

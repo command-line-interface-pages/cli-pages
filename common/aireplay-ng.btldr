@@ -6,4 +6,4 @@
 
 - Send a specific number of disassociate packets given an access point's MAC address, a client's MAC address and an interface:
 
-`sudo aireplay-ng --deauth {any something} --bssid {any something} --dmac {any something} {any something}`
+`sudo aireplay-ng --deauth {string value: count} --bssid {string value: ap_mac} --dmac {string value: client_mac} {string value: interface}`

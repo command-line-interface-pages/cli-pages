@@ -10,7 +10,7 @@
 
 - Display files modified by a specific number of commits or more, showing commits and active days:
 
-`git effort --above {int number: 5}`
+`git effort --above {int value: 5}`
 
 - Display files modified by a specific author, showing commits and active days:
 
@@ -18,12 +18,12 @@
 
 - Display files modified since a specific time/date, showing commits and active days:
 
-`git effort -- --since="{any something}"`
+`git effort -- --since="{string value: last month}"`
 
 - Display only the specified files or directories, showing commits and active days:
 
-`git effort {path* something}`
+`git effort {path* value}`
 
 - Display all files in a specific directory, showing commits and active days:
 
-`git effort {any something}`
+`git effort {string value: path/to/directory/*}`

@@ -5,11 +5,11 @@
 
 - Convert file to a specific encoding, and print to stdout:
 
-`iconv -f {any something} -t {any something} {file something: input}`
+`iconv -f {string value: from_encoding} -t {string value: to_encoding} {file value: input}`
 
 - Convert file to the current locale's encoding, and output to a file:
 
-`iconv -f {any something} {file something: input} > {file something: output}`
+`iconv -f {string value: from_encoding} {file value: input} > {file value: output}`
 
 - List supported encodings:
 

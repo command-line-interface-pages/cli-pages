@@ -9,8 +9,8 @@
 
 - Use a specific user profile:
 
-`thunderbird -P {any something}`
+`thunderbird -P {string value: profile_name}`
 
 - Use a specific user profile directory:
 
-`thunderbird --profile {any something}`
+`thunderbird --profile {string value: path/to/profile/directory}`

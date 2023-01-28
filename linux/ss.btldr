@@ -5,32 +5,32 @@
 
 - Show all TCP/UDP/RAW/UNIX sockets:
 
-`ss -a {any something}`
+`ss -a {string value: -t|-u|-w|-x}`
 
 - Filter TCP sockets by states, only/exclude:
 
-`ss {any something} {any something}`
+`ss {string value: state/exclude} {string value: bucket/big/connected/synchronized/...}`
 
 - Show all TCP sockets connected to the local HTTPS port (443):
 
-`ss -t src :{int number: 443}`
+`ss -t src :{int value: 443}`
 
 - Show all TCP sockets listening on the local 8080 port:
 
-`ss -lt src :{int number: 8080}`
+`ss -lt src :{int value: 8080}`
 
 - Show all TCP sockets along with processes connected to a remote ssh port:
 
-`ss -pt dst :{any something}`
+`ss -pt dst :{string value: ssh}`
 
 - Show all UDP sockets connected on specific source and destination ports:
 
-`ss -u 'sport == :{any something} and dport == :{any something}'`
+`ss -u 'sport == :{string value: source_port} and dport == :{string value: destination_port}'`
 
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
-`ss -4t src {any something}`
+`ss -4t src {string value: 192.168/16}`
 
 - Kill IPv4 or IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080:
 
-`ss --kill dst {any something} dport = {int number: 8080}`
+`ss --kill dst {string value: 192.168.1.17} dport = {int value: 8080}`

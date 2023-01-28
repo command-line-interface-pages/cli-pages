@@ -5,15 +5,15 @@
 
 - Import an existing patch from a file:
 
-`quilt import {file something}`
+`quilt import {file value: sample.patch}`
 
 - Create a new patch:
 
-`quilt new {any something}`
+`quilt new {file value: sample.patch}`
 
 - Add a file to the current patch:
 
-`quilt add {file something}`
+`quilt add {file value}`
 
 - After editing the file, refresh the current patch with the changes:
 

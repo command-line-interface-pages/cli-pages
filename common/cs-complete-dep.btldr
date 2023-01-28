@@ -5,16 +5,16 @@
 
 - Print which artifacts are published under a specific Maven group identifier:
 
-`cs complete-dep {any something}`
+`cs complete-dep {string value: group_id}`
 
 - List published library versions under a specific Maven group identifier and an artifact one:
 
-`cs complete-dep {any something}:{any something}`
+`cs complete-dep {string value: group_id}:{string value: artifact_id}`
 
 - Print which artifacts are pubblished under a given Maven groupId searching in the ivy2local:
 
-`cs complete-dep {any something} --repository ivy2local`
+`cs complete-dep {string value: group_id} --repository ivy2local`
 
 - List published artifacts under a Maven group identifier searching in a specific repository and credentials:
 
-`cs complete-dep {any something}:{any something} --repository {any something} --credentials {any something}:{any something}`
+`cs complete-dep {string value: group_id}:{string value: artifact_id} --repository {string value: repository_url} --credentials {string value: user}:{string value: password}`

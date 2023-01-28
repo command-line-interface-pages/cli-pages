@@ -6,4 +6,4 @@
 
 - Insert an additional author to the last Git commit:
 
-`git coauthor {any something} {any something}`
+`git coauthor {string value: name} {string value: name@example.com}`

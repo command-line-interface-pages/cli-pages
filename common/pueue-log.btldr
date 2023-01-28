@@ -10,12 +10,12 @@
 
 - Show the full output of a task:
 
-`pueue log {any something}`
+`pueue log {string value: task_id}`
 
 - Show the last few lines of output from several tasks:
 
-`pueue log {any something} {any something}`
+`pueue log {string value: task_id} {string value: task_id}`
 
 - Print a specific number of lines from the tail of output:
 
-`pueue log --lines {any something} {any something}`
+`pueue log --lines {string value: number_of_lines} {string value: task_id}`

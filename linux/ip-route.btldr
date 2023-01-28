@@ -5,28 +5,28 @@
 
 - Display the routing table:
 
-`ip route {any something}`
+`ip route {string value: show|list}`
 
 - Add a default route using gateway forwarding:
 
-`sudo ip route add default via {any something}`
+`sudo ip route add default via {string value: gateway_ip}`
 
 - Add a default route using `eth0`:
 
-`sudo ip route add default dev {any something}`
+`sudo ip route add default dev {string value: eth0}`
 
 - Add a static route:
 
-`sudo ip route add {any something} via {any something} dev {any something}`
+`sudo ip route add {string value: destination_ip} via {string value: gateway_ip} dev {string value: eth0}`
 
 - Delete a static route:
 
-`sudo ip route del {any something} dev {any something}`
+`sudo ip route del {string value: destination_ip} dev {string value: eth0}`
 
 - Change or replace a static route:
 
-`sudo ip route {any something} {any something} via {any something} dev {any something}`
+`sudo ip route {string value: change|replace} {string value: destination_ip} via {string value: gateway_ip} dev {string value: eth0}`
 
 - Show which route will be used by the kernel to reach an IP address:
 
-`ip route get {any something}`
+`ip route get {string value: destination_ip}`

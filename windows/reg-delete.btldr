@@ -5,16 +5,16 @@
 
 - Delete a specific registry key:
 
-`reg delete {any something}`
+`reg delete {string value: key_name}`
 
 - Delete a value under a specific key:
 
-`reg delete {any something} /v {any something}`
+`reg delete {string value: key_name} /v {string value: value}`
 
 - Delete all values recursively under the specified key:
 
-`reg delete {any something} /va`
+`reg delete {string value: key_name} /va`
 
 - Forcefully delete all values recursively under a key without a prompt:
 
-`reg delete {any something} /f /va`
+`reg delete {string value: key_name} /f /va`

@@ -6,7 +6,7 @@
 
 - Execute Mercurial command:
 
-`hg {any something}`
+`hg {string value: command}`
 
 - Call general help:
 
@@ -14,7 +14,7 @@
 
 - Call help on a command:
 
-`hg help {any something}`
+`hg help {string value: command}`
 
 - Check the Mercurial version:
 

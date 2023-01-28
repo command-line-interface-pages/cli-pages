@@ -5,8 +5,8 @@
 
 - Enable a module:
 
-`sudo a2enmod {any something}`
+`sudo a2enmod {string value: module}`
 
 - Don't show informative messages:
 
-`sudo a2enmod --quiet {any something}`
+`sudo a2enmod --quiet {string value: module}`

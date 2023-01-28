@@ -5,8 +5,8 @@
 
 - Export all sub keys and values of a specific key:
 
-`reg export {any something} {file something}`
+`reg export {string value: key_name} {file value: sample.reg}`
 
 - Force overwriting of an existing file without prompt:
 
-`reg export {any something} {file something} /y`
+`reg export {string value: key_name} {file value: sample.reg} /y`

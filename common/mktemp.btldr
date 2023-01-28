@@ -9,7 +9,7 @@
 
 - Create an empty temporary file with a given suffix and print the absolute path to file:
 
-`mktemp --suffix "{any something}"`
+`mktemp --suffix "{string value: .ext}"`
 
 - Create a temporary directory and print the absolute path to it:
 

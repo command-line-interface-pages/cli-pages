@@ -5,20 +5,20 @@
 
 - Use UNIX (or DOS) pipes to pipe the stdout of any command through gnomon:
 
-`{any something} | gnomon`
+`{string value: npm test} | gnomon`
 
 - Show number of seconds since the start of the process:
 
-`{any something} | gnomon --type=elapsed-total`
+`{string value: npm test} | gnomon --type=elapsed-total`
 
 - Show an absolute timestamp in UTC:
 
-`{any something} | gnomon --type=absolute`
+`{string value: npm test} | gnomon --type=absolute`
 
 - Set a high threshold of 0.5 seconds for the elapsed time; exceeding which the timestamp will be colored bright red:
 
-`{any something} | gnomon --high {float number: 0.5}`
+`{string value: npm test} | gnomon --high {float value: 0.5}`
 
 - Set a medium threshold of 0.2 seconds (Timestamp will be colored bright yellow):
 
-`{any something} | gnomon --medium {float number: 0.2}`
+`{string value: npm test} | gnomon --medium {float value: 0.2}`

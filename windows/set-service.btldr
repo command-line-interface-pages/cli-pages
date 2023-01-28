@@ -6,12 +6,12 @@
 
 - Change a display name:
 
-`Set-Service -Name {any something} -DisplayName "{any something}"`
+`Set-Service -Name {string value: hostname} -DisplayName "{string value: name}"`
 
 - Change the startup type of services:
 
-`Set-Service -Name {any something} -StartupType {any something}`
+`Set-Service -Name {string value: service_name} -StartupType {string value: Automatic}`
 
 - Change the description of a service:
 
-`Set-Service -Name {any something} -Description "{any something}"`
+`Set-Service -Name {string value: service_name} -Description "{string value: description}"`

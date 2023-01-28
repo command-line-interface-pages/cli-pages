@@ -5,19 +5,19 @@
 
 - Block a specific IP:
 
-`flarectl firewall rules create --zone="{any something}" --value="{any something}" --mode="{any something}" --notes="{any something}"`
+`flarectl firewall rules create --zone="{string value: example.com}" --value="{string value: 8.8.8.8}" --mode="{string value: block}" --notes="{string value: Block bad actor}"`
 
 - Add a DNS record:
 
-`flarectl dns create --zone="{any something}" --name="{any something}" --type="{any something}" --content="{any something}" --proxy`
+`flarectl dns create --zone="{string value: example.com}" --name="{string value: app}" --type="{string value: CNAME}" --content="{string value: myapp.herokuapp.com}" --proxy`
 
 - List all Cloudflare IPv4/IPv6 ranges:
 
-`flarectl ips --ip-type {any something}`
+`flarectl ips --ip-type {string value: ipv4|ipv6|all}`
 
 - Create many new Cloudflare zones automatically with names from `domains.txt`:
 
-`for domain in $(cat {any something}); do flarectl zone info --zone=$domain; done`
+`for domain in $(cat {string value: domains.txt}); do flarectl zone info --zone=$domain; done`
 
 - List all firewall rules:
 

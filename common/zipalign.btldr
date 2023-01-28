@@ -6,8 +6,8 @@
 
 - Align the data of a ZIP file on 4-byte boundaries:
 
-`zipalign {int number: 4} {any something} {any something}`
+`zipalign {int value: 4} {string value: path/to/input.zip} {string value: path/to/output.zip}`
 
 - Check that a ZIP file is correctly aligned on 4-byte boundaries and display the results in a verbose manner:
 
-`zipalign -v -c {int number: 4} {any something}`
+`zipalign -v -c {int value: 4} {string value: path/to/input.zip}`

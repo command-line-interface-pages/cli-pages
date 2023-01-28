@@ -5,8 +5,8 @@
 
 - List duplicate or similar files in specific directories:
 
-`czkawka-cli {any something} --directories {directory* something}`
+`czkawka-cli {string value: dup|image} --directories {directory* value}`
 
 - Find duplicate files in specific directories and delete them (default: `NONE`):
 
-`czkawka-cli dup --directories {directory* something} --delete-method {any something}`
+`czkawka-cli dup --directories {directory* value} --delete-method {string value: AEN|AEO|ON|OO|HARD|NONE}`

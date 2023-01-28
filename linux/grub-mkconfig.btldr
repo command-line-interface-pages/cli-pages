@@ -9,7 +9,7 @@
 
 - Generate the configuration file:
 
-`sudo grub-mkconfig --output={any something}`
+`sudo grub-mkconfig --output={string value: /boot/grub/grub.cfg}`
 
 - Print the help page:
 

@@ -5,16 +5,16 @@
 
 - Launch a presentation in the terminal from a Markdown file:
 
-`mdp {any something}`
+`mdp {string value: presentation.md}`
 
 - Disable fading transitions:
 
-`mdp --nofade {any something}`
+`mdp --nofade {string value: presentation.md}`
 
 - Invert font colors to use in terminals with light background:
 
-`mdp --invert {any something}`
+`mdp --invert {string value: presentation.md}`
 
 - Disable transparency in transparent terminals:
 
-`mdp --notrans {any something}`
+`mdp --notrans {string value: presentation.md}`

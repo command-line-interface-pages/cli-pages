@@ -5,16 +5,16 @@
 
 - Convert WAV to Opus using default options:
 
-`opusenc {any something} {any something}.opus`
+`opusenc {string value: path/to/input.wav} {string value: path/to/output}.opus`
 
 - Convert stereo audio at the highest quality level:
 
-`opusenc --bitrate {int number: 512} {any something} {any something}.opus`
+`opusenc --bitrate {int value: 512} {string value: path/to/input.wav} {string value: path/to/output}.opus`
 
 - Convert 5.1 surround sound audio at the highest quality level:
 
-`opusenc --bitrate {int number: 1536} {any something} {any something}.opus`
+`opusenc --bitrate {int value: 1536} {string value: path/to/input.flac} {string value: path/to/output}.opus`
 
 - Convert speech audio at the lowest quality level:
 
-`opusenc {any something} --downmix-mono --bitrate {int number: 6} {any something}.opus`
+`opusenc {string value: path/to/input.wav} --downmix-mono --bitrate {int value: 6} {string value: path/to/out}.opus`

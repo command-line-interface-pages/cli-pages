@@ -6,16 +6,16 @@
 
 - Forward all IPv4 TCP traffic via a remote SSH server:
 
-`sshuttle --remote={string user}@{any something} {any something}`
+`sshuttle --remote={string user}@{string value: sshserver} {string value: 0.0.0.0/0}`
 
 - Also forward all DNS traffic to the server's default DNS resolver:
 
-`sshuttle --dns --remote={string user}@{any something} {any something}`
+`sshuttle --dns --remote={string user}@{string value: sshserver} {string value: 0.0.0.0/0}`
 
 - Forward all traffic except that which is bound for a specific subnet:
 
-`sshuttle --remote={string user}@{any something} {any something} --exclude {any something}`
+`sshuttle --remote={string user}@{string value: sshserver} {string value: 0.0.0.0/0} --exclude {string value: 192.168.0.1/24}`
 
 - Use the tproxy method to forward all IPv4 and IPv6 traffic:
 
-`sshuttle --method=tproxy --remote={string user}@{any something} {any something} {any something} --exclude={any something} --exclude={any something}`
+`sshuttle --method=tproxy --remote={string user}@{string value: sshserver} {string value: 0.0.0.0/0} {string value: ::/0} --exclude={string value: your_local_ip_address} --exclude={string value: ssh_server_ip_address}`

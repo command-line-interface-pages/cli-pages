@@ -6,12 +6,12 @@
 
 - Change an author's email and name across the whole Git repository:
 
-`git reauthor --old-email {any something} --correct-email {any something} --correct-name "{any something}"`
+`git reauthor --old-email {string value: old@example.com} --correct-email {string value: new@example.com} --correct-name "{string value: name}"`
 
 - Change the email and name to the ones defined in the Git config:
 
-`git reauthor --old-email {any something} --use-config`
+`git reauthor --old-email {string value: old@example.com} --use-config`
 
 - Change the email and name of all commits, regardless of their original author:
 
-`git reauthor --all --correct-email {any something} --correct-name {any something}`
+`git reauthor --all --correct-email {string value: name@example.com} --correct-name {string value: name}`

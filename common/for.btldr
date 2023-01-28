@@ -5,20 +5,20 @@
 
 - Execute the given commands for each of the specified items:
 
-`for {any something} in {any something}; do {any something}; done`
+`for {string value: variable} in {string value: item1 item2 ...}; do {string value: echo "Loop is executed"}; done`
 
 - Iterate over a given range of numbers:
 
-`for {any something} in {{any something}..{any something}..{any something}}; do {any something}; done`
+`for {string value: variable} in {{string value: from}..{string value: to}..{string value: step}}; do {string value: echo "Loop is executed"}; done`
 
 - Iterate over a given list of files:
 
-`for {any something} in {any something}; do {any something}; done`
+`for {string value: variable} in {file* value}; do {string value: echo "Loop is executed"}; done`
 
 - Iterate over a given list of directories:
 
-`for {any something} in {any something}; do {any something}; done`
+`for {string value: variable} in {string value: path/to/directory1/ path/to/directory2/ ...}; do {string value: echo "Loop is executed"}; done`
 
 - Perform a given command in every directory:
 
-`for {any something} in */; do (cd "${any something}" || continue; {any something}) done`
+`for {string value: variable} in */; do (cd "${string value: variable}" || continue; {string value: echo "Loop is executed"}) done`

@@ -5,16 +5,16 @@
 
 - Archive a file or directory:
 
-`asar pack {file something|path something} {any something}`
+`asar pack {path value} {string value: archived.asar}`
 
 - Extract an archive:
 
-`asar extract {any something}`
+`asar extract {string value: archived.asar}`
 
 - Extract a specific file from an archive:
 
-`asar extract-file {any something} {file something}`
+`asar extract-file {string value: archived.asar} {file value}`
 
 - List the contents of an archive file:
 
-`asar list {any something}`
+`asar list {string value: archived.asar}`

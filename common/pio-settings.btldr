@@ -9,11 +9,11 @@
 
 - Display the name, value and description of a specific PlatformIO setting:
 
-`pio settings get {any something}`
+`pio settings get {string value: setting}`
 
 - Set a specific setting value:
 
-`pio settings set {any something} {any something}`
+`pio settings set {string value: setting} {string value: value}`
 
 - Reset the values of all modified settings to their factory defaults:
 

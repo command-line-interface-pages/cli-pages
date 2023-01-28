@@ -9,12 +9,12 @@
 
 - Show a specific environment variable:
 
-`go env {any something}`
+`go env {string value: GOPATH}`
 
 - Set an environment variable to a value:
 
-`go env -w {any something}={directory something}`
+`go env -w {string value: GOBIN}={directory value}`
 
 - Reset an environment variable's value:
 
-`go env -u {any something}`
+`go env -u {string value: GOBIN}`

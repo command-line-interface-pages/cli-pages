@@ -5,11 +5,11 @@
 
 - Run an app in a temporary virtual environment:
 
-`pipx run {any something} {any something}`
+`pipx run {string value: pycowsay} {string value: moo}`
 
 - Install a package in a virtual environment and add entry points to path:
 
-`pipx install {any something}`
+`pipx install {string value: package}`
 
 - List installed packages:
 
@@ -17,12 +17,12 @@
 
 - Run an app in a temporary virtual environment with a package name different from the executable:
 
-`pipx run --spec {any something} {any something} {any something}`
+`pipx run --spec {string value: httpx-cli} {string value: httpx} {string value: http://www.github.com}`
 
 - Inject dependencies into an existing virtual environment:
 
-`pipx inject {any something} {any something}`
+`pipx inject {string value: package} {string value: dependency1 dependency2 ...}`
 
 - Install a package in a virtual environment with pip arguments:
 
-`pipx install --pip-args='{any something}' {any something}`
+`pipx install --pip-args='{string value: pip-args}' {string value: package}`

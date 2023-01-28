@@ -5,4 +5,4 @@
 
 - Replace `from` with `to` in the filenames of the specified files:
 
-`rename 's/{any something}/{any something}/' {any something}`
+`rename 's/{string value: from}/{string value: to}/' {string value: *.txt}`

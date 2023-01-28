@@ -13,15 +13,15 @@
 
 - Run all tests from the specified suite:
 
-`behat --suite={any something}`
+`behat --suite={string value: suite_name}`
 
 - Run tests with a specific output formatter:
 
-`behat --format {any something}`
+`behat --format {string value: pretty|progress}`
 
 - Run tests and output results to a file:
 
-`behat --out {file something}`
+`behat --out {file value}`
 
 - Display a list of definitions in your test suites:
 

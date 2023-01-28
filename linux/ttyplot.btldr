@@ -5,16 +5,16 @@
 
 - Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):
 
-`{ echo {any something}; cat } | ttyplot`
+`{ echo {string value: 1 2 3}; cat } | ttyplot`
 
 - Set a specific title and unit:
 
-`{ echo {any something}; cat } | ttyplot -t {any something} -u {any something}`
+`{ echo {string value: 1 2 3}; cat } | ttyplot -t {string value: title} -u {string value: unit}`
 
 - Use a while loop to continuously plot random values:
 
-`{ while {bool flag: true}; do echo {any something}; sleep {int number: 1}; done } | ttyplot`
+`{ while {bool flag: true}; do echo {string value: $RANDOM}; sleep {int value: 1}; done } | ttyplot`
 
 - Parse the output from `ping` and visualize it:
 
-`ping {any something} | sed -u '{any something}' | ttyplot -t "{any something}" -u {any something}`
+`ping {string value: 8.8.8.8} | sed -u '{string value: s/^.*time=//g; s/ ms//g}' | ttyplot -t "{string value: ping to 8.8.8.8}" -u {string value: ms}`

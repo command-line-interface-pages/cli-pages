@@ -9,7 +9,7 @@
 
 - Log in with a token from stdin (created in https://github.com/settings/tokens):
 
-`echo {any something} | gh auth login --with-token`
+`echo {string value: your_token} | gh auth login --with-token`
 
 - Check if you are logged in:
 
@@ -21,7 +21,7 @@
 
 - Log in with a specific GitHub Enterprise Server:
 
-`gh auth login --hostname {any something}`
+`gh auth login --hostname {string value: github.example.com}`
 
 - Refresh the session to ensure authentication credentials have the correct minimum scopes (removes additional scopes requested previously):
 
@@ -29,4 +29,4 @@
 
 - Expand the permission scopes:
 
-`gh auth refresh --scopes {any something}`
+`gh auth refresh --scopes {string value: repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}`

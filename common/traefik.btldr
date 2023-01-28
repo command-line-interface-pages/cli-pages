@@ -9,7 +9,7 @@
 
 - Start server with a custom config file:
 
-`traefik --c {file something: config}.toml`
+`traefik --c {file value: config}.toml`
 
 - Start server with cluster mode enabled:
 

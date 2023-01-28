@@ -5,11 +5,11 @@
 
 - Create a new site:
 
-`gatsby new {any something}`
+`gatsby new {string value: site_name}`
 
 - Create a new site with a Gatsby 'starter':
 
-`gatsby new {any something} {any something}`
+`gatsby new {string value: site_name} {string value: url_of_starter_github_repo}`
 
 - Start a live-reloading local development server:
 

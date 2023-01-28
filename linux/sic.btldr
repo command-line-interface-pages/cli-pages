@@ -10,20 +10,20 @@
 
 - Connect to a given host, using a given nickname:
 
-`sic -h {any something} -n {any something}`
+`sic -h {string value: host} -n {string value: nickname}`
 
 - Connect to a given host, using a given nickname and password:
 
-`sic -h {any something} -n {any something} -k {any something}`
+`sic -h {string value: host} -n {string value: nickname} -k {string value: password}`
 
 - Join a channel:
 
-`:j #{any something}<Enter>`
+`:j #{string value: channel}<Enter>`
 
 - Send a message to a channel or user:
 
-`:m #{any something}<Enter>`
+`:m #{string value: channel|user}<Enter>`
 
 - Set default channel or user:
 
-`:s #{any something}<Enter>`
+`:s #{string value: channel|user}<Enter>`

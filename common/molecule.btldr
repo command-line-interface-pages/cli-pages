@@ -5,7 +5,7 @@
 
 - Create a new Ansible role:
 
-`molecule init role --role-name {any something}`
+`molecule init role --role-name {string value: role_name}`
 
 - Run tests:
 

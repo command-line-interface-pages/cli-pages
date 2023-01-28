@@ -5,11 +5,11 @@
 
 - Execute a particular file:
 
-`mix run {any something}`
+`mix run {string value: my_script.exs}`
 
 - Create a new project:
 
-`mix new {any something}`
+`mix new {string value: project_name}`
 
 - Compile project:
 

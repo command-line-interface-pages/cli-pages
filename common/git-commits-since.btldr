@@ -6,16 +6,16 @@
 
 - Display commits since yesterday:
 
-`git commits-since {any something}`
+`git commits-since {string value: yesterday}`
 
 - Display commits since last week:
 
-`git commits-since {any something}`
+`git commits-since {string value: last week}`
 
 - Display commits since last month:
 
-`git commits-since {any something}`
+`git commits-since {string value: last month}`
 
 - Display commits since yesterday 2pm:
 
-`git commits-since {any something}`
+`git commits-since {string value: yesterday 2pm}`

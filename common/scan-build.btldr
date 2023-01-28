@@ -5,11 +5,11 @@
 
 - Build and analyze the project in the current directory:
 
-`scan-build {any something}`
+`scan-build {string value: make}`
 
 - Run a command and pass all subsequent options to it:
 
-`scan-build {any something} {any something}`
+`scan-build {string value: command} {string value: command_arguments}`
 
 - Display help:
 

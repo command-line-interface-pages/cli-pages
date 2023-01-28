@@ -25,8 +25,8 @@
 
 - Create a screenshot with a specific effect:
 
-`mate-screenshot --effect={any something}`
+`mate-screenshot --effect={string value: shadow|border|none}`
 
 - Create a screenshot with a specific delay in seconds:
 
-`mate-screenshot --delay={int number: 5}`
+`mate-screenshot --delay={int value: 5}`

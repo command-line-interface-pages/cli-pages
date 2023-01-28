@@ -5,12 +5,12 @@
 
 - Print Java stack traces for all threads in a Java process:
 
-`jstack {any something}`
+`jstack {string value: java_pid}`
 
 - Print mixed mode (Java/C++) stack traces for all threads in a Java process:
 
-`jstack -m {any something}`
+`jstack -m {string value: java_pid}`
 
 - Print stack traces from Java core dump:
 
-`jstack {any something} {file something}`
+`jstack {string value: /usr/bin/java} {file value: sample.core}`

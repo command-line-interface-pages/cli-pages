@@ -10,7 +10,7 @@
 
 - Disown a specific job:
 
-`disown %{any something}`
+`disown %{string value: job_number}`
 
 - Disown all jobs:
 
@@ -18,4 +18,4 @@
 
 - Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit:
 
-`disown -h %{any something}`
+`disown -h %{string value: job_number}`

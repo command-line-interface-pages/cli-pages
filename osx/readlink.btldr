@@ -5,4 +5,4 @@
 
 - Print the absolute path which the symlink points to:
 
-`readlink {any something}`
+`readlink {string value: path/to/symlink}`

@@ -5,11 +5,11 @@
 
 - Retrieve current status of the jail service:
 
-`fail2ban-client status {any something}`
+`fail2ban-client status {string value: jail}`
 
 - Remove the specified IP from the jail service's ban list:
 
-`fail2ban-client set {any something} unbanip {string ip}`
+`fail2ban-client set {string value: jail} unbanip {string ip}`
 
 - Verify fail2ban server is alive:
 

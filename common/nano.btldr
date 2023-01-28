@@ -13,20 +13,20 @@
 
 - Open specific files, moving to the next file when closing the previous one:
 
-`nano {any something}`
+`nano {file* value}`
 
 - Open a file and position the cursor at a specific line and column:
 
-`nano +{any something},{any something} {file something}`
+`nano +{string value: line},{string value: column} {file value}`
 
 - Open a file and enable soft wrapping:
 
-`nano --softwrap {file something}`
+`nano --softwrap {file value}`
 
 - Open a file and indent new lines to the previous line's indentation:
 
-`nano --autoindent {file something}`
+`nano --autoindent {file value}`
 
 - Open a file and create a backup file (`path/to/file~`) on save:
 
-`nano --backup {file something}`
+`nano --backup {file value}`

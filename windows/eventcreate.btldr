@@ -6,16 +6,16 @@
 
 - Create a new event with a given ID (1-1000) in the log:
 
-`eventcreate /t {any something} /id {any something} /d "{any something}"`
+`eventcreate /t {string value: success|error|warning|information} /id {string value: id} /d "{string value: message}"`
 
 - Create an event in a specific event log:
 
-`eventcreate /l {any something} /t {any something} /id {any something} /d "{any something}"`
+`eventcreate /l {string value: log_name} /t {string value: type} /id {string value: id} /d "{string value: message}"`
 
 - Create an event with a specific source:
 
-`eventcreate /so {any something} /t {any something} /id {any something} /d "{any something}"`
+`eventcreate /so {string value: source_name} /t {string value: type} /id {string value: id} /d "{string value: message}"`
 
 - Create an event in a remote machine's event log:
 
-`eventcreate /s {any something} /u {string user} /p {any something} /t {any something} /id {any something} /d "{any something}"`
+`eventcreate /s {string value: hostname} /u {string user} /p {string value: password} /t {string value: type} /id {string value: id} /d "{string value: message}"`

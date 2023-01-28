@@ -6,8 +6,8 @@
 
 - Reset a file to HEAD:
 
-`git reset-file {file something}`
+`git reset-file {file value}`
 
 - Reset a file to a specific commit:
 
-`git reset-file {file something} {any something}`
+`git reset-file {file value} {string value: commit_hash}`

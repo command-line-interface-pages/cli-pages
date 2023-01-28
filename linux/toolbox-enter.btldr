@@ -6,12 +6,12 @@
 
 - Enter a `toolbox` container using the default image of a specific distribution:
 
-`toolbox enter --distro {any something}`
+`toolbox enter --distro {string value: distribution}`
 
 - Enter a `toolbox` container using the default image of a specific release of the current distribution:
 
-`toolbox enter --release {any something}`
+`toolbox enter --release {string value: release}`
 
 - Enter a toolbox container using the default image for Fedora 36:
 
-`toolbox enter --distro {any something} --release {any something}`
+`toolbox enter --distro {string value: fedora} --release {string value: f36}`

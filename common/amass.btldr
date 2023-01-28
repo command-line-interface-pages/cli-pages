@@ -6,7 +6,7 @@
 
 - Execute an Amass subcommand:
 
-`amass {any something}`
+`amass {string value: subcommand}`
 
 - Show general help:
 
@@ -14,7 +14,7 @@
 
 - Show help on an Amass subcommand (like `intel`, `enum`, etc.):
 
-`amass -help {any something}`
+`amass -help {string value: subcommand}`
 
 - Display version:
 

@@ -6,7 +6,7 @@
 
 - Create a new scaffolded site, with SQLite as backend, in the `my-project` directory:
 
-`stack new {any something} {any something}`
+`stack new {string value: my-project} {string value: yesod-sqlite}`
 
 - Install the Yesod CLI tool within a Yesod scaffolded site:
 

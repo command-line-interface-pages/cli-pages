@@ -6,15 +6,15 @@
 
 - Copy the text to the clipboard:
 
-`wl-copy "{any something}"`
+`wl-copy "{string value: text}"`
 
 - Pipe the command (`ls`) output to the clipboard:
 
-`{any something} | wl-copy`
+`{string value: ls} | wl-copy`
 
 - Copy for only one paste and then clear it:
 
-`wl-copy --paste-once "{any something}"`
+`wl-copy --paste-once "{string value: text}"`
 
 - Clear the clipboard:
 

@@ -6,11 +6,11 @@
 
 - Go to the highest-ranked directory that contains "foo" in the name:
 
-`zoxide query {any something}`
+`zoxide query {string value: foo}`
 
 - Go to the highest-ranked directory that contains "foo" and then "bar":
 
-`zoxide query {any something} {any something}`
+`zoxide query {string value: foo} {string value: bar}`
 
 - Start an interactive directory search (requires `fzf`):
 
@@ -18,12 +18,12 @@
 
 - Add a directory or increment its rank:
 
-`zoxide add {directory something}`
+`zoxide add {directory value}`
 
 - Remove a directory from `zoxide`'s database interactively:
 
-`zoxide remove {directory something} --interactive`
+`zoxide remove {directory value} --interactive`
 
 - Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
 
-`zoxide init {any something}`
+`zoxide init {string value: bash|fish|zsh}`

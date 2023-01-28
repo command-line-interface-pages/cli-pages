@@ -21,4 +21,4 @@
 
 - Set current host name:
 
-`hostname {any something}`
+`hostname {string value: new_hostname}`

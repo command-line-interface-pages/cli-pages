@@ -9,8 +9,8 @@
 
 - Terminate a session by its name or id:
 
-`logoff {any something}`
+`logoff {string value: session_name|session_id}`
 
 - Terminate a session on a specific server connected through RDP:
 
-`logoff {any something} /server:{any something}`
+`logoff {string value: session_name|session_id} /server:{string value: servername}`

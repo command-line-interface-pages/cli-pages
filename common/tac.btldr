@@ -6,20 +6,20 @@
 
 - Concatenate specific files in reversed order:
 
-`tac {any something}`
+`tac {file* value}`
 
 - Display stdin in reversed order:
 
-`{any something} | tac`
+`{string value: cat path/to/file} | tac`
 
 - Use a specific [s]eparator:
 
-`tac -s {any something} {any something}`
+`tac -s {string value: separator} {file* value}`
 
 - Use a specific [r]egex as a [s]eparator:
 
-`tac -r -s {any something} {any something}`
+`tac -r -s {string value: separator} {file* value}`
 
 - Use a separator [b]efore each file:
 
-`tac -b {any something}`
+`tac -b {file* value}`

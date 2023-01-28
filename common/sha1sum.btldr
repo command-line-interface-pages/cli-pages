@@ -5,24 +5,24 @@
 
 - Calculate the SHA1 checksum for a file:
 
-`sha1sum {file something}`
+`sha1sum {file value}`
 
 - Calculate SHA1 checksums for multiple files:
 
-`sha1sum {any something} {any something}`
+`sha1sum {string value: path/to/file1} {string value: path/to/file2}`
 
 - Calculate and save the list of SHA1 checksums to a file:
 
-`sha1sum {any something} {any something} > {file something}`
+`sha1sum {string value: path/to/file1} {string value: path/to/file2} > {file value: sample.sha1}`
 
 - Read a file of SHA1 sums and verify all files have matching checksums:
 
-`sha1sum --check {file something}`
+`sha1sum --check {file value: sample.sha1}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha1sum --check --quiet {file something}`
+`sha1sum --check --quiet {file value: sample.sha1}`
 
 - Only show a message for files for which verification fails, ignoring missing files:
 
-`sha1sum --ignore-missing --check --quiet {file something}`
+`sha1sum --ignore-missing --check --quiet {file value: sample.sha1}`

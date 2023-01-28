@@ -6,20 +6,20 @@
 
 - Insert an entity into a table:
 
-`az storage entity insert --entity {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+`az storage entity insert --entity {string value: space_separated_key_value_pairs} --table-name {string value: table_name} --account-name {string value: storage_account_name} --account-key {string value: storage_account_key}`
 
 - Delete an existing entity from a table:
 
-`az storage entity delete --partition-key {any something} --row-key {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+`az storage entity delete --partition-key {string value: partition_key} --row-key {string value: row_key} --table-name {string value: table_name} --account-name {string value: storage_account_name} --account-key {string value: storage_account_key}`
 
 - Update an existing entity by merging its properties:
 
-`az storage entity merge --entity {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+`az storage entity merge --entity {string value: space_separated_key_value_pairs} --table-name {string value: table_name} --account-name {string value: storage_account_name} --account-key {string value: storage_account_key}`
 
 - List entities which satisfy a query:
 
-`az storage entity query --filter {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+`az storage entity query --filter {string value: query_filter} --table-name {string value: table_name} --account-name {string value: storage_account_name} --account-key {string value: storage_account_key}`
 
 - Get an entity from the specified table:
 
-`az storage entity show --partition-key {any something} --row-key {any something} --table-name {any something} --account-name {any something} --account-key {any something}`
+`az storage entity show --partition-key {string value: partition_key} --row-key {string value: row_key} --table-name {string value: table_name} --account-name {string value: storage_account_name} --account-key {string value: storage_account_key}`

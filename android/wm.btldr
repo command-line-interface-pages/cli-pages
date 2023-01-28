@@ -6,8 +6,8 @@
 
 - Display the physical size of an Android device's screen:
 
-`wm {any something}`
+`wm {string value: size}`
 
 - Display the physical density of an Android device's screen:
 
-`wm {any something}`
+`wm {string value: density}`

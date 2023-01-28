@@ -17,7 +17,7 @@
 
 - Initialize and decrypt a fresh clone of a configured repository:
 
-`transcrypt --cipher={any something}`
+`transcrypt --cipher={string value: cipher}`
 
 - Rekey to change the encryption cipher or password:
 

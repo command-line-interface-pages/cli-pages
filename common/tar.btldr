@@ -6,32 +6,32 @@
 
 - [c]reate an archive and write it to a [f]ile:
 
-`tar cf {any something} {any something} {any something} {any something}`
+`tar cf {string value: target.tar} {string value: file1} {string value: file2} {string value: file3}`
 
 - [c]reate a g[z]ipped archive and write it to a [f]ile:
 
-`tar czf {any something} {any something} {any something} {any something}`
+`tar czf {string value: target.tar.gz} {string value: file1} {string value: file2} {string value: file3}`
 
 - [c]reate a g[z]ipped archive from a directory using relative paths:
 
-`tar czf {any something} --directory={directory something} .`
+`tar czf {string value: target.tar.gz} --directory={directory value} .`
 
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xvf {any something}`
+`tar xvf {string value: source.tar[.gz|.bz2|.xz]}`
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {any something} --directory={directory something}`
+`tar xf {string value: source.tar[.gz|.bz2|.xz]} --directory={directory value}`
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
-`tar caf {any something} {any something} {any something} {any something}`
+`tar caf {string value: target.tar.xz} {string value: file1} {string value: file2} {string value: file3}`
 
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar tvf {any something}`
+`tar tvf {string value: source.tar}`
 
 - E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar xf {any something} --wildcards "{any something}"`
+`tar xf {string value: source.tar} --wildcards "{string value: *.html}"`

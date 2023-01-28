@@ -6,19 +6,19 @@
 
 - Add a file from local to the filesystem, pin it and print the relative hash:
 
-`ipfs add {file something}`
+`ipfs add {file value}`
 
 - Add a directory and its files recursively from local to the filesystem and print the relative hash:
 
-`ipfs add -r {directory something}`
+`ipfs add -r {directory value}`
 
 - Save a remote file and give it a name but not pin it:
 
-`ipfs get {any something} -o {file something}`
+`ipfs get {string value: hash} -o {file value}`
 
 - Pin a remote file locally:
 
-`ipfs pin add {any something}`
+`ipfs pin add {string value: hash}`
 
 - Display pinned files:
 
@@ -26,7 +26,7 @@
 
 - Unpin a file from the local storage:
 
-`ipfs pin rm {any something}`
+`ipfs pin rm {string value: hash}`
 
 - Remove unpinned files from local storage:
 

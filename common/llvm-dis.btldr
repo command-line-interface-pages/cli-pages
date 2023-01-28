@@ -5,12 +5,12 @@
 
 - Convert a bitcode file as LLVM IR and write the result to stdout:
 
-`llvm-dis {any something} -o -`
+`llvm-dis {string value: path/to/input.bc} -o -`
 
 - Convert a bitcode file to an LLVM IR file with the same filename:
 
-`llvm-dis {file something}`
+`llvm-dis {file value: sample.bc}`
 
 - Convert a bitcode file to LLVM IR, writing the result to the specified file:
 
-`llvm-dis {any something} -o {any something}`
+`llvm-dis {string value: path/to/input.bc} -o {string value: path/to/output.ll}`

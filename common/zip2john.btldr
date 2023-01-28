@@ -6,12 +6,12 @@
 
 - Extract the password hash from an archive, listing all files in the archive:
 
-`zip2john {file something}`
+`zip2john {file value: sample.zip}`
 
 - Extract the password hash using [o]nly a specific compressed file:
 
-`zip2john -o {file something: compressed} {file something}`
+`zip2john -o {file value: compressed} {file value: sample.zip}`
 
 - Extract the password hash from a compressed file to a specific file (for use with John the Ripper):
 
-`zip2john -o {file something: compressed} {file something} > {file something}`
+`zip2john -o {file value: compressed} {file value: sample.zip} > {file value: sample.hash}`

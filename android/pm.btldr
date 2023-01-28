@@ -17,8 +17,8 @@
 
 - List apps matching specific keywords:
 
-`pm list packages {any something}`
+`pm list packages {string value: keyword1 keyword2 ...}`
 
 - Display a path of the APK of a specific app:
 
-`pm path {any something}`
+`pm path {string value: app}`

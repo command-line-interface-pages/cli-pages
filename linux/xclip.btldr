@@ -10,7 +10,7 @@
 
 - Copy the output from a command to a given X11 selection area:
 
-`echo 123 | xclip -selection {any something}`
+`echo 123 | xclip -selection {string value: primary|secondary|clipboard}`
 
 - Copy the output from a command to the system clipboard, using short notation:
 
@@ -18,11 +18,11 @@
 
 - Copy the contents of a file into the system clipboard:
 
-`xclip -sel clip {file something: input}`
+`xclip -sel clip {file value: input.txt}`
 
 - Copy the contents of a PNG into the system clipboard (can be pasted in other programs correctly):
 
-`xclip -sel clip -t image/png {file something: input}`
+`xclip -sel clip -t image/png {file value: input.png}`
 
 - Copy the user input in the console into the system clipboard:
 

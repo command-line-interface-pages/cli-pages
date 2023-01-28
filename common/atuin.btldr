@@ -6,7 +6,7 @@
 
 - Install atuin into your shell:
 
-`eval "$(atuin init {any something})"`
+`eval "$(atuin init {string value: bash|zsh|fish})"`
 
 - Import history from the shell default history file:
 
@@ -14,15 +14,15 @@
 
 - Search shell history for a specific command:
 
-`atuin search {any something}`
+`atuin search {string value: command}`
 
 - Register an account on the default sync server:
 
-`atuin register -u {string user} -e {any something} -p {any something}`
+`atuin register -u {string user} -e {string value: email} -p {string value: password}`
 
 - Login to the default sync server:
 
-`atuin login -u {string user} -p {any something}`
+`atuin login -u {string user} -p {string value: password}`
 
 - Sync history with the sync server:
 

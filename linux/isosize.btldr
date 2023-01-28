@@ -5,12 +5,12 @@
 
 - Display the size of an ISO file:
 
-`isosize {file something}`
+`isosize {file value: sample.iso}`
 
 - Display the block count and block size of an ISO file:
 
-`isosize --sectors {file something}`
+`isosize --sectors {file value: sample.iso}`
 
 - Display the size of an ISO file divided by a given number (only usable when --sectors is not given):
 
-`isosize --divisor={any something} {file something}`
+`isosize --divisor={string value: number} {file value: sample.iso}`

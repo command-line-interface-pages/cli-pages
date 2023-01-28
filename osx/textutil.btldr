@@ -5,20 +5,20 @@
 
 - Display information about `foo.rtf`:
 
-`textutil -info {any something}`
+`textutil -info {string value: foo.rtf}`
 
 - Convert `foo.rtf` into `foo.html`:
 
-`textutil -convert {any something} {any something}`
+`textutil -convert {string value: html} {string value: foo.rtf}`
 
 - Convert rich text to normal text:
 
-`textutil {any something} -convert {any something}`
+`textutil {string value: foo.rtf} -convert {string value: txt}`
 
 - Convert `foo.txt` into `foo.rtf`, using Times 10 for the font:
 
-`textutil -convert {any something} -font {any something} -fontsize {int number: 10} {any something}`
+`textutil -convert {string value: rtf} -font {string value: Times} -fontsize {int value: 10} {string value: foo.txt}`
 
 - Load all RTF files in the current directory, concatenates their contents, and writes the result out as `index.html` with the HTML title set to "Several Files":
 
-`textutil -cat {any something} -title "Several Files" -output {any something} *.rtf`
+`textutil -cat {string value: html} -title "Several Files" -output {string value: index.html} *.rtf`

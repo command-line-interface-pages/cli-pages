@@ -5,12 +5,12 @@
 
 - Share result of command:
 
-`gotty {any something}`
+`gotty {string value: command}`
 
 - Share with write permission:
 
-`gotty -w {any something}`
+`gotty -w {string value: shell}`
 
 - Share with credential (Basic Auth):
 
-`gotty -w -c {string user}:{any something} {any something}`
+`gotty -w -c {string user}:{string value: password} {string value: shell}`

@@ -7,8 +7,8 @@
 
 - Print a file with the author name and commit hash prepended to each line:
 
-`git annotate {file something}`
+`git annotate {file value}`
 
 - Print a file with the author email and commit hash prepended to each line:
 
-`git annotate -e {file something}`
+`git annotate -e {file value}`

@@ -5,4 +5,4 @@
 
 - Show why an npm package is installed:
 
-`npm-why {any something}`
+`npm-why {string value: package_name}`

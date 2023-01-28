@@ -5,16 +5,16 @@
 
 - Convert a string to a QR code and save to an output file:
 
-`qrencode -o {file something: output} {any something}`
+`qrencode -o {file value: output.png} {string value: string}`
 
 - Convert an input file to a QR code and save to an output file:
 
-`qrencode -o {file something: output} -r {file something: input}`
+`qrencode -o {file value: output.png} -r {file value: input}`
 
 - Convert a string to a QR code and print it in terminal:
 
-`qrencode -t ansiutf8 {any something}`
+`qrencode -t ansiutf8 {string value: string}`
 
 - Convert input from pipe to a QR code and print it in terminal:
 
-`echo {any something} | qrencode -t ansiutf8`
+`echo {string value: string} | qrencode -t ansiutf8`

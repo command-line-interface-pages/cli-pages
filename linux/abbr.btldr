@@ -6,16 +6,16 @@
 
 - Add a new abbreviation:
 
-`abbr --add {any something} {any something} {any something}`
+`abbr --add {string value: abbreviation_name} {string value: command} {string value: command_arguments}`
 
 - Rename an existing abbreviation:
 
-`abbr --rename {any something} {any something}`
+`abbr --rename {string value: old_name} {string value: new_name}`
 
 - Erase an existing abbreviation:
 
-`abbr --erase {any something}`
+`abbr --erase {string value: abbreviation_name}`
 
 - Import the abbreviations defined on another host over SSH:
 
-`ssh {any something} abbr --show | source`
+`ssh {string value: host_name} abbr --show | source`

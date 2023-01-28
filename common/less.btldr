@@ -5,7 +5,7 @@
 
 - Open a file:
 
-`less {file something: source}`
+`less {file value: source}`
 
 - Page down / up:
 
@@ -17,11 +17,11 @@
 
 - Forward search for a string (press `n`/`N` to go to next/previous match):
 
-`/{any something}`
+`/{string value: something}`
 
 - Backward search for a string (press `n`/`N` to go to next/previous match):
 
-`?{any something}`
+`?{string value: something}`
 
 - Follow the output of the currently opened file:
 

@@ -5,8 +5,8 @@
 
 - Call `echo` with the "foo" argument:
 
-`eval "{any something}"`
+`eval "{string value: echo foo}"`
 
 - Set a variable in the current shell:
 
-`eval "{any something}"`
+`eval "{string value: foo=bar}"`

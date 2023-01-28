@@ -9,12 +9,12 @@
 
 - Set an environment variable to a specific value:
 
-`set {any something}={any something}`
+`set {string value: name}={string value: value}`
 
 - List environment variables starting with the specified string:
 
-`set {any something}`
+`set {string value: name}`
 
 - Prompt the user for a value for the specified variable:
 
-`set /p {any something}={any something}`
+`set /p {string value: name}={string value: prompt_string}`

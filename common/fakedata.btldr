@@ -9,15 +9,15 @@
 
 - Generate data using one or more generators:
 
-`fakedata {any something} {any something}`
+`fakedata {string value: generator1} {string value: generator2}`
 
 - Generate data with a specific output format:
 
-`fakedata --format {any something} {any something}`
+`fakedata --format {string value: csv|tab|sql} {string value: generator}`
 
 - Generate a given number of data items (defaults to 10):
 
-`fakedata --limit {any something} {any something}`
+`fakedata --limit {string value: n} {string value: generator}`
 
 - Generate data using a custom output template (the first letter of generator names must be capitalized):
 

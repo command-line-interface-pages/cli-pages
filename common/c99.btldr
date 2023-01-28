@@ -5,16 +5,16 @@
 
 - Compile source file(s) and create an executable:
 
-`c99 {file something}`
+`c99 {file value: sample.c}`
 
 - Compile source file(s) and create an executable with a custom name:
 
-`c99 -o {any something} {file something}`
+`c99 -o {string value: executable_name} {file value: sample.c}`
 
 - Compile source file(s) and create object file(s):
 
-`c99 -c {file something}`
+`c99 -c {file value: sample.c}`
 
 - Compile source file(s), link with object file(s), and create an executable:
 
-`c99 {file something} {file something}`
+`c99 {file value: sample.c} {file value: sample.o}`

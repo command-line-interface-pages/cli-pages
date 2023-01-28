@@ -9,11 +9,11 @@
 
 - Create a link between an output and an input port:
 
-`pw-link {any something} {any something}`
+`pw-link {string value: output_port_name} {string value: input_port_name}`
 
 - Disconnect two ports:
 
-`pw-link --disconnect {any something} {any something}`
+`pw-link --disconnect {string value: output_port_name} {string value: input_port_name}`
 
 - Display help:
 

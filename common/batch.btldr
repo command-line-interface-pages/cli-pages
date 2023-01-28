@@ -10,8 +10,8 @@
 
 - Execute a command from stdin:
 
-`echo "{any something}" | batch`
+`echo "{string value: ./make_db_backup.sh}" | batch`
 
 - Execute commands from a given file:
 
-`batch -f {file something}`
+`batch -f {file value}`

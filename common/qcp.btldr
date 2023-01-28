@@ -5,12 +5,12 @@
 
 - Copy a single file (open an editor with the source filename on the left and the target filename on the right):
 
-`qcp {file something: source}`
+`qcp {file value: source}`
 
 - Copy multiple JPG files:
 
-`qcp {any something}`
+`qcp {string value: *.jpg}`
 
 - Copy files, but swap the positions of the source and the target filenames in the editor:
 
-`qcp --option swap {any something}`
+`qcp --option swap {string value: *.jpg}`

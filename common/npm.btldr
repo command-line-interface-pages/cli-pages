@@ -14,19 +14,19 @@
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`npm install {any something}@{any something}`
+`npm install {string value: module_name}@{string value: version}`
 
 - Download a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install {any something} --save-dev`
+`npm install {string value: module_name} --save-dev`
 
 - Download a package and install it globally:
 
-`npm install --global {any something}`
+`npm install --global {string value: module_name}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`npm uninstall {any something}`
+`npm uninstall {string value: module_name}`
 
 - Print a tree of locally installed dependencies:
 
@@ -34,4 +34,4 @@
 
 - List top-level globally installed modules:
 
-`npm list --global --depth={int number: 0}`
+`npm list --global --depth={int value: 0}`

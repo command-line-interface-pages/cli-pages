@@ -5,12 +5,12 @@
 
 - Add partition mappings:
 
-`kpartx -a {any something}`
+`kpartx -a {string value: whole_disk.img}`
 
 - Delete partition mappings:
 
-`kpartx -d {any something}`
+`kpartx -d {string value: whole_disk.img}`
 
 - List partition mappings:
 
-`kpartx -l {any something}`
+`kpartx -l {string value: whole_disk.img}`

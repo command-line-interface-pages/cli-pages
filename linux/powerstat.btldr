@@ -9,16 +9,16 @@
 
 - Measure power with custom number of samples and interval duration:
 
-`powerstat {any something} {any something}`
+`powerstat {string value: interval} {string value: number_of_samples}`
 
 - Measure power using Intel's RAPL interface:
 
-`powerstat -R {any something} {any something}`
+`powerstat -R {string value: interval} {string value: number_of_samples}`
 
 - Show a histogram of the power measurements:
 
-`powerstat -H {any something} {any something}`
+`powerstat -H {string value: interval} {string value: number_of_samples}`
 
 - Enable all statistics gathering options:
 
-`powerstat -a {any something} {any something}`
+`powerstat -a {string value: interval} {string value: number_of_samples}`

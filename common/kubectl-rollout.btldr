@@ -5,16 +5,16 @@
 
 - Start a rolling restart of a resource:
 
-`kubectl rollout restart {any something}/{any something}`
+`kubectl rollout restart {string value: resource_type}/{string value: resource_name}`
 
 - Watch the rolling update status of a resource:
 
-`kubectl rollout status {any something}/{any something}`
+`kubectl rollout status {string value: resource_type}/{string value: resource_name}`
 
 - Roll back a resource to the previous revision:
 
-`kubectl rollout undo {any something}/{any something}`
+`kubectl rollout undo {string value: resource_type}/{string value: resource_name}`
 
 - View the rollout history of a resource:
 
-`kubectl rollout history {any something}/{any something}`
+`kubectl rollout history {string value: resource_type}/{string value: resource_name}`

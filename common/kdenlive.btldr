@@ -9,15 +9,15 @@
 
 - Open a specific file:
 
-`kdenlive {file something}.kdenlive`
+`kdenlive {file value}.kdenlive`
 
 - Set a specific path for an MLT environment:
 
-`kdenlive --mlt-path {directory something}`
+`kdenlive --mlt-path {directory value}`
 
 - Set a specific log level for an MLT environment:
 
-`kdenlive --mlt-log {any something}`
+`kdenlive --mlt-log {string value: verbose|debug}`
 
 - Display help:
 

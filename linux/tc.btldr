@@ -5,28 +5,28 @@
 
 - Add constant network delay to outbound packages:
 
-`tc qdisc add dev {any something} root netem delay {any something}ms`
+`tc qdisc add dev {string value: eth0} root netem delay {string value: delay_in_milliseconds}ms`
 
 - Add normal distributed network delay to outbound packages:
 
-`tc qdisc add dev {any something} root netem delay {any something}ms {any something}ms`
+`tc qdisc add dev {string value: eth0} root netem delay {string value: mean_delay_ms}ms {string value: delay_std_ms}ms`
 
 - Add package corruption/loss/duplication to a portion of packages:
 
-`tc qdisc add dev {any something} root netem {any something} {any something}%`
+`tc qdisc add dev {string value: eth0} root netem {string value: corruption|loss|duplication} {string value: effect_percentage}%`
 
 - Limit bandwidth, burst rate and max latency:
 
-`tc qdisc add dev eth0 root tbf rate {any something}mbit burst {any something}kbit latency {any something}ms`
+`tc qdisc add dev eth0 root tbf rate {string value: max_bandwith_mb}mbit burst {string value: max_burst_rate_kb}kbit latency {string value: max_latency_before_drop_ms}ms`
 
 - Show active traffic control policies:
 
-`tc qdisc show dev {any something}`
+`tc qdisc show dev {string value: eth0}`
 
 - Delete all traffic control rules:
 
-`tc qdisc del dev {any something}`
+`tc qdisc del dev {string value: eth0}`
 
 - Change traffic control rule:
 
-`tc qdisc change dev {any something} root netem {any something} {any something}`
+`tc qdisc change dev {string value: eth0} root netem {string value: policy} {string value: policy_parameters}`

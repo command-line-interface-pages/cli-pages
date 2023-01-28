@@ -5,28 +5,28 @@
 
 - Mirror an image horizontally or vertically:
 
-`jpegtran -flip {any something} {any something} > {any something}`
+`jpegtran -flip {string value: horizontal|vertical} {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`
 
 - Rotate an image 90, 180 or 270 degrees clockwise:
 
-`jpegtran -rotate {any something} {any something} > {any something}`
+`jpegtran -rotate {string value: 90|180|270} {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`
 
 - Transpose the image across the upper-left to lower right axis:
 
-`jpegtran -transpose {any something} > {any something}`
+`jpegtran -transpose {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`
 
 - Transverse the image across the upper right to lower left axis:
 
-`jpegtran -transverse {any something} > {any something}`
+`jpegtran -transverse {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`
 
 - Convert the image to grayscale:
 
-`jpegtran -grayscale {any something} > {any something}`
+`jpegtran -grayscale {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`
 
 - Crop the image to a rectangular region of width `W` and height `H` from the upper-left corner, saving the output to a specific file:
 
-`jpegtran -crop {any something}x{any something} -outfile {any something} {any something}`
+`jpegtran -crop {string value: W}x{string value: H} -outfile {string value: path/to/output.jpg} {string value: path/to/image.jpg}`
 
 - Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper-left corner:
 
-`jpegtran -crop {any something}x{any something}+{any something}+{any something} {any something} > {any something}`
+`jpegtran -crop {string value: W}x{string value: H}+{string value: X}+{string value: Y} {string value: path/to/image.jpg} > {string value: path/to/output.jpg}`

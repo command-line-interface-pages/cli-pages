@@ -5,8 +5,8 @@
 
 - Set a user's login shell to `nologin` to prevent the user from logging in:
 
-`chsh -s {any something} nologin`
+`chsh -s {string value: user} nologin`
 
 - Customize message for users with the login shell of `nologin`:
 
-`echo "{any something}" > /etc/nologin.txt`
+`echo "{string value: declined_login_message}" > /etc/nologin.txt`

@@ -6,24 +6,24 @@
 
 - Write a specific key value:
 
-`dconf write {any something} "{any something}"`
+`dconf write {string value: /path/to/key} "{string value: value}"`
 
 - Write a specific string key value:
 
-`dconf write {any something} "'{any something}'"`
+`dconf write {string value: /path/to/key} "'{string value: string}'"`
 
 - Write a specific integer key value:
 
-`dconf write {any something} "{int number: 5}"`
+`dconf write {string value: /path/to/key} "{int value: 5}"`
 
 - Write a specific boolean key value:
 
-`dconf write {any something} "{any something}"`
+`dconf write {string value: /path/to/key} "{string value: true|false}"`
 
 - Write a specific array key value:
 
-`dconf write {any something} "[{any something}]"`
+`dconf write {string value: /path/to/key} "[{string value: 'first', 'second', ...}]"`
 
 - Write a specific empty array key value:
 
-`dconf write {any something} "@as []"`
+`dconf write {string value: /path/to/key} "@as []"`

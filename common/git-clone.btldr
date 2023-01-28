@@ -5,32 +5,32 @@
 
 - Clone an existing repository:
 
-`git clone {any something}`
+`git clone {string value: remote_repository_location}`
 
 - Clone an existing repository into a specific directory:
 
-`git clone {any something} {directory something}`
+`git clone {string value: remote_repository_location} {directory value}`
 
 - Clone an existing repository and its submodules:
 
-`git clone --recursive {any something}`
+`git clone --recursive {string value: remote_repository_location}`
 
 - Clone a local repository:
 
-`git clone -l {any something}`
+`git clone -l {string value: path/to/local/repository}`
 
 - Clone quietly:
 
-`git clone -q {any something}`
+`git clone -q {string value: remote_repository_location}`
 
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
-`git clone --depth {int number: 10} {any something}`
+`git clone --depth {int value: 10} {string value: remote_repository_location}`
 
 - Clone an existing repository only fetching a specific branch:
 
-`git clone --branch {any something} --single-branch {any something}`
+`git clone --branch {string value: name} --single-branch {string value: remote_repository_location}`
 
 - Clone an existing repository using a specific SSH command:
 
-`git clone --config core.sshCommand="{any something}" {any something}`
+`git clone --config core.sshCommand="{string value: ssh -i path/to/private_ssh_key}" {string value: remote_repository_location}`

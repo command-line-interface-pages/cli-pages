@@ -14,4 +14,4 @@
 
 - Create a new group with the specific groupid:
 
-`sudo groupadd --gid {any something} {string group}`
+`sudo groupadd --gid {string value: id} {string group}`

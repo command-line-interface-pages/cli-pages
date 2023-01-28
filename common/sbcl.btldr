@@ -9,4 +9,4 @@
 
 - Execute a Lisp script:
 
-`sbcl --script {any something}`
+`sbcl --script {string value: path/to/script.lisp}`

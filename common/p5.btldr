@@ -5,11 +5,11 @@
 
 - Create a new p5 collection:
 
-`p5 new {any something}`
+`p5 new {string value: collection_name}`
 
 - Generate a new p5 project (should be run from collection directory):
 
-`p5 generate {any something}`
+`p5 generate {string value: project_name}`
 
 - Run the p5 manager server:
 

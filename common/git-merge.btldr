@@ -5,15 +5,15 @@
 
 - Merge a branch into your current branch:
 
-`git merge {any something}`
+`git merge {string value: branch_name}`
 
 - Edit the merge message:
 
-`git merge -e {any something}`
+`git merge -e {string value: branch_name}`
 
 - Merge a branch and create a merge commit:
 
-`git merge --no-ff {any something}`
+`git merge --no-ff {string value: branch_name}`
 
 - Abort a merge in case of conflicts:
 

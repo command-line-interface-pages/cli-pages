@@ -6,11 +6,11 @@
 
 - Open two files and show the differences:
 
-`vimdiff {any something} {any something}`
+`vimdiff {string value: file1} {string value: file2}`
 
 - Move the cursor to the window on the left|right:
 
-`Ctrl + w {any something}`
+`Ctrl + w {string value: h|l}`
 
 - Jump to the previous difference:
 

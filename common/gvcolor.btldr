@@ -6,11 +6,11 @@
 
 - Colorize one or more ranked digraph (that were already processed by `dot`):
 
-`gvcolor {any something} {any something} > {any something}`
+`gvcolor {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Lay out a graph and colorize it, then convert to a PNG image:
 
-`dot {any something} | gvcolor | dot -T {any something} > {any something}`
+`dot {string value: path/to/input.gv} | gvcolor | dot -T {string value: png} > {string value: path/to/output.png}`
 
 - Display help for `gvcolor`:
 

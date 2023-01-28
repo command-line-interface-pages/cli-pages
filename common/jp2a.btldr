@@ -5,24 +5,24 @@
 
 - Read JPEG image from a file and print in ASCII:
 
-`jp2a {any something}`
+`jp2a {string value: path/to/image.jpeg}`
 
 - Read JPEG image from a URL and print in ASCII:
 
-`jp2a {any something}`
+`jp2a {string value: www.example.com/image.jpeg}`
 
 - Colorize the ASCII output:
 
-`jp2a --colors {any something}`
+`jp2a --colors {string value: path/to/image.jpeg}`
 
 - Specify characters to be used for the ASCII output:
 
-`jp2a --chars='{any something}' {any something}`
+`jp2a --chars='{string value: ..-ooxx@@}' {string value: path/to/image.jpeg}`
 
 - Write the ASCII output into a file:
 
-`jp2a --output={file something: output} {any something}`
+`jp2a --output={file value: output.txt} {string value: path/to/image.jpeg}`
 
 - Write the ASCII output in HTML file format, suitable for viewing in web browsers:
 
-`jp2a --html --output={file something: output} {any something}`
+`jp2a --html --output={file value: output.html} {string value: path/to/image.jpeg}`

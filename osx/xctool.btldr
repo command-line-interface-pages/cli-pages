@@ -5,12 +5,12 @@
 
 - Build a single project without any workspace:
 
-`xctool -project {any something} -scheme {any something} build`
+`xctool -project {string value: YourProject.xcodeproj} -scheme {string value: YourScheme} build`
 
 - Build a project that is part of a workspace:
 
-`xctool -workspace {any something} -scheme {any something} build`
+`xctool -workspace {string value: YourWorkspace.xcworkspace} -scheme {string value: YourScheme} build`
 
 - Clean, build and execute all the tests:
 
-`xctool -workspace {any something} -scheme {any something} clean build test`
+`xctool -workspace {string value: YourWorkspace.xcworkspace} -scheme {string value: YourScheme} clean build test`

@@ -5,32 +5,32 @@
 
 - Search entries:
 
-`keepassxc-cli lookup {file something: database} {any something}`
+`keepassxc-cli lookup {file value: database} {string value: name}`
 
 - List the contents of a folder:
 
-`keepassxc-cli ls {file something: database} {/directory something}`
+`keepassxc-cli ls {file value: database} {/directory value}`
 
 - Add an entry with an auto-generated password:
 
-`keepassxc-cli add --generate {file something: database} {any something}`
+`keepassxc-cli add --generate {file value: database} {string value: entry_name}`
 
 - Delete an entry:
 
-`keepassxc-cli rm {file something: database} {any something}`
+`keepassxc-cli rm {file value: database} {string value: entry_name}`
 
 - Copy an entry's password to the clipboard:
 
-`keepassxc-cli clip {file something: database} {any something}`
+`keepassxc-cli clip {file value: database} {string value: entry_name}`
 
 - Copy a TOTP code to the clipboard:
 
-`keepassxc-cli clip --totp {file something: database} {any something}`
+`keepassxc-cli clip --totp {file value: database} {string value: entry_name}`
 
 - Generate a passphrase with 7 words:
 
-`keepassxc-cli diceware --words {int number: 7}`
+`keepassxc-cli diceware --words {int value: 7}`
 
 - Generate a password with 16 printable ASCII characters:
 
-`keepassxc-cli generate --lower --upper --numeric --special --length {int number: 16}`
+`keepassxc-cli generate --lower --upper --numeric --special --length {int value: 16}`

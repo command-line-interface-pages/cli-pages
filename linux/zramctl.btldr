@@ -14,11 +14,11 @@
 
 - Enable zram with exactly 2 devices:
 
-`sudo modprobe zram num_devices={int number: 2}`
+`sudo modprobe zram num_devices={int value: 2}`
 
 - Find and initialize the next free zram device to a 2 GB virtual drive using LZ4 compression:
 
-`sudo zramctl --find --size {any something} --algorithm {any something}`
+`sudo zramctl --find --size {string value: 2GB} --algorithm {string value: lz4}`
 
 - List currently initialized devices:
 

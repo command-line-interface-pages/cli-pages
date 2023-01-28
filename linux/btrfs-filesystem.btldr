@@ -5,24 +5,24 @@
 
 - Show filesystem usage (optionally run as root to show detailed information):
 
-`btrfs filesystem usage {any something}`
+`btrfs filesystem usage {string value: path/to/btrfs_mount}`
 
 - Show usage by individual devices:
 
-`sudo btrfs filesystem show {any something}`
+`sudo btrfs filesystem show {string value: path/to/btrfs_mount}`
 
 - Defragment a single file on a btrfs filesystem (avoid while a deduplication agent is running):
 
-`sudo btrfs filesystem defragment -v {file something}`
+`sudo btrfs filesystem defragment -v {file value}`
 
 - Defragment a directory recursively (does not cross subvolume boundaries):
 
-`sudo btrfs filesystem defragment -v -r {directory something}`
+`sudo btrfs filesystem defragment -v -r {directory value}`
 
 - Force syncing unwritten data blocks to disk(s):
 
-`sudo btrfs filesystem sync {any something}`
+`sudo btrfs filesystem sync {string value: path/to/btrfs_mount}`
 
 - Summarize disk usage for the files in a directory recursively:
 
-`sudo btrfs filesystem du --summarize {directory something}`
+`sudo btrfs filesystem du --summarize {directory value}`

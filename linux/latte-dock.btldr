@@ -13,8 +13,8 @@
 
 - Load a specific layout on startup:
 
-`latte-dock --layout {any something}`
+`latte-dock --layout {string value: layout_name}`
 
 - Import and load a specific layout:
 
-`latte-dock --import-layout {file something}`
+`latte-dock --import-layout {file value}`

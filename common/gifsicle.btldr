@@ -5,28 +5,28 @@
 
 - Optimize a GIF as a new file:
 
-`gifsicle {any something} --optimize=3 -o {any something}`
+`gifsicle {string value: path/to/input.gif} --optimize=3 -o {string value: path/to/output.gif}`
 
 - Unoptimize a GIF in place:
 
-`gifsicle -b {any something} --unoptimize`
+`gifsicle -b {string value: path/to/input.gif} --unoptimize`
 
 - Extract a frame from a GIF:
 
-`gifsicle {any something} '#{int number: 0}' > {any something}`
+`gifsicle {string value: path/to/input.gif} '#{int value: 0}' > {string value: path/to/firstframe.gif}`
 
 - Make a GIF animation from selected GIFs:
 
-`gifsicle {any something} --delay={int number: 10} --loop > {any something}`
+`gifsicle {string value: *.gif} --delay={int value: 10} --loop > {string value: path/to/output.gif}`
 
 - Reduce file size using lossy compression:
 
-`gifsicle -b {any something} --optimize=3 --lossy={int number: 100} --colors={int number: 16} --dither`
+`gifsicle -b {string value: path/to/input.gif} --optimize=3 --lossy={int value: 100} --colors={int value: 16} --dither`
 
 - Delete the first 10 frames and all frames after frame 20 from a GIF:
 
-`gifsicle -b {any something} --delete '#{any something}' '#{any something}'`
+`gifsicle -b {string value: path/to/input.gif} --delete '#{string value: 0-9}' '#{string value: 20-}'`
 
 - Modify all frames of a GIF using specific transformation options:
 
-`gifsicle -b --crop {int number: 50},{int number: 50}+{int number: -50}x{int number: -50} --scale {float number: 0.25} --flip-horizontal --rotate-90 {any something}`
+`gifsicle -b --crop {int value: 50},{int value: 50}+{int value: -50}x{int value: -50} --scale {float value: 0.25} --flip-horizontal --rotate-90 {string value: path/to/input.gif}`

@@ -5,12 +5,12 @@
 
 - Lint all pages:
 
-`tldr-lint {directory something: pages}`
+`tldr-lint {directory value: pages}`
 
 - Format a specific page to stdout:
 
-`tldr-lint --format {any something}`
+`tldr-lint --format {string value: page.md}`
 
 - Format all pages in place:
 
-`tldr-lint --format --in-place {directory something: pages}`
+`tldr-lint --format --in-place {directory value: pages}`

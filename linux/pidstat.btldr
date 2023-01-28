@@ -5,7 +5,7 @@
 
 - Show CPU statistics at a 2 second interval for 10 times:
 
-`pidstat {int number: 2} {int number: 10}`
+`pidstat {int value: 2} {int value: 10}`
 
 - Show page faults and memory utilization:
 
@@ -17,8 +17,8 @@
 
 - Show information on a specific PID:
 
-`pidstat -p {any something}`
+`pidstat -p {string value: PID}`
 
 - Show memory statistics for all processes whose command name include "fox" or "bird":
 
-`pidstat -C "{any something}" -r -p ALL`
+`pidstat -C "{string value: fox|bird}" -r -p ALL`

@@ -5,15 +5,15 @@
 
 - Open the current directory in Windows Explorer:
 
-`wsl-open {any something}`
+`wsl-open {string value: .}`
 
 - Open a URL in the user's default web browser in Windows:
 
-`wsl-open {any something}`
+`wsl-open {string value: https://example.com}`
 
 - Open a specific file in the user's default application in Windows:
 
-`wsl-open {file something}`
+`wsl-open {file value}`
 
 - Set `wsl-open` as the shell's web browser (open links with `wsl-open`):
 

@@ -7,16 +7,16 @@
 
 - Search for duplicate extents in a directory and show them:
 
-`duperemove -r {directory something}`
+`duperemove -r {directory value}`
 
 - Deduplicate duplicate extents on a Btrfs or XFS (experimental) filesystem:
 
-`duperemove -r -d {directory something}`
+`duperemove -r -d {directory value}`
 
 - Use a hash file to store extent hashes (less memory usage and can be reused on subsequent runs):
 
-`duperemove -r -d --hashfile={any something} {directory something}`
+`duperemove -r -d --hashfile={string value: path/to/hashfile} {directory value}`
 
 - Limit I/O threads (for hashing and dedupe stage) and CPU threads (for duplicate extent finding stage):
 
-`duperemove -r -d --hashfile={any something} --io-threads={any something} --cpu-threads={any something} {directory something}`
+`duperemove -r -d --hashfile={string value: path/to/hashfile} --io-threads={string value: N} --cpu-threads={string value: N} {directory value}`

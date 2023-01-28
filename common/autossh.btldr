@@ -6,24 +6,24 @@
 
 - Start an SSH session, restarting when a monitoring port fails to return data:
 
-`autossh -M {any something} "{any something}"`
+`autossh -M {string value: monitor_port} "{string value: ssh_command}"`
 
 - Forward a local port to a remote one, restarting when necessary:
 
-`autossh -M {any something} -L {any something}:localhost:{any something} {any something}@{any something}`
+`autossh -M {string value: monitor_port} -L {string value: local_port}:localhost:{string value: remote_port} {string value: user}@{string value: host}`
 
 - Fork `autossh` into the background before executing `ssh` and don't open a remote shell:
 
-`autossh -f -M {any something} -N "{any something}"`
+`autossh -f -M {string value: monitor_port} -N "{string value: ssh_command}"`
 
 - Run in the background, with no monitoring port, and instead send SSH keep-alive packets every 10 seconds to detect failure:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "{any something}"`
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "{string value: ssh_command}"`
 
 - Run in the background, with no monitoring port and no remote shell, exiting if the port forward fails:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {any something}:localhost:{any something} {any something}@{any something}`
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {string value: local_port}:localhost:{string value: remote_port} {string value: user}@{string value: host}`
 
 - Run in the background, logging `autossh` debug output and `ssh` verbose output to files:
 
-`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={file something: autossh_log} autossh -f -M {any something} -v -E {file something: ssh_log} {any something}`
+`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={file value: autossh_log.log} autossh -f -M {string value: monitor_port} -v -E {file value: ssh_log.log} {string value: ssh_command}`

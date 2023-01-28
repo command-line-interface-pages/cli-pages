@@ -5,8 +5,8 @@
 
 - Enable the JSON extension for every SAPI of every PHP version:
 
-`sudo phpenmod {any something}`
+`sudo phpenmod {string value: json}`
 
 - Enable the JSON extension for PHP 7.3 with the cli SAPI:
 
-`sudo phpenmod -v {float number: 7.3} -s {any something} {any something}`
+`sudo phpenmod -v {float value: 7.3} -s {string value: cli} {string value: json}`

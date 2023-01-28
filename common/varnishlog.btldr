@@ -9,16 +9,16 @@
 
 - Only display requests to a specific domain:
 
-`varnishlog -q 'ReqHeader eq "Host: {any something}"'`
+`varnishlog -q 'ReqHeader eq "Host: {string value: example.com}"'`
 
 - Only display POST requests:
 
-`varnishlog -q 'ReqMethod eq "{any something}"'`
+`varnishlog -q 'ReqMethod eq "{string value: POST}"'`
 
 - Only display requests to a specific path:
 
-`varnishlog -q 'ReqURL eq "{any something}"'`
+`varnishlog -q 'ReqURL eq "{string value: /path}"'`
 
 - Only display requests to paths matching a regular expression:
 
-`varnishlog -q 'ReqURL ~ "{any something}"'`
+`varnishlog -q 'ReqURL ~ "{string value: regex}"'`

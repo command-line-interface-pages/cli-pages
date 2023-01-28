@@ -5,7 +5,7 @@
 
 - Install a global tool (don't use `--global` for local tools):
 
-`dotnet tool install --global {any something}`
+`dotnet tool install --global {string value: dotnetsay}`
 
 - Install tools defined in the local tool manifest:
 
@@ -13,11 +13,11 @@
 
 - Update a specific global tool (don't use `--global` for local tools):
 
-`dotnet tool update --global {any something}`
+`dotnet tool update --global {string value: tool_name}`
 
 - Uninstall a global tool (don't use `--global` for local tools):
 
-`dotnet tool uninstall --global {any something}`
+`dotnet tool uninstall --global {string value: tool_name}`
 
 - List installed global tools (don't use `--global` for local tools):
 
@@ -25,7 +25,7 @@
 
 - Search tools in NuGet:
 
-`dotnet tool search {any something}`
+`dotnet tool search {string value: search_term}`
 
 - Display help:
 

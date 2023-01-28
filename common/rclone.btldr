@@ -5,32 +5,32 @@
 
 - List contents of a directory on an rclone remote:
 
-`rclone lsf {any something}:{directory something}`
+`rclone lsf {string value: remote_name}:{directory value}`
 
 - Copy file or directory from local source to remote destination:
 
-`rclone copy {directory something: source_file_or} {any something}:{directory something: destination}`
+`rclone copy {directory value: source_file_or} {string value: remote_name}:{directory value: destination}`
 
 - Copy file or directory from remote source to local destination:
 
-`rclone copy {any something}:{directory something: source_file_or} {directory something: destination}`
+`rclone copy {string value: remote_name}:{directory value: source_file_or} {directory value: destination}`
 
 - Sync local source to remote destination, changing the destination only:
 
-`rclone sync {file something|path something} {any something}:{directory something}`
+`rclone sync {path value} {string value: remote_name}:{directory value}`
 
 - Move file or directory from local source to remote destination:
 
-`rclone move {file something|path something} {any something}:{directory something}`
+`rclone move {path value} {string value: remote_name}:{directory value}`
 
 - Delete remote file or directory (use `--dry-run` to test, remove it to actually delete):
 
-`rclone --dry-run delete {any something}:{file something|path something}`
+`rclone --dry-run delete {string value: remote_name}:{path value}`
 
 - Mount rclone remote (experimental):
 
-`rclone mount {any something}:{directory something} {any something}`
+`rclone mount {string value: remote_name}:{directory value} {string value: path/to/mount_point}`
 
 - Unmount rclone remote if CTRL-C fails (experimental):
 
-`fusermount -u {any something}`
+`fusermount -u {string value: path/to/mount_point}`

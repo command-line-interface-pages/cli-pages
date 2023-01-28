@@ -6,7 +6,7 @@
 
 - Execute a Puppet subcommand:
 
-`puppet {any something}`
+`puppet {string value: subcommand}`
 
 - Check the Puppet version:
 
@@ -18,4 +18,4 @@
 
 - Display help for a subcommand:
 
-`puppet help {any something}`
+`puppet help {string value: subcommand}`

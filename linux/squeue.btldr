@@ -13,7 +13,7 @@
 
 - View the queue and refresh every 5 seconds:
 
-`squeue -i {int number: 5}`
+`squeue -i {int value: 5}`
 
 - View the queue with expected start times:
 

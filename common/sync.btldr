@@ -9,4 +9,4 @@
 
 - Flush all pending write operations on a single file to disk:
 
-`sync {file something}`
+`sync {file value}`

@@ -9,7 +9,7 @@
 
 - Merge the specified merge request, interactively:
 
-`glab mr merge {any something}`
+`glab mr merge {string value: mr_number}`
 
 - Merge the merge request, removing the branch on both the local and the remote:
 
@@ -17,7 +17,7 @@
 
 - Squash the current merge request into one commit with the message body and merge:
 
-`glab mr merge --squash --message="{any something}"`
+`glab mr merge --squash --message="{string value: commit_message_body}"`
 
 - Display help:
 

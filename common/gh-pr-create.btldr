@@ -17,7 +17,7 @@
 
 - Create a pull request specifying the base branch, title, and description:
 
-`gh pr create --base {any something} --title "{any something}" --body "{any something}"`
+`gh pr create --base {string value: base_branch} --title "{string value: title}" --body "{string value: body}"`
 
 - Start opening a pull request in the default web browser:
 

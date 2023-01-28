@@ -5,28 +5,28 @@
 
 - Query your system's default name server for an IP address (A record) of the domain:
 
-`nslookup {any something}`
+`nslookup {string value: example.com}`
 
 - Query a given name server for a NS record of the domain:
 
-`nslookup -type=NS {any something} {any something}`
+`nslookup -type=NS {string value: example.com} {string value: 8.8.8.8}`
 
 - Query for a reverse lookup (PTR record) of an IP address:
 
-`nslookup -type=PTR {any something}`
+`nslookup -type=PTR {string value: 54.240.162.118}`
 
 - Query for ANY available records using TCP protocol:
 
-`nslookup -vc -type=ANY {any something} `
+`nslookup -vc -type=ANY {string value: example.com} `
 
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 
-`nslookup -vc -type=AXFR {any something} {any something}`
+`nslookup -vc -type=AXFR {string value: example.com} {string value: name_server}`
 
 - Query for a mail server (MX record) of the domain, showing details of the transaction:
 
-`nslookup -type=MX -debug {any something}`
+`nslookup -type=MX -debug {string value: example.com}`
 
 - Query a given name server on a specific port number for a TXT record of the domain:
 
-`nslookup -port={any something} -type=TXT {any something} {any something}`
+`nslookup -port={string value: port_number} -type=TXT {string value: example.com} {string value: name_server}`

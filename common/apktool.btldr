@@ -5,12 +5,12 @@
 
 - Decode an APK file:
 
-`apktool d {file something}`
+`apktool d {file value: sample.apk}`
 
 - Build an APK file from a directory:
 
-`apktool b {directory something}`
+`apktool b {directory value}`
 
 - Install and store a framework:
 
-`apktool if {any something}`
+`apktool if {string value: framework.apk}`

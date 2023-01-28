@@ -13,12 +13,12 @@
 
 - Add a user to the Prosody XMPP server:
 
-`sudo prosodyctl adduser {any something}`
+`sudo prosodyctl adduser {string value: user@example.com}`
 
 - Set a user's password:
 
-`sudo prosodyctl passwd {any something}`
+`sudo prosodyctl passwd {string value: user@example.com}`
 
 - Permanently delete a user:
 
-`sudo prosodyctl deluser {any something}`
+`sudo prosodyctl deluser {string value: user@example.com}`

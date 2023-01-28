@@ -9,11 +9,11 @@
 
 - Start an HTTP server on a specific port to serve a specific directory:
 
-`http-server {directory something} --port {any something}`
+`http-server {directory value} --port {string value: port}`
 
 - Start an HTTP server using basic authentication:
 
-`http-server --username {string user} --password {any something}`
+`http-server --username {string user} --password {string value: password}`
 
 - Start an HTTP server with directory listings disabled:
 
@@ -21,7 +21,7 @@
 
 - Start an HTTPS server on the default port using the specified certificate:
 
-`http-server --ssl --cert {any something} --key {any something}`
+`http-server --ssl --cert {string value: path/to/cert.pem} --key {string value: path/to/key.pem}`
 
 - Start an HTTP server and include the client's IP address in the output logging:
 

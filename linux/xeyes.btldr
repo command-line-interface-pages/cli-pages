@@ -9,4 +9,4 @@
 
 - Launch xeyes on a remote machine's display 0, screen 0:
 
-`xeyes -display {any something}:{int number: 0}.{int number: 0}`
+`xeyes -display {string value: remote_host}:{int value: 0}.{int value: 0}`

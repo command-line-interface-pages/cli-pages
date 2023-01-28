@@ -5,20 +5,20 @@
 
 - Compress a file into a new file with the `.zst` suffix:
 
-`zstd {file something}`
+`zstd {file value}`
 
 - Decompress a file:
 
-`zstd -d {file something}.zst`
+`zstd -d {file value}.zst`
 
 - Decompress to stdout:
 
-`zstd -dc {file something}.zst`
+`zstd -dc {file value}.zst`
 
 - Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
 
-`zstd -{any something} {file something}`
+`zstd -{string value: level} {file value}`
 
 - Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
-`zstd --ultra -{any something} {file something}`
+`zstd --ultra -{string value: level} {file value}`

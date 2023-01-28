@@ -5,16 +5,16 @@
 
 - Open a specific directory:
 
-`phpstorm {directory something}`
+`phpstorm {directory value}`
 
 - Open a file:
 
-`phpstorm {file something}`
+`phpstorm {file value}`
 
 - Open a file at a specific line:
 
-`phpstorm --line {any something} {file something}`
+`phpstorm --line {string value: line_number} {file value}`
 
 - View the differences between two files:
 
-`phpstorm diff {file something: left} {file something: right}`
+`phpstorm diff {file value: left} {file value: right}`

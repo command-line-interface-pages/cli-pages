@@ -13,20 +13,20 @@
 
 - Create a label with a specific name, description and color in hexadecimal format for the repository in the current directory:
 
-`gh label create {any something} --description "{any something}" --color {any something}`
+`gh label create {string value: name} --description "{string value: description}" --color {string value: color_hex}`
 
 - Delete a label for the repository in the current directory, prompting for confirmation:
 
-`gh label delete {any something}`
+`gh label delete {string value: name}`
 
 - Update the name and description for a specific label for the repository in the current directory:
 
-`gh label edit {any something} --name {any something} --description "{any something}"`
+`gh label edit {string value: name} --name {string value: new_name} --description "{string value: description}"`
 
 - Clone labels from a specific repository into the repository in the current directory:
 
-`gh label clone {any something}/{any something}`
+`gh label clone {string value: owner}/{string value: repository}`
 
 - Display help for a subcommand:
 
-`gh label {any something} --help`
+`gh label {string value: subcommand} --help`

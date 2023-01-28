@@ -13,8 +13,8 @@
 
 - Monitor all X events of a particular window:
 
-`xev -id {any something}`
+`xev -id {string value: window_id}`
 
 - Monitor X events from a given category (can be specified multiple times):
 
-`xev -event {any something}`
+`xev -event {string value: event_category}`

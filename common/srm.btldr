@@ -6,16 +6,16 @@
 
 - Remove a file after a single-pass overwriting with random data:
 
-`srm -s {file something}`
+`srm -s {file value}`
 
 - Remove a file after seven passes of overwriting with random data:
 
-`srm -m {file something}`
+`srm -m {file value}`
 
 - Recursively remove a directory and its contents overwriting each file with a single-pass of random data:
 
-`srm -r -s {directory something}`
+`srm -r -s {directory value}`
 
 - Prompt before every removal:
 
-`srm -i {any something}`
+`srm -i {string value: \*}`

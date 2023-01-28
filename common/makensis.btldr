@@ -6,12 +6,12 @@
 
 - Compile a NSIS script:
 
-`makensis {file something}`
+`makensis {file value: sample.nsi}`
 
 - Compile a NSIS script in strict mode (treat warnings as errors):
 
-`makensis -WX {file something}`
+`makensis -WX {file value: sample.nsi}`
 
 - Print help for a specific command:
 
-`makensis -CMDHELP {any something}`
+`makensis -CMDHELP {string value: command}`

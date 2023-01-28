@@ -5,19 +5,19 @@
 
 - Write the MIT license to a file named `LICENSE`:
 
-`licensor {any something} > {any something}`
+`licensor {string value: MIT} > {string value: LICENSE}`
 
 - Write the MIT license with a [p]laceholder copyright notice to a file named `LICENSE`:
 
-`licensor -p {any something} > {any something}`
+`licensor -p {string value: MIT} > {string value: LICENSE}`
 
 - Specify a copyright holder named Bobby Tables:
 
-`licensor {any something} {any something} > {any something}`
+`licensor {string value: MIT} {string value: "Bobby Tables"} > {string value: LICENSE}`
 
 - Specify licence exceptions with a WITH expression:
 
-`licensor "{any something}" > {any something}`
+`licensor "{string value: Apache-2.0 WITH LLVM-exception}" > {string value: LICENSE}`
 
 - List all available licenses:
 

@@ -9,8 +9,8 @@
 
 - Update the symlinks for a given directory:
 
-`sudo ldconfig -n {directory something}`
+`sudo ldconfig -n {directory value}`
 
 - Print the libraries in the cache and check whether a given library is present:
 
-`ldconfig -p | grep {any something}`
+`ldconfig -p | grep {string value: library_name}`

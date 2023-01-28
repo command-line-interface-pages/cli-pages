@@ -9,23 +9,23 @@
 
 - Show the current `texmf`, `tlmgr`, or `updmap` configuration:
 
-`tlmgr conf {any something}`
+`tlmgr conf {string value: texmf|tlmgr|updmap}`
 
 - Show only a specific configuration option:
 
-`tlmgr conf {any something} {any something}`
+`tlmgr conf {string value: texmf|tlmgr|updmap} {string value: configuration_key}`
 
 - Set a specific configuration option:
 
-`tlmgr conf {any something} {any something} {any something}`
+`tlmgr conf {string value: texmf|tlmgr|updmap} {string value: configuration_key} {string value: value}`
 
 - Delete a specific configuration option:
 
-`tlmgr conf {any something} --delete {any something}`
+`tlmgr conf {string value: texmf|tlmgr|updmap} --delete {string value: configuration_key}`
 
 - Disable the execution of system calls via `\write18`:
 
-`tlmgr conf texmf {any something} {int number: 0}`
+`tlmgr conf texmf {string value: shell_escape} {int value: 0}`
 
 - Show all additional `texmf` trees:
 

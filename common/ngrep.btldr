@@ -9,16 +9,16 @@
 
 - Capture traffic of a specific interface:
 
-`ngrep -d {any something}`
+`ngrep -d {string value: eth0}`
 
 - Capture traffic crossing port 22 of interface eth0:
 
-`ngrep -d {any something} port {int number: 22}`
+`ngrep -d {string value: eth0} port {int value: 22}`
 
 - Capture traffic from or to a host:
 
-`ngrep host {any something}`
+`ngrep host {string value: www.example.com}`
 
 - Filter keyword 'User-Agent:' of interface eth0:
 
-`ngrep -d {any something} '{any something}'`
+`ngrep -d {string value: eth0} '{string value: User-Agent:}'`

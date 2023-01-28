@@ -5,20 +5,20 @@
 
 - Test a server (run every check) on port 443:
 
-`testssl {any something}`
+`testssl {string value: example.com}`
 
 - Test a different port:
 
-`testssl {any something}`
+`testssl {string value: example.com:465}`
 
 - Only check available protocols:
 
-`testssl --protocols {any something}`
+`testssl --protocols {string value: example.com}`
 
 - Only check vulnerabilities:
 
-`testssl --vulnerable {any something}`
+`testssl --vulnerable {string value: example.com}`
 
 - Only check HTTP security headers:
 
-`testssl --headers {any something}`
+`testssl --headers {string value: example.com}`

@@ -5,4 +5,4 @@
 
 - Look up the canonical name associated with an email address:
 
-`git check-mailmap "<{any something}>"`
+`git check-mailmap "<{string value: email@example.com}>"`

@@ -9,12 +9,12 @@
 
 - Execute a script and then exit:
 
-`pwsh -File {file something}`
+`pwsh -File {file value: sample.ps1}`
 
 - Set the execution policy for the current session:
 
-`pwsh -ExecutionPolicy {any something}`
+`pwsh -ExecutionPolicy {string value: AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}`
 
 - Execute a command and then exit:
 
-`pwsh -Command {any something}`
+`pwsh -Command {string value: command}`

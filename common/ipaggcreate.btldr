@@ -5,12 +5,12 @@
 
 - Count the number of packets sent from each source address appearing in a pcap file:
 
-`ipaggcreate --src {file something}`
+`ipaggcreate --src {file value: sample.pcap}`
 
 - Group and count packets read from a network interface by IP packet length:
 
-`ipaggcreate --interface {any something} --length`
+`ipaggcreate --interface {string value: eth0} --length`
 
 - Count the number of bytes sent between each address pair appearing in a pcap file:
 
-`ipaggcreate --address-pairs --bytes {file something}`
+`ipaggcreate --address-pairs --bytes {file value: sample.pcap}`

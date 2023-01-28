@@ -5,11 +5,11 @@
 
 - Enable module "foo":
 
-`drush en {any something}`
+`drush en {string value: foo}`
 
 - Uninstall module "foo":
 
-`drush pmu {any something}`
+`drush pmu {string value: foo}`
 
 - Clear all caches:
 

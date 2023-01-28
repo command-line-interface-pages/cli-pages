@@ -5,11 +5,11 @@
 
 - Move a specific file to the trash:
 
-`trash {file something}`
+`trash {file value}`
 
 - Move specific files to the trash:
 
-`trash {any something}`
+`trash {file* value}`
 
 - List items in the trash:
 
@@ -17,11 +17,11 @@
 
 - Restore a specific file from the trash:
 
-`trash restore {file something}`
+`trash restore {file value}`
 
 - Remove a specific file from the trash:
 
-`trash empty {file something}`
+`trash empty {file value}`
 
 - Restore all files from the trash:
 

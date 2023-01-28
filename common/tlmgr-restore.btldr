@@ -10,11 +10,11 @@
 
 - List all available backup revisions for a specific package:
 
-`tlmgr restore {any something}`
+`tlmgr restore {string value: package}`
 
 - Restore a specific revision of a specific package:
 
-`tlmgr restore {any something} {any something}`
+`tlmgr restore {string value: package} {string value: revision}`
 
 - Restore the latest revision of all backed-up packages:
 
@@ -22,8 +22,8 @@
 
 - Restore a package from a custom backup directory:
 
-`tlmgr restore {any something} {any something} --backupdir {directory something: backup}`
+`tlmgr restore {string value: package} {string value: revision} --backupdir {directory value: backup}`
 
 - Perform a dry-run and print all taken actions without making them:
 
-`tlmgr restore --dry-run {any something} {any something}`
+`tlmgr restore --dry-run {string value: package} {string value: revision}`

@@ -17,4 +17,4 @@
 
 - Pipe a list of items to stdin and print the selected item to stdout:
 
-`printf "{any something}" | rofi -dmenu`
+`printf "{string value: Choice1\nChoice2\nChoice3}" | rofi -dmenu`

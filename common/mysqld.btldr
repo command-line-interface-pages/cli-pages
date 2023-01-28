@@ -13,7 +13,7 @@
 
 - Start the server, saving logging output to a custom log file:
 
-`mysqld --log={file something}`
+`mysqld --log={file value: sample.log}`
 
 - Print the default arguments and their values and exit:
 
@@ -21,11 +21,11 @@
 
 - Start the server, reading arguments and values from a file:
 
-`mysqld --defaults-file={file something}`
+`mysqld --defaults-file={file value}`
 
 - Start the server and listen on a custom port:
 
-`mysqld --port={any something}`
+`mysqld --port={string value: port}`
 
 - Show all help options and exit:
 

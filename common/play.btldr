@@ -6,16 +6,16 @@
 
 - Play the given audio file:
 
-`play {any something}`
+`play {string value: audiofile}`
 
 - Play the given audio files:
 
-`play {any something} {any something}`
+`play {string value: audiofile1} {string value: audiofile2}`
 
 - Play the given audio at twice the speed:
 
-`play {any something} speed 2.0`
+`play {string value: audiofile} speed 2.0`
 
 - Play the given audio in reverse:
 
-`play {any something} reverse`
+`play {string value: audiofile} reverse`

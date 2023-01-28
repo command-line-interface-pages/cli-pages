@@ -5,8 +5,8 @@
 
 - Sign an application with a certificate:
 
-`codesign --sign "{any something}" {any something}`
+`codesign --sign "{string value: My Company Name}" {string value: path/to/App.app}`
 
 - Verify the certificate of an application:
 
-`codesign --verify {any something}`
+`codesign --verify {string value: path/to/App.app}`

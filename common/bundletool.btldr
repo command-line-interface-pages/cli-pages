@@ -6,32 +6,32 @@
 
 - Display help for a subcommand:
 
-`bundletool help {any something}`
+`bundletool help {string value: subcommand}`
 
 - Generate APKs from an application bundle (prompts for keystore password):
 
-`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} --output={file something}`
+`bundletool build-apks --bundle={string value: path/to/bundle.aab} --ks={string value: path/to/key.keystore} --ks-key-alias={string value: key_alias} --output={file value: sample.apks}`
 
 - Generate APKs from an application bundle giving the keystore password:
 
-`bundletool build-apks --bundle={any something} --ks={any something} --ks-key-alias={any something} –ks-pass={any something} --output={file something}`
+`bundletool build-apks --bundle={string value: path/to/bundle.aab} --ks={string value: path/to/key.keystore} --ks-key-alias={string value: key_alias} –ks-pass={string value: pass:the_password} --output={file value: sample.apks}`
 
 - Generate APKs including only one single APK for universal usage:
 
-`bundletool build-apks --bundle={any something} --mode={any something} --ks={any something} --ks-key-alias={any something} --output={file something}`
+`bundletool build-apks --bundle={string value: path/to/bundle.aab} --mode={string value: universal} --ks={string value: path/to/key.keystore} --ks-key-alias={string value: key_alias} --output={file value: sample.apks}`
 
 - Install the right combination of APKs to an emulator or device:
 
-`bundletool install-apks --apks={file something}`
+`bundletool install-apks --apks={file value: sample.apks}`
 
 - Estimate the download size of an application:
 
-`bundletool get-size total --apks={file something}`
+`bundletool get-size total --apks={file value: sample.apks}`
 
 - Generate a device specification JSON file for an emulator or device:
 
-`bundletool get-device-spec --output={file something}`
+`bundletool get-device-spec --output={file value: sample.json}`
 
 - Verify a bundle and display detailed information about it:
 
-`bundletool validate --bundle={any something}`
+`bundletool validate --bundle={string value: path/to/bundle.aab}`

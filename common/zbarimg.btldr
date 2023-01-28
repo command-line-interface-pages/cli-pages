@@ -5,4 +5,4 @@
 
 - Process an image file:
 
-`zbarimg {file something: image}`
+`zbarimg {file value: image}`

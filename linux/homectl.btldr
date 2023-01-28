@@ -21,15 +21,15 @@
 
 - Run a shell or a command with access to a specific home directory:
 
-`sudo homectl with {string user} -- {any something} {any something}`
+`sudo homectl with {string user} -- {string value: command} {string value: command_arguments}`
 
 - Lock or unlock a specific home directory:
 
-`sudo homectl {any something} {string user}`
+`sudo homectl {string value: lock|unlock} {string user}`
 
 - Change the disk space assigned to a specific home directory to 100 GiB:
 
-`sudo homectl resize {string user} {any something}`
+`sudo homectl resize {string user} {string value: 100G}`
 
 - Display help:
 

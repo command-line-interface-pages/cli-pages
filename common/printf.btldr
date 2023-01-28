@@ -5,20 +5,20 @@
 
 - Print a text message:
 
-`printf "{any something}" "{any something}"`
+`printf "{string value: %s\n}" "{string value: Hello world}"`
 
 - Print an integer in bold blue:
 
-`printf "{any something}" {int number: 42}`
+`printf "{string value: \e[1;34m%.3d\e[0m\n}" {int value: 42}`
 
 - Print a float number with the Unicode Euro sign:
 
-`printf "{any something}" {float number: 123.4}`
+`printf "{string value: \u20AC %.2f\n}" {float value: 123.4}`
 
 - Print a text message composed with environment variables:
 
-`printf "{any something}" "{any something}" "{any something}"`
+`printf "{string value: var1: %s\tvar2: %s\n}" "{string value: $VAR1}" "{string value: $VAR2}"`
 
 - Store a formatted message in a variable (does not work on zsh):
 
-`printf -v {any something} {any something}`
+`printf -v {string value: myvar} {string value: "This is %s = %d\n" "a year" 2016}`

@@ -6,8 +6,8 @@
 
 - Erase the existence of specific files:
 
-`git obliterate {any something}`
+`git obliterate {string value: file_1 file_2 ...}`
 
 - Erase the existence of specific files between 2 commits:
 
-`git obliterate {any something} -- {any something}..{any something}`
+`git obliterate {string value: file_1 file_2 ...} -- {string value: commit_hash_1}..{string value: commit_hash_2}`

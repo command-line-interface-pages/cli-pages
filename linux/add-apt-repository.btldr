@@ -5,16 +5,16 @@
 
 - Add a new apt repository:
 
-`add-apt-repository {any something}`
+`add-apt-repository {string value: repository_spec}`
 
 - Remove an apt repository:
 
-`add-apt-repository --remove {any something}`
+`add-apt-repository --remove {string value: repository_spec}`
 
 - Update the package cache after adding a repository:
 
-`add-apt-repository --update {any something}`
+`add-apt-repository --update {string value: repository_spec}`
 
 - Allow source packages to be downloaded from the repository:
 
-`add-apt-repository --enable-source {any something}`
+`add-apt-repository --enable-source {string value: repository_spec}`

@@ -10,28 +10,28 @@
 
 - Guess SSH credentials using a given username and a list of passwords:
 
-`hydra -l {string user} -P {any something} {any something} {any something}`
+`hydra -l {string user} -P {string value: path/to/wordlist.txt} {string value: host_ip} {string value: ssh}`
 
 - Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^"):
 
-`hydra -L {any something} -P {any something} {any something} {any something} "{any something}:{any something}:{any something}"`
+`hydra -L {string value: path/to/usernames.txt} -P {string value: path/to/wordlist.txt} {string value: host_ip} {string value: https-post-form} "{string value: url_without_host}:{string value: https_post_request}:{string value: login_failed_string}"`
 
 - Guess FTP credentials using usernames and passwords lists, specifying the number of threads:
 
-`hydra -L {any something} -P {any something} -t {any something} {any something} {any something}`
+`hydra -L {string value: path/to/usernames.txt} -P {string value: path/to/wordlist.txt} -t {string value: n_tasks} {string value: host_ip} {string value: ftp}`
 
 - Guess MySQL credentials using a username and a passwords list, exiting when a username/password pair is found:
 
-`hydra -l {string user} -P {any something} -f {any something} {any something}`
+`hydra -l {string user} -P {string value: path/to/wordlist.txt} -f {string value: host_ip} {string value: mysql}`
 
 - Guess RDP credentials using a username and a passwords list, showing each attempt:
 
-`hydra -l {string user} -P {any something} -V {any something}`
+`hydra -l {string user} -P {string value: path/to/wordlist.txt} -V {string value: rdp://host_ip}`
 
 - Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs:
 
-`hydra -C {any something} {any something}`
+`hydra -C {string value: path/to/username_password_pairs.txt} {string value: imap://[host_range_cidr]}`
 
 - Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found:
 
-`hydra -L {any something} -P {any something} -M {any something} -F {any something}`
+`hydra -L {string value: path/to/usernames.txt} -P {string value: path/to/wordlist.txt} -M {string value: path/to/hosts.txt} -F {string value: pop3}`

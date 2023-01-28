@@ -13,7 +13,7 @@
 
 - Inspect and display a kext collection's contents according to the options provided:
 
-`kmutil inspect {any something}`
+`kmutil inspect {string value: options}`
 
 - Check the consistency of kext collections against each other:
 
@@ -25,4 +25,4 @@
 
 - Load one or more extensions based on the bundle specified at this path in the results:
 
-`kmutil load --bundle-path {any something}`
+`kmutil load --bundle-path {string value: path/to/extension.kext}`

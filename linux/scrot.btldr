@@ -9,7 +9,7 @@
 
 - Capture a screenshot and save it as `capture.png`:
 
-`scrot {any something}`
+`scrot {string value: capture.png}`
 
 - Capture a screenshot interactively:
 
@@ -21,4 +21,4 @@
 
 - Display a countdown of 10 seconds before taking a screenshot:
 
-`scrot --count --delay {int number: 10}`
+`scrot --count --delay {int value: 10}`

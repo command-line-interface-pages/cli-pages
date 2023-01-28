@@ -5,12 +5,12 @@
 
 - Create a new project using one of the default templates:
 
-`vue init {any something} {any something}`
+`vue init {string value: webpack|webpack-simple|browserify|browserify-simple|simple} {string value: project_name}`
 
 - Create a new project using a local template:
 
-`vue init {directory something: template} {any something}`
+`vue init {directory value: template} {string value: project_name}`
 
 - Create a new project using a template from GitHub:
 
-`vue init {string user}/{any something} {any something}`
+`vue init {string user}/{string value: repo} {string value: project_name}`

@@ -5,20 +5,20 @@
 
 - Show information for job:
 
-`scontrol show job {any something}`
+`scontrol show job {string value: job_id}`
 
 - Suspend a comma-separated list of running jobs:
 
-`scontrol suspend {any something}`
+`scontrol suspend {string value: job_id}`
 
 - Resume a comma-separated list of suspended jobs:
 
-`scontrol resume {any something}`
+`scontrol resume {string value: job_id}`
 
 - Hold a comma-separated list of queued jobs (Use `release` command to permit the jobs to be scheduled):
 
-`scontrol hold {any something}`
+`scontrol hold {string value: job_id}`
 
 - Release a comma-separated list of suspended job:
 
-`scontrol release {any something}`
+`scontrol release {string value: job_id}`

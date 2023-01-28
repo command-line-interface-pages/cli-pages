@@ -9,16 +9,16 @@
 
 - Analyze Docker layers from a specific image:
 
-`docker-slim xray --target {any something}`
+`docker-slim xray --target {string value: image:tag}`
 
 - Lint a Dockerfile:
 
-`docker-slim lint --target {any something}`
+`docker-slim lint --target {string value: path/to/Dockerfile}`
 
 - Analyze and generate an optimized Docker image:
 
-`docker-slim build {any something}`
+`docker-slim build {string value: image:tag}`
 
 - Display help for a subcommand:
 
-`docker-slim {any something} --help`
+`docker-slim {string value: subcommand} --help`

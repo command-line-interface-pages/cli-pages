@@ -5,7 +5,7 @@
 
 - Run a JavaScript or TypeScript file:
 
-`deno run {file something}`
+`deno run {file value: sample.ts}`
 
 - Start a REPL (interactive shell):
 
@@ -13,12 +13,12 @@
 
 - Run a file with network access enabled:
 
-`deno run --allow-net {file something}`
+`deno run --allow-net {file value: sample.ts}`
 
 - Run a file from a URL:
 
-`deno run {any something}`
+`deno run {string value: https://deno.land/std/examples/welcome.ts}`
 
 - Install an executable script from a URL:
 
-`deno install {any something}`
+`deno install {string value: https://deno.land/std/examples/colors.ts}`

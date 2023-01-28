@@ -6,4 +6,4 @@
 
 - Delete a tag:
 
-`git delete-tag {any something}`
+`git delete-tag {string value: tag_version}`

@@ -9,7 +9,7 @@
 
 - Set the number of package versions to keep:
 
-`paccache -rk {any something}`
+`paccache -rk {string value: num_versions}`
 
 - Perform a dry-run and show the number of candidate packages for deletion:
 
@@ -17,4 +17,4 @@
 
 - Move candidate packages to a directory instead of deleting them:
 
-`paccache -m {directory something}`
+`paccache -m {directory value}`

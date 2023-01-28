@@ -13,11 +13,11 @@
 
 - Select a volume:
 
-`select volume {any something}`
+`select volume {string value: volume}`
 
 - Assign a drive letter to the selected volume:
 
-`assign letter {any something}`
+`assign letter {string value: letter}`
 
 - Create a new partition:
 

@@ -6,16 +6,16 @@
 
 - Convert an XLS file to CSV:
 
-`in2csv {any something}`
+`in2csv {string value: data.xls}`
 
 - Convert a DBF file to a CSV file:
 
-`in2csv {any something} > {any something}`
+`in2csv {string value: data.dbf} > {string value: data.csv}`
 
 - Convert a specific sheet from an XLSX file to CSV:
 
-`in2csv --sheet={any something} {any something}`
+`in2csv --sheet={string value: sheet_name} {string value: data.xlsx}`
 
 - Pipe a JSON file to in2csv:
 
-`cat {any something} | in2csv -f json > {any something}`
+`cat {string value: data.json} | in2csv -f json > {string value: data.csv}`

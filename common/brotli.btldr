@@ -5,20 +5,20 @@
 
 - Compress a file, creating a compressed version next to the file:
 
-`brotli {file something}`
+`brotli {file value: sample.ext}`
 
 - Decompress a file, creating an uncompressed version next to the file:
 
-`brotli -d {file something}.br`
+`brotli -d {file value: sample.ext}.br`
 
 - Compress a file specifying the output filename:
 
-`brotli {file something} -o {any something}`
+`brotli {file value: sample.ext} -o {string value: compressed_file.ext.br}`
 
 - Decompress a Brotli file specifying the output filename:
 
-`brotli -d {any something} -o {file something}`
+`brotli -d {string value: compressed_file.ext.br} -o {file value: sample.ext}`
 
 - Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):
 
-`brotli -q {int number: 11} {file something} -o {any something}`
+`brotli -q {int value: 11} {file value: sample.ext} -o {string value: compressed_file.ext.br}`

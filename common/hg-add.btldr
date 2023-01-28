@@ -5,15 +5,15 @@
 
 - Add files or directories to the staging area:
 
-`hg add {file something}`
+`hg add {file value}`
 
 - Add all unstaged files matching a specified pattern:
 
-`hg add --include {any something}`
+`hg add --include {string value: pattern}`
 
 - Add all unstaged files, excluding those that match a specified pattern:
 
-`hg add --exclude {any something}`
+`hg add --exclude {string value: pattern}`
 
 - Recursively add sub-repositories:
 

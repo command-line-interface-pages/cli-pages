@@ -9,23 +9,23 @@
 
 - Add a new task to the work list:
 
-`todo new {any something} --list {any something}`
+`todo new {string value: thing_to_do} --list {string value: work}`
 
 - Add a location to a task with a given ID:
 
-`todo edit --location {any something} {any something}`
+`todo edit --location {string value: location_name} {string value: task_id}`
 
 - Show details about a task:
 
-`todo show {any something}`
+`todo show {string value: task_id}`
 
 - Mark tasks with the specified IDs as completed:
 
-`todo done {any something}`
+`todo done {string value: task_id1 task_id2 ...}`
 
 - Delete a task:
 
-`todo delete {any something}`
+`todo delete {string value: task_id}`
 
 - Delete done tasks and reset the IDs of the remaining tasks:
 

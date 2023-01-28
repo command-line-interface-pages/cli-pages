@@ -13,20 +13,20 @@
 
 - Eject a specific device (the default order is cd-rom, scsi, floppy and tape):
 
-`eject {any something}`
+`eject {string value: /dev/cdrom}`
 
 - Toggle whether a device's tray is open or closed:
 
-`eject -T {any something}`
+`eject -T {string value: /dev/cdrom}`
 
 - Eject a cd drive:
 
-`eject -r {any something}`
+`eject -r {string value: /dev/cdrom}`
 
 - Eject a floppy drive:
 
-`eject -f {any something}`
+`eject -f {string value: /mnt/floppy}`
 
 - Eject a tape drive:
 
-`eject -q {any something}`
+`eject -q {string value: /mnt/tape}`

@@ -9,28 +9,28 @@
 
 - List all notes attached to a given object (defaults to HEAD):
 
-`git notes list [{any something}]`
+`git notes list [{string value: object}]`
 
 - Show the notes attached to a given object (defaults to HEAD):
 
-`git notes show [{any something}]`
+`git notes show [{string value: object}]`
 
 - Append a note to a specified object (opens the default text editor):
 
-`git notes append {any something}`
+`git notes append {string value: object}`
 
 - Append a note to a specified object, specifying the message:
 
-`git notes append --message="{any something}"`
+`git notes append --message="{string value: message_text}"`
 
 - Edit an existing note (defaults to HEAD):
 
-`git notes edit [{any something}]`
+`git notes edit [{string value: object}]`
 
 - Copy a note from one object to another:
 
-`git notes copy {any something} {any something}`
+`git notes copy {string value: source_object} {string value: target_object}`
 
 - Remove all the notes added to a specified object:
 
-`git notes remove {any something}`
+`git notes remove {string value: object}`

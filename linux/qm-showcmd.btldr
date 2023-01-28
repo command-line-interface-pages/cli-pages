@@ -5,12 +5,12 @@
 
 - Show command line for a specific virtual machine:
 
-`qm showcmd {any something}`
+`qm showcmd {string value: vm_id}`
 
 - Put each option on a new line to enhance human readability:
 
-`qm showcmd --pretty {bool flag: true} {any something}`
+`qm showcmd --pretty {bool flag: true} {string value: vm_id}`
 
 - Fetch config values from a specific snapshot:
 
-`qm showcmd --snapshot {any something} {any something}`
+`qm showcmd --snapshot {string value: string} {string value: vm_id}`

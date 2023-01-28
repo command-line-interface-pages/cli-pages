@@ -5,16 +5,16 @@
 
 - Check the values of all attributes on a file:
 
-`git check-attr --all {file something}`
+`git check-attr --all {file value}`
 
 - Check the value of a specific attribute on a file:
 
-`git check-attr {any something} {file something}`
+`git check-attr {string value: attribute} {file value}`
 
 - Check the value of a specific attribute on files:
 
-`git check-attr --all {any something} {any something}`
+`git check-attr --all {string value: path/to/file1} {string value: path/to/file2}`
 
 - Check the value of a specific attribute on one or more files:
 
-`git check-attr {any something} {any something} {any something}`
+`git check-attr {string value: attribute} {string value: path/to/file1} {string value: path/to/file2}`

@@ -5,15 +5,15 @@
 
 - Start a Linux shell (in the default distribution):
 
-`wsl {any something}`
+`wsl {string value: shell_command}`
 
 - Run a Linux command without using a shell:
 
-`wsl --exec {any something} {any something}`
+`wsl --exec {string value: command} {string value: command_arguments}`
 
 - Specify a particular distribution:
 
-`wsl --distribution {any something} {any something}`
+`wsl --distribution {string value: distribution} {string value: shell_command}`
 
 - List available distributions:
 
@@ -21,15 +21,15 @@
 
 - Export a distribution to a `.tar` file:
 
-`wsl --export {any something} {any something}`
+`wsl --export {string value: distribution} {string value: path/to/distro_fs.tar}`
 
 - Import a distribution from a `.tar` file:
 
-`wsl --import {any something} {any something} {any something}`
+`wsl --import {string value: distribution} {string value: path/to/install_location} {string value: path/to/distro_fs.tar}`
 
 - Change the version of wsl used for the specified distribution:
 
-`wsl --set-version {any something} {any something}`
+`wsl --set-version {string value: distribution} {string value: version}`
 
 - Shut down Windows Subsystem for Linux:
 

@@ -5,11 +5,11 @@
 
 - Print a license to stdout, using the defaults (auto-detected author name, and current year):
 
-`license {any something}`
+`license {string value: license_name}`
 
 - Generate a license and save it to a file:
 
-`license -o {file something} {any something}`
+`license -o {file value} {string value: license_name}`
 
 - List all available licenses:
 
@@ -17,4 +17,4 @@
 
 - Generate a license with custom author name and year:
 
-`license --name {any something} --year {any something} {any something}`
+`license --name {string value: author} --year {string value: release_year} {string value: license_name}`

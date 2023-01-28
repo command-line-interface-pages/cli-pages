@@ -10,11 +10,11 @@
 
 - Display an info dialog displaying the text "Hello!":
 
-`zenity --info --text="{any something}"`
+`zenity --info --text="{string value: Hello!}"`
 
 - Display a name/password form and output the data separated by ";":
 
-`zenity --forms --add-entry="{any something}" --add-password="{any something}" --separator="{any something}"`
+`zenity --forms --add-entry="{string value: Name}" --add-password="{string value: Password}" --separator="{string value: ;}"`
 
 - Display a file selection form in which the user can only select directories:
 
@@ -22,4 +22,4 @@
 
 - Display a progress bar which updates its message every second and show a progress percent:
 
-`{any something} | zenity --progress`
+`{string value: (echo "#1"; sleep 1; echo "50"; echo "#2"; sleep 1; echo "100")} | zenity --progress`

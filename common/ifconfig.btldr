@@ -21,4 +21,4 @@
 
 - Assign IP address to eth0 interface:
 
-`ifconfig eth0 {any something}`
+`ifconfig eth0 {string value: ip_address}`

@@ -5,11 +5,11 @@
 
 - Create a shared memory segment:
 
-`ipcmk --shmem {any something}`
+`ipcmk --shmem {string value: segment_size_in_bytes}`
 
 - Create a semaphore:
 
-`ipcmk --semaphore {any something}`
+`ipcmk --semaphore {string value: element_size}`
 
 - Create a message queue:
 
@@ -17,4 +17,4 @@
 
 - Create a shared memory segment with specific permissions (default is 0644):
 
-`ipcmk --shmem {any something} {any something}`
+`ipcmk --shmem {string value: segment_size_in_bytes} {string value: octal_permissions}`

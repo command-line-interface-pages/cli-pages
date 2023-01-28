@@ -6,4 +6,4 @@
 
 - Validate a device by checking the files in a given directory:
 
-`f3read {any something}`
+`f3read {string value: path/to/mount_point}`

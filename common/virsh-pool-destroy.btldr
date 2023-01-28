@@ -6,4 +6,4 @@
 
 - Stop a storage pool specified by name or UUID (determine using `virsh pool-list`):
 
-`virsh pool-destroy --pool {any something}`
+`virsh pool-destroy --pool {string value: name|uuid}`

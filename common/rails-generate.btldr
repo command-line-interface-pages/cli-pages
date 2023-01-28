@@ -9,16 +9,16 @@
 
 - Generate a new model named Post with attributes title and body:
 
-`rails generate model {any something} {any something} {any something}`
+`rails generate model {string value: Post} {string value: title:string} {string value: body:text}`
 
 - Generate a new controller named Posts with actions index, show, new and create:
 
-`rails generate controller {any something} {any something} {any something} {any something} {any something}`
+`rails generate controller {string value: Posts} {string value: index} {string value: show} {string value: new} {string value: create}`
 
 - Generate a new migration that adds a category attribute to an existing model called Post:
 
-`rails generate migration {any something} {any something}`
+`rails generate migration {string value: AddCategoryToPost} {string value: category:string}`
 
 - Generate a scaffold for a model named Post, predefining the attributes title and body:
 
-`rails generate scaffold {any something} {any something} {any something}`
+`rails generate scaffold {string value: Post} {string value: title:string} {string value: body:text}`

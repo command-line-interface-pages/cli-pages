@@ -5,12 +5,12 @@
 
 - Compile and run sequential Erlang program as a common script and then exit:
 
-`erlc {any something} && erl -noshell '{any something}, init:stop().'`
+`erlc {file* value} && erl -noshell '{string value: mymodule:myfunction(arguments)}, init:stop().'`
 
 - Connect to a running Erlang node:
 
-`erl -remsh {any something}@{any something} -sname {any something} -hidden -setcookie {any something}`
+`erl -remsh {string value: nodename}@{string value: hostname} -sname {string value: custom_shortname} -hidden -setcookie {string value: cookie_of_remote_node}`
 
 - Tell the Erlang shell to load modules from a directory:
 
-`erl -pa {any something}`
+`erl -pa {file* value: directory_with_beam}`

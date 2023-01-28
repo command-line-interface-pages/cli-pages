@@ -6,24 +6,24 @@
 
 - Run gource in a directory (if it isn't the repository's root directory, the root is sought up from there):
 
-`gource {any something}`
+`gource {string value: path/to/repository}`
 
 - Run gource in the current directory, with a custom output resolution:
 
-`gource -{any something}x{any something}`
+`gource -{string value: width}x{string value: height}`
 
 - Set a custom timescale for the animation:
 
-`gource -c {any something}`
+`gource -c {string value: time_scale_multiplier}`
 
 - Set how long each day should be in the animation (this combines with -c, if provided):
 
-`gource -s {any something}`
+`gource -s {string value: seconds}`
 
 - Set fullscreen mode and a custom background color:
 
-`gource -f -b {any something}`
+`gource -f -b {string value: hex_color_code}`
 
 - Set a title for the animation:
 
-`gource --title {any something}`
+`gource --title {string value: title}`

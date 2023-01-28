@@ -5,11 +5,11 @@
 
 - Display help about a specific Git subcommand:
 
-`git help {any something}`
+`git help {string value: subcommand}`
 
 - Display help about a specific Git subcommand in a web browser:
 
-`git help --web {any something}`
+`git help --web {string value: subcommand}`
 
 - Display a list of all available Git subcommands:
 

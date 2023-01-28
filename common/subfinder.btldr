@@ -6,20 +6,20 @@
 
 - Find subdomains for a specific domain:
 
-`subfinder -d {any something}`
+`subfinder -d {string value: example.com}`
 
 - Show only the subdomains found:
 
-`subfinder --silent -d {any something}`
+`subfinder --silent -d {string value: example.com}`
 
 - Use a brute-force attack to find subdomains:
 
-`subfinder -d {any something} -b`
+`subfinder -d {string value: example.com} -b`
 
 - Remove wildcard subdomains:
 
-`subfinder -nW -d {any something}`
+`subfinder -nW -d {string value: example.com}`
 
 - Use a given comma-separated list of resolvers:
 
-`subfinder -r {any something},{any something} -d {any something}`
+`subfinder -r {string value: 8.8.8.8},{string value: 1.1.1.1} -d {string value: example.com}`

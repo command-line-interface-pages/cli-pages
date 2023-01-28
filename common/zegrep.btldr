@@ -5,24 +5,24 @@
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
 
-`zegrep "{any something}" {file something}`
+`zegrep "{string value: search_pattern}" {file value}`
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-insensitive):
 
-`zegrep --ignore-case "{any something}" {file something}`
+`zegrep --ignore-case "{string value: search_pattern}" {file value}`
 
 - Search for lines that do not match a pattern:
 
-`zegrep --invert-match "{any something}" {file something}`
+`zegrep --invert-match "{string value: search_pattern}" {file value}`
 
 - Print file name and line number for each match:
 
-`zegrep --with-filename --line-number "{any something}" {file something}`
+`zegrep --with-filename --line-number "{string value: search_pattern}" {file value}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
-`zegrep --only-matching "{any something}" {file something}`
+`zegrep --only-matching "{string value: search_pattern}" {file value}`
 
 - Recursively search files in a compressed file for a pattern:
 
-`zegrep --recursive "{any something}" {file something}`
+`zegrep --recursive "{string value: search_pattern}" {file value}`

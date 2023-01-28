@@ -5,16 +5,16 @@
 
 - Specify the drive letter (followed by a colon), mount point, or volume name to check:
 
-`chkdsk {any something}`
+`chkdsk {string value: volume}`
 
 - Fix errors on a specific volume:
 
-`chkdsk {any something} /f`
+`chkdsk {string value: volume} /f`
 
 - Dismount a specific volume before checking:
 
-`chkdsk {any something} /x`
+`chkdsk {string value: volume} /x`
 
 - Change the log file size to the specified size (only for NTFS):
 
-`chkdsk /l{any something}`
+`chkdsk /l{string value: size}`

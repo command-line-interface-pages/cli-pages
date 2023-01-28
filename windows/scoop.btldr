@@ -5,11 +5,11 @@
 
 - Install a package:
 
-`scoop install {any something}`
+`scoop install {string value: package}`
 
 - Remove a package:
 
-`scoop uninstall {any something}`
+`scoop uninstall {string value: package}`
 
 - Update all installed packages:
 
@@ -21,11 +21,11 @@
 
 - Display information about a package:
 
-`scoop info {any something}`
+`scoop info {string value: package}`
 
 - Search for a package:
 
-`scoop search {any something}`
+`scoop search {string value: package}`
 
 - Remove old versions of all packages and clear the download cache:
 

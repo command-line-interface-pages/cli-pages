@@ -9,7 +9,7 @@
 
 - Start Caddy with the specified Caddyfile:
 
-`caddy run --config {any something}`
+`caddy run --config {string value: path/to/Caddyfile}`
 
 - Start Caddy in the background:
 
@@ -21,8 +21,8 @@
 
 - Run a simple file server on the specified port with a browsable interface:
 
-`caddy file-server --listen :{int number: 8000} --browse`
+`caddy file-server --listen :{int value: 8000} --browse`
 
 - Run a reverse proxy server:
 
-`caddy reverse-proxy --from :{int number: 80} --to localhost:{int number: 8000}`
+`caddy reverse-proxy --from :{int value: 80} --to localhost:{int value: 8000}`

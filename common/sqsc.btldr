@@ -5,28 +5,28 @@
 
 - List all queues:
 
-`sqsc lq {any something}`
+`sqsc lq {string value: queue_prefix}`
 
 - List all messages in a queue:
 
-`sqsc ls {any something}`
+`sqsc ls {string value: queue_name}`
 
 - Copy all messages from one queue to another:
 
-`sqsc cp {any something} {any something}`
+`sqsc cp {string value: source_queue} {string value: destination_queue}`
 
 - Move all messages from one queue to another:
 
-`sqsc mv {any something} {any something}`
+`sqsc mv {string value: source_queue} {string value: destination_queue}`
 
 - Describe a queue:
 
-`sqsc describe {any something}`
+`sqsc describe {string value: queue_name}`
 
 - Query a queue with SQL syntax:
 
-`sqsc query "SELECT body FROM {any something} WHERE body LIKE '%user%'"`
+`sqsc query "SELECT body FROM {string value: queue_name} WHERE body LIKE '%user%'"`
 
 - Pull all messages from a queue into a local SQLite database in your present working directory:
 
-`sqsc pull {any something}`
+`sqsc pull {string value: queue_name}`

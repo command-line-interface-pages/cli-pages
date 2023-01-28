@@ -5,20 +5,20 @@
 
 - Define group administrators:
 
-`sudo gpasswd -A {any something} {any something}`
+`sudo gpasswd -A {string value: user1,user2} {string value: group}`
 
 - Set the list of group members:
 
-`sudo gpasswd -M {any something} {any something}`
+`sudo gpasswd -M {string value: user1,user2} {string value: group}`
 
 - Create a password for the named group:
 
-`gpasswd {any something}`
+`gpasswd {string value: group}`
 
 - Add a user to the named group:
 
-`gpasswd -a {any something} {any something}`
+`gpasswd -a {string value: user} {string value: group}`
 
 - Remove a user from the named group:
 
-`gpasswd -d {any something} {any something}`
+`gpasswd -d {string value: user} {string value: group}`

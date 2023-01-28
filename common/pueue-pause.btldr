@@ -10,11 +10,11 @@
 
 - Pause a running task:
 
-`pueue pause {any something}`
+`pueue pause {string value: task_id}`
 
 - Pause a running task and stop all its direct children:
 
-`pueue pause --children {any something}`
+`pueue pause --children {string value: task_id}`
 
 - Pause all tasks in a group and prevent it from starting new tasks:
 

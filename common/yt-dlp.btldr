@@ -6,32 +6,32 @@
 
 - Download a video or playlist (with the default options from command below):
 
-`yt-dlp "{any something}"`
+`yt-dlp "{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}"`
 
 - Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
-`yt-dlp --format "{any something}" "{any something}"`
+`yt-dlp --format "{string value: bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}" "{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}"`
 
 - Extract audio from videos (required ffmpeg or ffprobe):
 
-`yt-dlp --extract-audio "{any something}"`
+`yt-dlp --extract-audio "{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}"`
 
 - Specify audio format of extracted audio (the default is "best"):
 
-`yt-dlp --extract-audio --audio-format {any something} "{any something}"`
+`yt-dlp --extract-audio --audio-format {string value: mp3} "{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}"`
 
 - Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
-`yt-dlp --extract-audio --audio-format {any something} --audio-quality {int number: 0} "{any something}"`
+`yt-dlp --extract-audio --audio-format {string value: mp3} --audio-quality {int value: 0} "{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}"`
 
 - Download all playlists of YouTube channel/user keeping each playlist in separate directory:
 
-`yt-dlp -o "{any something}" "{any something}"`
+`yt-dlp -o "{string value: %(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}" "{string value: https://www.youtube.com/user/TheLinuxFoundation/playlists}"`
 
 - Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home:
 
-`yt-dlp -u {any something} -p {any something} -P "{any something}" -o "{any something}" "{any something}"`
+`yt-dlp -u {string value: user} -p {string value: password} -P "{string value: ~/MyVideos}" -o "{string value: %(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s}" "{string value: https://www.udemy.com/java-tutorial}"`
 
 - Download entire series season keeping each series and each season in separate directory under C:/MyVideos:
 
-`yt-dlp -P "{any something}" -o "{any something}" "{any something}"`
+`yt-dlp -P "{string value: C:/MyVideos}" -o "{string value: %(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s}" "{string value: https://videomore.ru/kino_v_detalayah/5_sezon/367617}"`

@@ -5,20 +5,20 @@
 
 - Translate a word (language is detected automatically):
 
-`trans "{any something}"`
+`trans "{string value: word_or_sentence_to_translate}"`
 
 - Get a brief translation:
 
-`trans --brief "{any something}"`
+`trans --brief "{string value: word_or_sentence_to_translate}"`
 
 - Translate a word into french:
 
-`trans :{any something} {any something}`
+`trans :{string value: fr} {string value: word}`
 
 - Translate a word from German to English:
 
-`trans {any something}:{any something} {any something}`
+`trans {string value: de}:{string value: en} {string value: Schmetterling}`
 
 - Behave like a dictionary to get the meaning of a word:
 
-`trans -d {any something}`
+`trans -d {string value: word}`

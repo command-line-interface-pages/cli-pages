@@ -9,19 +9,19 @@
 
 - The range of commits to lint:
 
-`gitlint --commits {any something}`
+`gitlint --commits {string value: single_refspec_argument}`
 
 - Path to a directory or python module with extra user-defined rules:
 
-`gitlint --extra-path {directory something}`
+`gitlint --extra-path {directory value}`
 
 - Start a specific CI job:
 
-`gitlint --target {directory something: target}`
+`gitlint --target {directory value: target}`
 
 - Path to a file containing a commit-msg:
 
-`gitlint --msg-filename {file something}`
+`gitlint --msg-filename {file value}`
 
 - Read staged commit meta-info from the local repository:
 

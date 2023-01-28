@@ -13,23 +13,23 @@
 
 - Create a new branch based on the current branch:
 
-`dolt branch {any something}`
+`dolt branch {string value: branch_name}`
 
 - Create a new branch with the specified commit as the latest:
 
-`dolt branch {any something} {any something}`
+`dolt branch {string value: branch_name} {string value: commit}`
 
 - Rename a branch:
 
-`dolt branch --move {any something} {any something}`
+`dolt branch --move {string value: branch_name1} {string value: branch_name2}`
 
 - Duplicate a branch:
 
-`dolt branch --copy {any something} {any something}`
+`dolt branch --copy {string value: branch_name1} {string value: branch_name2}`
 
 - Delete a branch:
 
-`dolt branch --delete {any something}`
+`dolt branch --delete {string value: branch_name}`
 
 - Display the name of the current branch:
 

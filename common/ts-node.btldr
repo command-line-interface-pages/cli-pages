@@ -5,23 +5,23 @@
 
 - Execute a TypeScript file without compiling (`node` + `tsc`):
 
-`ts-node {file something}`
+`ts-node {file value: sample.ts}`
 
 - Execute a TypeScript file without loading `tsconfig.json`:
 
-`ts-node --skip-project {file something}`
+`ts-node --skip-project {file value: sample.ts}`
 
 - Evaluate TypeScript code passed as a literal on the command-line:
 
-`ts-node --eval '{any something}'`
+`ts-node --eval '{string value: console.log("Hello World")}'`
 
 - Execute a TypeScript file in script mode:
 
-`ts-node --script-mode {file something}`
+`ts-node --script-mode {file value: sample.ts}`
 
 - Transpile a TypeScript file to JavaScript without executing it:
 
-`ts-node --transpile-only {file something}`
+`ts-node --transpile-only {file value: sample.ts}`
 
 - Display TS-Node help:
 

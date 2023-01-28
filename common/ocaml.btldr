@@ -10,8 +10,8 @@
 
 - Read OCaml commands from a file and execute them:
 
-`ocaml {file something}`
+`ocaml {file value: sample.ml}`
 
 - Run OCaml script with modules:
 
-`ocaml {any something} {any something} {file something}`
+`ocaml {string value: module1} {string value: module2} {file value: sample.ml}`

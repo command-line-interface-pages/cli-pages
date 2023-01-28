@@ -9,15 +9,15 @@
 
 - Execute a Racket script:
 
-`racket {any something}`
+`racket {string value: path/to/script.rkt}`
 
 - Execute a Racket expression:
 
-`racket --eval "{any something}"`
+`racket --eval "{string value: expression}"`
 
 - Run module as a script (terminates option list):
 
-`racket --lib {any something} --main {any something}`
+`racket --lib {string value: module_name} --main {string value: arguments}`
 
 - Start a REPL (interactive shell) for the `typed/racket` hashlang:
 

@@ -9,7 +9,7 @@
 
 - Start the server and serve a specific Markdown file:
 
-`grip {file something}`
+`grip {file value: sample.md}`
 
 - Start the server and open the `README` file of the current directory in the browser:
 
@@ -17,4 +17,4 @@
 
 - Start the server in the specified port and serve the rendered `README` file of the current directory:
 
-`grip {any something}`
+`grip {string value: port}`

@@ -9,24 +9,24 @@
 
 - Execute specific [c]ommands:
 
-`dash -c "{any something}"`
+`dash -c "{string value: echo 'dash is executed'}"`
 
 - Execute a specific script:
 
-`dash {any something}`
+`dash {string value: path/to/script.sh}`
 
 - Check a specific script for syntax errors:
 
-`dash -n {any something}`
+`dash -n {string value: path/to/script.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`dash -x {any something}`
+`dash -x {string value: path/to/script.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`dash -e {any something}`
+`dash -e {string value: path/to/script.sh}`
 
 - Execute specific commands from stdin:
 
-`{any something} | dash`
+`{string value: echo "echo 'dash is executed'"} | dash`

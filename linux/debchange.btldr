@@ -13,4 +13,4 @@
 
 - Add a changelog entry to close the bug with specified ID:
 
-`debchange --closes {any something}`
+`debchange --closes {string value: bug_id}`

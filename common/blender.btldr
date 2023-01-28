@@ -6,27 +6,27 @@
 
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
-`blender --background {file something}.blend --render-anim`
+`blender --background {file value}.blend --render-anim`
 
 - Render an animation using a specific image naming pattern, in a path relative (`//`) to the .blend file:
 
-`blender --background {file something}.blend --render-output //{any something} --render-anim`
+`blender --background {file value}.blend --render-output //{string value: render/frame_###.png} --render-anim`
 
 - Render the 10th frame of an animation as a single image, saved to an existing directory (absolute path):
 
-`blender --background {file something}.blend --render-output {/directory something: output} --render-frame {int number: 10}`
+`blender --background {file value}.blend --render-output {/directory value: output} --render-frame {int value: 10}`
 
 - Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 
-`blender --background {file something}.blend --render-output //{directory something: output} --render-frame {any something} --render-frame {int number: -2}`
+`blender --background {file value}.blend --render-output //{directory value: output} --render-frame {string value: JPEG} --render-frame {int value: -2}`
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 
-`blender --background {file something}.blend --scene {any something} --frame-start {int number: 10} -e {int number: 500} --render-anim`
+`blender --background {file value}.blend --scene {string value: scene_name} --frame-start {int value: 10} -e {int value: 500} --render-anim`
 
 - Render an animation at a specific resolution, by passing a Python expression:
 
-`blender --background {file something}.blend --python-expr '{any something}' --render-anim`
+`blender --background {file value}.blend --python-expr '{string value: import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}' --render-anim`
 
 - Start an interactive Blender session in the terminal with a python console (do `import bpy` after starting):
 

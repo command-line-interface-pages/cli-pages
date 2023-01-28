@@ -5,15 +5,15 @@
 
 - List JVMs based on a specific version:
 
-`java_home --version {any something}`
+`java_home --version {string value: 1.5+}`
 
 - List JVMs based on a specific [arch]itecture:
 
-`java_home --arch {any something}`
+`java_home --arch {string value: i386}`
 
 - List JVMs based on a specific tasks (defaults to `CommandLine`):
 
-`java_home --datamodel {any something}`
+`java_home --datamodel {string value: Applets|WebStart|BundledApp|JNI|CommandLine}`
 
 - List JVMs in a XML format:
 

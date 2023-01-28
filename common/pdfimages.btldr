@@ -5,16 +5,16 @@
 
 - Extract all images from a PDF file and save them as PNGs:
 
-`pdfimages -png {file something} {any something}`
+`pdfimages -png {file value: sample.pdf} {string value: filename_prefix}`
 
 - Extract images from pages 3 to 5:
 
-`pdfimages -f {int number: 3} -l {int number: 5} {file something} {any something}`
+`pdfimages -f {int value: 3} -l {int value: 5} {file value: sample.pdf} {string value: filename_prefix}`
 
 - Extract images from a PDF file and include the page number in the output filenames:
 
-`pdfimages -p {file something} {any something}`
+`pdfimages -p {file value: sample.pdf} {string value: filename_prefix}`
 
 - List information about all the images in a PDF file:
 
-`pdfimages -list {file something}`
+`pdfimages -list {file value: sample.pdf}`

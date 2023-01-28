@@ -10,7 +10,7 @@
 
 - Turn on monitor mode for a specific device:
 
-`sudo airmon-ng start {any something}`
+`sudo airmon-ng start {string value: wlan0}`
 
 - Kill disturbing processes that use wireless devices:
 
@@ -18,4 +18,4 @@
 
 - Turn off monitor mode for a specific network interface:
 
-`sudo airmon-ng stop {any something}`
+`sudo airmon-ng stop {string value: wlan0mon}`

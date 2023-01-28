@@ -6,12 +6,12 @@
 
 - List files contained in an APK archive:
 
-`aapt list {any something}`
+`aapt list {string value: path/to/app.apk}`
 
 - Display an app's metadata (version, permissions, etc.):
 
-`aapt dump badging {any something}`
+`aapt dump badging {string value: path/to/app.apk}`
 
 - Create a new APK archive with files from the specified directory:
 
-`aapt package -F {any something} {directory something}`
+`aapt package -F {string value: path/to/app.apk} {directory value}`

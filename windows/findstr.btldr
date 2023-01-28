@@ -5,32 +5,32 @@
 
 - Find space-separated string(s) in all files:
 
-`findstr "{any something}" *`
+`findstr "{string value: query}" *`
 
 - Find space-separated string(s) in a piped command's output:
 
-`{any something} | findstr "{any something}"`
+`{string value: dir} | findstr "{string value: query}"`
 
 - Find space-separated string(s) in all files recur[s]ively:
 
-`findstr /s "{any something}" *`
+`findstr /s "{string value: query}" *`
 
 - Find strings using a case-insensitive search:
 
-`findstr /i "{any something}" *"`
+`findstr /i "{string value: query}" *"`
 
 - Find strings in all files using regular expressions:
 
-`findstr /r "{any something}" *`
+`findstr /r "{string value: expression}" *`
 
 - Find a literal string (containing spaces) in all text files:
 
-`findstr /c:"{any something}" *.txt`
+`findstr /c:"{string value: query}" *.txt`
 
 - Display the line number before each matching line:
 
-`findstr /n "{any something}" *`
+`findstr /n "{string value: query}" *`
 
 - Display only the filenames that contain a match:
 
-`findstr /m "{any something}" *`
+`findstr /m "{string value: query}" *`

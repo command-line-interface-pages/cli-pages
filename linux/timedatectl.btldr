@@ -9,7 +9,7 @@
 
 - Set the local time of the system clock directly:
 
-`timedatectl set-time "{any something}"`
+`timedatectl set-time "{string value: yyyy-MM-dd hh:mm:ss}"`
 
 - List available timezones:
 
@@ -17,7 +17,7 @@
 
 - Set the system timezone:
 
-`timedatectl set-timezone {any something}`
+`timedatectl set-timezone {string value: timezone}`
 
 - Enable Network Time Protocol (NTP) synchronization:
 

@@ -10,11 +10,11 @@
 
 - Install a package, or update it to the latest available version:
 
-`slapt-get --install {any something}`
+`slapt-get --install {string value: package_name}`
 
 - Remove a package:
 
-`slapt-get --remove {any something}`
+`slapt-get --remove {string value: package_name}`
 
 - Upgrade all installed packages to their latest available versions:
 
@@ -22,8 +22,8 @@
 
 - Locate packages by the package name, disk set, or version:
 
-`slapt-get --search {any something}`
+`slapt-get --search {string value: package_name}`
 
 - Show information about a package:
 
-`slapt-get --show {any something}`
+`slapt-get --show {string value: package_name}`

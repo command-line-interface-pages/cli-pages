@@ -5,16 +5,16 @@
 
 - Convert command output to JSON via pipe:
 
-`{any something} | jc {any something}`
+`{string value: ifconfig} | jc {string value: --ifconfig}`
 
 - Convert command output to JSON via magic syntax:
 
-`jc {any something}`
+`jc {string value: ifconfig}`
 
 - Output pretty JSON via pipe:
 
-`{any something} | jc {any something} -p`
+`{string value: ifconfig} | jc {string value: --ifconfig} -p`
 
 - Output pretty JSON via magic syntax:
 
-`jc -p {any something}`
+`jc -p {string value: ifconfig}`

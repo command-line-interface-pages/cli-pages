@@ -5,20 +5,20 @@
 
 - Run Python web app:
 
-`uvicorn {any something}`
+`uvicorn {string value: import.path:app_object}`
 
 - Listen on port 8080 on localhost:
 
-`uvicorn --host {any something} --port {int number: 8080} {any something}`
+`uvicorn --host {string value: localhost} --port {int value: 8080} {string value: import.path:app_object}`
 
 - Turn on live reload:
 
-`uvicorn --reload {any something}`
+`uvicorn --reload {string value: import.path:app_object}`
 
 - Use 4 worker processes for handling requests:
 
-`uvicorn --workers {int number: 4} {any something}`
+`uvicorn --workers {int value: 4} {string value: import.path:app_object}`
 
 - Run app over HTTPS:
 
-`uvicorn --ssl-certfile {any something} --ssl-keyfile {any something} {any something}`
+`uvicorn --ssl-certfile {string value: cert.pem} --ssl-keyfile {string value: key.pem} {string value: import.path:app_object}`

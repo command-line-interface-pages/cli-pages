@@ -5,12 +5,12 @@
 
 - Send a message with the content of `message.txt` to the mail directory of local user `username`:
 
-`sendmail {string user} < {any something}`
+`sendmail {string user} < {string value: message.txt}`
 
 - Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the message in `message.txt`:
 
-`sendmail -f {any something} {any something} < {any something}`
+`sendmail -f {string value: you@yourdomain.com} {string value: test@gmail.com} < {string value: message.txt}`
 
 - Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the file `file.zip`:
 
-`sendmail -f {any something} {any something} < {file something}`
+`sendmail -f {string value: you@yourdomain.com} {string value: test@gmail.com} < {file value: sample.zip}`

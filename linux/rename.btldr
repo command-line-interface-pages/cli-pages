@@ -8,24 +8,24 @@
 
 - Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
 
-`rename {any something} {any something} {any something}`
+`rename {string value: foo} {string value: bar} {string value: *}`
 
 - Dry-run - display which renames would occur without performing them:
 
-`rename -vn {any something} {any something} {any something}`
+`rename -vn {string value: foo} {string value: bar} {string value: *}`
 
 - Do not overwrite existing files:
 
-`rename -o {any something} {any something} {any something}`
+`rename -o {string value: foo} {string value: bar} {string value: *}`
 
 - Change file extensions:
 
-`rename {any something} {any something} {any something}`
+`rename {string value: .ext} {string value: .bak} {string value: *.ext}`
 
 - Prepend "foo" to all filenames in the current directory:
 
-`rename {any something} {any something} {any something}`
+`rename {string value: ''} {string value: 'foo'} {string value: *}`
 
 - Rename a group of increasingly numbered files zero-padding the numbers up to 3 digits:
 
-`rename {any something} {any something} {any something} && rename {any something} {any something} {any something}`
+`rename {string value: foo} {string value: foo00} {string value: foo?} && rename {string value: foo} {string value: foo0} {string value: foo??}`

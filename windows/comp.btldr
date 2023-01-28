@@ -10,28 +10,28 @@
 
 - Compare two specified files:
 
-`comp {any something} {any something}`
+`comp {string value: path/to/file_1} {string value: path/to/file_2}`
 
 - Compare two sets of files:
 
-`comp {any something} {any something}`
+`comp {string value: path/to/directory_1/*} {string value: path/to/directory_2/*}`
 
 - Display differences in decimal format:
 
-`comp /d {any something} {any something}`
+`comp /d {string value: path/to/file_1} {string value: path/to/file_2}`
 
 - Display differences in ASCII format:
 
-`comp /a {any something} {any something}`
+`comp /a {string value: path/to/file_1} {string value: path/to/file_2}`
 
 - Display line numbers for differences:
 
-`comp /l {any something} {any something}`
+`comp /l {string value: path/to/file_1} {string value: path/to/file_2}`
 
 - Compare files case-insensitively:
 
-`comp /c {any something} {any something}`
+`comp /c {string value: path/to/file_1} {string value: path/to/file_2}`
 
 - Compare only the first 5 lines of each file:
 
-`comp /n={int number: 5} {any something} {any something}`
+`comp /n={int value: 5} {string value: path/to/file_1} {string value: path/to/file_2}`

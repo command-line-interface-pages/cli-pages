@@ -9,11 +9,11 @@
 
 - Set the hostname of the computer:
 
-`sudo hostnamectl set-hostname "{any something}"`
+`sudo hostnamectl set-hostname "{string value: hostname}"`
 
 - Set a pretty hostname for the computer:
 
-`sudo hostnamectl set-hostname --static "{any something}" && sudo hostnamectl set-hostname --pretty "{any something}"`
+`sudo hostnamectl set-hostname --static "{string value: hostname.example.com}" && sudo hostnamectl set-hostname --pretty "{string value: hostname}"`
 
 - Reset hostname to its default value:
 

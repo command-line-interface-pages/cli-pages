@@ -9,7 +9,7 @@
 
 - Compile a new Phar file using a specific config file:
 
-`box compile -c {any something}`
+`box compile -c {string value: path/to/config}`
 
 - Display information about the PHAR PHP extension:
 
@@ -17,7 +17,7 @@
 
 - Display information about a specific Phar file:
 
-`box info {file something: phar}`
+`box info {file value: phar}`
 
 - Validate the first found config file in the working directory:
 
@@ -25,7 +25,7 @@
 
 - Verify the signature of a specific Phar file:
 
-`box verify {file something: phar}`
+`box verify {file value: phar}`
 
 - Display all available commands and options:
 

@@ -6,11 +6,11 @@
 
 - Create a new SSH key:
 
-`az sshkey create --name {any something} --resource-group {any something}`
+`az sshkey create --name {string value: name} --resource-group {string value: resource_group}`
 
 - Upload an existing SSH key:
 
-`az sshkey create --name {any something} --resource-group {any something} --public-key "{any something}"`
+`az sshkey create --name {string value: name} --resource-group {string value: resource_group} --public-key "{string value: @path/to/key.pub}"`
 
 - List all SSH public keys:
 
@@ -18,4 +18,4 @@
 
 - Show information about an SSH public key:
 
-`az sshkey show --name {any something} --resource-group {any something}`
+`az sshkey show --name {string value: name} --resource-group {string value: resource_group}`

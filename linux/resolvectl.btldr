@@ -10,24 +10,24 @@
 
 - Resolve the IPv4 and IPv6 addresses for one or more domains:
 
-`resolvectl query {any something}`
+`resolvectl query {string value: domain1 domain2 ...}`
 
 - Retrieve the domain of a specified IP:
 
-`resolvectl query {any something}`
+`resolvectl query {string value: ip_address}`
 
 - Retrieve an MX record of domain:
 
-`resolvectl --legend={bool flag: no} --type={any something} query {any something}`
+`resolvectl --legend={bool flag: no} --type={string value: MX} query {string value: domain}`
 
 - Resolve an SRV record, for example _xmpp-server._tcp gmail.com:
 
-`resolvectl service _{any something}._{any something} {any something}`
+`resolvectl service _{string value: service}._{string value: protocol} {string value: name}`
 
 - Retrieve the public key from an email address from an OPENPGPKEY DNS record:
 
-`resolvectl opengpg {any something}`
+`resolvectl opengpg {string value: email}`
 
 - Retrieve a TLS key:
 
-`resolvectl tlsa tcp {any something}:443`
+`resolvectl tlsa tcp {string value: domain}:443`

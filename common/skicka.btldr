@@ -5,24 +5,24 @@
 
 - Upload a file/folder to Google Drive:
 
-`skicka upload {any something} {any something}`
+`skicka upload {string value: path/to/local} {string value: path/to/remote}`
 
 - Download a file/folder from Google Drive:
 
-`skicka download {any something} {any something}`
+`skicka download {string value: path/to/remote} {string value: path/to/local}`
 
 - List files:
 
-`skicka ls {any something}`
+`skicka ls {string value: path/to/folder}`
 
 - Show amount of space used by children folders:
 
-`skicka du {any something}`
+`skicka du {string value: path/to/parent/folder}`
 
 - Create a folder:
 
-`skicka mkdir {any something}`
+`skicka mkdir {string value: path/to/folder}`
 
 - Delete a file:
 
-`skicka rm {file something}`
+`skicka rm {file value}`

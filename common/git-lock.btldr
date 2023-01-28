@@ -6,4 +6,4 @@
 
 - Disable the ability to commit changes of a local file:
 
-`git lock {file something}`
+`git lock {file value}`

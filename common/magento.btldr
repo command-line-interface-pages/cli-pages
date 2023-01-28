@@ -5,11 +5,11 @@
 
 - Enable one or more space-separated modules:
 
-`magento module:enable {any something}`
+`magento module:enable {string value: module(s)}`
 
 - Disable one or more space-separated modules:
 
-`magento module:disable {any something}`
+`magento module:disable {string value: module(s)}`
 
 - Update the database after enabling modules:
 

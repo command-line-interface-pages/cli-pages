@@ -5,24 +5,24 @@
 
 - Resolve lists of transitive dependencies of two dependencies:
 
-`cs resolve {any something}:{any something}:{any something} {any something}:{any something}:{any something}`
+`cs resolve {string value: group_id1}:{string value: artifact_id1}:{string value: artifact_version1} {string value: group_id2}:{string value: artifact_id2}:{string value: artifact_version2}`
 
 - Resolve lists of transitive dependencies of a package by the dependency tree:
 
-`cs resolve --tree {any something}:{any something}:{any something}`
+`cs resolve --tree {string value: group_id}:{string value: artifact_id}:{string value: artifact_version}`
 
 - Resolve dependency tree in a reverse order (from a dependency to its dependencies):
 
-`cs resolve --reverse-tree {any something}:{any something}:{{artifact_version}`
+`cs resolve --reverse-tree {string value: group_id}:{string value: artifact_id}:{{artifact_version}`
 
 - Print all the libraries that depends on a specific library:
 
-`cs resolve {any something}:{any something}:{any something} --what-depends-on {any something}:{any something}`
+`cs resolve {string value: group_id}:{string value: artifact_id}:{string value: artifact_version} --what-depends-on {string value: searched_group_id}:{string value: searched_artifact_id}`
 
 - Print all the libraries that depends on a specific library version:
 
-`cs resolve {any something}:{any something}:{any something} --what-depends-on {any something}:{any something}{any something}`
+`cs resolve {string value: group_id}:{string value: artifact_id}:{string value: artifact_version} --what-depends-on {string value: searched_group_id}:{string value: searched_artifact_id}{string value: searched_artifact_version}`
 
 - Print eventual conflicts between a set of packages:
 
-`cs resolve --conflicts {any something}`
+`cs resolve --conflicts {string value: group_id1:artifact_id1:artifact_version1 group_id2:artifact_id2:artifact_version2 ...}`

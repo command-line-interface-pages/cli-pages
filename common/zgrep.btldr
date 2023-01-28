@@ -5,28 +5,28 @@
 
 - Grep a pattern in a compressed file (case-sensitive):
 
-`zgrep {any something} {any something}`
+`zgrep {string value: pattern} {string value: path/to/compressed/file}`
 
 - Grep a pattern in a compressed file (case-insensitive):
 
-`zgrep -i {any something} {any something}`
+`zgrep -i {string value: pattern} {string value: path/to/compressed/file}`
 
 - Output count of lines containing matched pattern in a compressed file:
 
-`zgrep -c {any something} {any something}`
+`zgrep -c {string value: pattern} {string value: path/to/compressed/file}`
 
 - Display the lines which don’t have the pattern present (Invert the search function):
 
-`zgrep -v {any something} {any something}`
+`zgrep -v {string value: pattern} {string value: path/to/compressed/file}`
 
 - Grep a compressed file for multiple patterns:
 
-`zgrep -e "{any something}" -e "{any something}" {any something}`
+`zgrep -e "{string value: pattern_1}" -e "{string value: pattern_2}" {string value: path/to/compressed/file}`
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`zgrep -E {any something} {file something}`
+`zgrep -E {string value: regular_expression} {file value}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`zgrep -{any something} {int number: 3} {any something} {any something}`
+`zgrep -{string value: C|B|A} {int value: 3} {string value: pattern} {string value: path/to/compressed/file}`

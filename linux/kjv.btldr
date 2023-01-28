@@ -9,28 +9,28 @@
 
 - Open a specific book:
 
-`kjv {any something}`
+`kjv {string value: Genesis}`
 
 - Open a specific chapter of a book:
 
-`kjv {any something} {int number: 2}`
+`kjv {string value: Genesis} {int value: 2}`
 
 - Open a specific verse of a specific chapter of a book:
 
-`kjv {any something} {int number: 3}:{int number: 16}`
+`kjv {string value: John} {int value: 3}:{int value: 16}`
 
 - Open a specific range of verses of a book's chapter:
 
-`kjv {any something} {int number: 3}:{any something}`
+`kjv {string value: Proverbs} {int value: 3}:{string value: 1-6}`
 
 - Display a specific range of verses of a book from different chapters:
 
-`kjv {any something} {int number: 1}:{int number: 7}-{int number: 2}:{int number: 6}`
+`kjv {string value: Matthew} {int value: 1}:{int value: 7}-{int value: 2}:{int value: 6}`
 
 - Display all verses that match a pattern:
 
-`kjv /{any something}`
+`kjv /{string value: Plagues}`
 
 - Display all verses that match a pattern in a specific book:
 
-`kjv {any something}/{any something}`
+`kjv {string value: 1Jn}/{string value: antichrist}`

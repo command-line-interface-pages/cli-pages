@@ -5,32 +5,32 @@
 
 - Compile one or more C# files to a CIL executable:
 
-`csc {any something} {any something}`
+`csc {string value: path/to/input_file_a.cs} {string value: path/to/input_file_b.cs}`
 
 - Specify the output filename:
 
-`csc /out:{file something} {file something: input}`
+`csc /out:{file value} {file value: input.cs}`
 
 - Compile into a `.dll` library instead of an executable:
 
-`csc /target:library {file something: input}`
+`csc /target:library {file value: input.cs}`
 
 - Reference another assembly:
 
-`csc /reference:{any something} {file something: input}`
+`csc /reference:{string value: path/to/library.dll} {file value: input.cs}`
 
 - Embed a resource:
 
-`csc /resource:{file something: resource} {file something: input}`
+`csc /resource:{file value: resource} {file value: input.cs}`
 
 - Automatically generate XML documentation:
 
-`csc /doc:{any something} {file something: input}`
+`csc /doc:{string value: path/to/output.xml} {file value: input.cs}`
 
 - Specify an icon:
 
-`csc /win32icon:{any something} {file something: input}`
+`csc /win32icon:{string value: path/to/icon.ico} {file value: input.cs}`
 
 - Strongly-name the resulting assembly with a keyfile:
 
-`csc /keyfile:{any something} {file something: input}`
+`csc /keyfile:{string value: path/to/keyfile} {file value: input.cs}`

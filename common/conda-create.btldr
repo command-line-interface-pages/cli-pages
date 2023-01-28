@@ -5,12 +5,12 @@
 
 - Create a new environment named `py39`, and install Python 3.9 and NumPy v1.11 or above in it:
 
-`conda create --yes --name {any something} python={float number: 3.9} "{any something}"`
+`conda create --yes --name {string value: py39} python={float value: 3.9} "{string value: numpy>=1.11}"`
 
 - Make exact copy of an environment:
 
-`conda create --clone {any something} --name {any something}`
+`conda create --clone {string value: py39} --name {string value: py39-copy}`
 
 - Create a new environment with a specified name and install a given package:
 
-`conda create --name {any something} {any something}`
+`conda create --name {string value: env_name} {string value: package_name}`

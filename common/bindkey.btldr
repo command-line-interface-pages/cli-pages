@@ -5,7 +5,7 @@
 
 - Bind a hotkey to a specific command:
 
-`bindkey "{any something}" {any something}`
+`bindkey "{string value: ^k}" {string value: kill-line}`
 
 - Bind a hotkey to a specific key sequence:
 

@@ -5,28 +5,28 @@
 
 - Add a torrent file or magnet link to Transmission and download to a specified directory:
 
-`transmission-remote {any something} -a {any something} -w {/directory something: download}`
+`transmission-remote {string value: hostname} -a {string value: torrent|url} -w {/directory value: download}`
 
 - Change the default download directory:
 
-`transmission-remote {any something} -w {/directory something: download}`
+`transmission-remote {string value: hostname} -w {/directory value: download}`
 
 - List all torrents:
 
-`transmission-remote {any something} --list`
+`transmission-remote {string value: hostname} --list`
 
 - Start torrent 1 and 2, stop torrent 3:
 
-`transmission-remote {any something} -t "{any something}" --start -t {int number: 3} --stop`
+`transmission-remote {string value: hostname} -t "{string value: 1,2}" --start -t {int value: 3} --stop`
 
 - Remove torrent 1 and 2, and also delete local data for torrent 2:
 
-`transmission-remote {any something} -t {int number: 1} --remove -t {int number: 2} --remove-and-delete`
+`transmission-remote {string value: hostname} -t {int value: 1} --remove -t {int value: 2} --remove-and-delete`
 
 - Stop all torrents:
 
-`transmission-remote {any something} -t {any something} --stop`
+`transmission-remote {string value: hostname} -t {string value: all} --stop`
 
 - Move torrents 1-10 and 15-20 to a new directory (which will be created if it does not exist):
 
-`transmission-remote {any something} -t "{any something}" --move {/directory something: new}`
+`transmission-remote {string value: hostname} -t "{string value: 1-10,15-20}" --move {/directory value: new}`

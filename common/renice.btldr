@@ -6,12 +6,12 @@
 
 - Change priority of a running process:
 
-`renice -n {any something} -p {any something}`
+`renice -n {string value: niceness_value} -p {string value: pid}`
 
 - Change priority of all processes owned by a user:
 
-`renice -n {any something} -u {any something}`
+`renice -n {string value: niceness_value} -u {string value: user}`
 
 - Change priority of all processes that belong to a process group:
 
-`renice -n {any something} --pgrp {any something}`
+`renice -n {string value: niceness_value} --pgrp {string value: process_group}`

@@ -6,16 +6,16 @@
 
 - Create a logical volume of 10 gigabytes in the volume group vg1:
 
-`lvcreate -L {any something} {any something}`
+`lvcreate -L {string value: 10G} {string value: vg1}`
 
 - Create a 1500 megabyte linear logical volume named mylv in the volume group vg1:
 
-`lvcreate -L {int number: 1500} -n {any something} {any something}`
+`lvcreate -L {int value: 1500} -n {string value: mylv} {string value: vg1}`
 
 - Create a logical volume called mylv that uses 60% of the total space in volume group vg1:
 
-`lvcreate -l {any something} -n {any something} {any something}`
+`lvcreate -l {string value: 60%VG} -n {string value: mylv} {string value: vg1}`
 
 - Create a logical volume called mylv that uses all the unallocated space in the volume group vg1:
 
-`lvcreate -l {any something} -n {any something} {any something}`
+`lvcreate -l {string value: 100%FREE} -n {string value: mylv} {string value: vg1}`

@@ -17,19 +17,19 @@
 
 - Revoke a dangerous permission for an application:
 
-`adb shell pm revoke {any something} {any something}`
+`adb shell pm revoke {string value: package} {string value: permission}`
 
 - Trigger a key event:
 
-`adb shell input keyevent {any something}`
+`adb shell input keyevent {string value: keycode}`
 
 - Clear the data of an application on an emulator or device:
 
-`adb shell pm clear {any something}`
+`adb shell pm clear {string value: package}`
 
 - Start an activity on emulator/device:
 
-`adb shell am start -n {any something}/{any something}`
+`adb shell am start -n {string value: package}/{string value: activity}`
 
 - Start the home activity on an emulator or device:
 

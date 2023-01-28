@@ -9,11 +9,11 @@
 
 - Start an HTTP server on a specific port:
 
-`cockpit-ws --port {any something}`
+`cockpit-ws --port {string value: port}`
 
 - Start and bind to a specific IP address (defaults to `0.0.0.0`):
 
-`cockpit-ws --address {any something}`
+`cockpit-ws --address {string value: ip_address}`
 
 - Start without TLS:
 

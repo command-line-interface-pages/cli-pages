@@ -5,20 +5,20 @@
 
 - Create a virtual machine with 1 GB RAM and 12 GB storage and start a Debian installation:
 
-`virt-install --name {any something} --memory {int number: 1024} --disk path={any something},size={int number: 12} --cdrom {any something}`
+`virt-install --name {string value: vm_name} --memory {int value: 1024} --disk path={string value: path/to/image.qcow2},size={int value: 12} --cdrom {string value: path/to/debian.iso}`
 
 - Create a x86-64, KVM-accelerated, UEFI-based virtual machine with the Q35 chipset, 4 GiB RAM, 16 GiB RAW storage, and start a Fedora installation:
 
-`virt-install --name {any something} --arch {any something} --virt-type {any something} --machine {any something} --boot {any something} --memory {int number: 4096} --disk path={any something},size={int number: 16} --cdrom {any something}`
+`virt-install --name {string value: vm_name} --arch {string value: x86_64} --virt-type {string value: kvm} --machine {string value: q35} --boot {string value: uefi} --memory {int value: 4096} --disk path={string value: path/to/image.raw},size={int value: 16} --cdrom {string value: path/to/fedora.iso}`
 
 - Create a diskless live virtual machine without an emulated sound device or a USB controller. Don't start an installation and don't autoconnect to console but attach a cdrom to it (might be useful for when using a live CD like tails):
 
-`virt-install --name {any something} --memory {int number: 512} --disk {any something} --controller {any something} --sound {any something} --autoconsole {any something} --install {any something}  --cdrom {any something}`
+`virt-install --name {string value: vm_name} --memory {int value: 512} --disk {string value: none} --controller {string value: type=usb,model=none} --sound {string value: none} --autoconsole {string value: none} --install {string value: no_install=yes}  --cdrom {string value: path/to/tails.iso}`
 
 - Create a virtual machine with 16 GiB RAM, 250 GiB storage, 8 cores with hyperthreading, a specific CPU topology, and a CPU model that shares most features with the host CPU:
 
-`virt-install --name {any something} --cpu {any something},topology.sockets={int number: 1},topology.cores={int number: 4},topology.threads={int number: 2} --memory {int number: 16384} --disk path={any something},size={int number: 250} --cdrom {any something}`
+`virt-install --name {string value: vm_name} --cpu {string value: host-model},topology.sockets={int value: 1},topology.cores={int value: 4},topology.threads={int value: 2} --memory {int value: 16384} --disk path={string value: path/to/image.qcow2},size={int value: 250} --cdrom {string value: path/to/debian.iso}`
 
 - Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required):
 
-`virt-install --name {any something} --memory {int number: 2048} --disk path={any something},size={int number: 20} --location={any something} --extra-args={any something}`
+`virt-install --name {string value: vm_name} --memory {int value: 2048} --disk path={string value: path/to/image.qcow2},size={int value: 20} --location={string value: https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/} --extra-args={string value: "inst.ks=https://path/to/valid/kickstart.org"}`

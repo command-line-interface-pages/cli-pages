@@ -13,7 +13,7 @@
 
 - Generate documentation using a specific configuration file:
 
-`phpdox --file {any something}`
+`phpdox --file {string value: path/to/phpdox.xml}`
 
 - Only run the metadata collection process:
 

@@ -5,20 +5,20 @@
 
 - Initialize a backup repository in the specified local directory:
 
-`bup -d {any something} init`
+`bup -d {string value: path/to/repository} init`
 
 - Prepare a given directory before taking a backup:
 
-`bup -d {any something} index {directory something}`
+`bup -d {string value: path/to/repository} index {directory value}`
 
 - Backup a directory to the repository:
 
-`bup -d {any something} save -n {any something} {directory something}`
+`bup -d {string value: path/to/repository} save -n {string value: backup_name} {directory value}`
 
 - Show the backup snapshots currently stored in the repository:
 
-`bup -d {any something} ls`
+`bup -d {string value: path/to/repository} ls`
 
 - Restore a specific backup snapshot to a target directory:
 
-`bup -d {any something} restore -C {directory something: target} {any something}`
+`bup -d {string value: path/to/repository} restore -C {directory value: target} {string value: backup_name}`

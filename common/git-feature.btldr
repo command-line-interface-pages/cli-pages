@@ -6,16 +6,16 @@
 
 - Create and switch to a new feature branch:
 
-`git feature {any something}`
+`git feature {string value: feature_branch}`
 
 - Merge a feature branch into the current branch creating a merge commit:
 
-`git feature finish {any something}`
+`git feature finish {string value: feature_branch}`
 
 - Merge a feature branch into the current branch squashing the changes into one commit:
 
-`git feature finish --squash {any something}`
+`git feature finish --squash {string value: feature_branch}`
 
 - Send changes from a specific feature branch to its remote counterpart:
 
-`git feature {any something} --remote {any something}`
+`git feature {string value: feature_branch} --remote {string value: remote_name}`

@@ -9,11 +9,11 @@
 
 - Display lines that match a regular expression:
 
-`adb logcat -e {any something}`
+`adb logcat -e {string value: regular_expression}`
 
 - Display logs for a tag in a specific mode ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtering other tags:
 
-`adb logcat {any something}:{any something} *:S`
+`adb logcat {string value: tag}:{string value: mode} *:S`
 
 - Display logs for React Native applications in [V]erbose mode [S]ilencing other tags:
 

@@ -9,8 +9,8 @@
 
 - Synchronize a specific account:
 
-`offlineimap -a {any something}`
+`offlineimap -a {string value: account}`
 
 - Synchronize a specific folder:
 
-`offlineimap -f {any something}`
+`offlineimap -f {string value: folder}`

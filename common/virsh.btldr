@@ -6,7 +6,7 @@
 
 - Connect to a hypervisor session:
 
-`virsh connect {any something}`
+`virsh connect {string value: qemu:///system}`
 
 - List all domains:
 
@@ -14,24 +14,24 @@
 
 - Dump guest configuration file:
 
-`virsh dumpxml {any something} > {any something}`
+`virsh dumpxml {string value: guest_id} > {string value: path/to/guest.xml}`
 
 - Create a guest from a configuration file:
 
-`virsh create {file something: config}`
+`virsh create {file value: config.xml}`
 
 - Edit a guest's configuration file (editor can be changed with $EDITOR):
 
-`virsh edit {any something}`
+`virsh edit {string value: guest_id}`
 
 - Start/reboot/shutdown/suspend/resume a guest:
 
-`virsh {any something} {any something}`
+`virsh {string value: command} {string value: guest_id}`
 
 - Save the current state of a guest to a file:
 
-`virsh save {any something} {any something}`
+`virsh save {string value: guest_id} {file value}`
 
 - Delete a running guest:
 
-`virsh destroy {any something} && virsh undefine {any something}`
+`virsh destroy {string value: guest_id} && virsh undefine {string value: guest_id}`

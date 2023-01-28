@@ -10,7 +10,7 @@
 
 - Set a `subscription` to be the currently active subscription:
 
-`az account set --subscription {any something}`
+`az account set --subscription {string value: subscription_id}`
 
 - List supported regions for the currently active subscription:
 
@@ -18,8 +18,8 @@
 
 - Print an access token to be used with `MS Graph API`:
 
-`az account get-access-token --resource-type {any something}`
+`az account get-access-token --resource-type {string value: ms-graph}`
 
 - Print details of the currently active subscription in a specific format:
 
-`az account show --output {any something}`
+`az account show --output {string value: json|tsv|table|yaml}`

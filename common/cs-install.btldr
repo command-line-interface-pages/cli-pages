@@ -5,19 +5,19 @@
 
 - Install a specific application:
 
-`cs install {any something}`
+`cs install {string value: application_name}`
 
 - Install a specific version of an application:
 
-`cs install {any something}:{any something}`
+`cs install {string value: application_name}:{string value: application_version}`
 
 - Search an application by a specific name:
 
-`cs search {any something}`
+`cs search {string value: application_partial_name}`
 
 - Update a specific application if available:
 
-`cs update {any something}`
+`cs update {string value: application_name}`
 
 - Update all the installed applications:
 
@@ -25,7 +25,7 @@
 
 - Uninstall a specific application:
 
-`cs uninstall {any something}`
+`cs uninstall {string value: application_name}`
 
 - List all installed applications:
 
@@ -33,4 +33,4 @@
 
 - Pass specific java options to an installed application:
 
-`{any something} {any something}`
+`{string value: application_name} {string value: -Jjava_option_name1=value1 -Jjava_option_name2=value2 ...}`

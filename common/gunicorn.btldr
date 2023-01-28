@@ -5,24 +5,24 @@
 
 - Run Python web app:
 
-`gunicorn {any something}`
+`gunicorn {string value: import.path:app_object}`
 
 - Listen on port 8080 on localhost:
 
-`gunicorn --bind {any something}:{int number: 8080} {any something}`
+`gunicorn --bind {string value: localhost}:{int value: 8080} {string value: import.path:app_object}`
 
 - Turn on live reload:
 
-`gunicorn --reload {any something}`
+`gunicorn --reload {string value: import.path:app_object}`
 
 - Use 4 worker processes for handling requests:
 
-`gunicorn --workers {int number: 4} {any something}`
+`gunicorn --workers {int value: 4} {string value: import.path:app_object}`
 
 - Use 4 worker threads for handling requests:
 
-`gunicorn --threads {int number: 4} {any something}`
+`gunicorn --threads {int value: 4} {string value: import.path:app_object}`
 
 - Run app over HTTPS:
 
-`gunicorn --certfile {any something} --keyfile {any something} {any something}`
+`gunicorn --certfile {string value: cert.pem} --keyfile {string value: key.pem} {string value: import.path:app_object}`

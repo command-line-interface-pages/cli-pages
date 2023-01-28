@@ -5,16 +5,16 @@
 
 - Execute command with specified argument(s) and save its output to log file:
 
-`logsave {any something} {any something}`
+`logsave {string value: path/to/logfile} {string value: command}`
 
 - Take input from stdin and save it in a log file:
 
-`logsave {any something} -`
+`logsave {string value: logfile} -`
 
 - Append the output to a log file, instead of replacing its current contents:
 
-`logsave -a {any something} {any something}`
+`logsave -a {string value: logfile} {string value: command}`
 
 - Show verbose output:
 
-`logsave -v {any something} {any something}`
+`logsave -v {string value: logfile} {string value: command}`

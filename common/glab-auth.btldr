@@ -9,7 +9,7 @@
 
 - Log in with a token:
 
-`glab auth login --token {any something}`
+`glab auth login --token {string value: token}`
 
 - Check authentication status:
 
@@ -17,4 +17,4 @@
 
 - Log in to a specific GitLab instance:
 
-`glab auth login --hostname {any something}`
+`glab auth login --hostname {string value: gitlab.example.com}`

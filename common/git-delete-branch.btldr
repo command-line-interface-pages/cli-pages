@@ -6,8 +6,8 @@
 
 - Delete a local and remote Git branch:
 
-`git delete-branch {any something}`
+`git delete-branch {string value: branch_name}`
 
 - Delete multiple local and remote Git branches:
 
-`git delete-branch {any something}`
+`git delete-branch {string value: branch_name1 branch_name2 ...}`

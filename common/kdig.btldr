@@ -5,20 +5,20 @@
 
 - Lookup the IP(s) associated with a hostname (A records):
 
-`kdig {any something}`
+`kdig {string value: example.com}`
 
 - Specify a specific DNS server to query (e.g. Google DNS):
 
-`kdig {any something} @{any something}`
+`kdig {string value: example.com} @{string value: 8.8.8.8}`
 
 - Query a specific DNS record type associated with a given domain name:
 
-`kdig {any something} {any something}`
+`kdig {string value: example.com} {string value: A|AAAA|NS|SOA|DNSKEY|ANY}`
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over TLS (DoT):
 
-`kdig -d @{any something} +tls-ca +tls-host={any something} {any something}`
+`kdig -d @{string value: 8.8.8.8} +tls-ca +tls-host={string value: dns.google} {string value: example.com}`
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
-`kdig -d @{any something} +https +tls-hostname={any something} {any something}`
+`kdig -d @{string value: 1.1.1.1} +https +tls-hostname={string value: 1dot1dot1dot1.cloudflare-dns.com} {string value: example.com}`

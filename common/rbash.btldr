@@ -11,19 +11,19 @@
 
 - Execute a command and then exit:
 
-`rbash -c "{any something}"`
+`rbash -c "{string value: command}"`
 
 - Execute a script:
 
-`rbash {any something}`
+`rbash {string value: path/to/script.sh}`
 
 - Execute a script, printing each command before executing it:
 
-`rbash -x {any something}`
+`rbash -x {string value: path/to/script.sh}`
 
 - Execute commands from a script, stopping at the first error:
 
-`rbash -e {any something}`
+`rbash -e {string value: path/to/script.sh}`
 
 - Read and execute commands from stdin:
 

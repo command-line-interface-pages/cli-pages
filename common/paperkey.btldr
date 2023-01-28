@@ -5,12 +5,12 @@
 
 - Take a specific secret key and generate a text file with the secret data:
 
-`paperkey --secret-key {any something} --output {any something}`
+`paperkey --secret-key {string value: path/to/secret_key.gpg} --output {string value: path/to/secret_data.txt}`
 
 - Take the secret key data in `secret_data.txt` and combine it with the public key to reconstruct the secret key:
 
-`paperkey --pubring {any something} --secrets {any something} --output {any something}`
+`paperkey --pubring {string value: path/to/public_key.gpg} --secrets {string value: path/to/secret_data.txt} --output {string value: secret_key.gpg}`
 
 - Export a specific secret key and generate a text file with the secret data:
 
-`gpg --export-secret-key {any something} | paperkey --output {any something}`
+`gpg --export-secret-key {string value: key} | paperkey --output {string value: path/to/secret_data.txt}`

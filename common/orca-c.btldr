@@ -10,19 +10,19 @@
 
 - Start ORCA and open a specific file:
 
-`orca-c {file something}`
+`orca-c {file value: sample.orca}`
 
 - Start ORCA and set a specific tempo (defaults to 120):
 
-`orca-c --bpm {any something}`
+`orca-c --bpm {string value: beats_per_minute}`
 
 - Start ORCA and set the size of the grid:
 
-`orca-c --initial-size {any something}x{any something}`
+`orca-c --initial-size {string value: columns}x{string value: rows}`
 
 - Start ORCA and set the maximum number of undo steps (defaults to 100):
 
-`orca-c --undo-limit {any something}`
+`orca-c --undo-limit {string value: limit}`
 
 - Show the main menu inside of ORCA:
 

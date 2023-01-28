@@ -5,27 +5,27 @@
 
 - Display paginated output from stdin:
 
-`{any something} | more`
+`{string value: echo test} | more`
 
 - Display paginated output from one or more files:
 
-`more {file something}`
+`more {file value}`
 
 - Convert tabs to the specified number of spaces:
 
-`more {file something} /t{any something}`
+`more {file value} /t{string value: spaces}`
 
 - Clear the screen before displaying the page:
 
-`more {file something} /c`
+`more {file value} /c`
 
 - Display the output starting at line 5:
 
-`more {file something} +{int number: 5}`
+`more {file value} +{int value: 5}`
 
 - Enable extended interactive mode (see help for usage):
 
-`more {file something} /e`
+`more {file value} /e`
 
 - Display full usage information:
 

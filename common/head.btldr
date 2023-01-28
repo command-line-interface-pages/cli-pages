@@ -5,16 +5,16 @@
 
 - Output the first few lines of a file:
 
-`head --lines {any something} {file something}`
+`head --lines {string value: count} {file value}`
 
 - Output the first few bytes of a file:
 
-`head --bytes {any something} {file something}`
+`head --bytes {string value: count} {file value}`
 
 - Output everything but the last few lines of a file:
 
-`head --lines -{any something} {file something}`
+`head --lines -{string value: count} {file value}`
 
 - Output everything but the last few bytes of a file:
 
-`head --bytes -{any something} {file something}`
+`head --bytes -{string value: count} {file value}`

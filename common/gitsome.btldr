@@ -18,12 +18,12 @@
 
 - List the current account's starred repos, filtered by a given search string:
 
-`gh starred "{any something}"`
+`gh starred "{string value: python 3}"`
 
 - View the recent activity feed of a given GitHub repository:
 
-`gh feed {any something}`
+`gh feed {string value: tldr-pages/tldr}`
 
 - View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
 
-`gh feed {any something} -p`
+`gh feed {string value: torvalds} -p`

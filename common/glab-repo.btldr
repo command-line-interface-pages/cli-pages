@@ -5,20 +5,20 @@
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
 
-`glab repo create {any something}`
+`glab repo create {string value: name}`
 
 - Clone a repository:
 
-`glab repo clone {any something}/{any something}`
+`glab repo clone {string value: owner}/{string value: repository}`
 
 - Fork and clone a repository:
 
-`glab repo fork {any something}/{any something} --clone`
+`glab repo fork {string value: owner}/{string value: repository} --clone`
 
 - View a repository in the default web browser:
 
-`glab repo view {any something}/{any something} --web`
+`glab repo view {string value: owner}/{string value: repository} --web`
 
 - Search some repositories in the GitLab instance:
 
-`glab repo search -s {any something}`
+`glab repo search -s {string value: search_string}`

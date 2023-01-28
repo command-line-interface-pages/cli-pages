@@ -10,11 +10,11 @@
 
 - Select a given path as the active developer directory:
 
-`xcode-select --switch {any something}`
+`xcode-select --switch {string value: path/to/Xcode.app/Contents/Developer}`
 
 - Select a given Xcode instance and use its developer directory as the active one:
 
-`xcode-select --switch {any something}`
+`xcode-select --switch {string value: path/to/Xcode.app}`
 
 - Print the currently selected developer directory:
 

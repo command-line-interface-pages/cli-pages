@@ -5,16 +5,16 @@
 
 - Open a file for editing:
 
-`mg {file something}`
+`mg {file value}`
 
 - Open a file at a specified line number:
 
-`mg +{any something} {file something}`
+`mg +{string value: line_number} {file value}`
 
 - Open files in a read-only mode:
 
-`mg -R {any something}`
+`mg -R {file* value}`
 
 - Disable `~` backup files while editing:
 
-`mg -n {file something}`
+`mg -n {file value}`

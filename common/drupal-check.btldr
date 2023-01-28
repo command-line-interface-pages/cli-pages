@@ -5,16 +5,16 @@
 
 - Check the code in a specific directory for deprecations:
 
-`drupal-check {directory something}`
+`drupal-check {directory value}`
 
 - Check the code excluding a comma-separated list of directories:
 
-`drupal-check --exclude-dir {directory something: excluded},{any something} {directory something}`
+`drupal-check --exclude-dir {directory value: excluded},{string value: path/to/excluded_files/*.php} {directory value}`
 
 - Don't show a progress bar:
 
-`drupal-check --no-progress {directory something}`
+`drupal-check --no-progress {directory value}`
 
 - Perform static analysis to detect bad coding practices:
 
-`drupal-check --analysis {directory something}`
+`drupal-check --analysis {directory value}`

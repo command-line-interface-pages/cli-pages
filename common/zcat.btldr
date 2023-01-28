@@ -5,8 +5,8 @@
 
 - Print the uncompressed contents of a gzipped file to the stdout:
 
-`zcat {any something}`
+`zcat {string value: file.txt.gz}`
 
 - Print compression details of a gzipped file to the stdout:
 
-`zcat -l {any something}`
+`zcat -l {string value: file.txt.gz}`

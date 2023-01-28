@@ -5,16 +5,16 @@
 
 - Show a notification with the title "Test" and the content "This is a test":
 
-`notify-send "{any something}" "{any something}"`
+`notify-send "{string value: Test}" "{string value: This is a test}"`
 
 - Show a notification with a custom icon:
 
-`notify-send -i {any something} "{any something}" "{any something}"`
+`notify-send -i {string value: icon.png} "{string value: Test}" "{string value: This is a test}"`
 
 - Show a notification for 5 seconds:
 
-`notify-send -t 5000 "{any something}" "{any something}"`
+`notify-send -t 5000 "{string value: Test}" "{string value: This is a test}"`
 
 - Show a notification with an app's icon and name:
 
-`notify-send "{any something}" --icon={any something} --app-name="{any something}"`
+`notify-send "{string value: Test}" --icon={string value: google-chrome} --app-name="{string value: Google Chrome}"`

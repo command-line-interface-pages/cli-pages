@@ -9,7 +9,7 @@
 
 - Change the active namespace:
 
-`kubens {any something}`
+`kubens {string value: name}`
 
 - Switch to the previous namespace:
 

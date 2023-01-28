@@ -5,12 +5,12 @@
 
 - Debug an executable:
 
-`lldb "{any something}"`
+`lldb "{string value: executable}"`
 
 - Attach `lldb` to a running process with a given PID:
 
-`lldb -p {any something}`
+`lldb -p {string value: pid}`
 
 - Wait for a new process to launch with a given name, and attach to it:
 
-`lldb -w -n "{any something}"`
+`lldb -w -n "{string value: process_name}"`

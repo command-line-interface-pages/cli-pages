@@ -9,4 +9,4 @@
 
 - Change battery information measurement [u]nit (default: human):
 
-`battop -u {any something}`
+`battop -u {string value: human|si}`

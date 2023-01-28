@@ -13,7 +13,7 @@
 
 - Generate new app component, directive, page, pipe, provider or tabs:
 
-`ionic g {any something}`
+`ionic g {string value: page}`
 
 - Show versions of Ionic, Cordova, environment, etc.:
 
@@ -21,8 +21,8 @@
 
 - Run app on an Android/iOS device:
 
-`ionic cordova run {any something} --device`
+`ionic cordova run {string value: android|ios} --device`
 
 - Check the health of an Ionic app:
 
-`ionic doctor {any something}`
+`ionic doctor {string value: check}`

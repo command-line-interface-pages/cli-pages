@@ -5,20 +5,20 @@
 
 - List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 
-`pactl list {any something} short`
+`pactl list {string value: sinks} short`
 
 - Change the default sink (output) to 1 (the number can be retrieved via the `list` subcommand):
 
-`pactl set-default-sink {int number: 1}`
+`pactl set-default-sink {int value: 1}`
 
 - Move sink-input 627 to sink 1:
 
-`pactl move-sink-input {int number: 627} {int number: 1}`
+`pactl move-sink-input {int value: 627} {int value: 1}`
 
 - Set the volume of sink 1 to 75%:
 
-`pactl set-sink-volume {int number: 1} {float number: 0.75}`
+`pactl set-sink-volume {int value: 1} {float value: 0.75}`
 
 - Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`):
 
-`pactl set-sink-mute {any something} toggle`
+`pactl set-sink-mute {string value: @DEFAULT_SINK@} toggle`

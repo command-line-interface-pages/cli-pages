@@ -6,32 +6,32 @@
 
 - Download a torrent:
 
-`webtorrent download "{any something}"`
+`webtorrent download "{string value: torrent_id}"`
 
 - Stream a torrent to VLC media player:
 
-`webtorrent download "{any something}" --vlc`
+`webtorrent download "{string value: torrent_id}" --vlc`
 
 - Stream a torrent to a Digital Living Network Alliance (DLNA) device:
 
-`webtorrent download "{any something}" --dlna`
+`webtorrent download "{string value: torrent_id}" --dlna`
 
 - Display a list of files for a specific torrent:
 
-`webtorrent download "{any something}" --select`
+`webtorrent download "{string value: torrent_id}" --select`
 
 - Specify a file index from the torrent to download:
 
-`webtorrent download "{any something}" --select {any something}`
+`webtorrent download "{string value: torrent_id}" --select {string value: index}`
 
 - Seed a specific file or directory:
 
-`webtorrent seed {file something|path something}`
+`webtorrent seed {path value}`
 
 - Create a new torrent file for the specified file path:
 
-`webtorrent create {file something}`
+`webtorrent create {file value}`
 
 - Display information for a magnet URI or `.torrent` file:
 
-`webtorrent info {any something}`
+`webtorrent info {string value: path/to/file_or_magnet}`

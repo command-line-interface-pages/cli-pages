@@ -13,11 +13,11 @@
 
 - Upload to PyPI with a specified [u]sername and [p]assword:
 
-`twine upload -u {string user} -p {any something} dist/*`
+`twine upload -u {string user} -p {string value: password} dist/*`
 
 - Upload to an alternative repository URL:
 
-`twine upload --repository-url {any something} dist/*`
+`twine upload --repository-url {string value: repository_url} dist/*`
 
 - Check that your distribution's long description should render correctly on PyPI:
 
@@ -25,7 +25,7 @@
 
 - Upload using a specific pypirc configuration file:
 
-`twine upload --config-file {file something: configuration} dist/*`
+`twine upload --config-file {file value: configuration} dist/*`
 
 - Continue uploading files if one already exists (only valid when uploading to PyPI):
 

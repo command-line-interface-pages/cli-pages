@@ -9,7 +9,7 @@
 
 - Check if a specific module is installed:
 
-`sudo a2query -m {any something}`
+`sudo a2query -m {string value: module_name}`
 
 - List enabled virtual hosts:
 

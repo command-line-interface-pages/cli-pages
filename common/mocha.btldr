@@ -9,11 +9,11 @@
 
 - Run tests contained at a specific location:
 
-`mocha {any something}`
+`mocha {string value: directory/with/tests}`
 
 - Run tests that match a specific grep pattern:
 
-`mocha --grep {any something}`
+`mocha --grep {string value: regular_expression}`
 
 - Run tests on changes to JavaScript files in the current directory and once initially:
 
@@ -21,4 +21,4 @@
 
 - Run tests with a specific reporter:
 
-`mocha --reporter {any something}`
+`mocha --reporter {string value: reporter}`

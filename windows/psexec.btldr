@@ -6,20 +6,20 @@
 
 - Execute a command using `cmd` in a remote shell:
 
-`psexec \\{any something} cmd`
+`psexec \\{string value: remote_host} cmd`
 
 - Execute a command on a remote host (pre-authenticated):
 
-`psexec \\{any something} -u {string user} -p {any something}`
+`psexec \\{string value: remote_host} -u {string user} -p {string value: password}`
 
 - Execute a command remotely and output the result to a file:
 
-`psexec \\{any something} cmd /c {any something} -an ^>{file something}`
+`psexec \\{string value: remote_host} cmd /c {string value: command} -an ^>{file value: sample.txt}`
 
 - Execute a program to interact with users:
 
-`psexec \\{any something} -d -i {any something}`
+`psexec \\{string value: remote_host} -d -i {string value: program_name}`
 
 - Display the IP configuration of the remote host:
 
-`psexec \\{any something} ipconfig /all`
+`psexec \\{string value: remote_host} ipconfig /all`

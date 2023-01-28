@@ -5,16 +5,16 @@
 
 - Install a program from its MSI package:
 
-`msiexec /package {file something}`
+`msiexec /package {file value: sample.msi}`
 
 - Install a MSI package from a website:
 
-`msiexec /package {any something}`
+`msiexec /package {string value: https://example.com/installer.msi}`
 
 - Install a MSP patch file:
 
-`msiexec /update {file something}`
+`msiexec /update {file value: sample.msp}`
 
 - Uninstall a program or patch using their respective MSI or MSP file:
 
-`msiexec /uninstall {file something}`
+`msiexec /uninstall {file value}`

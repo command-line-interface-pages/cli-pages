@@ -17,8 +17,8 @@
 
 - Execute code style fixes using a specific config file:
 
-`pint --config {any something}`
+`pint --config {string value: path/to/pint.json}`
 
 - Execute code style fixes using a specific preset:
 
-`pint --preset {any something}`
+`pint --preset {string value: psr12}`

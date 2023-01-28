@@ -5,12 +5,12 @@
 
 - View logs of a program, specifying log files, directories or URLs:
 
-`lnav {any something}`
+`lnav {string value: path/to/log_or_directory|url}`
 
 - View logs of a specific remote host (SSH passwordless login required):
 
-`lnav {any something} {any something}@{any something}:{any something}`
+`lnav {string value: ssh} {string value: user}@{string value: host1.example.com}:{string value: /var/log/syslog.log}`
 
 - Validate the format of log files against the configuration and report any errors:
 
-`lnav -C {directory something: log}`
+`lnav -C {directory value: log}`

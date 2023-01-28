@@ -13,12 +13,12 @@
 
 - Start Redis server, using the specified port, as a background process:
 
-`redis-server --port {any something} --daemonize yes`
+`redis-server --port {string value: port} --daemonize yes`
 
 - Start Redis server with a custom configuration file:
 
-`redis-server {any something}`
+`redis-server {string value: path/to/redis.conf}`
 
 - Start Redis server with verbose logging:
 
-`redis-server --loglevel {any something}`
+`redis-server --loglevel {string value: warning|notice|verbose|debug}`

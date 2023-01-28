@@ -5,7 +5,7 @@
 
 - Register your API token:
 
-`spark register {any something}`
+`spark register {string value: token}`
 
 - Display the currently registered API token:
 
@@ -13,12 +13,12 @@
 
 - Create a new Spark project:
 
-`spark new {any something}`
+`spark new {string value: project_name}`
 
 - Create a new Spark project with Braintree stubs:
 
-`spark new {any something} --braintree`
+`spark new {string value: project_name} --braintree`
 
 - Create a new Spark project with team-based billing stubs:
 
-`spark new {any something} --team-billing`
+`spark new {string value: project_name} --team-billing`

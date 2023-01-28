@@ -6,8 +6,8 @@
 
 - Reset a specific key value:
 
-`dconf read {any something}`
+`dconf read {string value: /path/to/key}`
 
 - Reset a specific directory:
 
-`dconf read -d {any something}`
+`dconf read -d {string value: /path/to/directory/}`

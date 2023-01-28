@@ -5,28 +5,28 @@
 
 - View security context of a file:
 
-`ls -lZ {file something}`
+`ls -lZ {file value}`
 
 - Change the security context of a target file, using a reference file:
 
-`chcon --reference={file something: reference} {file something: target}`
+`chcon --reference={file value: reference} {file value: target}`
 
 - Change the full SELinux security context of a file:
 
-`chcon {any something}:{any something}:{any something}:{any something} {any something}`
+`chcon {string value: user}:{string value: role}:{string value: type}:{string value: range/level} {file value}`
 
 - Change only the user part of SELinux security context:
 
-`chcon -u {any something} {any something}`
+`chcon -u {string value: user} {file value}`
 
 - Change only the role part of SELinux security context:
 
-`chcon -r {any something} {any something}`
+`chcon -r {string value: role} {file value}`
 
 - Change only the type part of SELinux security context:
 
-`chcon -t {any something} {any something}`
+`chcon -t {string value: type} {file value}`
 
 - Change only the range/level part of SELinux security context:
 
-`chcon -l {any something} {any something}`
+`chcon -l {string value: range/level} {file value}`

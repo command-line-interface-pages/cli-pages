@@ -5,20 +5,20 @@
 
 - Sign an RDP file:
 
-`rdpsign {file something}`
+`rdpsign {file value: sample.rdp}`
 
 - Sign an RDP file using a specific sha256 hash:
 
-`rdpsign {file something} /sha265 {any something}`
+`rdpsign {file value: sample.rdp} /sha265 {string value: hash}`
 
 - Enable quiet output:
 
-`rdpsign {file something} /q`
+`rdpsign {file value: sample.rdp} /q`
 
 - Display verbose warnings, messages and statuses:
 
-`rdpsign {file something} /v`
+`rdpsign {file value: sample.rdp} /v`
 
 - Test the signing by displaying the output to stdout without updating the file:
 
-`rdpsign {file something} /l`
+`rdpsign {file value: sample.rdp} /l`

@@ -5,15 +5,15 @@
 
 - Show ASCII aliases of a character:
 
-`ascii {any something}`
+`ascii {string value: a}`
 
 - Show ASCII aliases in short, script-friendly mode:
 
-`ascii -t {any something}`
+`ascii -t {string value: a}`
 
 - Show ASCII aliases of multiple characters:
 
-`ascii -s {any something}`
+`ascii -s {string value: tldr}`
 
 - Show ASCII table in decimal:
 

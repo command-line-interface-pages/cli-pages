@@ -10,4 +10,4 @@
 
 - Remove a specific number of the most recent commits:
 
-`git undo {int number: 3}`
+`git undo {int value: 3}`

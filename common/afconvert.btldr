@@ -5,8 +5,8 @@
 
 - Use a specific extension (default: `aff`):
 
-`afconvert -a {any something} {file something: input} {any something}`
+`afconvert -a {string value: extension} {file value: input} {file* value: output}`
 
 - Use a specific compression level (default: `7`):
 
-`afconvert -X{int number: 0..7} {file something: input} {any something}`
+`afconvert -X{int range: 0..7} {file value: input} {file* value: output}`

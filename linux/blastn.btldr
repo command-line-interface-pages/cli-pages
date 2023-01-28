@@ -5,23 +5,23 @@
 
 - Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):
 
-`blastn -query {any something} -subject {any something} -evalue {any something}`
+`blastn -query {string value: query.fa} -subject {string value: subject.fa} -evalue {string value: 1e-9}`
 
 - Align two or more sequences using blastn:
 
-`blastn -task blastn -query {any something} -subject {any something}`
+`blastn -task blastn -query {string value: query.fa} -subject {string value: subject.fa}`
 
 - Align two or more sequences, custom tabular output format, output to file:
 
-`blastn -query {any something} -subject {any something} -outfmt {any something} -out {any something}`
+`blastn -query {string value: query.fa} -subject {string value: subject.fa} -outfmt {string value: '6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident'} -out {string value: output.tsv}`
 
 - Search nucleotide databases using a nucleotide query, 16 threads (CPUs) to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
 
-`blastn -query {any something} -db {any something} -num_threads {int number: 16} -max_target_seqs {int number: 10}`
+`blastn -query {string value: query.fa} -db {string value: path/to/blast_db} -num_threads {int value: 16} -max_target_seqs {int value: 10}`
 
 - Search the remote non-redundant nucleotide database using a nucleotide query:
 
-`blastn -query {any something} -db {any something} -remote`
+`blastn -query {string value: query.fa} -db {string value: nt} -remote`
 
 - Display help (use `-help` for detailed help):
 

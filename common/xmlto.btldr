@@ -5,16 +5,16 @@
 
 - Convert a DocBook XML document to PDF format:
 
-`xmlto {any something} {any something}`
+`xmlto {string value: pdf} {string value: document.xml}`
 
 - Convert a DocBook XML document to HTML format and store the resulting files in a separate directory:
 
-`xmlto -o {any something} {any something} {any something}`
+`xmlto -o {string value: path/to/html_files} {string value: html} {string value: document.xml}`
 
 - Convert a DocBook XML document to a single HTML file:
 
-`xmlto {any something} {any something}`
+`xmlto {string value: html-nochunks} {string value: document.xml}`
 
 - Specify a stylesheet to use while converting a DocBook XML document:
 
-`xmlto -x {any something} {any something} {any something}`
+`xmlto -x {string value: stylesheet.xsl} {string value: output_format} {string value: document.xml}`

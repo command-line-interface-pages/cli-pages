@@ -17,7 +17,7 @@
 
 - Start all containers using an alternate compose file:
 
-`podman-compose {file something} up`
+`podman-compose {file value} up`
 
 - Stop all running containers:
 
@@ -29,8 +29,8 @@
 
 - Follow logs for a container (omit all container names):
 
-`podman-compose logs --follow {any something}`
+`podman-compose logs --follow {string value: container_name}`
 
 - Run a one-time command in a service with no ports mapped:
 
-`podman-compose run {any something} {any something}`
+`podman-compose run {string value: service_name} {string value: command}`

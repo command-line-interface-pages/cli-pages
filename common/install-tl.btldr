@@ -13,11 +13,11 @@
 
 - Install TeX Live as defined in a specific profile file:
 
-`install-tl -profile {any something}`
+`install-tl -profile {string value: path/to/texlive.profile}`
 
 - Start the installer with the settings from a specific profile file:
 
-`install-tl -init-from-file {any something}`
+`install-tl -init-from-file {string value: path/to/texlive.profile}`
 
 - Start the installer for installation on a portable device, like a USB stick:
 

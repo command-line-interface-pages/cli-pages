@@ -13,11 +13,11 @@
 
 - Compile an Elm file, output the result to an `index.html` file:
 
-`elm make {any something}`
+`elm make {string value: source}`
 
 - Compile an Elm file, output the result to a JavaScript file:
 
-`elm make {any something} --output={any something}.js`
+`elm make {string value: source} --output={string value: destination}.js`
 
 - Start local web server that compiles Elm files on page load:
 
@@ -25,4 +25,4 @@
 
 - Install Elm package from https://package.elm-lang.org:
 
-`elm install {any something}/{any something}`
+`elm install {string value: author}/{string value: package}`

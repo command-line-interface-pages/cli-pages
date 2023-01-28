@@ -9,12 +9,12 @@
 
 - Look [A]head, showing events for the next 30 days:
 
-`calendar -A {int number: 30}`
+`calendar -A {int value: 30}`
 
 - Look [B]ack, showing events for the previous 7 days:
 
-`calendar -B {int number: 7}`
+`calendar -B {int value: 7}`
 
 - Show events from a custom calendar [f]ile:
 
-`calendar -f {file something}`
+`calendar -f {file value}`

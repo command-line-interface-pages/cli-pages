@@ -5,8 +5,8 @@
 
 - Check if an IP address is allowed to send an e-mail from the specified e-mail address:
 
-`spfquery -ip {any something} -sender {any something}`
+`spfquery -ip {string value: 8.8.8.8} -sender {string value: sender@example.com}`
 
 - Turn on debugging output:
 
-`spfquery -ip {any something} -sender {any something} --debug`
+`spfquery -ip {string value: 8.8.8.8} -sender {string value: sender@example.com} --debug`

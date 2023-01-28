@@ -6,23 +6,23 @@
 
 - Open a file in an existing Emacs server (using GUI if available):
 
-`emacsclient {file something}`
+`emacsclient {file value}`
 
 - Open a file in console mode (without an X window):
 
-`emacsclient --no-window-system {file something}`
+`emacsclient --no-window-system {file value}`
 
 - Open a file in a new Emacs window:
 
-`emacsclient --create-frame {file something}`
+`emacsclient --create-frame {file value}`
 
 - Evaluate a command, printing the output to stdout, and then quit:
 
-`emacsclient --eval '({any something})'`
+`emacsclient --eval '({string value: command})'`
 
 - Specify an alternative editor in case no Emacs server is running:
 
-`emacsclient --alternate-editor {any something} {file something}`
+`emacsclient --alternate-editor {string value: editor} {file value}`
 
 - Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:
 

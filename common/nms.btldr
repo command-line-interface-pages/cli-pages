@@ -5,16 +5,16 @@
 
 - Decrypt text after a keystroke:
 
-`echo "{any something}" | nms`
+`echo "{string value: Hello, World!}" | nms`
 
 - Decrypt output immediately, without waiting for a keystroke:
 
-`{any something} | nms -a`
+`{string value: ls -la} | nms -a`
 
 - Decrypt the content of a file, with a custom output color:
 
-`cat {file something} | nms -a -f {any something}`
+`cat {file value} | nms -a -f {string value: blue|white|yellow|black|magenta|green|red}`
 
 - Clear the screen before decrypting:
 
-`{any something} | nms -a -c`
+`{string value: command} | nms -a -c`

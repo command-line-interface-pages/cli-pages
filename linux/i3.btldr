@@ -13,11 +13,11 @@
 
 - Create a new workspace:
 
-`Super + Shift + {any something}`
+`Super + Shift + {string value: number}`
 
 - Switch to workspace {{number}}:
 
-`Super + {any something}`
+`Super + {string value: number}`
 
 - Open new window horizontally:
 

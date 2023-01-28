@@ -5,11 +5,11 @@
 
 - Start monitoring time in project:
 
-`watson start {any something}`
+`watson start {string value: project}`
 
 - Start monitoring time in project with tags:
 
-`watson start {any something} +{any something}`
+`watson start {string value: project} +{string value: tag}`
 
 - Stop monitoring time for the current project:
 

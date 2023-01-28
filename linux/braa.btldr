@@ -5,12 +5,12 @@
 
 - Walk the SNMP tree of host with public string querying all OIDs under `.1.3.6`:
 
-`braa public@{string ip}:{any something}`
+`braa public@{string ip}:{string value: .1.3.6.*}`
 
 - Query the whole subnet `ip_range` for `system.sysLocation.0`:
 
-`braa public@{any something}:{any something}`
+`braa public@{string value: ip_range}:{string value: .1.3.6.1.2.1.1.6.0}`
 
 - Attempt to set the value of `system.sysLocation.0` to a specific workgroup:
 
-`braa private@{string ip}:{any something}=s'{any something}'`
+`braa private@{string ip}:{string value: .1.3.6.1.2.1.1.6.0}=s'{string value: workgroup}'`

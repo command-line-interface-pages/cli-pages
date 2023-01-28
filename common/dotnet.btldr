@@ -6,7 +6,7 @@
 
 - Initialize a new .NET project:
 
-`dotnet new {any something}`
+`dotnet new {string value: template_short_name}`
 
 - Restore NuGet packages:
 
@@ -18,4 +18,4 @@
 
 - Run a packaged dotnet application (only needs the runtime, the rest of the commands require the .NET Core SDK installed):
 
-`dotnet {any something}`
+`dotnet {string value: path/to/application.dll}`

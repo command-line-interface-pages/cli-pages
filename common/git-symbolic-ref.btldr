@@ -5,20 +5,20 @@
 
 - Store a reference by a name:
 
-`git symbolic-ref refs/{any something} {any something}`
+`git symbolic-ref refs/{string value: name} {string value: ref}`
 
 - Store a reference by name, including a message with a reason for the update:
 
-`git symbolic-ref -m "{any something}" refs/{any something} refs/heads/{any something}`
+`git symbolic-ref -m "{string value: message}" refs/{string value: name} refs/heads/{string value: branch_name}`
 
 - Read a reference by name:
 
-`git symbolic-ref refs/{any something}`
+`git symbolic-ref refs/{string value: name}`
 
 - Delete a reference by name:
 
-`git symbolic-ref --delete refs/{any something}`
+`git symbolic-ref --delete refs/{string value: name}`
 
 - For scripting, hide errors with `--quiet` and use `--short` to simplify ("refs/heads/X" prints as "X"):
 
-`git symbolic-ref --quiet --short refs/{any something}`
+`git symbolic-ref --quiet --short refs/{string value: name}`

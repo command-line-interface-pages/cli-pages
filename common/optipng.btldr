@@ -5,24 +5,24 @@
 
 - Compress a PNG with default settings:
 
-`optipng {file something}`
+`optipng {file value: sample.png}`
 
 - Compress a PNG with the best compression:
 
-`optipng -o{int number: 7} {file something}`
+`optipng -o{int value: 7} {file value: sample.png}`
 
 - Compress a PNG with the fastest compression:
 
-`optipng -o{int number: 0} {file something}`
+`optipng -o{int value: 0} {file value: sample.png}`
 
 - Compress a PNG and add interlacing:
 
-`optipng -i {int number: 1} {file something}`
+`optipng -i {int value: 1} {file value: sample.png}`
 
 - Compress a PNG and preserve all metadata (including file timestamps):
 
-`optipng -preserve {file something}`
+`optipng -preserve {file value: sample.png}`
 
 - Compress a PNG and remove all metadata:
 
-`optipng -strip all {file something}`
+`optipng -strip all {file value: sample.png}`

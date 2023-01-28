@@ -9,12 +9,12 @@
 
 - Display the associated file type for a specific extension:
 
-`assoc {any something}`
+`assoc {string value: .txt}`
 
 - Set the associated file type for a specific extension:
 
-`assoc .{any something}={any something}`
+`assoc .{string value: txt}={string value: txtfile}`
 
 - View the output of `assoc` one screen at a time:
 
-`assoc | {any something}`
+`assoc | {string value: more}`

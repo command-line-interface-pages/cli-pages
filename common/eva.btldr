@@ -9,12 +9,12 @@
 
 - Calculate the result of an expression:
 
-`eva "{any something}"`
+`eva "{string value: (1 + 2) * 2 ^ 2}"`
 
 - Calculate an expression forcing the number of decimal places to 5:
 
-`eva --fix {int number: 5} "{any something}"`
+`eva --fix {int value: 5} "{string value: 5 / 3}"`
 
 - Calculate an expression with sine and cosine:
 
-`eva "{any something}"`
+`eva "{string value: sin(1) + cos(1)}"`

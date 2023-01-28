@@ -9,11 +9,11 @@
 
 - Open a restricted Mozilla Firefox:
 
-`firejail {any something}`
+`firejail {string value: firefox}`
 
 - Start a restricted Apache server on a known interface and address:
 
-`firejail --net={any something} --ip={any something} {any something} {any something}`
+`firejail --net={string value: eth0} --ip={string value: 192.168.1.244} {string value: /etc/init.d/apache2} {string value: start}`
 
 - List running sandboxes:
 
@@ -25,4 +25,4 @@
 
 - Shutdown a running sandbox:
 
-`firejail --shutdown={int number: 7777}`
+`firejail --shutdown={int value: 7777}`

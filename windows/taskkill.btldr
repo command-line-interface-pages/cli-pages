@@ -5,23 +5,23 @@
 
 - Terminate a process by its ID:
 
-`taskkill /pid {any something}`
+`taskkill /pid {string value: process_id}`
 
 - Terminate a process by its name:
 
-`taskkill /im {any something}`
+`taskkill /im {string value: process_name}`
 
 - Forcefully terminate a specified process:
 
-`taskkill /pid {any something} /f`
+`taskkill /pid {string value: process_id} /f`
 
 - Terminate a process and its child processes:
 
-`taskkill /im {any something} /t`
+`taskkill /im {string value: process_name} /t`
 
 - Terminate a process on a remote machine:
 
-`taskkill /pid {any something} /s {any something}`
+`taskkill /pid {string value: process_id} /s {string value: remote_name}`
 
 - Display information about the usage of the command:
 

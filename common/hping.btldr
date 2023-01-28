@@ -6,20 +6,20 @@
 
 - Ping localhost over TCP:
 
-`hping3 {any something}`
+`hping3 {string value: localhost}`
 
 - Ping an IP address over TCP on a specific port:
 
-`hping3 -p {int number: 80} -S {any something}`
+`hping3 -p {int value: 80} -S {string value: 192.168.1.1}`
 
 - Ping an IP address over UDP on port 80:
 
-`hping3 --udp -p {int number: 80} -S {any something}`
+`hping3 --udp -p {int value: 80} -S {string value: 192.168.1.1}`
 
 - Scan a set of TCP ports on a specific IP address:
 
-`hping3 --scan {any something} -S {any something}`
+`hping3 --scan {string value: 80,3000,9000} -S {string value: 192.168.1.1}`
 
 - Perform a charge test on port 80:
 
-`hping3 --flood -p {int number: 80} -S {any something}`
+`hping3 --flood -p {int value: 80} -S {string value: 192.168.1.1}`

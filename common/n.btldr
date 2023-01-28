@@ -5,7 +5,7 @@
 
 - Install a given version of node. If the version is already installed, it will be activated:
 
-`n {any something}`
+`n {string value: version}`
 
 - Display installed versions and interactively activate one of them:
 
@@ -13,12 +13,12 @@
 
 - Remove a version:
 
-`n rm {any something}`
+`n rm {string value: version}`
 
 - Execute a file with a given version:
 
-`n use {any something} {file something}`
+`n use {string value: version} {file value: sample.js}`
 
 - Output binary path for a version:
 
-`n bin {any something}`
+`n bin {string value: version}`

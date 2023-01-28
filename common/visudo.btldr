@@ -13,7 +13,7 @@
 
 - Edit the sudoers file using a specific editor:
 
-`sudo EDITOR={any something} visudo`
+`sudo EDITOR={string value: editor} visudo`
 
 - Display version information:
 

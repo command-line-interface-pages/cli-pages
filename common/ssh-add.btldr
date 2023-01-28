@@ -10,7 +10,7 @@
 
 - Add a specific key to the ssh-agent:
 
-`ssh-add {any something}`
+`ssh-add {string value: path/to/private_key}`
 
 - List fingerprints of currently loaded keys:
 
@@ -18,7 +18,7 @@
 
 - Delete a key from the ssh-agent:
 
-`ssh-add -d {any something}`
+`ssh-add -d {string value: path/to/private_key}`
 
 - Delete all currently loaded keys from the ssh-agent:
 
@@ -26,4 +26,4 @@
 
 - Add a key to the ssh-agent and the keychain:
 
-`ssh-add -K {any something}`
+`ssh-add -K {string value: path/to/private_key}`

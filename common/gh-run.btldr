@@ -9,19 +9,19 @@
 
 - Display information about a specific run:
 
-`gh run view {any something}`
+`gh run view {string value: workflow_run_number}`
 
 - Display information about the steps of a job:
 
-`gh run view --job={any something}`
+`gh run view --job={string value: job_number}`
 
 - Display the log of a job:
 
-`gh run view --job={any something} --log`
+`gh run view --job={string value: job_number} --log`
 
 - Check a specific workflow and exit with a non-zero status if the run failed:
 
-`gh run view {any something} --exit-status && {any something}`
+`gh run view {string value: workflow_run_number} --exit-status && {string value: echo "run pending or passed"}`
 
 - Interactively select an active run and wait until it's done:
 
@@ -29,8 +29,8 @@
 
 - Display the jobs for a run and wait until it's done:
 
-`gh run watch {any something}`
+`gh run watch {string value: workflow_run_number}`
 
 - Re-run a specific workflow:
 
-`gh run rerun {any something}`
+`gh run rerun {string value: workflow_run_number}`

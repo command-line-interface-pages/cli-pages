@@ -9,11 +9,11 @@
 
 - Add a Git repository as a submodule:
 
-`git submodule add {any something}`
+`git submodule add {string value: repository_url}`
 
 - Add a Git repository as a submodule at the specified directory:
 
-`git submodule add {any something} {directory something}`
+`git submodule add {string value: repository_url} {directory value}`
 
 - Update every submodule to its latest commit:
 

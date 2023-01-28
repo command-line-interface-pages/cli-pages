@@ -9,7 +9,7 @@
 
 - List the attributes of files in a particular path:
 
-`lsattr {any something}`
+`lsattr {string value: path}`
 
 - List file attributes recursively in the current and subsequent directories:
 

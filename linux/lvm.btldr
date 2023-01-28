@@ -13,7 +13,7 @@
 
 - Initialize a drive or partition to be used as a physical volume:
 
-`sudo lvm pvcreate {any something}`
+`sudo lvm pvcreate {string value: /dev/sdXY}`
 
 - Display information about physical volumes:
 
@@ -21,7 +21,7 @@
 
 - Create a volume group called vg1 from the physical volume on `/dev/sdXY`:
 
-`sudo lvm vgcreate {any something} {any something}`
+`sudo lvm vgcreate {string value: vg1} {string value: /dev/sdXY}`
 
 - Display information about volume groups:
 
@@ -29,7 +29,7 @@
 
 - Create a logical volume with size 10G from volume group vg1:
 
-`sudo lvm lvcreate -L {any something} {any something}`
+`sudo lvm lvcreate -L {string value: 10G} {string value: vg1}`
 
 - Display information about logical volumes:
 

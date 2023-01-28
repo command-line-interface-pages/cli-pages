@@ -5,7 +5,7 @@
 
 - Authorize a Salesforce Organization:
 
-`sfdx force:auth:web:login --setalias {any something} --instanceurl {any something}`
+`sfdx force:auth:web:login --setalias {string value: organization} --instanceurl {string value: organization_url}`
 
 - List all authorized organizations:
 
@@ -13,24 +13,24 @@
 
 - Open a specific organization in the default web browser:
 
-`sfdx force:org:open --targetusername {any something}`
+`sfdx force:org:open --targetusername {string value: organization}`
 
 - Display information about a specific organization:
 
-`sfdx force:org:display --targetusername {any something}`
+`sfdx force:org:display --targetusername {string value: organization}`
 
 - Push source metadata to an Organization:
 
-`sfdx force:source:push --targetusername {any something}`
+`sfdx force:source:push --targetusername {string value: organization}`
 
 - Pull source metadata from an Organization:
 
-`sfdx force:source:pull --targetusername {any something}`
+`sfdx force:source:pull --targetusername {string value: organization}`
 
 - Generate a password for the organization's logged-in user:
 
-`sfdx force:user:password:generate --targetusername {any something}`
+`sfdx force:user:password:generate --targetusername {string value: organization}`
 
 - Assign a permission set for the organization's logged-in user:
 
-`sfdx force:user:permset:assign --permsetname {any something} --targetusername {any something}`
+`sfdx force:user:permset:assign --permsetname {string value: permission_set_name} --targetusername {string value: organization}`

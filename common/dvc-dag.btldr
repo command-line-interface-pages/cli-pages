@@ -9,8 +9,8 @@
 
 - Visualize the pipeline stages up to a specified target stage:
 
-`dvc dag {any something}`
+`dvc dag {string value: target}`
 
 - Export the pipeline in the dot format:
 
-`dvc dag --dot > {any something}`
+`dvc dag --dot > {string value: path/to/pipeline.dot}`

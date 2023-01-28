@@ -5,7 +5,7 @@
 
 - Authenticate with and save concourse target:
 
-`fly --target {any something} login --team-name {any something} -c {any something}`
+`fly --target {string value: target_name} login --team-name {string value: team_name} -c {string value: https://ci.example.com}`
 
 - List targets:
 
@@ -13,24 +13,24 @@
 
 - List pipelines:
 
-`fly -t {any something} pipelines`
+`fly -t {string value: target_name} pipelines`
 
 - Upload or update a pipeline:
 
-`fly -t {any something} set-pipeline --config {any something} --pipeline {any something}`
+`fly -t {string value: target_name} set-pipeline --config {string value: pipeline.yml} --pipeline {string value: pipeline_name}`
 
 - Unpause pipeline:
 
-`fly -t {any something} unpause-pipeline --pipeline {any something}`
+`fly -t {string value: target_name} unpause-pipeline --pipeline {string value: pipeline_name}`
 
 - Show pipeline configuration:
 
-`fly -t {any something} get-pipeline --pipeline {any something}`
+`fly -t {string value: target_name} get-pipeline --pipeline {string value: pipeline_name}`
 
 - Update local copy of fly:
 
-`fly -t {any something} sync`
+`fly -t {string value: target_name} sync`
 
 - Destroy pipeline:
 
-`fly -t {any something} destroy-pipeline --pipeline {any something}`
+`fly -t {string value: target_name} destroy-pipeline --pipeline {string value: pipeline_name}`

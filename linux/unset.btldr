@@ -5,12 +5,12 @@
 
 - Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`:
 
-`unset {any something}`
+`unset {string value: foo}`
 
 - Remove the variables foo and bar:
 
-`unset -v {any something} {any something}`
+`unset -v {string value: foo} {string value: bar}`
 
 - Remove the function my_func:
 
-`unset -f {any something}`
+`unset -f {string value: my_func}`

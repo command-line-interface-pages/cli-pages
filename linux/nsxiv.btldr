@@ -5,15 +5,15 @@
 
 - Open images:
 
-`nsxiv {any something}`
+`nsxiv {file* value}`
 
 - Open images from directories in image mode:
 
-`nsxiv {directory* something}`
+`nsxiv {directory* value}`
 
 - Search directories recursively for images to view:
 
-`nsxiv -r {directory* something}`
+`nsxiv -r {directory* value}`
 
 - Quit nsxiv:
 

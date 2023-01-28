@@ -9,16 +9,16 @@
 
 - Debug a specific PlatformIO project:
 
-`pio debug --project-dir {any something}`
+`pio debug --project-dir {string value: path/to/platformio_project}`
 
 - Debug a specific environment:
 
-`pio debug --environment {any something}`
+`pio debug --environment {string value: environment}`
 
 - Debug a PlatformIO project using a specific configuration file:
 
-`pio debug --project-conf {any something}`
+`pio debug --project-conf {string value: path/to/platformio.ini}`
 
 - Debug a PlatformIO project using the `gdb` debugger:
 
-`pio debug --interface={any something} {any something}`
+`pio debug --interface={string value: gdb} {string value: gdb_options}`

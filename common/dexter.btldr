@@ -5,8 +5,8 @@
 
 - Create and authenticate a user with Google OIDC:
 
-`dexter auth -i {any something} -s {any something}`
+`dexter auth -i {string value: client_id} -s {string value: client_secret}`
 
 - Override the default kube config location:
 
-`dexter auth -i {any something} -s {any something} --kube-config {any something}`
+`dexter auth -i {string value: client_id} -s {string value: client_secret} --kube-config {string value: sample/config}`

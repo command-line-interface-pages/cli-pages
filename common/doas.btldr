@@ -5,11 +5,11 @@
 
 - Run a command as root:
 
-`doas {any something}`
+`doas {string value: command}`
 
 - Run a command as another user:
 
-`doas -u {any something} {any something}`
+`doas -u {string value: user} {string value: command}`
 
 - Launch the default shell as root:
 
@@ -17,7 +17,7 @@
 
 - Parse a config file and check if the execution of a command as another user is allowed:
 
-`doas -C {file something: config} {any something}`
+`doas -C {file value: config} {string value: command}`
 
 - Make `doas` request a password even after it was supplied earlier:
 

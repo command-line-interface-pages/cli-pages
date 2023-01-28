@@ -5,19 +5,19 @@
 
 - Add a new task which is due tomorrow:
 
-`task add {any something} due:{any something}`
+`task add {string value: description} due:{string value: tomorrow}`
 
 - Update a task's priority:
 
-`task {any something} modify priority:{any something}`
+`task {string value: task_id} modify priority:{string value: H|M|L}`
 
 - Complete a task:
 
-`task {any something} done`
+`task {string value: task_id} done`
 
 - Delete a task:
 
-`task {any something} delete`
+`task {string value: task_id} delete`
 
 - List all open tasks:
 
@@ -25,7 +25,7 @@
 
 - List open tasks due before the end of the week:
 
-`task list due.before:{any something}`
+`task list due.before:{string value: eow}`
 
 - Show a graphical burndown chart, by day:
 

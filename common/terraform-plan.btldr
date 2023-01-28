@@ -17,11 +17,11 @@
 
 - Specify values for input variables:
 
-`terraform plan -var '{any something}={any something}' -var '{any something}={any something}'`
+`terraform plan -var '{string value: name1}={string value: value1}' -var '{string value: name2}={string value: value2}'`
 
 - Focus Terraform's attention on only a subset of resources:
 
-`terraform plan -target {any something}`
+`terraform plan -target {string value: resource_type.resource_name[instance index]}`
 
 - Output a plan as JSON:
 
@@ -29,4 +29,4 @@
 
 - Write a plan to a specific file:
 
-`terraform plan -no-color > {file something}`
+`terraform plan -no-color > {file value}`

@@ -5,19 +5,19 @@
 
 - Create a new team with the specified description:
 
-`pio team create --description {any something} {any something}:{any something}`
+`pio team create --description {string value: description} {string value: organization_name}:{string value: team_name}`
 
 - Delete a team:
 
-`pio team destroy {any something}:{any something}`
+`pio team destroy {string value: organization_name}:{string value: team_name}`
 
 - Add a new user to a team:
 
-`pio team add {any something}:{any something} {string user}`
+`pio team add {string value: organization_name}:{string value: team_name} {string user}`
 
 - Remove a user from a team:
 
-`pio team remove {any something}:{any something} {string user}`
+`pio team remove {string value: organization_name}:{string value: team_name} {string user}`
 
 - List all teams that the user is part of and their members:
 
@@ -25,12 +25,12 @@
 
 - List all teams in an organization:
 
-`pio team list {any something}`
+`pio team list {string value: organization_name}`
 
 - Rename a team:
 
-`pio team update --name {any something} {any something}:{any something}`
+`pio team update --name {string value: new_team_name} {string value: organization_name}:{string value: team_name}`
 
 - Change the description of a team:
 
-`pio team update --description {any something} {any something}:{any something}`
+`pio team update --description {string value: new_description} {string value: organization_name}:{string value: team_name}`

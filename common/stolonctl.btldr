@@ -5,16 +5,16 @@
 
 - Get cluster status:
 
-`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} status`
+`stolonctl --cluster-name {string value: cluster_name} --store-backend {string value: store_backend} --store-endpoints {string value: store_endpoints} status`
 
 - Get cluster data:
 
-`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} clusterdata`
+`stolonctl --cluster-name {string value: cluster_name} --store-backend {string value: store_backend} --store-endpoints {string value: store_endpoints} clusterdata`
 
 - Get cluster specification:
 
-`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} spec`
+`stolonctl --cluster-name {string value: cluster_name} --store-backend {string value: store_backend} --store-endpoints {string value: store_endpoints} spec`
 
 - Update cluster specification with a patch in JSON format:
 
-`stolonctl --cluster-name {any something} --store-backend {any something} --store-endpoints {any something} update --patch '{any something}'`
+`stolonctl --cluster-name {string value: cluster_name} --store-backend {string value: store_backend} --store-endpoints {string value: store_endpoints} update --patch '{string value: cluster_spec}'`

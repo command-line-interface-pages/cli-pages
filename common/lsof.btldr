@@ -6,15 +6,15 @@
 
 - Find the processes that have a given file open:
 
-`lsof {file something}`
+`lsof {file value}`
 
 - Find the process that opened a local internet port:
 
-`lsof -i :{any something}`
+`lsof -i :{string value: port}`
 
 - Only output the process ID (PID):
 
-`lsof -t {file something}`
+`lsof -t {file value}`
 
 - List files opened by the given user:
 
@@ -22,16 +22,16 @@
 
 - List files opened by the given command or process:
 
-`lsof -c {any something}`
+`lsof -c {string value: process_or_command_name}`
 
 - List files opened by a specific process, given its PID:
 
-`lsof -p {any something}`
+`lsof -p {string value: PID}`
 
 - List open files in a directory:
 
-`lsof +D {directory something}`
+`lsof +D {directory value}`
 
 - Find the process that is listening on a local IPv6 TCP port and don't convert network or port numbers:
 
-`lsof -i6TCP:{any something} -sTCP:LISTEN -n -P`
+`lsof -i6TCP:{string value: port} -sTCP:LISTEN -n -P`

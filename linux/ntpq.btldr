@@ -21,4 +21,4 @@
 
 - Print NTP system variables values:
 
-`ntpq --command={any something}`
+`ntpq --command={string value: rv}`

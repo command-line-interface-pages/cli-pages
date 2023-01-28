@@ -9,24 +9,24 @@
 
 - List all units containing a specific string in interactive mode:
 
-`search {any something}`
+`search {string value: string}`
 
 - Show the conversion between two simple units:
 
-`units {any something} {any something}`
+`units {string value: quarts} {string value: tablespoons}`
 
 - Convert between units with quantities:
 
-`units "{any something}" {any something}`
+`units "{string value: 15 pounds}" {string value: kilograms}`
 
 - Show the conversion between two compound units:
 
-`units "{any something}" "{any something}"`
+`units "{string value: meters / second}" "{string value: inches / hour}"`
 
 - Show the conversion between units with different dimensions:
 
-`units "{any something}" "{any something}"`
+`units "{string value: acres}" "{string value: ft^2}"`
 
 - Show the conversion of byte multipliers:
 
-`units "{any something}" {any something}`
+`units "{string value: 15 megabytes}" {string value: bytes}`

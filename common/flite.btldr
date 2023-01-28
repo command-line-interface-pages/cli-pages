@@ -9,19 +9,19 @@
 
 - Convert a text string to speech:
 
-`flite -t "{any something}"`
+`flite -t "{string value: string}"`
 
 - Convert the contents of a file to speech:
 
-`flite -f {file something}`
+`flite -f {file value: sample.txt}`
 
 - Specify which voice to use:
 
-`flite -voice {any something}`
+`flite -voice {string value: file://path/to/filename.flitevox|url}`
 
 - Store output into a wav file:
 
-`flite -voice {any something} -f {file something} -o {any something}`
+`flite -voice {string value: file://path/to/filename.flitevox|url} -f {file value: sample.txt} -o {string value: output.wav}`
 
 - Display version:
 

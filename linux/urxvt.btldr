@@ -10,16 +10,16 @@
 
 - Run in a specific directory:
 
-`urxvt -cd {directory something}`
+`urxvt -cd {directory value}`
 
 - Run a command in a new urxvt window:
 
-`urxvt -e {any something}`
+`urxvt -e {string value: command}`
 
 - Run a command and keep the window open:
 
-`urxvt --hold -e {any something}`
+`urxvt --hold -e {string value: command}`
 
 - Run a command within the `sh` shell:
 
-`urxvt -e {any something} -c {any something}`
+`urxvt -e {string value: sh} -c {string value: command}`

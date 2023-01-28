@@ -13,7 +13,7 @@
 
 - Remove a user and their home, but backup their files into a `.tar.gz` file in the specified directory:
 
-`sudo deluser --backup-to {directory something: backup} --remove-home {string user}`
+`sudo deluser --backup-to {directory value: backup} --remove-home {string user}`
 
 - Remove a user, and all files owned by them:
 

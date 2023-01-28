@@ -14,4 +14,4 @@
 
 - Limit the search to a particular domain:
 
-`avahi-browse --all --domain={any something}`
+`avahi-browse --all --domain={string value: domain}`

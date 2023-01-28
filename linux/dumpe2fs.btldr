@@ -6,20 +6,20 @@
 
 - Display ext2, ext3 and ext4 filesystem information:
 
-`dumpe2fs {any something}`
+`dumpe2fs {string value: /dev/sdXN}`
 
 - Display the blocks which are reserved as bad in the filesystem:
 
-`dumpe2fs -b {any something}`
+`dumpe2fs -b {string value: /dev/sdXN}`
 
 - Force display filesystem information even with unrecognizable feature flags:
 
-`dumpe2fs -f {any something}`
+`dumpe2fs -f {string value: /dev/sdXN}`
 
 - Only display the superblock information and not any of the block group descriptor detail information:
 
-`dumpe2fs -h {any something}`
+`dumpe2fs -h {string value: /dev/sdXN}`
 
 - Print the detailed group information block numbers in hexadecimal format:
 
-`dumpe2fs -x {any something}`
+`dumpe2fs -x {string value: /dev/sdXN}`

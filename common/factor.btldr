@@ -5,8 +5,8 @@
 
 - Display the prime-factorization of a number:
 
-`factor {any something}`
+`factor {string value: number}`
 
 - Take the input from stdin if no argument is specified:
 
-`echo {any something} | factor`
+`echo {string value: number} | factor`

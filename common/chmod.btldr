@@ -5,32 +5,32 @@
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 
-`chmod u+x {file something}`
+`chmod u+x {file value}`
 
 - Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
 
-`chmod u+rw {file something|path something}`
+`chmod u+rw {path value}`
 
 - Remove e[x]ecutable rights from the [g]roup:
 
-`chmod g-x {file something}`
+`chmod g-x {file value}`
 
 - Give [a]ll users rights to [r]ead and e[x]ecute:
 
-`chmod a+rx {file something}`
+`chmod a+rx {file value}`
 
 - Give [o]thers (not in the file owner's group) the same rights as the [g]roup:
 
-`chmod o=g {file something}`
+`chmod o=g {file value}`
 
 - Remove all rights from [o]thers:
 
-`chmod o= {file something}`
+`chmod o= {file value}`
 
 - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
 
-`chmod -R g+w,o+w {directory something}`
+`chmod -R g+w,o+w {directory value}`
 
 - Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
 
-`chmod -R a+rX {directory something}`
+`chmod -R a+rX {directory value}`

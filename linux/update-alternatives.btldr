@@ -5,19 +5,19 @@
 
 - Add a symbolic link:
 
-`sudo update-alternatives --install {any something} {any something} {any something} {any something}`
+`sudo update-alternatives --install {string value: path/to/symlink} {string value: command_name} {string value: path/to/command_binary} {string value: priority}`
 
 - Configure a symbolic link for `java`:
 
-`sudo update-alternatives --config {any something}`
+`sudo update-alternatives --config {string value: java}`
 
 - Remove a symbolic link:
 
-`sudo update-alternatives --remove {any something} {any something}`
+`sudo update-alternatives --remove {string value: java} {string value: /opt/java/jdk1.8.0_102/bin/java}`
 
 - Display information about a specified command:
 
-`update-alternatives --display {any something}`
+`update-alternatives --display {string value: java}`
 
 - Display all commands and their current selection:
 

@@ -9,20 +9,20 @@
 
 - Install a new package:
 
-`apk add {any something}`
+`apk add {string value: package}`
 
 - Remove a package:
 
-`apk del {any something}`
+`apk del {string value: package}`
 
 - Repair a package or upgrade it without modifying main dependencies:
 
-`apk fix {any something}`
+`apk fix {string value: package}`
 
 - Search for a package via keywords:
 
-`apk search {any something}`
+`apk search {string value: keywords}`
 
 - Display information about a specific package:
 
-`apk info {any something}`
+`apk info {string value: package}`

@@ -5,7 +5,7 @@
 
 - Analyze specific directory:
 
-`dua {directory something}`
+`dua {directory value}`
 
 - Display apparent size instead of disk usage:
 
@@ -25,8 +25,8 @@
 
 - Format printing byte counts:
 
-`dua --format {any something}`
+`dua --format {string value: metric|binary|bytes|GB|GiB|MB|MiB}`
 
 - Set the number of threads to be used:
 
-`dua --threads {any something}`
+`dua --threads {string value: count}`

@@ -9,12 +9,12 @@
 
 - List available SAPIs for PHP 7.3:
 
-`sudo phpquery -v {float number: 7.3} -S`
+`sudo phpquery -v {float value: 7.3} -S`
 
 - List enabled extensions for PHP 7.3 with the cli SAPI:
 
-`sudo phpquery -v {float number: 7.3} -s {any something} -M`
+`sudo phpquery -v {float value: 7.3} -s {string value: cli} -M`
 
 - Check if the JSON extension is enabled for PHP 7.3 with the apache2 SAPI:
 
-`sudo phpquery -v {float number: 7.3} -s {any something} -m {any something}`
+`sudo phpquery -v {float value: 7.3} -s {string value: apache2} -m {string value: json}`

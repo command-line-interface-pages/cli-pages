@@ -9,8 +9,8 @@
 
 - Create a desktop app with a custom name:
 
-`nativefier --name {any something} {string url}`
+`nativefier --name {string value: name} {string url}`
 
 - Use a custom icon, should be a PNG:
 
-`nativefier --icon {any something} {string url}`
+`nativefier --icon {string value: path/to/icon.png} {string url}`

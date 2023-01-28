@@ -10,19 +10,19 @@
 
 - Execute a subcommand with input from a file or URI, printing to stdout:
 
-`xml {any something} {any something} {any something}`
+`xml {string value: subcommand} {string value: options} {string value: path/to/input.xml|URI}`
 
 - Execute a subcommand using stdin and stdout:
 
-`xml {any something} {any something}`
+`xml {string value: subcommand} {string value: options}`
 
 - Execute a subcommand with input from a file or URI and output to a file:
 
-`xml {any something} {any something} {any something} > {any something}`
+`xml {string value: subcommand} {string value: options} {string value: path/to/input.xml|URI} > {string value: path/to/output}`
 
 - Display help for a subcommand:
 
-`xml {any something} --help`
+`xml {string value: subcommand} --help`
 
 - Display the version of the XMLStarlet Toolkit:
 

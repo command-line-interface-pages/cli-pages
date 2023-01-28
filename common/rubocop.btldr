@@ -9,11 +9,11 @@
 
 - Check one or more specific files or directories:
 
-`rubocop {file something} {directory something}`
+`rubocop {file value} {directory value}`
 
 - Write output to file:
 
-`rubocop --out {file something}`
+`rubocop --out {file value}`
 
 - View list of cops (linter rules):
 
@@ -21,11 +21,11 @@
 
 - Exclude a cop:
 
-`rubocop --except {any something} {any something}`
+`rubocop --except {string value: cop_1} {string value: cop_2}`
 
 - Run only specified cops:
 
-`rubocop --only {any something} {any something}`
+`rubocop --only {string value: cop_1} {string value: cop_2}`
 
 - Auto-correct files (experimental):
 

@@ -9,7 +9,7 @@
 
 - Compare only specified files:
 
-`git diff-files {file something}`
+`git diff-files {file value}`
 
 - Show only the names of changed files:
 

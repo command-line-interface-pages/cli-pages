@@ -5,11 +5,11 @@
 
 - Initialize a new Dart project in a directory of the same name:
 
-`dart create {any something}`
+`dart create {string value: project_name}`
 
 - Run a Dart file:
 
-`dart run {file something}`
+`dart run {file value: sample.dart}`
 
 - Download dependencies for the current project:
 
@@ -25,4 +25,4 @@
 
 - Compile a Dart file to a native binary:
 
-`dart compile exe {file something}`
+`dart compile exe {file value: sample.dart}`

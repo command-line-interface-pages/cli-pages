@@ -9,28 +9,28 @@
 
 - Initialize a new build file:
 
-`phing -i {any something}`
+`phing -i {string value: path/to/build.xml}`
 
 - Perform a specific task:
 
-`phing {any something}`
+`phing {string value: task_name}`
 
 - Specify a custom build file path:
 
-`phing -f {any something} {any something}`
+`phing -f {string value: path/to/build.xml} {string value: task_name}`
 
 - Specify a log file to output to:
 
-`phing -b {file something: log} {any something}`
+`phing -b {file value: log} {string value: task_name}`
 
 - Specify custom properties to use in the build:
 
-`phing -D{any something}={any something} {any something}`
+`phing -D{string value: property}={string value: value} {string value: task_name}`
 
 - Specify a custom listener class:
 
-`phing -listener {any something} {any something}`
+`phing -listener {string value: class_name} {string value: task_name}`
 
 - Build using verbose output:
 
-`phing -verbose {any something}`
+`phing -verbose {string value: task_name}`

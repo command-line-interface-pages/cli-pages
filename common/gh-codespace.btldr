@@ -17,7 +17,7 @@
 
 - Transfer a specific file to a codespace interactively:
 
-`gh codespace cp {file something: source} remote:{file something: remote}`
+`gh codespace cp {file value: source} remote:{file value: remote}`
 
 - List the ports of a codespace interactively:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`gh codespace {any something} --help`
+`gh codespace {string value: code|cp|create|delete|edit|...} --help`

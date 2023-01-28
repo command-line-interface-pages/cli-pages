@@ -9,16 +9,16 @@
 
 - Open an LXTerminal window, run a command, and then exit:
 
-`lxterminal -e "{any something}"`
+`lxterminal -e "{string value: command}"`
 
 - Open an LXTerminal window with multiple tabs:
 
-`lxterminal --tabs={any something}`
+`lxterminal --tabs={string value: tab_name1,tab_name2,...}`
 
 - Open an LXTerminal window with a specific title:
 
-`lxterminal --title={any something}`
+`lxterminal --title={string value: title_name}`
 
 - Open an LXTerminal window with a specific working directory:
 
-`lxterminal --working-directory={directory something}`
+`lxterminal --working-directory={directory value}`

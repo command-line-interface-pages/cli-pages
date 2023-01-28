@@ -5,20 +5,20 @@
 
 - Start a service:
 
-`sudo sv up {any something}`
+`sudo sv up {string value: path/to/service}`
 
 - Stop a service:
 
-`sudo sv down {any something}`
+`sudo sv down {string value: path/to/service}`
 
 - Get service status:
 
-`sudo sv status {any something}`
+`sudo sv status {string value: path/to/service}`
 
 - Reload a service:
 
-`sudo sv reload {any something}`
+`sudo sv reload {string value: path/to/service}`
 
 - Start a service, but only if it's not running and don't restart it if it stops:
 
-`sudo sv once {any something}`
+`sudo sv once {string value: path/to/service}`

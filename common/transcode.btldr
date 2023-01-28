@@ -5,12 +5,12 @@
 
 - Create stabilization file to be able to remove camera shakes:
 
-`transcode -J stabilize -i {file something: input}`
+`transcode -J stabilize -i {file value: input}`
 
 - Remove camera shakes after creating stabilization file, transform video using XviD:
 
-`transcode -J transform -i {file something: input} -y xvid -o {file something: output}`
+`transcode -J transform -i {file value: input} -y xvid -o {file value: output}`
 
 - Resize the video to 640x480 pixels and convert to MPEG4 codec using XviD:
 
-`transcode -Z 640x480 -i {file something: input} -y xvid -o {file something: output}`
+`transcode -Z 640x480 -i {file value: input} -y xvid -o {file value: output}`

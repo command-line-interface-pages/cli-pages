@@ -5,24 +5,24 @@
 
 - Take multiple screenshots of multiple URLs at different resolutions:
 
-`pageres {any something} {any something} {any something} {any something}`
+`pageres {string value: https://example.com/} {string value: https://example2.com/} {string value: 1366x768} {string value: 1600x900}`
 
 - Provide specific options for a URL, overriding global options:
 
-`pageres [{any something} {any something} --no-crop] [{any something} {any something}] --crop`
+`pageres [{string value: https://example.com/} {string value: 1366x768} --no-crop] [{string value: https://example2.com/} {string value: 1024x768}] --crop`
 
 - Provide a custom filename template:
 
-`pageres {any something} {any something} --filename={any something}`
+`pageres {string value: https://example.com/} {string value: 1024x768} --filename={string value: '<%= date %> - <%= url %>'}`
 
 - Capture a specific element on a page:
 
-`pageres {any something} {any something} --selector='{any something}'`
+`pageres {string value: https://example.com/} {string value: 1366x768} --selector='{string value: .page-header}'`
 
 - Hide a specific element:
 
-`pageres {any something} {any something} --hide='{any something}'`
+`pageres {string value: https://example.com/} {string value: 1366x768} --hide='{string value: .page-header}'`
 
 - Capture a screenshot of a local file:
 
-`pageres {any something} {any something}`
+`pageres {string value: local_file_path.html} {string value: 1366x768}`

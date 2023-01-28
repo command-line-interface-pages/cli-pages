@@ -5,16 +5,16 @@
 
 - Display all information about the ELF file:
 
-`readelf -all {any something}`
+`readelf -all {string value: path/to/binary}`
 
 - Display all the headers present in the ELF file:
 
-`readelf --headers {any something}`
+`readelf --headers {string value: path/to/binary}`
 
 - Display the entries in symbol table section of the ELF file, if it has one:
 
-`readelf --symbols {any something}`
+`readelf --symbols {string value: path/to/binary}`
 
 - Display the information contained in the ELF header at the start of the file:
 
-`readelf --file-header {any something}`
+`readelf --file-header {string value: path/to/binary}`

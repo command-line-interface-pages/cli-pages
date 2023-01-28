@@ -14,8 +14,8 @@
 
 - Show help on a Fossil subcommand (like `add`, `commit`, etc.):
 
-`fossil help {any something}`
+`fossil help {string value: subcommand}`
 
 - Execute a Fossil subcommand:
 
-`fossil {any something}`
+`fossil {string value: subcommand}`

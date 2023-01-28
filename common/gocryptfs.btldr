@@ -5,20 +5,20 @@
 
 - Initialize an encrypted filesystem:
 
-`gocryptfs -init {directory something: cipher}`
+`gocryptfs -init {directory value: cipher}`
 
 - Mount an encrypted filesystem:
 
-`gocryptfs {directory something: cipher} {any something}`
+`gocryptfs {directory value: cipher} {string value: path/to/mount_point}`
 
 - Mount with the explicit master key instead of password:
 
-`gocryptfs --masterkey {directory something: cipher} {any something}`
+`gocryptfs --masterkey {directory value: cipher} {string value: path/to/mount_point}`
 
 - Change the password:
 
-`gocryptfs --passwd {directory something: cipher}`
+`gocryptfs --passwd {directory value: cipher}`
 
 - Make an encrypted snapshot of a plain directory:
 
-`gocryptfs --reverse {directory something: plain} {directory something: cipher}`
+`gocryptfs --reverse {directory value: plain} {directory value: cipher}`

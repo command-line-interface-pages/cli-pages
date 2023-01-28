@@ -17,20 +17,20 @@
 
 - Filter containers that contain a substring in their name:
 
-`docker ps --filter="name={any something}"`
+`docker ps --filter="name={string value: name}"`
 
 - Filter containers that share a given image as an ancestor:
 
-`docker ps --filter "ancestor={any something}:{any something}"`
+`docker ps --filter "ancestor={string value: image}:{string value: tag}"`
 
 - Filter containers by exit status code:
 
-`docker ps --all --filter="exited={any something}"`
+`docker ps --all --filter="exited={string value: code}"`
 
 - Filter containers by status (created, running, removing, paused, exited and dead):
 
-`docker ps --filter="status={any something}"`
+`docker ps --filter="status={string value: status}"`
 
 - Filter containers that mount a specific volume or have a volume mounted in a specific path:
 
-`docker ps --filter="volume={directory something}" --format "table {any something}\t{any something}\t{any something}\t{any something}"`
+`docker ps --filter="volume={directory value}" --format "table {string value: .ID}\t{string value: .Image}\t{string value: .Names}\t{string value: .Mounts}"`

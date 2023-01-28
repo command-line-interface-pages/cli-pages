@@ -5,19 +5,19 @@
 
 - Run a command in a specific chroot:
 
-`schroot --chroot {any something} {any something}`
+`schroot --chroot {string value: chroot} {string value: command}`
 
 - Run a command with options in a specific chroot:
 
-`schroot --chroot {any something} {any something} -- {any something}`
+`schroot --chroot {string value: chroot} {string value: command} -- {string value: command_options}`
 
 - Run a command in all available chroots:
 
-`schroot --all {any something}`
+`schroot --all {string value: command}`
 
 - Start an interactive shell within a specific chroot as a specific user:
 
-`schroot --chroot {any something} --user {any something}`
+`schroot --chroot {string value: chroot} --user {string value: user}`
 
 - List available chroots:
 

@@ -5,12 +5,12 @@
 
 - Enable a specific Windows feature:
 
-`fondue /enable-feature:{any something}`
+`fondue /enable-feature:{string value: feature}`
 
 - Hide all output messages to the user:
 
-`fondue /enable-feature:{any something} /hide-ux:all`
+`fondue /enable-feature:{string value: feature} /hide-ux:all`
 
 - Specify a caller process name for error reporting:
 
-`fondue /enable-feature:{any something} /caller-name:{any something}`
+`fondue /enable-feature:{string value: feature} /caller-name:{string value: name}`

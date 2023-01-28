@@ -5,20 +5,20 @@
 
 - Passively find subdomains of a domain:
 
-`amass enum -passive -d {any something}`
+`amass enum -passive -d {string value: domain_name}`
 
 - Find subdomains of a domain and actively verify them attempting to resolve the found subdomains:
 
-`amass enum -active -d {any something} -p {any something}`
+`amass enum -active -d {string value: domain_name} -p {string value: 80,443,8080}`
 
 - Do a brute force search for subdomains:
 
-`amass enum -brute -d {any something}`
+`amass enum -brute -d {string value: domain_name}`
 
 - Save the results to a text file:
 
-`amass enum -o {file something: output} -d {any something}`
+`amass enum -o {file value: output} -d {string value: domain_name}`
 
 - Save the results to a database:
 
-`amass enum -o {file something: output} -dir {directory something: database}`
+`amass enum -o {file value: output} -dir {directory value: database}`

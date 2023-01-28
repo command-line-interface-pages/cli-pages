@@ -5,20 +5,20 @@
 
 - Give a description of the type of the specified file. Works fine for files with no file extension:
 
-`file {file something}`
+`file {file value}`
 
 - Look inside a zipped file and determine the file type(s) inside:
 
-`file -z {any something}`
+`file -z {string value: foo.zip}`
 
 - Allow file to work with special or device files:
 
-`file -s {file something}`
+`file -s {file value}`
 
 - Don't stop at first file type match; keep going until the end of the file:
 
-`file -k {file something}`
+`file -k {file value}`
 
 - Determine the MIME encoding type of a file:
 
-`file -i {file something}`
+`file -i {file value}`

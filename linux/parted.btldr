@@ -10,11 +10,11 @@
 
 - Start interactive mode with the specified disk selected:
 
-`sudo parted {/file something: device}`
+`sudo parted {/file value: device}`
 
 - Create a new partition table of the specified label-type:
 
-`sudo parted --script {/file something: device} mklabel {any something}`
+`sudo parted --script {/file value: device} mklabel {string value: aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}`
 
 - Show partition information in interactive mode:
 
@@ -22,16 +22,16 @@
 
 - Select a disk in interactive mode:
 
-`select {/file something: device}`
+`select {/file value: device}`
 
 - Create a 16 GB partition with the specified filesystem in interactive mode:
 
-`mkpart {any something} {any something} {any something} {any something}`
+`mkpart {string value: primary|logical|extended} {string value: btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs} {string value: 0%} {string value: 16G}`
 
 - Resize a partition in interactive mode:
 
-`resizepart {any something} {any something}`
+`resizepart {string value: /dev/sdXN} {string value: end_position_of_partition}`
 
 - Remove a partition in interactive mode:
 
-`rm {any something}`
+`rm {string value: /dev/sdXN}`

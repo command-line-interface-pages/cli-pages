@@ -5,32 +5,32 @@
 
 - Convert an image from JPG to PNG:
 
-`convert {any something} {any something}`
+`convert {string value: image.jpg} {string value: image.png}`
 
 - Scale an image 50% its original size:
 
-`convert {any something} -resize 50% {any something}`
+`convert {string value: image.png} -resize 50% {string value: image2.png}`
 
 - Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
 
-`convert {any something} -resize 640x480 {any something}`
+`convert {string value: image.png} -resize 640x480 {string value: image2.png}`
 
 - Horizontally append images:
 
-`convert {any something} {any something} {any something} +append {any something}`
+`convert {string value: image1.png} {string value: image2.png} {string value: image3.png} +append {string value: image123.png}`
 
 - Vertically append images:
 
-`convert {any something} {any something} {any something} -append {any something}`
+`convert {string value: image1.png} {string value: image2.png} {string value: image3.png} -append {string value: image123.png}`
 
 - Create a GIF from a series of images with 100ms delay between them:
 
-`convert {any something} {any something} {any something} -delay {int number: 10} {any something}`
+`convert {string value: image1.png} {string value: image2.png} {string value: image3.png} -delay {int value: 10} {string value: animation.gif}`
 
 - Create an image with nothing but a solid background:
 
-`convert -size {any something} "xc:{any something}" {any something}`
+`convert -size {string value: 800x600} "xc:{string value: #ff0000}" {string value: image.png}`
 
 - Create a favicon from several images of different sizes:
 
-`convert {any something} {any something} {any something} {any something}`
+`convert {string value: image1.png} {string value: image2.png} {string value: image3.png} {string value: image.ico}`

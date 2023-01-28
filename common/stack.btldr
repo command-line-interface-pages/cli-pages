@@ -5,7 +5,7 @@
 
 - Create a new package:
 
-`stack new {any something} {any something}`
+`stack new {string value: package_name} {string value: template_name}`
 
 - Compile a package:
 
@@ -21,8 +21,8 @@
 
 - Compile a project and execute a command after compilation:
 
-`stack build --exec "{any something}"`
+`stack build --exec "{string value: command}"`
 
 - Run a program and pass an argument to it:
 
-`stack exec {any something} -- {any something}`
+`stack exec {string value: program_name} -- {string value: argument}`

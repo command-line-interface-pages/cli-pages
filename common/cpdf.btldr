@@ -5,32 +5,32 @@
 
 - Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:
 
-`cpdf {any something} {any something} -o {any something}`
+`cpdf {string value: path/to/source_document.pdf} {string value: 1-3,6} -o {string value: path/to/destination_document.pdf}`
 
 - Merge two documents into a new one:
 
-`cpdf -merge {any something} {any something} -o {any something}`
+`cpdf -merge {string value: path/to/source_document_one.pdf} {string value: path/to/source_document_two.pdf} -o {string value: path/to/destination_document.pdf}`
 
 - Show the bookmarks of a document:
 
-`cpdf -list-bookmarks {any something}`
+`cpdf -list-bookmarks {string value: path/to/document.pdf}`
 
 - Split a document into ten-page chunks, writing them to `chunk001.pdf`, `chunk002.pdf`, etc:
 
-`cpdf -split {any something} -o {any something} -chunk {int number: 10}`
+`cpdf -split {string value: path/to/document.pdf} -o {string value: path/to/chunk%%%.pdf} -chunk {int value: 10}`
 
 - Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password:
 
-`cpdf -encrypt {any something} {any something} {any something} {any something} -o {any something}`
+`cpdf -encrypt {string value: 128bit} {string value: fred} {string value: joe} {string value: path/to/source_document.pdf} -o {string value: path/to/encrypted_document.pdf}`
 
 - Decrypt a document using the owner password `fred`:
 
-`cpdf -decrypt {any something} owner={any something} -o {any something}`
+`cpdf -decrypt {string value: path/to/encrypted_document.pdf} owner={string value: fred} -o {string value: path/to/decrypted_document.pdf}`
 
 - Show the annotations of a document:
 
-`cpdf -list-annotations {any something}`
+`cpdf -list-annotations {string value: path/to/document.pdf}`
 
 - Create a new document from an existing one with additional metadata:
 
-`cpdf -set-metadata {any something} {any something} -o {any something}`
+`cpdf -set-metadata {string value: path/to/metadata.xml} {string value: path/to/source_document.pdf} -o {string value: path/to/destination_document.pdf}`

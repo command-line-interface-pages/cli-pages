@@ -13,7 +13,7 @@
 
 - Get the mean of a single column of numbers with a given decimal precision:
 
-`echo -e '1\n2\n3\n4\n5\n5' | datamash -R {any something} mean 1`
+`echo -e '1\n2\n3\n4\n5\n5' | datamash -R {string value: number_of_decimals_wanted} mean 1`
 
 - Get the mean of a single column of numbers ignoring "Na" and "NaN" (literal) strings:
 

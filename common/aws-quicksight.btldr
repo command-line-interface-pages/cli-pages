@@ -6,24 +6,24 @@
 
 - List datasets:
 
-`aws quicksight list-data-sets --aws-account-id {any something}`
+`aws quicksight list-data-sets --aws-account-id {string value: aws_account_id}`
 
 - List users:
 
-`aws quicksight list-users --aws-account-id {any something} --namespace default`
+`aws quicksight list-users --aws-account-id {string value: aws_account_id} --namespace default`
 
 - List groups:
 
-`aws quicksight list-groups --aws-account-id {any something} --namespace default`
+`aws quicksight list-groups --aws-account-id {string value: aws_account_id} --namespace default`
 
 - List dashboards:
 
-`aws quicksight list-dashboards --aws-account-id {any something}`
+`aws quicksight list-dashboards --aws-account-id {string value: aws_account_id}`
 
 - Display detailed information about a dataset:
 
-`aws quicksight describe-data-set --aws-account-id {any something} --data-set-id {any something}`
+`aws quicksight describe-data-set --aws-account-id {string value: aws_account_id} --data-set-id {string value: data_set_id}`
 
 - Display who has access to the dataset and what kind of actions they can perform on the dataset:
 
-`aws quicksight describe-data-set-permissions --aws-account-id {any something} --data-set-id {any something}`
+`aws quicksight describe-data-set-permissions --aws-account-id {string value: aws_account_id} --data-set-id {string value: data_set_id}`

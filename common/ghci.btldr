@@ -9,16 +9,16 @@
 
 - Start a REPL and load the specified Haskell source file:
 
-`ghci {file something: source}`
+`ghci {file value: source.hs}`
 
 - Start a REPL and enable a language option:
 
-`ghci -X{any something}`
+`ghci -X{string value: language_option}`
 
 - Start a REPL and enable some level of compiler warnings (e.g. `all` or `compact`):
 
-`ghci -W{any something}`
+`ghci -W{string value: warning_level}`
 
 - Start a REPL with a colon-separated list of directories for finding source files:
 
-`ghci -i{any something}:{any something}`
+`ghci -i{string value: path/to/directory1}:{string value: path/to/directory2}`

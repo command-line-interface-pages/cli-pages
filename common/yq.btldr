@@ -5,32 +5,32 @@
 
 - Output a YAML file, in pretty-print format (v4+):
 
-`yq eval {file something}`
+`yq eval {file value: sample.yaml}`
 
 - Output a YAML file, in pretty-print format (v3):
 
-`yq read {file something} --colors`
+`yq read {file value: sample.yaml} --colors`
 
 - Output the first element in a YAML file that contains only an array (v4+):
 
-`yq eval '.[0]' {file something}`
+`yq eval '.[0]' {file value: sample.yaml}`
 
 - Output the first element in a YAML file that contains only an array (v3):
 
-`yq read {file something} '[0]'`
+`yq read {file value: sample.yaml} '[0]'`
 
 - Set (or overwrite) a key to a value in a file (v4+):
 
-`yq eval '.{any something} = "{any something}"' --inplace {file something}`
+`yq eval '.{string value: key} = "{string value: value}"' --inplace {file value: sample.yaml}`
 
 - Set (or overwrite) a key to a value in a file (v3):
 
-`yq write --inplace {file something} '{any something}' '{any something}'`
+`yq write --inplace {file value: sample.yaml} '{string value: key}' '{string value: value}'`
 
 - Merge two files and print to stdout (v4+):
 
-`yq eval-all 'select(filename == "{any something}") * select(filename == "{any something}")' {any something} {any something}`
+`yq eval-all 'select(filename == "{string value: path/to/file1.yaml}") * select(filename == "{string value: path/to/file2.yaml}")' {string value: path/to/file1.yaml} {string value: path/to/file2.yaml}`
 
 - Merge two files and print to stdout (v3):
 
-`yq merge {any something} {any something} --colors`
+`yq merge {string value: path/to/file1.yaml} {string value: path/to/file2.yaml} --colors`

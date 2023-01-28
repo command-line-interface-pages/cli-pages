@@ -5,12 +5,12 @@
 
 - Compress a PNG file:
 
-`pngcrush {any something} {any something}`
+`pngcrush {string value: in.png} {string value: out.png}`
 
 - Compress all PNGs and output them to the specified directory:
 
-`pngcrush -d {any something} *.png`
+`pngcrush -d {string value: path/to/output} *.png`
 
 - Compress PNG file with all 114 available algorithms and pick the best result:
 
-`pngcrush -rem allb -brute -reduce {any something} {any something}`
+`pngcrush -rem allb -brute -reduce {string value: in.png} {string value: out.png}`

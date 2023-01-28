@@ -5,12 +5,12 @@
 
 - Compile the specified files:
 
-`mcs {any something}`
+`mcs {file* value: input.cs}`
 
 - Specify the output program name:
 
-`mcs -out:{file something} {any something}`
+`mcs -out:{file value: sample.exe} {file* value: input.cs}`
 
 - Specify the output program type:
 
-`mcs -target:{any something} {any something}`
+`mcs -target:{string value: exe|winexe|library|module} {file* value: input.cs}`

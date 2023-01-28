@@ -5,20 +5,20 @@
 
 - Show information about an address or network with a given subnet mask:
 
-`ipcalc {any something} {any something}`
+`ipcalc {string value: 1.2.3.4} {string value: 255.255.255.0}`
 
 - Show information about an address or network in CIDR notation:
 
-`ipcalc {any something}/{int number: 24}`
+`ipcalc {string value: 1.2.3.4}/{int value: 24}`
 
 - Show the broadcast address of an address or network:
 
-`ipcalc -b {any something}/{int number: 30}`
+`ipcalc -b {string value: 1.2.3.4}/{int value: 30}`
 
 - Show the network address of provided IP address and netmask:
 
-`ipcalc -n {any something}/{int number: 24}`
+`ipcalc -n {string value: 1.2.3.4}/{int value: 24}`
 
 - Display geographic information about a given IP address:
 
-`ipcalc -g {any something}`
+`ipcalc -g {string value: 1.2.3.4}`

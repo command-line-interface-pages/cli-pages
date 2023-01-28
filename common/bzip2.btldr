@@ -5,27 +5,27 @@
 
 - Compress a file:
 
-`bzip2 {any something}`
+`bzip2 {string value: path/to/file_to_compress}`
 
 - Decompress a file:
 
-`bzip2 -d {file something: compressed}`
+`bzip2 -d {file value: compressed.bz2}`
 
 - Decompress a file to stdout:
 
-`bzip2 -dc {file something: compressed}`
+`bzip2 -dc {file value: compressed.bz2}`
 
 - Test the integrity of each file inside the archive file:
 
-`bzip2 --test {file something: compressed}`
+`bzip2 --test {file value: compressed.bz2}`
 
 - Show the compression ratio for each file processed with detailed information:
 
-`bzip2 --verbose {any something}`
+`bzip2 --verbose {string value: path/to/compressed_files.bz2}`
 
 - Decompress a file overwriting existing files:
 
-`bzip2 --force {file something: compressed}`
+`bzip2 --force {file value: compressed.bz2}`
 
 - Display help:
 

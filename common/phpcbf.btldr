@@ -5,7 +5,7 @@
 
 - Fix issues in the specified directory (defaults to the PEAR standard):
 
-`phpcbf {directory something}`
+`phpcbf {directory value}`
 
 - Display a list of installed coding standards:
 
@@ -13,16 +13,16 @@
 
 - Specify a coding standard to validate against:
 
-`phpcbf {directory something} --standard {any something}`
+`phpcbf {directory value} --standard {string value: standard}`
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcbf {directory something} --extensions {any something}`
+`phpcbf {directory value} --extensions {string value: file_extension(s)}`
 
 - A comma-separated list of files to load before processing:
 
-`phpcbf {directory something} --bootstrap {any something}`
+`phpcbf {directory value} --bootstrap {string value: file(s)}`
 
 - Don't recurse into subdirectories:
 
-`phpcbf {directory something} -l`
+`phpcbf {directory value} -l`

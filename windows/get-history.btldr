@@ -10,8 +10,8 @@
 
 - Get PowerShell history item by ID:
 
-`Get-History -Id {any something}`
+`Get-History -Id {string value: id}`
 
 - Display the last N commands:
 
-`Get-History -Count {any something}`
+`Get-History -Count {string value: count}`

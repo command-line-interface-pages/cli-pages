@@ -10,20 +10,20 @@
 
 - Add file resource:
 
-`add file {any something} as {any something};`
+`add file {file value} as {string value: alias};`
 
 - Add archive resource:
 
-`add archive {any something} as {any something};`
+`add archive {string value: archive.tar.gz} as {string value: alias};`
 
 - Add .jar resource:
 
-`add jar {any something};`
+`add jar {string value: package.jar};`
 
 - Add .py resource:
 
-`add py {any something};`
+`add py {string value: script.py};`
 
 - Delete resource:
 
-`drop resource {any something};`
+`drop resource {string value: resource_name};`

@@ -9,20 +9,20 @@
 
 - Identify hashes passed as arguments (multiple hashes can be passed):
 
-`hashid {any something}`
+`hashid {string value: hash}`
 
 - Identify hashes on a file (one hash per line):
 
-`hashid {any something}`
+`hashid {string value: path/to/hashes.txt}`
 
 - Show all possible hash types (including salted hashes):
 
-`hashid --extended {any something}`
+`hashid --extended {string value: hash}`
 
 - Show `hashcat`'s mode number and `john`'s format string of the hash types:
 
-`hashid --mode --john {any something}`
+`hashid --mode --john {string value: hash}`
 
 - Save output to a file instead of printing to stdout:
 
-`hashid --outfile {any something} {any something}`
+`hashid --outfile {string value: path/to/output.txt} {string value: hash}`

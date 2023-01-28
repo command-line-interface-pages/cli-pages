@@ -5,28 +5,28 @@
 
 - Disassemble an assembly to textual CIL:
 
-`monodis {any something}`
+`monodis {string value: path/to/assembly.exe}`
 
 - Save the output to a file:
 
-`monodis --output={any something} {any something}`
+`monodis --output={string value: path/to/output.il} {string value: path/to/assembly.exe}`
 
 - Show information about an assembly:
 
-`monodis --assembly {any something}`
+`monodis --assembly {string value: path/to/assembly.dll}`
 
 - List the references of an assembly:
 
-`monodis --assemblyref {any something}`
+`monodis --assemblyref {string value: path/to/assembly.exe}`
 
 - List all the methods in an assembly:
 
-`monodis --method {any something}`
+`monodis --method {string value: path/to/assembly.exe}`
 
 - Show a list of resources embedded within an assembly:
 
-`monodis --manifest {any something}`
+`monodis --manifest {string value: path/to/assembly.dll}`
 
 - Extract all the embedded resources to the current directory:
 
-`monodis --mresources {any something}`
+`monodis --mresources {string value: path/to/assembly.dll}`

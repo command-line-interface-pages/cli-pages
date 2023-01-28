@@ -5,24 +5,24 @@
 
 - Lint a specific directory:
 
-`parallel-lint {directory something}`
+`parallel-lint {directory value}`
 
 - Lint a directory using the specified number of parallel processes:
 
-`parallel-lint -j {any something} {directory something}`
+`parallel-lint -j {string value: processes} {directory value}`
 
 - Lint a directory, excluding the specified directory:
 
-`parallel-lint --exclude {directory something: excluded} {directory something}`
+`parallel-lint --exclude {directory value: excluded} {directory value}`
 
 - Lint a directory of files using a comma-separated list of extension(s):
 
-`parallel-lint -e {any something} {directory something}`
+`parallel-lint -e {string value: php,html,phpt} {directory value}`
 
 - Lint a directory and output the results as JSON:
 
-`parallel-lint --json {directory something}`
+`parallel-lint --json {directory value}`
 
 - Lint a directory and show Git Blame results for rows containing errors:
 
-`parallel-lint --blame {directory something}`
+`parallel-lint --blame {directory value}`

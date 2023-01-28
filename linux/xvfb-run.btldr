@@ -5,12 +5,12 @@
 
 - Run the specified command in a virtual X server:
 
-`xvfb-run {any something}`
+`xvfb-run {string value: command}`
 
 - Try to get a free server number, if the default (99) is not available:
 
-`xvfb-run --auto-servernum {any something}`
+`xvfb-run --auto-servernum {string value: command}`
 
 - Pass arguments to the Xvfb server:
 
-`xvfb-run --server-args "{any something}" {any something}`
+`xvfb-run --server-args "{string value: -screen 0 1024x768x24}" {string value: command}`

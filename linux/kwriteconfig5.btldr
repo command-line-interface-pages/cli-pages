@@ -9,24 +9,24 @@
 
 - Set a global configuration key:
 
-`kwriteconfig5 --group {string group} --key {any something} {any something}`
+`kwriteconfig5 --group {string group} --key {string value: key} {string value: value}`
 
 - Set a key in a specific configuration file:
 
-`kwriteconfig5 --file {file something} --group {string group} --key {any something} {any something}`
+`kwriteconfig5 --file {file value} --group {string group} --key {string value: key} {string value: value}`
 
 - Delete a key:
 
-`kwriteconfig5 --group {string group} --key {any something} --delete`
+`kwriteconfig5 --group {string group} --key {string value: key} --delete`
 
 - Use systemd to start the Plasma session when available:
 
-`kwriteconfig5 --file {any something} --group {any something} --key {any something} {bool flag: true}`
+`kwriteconfig5 --file {string value: startkderc} --group {string value: General} --key {string value: systemdBoot} {bool flag: true}`
 
 - Hide the title bar when a window is maximized (like Ubuntu):
 
-`kwriteconfig5 --file {any something} --group {any something} --key {any something} {bool flag: true}`
+`kwriteconfig5 --file {string value: ~/.config/kwinrc} --group {string value: Windows} --key {string value: BorderlessMaximizedWindows} {bool flag: true}`
 
 - Configure KRunner to open with the Meta (Command/Windows) global hotkey:
 
-`kwriteconfig5 --file {any something} --group {any something} --key {any something} {any something}`
+`kwriteconfig5 --file {string value: ~/.config/kwinrc} --group {string value: ModifierOnlyShortcuts} --key {string value: Meta} {string value: "org.kde.kglobalaccel,/component/krunner_desktop,org.kde.kglobalaccel.Component,invokeShortcut,_launch"}`

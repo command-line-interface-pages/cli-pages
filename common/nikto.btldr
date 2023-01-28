@@ -5,19 +5,19 @@
 
 - Perform a basic Nikto scan against a target host:
 
-`perl nikto.pl -h {any something}`
+`perl nikto.pl -h {string value: 192.168.0.1}`
 
 - Specify the port number when performing a basic scan:
 
-`perl nikto.pl -h {any something} -p {int number: 443}`
+`perl nikto.pl -h {string value: 192.168.0.1} -p {int value: 443}`
 
 - Scan ports and protocols with full URL syntax:
 
-`perl nikto.pl -h {any something}`
+`perl nikto.pl -h {string value: https://192.168.0.1:443/}`
 
 - Scan multiple ports in the same scanning session:
 
-`perl nikto.pl -h {any something} -p {any something}`
+`perl nikto.pl -h {string value: 192.168.0.1} -p {string value: 80,88,443}`
 
 - Update to the latest plugins and databases:
 

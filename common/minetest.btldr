@@ -10,11 +10,11 @@
 
 - Start Minetest in server mode by hosting a specific world:
 
-`minetest --server --world {any something}`
+`minetest --server --world {string value: name}`
 
 - Write logs to a specific file:
 
-`minetest --logfile {file something}`
+`minetest --logfile {file value}`
 
 - Only write errors to the console:
 

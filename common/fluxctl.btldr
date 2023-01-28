@@ -5,7 +5,7 @@
 
 - List workloads currently running in the cluster on specific namespace:
 
-`fluxctl --k8s-fwd-ns={any something} list-workloads`
+`fluxctl --k8s-fwd-ns={string value: namespace} list-workloads`
 
 - Show deployed and available images:
 

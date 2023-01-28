@@ -5,16 +5,16 @@
 
 - Tag a git repo and signing the resulting link file:
 
-`in-toto-run -n {any something} --products {any something} -k {file something: key} -- {any something}`
+`in-toto-run -n {string value: tag} --products {string value: .} -k {file value: key} -- {string value: git tag v1.0}`
 
 - Create a tarball, storing files as materials and the tarball as product:
 
-`in-toto-run -n {any something} -m {any something} -p {any something} -- {any something}`
+`in-toto-run -n {string value: package} -m {string value: project} -p {string value: project.tar.gz} -- {string value: tar czf project.tar.gz project}`
 
 - Generate signed attestations for review work:
 
-`in-toto-run -n {any something} -k {file something: key} -m {any something} -x`
+`in-toto-run -n {string value: review} -k {file value: key} -m {string value: document.pdf} -x`
 
 - Scan the image using Trivy and generate link file:
 
-`in-toto-run -n {any something} -k {file something: key} -p {any something} -- {any something}`
+`in-toto-run -n {string value: scan} -k {file value: key} -p {string value: report.json} -- {string value: /bin/sh -c "trivy -o report.json -f json <IMAGE>"}`

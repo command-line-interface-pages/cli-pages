@@ -13,11 +13,11 @@
 
 - Run a specific event:
 
-`act {any something}`
+`act {string value: event_type}`
 
 - Run a specific action:
 
-`act -a {any something}`
+`act -a {string value: action_id}`
 
 - Do not actually run the actions (i.e. a dry run):
 

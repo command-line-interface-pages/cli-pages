@@ -9,20 +9,20 @@
 
 - List information about specific items in the trust policy store:
 
-`trust list --filter={any something}`
+`trust list --filter={string value: blocklist|ca-anchors|certificates|trust-policy}`
 
 - Store a specific trust anchor in the trust policy store:
 
-`trust anchor {any something}`
+`trust anchor {string value: path/to/certificate.crt}`
 
 - Remove a specific anchor from the trust policy store:
 
-`trust anchor --remove {any something}`
+`trust anchor --remove {string value: path/to/certificate.crt}`
 
 - Extract trust policy from the shared trust policy store:
 
-`trust extract --format=x509-directory --filter=ca-anchors {directory something}`
+`trust extract --format=x509-directory --filter=ca-anchors {directory value}`
 
 - Display help for a subcommand:
 
-`trust {any something} --help`
+`trust {string value: subcommand} --help`

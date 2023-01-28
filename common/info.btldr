@@ -9,8 +9,8 @@
 
 - Start reading at given menu item node from top-level directory:
 
-`info {any something}`
+`info {string value: menu_item}`
 
 - Start reading at second menu item within first menu item manual:
 
-`info {any something} {any something}`
+`info {string value: first_menu_item} {string value: second_menu_item}`

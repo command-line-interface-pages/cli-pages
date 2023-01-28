@@ -5,23 +5,23 @@
 
 - Format a file and print the result to stdout:
 
-`prettier {file something}`
+`prettier {file value}`
 
 - Check if a specific file has been formatted:
 
-`prettier --check {file something}`
+`prettier --check {file value}`
 
 - Run with a specific configuration file:
 
-`prettier --config {file something: config} {file something}`
+`prettier --config {file value: config} {file value}`
 
 - Format a file or directory, replacing the original:
 
-`prettier --write {file something|path something}`
+`prettier --write {path value}`
 
 - Format files or directories recursively using single quotes and no trailing commas:
 
-`prettier --single-quote --trailing-comma {any something} --write {file something|path something}`
+`prettier --single-quote --trailing-comma {string value: none} --write {path value}`
 
 - Format JavaScript and TypeScript files recursively, replacing the original:
 

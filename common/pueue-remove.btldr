@@ -5,8 +5,8 @@
 
 - Remove a killed or finished task:
 
-`pueue remove {any something}`
+`pueue remove {string value: task_id}`
 
 - Remove multiple tasks at once:
 
-`pueue remove {any something} {any something}`
+`pueue remove {string value: task_id} {string value: task_id}`

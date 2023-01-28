@@ -10,24 +10,24 @@
 
 - Activate a connection by specifying a UUID:
 
-`nmcli connection up uuid {any something}`
+`nmcli connection up uuid {string value: uuid}`
 
 - Deactivate a connection:
 
-`nmcli connection down uuid {any something}`
+`nmcli connection down uuid {string value: uuid}`
 
 - Create an auto-configured dual stack connection:
 
-`nmcli connection add ifname {any something} type {any something} ipv4.method {any something} ipv6.method {any something}`
+`nmcli connection add ifname {string value: interface_name} type {string value: ethernet} ipv4.method {string value: auto} ipv6.method {string value: auto}`
 
 - Create a static IPv6-only connection:
 
-`nmcli connection add ifname {any something} type {any something} ip6 {any something} gw6 {any something} ipv6.dns {any something} ipv4.method {any something}`
+`nmcli connection add ifname {string value: interface_name} type {string value: ethernet} ip6 {string value: 2001:db8::2/64} gw6 {string value: 2001:db8::1} ipv6.dns {string value: 2001:db8::1} ipv4.method {string value: ignore}`
 
 - Create a static IPv4-only connection:
 
-`nmcli connection add ifname {any something} type {any something} ip4 {any something} gw4 {any something} ipv4.dns {any something} ipv6.method {any something}`
+`nmcli connection add ifname {string value: interface_name} type {string value: ethernet} ip4 {string value: 10.0.0.7/8} gw4 {string value: 10.0.0.1} ipv4.dns {string value: 10.0.0.1} ipv6.method {string value: ignore}`
 
 - Create a VPN connection using OpenVPN from a OVPN file:
 
-`nmcli connection import type {any something} file {any something}`
+`nmcli connection import type {string value: openvpn} file {string value: path/to/vpn_config.ovpn}`

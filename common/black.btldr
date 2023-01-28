@@ -5,24 +5,24 @@
 
 - Auto-format a file or entire directory:
 
-`black {file something|path something}`
+`black {path value}`
 
 - Format the code passed in as a string:
 
-`black -c "{any something}"`
+`black -c "{string value: code}"`
 
 - Output whether a file or a directory would have changes made to them if they were to be formatted:
 
-`black --check {file something|path something}`
+`black --check {path value}`
 
 - Output changes that would be made to a file or a directory without performing them (dry-run):
 
-`black --diff {file something|path something}`
+`black --diff {path value}`
 
 - Auto-format a file or directory, emitting exclusively error messages to stderr:
 
-`black --quiet {file something|path something}`
+`black --quiet {path value}`
 
 - Auto-format a file or directory without replacing single quotes with double quotes (adoption helper, avoid using this for new projects):
 
-`black --skip-string-normalization {file something|path something}`
+`black --skip-string-normalization {path value}`

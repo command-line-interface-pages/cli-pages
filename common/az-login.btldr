@@ -10,11 +10,11 @@
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal --username {any something} --passsword {any something} --tenant {any something}`
+`az login --service-principal --username {string value: http://azure-cli-service-principal} --passsword {string value: secret} --tenant {string value: someone.onmicrosoft.com}`
 
 - Log in with a service principal using a client certificate:
 
-`az login --service-principal --username {any something} --password {any something} --tenant {any something}`
+`az login --service-principal --username {string value: http://azure-cli-service-principal} --password {string value: path/to/cert.pem} --tenant {string value: someone.onmicrosoft.com}`
 
 - Log in using a VM's system assigned identity:
 
@@ -22,4 +22,4 @@
 
 - Log in using a VM's user assigned identity:
 
-`az login --identity --username /subscriptions/{any something}/resourcegroups/{any something}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{any something}`
+`az login --identity --username /subscriptions/{string value: subscription_id}/resourcegroups/{string value: my_rg}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{string value: my_id}`

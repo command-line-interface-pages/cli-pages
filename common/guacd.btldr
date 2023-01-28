@@ -6,16 +6,16 @@
 
 - Bind to a specific port on localhost:
 
-`guacd -b {any something} -l {int number: 4823}`
+`guacd -b {string value: 127.0.0.1} -l {int value: 4823}`
 
 - Start in debug mode, keeping the process in the foreground:
 
-`guacd -f -L {any something}`
+`guacd -f -L {string value: debug}`
 
 - Start with TLS support:
 
-`guacd -C {any something} -K {any something}`
+`guacd -C {string value: my-cert.crt} -K {string value: my-key.pem}`
 
 - Write the PID to a file:
 
-`guacd -p {file something}`
+`guacd -p {file value: sample.pid}`

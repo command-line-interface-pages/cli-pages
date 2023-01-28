@@ -9,20 +9,20 @@
 
 - Create a new ZFS filesystem:
 
-`zfs create {any something}`
+`zfs create {string value: pool_name/filesystem_name}`
 
 - Delete a ZFS filesystem:
 
-`zfs destroy {any something}`
+`zfs destroy {string value: pool_name/filesystem_name}`
 
 - Create a Snapshot of a ZFS filesystem:
 
-`zfs snapshot {any something}@{any something}`
+`zfs snapshot {string value: pool_name/filesystem_name}@{string value: snapshot_name}`
 
 - Enable compression on a filesystem:
 
-`zfs set compression=on {any something}`
+`zfs set compression=on {string value: pool_name/filesystem_name}`
 
 - Change mountpoint for a filesystem:
 
-`zfs set mountpoint={any something} {any something}`
+`zfs set mountpoint={string value: /my/mount/path} {string value: pool_name/filesystem_name}`

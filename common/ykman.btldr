@@ -9,7 +9,7 @@
 
 - Get information for a given application from YubiKey:
 
-`ykman {any something} info`
+`ykman {string value: fido|oath|openpgp|otp|piv} info`
 
 - Get a list of enabled applications over NFC from YubiKey:
 
@@ -17,4 +17,4 @@
 
 - Enable application over USB on YubiKey:
 
-`ykman config usb --enable {any something}`
+`ykman config usb --enable {string value: OTP|U2F|FIDO2|OATH|PIV|OPENPGP|HSMAUTH}`

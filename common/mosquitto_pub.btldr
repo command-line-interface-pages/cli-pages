@@ -5,24 +5,24 @@
 
 - Publish a temperature value of 32 on the topic `sensors/temperature` to 192.168.1.1 (defaults to `localhost`) with Quality of Service (`QoS`) set to 1:
 
-`mosquitto_pub -h {any something} -t {any something} -m {int number: 32} -q {int number: 1}`
+`mosquitto_pub -h {string value: 192.168.1.1} -t {string value: sensors/temperature} -m {int value: 32} -q {int value: 1}`
 
 - Publish timestamp and temperature data on the topic `sensors/temperature` to a remote host on a non-standard port:
 
-`mosquitto_pub -h {any something} -p {int number: 1885} -t {any something} -m "{any something}"`
+`mosquitto_pub -h {string value: 192.168.1.1} -p {int value: 1885} -t {string value: sensors/temperature} -m "{string value: 1266193804 32}"`
 
 - Publish light switch status and retain the message on the topic `switches/kitchen_lights/status` to a remote host because there may be a long period of time between light switch events:
 
-`mosquitto_pub -r -h "{any something}" -t {any something} -m "{any something}"`
+`mosquitto_pub -r -h "{string value: iot.eclipse.org}" -t {string value: switches/kitchen_lights/status} -m "{string value: on}"`
 
 - Send the contents of a file (`data.txt`) as a message and publish it to `sensors/temperature` topic:
 
-`mosquitto_pub -t {any something} -f {any something}`
+`mosquitto_pub -t {string value: sensors/temperature} -f {string value: data.txt}`
 
 - Send the contents of a file (`data.txt`), by reading from stdin and send the entire input as a message and publish it to `sensors/temperature` topic:
 
-`mosquitto_pub -t {any something} -s < {any something}`
+`mosquitto_pub -t {string value: sensors/temperature} -s < {string value: data.txt}`
 
 - Read newline delimited data from stdin as a message and publish it to `sensors/temperature` topic:
 
-`{any something} | mosquitto_pub -t {any something} -l`
+`{string value: echo data.txt} | mosquitto_pub -t {string value: sensors/temperature} -l`

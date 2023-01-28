@@ -5,11 +5,11 @@
 
 - Send a file:
 
-`wormhole send {file something}`
+`wormhole send {file value}`
 
 - Receive a file:
 
-`wormhole receive {any something}`
+`wormhole receive {string value: wormhole_code}`
 
 - Send raw text:
 

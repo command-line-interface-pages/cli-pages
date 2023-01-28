@@ -5,12 +5,12 @@
 
 - Display syscall number of a specific system call:
 
-`ausyscall {any something}`
+`ausyscall {string value: search_pattern}`
 
 - Display name of a specific system call number:
 
-`ausyscall {any something}`
+`ausyscall {string value: system_call_number}`
 
 - Display all system calls for a specific architecture:
 
-`ausyscall {any something} --dump`
+`ausyscall {string value: architecture} --dump`

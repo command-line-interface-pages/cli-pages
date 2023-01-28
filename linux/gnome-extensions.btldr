@@ -13,20 +13,20 @@
 
 - Display information about a specific extension:
 
-`gnome-extensions info "{any something}"`
+`gnome-extensions info "{string value: extension_id}"`
 
 - Display help for a subcommand (like `list`):
 
-`gnome-extensions help {any something}`
+`gnome-extensions help {string value: subcommand}`
 
 - Enable a specific extension:
 
-`gnome-extensions enable "{any something}"`
+`gnome-extensions enable "{string value: extension_id}"`
 
 - Disable a specific extension:
 
-`gnome-extension disable "{any something}"`
+`gnome-extension disable "{string value: extension_id}"`
 
 - Uninstall a specific extension:
 
-`gnome-extension uninstall "{any something}"`
+`gnome-extension uninstall "{string value: extension_id}"`

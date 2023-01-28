@@ -13,7 +13,7 @@
 
 - Blink the LED of a specific Solo:
 
-`solo key wink --serial {any something}`
+`solo key wink --serial {string value: serial_number}`
 
 - Generate random bytes using the currently connected Solo's secure random number generator:
 
@@ -21,4 +21,4 @@
 
 - Monitor the serial output of a Solo:
 
-`solo monitor {any something}`
+`solo monitor {string value: path/to/serial_port}`

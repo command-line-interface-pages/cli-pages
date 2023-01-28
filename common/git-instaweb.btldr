@@ -13,11 +13,11 @@
 
 - Listen on a specific port:
 
-`git instaweb --start --port {int number: 1234}`
+`git instaweb --start --port {int value: 1234}`
 
 - Use a specified HTTP daemon:
 
-`git instaweb --start --httpd {any something}`
+`git instaweb --start --httpd {string value: lighttpd|apache2|mongoose|plackup|webrick}`
 
 - Also auto-launch a web browser:
 

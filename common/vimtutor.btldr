@@ -6,7 +6,7 @@
 
 - Launch the vim tutor using the given language (en, fr, de, ...):
 
-`vimtutor {any something}`
+`vimtutor {string value: language}`
 
 - Exit the tutor:
 

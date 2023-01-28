@@ -21,12 +21,12 @@
 
 - Build a specific package:
 
-`cargo build --package {any something}`
+`cargo build --package {string value: package}`
 
 - Build only the specified binary:
 
-`cargo build --bin {any something}`
+`cargo build --bin {string value: name}`
 
 - Build only the specified test target:
 
-`cargo build --test {any something}`
+`cargo build --test {string value: testname}`

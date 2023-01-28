@@ -5,16 +5,16 @@
 
 - Convert a SCSS or Sass file to CSS and print out the result:
 
-`sass {any something}`
+`sass {string value: inputfile.scss|inputfile.sass}`
 
 - Convert a SCSS or Sass file to CSS and save the result to a file:
 
-`sass {any something} {any something}`
+`sass {string value: inputfile.scss|inputfile.sass} {string value: outputfile.css}`
 
 - Watch a SCSS or Sass file for changes and output or update the CSS file with same filename:
 
-`sass --watch {any something}`
+`sass --watch {string value: inputfile.scss|inputfile.sass}`
 
 - Watch a SCSS or Sass file for changes and output or update the CSS file with the given filename:
 
-`sass --watch {any something}:{any something}`
+`sass --watch {string value: inputfile.scss|inputfile.sass}:{string value: outputfile.css}`

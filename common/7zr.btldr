@@ -6,27 +6,27 @@
 
 - [a]rchive a file or directory:
 
-`7zr a {any something} {file something|path something}`
+`7zr a {string value: path/to/archive.7z} {path value}`
 
 - Encrypt an existing archive (including file names):
 
-`7zr a {any something} -p{any something} -mhe=on {any something}`
+`7zr a {string value: path/to/encrypted.7z} -p{string value: password} -mhe=on {string value: path/to/archive.7z}`
 
 - E[x]tract an archive preserving the original directory structure:
 
-`7zr x {any something}`
+`7zr x {string value: path/to/archive.7z}`
 
 - E[x]tract an archive to a specific directory:
 
-`7zr x {any something} -o{any something}`
+`7zr x {string value: path/to/archive.7z} -o{string value: path/to/output}`
 
 - E[x]tract an archive to stdout:
 
-`7zr x {any something} -so`
+`7zr x {string value: path/to/archive.7z} -so`
 
 - [l]ist the contents of an archive:
 
-`7zr l {any something}`
+`7zr l {string value: path/to/archive.7z}`
 
 - List available archive types:
 

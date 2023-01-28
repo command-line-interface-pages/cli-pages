@@ -9,23 +9,23 @@
 
 - Connect to a remote server on the default port (6379):
 
-`redis-cli -h {any something}`
+`redis-cli -h {string value: host}`
 
 - Connect to a remote server specifying a port number:
 
-`redis-cli -h {any something} -p {any something}`
+`redis-cli -h {string value: host} -p {string value: port}`
 
 - Connect to a remote server specifying a URI:
 
-`redis-cli -u {any something}`
+`redis-cli -u {string value: uri}`
 
 - Specify a password:
 
-`redis-cli -a {any something}`
+`redis-cli -a {string value: password}`
 
 - Execute Redis command:
 
-`redis-cli {any something}`
+`redis-cli {string value: redis_command}`
 
 - Connect to the local cluster:
 

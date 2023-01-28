@@ -9,8 +9,8 @@
 
 - Open a shell in a specific directory:
 
-`psysh --cwd {directory something}`
+`psysh --cwd {directory value}`
 
 - Use a specific configuration file:
 
-`psysh --config {file something}`
+`psysh --config {file value}`

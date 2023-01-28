@@ -6,11 +6,11 @@
 
 - Send a transaction to a given address:
 
-`bitcoin-cli sendtoaddress "{any something}" {any something}`
+`bitcoin-cli sendtoaddress "{string value: address}" {string value: amount}`
 
 - Generate one or more blocks:
 
-`bitcoin-cli generate {any something}`
+`bitcoin-cli generate {string value: num_blocks}`
 
 - Print high-level information about the wallet:
 
@@ -22,4 +22,4 @@
 
 - Export the wallet information to a text file:
 
-`bitcoin-cli dumpwallet "{file something}"`
+`bitcoin-cli dumpwallet "{file value}"`

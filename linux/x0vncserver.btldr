@@ -5,8 +5,8 @@
 
 - Start a VNC server using a passwordfile:
 
-`x0vncserver -display {any something} -passwordfile {file something}`
+`x0vncserver -display {string value: :0} -passwordfile {file value}`
 
 - Start a VNC server using a specific port:
 
-`x0vncserver -display {any something} -rfbport {any something}`
+`x0vncserver -display {string value: :0} -rfbport {string value: port}`

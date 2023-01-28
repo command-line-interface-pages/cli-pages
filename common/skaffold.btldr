@@ -5,20 +5,20 @@
 
 - Build the artifacts:
 
-`skaffold build -f {any something}`
+`skaffold build -f {string value: skaffold.yaml}`
 
 - Build and deploy your app every time your code changes:
 
-`skaffold dev -f {any something}`
+`skaffold dev -f {string value: skaffold.yaml}`
 
 - Run a pipeline file:
 
-`skaffold run -f {any something}`
+`skaffold run -f {string value: skaffold.yaml}`
 
 - Run a diagnostic on Skaffold:
 
-`skaffold diagnose -f {any something}`
+`skaffold diagnose -f {string value: skaffold.yaml}`
 
 - Deploy the artifacts:
 
-`skaffold deploy -f {any something}`
+`skaffold deploy -f {string value: skaffold.yaml}`

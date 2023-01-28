@@ -6,8 +6,8 @@
 
 - Process a `grap` file and save the output file for future processing with `pic` and `groff`:
 
-`grap {any something} > {any something}`
+`grap {string value: path/to/input.grap} > {string value: path/to/output.pic}`
 
 - Typeset a `grap` file to PDF using the [me] macro package, saving the output to a file:
 
-`grap {any something} | pic -T {any something} | groff -{any something} -T {any something} > {any something}`
+`grap {string value: path/to/input.grap} | pic -T {string value: pdf} | groff -{string value: me} -T {string value: pdf} > {string value: path/to/output.pdf}`

@@ -5,7 +5,7 @@
 
 - Create a new mkdocs project:
 
-`mkdocs new {any something}`
+`mkdocs new {string value: project_name}`
 
 - Serve the project in the current directory using the mkdocs dev-server:
 

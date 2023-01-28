@@ -5,12 +5,12 @@
 
 - Generate Python code from a `.proto` file:
 
-`protoc --python_out={directory something: output} {file something: input}`
+`protoc --python_out={directory value: output} {file value: input.proto}`
 
 - Generate Java code from a `.proto` file that imports other `.proto` files:
 
-`protoc --java_out={directory something: output} --proto_path={any something} {file something: input}`
+`protoc --java_out={directory value: output} --proto_path={string value: path/to/import_search_path} {file value: input.proto}`
 
 - Generate code for multiple languages:
 
-`protoc --csharp_out={directory something: c#_output} --js_out={directory something: js_output} {file something: input}`
+`protoc --csharp_out={directory value: c#_output} --js_out={directory value: js_output} {file value: input.proto}`

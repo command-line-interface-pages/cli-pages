@@ -5,20 +5,20 @@
 
 - Create a cluster:
 
-`k3d cluster create {any something}`
+`k3d cluster create {string value: cluster_name}`
 
 - Delete a cluster:
 
-`k3d cluster delete {any something}`
+`k3d cluster delete {string value: cluster_name}`
 
 - Create a new containerized k3s node:
 
-`k3d node create {any something}`
+`k3d node create {string value: node_name}`
 
 - Import an image from Docker into a k3d cluster:
 
-`k3d image import {any something} --cluster {any something}`
+`k3d image import {string value: image_name} --cluster {string value: cluster_name}`
 
 - Create a new registry:
 
-`k3d registry create {any something}`
+`k3d registry create {string value: registry_name}`

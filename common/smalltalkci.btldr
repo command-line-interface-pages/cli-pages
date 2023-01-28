@@ -5,7 +5,7 @@
 
 - Run tests for a configuration file:
 
-`smalltalkci {any something}`
+`smalltalkci {string value: path/to/.smalltalk.ston}`
 
 - Run tests for the `.smalltalk.ston` configuration in the current directory:
 
@@ -17,11 +17,11 @@
 
 - Download and prepare a well-known smalltalk image for the tests:
 
-`smalltalkci --smalltalk {any something}`
+`smalltalkci --smalltalk {string value: Squeak64-Trunk}`
 
 - Specify a custom Smalltalk image and VM:
 
-`smalltalkci --image {any something} --vm {any something}`
+`smalltalkci --image {string value: path/to/Smalltalk.image} --vm {string value: path/to/vm}`
 
 - Clean up caches and delete builds:
 

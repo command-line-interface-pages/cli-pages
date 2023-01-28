@@ -10,7 +10,7 @@
 
 - Change to a particular registry:
 
-`nrm use {any something}`
+`nrm use {string value: registry}`
 
 - Show the response time for all registries:
 
@@ -18,8 +18,8 @@
 
 - Add a custom registry:
 
-`nrm add {any something} {string url}`
+`nrm add {string value: registry} {string url}`
 
 - Delete a registry:
 
-`nrm del {any something}`
+`nrm del {string value: registry}`

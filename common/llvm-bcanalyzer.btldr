@@ -5,12 +5,12 @@
 
 - Print statistics about a Bitcode file:
 
-`llvm-bcanalyzer {file something}`
+`llvm-bcanalyzer {file value: sample.bc}`
 
 - Print an SGML representation and statistics about a Bitcode file:
 
-`llvm-bcanalyzer -dump {file something}`
+`llvm-bcanalyzer -dump {file value: sample.bc}`
 
 - Read a Bitcode file from stdin and analyze it:
 
-`cat {file something} | llvm-bcanalyzer`
+`cat {file value: sample.bc} | llvm-bcanalyzer`

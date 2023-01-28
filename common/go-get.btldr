@@ -5,12 +5,12 @@
 
 - Add a specified package to `go.mod` in module-mode or install the package in GOPATH-mode:
 
-`go get {any something}`
+`go get {string value: example.com/pkg}`
 
 - Modify the package with a given version in module-aware mode:
 
-`go get {any something}@{any something}`
+`go get {string value: example.com/pkg}@{string value: v1.2.3}`
 
 - Remove a specified package:
 
-`go get {any something}@{any something}`
+`go get {string value: example.com/pkg}@{string value: none}`

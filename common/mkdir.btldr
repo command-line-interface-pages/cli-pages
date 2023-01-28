@@ -5,12 +5,12 @@
 
 - Create specific directories:
 
-`mkdir {directory* something}`
+`mkdir {directory* value}`
 
 - Create specific directories and their [p]arents if needed:
 
-`mkdir -p {directory* something}`
+`mkdir -p {directory* value}`
 
 - Create directories with specific permissions:
 
-`mkdir -m {any something} {directory* something}`
+`mkdir -m {string value: rwxrw-r--} {directory* value}`

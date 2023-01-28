@@ -9,11 +9,11 @@
 
 - Enable a given swap partition:
 
-`swapon {any something}`
+`swapon {string value: /dev/sdb7}`
 
 - Enable a given swap file:
 
-`swapon {file something}`
+`swapon {file value}`
 
 - Enable all swap areas:
 
@@ -21,4 +21,4 @@
 
 - Enable swap by label of a device or file:
 
-`swapon -L {any something}`
+`swapon -L {string value: swap1}`

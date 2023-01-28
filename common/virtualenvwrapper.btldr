@@ -5,15 +5,15 @@
 
 - Create a new Python `virtualenv` in `$WORKON_HOME`:
 
-`mkvirtualenv {any something}`
+`mkvirtualenv {string value: virtualenv_name}`
 
 - Create a `virtualenv` for a specific Python version:
 
-`mkvirtualenv --python {any something} {any something}`
+`mkvirtualenv --python {string value: /usr/local/bin/python3.8} {string value: virtualenv_name}`
 
 - Activate or use a different `virtualenv`:
 
-`workon {any something}`
+`workon {string value: virtualenv_name}`
 
 - Stop the `virtualenv`:
 
@@ -25,7 +25,7 @@
 
 - Remove a `virtualenv`:
 
-`rmvirtualenv {any something}`
+`rmvirtualenv {string value: virtualenv_name}`
 
 - Get summary of all virtualenvwrapper commands:
 

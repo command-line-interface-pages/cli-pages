@@ -5,4 +5,4 @@
 
 - Display the contents of a specific file:
 
-`type {file something}`
+`type {file value}`

@@ -9,15 +9,15 @@
 
 - Create a new macro:
 
-`doskey {any something} = "{any something}"`
+`doskey {string value: name} = "{string value: command}"`
 
 - Create a new macro for a specific executable:
 
-`doskey /exename={any something} {any something} = "{any something}"`
+`doskey /exename={string value: executable} {string value: name} = "{string value: command}"`
 
 - Remove a macro:
 
-`doskey {any something} =`
+`doskey {string value: name} =`
 
 - Display all commands that are stored in memory:
 
@@ -25,8 +25,8 @@
 
 - Save macros to a file for portability:
 
-`doskey /macros > {any something}`
+`doskey /macros > {string value: macinit}`
 
 - Load macros from a file:
 
-`doskey /macrofile = {any something}`
+`doskey /macrofile = {string value: macinit}`

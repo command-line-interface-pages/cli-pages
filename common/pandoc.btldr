@@ -5,15 +5,15 @@
 
 - Convert file to PDF (the output format is determined by file extension):
 
-`pandoc {any something} -o {any something}`
+`pandoc {string value: input.md} -o {string value: output.pdf}`
 
 - Force conversion to use a specific format:
 
-`pandoc {any something} --to {any something} -o {any something}`
+`pandoc {string value: input.docx} --to {string value: gfm} -o {string value: output.md}`
 
 - Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
 
-`pandoc {any something} -s -o {any something}`
+`pandoc {string value: input.md} -s -o {string value: output.tex}`
 
 - List all supported input formats:
 

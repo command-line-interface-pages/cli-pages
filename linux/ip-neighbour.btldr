@@ -9,16 +9,16 @@
 
 - Remove entries in the neighbour table on device `eth0`:
 
-`sudo ip neighbour flush dev {any something}`
+`sudo ip neighbour flush dev {string value: eth0}`
 
 - Perform a neighbour lookup and return a neighbour entry:
 
-`ip neighbour get {any something} dev {any something}`
+`ip neighbour get {string value: lookup_ip} dev {string value: eth0}`
 
 - Add or delete an ARP entry for the neighbour IP address to `eth0`:
 
-`sudo ip neighbour {any something} {any something} lladdr {any something} dev {any something} nud reachable`
+`sudo ip neighbour {string value: add|del} {string value: ip_address} lladdr {string value: mac_address} dev {string value: eth0} nud reachable`
 
 - Change or replace an ARP entry for the neighbour IP address to `eth0`:
 
-`sudo ip neighbour {any something} {any something} lladdr {any something} dev {any something}`
+`sudo ip neighbour {string value: change|replace} {string value: ip_address} lladdr {string value: new_mac_address} dev {string value: eth0}`

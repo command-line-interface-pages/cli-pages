@@ -6,16 +6,16 @@
 
 - Open a text file:
 
-`kwrite {file something}`
+`kwrite {file value}`
 
 - Open multiple text files:
 
-`kwrite {any something}`
+`kwrite {string value: file1 file2 ...}`
 
 - Open a text file with a specific encoding:
 
-`kwrite --encoding={any something} {file something}`
+`kwrite --encoding={string value: UTF-8} {file value}`
 
 - Open a text file and navigate to a specific line and column:
 
-`kwrite --line {any something} --column {any something} {file something}`
+`kwrite --line {string value: line_number} --column {string value: column_number} {file value}`

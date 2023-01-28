@@ -9,15 +9,15 @@
 
 - Show the history of a specific branch:
 
-`tig {any something}`
+`tig {string value: branch}`
 
 - Show the history of specific files or directories:
 
-`tig {any something}`
+`tig {string value: path1 path2 ...}`
 
 - Show the difference between two references (such as branches or tags):
 
-`tig {any something}..{any something}`
+`tig {string value: base_ref}..{string value: compared_ref}`
 
 - Display commits from all branches and stashes:
 

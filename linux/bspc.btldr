@@ -5,11 +5,11 @@
 
 - Define two virtual desktop:
 
-`bspc monitor --reset-desktops {int number: 1} {int number: 2}`
+`bspc monitor --reset-desktops {int value: 1} {int value: 2}`
 
 - Focus the given desktop:
 
-`bspc desktop --focus {any something}`
+`bspc desktop --focus {string value: number}`
 
 - Close the windows rooted at the selected node:
 
@@ -17,7 +17,7 @@
 
 - Send the selected node to the given desktop:
 
-`bspc node --to-desktop {any something}`
+`bspc node --to-desktop {string value: number}`
 
 - Toggle full screen mode for the selected node:
 

@@ -13,24 +13,24 @@
 
 - Make a new recording and save it to a local file:
 
-`asciinema rec {file something}.cast`
+`asciinema rec {file value}.cast`
 
 - Replay a terminal recording from a local file:
 
-`asciinema play {file something}.cast`
+`asciinema play {file value}.cast`
 
 - Replay a terminal recording hosted on asciinema.org:
 
-`asciinema play https://asciinema.org/a/{any something}`
+`asciinema play https://asciinema.org/a/{string value: cast_id}`
 
 - Make a new recording, limiting any idle time to at most 2.5 seconds:
 
-`asciinema rec -i {float number: 2.5}`
+`asciinema rec -i {float value: 2.5}`
 
 - Print the full output of a locally saved recording:
 
-`asciinema cat {file something}.cast`
+`asciinema cat {file value}.cast`
 
 - Upload a locally saved terminal session to asciinema.org:
 
-`asciinema upload {file something}.cast`
+`asciinema upload {file value}.cast`

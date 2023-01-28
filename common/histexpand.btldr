@@ -9,28 +9,28 @@
 
 - Run a command with the last argument of the previous command:
 
-`{any something} !$`
+`{string value: command} !$`
 
 - Run a command with the first argument of the previous command:
 
-`{any something} !^`
+`{string value: command} !^`
 
 - Run the Nth command of the history:
 
-`!{any something}`
+`!{string value: n}`
 
 - Run the command `n` lines back in the history:
 
-`!-{any something}`
+`!-{string value: n}`
 
 - Run the most recent command containing `string`:
 
-`!?{any something}?`
+`!?{string value: string}?`
 
 - Run the previous command, replacing `string1` with `string2`:
 
-`^{any something}^{any something}^`
+`^{string value: string1}^{string value: string2}^`
 
 - Perform a history expansion, but print the command that would be run instead of actually running it:
 
-`{any something}:p`
+`{string value: !-n}:p`

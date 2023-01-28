@@ -6,12 +6,12 @@
 
 - Send an email using the default account configured in `~/.msmtprc`:
 
-`echo "{any something}" | msmtp {any something}`
+`echo "{string value: Hello world}" | msmtp {string value: to@example.org}`
 
 - Send an email using a specific account configured in `~/.msmtprc`:
 
-`echo "{any something}" | msmtp --account={any something} {any something}`
+`echo "{string value: Hello world}" | msmtp --account={string value: account_name} {string value: to@example.org}`
 
 - Send an email without a configured account. The password should be specified in the `~/.msmtprc` file:
 
-`echo "{any something}" | msmtp --host={any something} --port={int number: 999} --from={any something} {any something}`
+`echo "{string value: Hello world}" | msmtp --host={string value: localhost} --port={int value: 999} --from={string value: from@example.org} {string value: to@example.org}`

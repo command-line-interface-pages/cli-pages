@@ -5,16 +5,16 @@
 
 - Generate a SHA-512 timestamp request of a specific file and output to `file.tsq`:
 
-`openssl ts -query -data {file something} -sha512 -out {file something}`
+`openssl ts -query -data {file value} -sha512 -out {file value: sample.tsq}`
 
 - Check the date and metadata of a specific timestamp response file:
 
-`openssl ts -reply -in {file something} -text`
+`openssl ts -reply -in {file value: sample.tsr} -text`
 
 - Verify a timestamp request file and a timestamp response file from the server with an SSL certificate file:
 
-`openssl ts -verify -in {file something} -queryfile {file something} -partial_chain -CAfile {any something}`
+`openssl ts -verify -in {file value: sample.tsr} -queryfile {file value: sample.tsq} -partial_chain -CAfile {string value: path/to/cert.pem}`
 
 - Create a timestamp response for request using key and signing certificate and output it to `file.tsr`:
 
-`openssl ts -reply -queryfile {file something} -inkey {any something} -signer tsacert.pem -out {file something}`
+`openssl ts -reply -queryfile {file value: sample.tsq} -inkey {string value: path/to/tsakey.pem} -signer tsacert.pem -out {file value: sample.tsr}`

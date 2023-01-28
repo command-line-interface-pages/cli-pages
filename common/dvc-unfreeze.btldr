@@ -7,4 +7,4 @@
 
 - Unfreeze 1 or more specified stages:
 
-`dvc unfreeze {any something} [{any something} ...]`
+`dvc unfreeze {string value: stage_name_a} [{string value: stage_name_b} ...]`

@@ -5,7 +5,7 @@
 
 - Set display brightness to 50%:
 
-`blight set {int number: 50} -r`
+`blight set {int value: 50} -r`
 
 - Show current display brightness:
 
@@ -17,8 +17,8 @@
 
 - Increase display brightness in %:
 
-`blight inc {any something} -r`
+`blight inc {string value: number} -r`
 
 - Decrease display brightness with internal units:
 
-`blight dec {any something}`
+`blight dec {string value: number}`

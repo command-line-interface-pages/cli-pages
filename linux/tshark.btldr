@@ -9,28 +9,28 @@
 
 - Only capture packets matching a specific capture filter:
 
-`tshark -f '{any something}'`
+`tshark -f '{string value: udp port 53}'`
 
 - Only show packets matching a specific output filter:
 
-`tshark -Y '{any something}'`
+`tshark -Y '{string value: http.request.method == "GET"}'`
 
 - Decode a TCP port using a specific protocol (e.g. HTTP):
 
-`tshark -d tcp.port=={int number: 8888},{any something}`
+`tshark -d tcp.port=={int value: 8888},{string value: http}`
 
 - Specify the format of captured output:
 
-`tshark -T {any something}`
+`tshark -T {string value: json|text|ps|…}`
 
 - Select specific fields to output:
 
-`tshark -T {any something} -e {any something} -e {any something}`
+`tshark -T {string value: fields|ek|json|pdml} -e {string value: http.request.method} -e {string value: ip.src}`
 
 - Write captured packet to a file:
 
-`tshark -w {file something}`
+`tshark -w {file value}`
 
 - Analyze packets from a file:
 
-`tshark -r {file something}`
+`tshark -r {file value: sample.pcap}`

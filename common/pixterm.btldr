@@ -6,16 +6,16 @@
 
 - Render a static image directly in the terminal:
 
-`pixterm {file something}`
+`pixterm {file value}`
 
 - Use the image's original aspect ratio:
 
-`pixterm -s 2 {file something}`
+`pixterm -s 2 {file value}`
 
 - Specify a custom aspect ratio using a specific number of [t]erminal [r]ows and [c]olumns:
 
-`pixterm -tr {int number: 24} -tc {int number: 80} {file something}`
+`pixterm -tr {int value: 24} -tc {int value: 80} {file value}`
 
 - Filter the output with a [m]atte background color and character [d]ithering:
 
-`pixterm -m {int number: 000000} -d 2 {file something}`
+`pixterm -m {int value: 000000} -d 2 {file value}`

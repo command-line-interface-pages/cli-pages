@@ -5,12 +5,12 @@
 
 - Show lint errors in a file:
 
-`pylint {file something}`
+`pylint {file value: sample.py}`
 
 - Lint a file and use a configuration file (usually named `pylintrc`):
 
-`pylint --rcfile {any something} {file something}`
+`pylint --rcfile {string value: path/to/pylintrc} {file value: sample.py}`
 
 - Lint a file and disable a specific error code:
 
-`pylint --disable {any something} {file something}`
+`pylint --disable {string value: C,W,no-error,design} {file value}`

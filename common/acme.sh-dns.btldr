@@ -5,20 +5,20 @@
 
 - Issue a certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns {any something} --domain {any something}`
+`acme.sh --issue --dns {string value: gnd_gd} --domain {string value: example.com}`
 
 - Issue a wildcard certificate (denoted by an asterisk) using an automatic DNS API mode:
 
-`acme.sh --issue --dns {any something} --domain {any something} --domain {any something}`
+`acme.sh --issue --dns {string value: dns_namesilo} --domain {string value: example.com} --domain {string value: *.example.com}`
 
 - Issue a certificate using a DNS alias mode:
 
-`acme.sh --issue --dns {any something} --domain {any something} --challenge-alias {any something}`
+`acme.sh --issue --dns {string value: dns_cf} --domain {string value: example.com} --challenge-alias {string value: alias-for-example-validation.com}`
 
 - Issue a certificate while disabling automatic Cloudflare / Google DNS polling after the DNS record is added by specifying a custom wait time in seconds:
 
-`acme.sh --issue --dns {any something} --domain {any something} --dnssleep {int number: 300}`
+`acme.sh --issue --dns {string value: dns_namecheap} --domain {string value: example.com} --dnssleep {int value: 300}`
 
 - Issue a certificate using a manual DNS mode:
 
-`acme.sh --issue --dns --domain {any something} --yes-I-know-dns-manual-mode-enough-go-ahead-please`
+`acme.sh --issue --dns --domain {string value: example.com} --yes-I-know-dns-manual-mode-enough-go-ahead-please`

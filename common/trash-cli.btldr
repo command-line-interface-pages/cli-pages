@@ -5,11 +5,11 @@
 
 - Trash specific files and directories into the current trashcan:
 
-`trash-put {path* something}`
+`trash-put {path* value}`
 
 - Remove specific files from the current trashcan:
 
-`trash-rm {path* something}`
+`trash-rm {path* value}`
 
 - Empty the current trashcan:
 

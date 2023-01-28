@@ -10,11 +10,11 @@
 
 - Install one or more packages to the bower_components directory:
 
-`bower install {any something} {any something}`
+`bower install {string value: package} {string value: package}`
 
 - Uninstall packages locally from the bower_components directory:
 
-`bower uninstall {any something} {any something}`
+`bower uninstall {string value: package} {string value: package}`
 
 - List local packages and possible updates:
 
@@ -22,7 +22,7 @@
 
 - Display help information about a bower command:
 
-`bower help {any something}`
+`bower help {string value: command}`
 
 - Create a `bower.json` file for your package:
 
@@ -30,4 +30,4 @@
 
 - Install a specific dependency version, and add it to `bower.json`:
 
-`bower install {any something}={any something}#{any something} --save`
+`bower install {string value: local_name}={string value: package}#{string value: version} --save`

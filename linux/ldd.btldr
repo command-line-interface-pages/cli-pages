@@ -6,20 +6,20 @@
 
 - Display shared library dependencies of a binary:
 
-`ldd {any something}`
+`ldd {string value: path/to/binary}`
 
 - Display all information about dependencies:
 
-`ldd --verbose {any something}`
+`ldd --verbose {string value: path/to/binary}`
 
 - Display unused direct dependencies:
 
-`ldd --unused {any something}`
+`ldd --unused {string value: path/to/binary}`
 
 - Report missing data objects and perform data relocations:
 
-`ldd --data-relocs {any something}`
+`ldd --data-relocs {string value: path/to/binary}`
 
 - Report missing data objects and functions, and perform relocations for both:
 
-`ldd --function-relocs {any something}`
+`ldd --function-relocs {string value: path/to/binary}`

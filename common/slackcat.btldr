@@ -5,16 +5,16 @@
 
 - Post a file to Slack:
 
-`slackcat --channel {any something} {file something}`
+`slackcat --channel {string value: channel_name} {file value}`
 
 - Post a file to Slack with a custom filename:
 
-`slackcat --channel {any something} --filename={any something} {file something}`
+`slackcat --channel {string value: channel_name} --filename={file value} {file value}`
 
 - Pipe command output to Slack as a text snippet:
 
-`{any something} | slackcat --channel {any something} --filename={any something}`
+`{string value: command} | slackcat --channel {string value: channel_name} --filename={string value: snippet_name}`
 
 - Stream command output to Slack continuously:
 
-`{any something} | slackcat --channel {any something} --stream`
+`{string value: command} | slackcat --channel {string value: channel_name} --stream`

@@ -14,7 +14,7 @@
 
 - See help text for the AWS command:
 
-`aws {any something} help`
+`aws {string value: command} help`
 
 - Get the caller identity (used to troubleshoot permissions):
 
@@ -22,7 +22,7 @@
 
 - List AWS resources in a region and output in YAML:
 
-`aws dynamodb list-tables --region {any something} --output yaml`
+`aws dynamodb list-tables --region {string value: us-east-1} --output yaml`
 
 - Use auto prompt to help with a command:
 
@@ -30,7 +30,7 @@
 
 - Get an interactive wizard for an AWS resource:
 
-`aws dynamodb wizard {any something}`
+`aws dynamodb wizard {string value: new_table}`
 
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 

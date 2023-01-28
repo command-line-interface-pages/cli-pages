@@ -9,15 +9,15 @@
 
 - Filter by columns:
 
-`rfkill -o {any something}`
+`rfkill -o {string value: ID,TYPE,DEVICE}`
 
 - Block devices by type (e.g. bluetooth, wlan):
 
-`rfkill block {any something}`
+`rfkill block {string value: bluetooth}`
 
 - Unblock devices by type (e.g. bluetooth, wlan):
 
-`rfkill unblock {any something}`
+`rfkill unblock {string value: wlan}`
 
 - Output in JSON format:
 

@@ -9,4 +9,4 @@
 
 - Launch silentcast on a specific display:
 
-`silentcast --display={any something}`
+`silentcast --display={string value: display}`

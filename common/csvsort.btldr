@@ -6,16 +6,16 @@
 
 - Sort a CSV file by column 9:
 
-`csvsort -c {int number: 9} {any something}`
+`csvsort -c {int value: 9} {string value: data.csv}`
 
 - Sort a CSV file by the "name" column in descending order:
 
-`csvsort -r -c {any something} {any something}`
+`csvsort -r -c {string value: name} {string value: data.csv}`
 
 - Sort a CSV file by column 2, then by column 4:
 
-`csvsort -c {any something} {any something}`
+`csvsort -c {string value: 2,4} {string value: data.csv}`
 
 - Sort a CSV file without inferring data types:
 
-`csvsort --no-inference -c {any something} {any something}`
+`csvsort --no-inference -c {string value: columns} {string value: data.csv}`

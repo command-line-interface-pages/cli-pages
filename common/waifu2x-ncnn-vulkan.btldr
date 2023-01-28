@@ -5,12 +5,12 @@
 
 - Upscale an image:
 
-`waifu2x-ncnn-vulkan -i {file something: input} -o {file something: output}`
+`waifu2x-ncnn-vulkan -i {file value: input} -o {file value: output}`
 
 - Upscale an image by a custom scale factor and denoise it:
 
-`waifu2x-ncnn-vulkan -i {file something: input} -o {file something: output} -s {any something} -n {any something}`
+`waifu2x-ncnn-vulkan -i {file value: input} -o {file value: output} -s {string value: 1|2|4|8|16|32} -n {string value: -1|0|1|2|3}`
 
 - Save the upscaled image in a specific format:
 
-`waifu2x-ncnn-vulkan -i {file something: input} -o {file something: output} -f {any something}`
+`waifu2x-ncnn-vulkan -i {file value: input} -o {file value: output} -f {string value: jpg|png|webp}`

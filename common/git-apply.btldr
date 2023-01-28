@@ -5,24 +5,24 @@
 
 - Print messages about the patched files:
 
-`git apply --verbose {file something}`
+`git apply --verbose {file value}`
 
 - Apply and add the patched files to the index:
 
-`git apply --index {file something}`
+`git apply --index {file value}`
 
 - Apply a remote patch file:
 
-`curl {any something} | git apply`
+`curl {string value: https://example.com/file.patch} | git apply`
 
 - Output diffstat for the input and apply the patch:
 
-`git apply --stat --apply {file something}`
+`git apply --stat --apply {file value}`
 
 - Apply the patch in reverse:
 
-`git apply --reverse {file something}`
+`git apply --reverse {file value}`
 
 - Store the patch result in the index without modifying the working tree:
 
-`git apply --cache {file something}`
+`git apply --cache {file value}`

@@ -5,16 +5,16 @@
 
 - Check if the config files are valid or not (if present report errors):
 
-`promtool check config {file something: config}`
+`promtool check config {file value: config.yml}`
 
 - Check if the rule files are valid or not (if present report errors):
 
-`promtool check rules {file something: rules}`
+`promtool check rules {file value: rules.yml}`
 
 - Pass Prometheus metrics over stdin to check them for consistency and correctness:
 
-`curl --silent {any something} | promtool check metrics`
+`curl --silent {string value: http://example.com:9090/metrics/} | promtool check metrics`
 
 - Unit tests for rules config:
 
-`promtool test rules {file something: test}`
+`promtool test rules {file value: test.yml}`

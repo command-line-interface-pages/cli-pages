@@ -6,11 +6,11 @@
 
 - Check out a specific pull request:
 
-`git pr {any something}`
+`git pr {string value: pr_number}`
 
 - Check out a pull request from a specific remote:
 
-`git pr {any something} {any something}`
+`git pr {string value: pr_number} {string value: remote}`
 
 - Check out a pull request from its URL:
 

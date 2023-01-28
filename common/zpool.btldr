@@ -9,7 +9,7 @@
 
 - Check a ZFS pool for errors (verifies the checksum of EVERY block). Very CPU and disk intensive:
 
-`zpool scrub {any something}`
+`zpool scrub {string value: pool_name}`
 
 - List zpools available for import:
 
@@ -17,20 +17,20 @@
 
 - Import a zpool:
 
-`zpool import {any something}`
+`zpool import {string value: pool_name}`
 
 - Export a zpool (unmount all filesystems):
 
-`zpool export {any something}`
+`zpool export {string value: pool_name}`
 
 - Show the history of all pool operations:
 
-`zpool history {any something}`
+`zpool history {string value: pool_name}`
 
 - Create a mirrored pool:
 
-`zpool create {any something} mirror {any something} {any something} mirror {any something} {any something}`
+`zpool create {string value: pool_name} mirror {string value: disk1} {string value: disk2} mirror {string value: disk3} {string value: disk4}`
 
 - Add a cache (L2ARC) device to a zpool:
 
-`zpool add {any something} cache {any something}`
+`zpool add {string value: pool_name} cache {string value: cache_disk}`

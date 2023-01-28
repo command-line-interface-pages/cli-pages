@@ -9,7 +9,7 @@
 
 - Connect to a specific X server:
 
-`twm -display {any something}`
+`twm -display {string value: display}`
 
 - Only manage the default screen:
 
@@ -17,7 +17,7 @@
 
 - Use a specific startup file:
 
-`twm -f {file something}`
+`twm -f {file value}`
 
 - Enable verbose mode and print unexpected errors in X:
 

@@ -6,12 +6,12 @@
 
 - Take a list of file names from stdin and add them [o]nto an archive in cpio's binary format:
 
-`echo "{any something} {any something} {any something}" | cpio -o > {any something}`
+`echo "{string value: file1} {string value: file2} {string value: file3}" | cpio -o > {string value: archive.cpio}`
 
 - Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:
 
-`find {directory something} | cpio -ov > {any something}`
+`find {directory value} | cpio -ov > {string value: archive.cpio}`
 
 - P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode:
 
-`cpio -idv < {any something}`
+`cpio -idv < {string value: archive.cpio}`

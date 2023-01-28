@@ -5,11 +5,11 @@
 
 - Log in to the Cloud Foundry API:
 
-`cf login -a {any something}`
+`cf login -a {string value: api_url}`
 
 - Push an app using the default settings:
 
-`cf push {any something}`
+`cf push {string value: app_name}`
 
 - View the services available from your organization:
 
@@ -17,20 +17,20 @@
 
 - Create a service instance:
 
-`cf create-service {any something} {any something} {any something}`
+`cf create-service {string value: service} {string value: plan} {string value: service_name}`
 
 - Connect an application to a service:
 
-`cf bind-service {any something} {any something}`
+`cf bind-service {string value: app_name} {string value: service_name}`
 
 - Run a script whose code is included in the app, but runs independently:
 
-`cf run-task {any something} "{any something}" --name {any something}`
+`cf run-task {string value: app_name} "{string value: script_command}" --name {string value: task_name}`
 
 - Start an interactive SSH session with a VM hosting an app:
 
-`cf ssh {any something}`
+`cf ssh {string value: app_name}`
 
 - View a dump of recent app logs:
 
-`cf logs {any something} --recent`
+`cf logs {string value: app_name} --recent`

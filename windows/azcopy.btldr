@@ -9,19 +9,19 @@
 
 - Upload a local file:
 
-`azcopy copy '{any something}' 'https://{any something}.blob.core.windows.net/{any something}/{any something}'`
+`azcopy copy '{string value: path/to/source/file}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}/{string value: blob_name}'`
 
 - Upload files with `.txt` and `.jpg` extensions:
 
-`azcopy copy '{any something}' 'https://{any something}.blob.core.windows.net/{any something}' --include-pattern '{any something}'`
+`azcopy copy '{string value: path/to/source}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}' --include-pattern '{string value: *.txt;*.jpg}'`
 
 - Copy a container directly between two Azure storage accounts:
 
-`azcopy copy 'https://{any something}.blob.core.windows.net/{any something}' 'https://{any something}.blob.core.windows.net/{any something}'`
+`azcopy copy 'https://{string value: source_storage_account_name}.blob.core.windows.net/{string value: container_name}' 'https://{string value: destination_storage_account_name}.blob.core.windows.net/{string value: container_name}'`
 
 - Synchronize a local directory and delete files in the destination if they no longer exist in the source:
 
-`azcopy sync '{any something}' 'https://{any something}.blob.core.windows.net/{any something}' --recursive --delete-destination=true`
+`azcopy sync '{string value: path/to/source}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}' --recursive --delete-destination=true`
 
 - Display detailed usage information:
 

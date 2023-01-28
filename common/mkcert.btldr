@@ -9,15 +9,15 @@
 
 - Generate certificate and private key for a given domain:
 
-`mkcert {any something}`
+`mkcert {string value: example.org}`
 
 - Generate certificate and private key for multiple domains:
 
-`mkcert {any something} {any something} {any something}`
+`mkcert {string value: example.org} {string value: myapp.dev} {string value: 127.0.0.1}`
 
 - Generate wildcard certificate and private key for a given domain and its subdomains:
 
-`mkcert "{any something}"`
+`mkcert "{string value: *.example.it}"`
 
 - Uninstall the local CA:
 

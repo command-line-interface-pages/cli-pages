@@ -21,7 +21,7 @@
 
 - View the logs of a Ghost instance:
 
-`ghost log {any something}`
+`ghost log {string value: name}`
 
 - Run a Ghost instance directly (used by process managers and for debugging):
 
@@ -33,4 +33,4 @@
 
 - View or edit Ghost configuration:
 
-`ghost config {any something} {any something}`
+`ghost config {string value: key} {string value: value}`

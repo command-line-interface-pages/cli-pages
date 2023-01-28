@@ -13,16 +13,16 @@
 
 - Authorize a device temporarily:
 
-`boltctl authorize {any something}`
+`boltctl authorize {string value: device_uuid}`
 
 - Authorize and remember a device:
 
-`boltctl enroll {any something}`
+`boltctl enroll {string value: device_uuid}`
 
 - Revoke a previously authorized device:
 
-`boltctl forget {any something}`
+`boltctl forget {string value: device_uuid}`
 
 - Show more information about a device:
 
-`boltctl info {any something}`
+`boltctl info {string value: device_uuid}`

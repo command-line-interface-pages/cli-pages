@@ -13,8 +13,8 @@
 
 - Run a type coverage check on all files in a directory:
 
-`flow batch-coverage --show-all --strip-root {directory something}`
+`flow batch-coverage --show-all --strip-root {directory value}`
 
 - Display line-by-line type coverage stats:
 
-`flow coverage --color {file something}`
+`flow coverage --color {file value: sample.jsx}`

@@ -6,8 +6,8 @@
 
 - Convert an RDF/XML document to Turtle:
 
-`rapper -i rdfxml -o turtle {file something}`
+`rapper -i rdfxml -o turtle {file value}`
 
 - Count the number of triples in a Turtle file:
 
-`rapper -i turtle -c {file something}`
+`rapper -i turtle -c {file value}`

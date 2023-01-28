@@ -6,4 +6,4 @@
 
 - Open a `zstd` compressed file:
 
-`zstdless {file something}`
+`zstdless {file value: sample.zst}`

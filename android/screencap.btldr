@@ -6,4 +6,4 @@
 
 - Take a screenshot:
 
-`screencap {file something}`
+`screencap {file value}`

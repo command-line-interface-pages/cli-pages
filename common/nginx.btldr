@@ -9,11 +9,11 @@
 
 - Start server with a custom configuration file:
 
-`nginx -c {file something: configuration}`
+`nginx -c {file value: configuration}`
 
 - Start server with a prefix for all relative paths in the configuration file:
 
-`nginx -c {file something: configuration} -p {any something}`
+`nginx -c {file value: configuration} -p {string value: prefix/for/relative/paths}`
 
 - Test the configuration without affecting the running server:
 

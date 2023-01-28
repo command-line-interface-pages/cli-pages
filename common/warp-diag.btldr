@@ -14,7 +14,7 @@
 
 - Save the output file under a specific directory:
 
-`warp-diag --output {directory something}`
+`warp-diag --output {directory value}`
 
 - Submit a new feedback to Cloudflare's WARP interactively:
 

@@ -5,27 +5,27 @@
 
 - Delete a shared memory segment by ID:
 
-`ipcrm --shmem-id {any something}`
+`ipcrm --shmem-id {string value: shmem_id}`
 
 - Delete a shared memory segment by key:
 
-`ipcrm --shmem-key {any something}`
+`ipcrm --shmem-key {string value: shmem_key}`
 
 - Delete an IPC queue by ID:
 
-`ipcrm --queue-id {any something}`
+`ipcrm --queue-id {string value: ipc_queue_id}`
 
 - Delete an IPC queue by key:
 
-`ipcrm --queue-key {any something}`
+`ipcrm --queue-key {string value: ipc_queue_key}`
 
 - Delete a semaphore by ID:
 
-`ipcrm --semaphore-id {any something}`
+`ipcrm --semaphore-id {string value: semaphore_id}`
 
 - Delete a semaphore by key:
 
-`ipcrm --semaphore-key {any something}`
+`ipcrm --semaphore-key {string value: semaphore_key}`
 
 - Delete all IPC resources:
 

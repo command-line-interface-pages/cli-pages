@@ -5,11 +5,11 @@
 
 - Open the terminal in a specific directory:
 
-`konsole --workdir {directory something}`
+`konsole --workdir {directory value}`
 
 - [e]xecute a specific command and don't close the window after it exits:
 
-`konsole --noclose -e "{any something}"`
+`konsole --noclose -e "{string value: command}"`
 
 - Open a new tab:
 

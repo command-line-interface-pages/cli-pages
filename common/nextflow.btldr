@@ -5,15 +5,15 @@
 
 - Run a pipeline, use cached results from previous runs:
 
-`nextflow run {any something} -resume`
+`nextflow run {string value: main.nf} -resume`
 
 - Run a specific release of a remote workflow from GitHub:
 
-`nextflow run {any something} -revision {any something}`
+`nextflow run {string value: user/repo} -revision {string value: release_tag}`
 
 - Run with a given work directory for intermediate files, save execution report:
 
-`nextflow run {any something} -work-dir {directory something} -with-report {any something}`
+`nextflow run {string value: workflow} -work-dir {directory value} -with-report {string value: report.html}`
 
 - Show details of previous runs in current directory:
 
@@ -21,7 +21,7 @@
 
 - Remove cache and intermediate files for a specific run:
 
-`nextflow clean -force {any something}`
+`nextflow clean -force {string value: run_name}`
 
 - List all downloaded projects:
 
@@ -29,7 +29,7 @@
 
 - Pull the latest version of a remote workflow from Bitbucket:
 
-`nextflow pull {any something} -hub bitbucket`
+`nextflow pull {string value: user/repo} -hub bitbucket`
 
 - Update Nextflow:
 

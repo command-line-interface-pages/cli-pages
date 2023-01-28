@@ -9,7 +9,7 @@
 
 - Generate a Phan configuration file using a specific level (1 being strictest to 5 being the least strict):
 
-`phan --init --init-level {any something}`
+`phan --init --init-level {string value: level}`
 
 - Analyze the current directory:
 
@@ -17,16 +17,16 @@
 
 - Analyze one or more directories:
 
-`phan --directory {directory something} --directory {directory something: another}`
+`phan --directory {directory value} --directory {directory value: another}`
 
 - Specify a config file (defaults to `.phan/config.php`):
 
-`phan --config-file {any something}`
+`phan --config-file {string value: path/to/config.php}`
 
 - Specify the output mode:
 
-`phan --output-mode {any something}`
+`phan --output-mode {string value: text|verbose|json|csv|codeclimate|checkstyle|pylint|html}`
 
 - Specify the number of parallel processes:
 
-`phan --processes {any something}`
+`phan --processes {string value: number_of_processes}`

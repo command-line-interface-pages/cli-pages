@@ -5,4 +5,4 @@
 
 - Call a command and display its output if it returns a non-zero exit code:
 
-`cronic {any something}`
+`cronic {string value: command}`

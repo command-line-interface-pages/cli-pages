@@ -5,15 +5,15 @@
 
 - Install a new package:
 
-`guix package -i {any something}`
+`guix package -i {string value: package_name}`
 
 - Remove a package:
 
-`guix package -r {any something}`
+`guix package -r {string value: package_name}`
 
 - Search the package database for a regular expression:
 
-`guix package -s "{any something}"`
+`guix package -s "{string value: search_pattern}"`
 
 - List installed packages:
 

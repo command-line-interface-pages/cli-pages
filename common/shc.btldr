@@ -5,16 +5,16 @@
 
 - Compile a shell script:
 
-`shc -f {any something}`
+`shc -f {string value: script}`
 
 - Compile a shell script and specify an output binary file:
 
-`shc -f {any something} -o {any something}`
+`shc -f {string value: script} -o {string value: binary}`
 
 - Compile a shell script and set an expiration date for the executable:
 
-`shc -f {any something} -e {any something}`
+`shc -f {string value: script} -e {string value: dd/mm/yyyy}`
 
 - Compile a shell script and set a message to display upon expiration:
 
-`shc -f {any something} -e {any something} -m "{any something}"`
+`shc -f {string value: script} -e {string value: dd/mm/yyyy} -m "{string value: Please contact your provider}"`

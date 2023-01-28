@@ -5,4 +5,4 @@
 
 - Print the scripting definitions of the given application:
 
-`sdef {any something}`
+`sdef {string value: /Applications/XCode.app}`

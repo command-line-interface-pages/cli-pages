@@ -6,16 +6,16 @@
 
 - Replace a sensitive string in all files:
 
-`git filter-repo --replace-text <(echo '{any something}==>{any something}')`
+`git filter-repo --replace-text <(echo '{string value: find}==>{string value: replacement}')`
 
 - Extract a single folder, keeping history:
 
-`git-filter-repo --path {any something}`
+`git-filter-repo --path {string value: path/to/folder}`
 
 - Remove a single folder, keeping history:
 
-`git-filter-repo --path {any something} --invert-paths`
+`git-filter-repo --path {string value: path/to/folder} --invert-paths`
 
 - Move everything from sub-folder one level up:
 
-`git-filter-repo --path-rename {any something}`
+`git-filter-repo --path-rename {string value: path/to/folder/:}`

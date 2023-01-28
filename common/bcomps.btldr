@@ -6,15 +6,15 @@
 
 - Decompose one or more graphs into their biconnected components:
 
-`bcomps {any something} {any something} > {any something}`
+`bcomps {string value: path/to/input1.gv} {string value: path/to/input2.gv ...} > {string value: path/to/output.gv}`
 
 - Print the number of blocks and cutvertices in one or more graphs:
 
-`bcomps -v -s {any something} {any something}`
+`bcomps -v -s {string value: path/to/input1.gv} {string value: path/to/input2.gv ...}`
 
 - Write each block and block-cutvertex tree to multiple numbered filenames based on `output.gv`:
 
-`bcomps -x -o {any something} {any something} {any something}`
+`bcomps -x -o {string value: path/to/output.gv} {string value: path/to/input1.gv} {string value: path/to/input2.gv ...}`
 
 - Display help for `bcomps`:
 

@@ -5,8 +5,8 @@
 
 - Read an IDX file for a Git packfile and dump its contents to stdout:
 
-`git show-index {file something}`
+`git show-index {file value: sample.idx}`
 
 - Specify the hash algorithm for the index file (experimental):
 
-`git show-index --object-format={any something} {file something}`
+`git show-index --object-format={string value: sha1|sha256} {file value}`

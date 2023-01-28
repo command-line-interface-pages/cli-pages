@@ -5,12 +5,12 @@
 
 - Trigger a pipeline to run from a Git branch, commit or tag:
 
-`vela add deployment --org {any something} --repo {any something} --target {any something} --ref {any something} --description "{any something}"`
+`vela add deployment --org {string value: organization} --repo {string value: repository_name} --target {string value: environment} --ref {string value: branch|commit|refs/tags/git_tag} --description "{string value: deploy_description}"`
 
 - List deployments for a repository:
 
-`vela get deployment --org {any something} --repo {any something}`
+`vela get deployment --org {string value: organization} --repo {string value: repository_name}`
 
 - Inspect a specific deployment:
 
-`vela view deployment --org {any something} --repo {any something} --deployment {any something}`
+`vela view deployment --org {string value: organization} --repo {string value: repository_name} --deployment {string value: deployment_number}`

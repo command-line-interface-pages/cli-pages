@@ -9,16 +9,16 @@
 
 - Add the executables for a specific platform:
 
-`sudo tlmgr platform add {any something}`
+`sudo tlmgr platform add {string value: platform}`
 
 - Remove the executables for a specific platform:
 
-`sudo tlmgr platform remove {any something}`
+`sudo tlmgr platform remove {string value: platform}`
 
 - Auto-detect and switch to the current platform:
 
-`sudo tlmgr platform set {any something}`
+`sudo tlmgr platform set {string value: auto}`
 
 - Switch to a specific platform:
 
-`sudo tlmgr platform set {any something}`
+`sudo tlmgr platform set {string value: platform}`

@@ -5,19 +5,19 @@
 
 - Display the changes that would be performed without performing them (dry-run):
 
-`2to3 {file something}`
+`2to3 {file value: sample.py}`
 
 - Convert a Python 2 file to Python 3:
 
-`2to3 --write {file something}`
+`2to3 --write {file value: sample.py}`
 
 - Convert specific Python 2 language features to Python 3:
 
-`2to3 --write {file something} --fix={any something} --fix={any something}`
+`2to3 --write {file value: sample.py} --fix={string value: raw_input} --fix={string value: print}`
 
 - Convert all Python 2 language features except the specified ones to Python 3:
 
-`2to3 --write {file something} --nofix={any something} --nofix={any something}`
+`2to3 --write {file value: sample.py} --nofix={string value: has_key} --nofix={string value: isinstance}`
 
 - Display a list of all available language features that can be converted from Python 2 to Python 3:
 
@@ -25,8 +25,8 @@
 
 - Convert all Python 2 files in a directory to Python 3:
 
-`2to3 --output-dir={directory something: python3} --write-unchanged-files --nobackups {directory something: python2}`
+`2to3 --output-dir={directory value: python3} --write-unchanged-files --nobackups {directory value: python2}`
 
 - Run 2to3 with multiple threads:
 
-`2to3 --processes={int number: 4} --output-dir={directory something: python3} --write --nobackups --no-diff {directory something: python2}`
+`2to3 --processes={int value: 4} --output-dir={directory value: python3} --write --nobackups --no-diff {directory value: python2}`

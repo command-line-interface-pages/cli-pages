@@ -9,12 +9,12 @@
 
 - Plot the graph for the specified graph definition file:
 
-`gnuplot {any something}`
+`gnuplot {string value: path/to/definition.plt}`
 
 - Set the output format by executing a command before loading the definition file:
 
-`gnuplot -e "{any something}" {any something}`
+`gnuplot -e "{string value: set output "path/to/filename.png" size 1024,768}" {string value: path/to/definition.plt}`
 
 - Persist the graph plot preview window after gnuplot exits:
 
-`gnuplot --persist {any something}`
+`gnuplot --persist {string value: path/to/definition.plt}`

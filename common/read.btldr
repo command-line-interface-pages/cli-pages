@@ -5,31 +5,31 @@
 
 - Store data that you type from the keyboard:
 
-`read {any something}`
+`read {string value: variable}`
 
 - Store each of the next lines you enter as values of an array:
 
-`read -a {any something}`
+`read -a {string value: array}`
 
 - Specify the number of maximum characters to be read:
 
-`read -n {any something} {any something}`
+`read -n {string value: character_count} {string value: variable}`
 
 - Use a specific character as a delimiter instead of a new line:
 
-`read -d {any something} {any something}`
+`read -d {string value: new_delimiter} {string value: variable}`
 
 - Do not let backslash (\\) act as an escape character:
 
-`read -r {any something}`
+`read -r {string value: variable}`
 
 - Display a prompt before the input:
 
-`read -p "{any something}" {any something}`
+`read -p "{string value: Enter your input here: }" {string value: variable}`
 
 - Do not echo typed characters (silent mode):
 
-`read -s {any something}`
+`read -s {string value: variable}`
 
 - Read stdin and perform an action on every line:
 

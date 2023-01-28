@@ -10,16 +10,16 @@
 
 - Execute specific [c]ommands:
 
-`ksh -c "{any something}"`
+`ksh -c "{string value: echo 'ksh is executed'}"`
 
 - Execute a specific script:
 
-`ksh {any something}`
+`ksh {string value: path/to/script.ksh}`
 
 - Check a specific script for syntax errors without executing it:
 
-`ksh -n {any something}`
+`ksh -n {string value: path/to/script.ksh}`
 
 - Execute a specific script, printing each command in the script before executing it:
 
-`ksh -x {any something}`
+`ksh -x {string value: path/to/script.ksh}`

@@ -5,11 +5,11 @@
 
 - Search for a specific username on social networks saving the results to a file:
 
-`sherlock {string user} --output {file something}`
+`sherlock {string user} --output {file value}`
 
 - Search for specific usernames on social networks saving the results into a directory:
 
-`sherlock {any something} --folderoutput {directory something}`
+`sherlock {string value: username1 username2 ...} --folderoutput {directory value}`
 
 - Search for a specific username on social networks using the Tor network:
 
@@ -21,7 +21,7 @@
 
 - Search for a specific username on social networks using a proxy:
 
-`sherlock {string user} --proxy {any something}`
+`sherlock {string user} --proxy {string value: proxy_url}`
 
 - Search for a specific username on social networks and open results in the default web browser:
 

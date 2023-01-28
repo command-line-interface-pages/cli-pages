@@ -5,16 +5,16 @@
 
 - Match and rewrite templates, and print changes:
 
-`comby '{any something}' '{any something}' {any something}`
+`comby '{string value: assert_eq!(:[a], :[b])}' '{string value: assert_eq!(:[b], :[a])}' {string value: .rs}`
 
 - Match and rewrite with rewrite properties:
 
-`comby '{any something}' '{any something}' {any something}`
+`comby '{string value: assert_eq!(:[a], :[b])}' '{string value: assert_eq!(:[b].Capitalize, :[a])}' {string value: .rs}`
 
 - Match and rewrite in-place:
 
-`comby -in-place '{any something}' '{any something}'`
+`comby -in-place '{string value: match_pattern}' '{string value: rewrite_pattern}'`
 
 - Only perform matching and print matches:
 
-`comby -match-only '{any something}' ""`
+`comby -match-only '{string value: match_pattern}' ""`

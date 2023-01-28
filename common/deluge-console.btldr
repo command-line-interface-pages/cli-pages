@@ -9,11 +9,11 @@
 
 - Connect to a Deluge daemon instance:
 
-`connect {any something}:{any something}`
+`connect {string value: hostname}:{string value: port}`
 
 - Add a torrent to the daemon:
 
-`add {any something}`
+`add {string value: url|magnet|path/to/file}`
 
 - Display information about all torrents:
 
@@ -21,16 +21,16 @@
 
 - Display information about a specific torrent:
 
-`info {any something}`
+`info {string value: torrent_id}`
 
 - Pause a torrent:
 
-`pause {any something}`
+`pause {string value: torrent_id}`
 
 - Resume a torrent:
 
-`resume {any something}`
+`resume {string value: torrent_id}`
 
 - Remove a torrent from the daemon:
 
-`rm {any something}`
+`rm {string value: torrent_id}`

@@ -9,16 +9,16 @@
 
 - Send text:
 
-`echo {any something} | airpaste`
+`echo {string value: text} | airpaste`
 
 - Send a file:
 
-`airpaste < {file something}`
+`airpaste < {file value}`
 
 - Receive a file:
 
-`airpaste > {file something}`
+`airpaste > {file value}`
 
 - Create or join a channel:
 
-`airpaste {any something}`
+`airpaste {string value: channel_name}`

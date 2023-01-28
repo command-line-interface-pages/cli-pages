@@ -17,7 +17,7 @@
 
 - Jump to n-th window:
 
-`alt + {any something}`
+`alt + {string value: number_key}`
 
 - Close current window:
 

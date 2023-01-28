@@ -5,16 +5,16 @@
 
 - Print all strings in a binary:
 
-`strings {file something}`
+`strings {file value}`
 
 - Limit results to strings at least *length* characters long:
 
-`strings -n {any something} {file something}`
+`strings -n {string value: length} {file value}`
 
 - Prefix each result with its offset within the file:
 
-`strings -t d {file something}`
+`strings -t d {file value}`
 
 - Prefix each result with its offset within the file in hexadecimal:
 
-`strings -t x {file something}`
+`strings -t x {file value}`

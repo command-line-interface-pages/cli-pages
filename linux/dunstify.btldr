@@ -6,15 +6,15 @@
 
 - Show a notification with a given title and message:
 
-`dunstify "{any something}" "{any something}"`
+`dunstify "{string value: Title}" "{string value: Message}"`
 
 - Show a notification with specified urgency:
 
-`dunstify "{any something}" "{any something}" -u {any something}`
+`dunstify "{string value: Title}" "{string value: Message}" -u {string value: low|normal|critical}`
 
 - Specify a message ID (overwrites any previous messages with the same ID):
 
-`dunstify "{any something}" "{any something}" -r {int number: 123}`
+`dunstify "{string value: Title}" "{string value: Message}" -r {int value: 123}`
 
 - To see other possible options:
 

@@ -13,8 +13,8 @@
 
 - Delete a specific entry:
 
-`arp -d {any something}`
+`arp -d {string value: address}`
 
 - Create an entry in the ARP table:
 
-`arp -s {any something} {any something}`
+`arp -s {string value: address} {string value: mac_address}`

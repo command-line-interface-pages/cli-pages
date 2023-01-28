@@ -13,7 +13,7 @@
 
 - Launch Conky with a given config file:
 
-`conky -c {any something}`
+`conky -c {string value: path/to/config}`
 
 - Start in the background (daemonize):
 
@@ -21,8 +21,8 @@
 
 - Align Conky on the desktop:
 
-`conky -a {any something}_{any something}`
+`conky -a {string value: top|bottom|middle}_{string value: left|right|middle}`
 
 - Pause for 5 seconds at startup before launching:
 
-`conky -p {int number: 5}`
+`conky -p {int value: 5}`

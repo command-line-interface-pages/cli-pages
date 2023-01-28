@@ -9,28 +9,28 @@
 
 - Search the current directory recursively for files containing a regex search pattern:
 
-`ugrep "{any something}"`
+`ugrep "{string value: search_pattern}"`
 
 - Search in a specific file or in all files in a specific directory, showing line numbers of matches:
 
-`ugrep --line-number "{any something}" {file something|path something}`
+`ugrep --line-number "{string value: search_pattern}" {path value}`
 
 - Search in all files in the current directory recursively and print the name of each matching file:
 
-`ugrep --files-with-matches "{any something}"`
+`ugrep --files-with-matches "{string value: search_pattern}"`
 
 - Fuzzy search files with up to 3 extra, missing or mismatching characters in the pattern:
 
-`ugrep --fuzzy={int number: 3} "{any something}"`
+`ugrep --fuzzy={int value: 3} "{string value: search_pattern}"`
 
 - Also search compressed files, `zip` and `tar` archives recursively:
 
-`ugrep --decompress "{any something}"`
+`ugrep --decompress "{string value: search_pattern}"`
 
 - Search only files whose filenames match a specific glob pattern:
 
-`ugrep --glob="{any something}" "{any something}"`
+`ugrep --glob="{string value: glob_pattern}" "{string value: search_pattern}"`
 
 - Search only C++ source files (use `--file-type=list` to list all file types):
 
-`ugrep --file-type=cpp "{any something}"`
+`ugrep --file-type=cpp "{string value: search_pattern}"`

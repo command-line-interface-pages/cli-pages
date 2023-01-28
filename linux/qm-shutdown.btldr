@@ -5,20 +5,20 @@
 
 - Shutdown a virtual machine:
 
-`qm shutdown {any something}`
+`qm shutdown {string value: VM_ID}`
 
 - Shutdown a virtual machine after wait for at most 10 seconds:
 
-`qm shutdown --timeout {int number: 10} {any something}`
+`qm shutdown --timeout {int value: 10} {string value: VM_ID}`
 
 - Shutdown a virtual machine and do not deactivate storage volumes:
 
-`qm shutdown --keepActive {bool flag: true} {any something}`
+`qm shutdown --keepActive {bool flag: true} {string value: VM_ID}`
 
 - Shutdown a virtual machine and skip lock (only root can use this option):
 
-`qm shutdown --skiplock {bool flag: true} {any something}`
+`qm shutdown --skiplock {bool flag: true} {string value: VM_ID}`
 
 - Stop and shutdown a virtual machine:
 
-`qm shutdown --forceStop {bool flag: true} {any something}`
+`qm shutdown --forceStop {bool flag: true} {string value: VM_ID}`

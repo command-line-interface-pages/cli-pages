@@ -17,7 +17,7 @@
 
 - Change the value of a configuration field:
 
-`spicetify config {any something} {any something}`
+`spicetify config {string value: field} {string value: value}`
 
 - Apply the customization changes to Spotify:
 

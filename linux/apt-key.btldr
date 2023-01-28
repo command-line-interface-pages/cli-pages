@@ -10,16 +10,16 @@
 
 - Add a key to the trusted keystore:
 
-`apt-key add {file something: public_key}`
+`apt-key add {file value: public_key.asc}`
 
 - Delete a key from the trusted keystore:
 
-`apt-key del {any something}`
+`apt-key del {string value: key_id}`
 
 - Add a remote key to the trusted keystore:
 
-`wget -qO - {any something} | apt-key add -`
+`wget -qO - {string value: https://host.tld/filename.key} | apt-key add -`
 
 - Add a key from keyserver with only key id:
 
-`apt-key adv --keyserver {any something} --recv {any something}`
+`apt-key adv --keyserver {string value: pgp.mit.edu} --recv {string value: KEYID}`

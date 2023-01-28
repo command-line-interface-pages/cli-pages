@@ -5,8 +5,8 @@
 
 - Send input to a running command:
 
-`pueue send {any something} "{any something}"`
+`pueue send {string value: task_id} "{string value: input}"`
 
 - Send confirmation to a task expecting y/N (e.g. apt, cp):
 
-`pueue send {any something} {any something}`
+`pueue send {string value: task_id} {string value: y}`

@@ -5,20 +5,20 @@
 
 - Run command as a different user:
 
-`runuser {any something} -c '{any something}'`
+`runuser {string value: user} -c '{string value: command}'`
 
 - Run command as a different user and group:
 
-`runuser {any something} -g {any something} -c '{any something}'`
+`runuser {string value: user} -g {string value: group} -c '{string value: command}'`
 
 - Start a login shell as a specific user:
 
-`runuser {any something} -l`
+`runuser {string value: user} -l`
 
 - Specify a shell for running instead of the default shell (also works for login):
 
-`runuser {any something} -s {any something}`
+`runuser {string value: user} -s {string value: /bin/sh}`
 
 - Preserve the entire environment of root (only if `--login` is not specified):
 
-`runuser {any something} --preserve-environment -c '{any something}'`
+`runuser {string value: user} --preserve-environment -c '{string value: command}'`

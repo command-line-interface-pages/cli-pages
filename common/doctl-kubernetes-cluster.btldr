@@ -5,7 +5,7 @@
 
 - Create a Kubernetes cluster:
 
-`doctl kubernetes cluster create --count {int number: 3} --region {any something} --size {any something} --version {any something} {any something}`
+`doctl kubernetes cluster create --count {int value: 3} --region {string value: nyc1} --size {string value: s-1vcpu-2gb} --version {string value: latest} {string value: cluster_name}`
 
 - List all Kubernetes clusters:
 
@@ -13,16 +13,16 @@
 
 - Fetch and save the kubeconfig:
 
-`doctl kubernetes cluster kubeconfig save {any something}`
+`doctl kubernetes cluster kubeconfig save {string value: cluster_name}`
 
 - Check for available upgrades:
 
-`doctl kubernetes cluster get-upgrades {any something}`
+`doctl kubernetes cluster get-upgrades {string value: cluster_name}`
 
 - Upgrade a cluster to a new Kubernetes version:
 
-`doctl kubernetes cluster upgrade {any something}`
+`doctl kubernetes cluster upgrade {string value: cluster_name}`
 
 - Delete a cluster:
 
-`doctl kubernetes cluster delete {any something}`
+`doctl kubernetes cluster delete {string value: cluster_name}`

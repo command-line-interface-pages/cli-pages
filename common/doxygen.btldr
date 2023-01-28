@@ -9,8 +9,8 @@
 
 - Generate a template configuration file:
 
-`doxygen -g {file something: config}`
+`doxygen -g {file value: config}`
 
 - Generate documentation using an existing configuration file:
 
-`doxygen {file something: config}`
+`doxygen {file value: config}`

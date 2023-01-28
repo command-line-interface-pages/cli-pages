@@ -5,12 +5,12 @@
 
 - Decompress files:
 
-`unzstd {any something}`
+`unzstd {file* value: sample.ztd}`
 
 - Decompress a file into a specific output file:
 
-`unzstd {any something} -o {file something: extracted}`
+`unzstd {string value: path/to/compressed.ztd} -o {file value: extracted}`
 
 - Display information about a compressed file:
 
-`unzip --list {file something}`
+`unzip --list {file value: sample.zst}`

@@ -9,8 +9,8 @@
 
 - Run a specific command:
 
-`robo {any something}`
+`robo {string value: foo}`
 
 - Simulate running a specific command:
 
-`robo --simulate {any something}`
+`robo --simulate {string value: foo}`

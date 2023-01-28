@@ -5,8 +5,8 @@
 
 - Run an Elixir file:
 
-`elixir {file something}`
+`elixir {file value}`
 
 - Evaluate Elixir code by passing it as an argument:
 
-`elixir -e "{any something}"`
+`elixir -e "{string value: code}"`

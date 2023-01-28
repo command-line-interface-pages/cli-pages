@@ -9,16 +9,16 @@
 
 - Upload one or more items to `archive.org`:
 
-`ia upload {any something} {file something} --metadata="{any something}" --metadata="{any something}"`
+`ia upload {string value: identifier} {file value} --metadata="{string value: mediatype:data}" --metadata="{string value: title:example}"`
 
 - Download one or more items from `archive.org`:
 
-`ia download {any something}`
+`ia download {string value: item}`
 
 - Delete one or more items from `archive.org`:
 
-`ia delete {any something} {file something}`
+`ia delete {string value: identifier} {file value}`
 
 - Search on `archive.org`, returning results as JSON:
 
-`ia search '{any something}'`
+`ia search '{string value: subject:"subject" collection:collection}'`

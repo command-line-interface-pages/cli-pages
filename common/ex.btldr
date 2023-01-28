@@ -6,7 +6,7 @@
 
 - Open a file:
 
-`ex {file something}`
+`ex {file value}`
 
 - Save and Quit:
 
@@ -18,15 +18,15 @@
 
 - Search for a pattern in the file:
 
-`/{any something}<Enter>`
+`/{string value: search_pattern}<Enter>`
 
 - Perform a regular expression substitution in the whole file:
 
-`%s/{any something}/{any something}/g<Enter>`
+`%s/{string value: regular_expression}/{string value: replacement}/g<Enter>`
 
 - Insert text:
 
-`i<Enter>{any something}<C-c>`
+`i<Enter>{string value: text}<C-c>`
 
 - Switch to Vim:
 

@@ -9,4 +9,4 @@
 
 - Create a new branch for the next commit:
 
-`hg branch {any something}`
+`hg branch {string value: branch_name}`

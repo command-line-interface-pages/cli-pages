@@ -6,11 +6,11 @@
 
 - Search for packages:
 
-`nimble search {any something}`
+`nimble search {string value: search_string}`
 
 - Install a package:
 
-`nimble install {any something}`
+`nimble install {string value: package_name}`
 
 - List installed packages:
 

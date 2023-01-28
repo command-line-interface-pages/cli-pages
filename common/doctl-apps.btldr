@@ -9,11 +9,11 @@
 
 - Create a deployment for a specific app:
 
-`doctl apps create-deployment {any something}`
+`doctl apps create-deployment {string value: app_id}`
 
 - Delete an app interactively:
 
-`doctl apps delete {any something}`
+`doctl apps delete {string value: app_id}`
 
 - Get an app:
 
@@ -25,12 +25,12 @@
 
 - List all deployments from a specific app:
 
-`doctl apps list-deployments {any something}`
+`doctl apps list-deployments {string value: app_id}`
 
 - Get logs from a specific app:
 
-`doctl apps logs {any something}`
+`doctl apps logs {string value: app_id}`
 
 - Update a specific app with a given app spec:
 
-`doctl apps update {any something} --spec {any something}`
+`doctl apps update {string value: app_id} --spec {string value: path/to/spec.yml}`

@@ -5,7 +5,7 @@
 
 - Unlock the current wallet (timeout in seconds):
 
-`hsw-cli unlock {any something} {any something}`
+`hsw-cli unlock {string value: passphrase} {string value: timeout}`
 
 - Lock the current wallet:
 
@@ -25,7 +25,7 @@
 
 - Send a transaction with the specified coin amount to an address:
 
-`hsw-cli send {any something} {float number: 1.05}`
+`hsw-cli send {string value: address} {float value: 1.05}`
 
 - View the current wallet's pending transactions:
 
@@ -33,4 +33,4 @@
 
 - View details about a transaction:
 
-`hsw-cli tx {any something}`
+`hsw-cli tx {string value: transaction_hash}`

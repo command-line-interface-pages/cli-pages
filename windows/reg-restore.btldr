@@ -6,4 +6,4 @@
 
 - Overwrite a specified key with data from a backup file:
 
-`reg restore {any something} {file something}`
+`reg restore {string value: key_name} {file value}`

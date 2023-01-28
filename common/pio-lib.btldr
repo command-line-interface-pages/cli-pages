@@ -13,15 +13,15 @@
 
 - Search for existing libraries:
 
-`pio lib search {any something}`
+`pio lib search {string value: keyword}`
 
 - Show details about a library:
 
-`pio lib show {any something}`
+`pio lib show {string value: library}`
 
 - Install a library:
 
-`pio lib install {any something}`
+`pio lib install {string value: library}`
 
 - Update installed libraries:
 
@@ -29,7 +29,7 @@
 
 - Uninstall a library:
 
-`pio lib uninstall {any something}`
+`pio lib uninstall {string value: library}`
 
 - Show PlatformIO library registry statistics:
 

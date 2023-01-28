@@ -14,19 +14,19 @@
 
 - List a range of commits from the tag named `2.1.0` to now:
 
-`git changelog --list --start-tag {any something}`
+`git changelog --list --start-tag {string value: 2.1.0}`
 
 - List pretty formatted range of commits between the tag `0.5.0` and the tag `1.0.0`:
 
-`git changelog --start-tag {any something} --final-tag {any something}`
+`git changelog --start-tag {string value: 0.5.0} --final-tag {string value: 1.0.0}`
 
 - List pretty formatted range of commits between the commit `0b97430` and the tag `1.0.0`:
 
-`git changelog --start-commit {any something} --final-tag {any something}`
+`git changelog --start-commit {string value: 0b97430} --final-tag {string value: 1.0.0}`
 
 - Specify `CHANGELOG.md` as the output file:
 
-`git changelog {any something}`
+`git changelog {string value: CHANGELOG.md}`
 
 - Replace contents of current changelog file entirely:
 

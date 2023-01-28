@@ -5,16 +5,16 @@
 
 - Change the password for a specific user:
 
-`printf "{string user}:{any something}" | sudo chpasswd`
+`printf "{string user}:{string value: new_password}" | sudo chpasswd`
 
 - Change the passwords for multiple users (The input text must not contain any spaces.):
 
-`printf "{any something}:{any something}\n{any something}:{any something}" | sudo chpasswd`
+`printf "{string value: username_1}:{string value: new_password_1}\n{string value: username_2}:{string value: new_password_2}" | sudo chpasswd`
 
 - Change the password for a specific user, and specify it in encrypted form:
 
-`printf "{string user}:{any something}" | sudo chpasswd --encrypted`
+`printf "{string user}:{string value: new_encrypted_password}" | sudo chpasswd --encrypted`
 
 - Change the password for a specific user, and use a specific encryption for the stored password:
 
-`printf "{string user}:{any something}" | sudo chpasswd --crypt-method {any something}`
+`printf "{string user}:{string value: new_password}" | sudo chpasswd --crypt-method {string value: NONE|DES|MD5|SHA256|SHA512}`

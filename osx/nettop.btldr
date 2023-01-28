@@ -9,11 +9,11 @@
 
 - Monitor TCP sockets from Loopback interfaces:
 
-`nettop -m {any something} -t {any something}`
+`nettop -m {string value: tcp} -t {string value: loopback}`
 
 - Monitor a specific process:
 
-`nettop -p "{any something}"`
+`nettop -p "{string value: process_id|process_name}"`
 
 - Display a per-process summary:
 
@@ -21,11 +21,11 @@
 
 - Print 10 samples of network information:
 
-`nettop -l {int number: 10}`
+`nettop -l {int value: 10}`
 
 - Monitor changes every 5 seconds:
 
-`nettop -d -s {int number: 5}`
+`nettop -d -s {int value: 5}`
 
 - While running nettop, list interactive commands:
 

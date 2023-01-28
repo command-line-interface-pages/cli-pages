@@ -9,28 +9,28 @@
 
 - Start one or more stopped containers:
 
-`docker container start {any something} {any something}`
+`docker container start {string value: container1_name} {string value: container2_name}`
 
 - Kill one or more running containers:
 
-`docker container kill {any something}`
+`docker container kill {string value: container_name}`
 
 - Stop one or more running containers:
 
-`docker container stop {any something}`
+`docker container stop {string value: container_name}`
 
 - Pause all processes within one or more containers:
 
-`docker container pause {any something}`
+`docker container pause {string value: container_name}`
 
 - Display detailed information on one or more containers:
 
-`docker container inspect {any something}`
+`docker container inspect {string value: container_name}`
 
 - Export a container's filesystem as a tar archive:
 
-`docker container export {any something}`
+`docker container export {string value: container_name}`
 
 - Create a new image from a container's changes:
 
-`docker container commit {any something}`
+`docker container commit {string value: container_name}`

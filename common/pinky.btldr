@@ -9,20 +9,20 @@
 
 - Display details for a specific user:
 
-`pinky {any something}`
+`pinky {string value: user}`
 
 - Display details in the long format:
 
-`pinky {any something} -l`
+`pinky {string value: user} -l`
 
 - Omit the user's home directory and shell in long format:
 
-`pinky {any something} -lb`
+`pinky {string value: user} -lb`
 
 - Omit the user's project file in long format:
 
-`pinky {any something} -lh`
+`pinky {string value: user} -lh`
 
 - Omit the column headings in short format:
 
-`pinky {any something} -f`
+`pinky {string value: user} -f`

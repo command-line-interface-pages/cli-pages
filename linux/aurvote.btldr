@@ -10,15 +10,15 @@
 
 - Vote for one or more AUR packages:
 
-`aurvote {any something}`
+`aurvote {string value: package1 package2 ...}`
 
 - Unvote one or more AUR packages:
 
-`aurvote --unvote {any something}`
+`aurvote --unvote {string value: package1 package2 ...}`
 
 - Check if one or more AUR packages have already been voted:
 
-`aurvote --check {any something}`
+`aurvote --check {string value: package1 package2 ...}`
 
 - Show help for `aurvote`:
 

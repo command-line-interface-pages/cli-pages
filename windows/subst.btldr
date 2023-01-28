@@ -9,8 +9,8 @@
 
 - Add an association:
 
-`subst {any something} {any something}`
+`subst {string value: Z:} {string value: C:\Python2.7}`
 
 - Remove an association:
 
-`subst {any something} /d`
+`subst {string value: Z:} /d`

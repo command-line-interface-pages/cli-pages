@@ -5,7 +5,7 @@
 
 - Check the format of the specified refname:
 
-`git check-ref-format {any something}`
+`git check-ref-format {string value: refs/head/refname}`
 
 - Print the name of the last branch checked out:
 
@@ -13,4 +13,4 @@
 
 - Normalize a refname:
 
-`git check-ref-format --normalize {any something}`
+`git check-ref-format --normalize {string value: refs/head/refname}`

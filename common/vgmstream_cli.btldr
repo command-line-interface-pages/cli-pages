@@ -5,24 +5,24 @@
 
 - Decode an `adc` file to `wav`. (Default output name is `input.wav`):
 
-`vgmstream_cli {any something} -o {any something}`
+`vgmstream_cli {string value: path/to/input.adc} -o {string value: path/to/output.wav}`
 
 - Print metadata without decoding the audio:
 
-`vgmstream_cli {any something} -m`
+`vgmstream_cli {string value: path/to/input.adc} -m`
 
 - Decode an audio file without loops:
 
-`vgmstream_cli {any something} -o {any something} -i`
+`vgmstream_cli {string value: path/to/input.adc} -o {string value: path/to/output.wav} -i`
 
 - Decode with three loops, then add a 3s delay followed by a 5s fadeout:
 
-`vgmstream_cli {any something} -o {any something} -l {float number: 3.0} -f {float number: 5.0} -d {float number: 3.0}`
+`vgmstream_cli {string value: path/to/input.adc} -o {string value: path/to/output.wav} -l {float value: 3.0} -f {float value: 5.0} -d {float value: 3.0}`
 
 - Convert multiple files to `bgm_(original name).wav` (Default `-o` pattern is `?f.wav`):
 
-`vgmstream_cli -o {any something} {any something} {any something}`
+`vgmstream_cli -o {string value: path/to/bgm_?f.wav} {string value: path/to/file1.adc} {string value: path/to/file2.adc}`
 
 - Play the file looping endlessly (`channels` and `rate` must match metadata):
 
-`vgmstream_cli {any something} -pec | aplay --format cd --channels {int number: 1} --rate {int number: 44100}`
+`vgmstream_cli {string value: path/to/input.adc} -pec | aplay --format cd --channels {int value: 1} --rate {int value: 44100}`

@@ -17,11 +17,11 @@
 
 - Start Mixxx using the specified settings file:
 
-`mixxx --resourcePath {any something} --settingsPath {any something}`
+`mixxx --resourcePath {string value: mixxx/res/controllers} --settingsPath {string value: path/to/settings-file}`
 
 - Debug a custom controller mapping:
 
-`mixxx --controllerDebug --resourcePath {any something}`
+`mixxx --controllerDebug --resourcePath {string value: path/to/mapping-directory}`
 
 - Show command-line help:
 

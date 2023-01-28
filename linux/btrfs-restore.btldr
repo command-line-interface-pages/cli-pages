@@ -5,20 +5,20 @@
 
 - Restore all files from a btrfs filesystem to a given directory:
 
-`sudo btrfs restore {any something} {directory something: target}`
+`sudo btrfs restore {string value: path/to/btrfs_device} {directory value: target}`
 
 - List (don't write) files to be restored from a btrfs filesystem:
 
-`sudo btrfs restore --dry-run {any something} {directory something: target}`
+`sudo btrfs restore --dry-run {string value: path/to/btrfs_device} {directory value: target}`
 
 - Restore files matching a given regex ([c]ase-insensitive) files to be restored from a btrfs filesystem (all parent directories of target file(s) must match as well):
 
-`sudo btrfs restore --path-regex {any something} -c {any something} {directory something: target}`
+`sudo btrfs restore --path-regex {string value: regex} -c {string value: path/to/btrfs_device} {directory value: target}`
 
 - Restore files from a btrfs filesystem using a specific root tree `bytenr` (see `btrfs-find-root`):
 
-`sudo btrfs restore -t {any something} {any something} {directory something: target}`
+`sudo btrfs restore -t {string value: bytenr} {string value: path/to/btrfs_device} {directory value: target}`
 
 - Restore files from a btrfs filesystem (along with metadata, extended attributes, and Symlinks), overwriting files in the target:
 
-`sudo btrfs restore --metadata --xattr --symlinks --overwrite {any something} {directory something: target}`
+`sudo btrfs restore --metadata --xattr --symlinks --overwrite {string value: path/to/btrfs_device} {directory value: target}`

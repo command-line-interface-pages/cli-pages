@@ -5,7 +5,7 @@
 
 - Fetch a specific version of a jar:
 
-`cs fetch {any something}:{any something}:{any something}`
+`cs fetch {string value: group_id}:{string value: artifact_id}:{string value: artifact_version}`
 
 - Fetch a package and evaluate the classpath corresponding to the selected package in an env var:
 
@@ -13,16 +13,16 @@
 
 - Fetch a source of a specific jar:
 
-`cs fetch --sources {any something}:{any something}:{any something}`
+`cs fetch --sources {string value: group_id}:{string value: artifact_id}:{string value: artifact_version}`
 
 - Fetch the javadoc jars:
 
-`cs fetch --javadoc {any something}:{any something}:{any something}`
+`cs fetch --javadoc {string value: group_id}:{string value: artifact_id}:{string value: artifact_version}`
 
 - Fetch dependency with javadoc jars and source jars:
 
-`cs fetch --default={bool flag: true} --sources --javadoc {any something}:{any something}:{any something}`
+`cs fetch --default={bool flag: true} --sources --javadoc {string value: group_id}:{string value: artifact_id}:{string value: artifact_version}`
 
 - Fetch jars coming from dependency files:
 
-`cs fetch {any something}`
+`cs fetch {string value: --dependency-file path/to/file1 --dependency-file path/to/file2 ...}`

@@ -5,12 +5,12 @@
 
 - Remove file from repository index and filesystem:
 
-`git rm {file something}`
+`git rm {file value}`
 
 - Remove directory:
 
-`git rm -r {directory something}`
+`git rm -r {directory value}`
 
 - Remove file from repository index but keep it untouched locally:
 
-`git rm --cached {file something}`
+`git rm --cached {file value}`

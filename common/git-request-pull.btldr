@@ -5,8 +5,8 @@
 
 - Produce a request summarizing the changes between the v1.1 release and a specified branch:
 
-`git request-pull {any something} {any something} {any something}`
+`git request-pull {string value: v1.1} {string value: https://example.com/project} {string value: branch_name}`
 
 - Produce a request summarizing the changes between the v0.1 release on the `foo` branch and the local `bar` branch:
 
-`git request-pull {any something} {any something} {any something}`
+`git request-pull {string value: v0.1} {string value: https://example.com/project} {string value: foo:bar}`

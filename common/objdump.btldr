@@ -5,16 +5,16 @@
 
 - Display the file header information:
 
-`objdump -f {any something}`
+`objdump -f {string value: binary}`
 
 - Display the disassembled output of executable sections:
 
-`objdump -d {any something}`
+`objdump -d {string value: binary}`
 
 - Display the disassembled executable sections in intel syntax:
 
-`objdump -M intel -d {any something}`
+`objdump -M intel -d {string value: binary}`
 
 - Display a complete binary hex dump of all sections:
 
-`objdump -s {any something}`
+`objdump -s {string value: binary}`

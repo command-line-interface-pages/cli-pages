@@ -5,11 +5,11 @@
 
 - Install a package:
 
-`opkg install {any something}`
+`opkg install {string value: package}`
 
 - Remove a package:
 
-`opkg remove {any something}`
+`opkg remove {string value: package}`
 
 - Update the list of available packages:
 
@@ -21,11 +21,11 @@
 
 - Upgrade one or more specific package(s):
 
-`opkg upgrade {any something}`
+`opkg upgrade {string value: package(s)}`
 
 - Display information for a specific package:
 
-`opkg info {any something}`
+`opkg info {string value: package}`
 
 - List all the available packages:
 

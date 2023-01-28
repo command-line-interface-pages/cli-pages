@@ -5,16 +5,16 @@
 
 - Create a package:
 
-`octo pack --id={any something}`
+`octo pack --id={string value: package_name}`
 
 - Push a package to a repository on the Octopus server:
 
-`octo push --package={any something}`
+`octo push --package={string value: package_name}`
 
 - Create a release:
 
-`octo create-release --project={any something} --packageversion={any something}`
+`octo create-release --project={string value: project_name} --packageversion={string value: version}`
 
 - Deploy a release:
 
-`octo deploy-release --project={any something} --packageversion={any something} --deployto={any something} --tenant={any something}`
+`octo deploy-release --project={string value: project_name} --packageversion={string value: version} --deployto={string value: environment_name} --tenant={string value: deployment_target}`

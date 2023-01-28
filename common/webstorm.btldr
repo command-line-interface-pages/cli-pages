@@ -9,24 +9,24 @@
 
 - Open a specific directory in WebStorm:
 
-`webstorm {directory something}`
+`webstorm {directory value}`
 
 - Open specific files in the LightEdit mode﻿:
 
-`webstorm -e {any something}`
+`webstorm -e {file* value}`
 
 - Open and wait until done editing a specific file in the LightEdit mode:
 
-`webstorm --wait -e {file something}`
+`webstorm --wait -e {file value}`
 
 - Open a file with the cursor at the specific line:
 
-`webstorm --line {any something} {file something}`
+`webstorm --line {string value: line_number} {file value}`
 
 - Open and compare files (supports up to 3 files):
 
-`webstorm diff {any something} {any something}`
+`webstorm diff {string value: path/to/file1} {string value: path/to/file2}`
 
 - Open and perform a three-way merge:
 
-`webstorm merge {file something: left} {file something: right} {file something: target}`
+`webstorm merge {file value: left} {file value: right} {file value: target}`

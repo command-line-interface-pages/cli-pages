@@ -13,4 +13,4 @@
 
 - Run a security audit of a Dockerfile:
 
-`sudo lynis audit dockerfile {any something}`
+`sudo lynis audit dockerfile {string value: path/to/dockerfile}`

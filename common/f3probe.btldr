@@ -6,12 +6,12 @@
 
 - Probe a block device:
 
-`sudo f3probe {any something}`
+`sudo f3probe {string value: path/to/block_device}`
 
 - Use the minimum about of RAM possible:
 
-`sudo f3probe --min-memory {any something}`
+`sudo f3probe --min-memory {string value: path/to/block_device}`
 
 - Time disk operations:
 
-`sudo f3probe --time-ops {any something}`
+`sudo f3probe --time-ops {string value: path/to/block_device}`

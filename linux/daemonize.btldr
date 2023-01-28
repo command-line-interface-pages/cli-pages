@@ -5,16 +5,16 @@
 
 - Run a command as a daemon:
 
-`daemonize {any something} {any something}`
+`daemonize {string value: command} {string value: command_arguments}`
 
 - Write the PID to the specified file:
 
-`daemonize -p {any something} {any something} {any something}`
+`daemonize -p {string value: path/to/pidfile} {string value: command} {string value: command_arguments}`
 
 - Use a lock file to ensure that only one instance runs at a time:
 
-`daemonize -l {any something} {any something} {any something}`
+`daemonize -l {string value: path/to/lockfile} {string value: command} {string value: command_arguments}`
 
 - Use the specified user account:
 
-`sudo daemonize -u {any something} {any something} {any something}`
+`sudo daemonize -u {string value: user} {string value: command} {string value: command_arguments}`

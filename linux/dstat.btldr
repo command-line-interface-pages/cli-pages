@@ -9,7 +9,7 @@
 
 - Display statistics every 5 seconds and 4 updates only:
 
-`dstat {int number: 5} {int number: 4}`
+`dstat {int value: 5} {int value: 4}`
 
 - Display CPU and memory statistics only:
 

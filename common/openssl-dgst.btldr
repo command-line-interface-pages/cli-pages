@@ -5,20 +5,20 @@
 
 - Calculate the SHA256 digest for a file, saving the result to a specific file:
 
-`openssl dgst -sha256 -binary -out {file something: output} {file something: input}`
+`openssl dgst -sha256 -binary -out {file value: output} {file value: input}`
 
 - Sign a file using an RSA key, saving the result to a specific file:
 
-`openssl dgst -sign {file something: private_key} -sha256 -sigopt rsa_padding_mode:pss -out {file something: output} {file something: input}`
+`openssl dgst -sign {file value: private_key} -sha256 -sigopt rsa_padding_mode:pss -out {file value: output} {file value: input}`
 
 - Verify an RSA signature:
 
-`openssl dgst -verify {file something: public_key} -signature {file something: signature} -sigopt rsa_padding_mode:pss {file something: signature_message}`
+`openssl dgst -verify {file value: public_key} -signature {file value: signature} -sigopt rsa_padding_mode:pss {file value: signature_message}`
 
 - Sign a file using and ECDSA key:
 
-`openssl dgst -sign {file something: private_key} -sha256 -out {file something: output} {file something: input}`
+`openssl dgst -sign {file value: private_key} -sha256 -out {file value: output} {file value: input}`
 
 - Verify an ECDSA signature:
 
-`openssl dgst -verify {file something: public_key} -signature {file something: signature} {file something: signature_message}`
+`openssl dgst -verify {file value: public_key} -signature {file value: signature} {file value: signature_message}`

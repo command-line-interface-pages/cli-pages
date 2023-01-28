@@ -5,12 +5,12 @@
 
 - Extract name and version field:
 
-`recsel -p name,version {any something}`
+`recsel -p name,version {string value: data.rec}`
 
 - Use "~" to match a string with a given regular expression:
 
-`recsel -e "{any something} ~ '{any something}' {any something}"`
+`recsel -e "{string value: field_name} ~ '{string value: regular_expression}' {string value: data.rec}"`
 
 - Use a predicate to match a name and a version:
 
-`recsel -e "name ~ '{any something}' && version ~ '{any something}'" {any something}`
+`recsel -e "name ~ '{string value: regular_expression}' && version ~ '{string value: regular_expression}'" {string value: data.rec}`

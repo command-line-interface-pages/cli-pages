@@ -5,16 +5,16 @@
 
 - Make a virtual mosaic from all TIFF files contained in a directory:
 
-`gdalbuildvrt {any something} {any something}`
+`gdalbuildvrt {string value: path/to/output.vrt} {string value: path/to/input_directory/*.tif}`
 
 - Make a virtual mosaic from files whose name is specified in a text file:
 
-`gdalbuildvrt -input_file_list {any something} {any something}`
+`gdalbuildvrt -input_file_list {string value: path/to/list.txt} {string value: path/to/output.vrt}`
 
 - Make an RGB virtual mosaic from 3 single-band input files:
 
-`gdalbuildvrt -separate {any something} {any something} {any something} {any something}`
+`gdalbuildvrt -separate {string value: path/to/rgb.vrt} {string value: path/to/red.tif} {string value: path/to/green.tif} {string value: path/to/blue.tif}`
 
 - Make a virtual mosaic with blue background color (RGB: 0 0 255):
 
-`gdalbuildvrt -hidenodata -vrtnodata "{any something}" {any something} {any something}`
+`gdalbuildvrt -hidenodata -vrtnodata "{string value: 0 0 255}" {string value: path/to/output.vrt} {string value: path/to/input_directory/*.tif}`

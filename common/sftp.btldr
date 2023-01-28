@@ -7,27 +7,27 @@
 
 - Connect to a remote server and enter an interactive command mode:
 
-`sftp {any something}@{any something}`
+`sftp {string value: remote_user}@{string value: remote_host}`
 
 - Connect using an alternate port:
 
-`sftp -P {any something} {any something}@{any something}`
+`sftp -P {string value: remote_port} {string value: remote_user}@{string value: remote_host}`
 
 - Connect using a predefined host (in `~/.ssh/config`):
 
-`sftp {any something}`
+`sftp {string value: host}`
 
 - Transfer remote file to the local system:
 
-`get {any something}`
+`get {string value: /path/remote_file}`
 
 - Transfer local file to the remote system:
 
-`put {any something}`
+`put {string value: /path/local_file}`
 
 - Transfer remote directory to the local system recursively (works with `put` too):
 
-`get -R {any something}`
+`get -R {string value: /path/remote_directory}`
 
 - Get list of files on local machine:
 

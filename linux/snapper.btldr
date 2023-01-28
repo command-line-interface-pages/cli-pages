@@ -9,20 +9,20 @@
 
 - Create snapper config:
 
-`snapper -c {any something} create-config {directory something}`
+`snapper -c {string value: config} create-config {directory value}`
 
 - Create a snapshot with a description:
 
-`snapper -c {any something} create -d "{any something}"`
+`snapper -c {string value: config} create -d "{string value: snapshot_description}"`
 
 - List snapshots for a config:
 
-`snapper -c {any something} list`
+`snapper -c {string value: config} list`
 
 - Delete a snapshot:
 
-`snapper -c {any something} delete {any something}`
+`snapper -c {string value: config} delete {string value: snapshot_number}`
 
 - Delete a range of snapshots:
 
-`snapper -c {any something} delete {any something}-{any something}`
+`snapper -c {string value: config} delete {string value: snapshot_X}-{string value: snapshot_Y}`

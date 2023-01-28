@@ -18,8 +18,8 @@
 
 - Show all references from a remote repository based on name or URL:
 
-`git ls-remote {any something}`
+`git ls-remote {string value: repository_url}`
 
 - Show references from a remote repository filtered by a pattern:
 
-`git ls-remote {any something} "{any something}"`
+`git ls-remote {string value: repository_name} "{string value: pattern}"`

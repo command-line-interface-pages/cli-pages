@@ -5,28 +5,28 @@
 
 - Lookup the IP(s) associated with a hostname (A records):
 
-`drill {any something}`
+`drill {string value: example.com}`
 
 - Lookup the mail server(s) associated with a given domain name (MX record):
 
-`drill mx {any something}`
+`drill mx {string value: example.com}`
 
 - Get all types of records for a given domain name:
 
-`drill any {any something}`
+`drill any {string value: example.com}`
 
 - Specify an alternate DNS server to query:
 
-`drill {any something} @{any something}`
+`drill {string value: example.com} @{string value: 8.8.8.8}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
-`drill -x {any something}`
+`drill -x {string value: 8.8.8.8}`
 
 - Perform DNSSEC trace from root servers down to a domain name:
 
-`drill -TD {any something}`
+`drill -TD {string value: example.com}`
 
 - Show DNSKEY record(s) for a domain name:
 
-`drill -s dnskey {any something}`
+`drill -s dnskey {string value: example.com}`

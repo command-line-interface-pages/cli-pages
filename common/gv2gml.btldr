@@ -6,11 +6,11 @@
 
 - Convert a graph from `gv` to `gml` format:
 
-`gv2gml -o {any something} {any something}`
+`gv2gml -o {string value: output.gml} {string value: input.gv}`
 
 - Convert a graph using stdin and stdout:
 
-`cat {any something} | gv2gml > {any something}`
+`cat {string value: input.gv} | gv2gml > {string value: output.gml}`
 
 - Display help:
 

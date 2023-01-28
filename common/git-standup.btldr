@@ -6,15 +6,15 @@
 
 - Show a given author's commits from the last 10 days:
 
-`git standup -a {any something} -d {int number: 10}`
+`git standup -a {string value: name|email} -d {int value: 10}`
 
 - Show a given author's commits from the last 10 days and whether they are GPG signed:
 
-`git standup -a {[name|email}} -d {int number: 10} -g`
+`git standup -a {[name|email}} -d {int value: 10} -g`
 
 - Show all the commits from all contributors for the last 10 days:
 
-`git standup -a all -d {int number: 10}`
+`git standup -a all -d {int value: 10}`
 
 - Display help:
 

@@ -5,16 +5,16 @@
 
 - Read JSON from a file and execute a specified JSONPath expression:
 
-`ajson '{any something}' {file something}`
+`ajson '{string value: $..json[?(@.path)]}' {file value: sample.json}`
 
 - Read JSON from stdin and execute a specified JSONPath expression:
 
-`cat {file something} | ajson '{any something}'`
+`cat {file value: sample.json} | ajson '{string value: $..json[?(@.path)]}'`
 
 - Read JSON from a URL and evaluate a specified JSONPath expression:
 
-`ajson '{any something}' '{any something}'`
+`ajson '{string value: avg($..price)}' '{string value: https://example.com/api/}'`
 
 - Read some simple JSON and calculate a value:
 
-`echo '{int number: 3}' | ajson '{any something}'`
+`echo '{int value: 3}' | ajson '{string value: 2 * pi * $}'`

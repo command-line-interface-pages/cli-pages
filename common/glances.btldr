@@ -17,7 +17,7 @@
 
 - Connect to a Glances server:
 
-`glances -c {any something}`
+`glances -c {string value: hostname}`
 
 - Require a password in (web) server mode:
 

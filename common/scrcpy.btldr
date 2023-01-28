@@ -9,7 +9,7 @@
 
 - Display a mirror of a specific device based on its ID or IP address (find it under the `adb devices` command):
 
-`scrcpy --serial {any something}`
+`scrcpy --serial {string value: 0123456789abcdef|192.168.0.1:5555}`
 
 - Start display in fullscreen mode:
 
@@ -17,7 +17,7 @@
 
 - Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:
 
-`scrcpy --rotation {any something}`
+`scrcpy --rotation {string value: 0|1|2|3}`
 
 - Show touches on physical device:
 
@@ -25,8 +25,8 @@
 
 - Record display screen:
 
-`scrcpy --record {file something}`
+`scrcpy --record {file value: sample.mp4}`
 
 - Set target directory for pushing files to device by drag and drop (non-APK):
 
-`scrcpy --push-target {directory something}`
+`scrcpy --push-target {directory value}`

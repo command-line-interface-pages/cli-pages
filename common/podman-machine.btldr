@@ -14,20 +14,20 @@
 
 - Create a new machine with a specific name:
 
-`podman machine init {any something}`
+`podman machine init {string value: name}`
 
 - Create a new machine with different resources:
 
-`podman machine init --cpus={int number: 4} --memory={int number: 4096} --disk-size={int number: 50}`
+`podman machine init --cpus={int value: 4} --memory={int value: 4096} --disk-size={int value: 50}`
 
 - Start or stop a machine:
 
-`podman machine {any something} {any something}`
+`podman machine {string value: start|stop} {string value: name}`
 
 - Connect to a running machine via SSH:
 
-`podman machine ssh {any something}`
+`podman machine ssh {string value: name}`
 
 - Inspect information about a machine:
 
-`podman machine inspect {any something}`
+`podman machine inspect {string value: name}`

@@ -5,15 +5,15 @@
 
 - Remove files or directories from the staging area:
 
-`hg remove {file something}`
+`hg remove {file value}`
 
 - Remove all staged files matching a specified pattern:
 
-`hg remove --include {any something}`
+`hg remove --include {string value: pattern}`
 
 - Remove all staged files, excluding those that match a specified pattern:
 
-`hg remove --exclude {any something}`
+`hg remove --exclude {string value: pattern}`
 
 - Recursively remove sub-repositories:
 

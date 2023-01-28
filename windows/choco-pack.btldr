@@ -5,12 +5,12 @@
 
 - Package a NuGet specification to a nupkg file:
 
-`choco pack {any something}`
+`choco pack {string value: path/to/specification}`
 
 - Package a NuGet specification specifying the version of the resulting file:
 
-`choco pack {any something} --version {any something}`
+`choco pack {string value: path/to/specification} --version {string value: version}`
 
 - Package a NuGet specification to a specific directory:
 
-`choco pack {any something} --output-directory {directory something: output}`
+`choco pack {string value: path/to/specification} --output-directory {directory value: output}`

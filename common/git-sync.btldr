@@ -14,4 +14,4 @@
 
 - Sync without cleaning untracked files:
 
-`git sync -s {any something} {any something}`
+`git sync -s {string value: remote_name} {string value: branch_name}`

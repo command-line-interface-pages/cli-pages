@@ -5,28 +5,28 @@
 
 - Check a btrfs filesystem:
 
-`sudo btrfs check {any something}`
+`sudo btrfs check {string value: path/to/partition}`
 
 - Check and repair a btrfs filesystem (dangerous):
 
-`sudo btrfs check --repair {any something}`
+`sudo btrfs check --repair {string value: path/to/partition}`
 
 - Show the progress of the check:
 
-`sudo btrfs check --progress {any something}`
+`sudo btrfs check --progress {string value: path/to/partition}`
 
 - Verify the checksum of each data block (if the filesystem is good):
 
-`sudo btrfs check --check-data-csum {any something}`
+`sudo btrfs check --check-data-csum {string value: path/to/partition}`
 
 - Use the `n`-th superblock (`n` can be 0, 1 or 2):
 
-`sudo btrfs check --super {any something} {any something}`
+`sudo btrfs check --super {string value: n} {string value: path/to/partition}`
 
 - Rebuild the checksum tree:
 
-`sudo btrfs check --repair --init-csum-tree {any something}`
+`sudo btrfs check --repair --init-csum-tree {string value: path/to/partition}`
 
 - Rebuild the extent tree:
 
-`sudo btrfs check --repair --init-extent-tree {any something}`
+`sudo btrfs check --repair --init-extent-tree {string value: path/to/partition}`

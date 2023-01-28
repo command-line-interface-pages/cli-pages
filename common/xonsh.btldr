@@ -10,19 +10,19 @@
 
 - Execute a single command and then exit:
 
-`xonsh -c "{any something}"`
+`xonsh -c "{string value: command}"`
 
 - Run commands from a script file and then exit:
 
-`xonsh {file something: script}`
+`xonsh {file value: script.xonsh}`
 
 - Define environment variables for the shell process:
 
-`xonsh -D{any something}={any something} -D{any something}={any something}`
+`xonsh -D{string value: name1}={string value: value1} -D{string value: name2}={string value: value2}`
 
 - Load the specified `.xonsh` or `.json` configuration files:
 
-`xonsh --rc {any something} {any something}`
+`xonsh --rc {string value: path/to/file1.xonsh} {string value: path/to/file2.json}`
 
 - Skip loading the `.xonshrc` configuration file:
 

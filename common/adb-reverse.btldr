@@ -9,11 +9,11 @@
 
 - Reverse a TCP port from an emulator or device to localhost:
 
-`adb reverse tcp:{any something} tcp:{any something}`
+`adb reverse tcp:{string value: remote_port} tcp:{string value: local_port}`
 
 - Remove a reverse socket connections from an emulator or device:
 
-`adb reverse --remove tcp:{any something}`
+`adb reverse --remove tcp:{string value: remote_port}`
 
 - Remove all reverse socket connections from all emulators and devices:
 

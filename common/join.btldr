@@ -5,20 +5,20 @@
 
 - Join two files on the first (default) field:
 
-`join {any something} {any something}`
+`join {string value: file1} {string value: file2}`
 
 - Join two files using a comma (instead of a space) as the field separator:
 
-`join -t {any something} {any something} {any something}`
+`join -t {string value: ','} {string value: file1} {string value: file2}`
 
 - Join field3 of file1 with field1 of file2:
 
-`join -1 {int number: 3} -2 {int number: 1} {any something} {any something}`
+`join -1 {int value: 3} -2 {int value: 1} {string value: file1} {string value: file2}`
 
 - Produce a line for each unpairable line for file1:
 
-`join -a {int number: 1} {any something} {any something}`
+`join -a {int value: 1} {string value: file1} {string value: file2}`
 
 - Join a file from stdin:
 
-`cat {any something} | join - {any something}`
+`cat {string value: path/to/file1} | join - {string value: path/to/file2}`

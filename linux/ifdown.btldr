@@ -5,7 +5,7 @@
 
 - Disable interface eth0:
 
-`ifdown {any something}`
+`ifdown {string value: eth0}`
 
 - Disable all interfaces which are enabled:
 

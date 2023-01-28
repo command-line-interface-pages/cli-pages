@@ -7,24 +7,24 @@
 
 - Install a package:
 
-`dpkg -i {file something}`
+`dpkg -i {file value: sample.deb}`
 
 - Remove a package:
 
-`dpkg -r {any something}`
+`dpkg -r {string value: package_name}`
 
 - List installed packages:
 
-`dpkg -l {any something}`
+`dpkg -l {string value: pattern}`
 
 - List a package's contents:
 
-`dpkg -L {any something}`
+`dpkg -L {string value: package_name}`
 
 - List contents of a local package file:
 
-`dpkg -c {file something}`
+`dpkg -c {file value: sample.deb}`
 
 - Find out which package owns a file:
 
-`dpkg -S {any something}`
+`dpkg -S {file value}`

@@ -6,20 +6,20 @@
 
 - Search for a string in tracked files:
 
-`git grep {any something}`
+`git grep {string value: search_string}`
 
 - Search for a string in files matching a pattern in tracked files:
 
-`git grep {any something} -- {any something}`
+`git grep {string value: search_string} -- {string value: file_glob_pattern}`
 
 - Search for a string in tracked files, including submodules:
 
-`git grep --recurse-submodules {any something}`
+`git grep --recurse-submodules {string value: search_string}`
 
 - Search for a string at a specific point in history:
 
-`git grep {any something} {any something}`
+`git grep {string value: search_string} {string value: HEAD~2}`
 
 - Search for a string across all branches:
 
-`git grep {any something} $(git rev-list --all)`
+`git grep {string value: search_string} $(git rev-list --all)`

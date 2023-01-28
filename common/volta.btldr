@@ -9,15 +9,15 @@
 
 - Install the latest version of a tool:
 
-`volta install {any something}`
+`volta install {string value: node|npm|yarn|package_name}`
 
 - Install a specific version of a tool:
 
-`volta install {any something}@version`
+`volta install {string value: node|npm|yarn}@version`
 
 - Choose a tool version for a project (will store it in `package.json`):
 
-`volta pin {any something}@version`
+`volta pin {string value: node|npm|yarn}@version`
 
 - Display help:
 
@@ -25,4 +25,4 @@
 
 - Display help for a subcommand:
 
-`volta help {any something}`
+`volta help {string value: fetch|install|uninstall|pin|list|completions|which|setup|run|help}`

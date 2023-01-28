@@ -5,8 +5,8 @@
 
 - Check if a specific package name is available in the npm registry:
 
-`npm-name {any something}`
+`npm-name {string value: package}`
 
 - Find similar package names in the npm registry:
 
-`npm-name --similar {any something}`
+`npm-name --similar {string value: package}`

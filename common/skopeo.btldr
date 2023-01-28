@@ -6,24 +6,24 @@
 
 - Inspect a remote image from a registry:
 
-`skopeo inspect docker://{any something}/{any something}`
+`skopeo inspect docker://{string value: registry_hostname}/{string value: image:tag}`
 
 - List available tags for a remote image:
 
-`skopeo list-tags docker://{any something}/{any something}`
+`skopeo list-tags docker://{string value: registry_hostname}/{string value: image}`
 
 - Download an image from a registry:
 
-`skopeo copy docker://{any something}/{any something} dir:{directory something}`
+`skopeo copy docker://{string value: registry_hostname}/{string value: image:tag} dir:{directory value}`
 
 - Copy an image from one registry to another:
 
-`skopeo copy docker://{any something}/{any something} docker://{any something}/{any something}`
+`skopeo copy docker://{string value: source_registry}/{string value: image:tag} docker://{string value: destination_registry}/{string value: image:tag}`
 
 - Delete an image from a registry:
 
-`skopeo delete docker://{any something}/{any something}`
+`skopeo delete docker://{string value: registry_hostname}/{string value: image:tag}`
 
 - Log in to a registry:
 
-`skopeo login --username {string user} {any something}`
+`skopeo login --username {string user} {string value: registry_hostname}`

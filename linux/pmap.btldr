@@ -5,20 +5,20 @@
 
 - Print memory map for a specific process id (PID):
 
-`pmap {any something}`
+`pmap {string value: pid}`
 
 - Show the extended format:
 
-`pmap --extended {any something}`
+`pmap --extended {string value: pid}`
 
 - Show the device format:
 
-`pmap --device {any something}`
+`pmap --device {string value: pid}`
 
 - Limit results to a memory address range specified by `low` and `high`:
 
-`pmap --range {any something},{any something}`
+`pmap --range {string value: low},{string value: high}`
 
 - Print memory maps for multiple processes:
 
-`pmap {any something}`
+`pmap {string value: pid1 pid2 ...}`

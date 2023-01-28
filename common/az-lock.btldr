@@ -6,19 +6,19 @@
 
 - Create a read-only subscription level lock:
 
-`az lock create --name {any something} --lock-type ReadOnly`
+`az lock create --name {string value: lock_name} --lock-type ReadOnly`
 
 - Create a read-only resource group level lock:
 
-`az lock create --name {any something} --resource-group {string group} --lock-type ReadOnly`
+`az lock create --name {string value: lock_name} --resource-group {string group} --lock-type ReadOnly`
 
 - Delete a subscription level lock:
 
-`az lock delete --name {any something}`
+`az lock delete --name {string value: lock_name}`
 
 - Delete a resource group level lock:
 
-`az lock delete --name {any something} --resource-group {string group}`
+`az lock delete --name {string value: lock_name} --resource-group {string group}`
 
 - List out all locks on the subscription level:
 
@@ -26,4 +26,4 @@
 
 - Show a subscription level lock:
 
-`az lock show -n {any something}`
+`az lock show -n {string value: lock_name}`

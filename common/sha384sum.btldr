@@ -5,24 +5,24 @@
 
 - Calculate the SHA384 checksum for a file:
 
-`sha384sum {file something}`
+`sha384sum {file value}`
 
 - Calculate SHA384 checksums for multiple files:
 
-`sha384sum {any something} {any something}`
+`sha384sum {string value: path/to/file1} {string value: path/to/file2}`
 
 - Calculate and save the list of SHA384 checksums to a file:
 
-`sha384sum {any something} {any something} > {file something}`
+`sha384sum {string value: path/to/file1} {string value: path/to/file2} > {file value: sample.sha384}`
 
 - Read a file of SHA384 sums and verify all files have matching checksums:
 
-`sha384sum --check {file something}`
+`sha384sum --check {file value: sample.sha384}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha384sum --check --quiet {file something}`
+`sha384sum --check --quiet {file value: sample.sha384}`
 
 - Only show a message for files for which verification fails, ignoring missing files:
 
-`sha384sum --ignore-missing --check --quiet {file something}`
+`sha384sum --ignore-missing --check --quiet {file value: sample.sha384}`

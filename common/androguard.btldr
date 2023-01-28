@@ -5,12 +5,12 @@
 
 - Display Android app manifest:
 
-`androguard axml {any something}`
+`androguard axml {string value: path/to/app.apk}`
 
 - Display app metadata (version and app ID):
 
-`androguard apkid {any something}`
+`androguard apkid {string value: path/to/app.apk}`
 
 - Decompile Java code from an app:
 
-`androguard decompile {any something} --output {directory something}`
+`androguard decompile {string value: path/to/app.apk} --output {directory value}`

@@ -9,20 +9,20 @@
 
 - Print count of rows in a specific table in the current project:
 
-`cbt count "{any something}"`
+`cbt count "{string value: table_name}"`
 
 - Display a single row from a specific table with only 1 (most recent) cell revision per column in the current project:
 
-`cbt lookup "{any something}" "{any something}" cells-per-column={int number: 1}`
+`cbt lookup "{string value: table_name}" "{string value: row_key}" cells-per-column={int value: 1}`
 
 - Display a single row with only specific column(s) (omit qualifier to return entire family) in the current project:
 
-`cbt lookup "{any something}" "{any something}" columns="{any something}"`
+`cbt lookup "{string value: table_name}" "{string value: row_key}" columns="{string value: family1:qualifier1,family2:qualifier2,...}"`
 
 - Search up to 5 rows in the current project by a specific regex pattern and print them:
 
-`cbt read "{any something}" regex="{any something}" count={int number: 5}`
+`cbt read "{string value: table_name}" regex="{string value: row_key_pattern}" count={int value: 5}`
 
 - Read a specific range of rows and print only returned row keys in the current project:
 
-`cbt read {any something} start={any something} end={any something} keys-only=true`
+`cbt read {string value: table_name} start={string value: start_row_key} end={string value: end_row_key} keys-only=true`

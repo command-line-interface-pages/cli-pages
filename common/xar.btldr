@@ -5,12 +5,12 @@
 
 - Create a xar archive of all files in a given directory:
 
-`xar -cf {any something} {directory something}`
+`xar -cf {string value: archive.xar} {directory value}`
 
 - List the contents of a given xar archive:
 
-`xar -tf {any something}`
+`xar -tf {string value: archive.xar}`
 
 - Extract the contents of a given xar archive to the current directory:
 
-`xar -xf {any something}`
+`xar -xf {string value: archive.xar}`

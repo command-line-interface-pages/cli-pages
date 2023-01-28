@@ -5,12 +5,12 @@
 
 - Read a value from the key-value store:
 
-`consul kv get {any something}`
+`consul kv get {string value: key}`
 
 - Store a new key-value pair:
 
-`consul kv put {any something} {any something}`
+`consul kv put {string value: key} {string value: value}`
 
 - Delete a key-value pair:
 
-`consul kv delete {any something}`
+`consul kv delete {string value: key}`

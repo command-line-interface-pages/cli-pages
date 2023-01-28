@@ -9,12 +9,12 @@
 
 - Run specifications using a specific configuration file:
 
-`kahlan --config={file something: configuration}`
+`kahlan --config={file value: configuration}`
 
 - Run specifications and output using a reporter:
 
-`kahlan --reporter={any something}`
+`kahlan --reporter={string value: dot|bar|json|tap|verbose}`
 
 - Run specifications with code coverage (detail can be between 0 and 4):
 
-`kahlan --coverage={any something}`
+`kahlan --coverage={string value: detail_level}`

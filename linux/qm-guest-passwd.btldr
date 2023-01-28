@@ -5,8 +5,8 @@
 
 - Set a password for a specific user in a virtual machine interactively:
 
-`qm guest passwd {any something} {string user}`
+`qm guest passwd {string value: vm_id} {string user}`
 
 - Set an already hashed password for a specific user in a virtual machine interactively:
 
-`qm guest passwd {any something} {string user} --crypted 1`
+`qm guest passwd {string value: vm_id} {string user} --crypted 1`

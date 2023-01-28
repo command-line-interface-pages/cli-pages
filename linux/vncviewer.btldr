@@ -5,16 +5,16 @@
 
 - Launch a VNC client which connects to a host on a given display:
 
-`vncviewer {any something}:{any something}`
+`vncviewer {string value: host}:{string value: display_number}`
 
 - Launch in full-screen mode:
 
-`vncviewer -FullScreen {any something}:{any something}`
+`vncviewer -FullScreen {string value: host}:{string value: display_number}`
 
 - Launch a VNC client with a specific screen geometry:
 
-`vncviewer --geometry {any something}x{any something} {any something}:{any something}`
+`vncviewer --geometry {string value: width}x{string value: height} {string value: host}:{string value: display_number}`
 
 - Launch a VNC client which connects to a host on a given port:
 
-`vncviewer {any something}::{any something}`
+`vncviewer {string value: host}::{string value: port}`

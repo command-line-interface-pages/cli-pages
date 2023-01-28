@@ -14,16 +14,16 @@
 
 - Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
-`git help {any something}`
+`git help {string value: subcommand}`
 
 - Execute a Git subcommand:
 
-`git {any something}`
+`git {string value: subcommand}`
 
 - Execute a Git subcommand on a custom repository root path:
 
-`git -C {any something} {any something}`
+`git -C {string value: path/to/repo} {string value: subcommand}`
 
 - Execute a Git subcommand with a given configuration set:
 
-`git -c '{any something}={any something}' {any something}`
+`git -c '{string value: config.key}={string value: value}' {string value: subcommand}`

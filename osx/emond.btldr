@@ -10,8 +10,8 @@
 
 - Specify rules for emond to process by giving a path to a file or directory:
 
-`emond -r {file something|path something}`
+`emond -r {path value}`
 
 - Use a specific configuration file:
 
-`emond -c {any something}`
+`emond -c {string value: path/to/config}`

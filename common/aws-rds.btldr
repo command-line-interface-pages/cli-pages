@@ -6,32 +6,32 @@
 
 - Show help for specific RDS subcommand:
 
-`aws rds {any something} help`
+`aws rds {string value: subcommand} help`
 
 - Stop instance:
 
-`aws rds stop-db-instance --db-instance-identifier {any something}`
+`aws rds stop-db-instance --db-instance-identifier {string value: instance_identifier}`
 
 - Start instance:
 
-`aws rds start-db-instance --db-instance-identifier {any something}`
+`aws rds start-db-instance --db-instance-identifier {string value: instance_identifier}`
 
 - Modify an RDS instance:
 
-`aws rds modify-db-instance --db-instance-identifier {any something} {any something} --apply-immediately`
+`aws rds modify-db-instance --db-instance-identifier {string value: instance_identifier} {string value: parameters} --apply-immediately`
 
 - Apply updates to an RDS instance:
 
-`aws rds apply-pending-maintenance-action --resource-identifier {any something} --apply-action {any something} --opt-in-type {any something}`
+`aws rds apply-pending-maintenance-action --resource-identifier {string value: database_arn} --apply-action {string value: system-update} --opt-in-type {string value: immediate}`
 
 - Change an instance identifier:
 
-`aws rds modify-db-instance --db-instance-identifier {any something} --new-db-instance-identifier {any something}`
+`aws rds modify-db-instance --db-instance-identifier {string value: old_instance_identifier} --new-db-instance-identifier {string value: new_instance_identifier}`
 
 - Reboot an instance:
 
-`aws rds reboot-db-instance --db-instance-identifier {any something}`
+`aws rds reboot-db-instance --db-instance-identifier {string value: instance_identifier}`
 
 - Delete an instance:
 
-`aws rds delete-db-instance --db-instance-identifier {any something} --final-db-snapshot-identifier {any something} --delete-automated-backups`
+`aws rds delete-db-instance --db-instance-identifier {string value: instance_identifier} --final-db-snapshot-identifier {string value: snapshot_identifier} --delete-automated-backups`

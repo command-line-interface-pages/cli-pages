@@ -6,8 +6,8 @@
 
 - Preview an SVG:
 
-`inkview {file something}`
+`inkview {file value: sample.svg}`
 
 - Preview multiple SVGs (use arrow keys to navigate):
 
-`inkview {any something} {any something} {any something}`
+`inkview {string value: path/to/file_a.svg} {string value: path/to/file_b.svg} {string value: path/to/file_c.svg}`

@@ -5,23 +5,23 @@
 
 - Restart a specific task:
 
-`pueue restart {any something}`
+`pueue restart {string value: task_id}`
 
 - Restart multiple tasks at once, and start them immediately (do not enqueue):
 
-`pueue restart --start-immediately {any something} {any something}`
+`pueue restart --start-immediately {string value: task_id} {string value: task_id}`
 
 - Restart a specific task from a different path:
 
-`pueue restart --edit-path {any something}`
+`pueue restart --edit-path {string value: task_id}`
 
 - Edit a command before restarting:
 
-`pueue restart --edit {any something}`
+`pueue restart --edit {string value: task_id}`
 
 - Restart a task in-place (without enqueuing as a separate task):
 
-`pueue restart --in-place {any something}`
+`pueue restart --in-place {string value: task_id}`
 
 - Restart all failed tasks and stash them:
 

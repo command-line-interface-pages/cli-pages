@@ -5,23 +5,23 @@
 
 - Build a sketch:
 
-`arduino --verify {file something}`
+`arduino --verify {file value: sample.ino}`
 
 - Build and upload a sketch:
 
-`arduino --upload {file something}`
+`arduino --upload {file value: sample.ino}`
 
 - Build and upload a sketch to an Arduino Nano with an Atmega328p CPU, connected on port `/dev/ttyACM0`:
 
-`arduino --board {any something} --port {any something} --upload {file something}`
+`arduino --board {string value: arduino:avr:nano:cpu=atmega328p} --port {string value: /dev/ttyACM0} --upload {file value: sample.ino}`
 
 - Set the preference `name` to a given `value`:
 
-`arduino --pref {any something}={any something}`
+`arduino --pref {string value: name}={string value: value}`
 
 - Build a sketch, put the build results in the build directory, and reuse any previous build results in that directory:
 
-`arduino --pref build.path={directory something: build} --verify {file something}`
+`arduino --pref build.path={directory value: build} --verify {file value: sample.ino}`
 
 - Save any (changed) preferences to `preferences.txt`:
 
@@ -29,8 +29,8 @@
 
 - Install the latest SAM board:
 
-`arduino --install-boards "{any something}"`
+`arduino --install-boards "{string value: arduino:sam}"`
 
 - Install Bridge and Servo libraries:
 
-`arduino --install-library "{any something}"`
+`arduino --install-library "{string value: Bridge:1.0.0,Servo:1.2.0}"`

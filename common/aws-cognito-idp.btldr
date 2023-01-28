@@ -5,24 +5,24 @@
 
 - Create a new Cognito user pool:
 
-`aws cognito-idp create-user-pool --pool-name {any something}`
+`aws cognito-idp create-user-pool --pool-name {string value: name}`
 
 - List all user pools:
 
-`aws cognito-idp list-user-pools --max-results {int number: 10}`
+`aws cognito-idp list-user-pools --max-results {int value: 10}`
 
 - Delete a specific user pool:
 
-`aws cognito-idp delete-user-pool --user-pool-id {any something}`
+`aws cognito-idp delete-user-pool --user-pool-id {string value: user_pool_id}`
 
 - Create a user in a specific pool:
 
-`aws cognito-idp admin-create-user --username {string user} --user-pool-id {any something}`
+`aws cognito-idp admin-create-user --username {string user} --user-pool-id {string value: user_pool_id}`
 
 - List the users of a specific pool:
 
-`aws cognito-idp list-users --user-pool-id {any something}`
+`aws cognito-idp list-users --user-pool-id {string value: user_pool_id}`
 
 - Delete a user from a specific pool:
 
-`aws cognito-idp admin-delete-user --username {string user} --user-pool-id {any something}`
+`aws cognito-idp admin-delete-user --username {string user} --user-pool-id {string value: user_pool_id}`

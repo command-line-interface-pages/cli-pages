@@ -5,15 +5,15 @@
 
 - Make a search using Google:
 
-`tuxi {any something}`
+`tuxi {string value: search_terms}`
 
 - Display the search results in [r]aw format (no pretty output, no colors):
 
-`tuxi -r {any something}`
+`tuxi -r {string value: search_terms}`
 
 - Display only search results (silences "Did you mean?", greetings and usage):
 
-`tuxi -q {any something}`
+`tuxi -q {string value: search_terms}`
 
 - Display help:
 

@@ -6,19 +6,19 @@
 
 - Initialize (or re-encrypt) the storage using one or more GPG IDs:
 
-`pass init {any something} {any something}`
+`pass init {string value: gpg_id_1} {string value: gpg_id_2}`
 
 - Save a new password and additional information (press Ctrl + D on a new line to complete):
 
-`pass insert --multiline {any something}`
+`pass insert --multiline {string value: path/to/data}`
 
 - Edit an entry:
 
-`pass edit {any something}`
+`pass edit {string value: path/to/data}`
 
 - Copy a password (first line of the data file) to the clipboard:
 
-`pass -c {any something}`
+`pass -c {string value: path/to/data}`
 
 - List the whole store tree:
 
@@ -26,7 +26,7 @@
 
 - Generate a new random password with a given length, and copy it to the clipboard:
 
-`pass generate -c {any something} {any something}`
+`pass generate -c {string value: path/to/data} {string value: num}`
 
 - Initialize a new Git repository (any changes done by pass will be committed automatically):
 
@@ -34,4 +34,4 @@
 
 - Run a Git command on behalf of the password storage:
 
-`pass git {any something}`
+`pass git {string value: command}`

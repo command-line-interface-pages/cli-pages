@@ -5,16 +5,16 @@
 
 - Display information on a specific package:
 
-`choco info {any something}`
+`choco info {string value: package}`
 
 - Display information for a local package only:
 
-`choco info {any something} --local-only`
+`choco info {string value: package} --local-only`
 
 - Specify a custom source to receive packages information from:
 
-`choco info {any something} --source {any something}`
+`choco info {string value: package} --source {string value: source_url|alias}`
 
 - Provide a username and password for authentication:
 
-`choco info {any something} --user {string user} --password {any something}`
+`choco info {string value: package} --user {string user} --password {string value: password}`

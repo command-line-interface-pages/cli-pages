@@ -17,4 +17,4 @@
 
 - Download and install a specific app:
 
-`softwareupdate --install {any something}`
+`softwareupdate --install {string value: update_name}`

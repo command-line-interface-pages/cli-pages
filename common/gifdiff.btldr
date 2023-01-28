@@ -6,8 +6,8 @@
 
 - Check how GIFs differ:
 
-`gifdiff {any something} {any something}`
+`gifdiff {string value: path/to/first.gif} {string value: path/to/second.gif}`
 
 - Check if GIFs differ:
 
-`gifdiff --brief {any something} {any something}`
+`gifdiff --brief {string value: path/to/first.gif} {string value: path/to/second.gif}`

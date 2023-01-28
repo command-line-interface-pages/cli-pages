@@ -6,12 +6,12 @@
 
 - Stamp the last commit message referencing it with the issue number from your bug tracker:
 
-`git stamp {any something}`
+`git stamp {string value: issue_number}`
 
 - Stamp the last commit message linking it to its review page:
 
-`git stamp {any something}`
+`git stamp {string value: Review https://example.org/path/to/review}`
 
 - Stamp the last commit message replacing previous issues with a new one:
 
-`git stamp --replace {any something}`
+`git stamp --replace {string value: issue_number}`

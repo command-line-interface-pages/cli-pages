@@ -5,16 +5,16 @@
 
 - Scan a webserver using the default wordlist:
 
-`dirb {any something}`
+`dirb {string value: https://example.org}`
 
 - Scan a webserver using a custom wordlist:
 
-`dirb {any something} {any something}`
+`dirb {string value: https://example.org} {string value: path/to/wordlist.txt}`
 
 - Scan a webserver non-recursively:
 
-`dirb {any something} -r`
+`dirb {string value: https://example.org} -r`
 
 - Scan a webserver using a specified user-agent and cookie for HTTP-requests:
 
-`dirb {any something} -a {any something} -c {any something}`
+`dirb {string value: https://example.org} -a {string value: user_agent_string} -c {string value: cookie_string}`

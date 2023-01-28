@@ -13,12 +13,12 @@
 
 - Start recording in a given file:
 
-`script {any something}`
+`script {string value: logfile.log}`
 
 - Append to an existing file:
 
-`script -a {any something}`
+`script -a {string value: logfile.log}`
 
 - Execute quietly without start and done messages:
 
-`script -q {any something}`
+`script -q {string value: logfile.log}`

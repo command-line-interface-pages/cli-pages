@@ -5,16 +5,16 @@
 
 - Update the value of a path:
 
-`gnmic --address {any something} set --update-path {any something} --update-value {any something}`
+`gnmic --address {string value: ip:port} set --update-path {string value: path} --update-value {string value: value}`
 
 - Update the value of a path to match the contents of a json file:
 
-`gnmic -a {any something} set --update-path {any something} --update-file {any something}`
+`gnmic -a {string value: ip:port} set --update-path {string value: path} --update-file {string value: filepath}`
 
 - Replace the value of a path to match the contents of a json file:
 
-`gnmic -a {any something} set --replace-path {any something} --replace-file {any something}`
+`gnmic -a {string value: ip:port} set --replace-path {string value: path} --replace-file {string value: filepath}`
 
 - Delete the node at a given path:
 
-`gnmic -a {any something} set --delete {any something}`
+`gnmic -a {string value: ip:port} set --delete {string value: path}`

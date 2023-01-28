@@ -5,20 +5,20 @@
 
 - Start a virtual machine:
 
-`virtualboxvm --startvm {any something}`
+`virtualboxvm --startvm {string value: name|uuid}`
 
 - Start a virtual machine in fullscreen mode:
 
-`virtualboxvm --startvm {any something} --fullscreen`
+`virtualboxvm --startvm {string value: name|uuid} --fullscreen`
 
 - Mount the specified DVD image file:
 
-`virtualboxvm --startvm {any something} --dvd {file something: image}`
+`virtualboxvm --startvm {string value: name|uuid} --dvd {file value: image}`
 
 - Display a command-line window with debug information:
 
-`virtualboxvm --startvm {any something} --debug-command-line`
+`virtualboxvm --startvm {string value: name|uuid} --debug-command-line`
 
 - Start a virtual machine in a paused state:
 
-`virtualboxvm --startvm {any something} --start-paused`
+`virtualboxvm --startvm {string value: name|uuid} --start-paused`

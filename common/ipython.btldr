@@ -9,7 +9,7 @@
 
 - Enter an interactive IPython session after running a Python script:
 
-`ipython -i {any something}`
+`ipython -i {string value: script.py}`
 
 - Create default IPython profile:
 

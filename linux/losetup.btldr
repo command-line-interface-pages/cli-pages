@@ -9,15 +9,15 @@
 
 - Attach a file to a given loop device:
 
-`sudo losetup /dev/{any something} /{file something}`
+`sudo losetup /dev/{string value: loop} /{file value}`
 
 - Attach a file to a new free loop device and scan the device for partitions:
 
-`sudo losetup --show --partscan -f /{file something}`
+`sudo losetup --show --partscan -f /{file value}`
 
 - Attach a file to a read-only loop device:
 
-`sudo losetup --read-only /dev/{any something} /{file something}`
+`sudo losetup --read-only /dev/{string value: loop} /{file value}`
 
 - Detach all loop devices:
 
@@ -25,4 +25,4 @@
 
 - Detach a given loop device:
 
-`sudo losetup -d /dev/{any something}`
+`sudo losetup -d /dev/{string value: loop}`

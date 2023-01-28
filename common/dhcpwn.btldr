@@ -5,8 +5,8 @@
 
 - Flood the network with IP requests:
 
-`dhcpwn --interface {any something} flood --count {any something}`
+`dhcpwn --interface {string value: network_interface} flood --count {string value: number_of_requests}`
 
 - Sniff local DHCP traffic:
 
-`dhcpwn --interface {any something} sniff`
+`dhcpwn --interface {string value: network_interface} sniff`

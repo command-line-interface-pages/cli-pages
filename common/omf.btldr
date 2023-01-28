@@ -6,7 +6,7 @@
 
 - Install one or more packages:
 
-`omf install {any something}`
+`omf install {string value: name}`
 
 - List installed packages:
 
@@ -18,11 +18,11 @@
 
 - Apply a theme:
 
-`omf theme {any something}`
+`omf theme {string value: name}`
 
 - Remove a theme or package:
 
-`omf remove {any something}`
+`omf remove {string value: name}`
 
 - Uninstall Oh My Fish:
 

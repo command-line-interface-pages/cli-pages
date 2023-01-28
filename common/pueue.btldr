@@ -14,4 +14,4 @@
 
 - Execute a pueue subcommand:
 
-`pueue {any something}`
+`pueue {string value: subcommand}`

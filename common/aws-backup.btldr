@@ -5,15 +5,15 @@
 
 - Return BackupPlan details for a specific BackupPlanId:
 
-`aws backup get-backup-plan --backup-plan-id {any something}`
+`aws backup get-backup-plan --backup-plan-id {string value: id}`
 
 - Create a backup plan using a specific backup plan name and backup rules:
 
-`aws backup create-backup-plan --backup-plan {any something}`
+`aws backup create-backup-plan --backup-plan {string value: plan}`
 
 - Delete a specific backup plan:
 
-`aws backup delete-backup-plan --backup-plan-id {any something}`
+`aws backup delete-backup-plan --backup-plan-id {string value: id}`
 
 - Return a list of all active backup plans for the current account:
 

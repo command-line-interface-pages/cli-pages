@@ -5,16 +5,16 @@
 
 - Convert a specific installation file to Debian format (`.deb` extension):
 
-`sudo alien --to-deb {file something}`
+`sudo alien --to-deb {file value}`
 
 - Convert a specific installation file to Red Hat format (`.rpm` extension):
 
-`sudo alien --to-rpm {file something}`
+`sudo alien --to-rpm {file value}`
 
 - Convert a specific installation file to a Slackware installation file (`.tgz` extension):
 
-`sudo alien --to-tgz {file something}`
+`sudo alien --to-tgz {file value}`
 
 - Convert a specific installation file to Debian format and install on the system:
 
-`sudo alien --to-deb --install {file something}`
+`sudo alien --to-deb --install {file value}`

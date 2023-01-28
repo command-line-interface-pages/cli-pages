@@ -6,12 +6,12 @@
 
 - Start a proxy and save all output to a file:
 
-`mitmdump -w {file something}`
+`mitmdump -w {file value}`
 
 - Filter a saved traffic file to just POST requests:
 
-`mitmdump -nr {any something} -w {any something} "{any something}"`
+`mitmdump -nr {file value: input} -w {file value: output} "{string value: ~m post}"`
 
 - Replay a saved traffic file:
 
-`mitmdump -nc {file something}`
+`mitmdump -nc {file value}`

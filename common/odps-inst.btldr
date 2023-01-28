@@ -10,16 +10,16 @@
 
 - Describe the details of an instance:
 
-`desc instance {any something};`
+`desc instance {string value: instance_id};`
 
 - Check the status of an instance:
 
-`status {any something};`
+`status {string value: instance_id};`
 
 - Wait on the termination of an instance, printing log and progress information until then:
 
-`wait {any something};`
+`wait {string value: instance_id};`
 
 - Kill an instance:
 
-`kill {any something};`
+`kill {string value: instance_id};`

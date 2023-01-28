@@ -5,20 +5,20 @@
 
 - Compare 2 files:
 
-`sdiff {any something} {any something}`
+`sdiff {string value: path/to/file1} {string value: path/to/file2}`
 
 - Compare 2 files, ignoring all tabs and whitespace:
 
-`sdiff -W {any something} {any something}`
+`sdiff -W {string value: path/to/file1} {string value: path/to/file2}`
 
 - Compare 2 files, ignoring whitespace at the end of lines:
 
-`sdiff -Z {any something} {any something}`
+`sdiff -Z {string value: path/to/file1} {string value: path/to/file2}`
 
 - Compare 2 files in a case-insensitive manner:
 
-`sdiff -i {any something} {any something}`
+`sdiff -i {string value: path/to/file1} {string value: path/to/file2}`
 
 - Compare and then merge, writing the output to a new file:
 
-`sdiff -o {file something: merged} {any something} {any something}`
+`sdiff -o {file value: merged} {string value: path/to/file1} {string value: path/to/file2}`

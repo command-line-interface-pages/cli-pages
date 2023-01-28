@@ -10,8 +10,8 @@
 
 - Create a new alias:
 
-`git alias "{any something}" "{any something}"`
+`git alias "{string value: name}" "{string value: command}"`
 
 - Search for an existing alias:
 
-`git alias ^{any something}`
+`git alias ^{string value: name}`

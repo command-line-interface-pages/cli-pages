@@ -9,8 +9,8 @@
 
 - Enable a feature:
 
-`choco feature enable --name {any something}`
+`choco feature enable --name {string value: name}`
 
 - Disable a feature:
 
-`choco feature disable --name {any something}`
+`choco feature disable --name {string value: name}`

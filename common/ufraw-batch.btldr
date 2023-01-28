@@ -5,16 +5,16 @@
 
 - Simply convert RAW files to JPG:
 
-`ufraw-batch --out-type=jpg {any something}`
+`ufraw-batch --out-type=jpg {string value: input_file(s)}`
 
 - Simply convert RAW files to PNG:
 
-`ufraw-batch --out-type=png {any something}`
+`ufraw-batch --out-type=png {string value: input_file(s)}`
 
 - Extract the preview image from the raw file:
 
-`ufraw-batch --embedded-image {any something}`
+`ufraw-batch --embedded-image {string value: input_file(s)}`
 
 - Save the file with size up to the given maximums MAX1 and MAX2:
 
-`ufraw-batch --size=MAX1,MAX2 {any something}`
+`ufraw-batch --size=MAX1,MAX2 {string value: input_file(s)}`

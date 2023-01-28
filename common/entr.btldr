@@ -5,16 +5,16 @@
 
 - Rebuild with `make` if any file in any subdirectory changes:
 
-`{any something} | entr {any something}`
+`{string value: ag -l} | entr {string value: make}`
 
 - Rebuild and test with `make` if any `.c` source files in the current directory change:
 
-`{any something} | entr {any something}`
+`{string value: ls *.c} | entr {string value: 'make && make test'}`
 
 - Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`:
 
-`{any something} | entr -r {any something}`
+`{string value: ls *.rb} | entr -r {string value: ruby main.rb}`
 
 - Run a command with the changed file (`/_`) as an argument:
 
-`{any something} | entr {any something} /_`
+`{string value: ls *.sql} | entr {string value: psql -f} /_`

@@ -9,8 +9,8 @@
 
 - Write system logs to a file:
 
-`logcat -f {file something}`
+`logcat -f {file value}`
 
 - Display lines that match a regular expression:
 
-`logcat --regex {any something}`
+`logcat --regex {string value: regular_expression}`

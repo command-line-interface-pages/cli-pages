@@ -9,7 +9,7 @@
 
 - Display the top 25 records:
 
-`uprecords -m {int number: 25}`
+`uprecords -m {int value: 25}`
 
 - Display the downtime between reboots instead of the kernel version:
 

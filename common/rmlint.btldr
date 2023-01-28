@@ -5,7 +5,7 @@
 
 - Check a directory for duplicates, empty files, and other issues:
 
-`rmlint {directory something}`
+`rmlint {directory value}`
 
 - Delete duplicate files found by an execution of `rmlint`:
 
@@ -13,20 +13,20 @@
 
 - Find duplicate directory trees:
 
-`rmlint --merge-directories {directory something}`
+`rmlint --merge-directories {directory value}`
 
 - Mark files at lower path [d]epth as originals:
 
-`rmlint --rank-by={any something} {directory something}`
+`rmlint --rank-by={string value: d} {directory value}`
 
 - Mark files with shortest name [l]ength as originals:
 
-`rmlint --rank-by={any something} {directory something}`
+`rmlint --rank-by={string value: l} {directory value}`
 
 - Find only duplicates that have the same filename in addition to the same contents:
 
-`rmlint --match-basename {directory something}`
+`rmlint --match-basename {directory value}`
 
 - Find all duplicates with the same extension:
 
-`rmlint --match-extension {directory something}`
+`rmlint --match-extension {directory value}`

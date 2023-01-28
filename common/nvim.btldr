@@ -7,7 +7,7 @@
 
 - Open a file:
 
-`nvim {file something}`
+`nvim {file value}`
 
 - Enter text editing mode (insert mode):
 
@@ -15,7 +15,7 @@
 
 - Copy ("yank") or cut ("delete") the current line (paste it with `P`):
 
-`<Esc>{any something}`
+`<Esc>{string value: yy|dd}`
 
 - Enter normal mode and undo the last operation:
 
@@ -23,11 +23,11 @@
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`<Esc>/{any something}<Enter>`
+`<Esc>/{string value: search_pattern}<Enter>`
 
 - Perform a regular expression substitution in the whole file:
 
-`<Esc>:%s/{any something}/{any something}/g<Enter>`
+`<Esc>:%s/{string value: regular_expression}/{string value: replacement}/g<Enter>`
 
 - Enter normal mode and save (write) the file, and quit:
 

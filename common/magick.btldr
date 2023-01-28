@@ -6,20 +6,20 @@
 
 - Convert file type:
 
-`magick {any something} {any something}`
+`magick {string value: image.png} {string value: image.jpg}`
 
 - Resize an image, making a new copy:
 
-`magick convert -resize {any something} {any something} {any something}`
+`magick convert -resize {string value: 100x100} {string value: image.jpg} {string value: image.jpg}`
 
 - Create a GIF using images:
 
-`magick {any something} {any something}`
+`magick {string value: *.jpg} {string value: images.gif}`
 
 - Create checkerboard pattern:
 
-`magick -size {any something} pattern:checkerboard {any something}`
+`magick -size {string value: 640x480} pattern:checkerboard {string value: checkerboard.png}`
 
 - Convert images to individual PDF pages:
 
-`magick {any something} +adjoin {any something}`
+`magick {string value: *.jpg} +adjoin {string value: page-%d.pdf}`

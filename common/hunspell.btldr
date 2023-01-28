@@ -5,12 +5,12 @@
 
 - Check the spelling of a file:
 
-`hunspell {file something}`
+`hunspell {file value}`
 
 - Check the spelling of a file with the en_US dictionary:
 
-`hunspell -d {any something} {file something}`
+`hunspell -d {string value: en_US} {file value}`
 
 - List misspelled words in a file:
 
-`hunspell -l {file something}`
+`hunspell -l {file value}`

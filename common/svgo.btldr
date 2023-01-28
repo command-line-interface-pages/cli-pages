@@ -6,27 +6,27 @@
 
 - Optimize a file using the default plugins (overwrites the original file):
 
-`svgo {any something}`
+`svgo {string value: test.svg}`
 
 - Optimize a file and save the result to another file:
 
-`svgo {any something} -o {any something}`
+`svgo {string value: test.svg} -o {string value: test.min.svg}`
 
 - Optimize all SVG files within a directory (overwrites the original files):
 
-`svgo -f {any something}`
+`svgo -f {string value: path/to/directory/with/svg/files}`
 
 - Optimize all SVG files within a directory and save the resulting files to another directory:
 
-`svgo -f {any something} -o {any something}`
+`svgo -f {string value: path/to/input/directory} -o {string value: path/to/output/directory}`
 
 - Optimize SVG content passed from another command, and save the result to a file:
 
-`{any something} | svgo -i - -o {any something}`
+`{string value: cat test.svg} | svgo -i - -o {string value: test.min.svg}`
 
 - Optimize a file and print out the result:
 
-`svgo {any something} -o -`
+`svgo {string value: test.svg} -o -`
 
 - Show available plugins:
 

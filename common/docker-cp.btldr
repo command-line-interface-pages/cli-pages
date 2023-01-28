@@ -5,12 +5,12 @@
 
 - Copy a file or directory from the host to a container:
 
-`docker cp {any something} {any something}:{any something}`
+`docker cp {string value: path/to/file_or_directory_on_host} {string value: container_name}:{string value: path/to/file_or_directory_in_container}`
 
 - Copy a file or directory from a container to the host:
 
-`docker cp {any something}:{any something} {any something}`
+`docker cp {string value: container_name}:{string value: path/to/file_or_directory_in_container} {string value: path/to/file_or_directory_on_host}`
 
 - Copy a file or directory from the host to a container, following symlinks (copies the symlinked files directly, not the symlinks themselves):
 
-`docker cp --follow-link {any something} {any something}:{any something}`
+`docker cp --follow-link {string value: path/to/symlink_on_host} {string value: container_name}:{string value: path/to/file_or_directory_in_container}`

@@ -9,20 +9,20 @@
 
 - Run on server using UDP mode and set server port to listen on 5001:
 
-`iperf -u -s -p {int number: 5001}`
+`iperf -u -s -p {int value: 5001}`
 
 - Run on client:
 
-`iperf -c {any something}`
+`iperf -c {string value: server_address}`
 
 - Run on client every 2 seconds:
 
-`iperf -c {any something} -i {int number: 2}`
+`iperf -c {string value: server_address} -i {int value: 2}`
 
 - Run on client with 5 parallel threads:
 
-`iperf -c {any something} -P {int number: 5}`
+`iperf -c {string value: server_address} -P {int value: 5}`
 
 - Run on client using UDP mode:
 
-`iperf -u -c {any something} -p {int number: 5001}`
+`iperf -u -c {string value: server_address} -p {int value: 5001}`

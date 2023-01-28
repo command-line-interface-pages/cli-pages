@@ -10,12 +10,12 @@
 
 - Print configurations for a specific section:
 
-`az config get {any something}`
+`az config get {string value: section_name}`
 
 - Set a configuration:
 
-`az config set {any something}={any something}`
+`az config set {string value: configuration_name}={string value: value}`
 
 - Unset a configuration:
 
-`az config unset {any something}`
+`az config unset {string value: configuration_name}`

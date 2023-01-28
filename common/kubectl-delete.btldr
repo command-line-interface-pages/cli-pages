@@ -5,23 +5,23 @@
 
 - Delete a specific pod:
 
-`kubectl delete pod {any something}`
+`kubectl delete pod {string value: pod_name}`
 
 - Delete a specific deployment:
 
-`kubectl delete deployment {any something}`
+`kubectl delete deployment {string value: deployment_name}`
 
 - Delete a specific node:
 
-`kubectl delete node {any something}`
+`kubectl delete node {string value: node_name}`
 
 - Delete all pods in a specified namespace:
 
-`kubectl delete pods --all --namespace {any something}`
+`kubectl delete pods --all --namespace {string value: namespace}`
 
 - Delete all deployments and services in a specified namespace:
 
-`kubectl delete deployments,services --all --namespace {any something}`
+`kubectl delete deployments,services --all --namespace {string value: namespace}`
 
 - Delete all nodes:
 
@@ -29,4 +29,4 @@
 
 - Delete resources defined in a YAML manifest:
 
-`kubectl delete --filename {any something}`
+`kubectl delete --filename {string value: path/to/manifest.yaml}`

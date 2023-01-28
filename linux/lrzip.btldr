@@ -6,24 +6,24 @@
 
 - Compress a file with LZMA - slow compression, fast decompression:
 
-`lrzip {any something}`
+`lrzip {file value}`
 
 - Compress a file with BZIP2 - good middle ground for compression/speed:
 
-`lrzip -b {any something}`
+`lrzip -b {file value}`
 
 - Compress with ZPAQ - extreme compression, but very slow:
 
-`lrzip -z {any something}`
+`lrzip -z {file value}`
 
 - Compress with LZO - light compression, extremely fast decompression:
 
-`lrzip -l {any something}`
+`lrzip -l {file value}`
 
 - Compress a file and password protect/encrypt it:
 
-`lrzip -e {any something}`
+`lrzip -e {file value}`
 
 - Override the number of processor threads to use:
 
-`lrzip -p {int number: 8} {any something}`
+`lrzip -p {int value: 8} {file value}`

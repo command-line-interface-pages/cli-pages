@@ -5,16 +5,16 @@
 
 - Synchronize date and time:
 
-`sudo htpdate {any something}`
+`sudo htpdate {string value: host}`
 
 - Perform simulation of synchronization, without any action:
 
-`htpdate -q {any something}`
+`htpdate -q {string value: host}`
 
 - Compensate the systematic clock drift:
 
-`sudo htpdate -x {any something}`
+`sudo htpdate -x {string value: host}`
 
 - Set time immediate after the synchronization:
 
-`sudo htpdate -s {any something}`
+`sudo htpdate -s {string value: host}`

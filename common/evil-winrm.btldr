@@ -6,23 +6,23 @@
 
 - Connect to a host:
 
-`evil-winrm --ip {string ip} --user {any something} --password {any something}`
+`evil-winrm --ip {string ip} --user {string value: user} --password {string value: password}`
 
 - Connect to a host, passing the password hash:
 
-`evil-winrm --ip {string ip} --user {any something} --hash {any something}`
+`evil-winrm --ip {string ip} --user {string value: user} --hash {string value: nt_hash}`
 
 - Connect to a host, specifying directories for scripts and executables:
 
-`evil-winrm --ip {string ip} --user {any something} --password {any something} --scripts {any something} --executables {any something}`
+`evil-winrm --ip {string ip} --user {string value: user} --password {string value: password} --scripts {string value: path/to/scripts} --executables {string value: path/to/executables}`
 
 - Connect to a host, using SSL:
 
-`evil-winrm --ip {string ip} --user {any something} --password {any something} --ssl --pub-key {any something} --priv-key {any something}`
+`evil-winrm --ip {string ip} --user {string value: user} --password {string value: password} --ssl --pub-key {string value: path/to/pubkey} --priv-key {string value: path/to/privkey}`
 
 - Upload a file to the host:
 
-`PS > upload {any something} {any something}`
+`PS > upload {string value: path/to/local/file} {string value: path/to/remote/file}`
 
 - Get a list of loaded PowerShell functions:
 
@@ -30,8 +30,8 @@
 
 - Load a PowerShell script from the `--scripts` directory:
 
-`PS > {any something}`
+`PS > {string value: script.ps1}`
 
 - Invoke a binary on the host from the `--executables` directory:
 
-`PS > Invoke-Binary {any something}`
+`PS > Invoke-Binary {string value: binary.exe}`

@@ -5,11 +5,11 @@
 
 - Open pyATS shell with a defined Testbed file:
 
-`pyats shell --testbed-file {any something}`
+`pyats shell --testbed-file {string value: path/to/testbed.yaml}`
 
 - Open pyATS shell with a defined Pickle file:
 
-`pyats shell --pickle-file {any something}`
+`pyats shell --pickle-file {string value: path/to/pickle.file}`
 
 - Open pyATS with IPython disabled:
 

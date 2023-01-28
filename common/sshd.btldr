@@ -18,4 +18,4 @@
 
 - Run on a specific port:
 
-`sshd -p {any something}`
+`sshd -p {string value: port}`

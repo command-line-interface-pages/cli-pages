@@ -9,16 +9,16 @@
 
 - Create new Sails project:
 
-`sails new {any something}`
+`sails new {string value: projectName}`
 
 - Generate Sails API:
 
-`sails generate {any something}`
+`sails generate {string value: name}`
 
 - Generate Sails Controller:
 
-`sails generate controller {any something}`
+`sails generate controller {string value: name}`
 
 - Generate Sails Model:
 
-`sails generate model {any something}`
+`sails generate model {string value: name}`

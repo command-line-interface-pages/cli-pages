@@ -5,15 +5,15 @@
 
 - Play the specified file or URL:
 
-`mplayer {any something}`
+`mplayer {string value: path/to/file|url}`
 
 - Play multiple files:
 
-`mplayer {any something}`
+`mplayer {file* value}`
 
 - Play a specific file repeatedly:
 
-`mplayer -loop {int number: 0} {file something}`
+`mplayer -loop {int value: 0} {file value}`
 
 - Pause playback:
 

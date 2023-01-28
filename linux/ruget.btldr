@@ -5,8 +5,8 @@
 
 - Download the contents of a URL to a file:
 
-`ruget {any something}`
+`ruget {string value: https://example.com/file}`
 
 - Download the contents of a URL to a specified [o]utput file:
 
-`ruget --output {any something} {any something}`
+`ruget --output {file value} {string value: https://example.com/file}`

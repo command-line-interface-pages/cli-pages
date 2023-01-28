@@ -5,28 +5,28 @@
 
 - Search for a pattern within a compressed file:
 
-`bzgrep "{any something}" {file something}`
+`bzgrep "{string value: search_pattern}" {file value}`
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`bzgrep --extended-regexp --ignore-case "{any something}" {file something}`
+`bzgrep --extended-regexp --ignore-case "{string value: search_pattern}" {file value}`
 
 - Print 3 lines of context around, before, or after each match:
 
-`bzgrep --{any something}={int number: 3} "{any something}" {file something}`
+`bzgrep --{string value: context|before-context|after-context}={int value: 3} "{string value: search_pattern}" {file value}`
 
 - Print file name and line number for each match:
 
-`bzgrep --with-filename --line-number "{any something}" {file something}`
+`bzgrep --with-filename --line-number "{string value: search_pattern}" {file value}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
-`bzgrep --only-matching "{any something}" {file something}`
+`bzgrep --only-matching "{string value: search_pattern}" {file value}`
 
 - Recursively search files in a bzip2 compressed tar archive for a pattern:
 
-`bzgrep --recursive "{any something}" {any something}`
+`bzgrep --recursive "{string value: search_pattern}" {string value: path/to/tar/file}`
 
 - Search stdin for lines that do not match a pattern:
 
-`cat {any something} | bzgrep --invert-match "{any something}"`
+`cat {string value: /path/to/bz/compressed/file} | bzgrep --invert-match "{string value: search_pattern}"`

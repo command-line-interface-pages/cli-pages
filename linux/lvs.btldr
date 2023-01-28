@@ -18,11 +18,11 @@
 
 - Display only specific fields:
 
-`lvs -o {any something},{any something}`
+`lvs -o {string value: field_name_1},{string value: field_name_2}`
 
 - Append field to default display:
 
-`lvs -o +{any something}`
+`lvs -o +{string value: field_name}`
 
 - Suppress heading line:
 
@@ -30,4 +30,4 @@
 
 - Use a separator to separate fields:
 
-`lvs --separator {any something}`
+`lvs --separator {string value: =}`

@@ -6,20 +6,20 @@
 
 - Test if a given variable is equal to a given string:
 
-`test "{any something}" == "{any something}"`
+`test "{string value: $MY_VAR}" == "{string value: /bin/zsh}"`
 
 - Test if a given variable is empty:
 
-`test -z "{any something}"`
+`test -z "{string value: $GIT_BRANCH}"`
 
 - Test if a file exists:
 
-`test -f "{file something|path something}"`
+`test -f "{path value}"`
 
 - Test if a directory does not exist:
 
-`test ! -d "{directory something}"`
+`test ! -d "{directory value}"`
 
 - If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
 
-`test {any something} && {any something} || {any something}`
+`test {string value: condition} && {string value: echo "true"} || {string value: echo "false"}`

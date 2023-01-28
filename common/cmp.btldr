@@ -5,16 +5,16 @@
 
 - Output char and line number of the first difference between two files:
 
-`cmp {any something} {any something}`
+`cmp {string value: path/to/file1} {string value: path/to/file2}`
 
 - Output info of the first difference: char, line number, bytes, and values:
 
-`cmp --print-bytes {any something} {any something}`
+`cmp --print-bytes {string value: path/to/file1} {string value: path/to/file2}`
 
 - Output the byte numbers and values of every difference:
 
-`cmp --verbose {any something} {any something}`
+`cmp --verbose {string value: path/to/file1} {string value: path/to/file2}`
 
 - Compare files but output nothing, yield only the exit status:
 
-`cmp --quiet {any something} {any something}`
+`cmp --quiet {string value: path/to/file1} {string value: path/to/file2}`

@@ -5,12 +5,12 @@
 
 - Generate TOTP token (behaves like Google Authenticator):
 
-`oathtool --totp --base32 "{any something}"`
+`oathtool --totp --base32 "{string value: secret}"`
 
 - Generate a TOTP token for a specific time:
 
-`oathtool --totp --now "{any something}" --base32 "{any something}"`
+`oathtool --totp --now "{string value: 2004-02-29 16:21:42}" --base32 "{string value: secret}"`
 
 - Validate a TOTP token:
 
-`oathtool --totp --base32 "{any something}" "{any something}"`
+`oathtool --totp --base32 "{string value: secret}" "{string value: token}"`

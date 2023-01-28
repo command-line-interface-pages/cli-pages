@@ -9,11 +9,11 @@
 
 - Track files that match a glob:
 
-`git lfs track '{any something}'`
+`git lfs track '{string value: *.bin}'`
 
 - Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
 
-`git config -f .lfsconfig lfs.url {any something}`
+`git config -f .lfsconfig lfs.url {string value: lfs_endpoint_url}`
 
 - List tracked patterns:
 
@@ -25,7 +25,7 @@
 
 - Push all Git LFS objects to the remote server (useful if errors are encountered):
 
-`git lfs push --all {any something} {any something}`
+`git lfs push --all {string value: remote_name} {string value: branch_name}`
 
 - Fetch all Git LFS objects:
 

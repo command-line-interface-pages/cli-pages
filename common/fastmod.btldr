@@ -6,24 +6,24 @@
 
 - Replace a regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore:
 
-`fastmod {any something} {any something}`
+`fastmod {string value: regex_pattern} {string value: replacement}`
 
 - Replace a regex pattern in case-insensitive mode in specific files or directories:
 
-`fastmod --ignore-case {any something} {any something} -- {any something}`
+`fastmod --ignore-case {string value: regex_pattern} {string value: replacement} -- {string value: path/to/file path/to/directory ...}`
 
 - Replace a regex pattern in a specific directory in files filtered with a case-insensitive glob pattern:
 
-`fastmod {any something} {any something} --dir {directory something} --iglob {{'**/*.{js,json}'}}`
+`fastmod {string value: regex} {string value: replacement} --dir {directory value} --iglob {{'**/*.{js,json}'}}`
 
 - Replace for an exact string in .js or .json files:
 
-`fastmod --fixed-strings {any something} {any something} --extensions {any something}`
+`fastmod --fixed-strings {string value: exact_string} {string value: replacement} --extensions {string value: json,js}`
 
 - Replace for an exact string without prompt for a confirmation (disables regular expressions):
 
-`fastmod --accept-all --fixed-strings {any something} {any something}`
+`fastmod --accept-all --fixed-strings {string value: exact_string} {string value: replacement}`
 
 - Replace for an exact string without prompt for a confirmation, printing changed files:
 
-`fastmod --accept-all --print-changed-files --fixed-strings {any something} {any something}`
+`fastmod --accept-all --print-changed-files --fixed-strings {string value: exact_string} {string value: replacement}`

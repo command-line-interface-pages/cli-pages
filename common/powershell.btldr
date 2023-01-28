@@ -14,15 +14,15 @@
 
 - Execute specific commands:
 
-`powershell -Command "{any something}"`
+`powershell -Command "{string value: echo 'powershell is executed'}"`
 
 - Execute a specific script:
 
-`powershell -File {any something}`
+`powershell -File {string value: path/to/script.ps1}`
 
 - Start a session with a specific version of PowerShell:
 
-`powershell -Version {any something}`
+`powershell -Version {string value: version}`
 
 - Prevent a shell from exit after running startup commands:
 
@@ -30,8 +30,8 @@
 
 - Describe the format of data sent to PowerShell:
 
-`powershell -InputFormat {any something}`
+`powershell -InputFormat {string value: Text|XML}`
 
 - Determine how an output from PowerShell is formatted:
 
-`powershell -OutputFormat {any something}`
+`powershell -OutputFormat {string value: Text|XML}`

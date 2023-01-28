@@ -9,15 +9,15 @@
 
 - Execute a [c]ommand:
 
-`cmd /c "{any something}"`
+`cmd /c "{string value: command}"`
 
 - Execute a script:
 
-`cmd {file something}`
+`cmd {file value: sample.bat}`
 
 - Execute a command and then enter an interactive shell:
 
-`cmd /k "{any something}"`
+`cmd /k "{string value: command}"`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
@@ -25,11 +25,11 @@
 
 - Start an interactive shell session with delayed [v]ariable expansion enabled or disabled:
 
-`cmd /v:{any something}`
+`cmd /v:{string value: on|off}`
 
 - Start an interactive shell session with command [e]xtensions enabled or disabled:
 
-`cmd /e:{any something}`
+`cmd /e:{string value: on|off}`
 
 - Start an interactive shell session with used Unicode encoding:
 

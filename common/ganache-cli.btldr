@@ -9,7 +9,7 @@
 
 - Run Ganache with a specific number of accounts:
 
-`ganache-cli --accounts={any something}`
+`ganache-cli --accounts={string value: number_of_accounts}`
 
 - Run Ganache and lock available accounts by default:
 
@@ -17,15 +17,15 @@
 
 - Run Ganache server and unlock specific accounts:
 
-`ganache-cli --secure --unlock "{any something}" --unlock "{any something}"`
+`ganache-cli --secure --unlock "{string value: account_private_key1}" --unlock "{string value: account_private_key2}"`
 
 - Run Ganache with a specific account and balance:
 
-`ganache-cli --account="{any something},{any something}"`
+`ganache-cli --account="{string value: account_private_key},{string value: account_balance}"`
 
 - Run Ganache with accounts with a default balance:
 
-`ganache-cli --defaultBalanceEther={any something}`
+`ganache-cli --defaultBalanceEther={string value: default_balance}`
 
 - Run Ganache and log all requests to stdout:
 

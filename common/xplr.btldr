@@ -5,16 +5,16 @@
 
 - Open a directory:
 
-`xplr {directory something}`
+`xplr {directory value}`
 
 - Focus on a file:
 
-`xplr {file something}`
+`xplr {file value}`
 
 - Focus on a directory:
 
-`xplr --force-focus {directory something}`
+`xplr --force-focus {directory value}`
 
 - Open a directory with specific files or directories selected:
 
-`xplr {directory something} {any something} {any something}`
+`xplr {directory value} {string value: path/to/selected_file_or_directory1} {string value: path/to/selected_file_or_directory2}`

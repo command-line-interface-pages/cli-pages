@@ -6,24 +6,24 @@
 
 - Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
 
-`od {file something}`
+`od {file value}`
 
 - Display file in verbose mode, i.e. without replacing duplicate lines with `*`:
 
-`od -v {file something}`
+`od -v {file value}`
 
 - Display file in hexadecimal format (2-byte units), with byte offsets in decimal format:
 
-`od --format={any something} --address-radix={any something} -v {file something}`
+`od --format={string value: x} --address-radix={string value: d} -v {file value}`
 
 - Display file in hexadecimal format (1-byte units), and 4 bytes per line:
 
-`od --format={any something} --width={int number: 4} -v {file something}`
+`od --format={string value: x1} --width={int value: 4} -v {file value}`
 
 - Display file in hexadecimal format along with its character representation, and do not print byte offsets:
 
-`od --format={any something} --address-radix={any something} -v {file something}`
+`od --format={string value: xz} --address-radix={string value: n} -v {file value}`
 
 - Read only 100 bytes of a file starting from the 500th byte:
 
-`od --read-bytes {int number: 100} --skip-bytes={int number: 500} -v {file something}`
+`od --read-bytes {int value: 100} --skip-bytes={int value: 500} -v {file value}`

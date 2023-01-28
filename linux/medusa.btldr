@@ -5,16 +5,16 @@
 
 - Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
 
-`medusa -M ftp -h host -U {file something: username} -P {file something: password}`
+`medusa -M ftp -h host -U {file value: username} -P {file value: password}`
 
 - Execute a login attempt against an HTTP server using the username, password and user-agent specified:
 
-`medusa -M HTTP -h host -u {string user} -p {any something} -m USER-AGENT:"{any something}"`
+`medusa -M HTTP -h host -u {string user} -p {string value: password} -m USER-AGENT:"{string value: Agent}"`
 
 - Execute a brute force against a MySQL server using a file containing usernames and a hash:
 
-`medusa -M mysql -h host -U {file something: username} -p {any something} -m PASS:HASH`
+`medusa -M mysql -h host -U {file value: username} -p {string value: hash} -m PASS:HASH`
 
 - Execute a brute force against a list of SMB servers using a username and a pwdump file:
 
-`medusa -M smbnt -H {file something: hosts} -C {file something: pwdump} -u {string user} -m PASS:HASH`
+`medusa -M smbnt -H {file value: hosts} -C {file value: pwdump} -u {string user} -m PASS:HASH`

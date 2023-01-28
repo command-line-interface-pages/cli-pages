@@ -10,4 +10,4 @@
 
 - Print logged in usernames according to a given file:
 
-`users {any something}`
+`users {string value: /var/log/wmtp}`

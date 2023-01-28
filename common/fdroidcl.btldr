@@ -9,16 +9,16 @@
 
 - Display info about an app:
 
-`fdroidcl show {any something}`
+`fdroidcl show {string value: app_id}`
 
 - Download an APK file:
 
-`fdroidcl download {any something}`
+`fdroidcl download {string value: app_id}`
 
 - Search for an app in the index:
 
-`fdroidcl search {any something}`
+`fdroidcl search {string value: search_pattern}`
 
 - Install an app on a connected device:
 
-`fdroidcl install {any something}`
+`fdroidcl install {string value: app_id}`

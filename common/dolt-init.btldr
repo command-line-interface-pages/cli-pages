@@ -9,4 +9,4 @@
 
 - Initialize a new Dolt data repository creating a commit with the specified metadata:
 
-`dolt init --name "{any something}" --email "{any something}" --date "{any something}" -b "{any something}"`
+`dolt init --name "{string value: name}" --email "{string value: email}" --date "{string value: 2021-12-31T00:00:00}" -b "{string value: branch_name}"`

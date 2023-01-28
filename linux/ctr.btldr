@@ -13,8 +13,8 @@
 
 - Pull an image:
 
-`ctr images pull {any something}`
+`ctr images pull {string value: image}`
 
 - Tag an image:
 
-`ctr images tag {any something}:{any something} {any something}:{any something}`
+`ctr images tag {string value: source_image}:{string value: source_tag} {string value: target_image}:{string value: target_tag}`

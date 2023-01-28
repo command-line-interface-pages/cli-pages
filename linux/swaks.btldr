@@ -5,20 +5,20 @@
 
 - Deliver a standard test email to `user@example.com` on port 25 of `test-server.example.net`:
 
-`swaks --to {any something} --server {any something}`
+`swaks --to {string value: user@example.com} --server {string value: test-server.example.net}`
 
 - Deliver a standard test email, requiring CRAM-MD5 authentication as user `me@example.com`. An "X-Test" header will be added to the email body:
 
-`swaks --to {any something} --from {any something} --auth {any something} --auth-user {any something} --header-X-Test "{any something}"`
+`swaks --to {string value: user@example.com} --from {string value: me@example.com} --auth {string value: CRAM-MD5} --auth-user {string value: me@example.com} --header-X-Test "{string value: test_email}"`
 
 - Test a virus scanner using EICAR in an attachment. Don't show the message DATA part:
 
-`swaks -t {any something} --attach - --server {any something} --suppress-data {any something}`
+`swaks -t {string value: user@example.com} --attach - --server {string value: test-server.example.com} --suppress-data {string value: path/to/eicar.txt}`
 
 - Test a spam scanner using GTUBE in the body of an email, routed via the MX records for `example.com`:
 
-`swaks --to {any something} --body {file something: gtube}`
+`swaks --to {string value: user@example.com} --body {file value: gtube}`
 
 - Deliver a standard test email to `user@example.com` using the LMTP protocol via a UNIX domain socket file:
 
-`swaks --to {any something} --socket {any something} --protocol {any something}`
+`swaks --to {string value: user@example.com} --socket {string value: /var/lda.sock} --protocol {string value: LMTP}`

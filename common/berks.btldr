@@ -9,12 +9,12 @@
 
 - Update a specific cookbook and its dependencies:
 
-`berks update {any something}`
+`berks update {string value: cookbook}`
 
 - Upload a cookbook to the Chef server:
 
-`berks upload {any something}`
+`berks upload {string value: cookbook}`
 
 - View the dependencies of a cookbook:
 
-`berks contingent {any something}`
+`berks contingent {string value: cookbook}`

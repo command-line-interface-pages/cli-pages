@@ -9,24 +9,24 @@
 
 - Add a new package source:
 
-`choco source add --name {any something} --source {string url}`
+`choco source add --name {string value: name} --source {string url}`
 
 - Add a new package source with credentials:
 
-`choco source add --name {any something} --source {string url} --user {string user} --password {any something}`
+`choco source add --name {string value: name} --source {string url} --user {string user} --password {string value: password}`
 
 - Add a new package source with a client certificate:
 
-`choco source add --name {any something} --source {string url} --cert {any something}`
+`choco source add --name {string value: name} --source {string url} --cert {string value: path/to/certificate}`
 
 - Enable a package source:
 
-`choco source enable --name {any something}`
+`choco source enable --name {string value: name}`
 
 - Disable a package source:
 
-`choco source disable --name {any something}`
+`choco source disable --name {string value: name}`
 
 - Remove a package source:
 
-`choco source remove --name {any something}`
+`choco source remove --name {string value: name}`

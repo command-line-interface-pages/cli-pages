@@ -6,16 +6,16 @@
 
 - Dump all information using the given LDAP account:
 
-`ldapdomaindump --user {any something}\\{any something} --password {any something} {any something}`
+`ldapdomaindump --user {string value: domain}\\{string value: administrator} --password {string value: password|ntlm_hash} {string value: hostname|ip}`
 
 - Dump all information, resolving computer hostnames:
 
-`ldapdomaindump --resolve --user {any something}\\{any something} --password {any something} {any something}`
+`ldapdomaindump --resolve --user {string value: domain}\\{string value: administrator} --password {string value: password} {string value: hostname|ip}`
 
 - Dump all information, resolving computer hostnames with the selected DNS server:
 
-`ldapdomaindump --resolve --dns-server {any something} --user {any something}\\{any something} --password {any something} {any something}`
+`ldapdomaindump --resolve --dns-server {string value: domain_controller_ip} --user {string value: domain}\\{string value: administrator} --password {string value: password} {string value: hostname|ip}`
 
 - Dump all information to the given directory without JSON output:
 
-`ldapdomaindump --no-json --outdir {directory something} --user {any something}\\{any something} --password {any something} {any something}`
+`ldapdomaindump --no-json --outdir {directory value} --user {string value: domain}\\{string value: administrator} --password {string value: password} {string value: hostname|ip}`

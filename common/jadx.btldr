@@ -6,8 +6,8 @@
 
 - Decompile a Dex file into a directory:
 
-`jadx {file something}`
+`jadx {file value}`
 
 - Decompile a Dex file into a specific directory:
 
-`jadx --output-dir {directory something} {file something}`
+`jadx --output-dir {directory value} {file value}`

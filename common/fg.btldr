@@ -9,4 +9,4 @@
 
 - Bring a specific job to foreground:
 
-`fg %{any something}`
+`fg %{string value: job_id}`

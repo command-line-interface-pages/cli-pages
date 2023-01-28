@@ -5,8 +5,8 @@
 
 - Delete a snapshot:
 
-`qm delsnapshot {any something} {any something}`
+`qm delsnapshot {string value: vm_id} {string value: snapshot_name}`
 
 - Delete a snapshot from a configuration file (even if removing the disk snapshot fails):
 
-`qm delsnapshot {any something} {any something} --force 1`
+`qm delsnapshot {string value: vm_id} {string value: snapshot_name} --force 1`

@@ -5,7 +5,7 @@
 
 - Cancel a job using its ID:
 
-`scancel {any something}`
+`scancel {string value: job_id}`
 
 - Cancel all jobs from a user:
 

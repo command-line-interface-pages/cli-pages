@@ -6,7 +6,7 @@
 
 - Print the starship integration code for the specified shell:
 
-`starship init {any something}`
+`starship init {string value: bash|elvish|fish|ion|powershell|tcsh|zsh}`
 
 - Explain each part of the current prompt and show the time taken to render them:
 
@@ -30,8 +30,8 @@
 
 - Print the completion script for the specified shell:
 
-`starship completions {any something}`
+`starship completions {string value: bash|elvish|fish|powershell|zsh}`
 
 - Display help for a subcommand:
 
-`starship {any something} --help`
+`starship {string value: subcommand} --help`

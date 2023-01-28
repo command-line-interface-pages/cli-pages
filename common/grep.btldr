@@ -5,32 +5,32 @@
 
 - Search for a pattern within a file:
 
-`grep "{any something}" {file something}`
+`grep "{string value: search_pattern}" {file value}`
 
 - Search for an exact string (disables regular expressions):
 
-`grep --fixed-strings "{any something}" {file something}`
+`grep --fixed-strings "{string value: exact_string}" {file value}`
 
 - Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
 
-`grep --recursive --line-number --binary-files={any something} "{any something}" {directory something}`
+`grep --recursive --line-number --binary-files={string value: without-match} "{string value: search_pattern}" {directory value}`
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`grep --extended-regexp --ignore-case "{any something}" {file something}`
+`grep --extended-regexp --ignore-case "{string value: search_pattern}" {file value}`
 
 - Print 3 lines of context around, before, or after each match:
 
-`grep --{any something}={int number: 3} "{any something}" {file something}`
+`grep --{string value: context|before-context|after-context}={int value: 3} "{string value: search_pattern}" {file value}`
 
 - Print file name and line number for each match with color output:
 
-`grep --with-filename --line-number --color=always "{any something}" {file something}`
+`grep --with-filename --line-number --color=always "{string value: search_pattern}" {file value}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
-`grep --only-matching "{any something}" {file something}`
+`grep --only-matching "{string value: search_pattern}" {file value}`
 
 - Search stdin for lines that do not match a pattern:
 
-`cat {file something} | grep --invert-match "{any something}"`
+`cat {file value} | grep --invert-match "{string value: search_pattern}"`

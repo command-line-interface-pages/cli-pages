@@ -9,7 +9,7 @@
 
 - Display a list of drivers in the specified format:
 
-`driverquery /fo {any something}`
+`driverquery /fo {string value: table|list|csv}`
 
 - Display a list of drivers with a column to indicate if they are signed:
 
@@ -21,7 +21,7 @@
 
 - Display a list of drivers for a remote machine:
 
-`driverquery /s {any something} /u {string user} /p {any something}`
+`driverquery /s {string value: hostname} /u {string user} /p {string value: password}`
 
 - Display a list of drivers with verbose information:
 

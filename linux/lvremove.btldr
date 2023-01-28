@@ -6,8 +6,8 @@
 
 - Remove a logical volume in a volume group:
 
-`sudo lvremove {any something}/{any something}`
+`sudo lvremove {string value: volume_group}/{string value: logical_volume}`
 
 - Remove all logical volumes in a volume group:
 
-`sudo lvremove {any something}`
+`sudo lvremove {string value: volume_group}`

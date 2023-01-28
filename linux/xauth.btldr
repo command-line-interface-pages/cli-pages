@@ -5,7 +5,7 @@
 
 - Start interactive mode with a specific authority file (defaults to `~/.Xauthority`):
 
-`xauth -f {file something}`
+`xauth -f {file value}`
 
 - Display information about the authority file:
 
@@ -17,11 +17,11 @@
 
 - Add an authorization for a specific display:
 
-`xauth add {any something} {any something} {any something}`
+`xauth add {string value: display_name} {string value: protocol_name} {string value: key}`
 
 - Remove the authorization for a specific display:
 
-`xauth remove {any something}`
+`xauth remove {string value: display_name}`
 
 - Print the authorization entry for the current display to stdout:
 
@@ -29,7 +29,7 @@
 
 - Merge the authorization entries from a specific file into the authorization database:
 
-`cat {file something} | xauth merge -`
+`cat {file value} | xauth merge -`
 
 - Display help:
 

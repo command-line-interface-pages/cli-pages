@@ -6,16 +6,16 @@
 
 - Create a queue:
 
-`az storage queue create --account-name {any something} --name {any something} --metadata {any something}`
+`az storage queue create --account-name {string value: storage_account_name} --name {string value: queue_name} --metadata {string value: queue_metadata}`
 
 - Generate a shared access signature for the queue:
 
-`az storage queue generate-sas --account-name {any something} --name {any something} --permissions {any something} --expiry {any something} --https-only`
+`az storage queue generate-sas --account-name {string value: storage_account_name} --name {string value: queue_name} --permissions {string value: queue_permissions} --expiry {string value: expiry_date} --https-only`
 
 - List queues in a storage account:
 
-`az storage queue list --prefix {any something} --account-name {any something}`
+`az storage queue list --prefix {string value: filter_prefix} --account-name {string value: storage_account_name}`
 
 - Delete the specified queue and any messages it contains:
 
-`az storage queue delete --account-name {any something} --name {any something} --fail-not-exist`
+`az storage queue delete --account-name {string value: storage_account_name} --name {string value: queue_name} --fail-not-exist`

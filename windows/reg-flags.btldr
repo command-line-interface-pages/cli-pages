@@ -5,7 +5,7 @@
 
 - Display current flags for a specific key:
 
-`reg flags {any something} query`
+`reg flags {string value: key_name} query`
 
 - Display help and available flag types:
 
@@ -13,8 +13,8 @@
 
 - Set specified space-separated flags, and unset unmentioned flags, for a specific key:
 
-`reg flags {any something} set {any something}`
+`reg flags {string value: key_name} set {string value: flag_names}`
 
 - Set specified flags for a specific key and its sub keys:
 
-`reg flags {any something} set {any something} /s`
+`reg flags {string value: key_name} set {string value: flag_names} /s`

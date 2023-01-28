@@ -6,20 +6,20 @@
 
 - Decompress a file:
 
-`lrunzip {any something}`
+`lrunzip {file value: sample.lrz}`
 
 - Decompress a file using a specific number of processor threads:
 
-`lrunzip -p {int number: 8} {any something}`
+`lrunzip -p {int value: 8} {file value: sample.lrz}`
 
 - Decompress a file and silently overwrite files if they exist:
 
-`lrunzip -f {any something}`
+`lrunzip -f {file value: sample.lrz}`
 
 - Keep broken or damaged files instead of deleting them when decompressing:
 
-`lrunzip -K {any something}`
+`lrunzip -K {file value: sample.lrz}`
 
 - Specify output file name and/or path:
 
-`lrunzip -o {any something} {any something}`
+`lrunzip -o {string value: outfilename} {file value: sample.lrz}`

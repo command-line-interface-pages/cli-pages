@@ -5,24 +5,24 @@
 
 - Search for a package:
 
-`choco search {any something}`
+`choco search {string value: query}`
 
 - Search for a package locally:
 
-`choco search {any something} --local-only`
+`choco search {string value: query} --local-only`
 
 - Only include exact matches in the results:
 
-`choco search {any something} --exact`
+`choco search {string value: query} --exact`
 
 - Confirm all prompts automatically:
 
-`choco search {any something} --yes`
+`choco search {string value: query} --yes`
 
 - Specify a custom source to search for packages in:
 
-`choco search {any something} --source {any something}`
+`choco search {string value: query} --source {string value: source_url|alias}`
 
 - Provide a username and password for authentication:
 
-`choco search {any something} --user {string user} --password {any something}`
+`choco search {string value: query} --user {string user} --password {string value: password}`

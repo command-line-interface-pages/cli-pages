@@ -5,11 +5,11 @@
 
 - Run an installed application:
 
-`flatpak run {any something}`
+`flatpak run {string value: name}`
 
 - Install an application from a remote source:
 
-`flatpak install {any something} {any something}`
+`flatpak install {string value: remote} {string value: name}`
 
 - List all installed applications and runtimes:
 
@@ -21,11 +21,11 @@
 
 - Add a remote source:
 
-`flatpak remote-add --if-not-exists {any something} {any something}`
+`flatpak remote-add --if-not-exists {string value: remote_name} {string value: remote_url}`
 
 - Remove an installed application:
 
-`flatpak remove {any something}`
+`flatpak remove {string value: name}`
 
 - Remove all unused applications:
 
@@ -33,4 +33,4 @@
 
 - Show information about an installed application:
 
-`flatpak info {any something}`
+`flatpak info {string value: name}`

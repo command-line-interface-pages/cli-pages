@@ -9,7 +9,7 @@
 
 - Create a balenaCloud or openBalena application:
 
-`balena app create {any something}`
+`balena app create {string value: app_name}`
 
 - List all balenaCloud or openBalena applications within the account:
 
@@ -21,4 +21,4 @@
 
 - Flash a balenaOS image to a local drive:
 
-`balena local flash {any something} --drive {any something}`
+`balena local flash {string value: path/to/balenaos.img} --drive {string value: drive_location}`

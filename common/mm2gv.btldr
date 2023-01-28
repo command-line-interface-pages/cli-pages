@@ -6,11 +6,11 @@
 
 - Convert a graph from `mm` to `gv` format:
 
-`mm2gv -o {any something} {any something}`
+`mm2gv -o {string value: output.gv} {string value: input.mm}`
 
 - Convert a graph using stdin and stdout:
 
-`cat {any something} | mm2gv > {any something}`
+`cat {string value: input.mm} | mm2gv > {string value: output.gv}`
 
 - Display help:
 

@@ -9,7 +9,7 @@
 
 - Capture the traffic of a specific interface:
 
-`tcpdump -i {any something}`
+`tcpdump -i {string value: eth0}`
 
 - Capture all TCP traffic showing contents (ASCII) in console:
 
@@ -17,20 +17,20 @@
 
 - Capture the traffic from or to a host:
 
-`tcpdump host {any something}`
+`tcpdump host {string value: www.example.com}`
 
 - Capture the traffic from a specific interface, source, destination and destination port:
 
-`tcpdump -i {any something} src {any something} and dst {any something} and dst port {int number: 80}`
+`tcpdump -i {string value: eth0} src {string value: 192.168.1.1} and dst {string value: 192.168.1.2} and dst port {int value: 80}`
 
 - Capture the traffic of a network:
 
-`tcpdump net {any something}`
+`tcpdump net {string value: 192.168.1.0/24}`
 
 - Capture all traffic except traffic over port 22 and save to a dump file:
 
-`tcpdump -w {any something} port not {int number: 22}`
+`tcpdump -w {string value: dumpfile.pcap} port not {int value: 22}`
 
 - Read from a given dump file:
 
-`tcpdump -r {any something}`
+`tcpdump -r {string value: dumpfile.pcap}`

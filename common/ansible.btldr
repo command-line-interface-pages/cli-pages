@@ -6,28 +6,28 @@
 
 - List hosts belonging to a group:
 
-`ansible {any something} --list-hosts`
+`ansible {string value: group} --list-hosts`
 
 - Ping a group of hosts by invoking the ping module:
 
-`ansible {any something} -m ping`
+`ansible {string value: group} -m ping`
 
 - Display facts about a group of hosts by invoking the setup module:
 
-`ansible {any something} -m setup`
+`ansible {string value: group} -m setup`
 
 - Execute a command on a group of hosts by invoking command module with arguments:
 
-`ansible {any something} -m command -a '{any something}'`
+`ansible {string value: group} -m command -a '{string value: my_command}'`
 
 - Execute a command with administrative privileges:
 
-`ansible {any something} --become --ask-become-pass -m command -a '{any something}'`
+`ansible {string value: group} --become --ask-become-pass -m command -a '{string value: my_command}'`
 
 - Execute a command using a custom inventory file:
 
-`ansible {any something} -i {file something: inventory} -m command -a '{any something}'`
+`ansible {string value: group} -i {file value: inventory} -m command -a '{string value: my_command}'`
 
 - List the groups in an inventory:
 
-`ansible localhost -m debug -a '{any something}'`
+`ansible localhost -m debug -a '{string value: var=groups.keys()}'`

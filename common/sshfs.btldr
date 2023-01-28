@@ -5,20 +5,20 @@
 
 - Mount remote directory:
 
-`sshfs {string user}@{any something}:{directory something: remote} {any something}`
+`sshfs {string user}@{string value: remote_host}:{directory value: remote} {string value: mountpoint}`
 
 - Unmount remote directory:
 
-`umount {any something}`
+`umount {string value: mountpoint}`
 
 - Mount remote directory from server with specific port:
 
-`sshfs {string user}@{any something}:{directory something: remote} -p {int number: 2222}`
+`sshfs {string user}@{string value: remote_host}:{directory value: remote} -p {int value: 2222}`
 
 - Use compression:
 
-`sshfs {string user}@{any something}:{directory something: remote} -C`
+`sshfs {string user}@{string value: remote_host}:{directory value: remote} -C`
 
 - Follow symbolic links:
 
-`sshfs -o follow_symlinks {string user}@{any something}:{directory something: remote} {any something}`
+`sshfs -o follow_symlinks {string user}@{string value: remote_host}:{directory value: remote} {string value: mountpoint}`

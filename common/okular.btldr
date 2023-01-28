@@ -9,20 +9,20 @@
 
 - Open specific documents:
 
-`okular {any something}`
+`okular {file* value}`
 
 - Open a document at a specific page:
 
-`okular --page {any something} {file something}`
+`okular --page {string value: page_number} {file value}`
 
 - Open a specific document in presentation mode:
 
-`okular --presentation {file something}`
+`okular --presentation {file value}`
 
 - Open a specific document and start a print dialog:
 
-`okular --print {file something}`
+`okular --print {file value}`
 
 - Open a document and search for a specific string:
 
-`okular --find {any something} {file something}`
+`okular --find {string value: search_string} {file value}`

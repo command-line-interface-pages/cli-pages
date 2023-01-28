@@ -5,16 +5,16 @@
 
 - Run a specific test plan in nongui mode:
 
-`jmeter --nongui --testfile {file something}.jmx`
+`jmeter --nongui --testfile {file value}.jmx`
 
 - Run a test plan in nongui mode using a specific log file:
 
-`jmeter --nogui --testfile {file something}.jmx --logfile {any something}.jtl`
+`jmeter --nogui --testfile {file value}.jmx --logfile {string value: path/to/logfile}.jtl`
 
 - Run a test plan in nongui mode using a specific proxy:
 
-`jmeter --nongui --testfile {file something}.jmx --proxyHost {any something} --proxyPort {int number: 8888}`
+`jmeter --nongui --testfile {file value}.jmx --proxyHost {string value: 127.0.0.1} --proxyPort {int value: 8888}`
 
 - Run a test plan in nongui mode using a specific JMeter property:
 
-`jmeter --jmeterproperty {any something}='{any something}' --nongui --testfile {file something}.jmx`
+`jmeter --jmeterproperty {string value: key}='{string value: value}' --nongui --testfile {file value}.jmx`

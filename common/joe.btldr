@@ -9,12 +9,12 @@
 
 - Open a specific file:
 
-`joe {file something}`
+`joe {file value}`
 
 - Open a specific file, positioning the cursor at the specified line:
 
-`joe +{any something} {file something}`
+`joe +{string value: line} {file value}`
 
 - Open a specific file in read-only mode:
 
-`joe -rdonly {file something}`
+`joe -rdonly {file value}`

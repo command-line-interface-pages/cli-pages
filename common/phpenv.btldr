@@ -5,7 +5,7 @@
 
 - Install a PHP version globally:
 
-`phpenv install {any something}`
+`phpenv install {string value: version}`
 
 - Refresh shim files for all PHP binaries known to `phpenv`:
 
@@ -21,11 +21,11 @@
 
 - Set the global PHP version:
 
-`phpenv global {any something}`
+`phpenv global {string value: version}`
 
 - Set the local PHP version, which overrides the global version:
 
-`phpenv local {any something}`
+`phpenv local {string value: version}`
 
 - Unset the local PHP version:
 

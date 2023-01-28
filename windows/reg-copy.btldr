@@ -5,12 +5,12 @@
 
 - Copy a registry key to a new registry location:
 
-`reg copy {any something} {any something}`
+`reg copy {string value: old_key_name} {string value: new_key_name}`
 
 - Copy a registry key recursively to a new registry location:
 
-`reg copy {any something} {any something} /s`
+`reg copy {string value: old_key_name} {string value: new_key_name} /s`
 
 - Forcefully copy a registry key without a prompt:
 
-`reg copy {any something} {any something} /f`
+`reg copy {string value: old_key_name} {string value: new_key_name} /f`

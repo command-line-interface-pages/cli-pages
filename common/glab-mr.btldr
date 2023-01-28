@@ -10,7 +10,7 @@
 
 - Check out a specific merge request locally:
 
-`glab mr checkout {any something}`
+`glab mr checkout {string value: mr_number}`
 
 - View the changes made in the merge request:
 
@@ -30,4 +30,4 @@
 
 - Edit the target branch of a merge request:
 
-`glab mr update --target-branch {any something}`
+`glab mr update --target-branch {string value: branch_name}`

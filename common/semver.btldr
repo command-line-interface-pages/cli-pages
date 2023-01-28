@@ -5,20 +5,20 @@
 
 - Check if a version string respects the semantic versioning format (prints an empty string if it does not match):
 
-`semver {float number: 1.2}`
+`semver {float value: 1.2}`
 
 - Convert a version string to the semantic versioning format:
 
-`semver --coerce {float number: 1.2}`
+`semver --coerce {float value: 1.2}`
 
 - Test if `1.2.3` matches the `^1.0` range (prints an empty string if it does not match):
 
-`semver {any something} --range "{any something}"`
+`semver {string value: 1.2.3} --range "{string value: ^1.0}"`
 
 - Test with multiple ranges:
 
-`semver {any something} --range {any something} {any something}`
+`semver {string value: 1.2.3} --range {string value: ">=1.0"} {string value: "<2.0"}`
 
 - Test multiple version strings and return only the ones that match:
 
-`semver {any something} {any something} --range "{any something}"`
+`semver {string value: 1.2.3} {string value: 2.0.0} --range "{string value: ^1.0}"`

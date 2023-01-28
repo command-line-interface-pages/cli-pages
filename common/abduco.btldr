@@ -9,11 +9,11 @@
 
 - Attach to a session, creating it if it doesn't exist:
 
-`abduco -A {any something} {any something}`
+`abduco -A {string value: name} {string value: bash}`
 
 - Attach to a session with `dvtm`, creating it if it doesn't exist:
 
-`abduco -A {any something}`
+`abduco -A {string value: name}`
 
 - Detach from a session:
 
@@ -21,4 +21,4 @@
 
 - Attach to a session in read-only mode:
 
-`abduco -Ar {any something}`
+`abduco -Ar {string value: name}`

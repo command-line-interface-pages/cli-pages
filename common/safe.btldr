@@ -5,11 +5,11 @@
 
 - Add a safe target:
 
-`safe target {any something} {any something}`
+`safe target {string value: vault_addr} {string value: target_name}`
 
 - Authenticate the CLI client against the Vault server, using an authentication token:
 
-`safe auth {any something}`
+`safe auth {string value: authentication_token}`
 
 - Print the environment variables describing the current target:
 
@@ -17,20 +17,20 @@
 
 - Display a tree hierarchy of all reachable keys for a given path:
 
-`safe tree {any something}`
+`safe tree {string value: path}`
 
 - Move a secret from one path to another:
 
-`safe move {any something} {any something}`
+`safe move {string value: old/path/to/secret} {string value: new/path/to/secret}`
 
 - Generate a new 2048-bit SSH key-pair and store it:
 
-`safe ssh {int number: 2048} {any something}`
+`safe ssh {int value: 2048} {string value: path/to/secret}`
 
 - Set non-sensitive keys for a secret:
 
-`safe set {any something} {any something}={any something}`
+`safe set {string value: path/to/secret} {string value: key}={string value: value}`
 
 - Set auto-generated password in a secret:
 
-`safe gen {any something} {any something}`
+`safe gen {string value: path/to/secret} {string value: key}`

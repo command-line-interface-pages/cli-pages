@@ -5,32 +5,32 @@
 
 - Display the content of a Parquet file:
 
-`parquet-tools cat {any something}`
+`parquet-tools cat {string value: path/to/parquet}`
 
 - Display the first few lines of a Parquet file:
 
-`parquet-tools head {any something}`
+`parquet-tools head {string value: path/to/parquet}`
 
 - Print the schema of a Parquet file:
 
-`parquet-tools schema {any something}`
+`parquet-tools schema {string value: path/to/parquet}`
 
 - Print the metadata of a Parquet file:
 
-`parquet-tools meta {any something}`
+`parquet-tools meta {string value: path/to/parquet}`
 
 - Print the content and metadata of a Parquet file:
 
-`parquet-tools dump {any something}`
+`parquet-tools dump {string value: path/to/parquet}`
 
 - Concatenate several Parquet files into the target one:
 
-`parquet-tools merge {any something} {any something} {any something}`
+`parquet-tools merge {string value: path/to/parquet1} {string value: path/to/parquet2} {string value: path/to/target_parquet}`
 
 - Print the count of rows in a Parquet file:
 
-`parquet-tools rowcount {any something}`
+`parquet-tools rowcount {string value: path/to/parquet}`
 
 - Print the column and offset indexes of a Parquet file:
 
-`parquet-tools column-index {any something}`
+`parquet-tools column-index {string value: path/to/parquet}`

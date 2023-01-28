@@ -9,7 +9,7 @@
 
 - Open a given file:
 
-`wordgrinder {any something}`
+`wordgrinder {file value}`
 
 - Show the menu:
 

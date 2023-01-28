@@ -5,28 +5,28 @@
 
 - Download a URL to a file:
 
-`http --download {any something}`
+`http --download {string value: example.org}`
 
 - Send form-encoded data:
 
-`http --form {any something} {any something} {any something}`
+`http --form {string value: example.org} {string value: name='bob'} {string value: profile_picture@'bob.png'}`
 
 - Send JSON object:
 
-`http {any something} {any something}`
+`http {string value: example.org} {string value: name='bob'}`
 
 - Specify an HTTP method:
 
-`http {any something} {any something}`
+`http {string value: HEAD} {string value: example.org}`
 
 - Include an extra header:
 
-`http {any something} {any something}`
+`http {string value: example.org} {string value: X-MyHeader:123}`
 
 - Pass a username and password for server authentication:
 
-`http --auth {any something} {any something}`
+`http --auth {string value: username:password} {string value: example.org}`
 
 - Specify raw request body via stdin:
 
-`cat {any something} | http PUT {any something}`
+`cat {string value: data.txt} | http PUT {string value: example.org}`

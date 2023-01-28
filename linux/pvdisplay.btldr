@@ -10,4 +10,4 @@
 
 - Display information about the physical volume on drive `/dev/sdXY`:
 
-`sudo pvdisplay {any something}`
+`sudo pvdisplay {string value: /dev/sdXY}`

@@ -5,4 +5,4 @@
 
 - Rollback the state of a specific VM to a specified snapshot:
 
-`qm rollback {any something} {any something}`
+`qm rollback {string value: vm_id} {string value: snap_name}`

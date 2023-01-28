@@ -9,16 +9,16 @@
 
 - Search for a device:
 
-`findmnt {any something}`
+`findmnt {string value: /dev/sdb1}`
 
 - Search for a mountpoint:
 
-`findmnt {any something}`
+`findmnt {string value: /}`
 
 - Find filesystems in specific type:
 
-`findmnt -t {any something}`
+`findmnt -t {string value: ext4}`
 
 - Find filesystems with specific label:
 
-`findmnt LABEL={any something}`
+`findmnt LABEL={string value: BigStorage}`

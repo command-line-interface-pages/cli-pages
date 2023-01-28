@@ -9,7 +9,7 @@
 
 - Initialize a project using a starter template:
 
-`jigsaw init {any something}`
+`jigsaw init {string value: template_name}`
 
 - Build the site for development:
 
@@ -25,4 +25,4 @@
 
 - Preview the site from the "build_production" directory:
 
-`jigsaw serve {any something}`
+`jigsaw serve {string value: build_production}`

@@ -5,16 +5,16 @@
 
 - Take a picture:
 
-`fswebcam {any something}`
+`fswebcam {file value}`
 
 - Take a picture with custom resolution:
 
-`fswebcam -r {any something}x{any something} {any something}`
+`fswebcam -r {string value: width}x{string value: height} {file value}`
 
 - Take a picture from selected device(Default is `/dev/video0`):
 
-`fswebcam -d {any something} {any something}`
+`fswebcam -d {string value: device} {file value}`
 
 - Take a picture with timestamp(timestamp string is formatted by strftime):
 
-`fswebcam --timestamp {any something} {any something}`
+`fswebcam --timestamp {string value: timestamp} {file value}`

@@ -5,16 +5,16 @@
 
 - Submit a script with default settings (depends on TORQUE settings):
 
-`qsub {any something}`
+`qsub {string value: script.sh}`
 
 - Submit a script with a specified wallclock runtime limit of 1 hour, 2 minutes and 3 seconds:
 
-`qsub -l walltime={int number: 1}:{int number: 2}:{int number: 3} {any something}`
+`qsub -l walltime={int value: 1}:{int value: 2}:{int value: 3} {string value: script.sh}`
 
 - Submit a script that is executed on 2 nodes using 4 cores per node:
 
-`qsub -l nodes={int number: 2}:ppn={int number: 4} {any something}`
+`qsub -l nodes={int value: 2}:ppn={int value: 4} {string value: script.sh}`
 
 - Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits:
 
-`qsub -q {any something} {any something}`
+`qsub -q {string value: queue_name} {string value: script.sh}`

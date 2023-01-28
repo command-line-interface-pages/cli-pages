@@ -5,15 +5,15 @@
 
 - Add one or more devices to a btrfs filesystem:
 
-`sudo btrfs device add {any something} [{any something}] {any something}`
+`sudo btrfs device add {string value: path/to/block_device1} [{string value: path/to/block_device2}] {string value: path/to/btrfs_filesystem}`
 
 - Remove a device from a btrfs filesystem:
 
-`sudo btrfs device remove {any something} [{any something}]`
+`sudo btrfs device remove {string value: path/to/device|device_id} [ ]`
 
 - Display error statistics:
 
-`sudo btrfs device stats {any something}`
+`sudo btrfs device stats {string value: path/to/btrfs_filesystem}`
 
 - Scan all disks and inform the kernel of all detected btrfs filesystems:
 
@@ -21,4 +21,4 @@
 
 - Display detailed per-disk allocation statistics:
 
-`sudo btrfs device usage {any something}`
+`sudo btrfs device usage {string value: path/to/btrfs_filesystem}`

@@ -9,4 +9,4 @@
 
 - Enable or disable the Windows To Go startup options:
 
-`pwlauncher /{any something}`
+`pwlauncher /{string value: enable|disable}`

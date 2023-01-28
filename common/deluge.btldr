@@ -5,16 +5,16 @@
 
 - Download a torrent:
 
-`deluge {any something}`
+`deluge {string value: url|magnet|path/to/file}`
 
 - Download a torrent using a specific configuration file:
 
-`deluge -c {file something: configuration} {any something}`
+`deluge -c {file value: configuration} {string value: url|magnet|path/to/file}`
 
 - Download a torrent and launch the specified user interface:
 
-`deluge -u {any something} {any something}`
+`deluge -u {string value: gtk|web|console} {string value: url|magnet|path/to/file}`
 
 - Download a torrent and output the log to a file:
 
-`deluge -l {file something: log} {any something}`
+`deluge -l {file value: log} {string value: url|magnet|path/to/file}`

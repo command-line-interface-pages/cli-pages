@@ -10,8 +10,8 @@
 
 - Execute a command from stdin at 10:00 AM today:
 
-`echo "{any something}" | at 1000`
+`echo "{string value: ./make_db_backup.sh}" | at 1000`
 
 - Execute commands from a given file next Tuesday:
 
-`at -f {file something} 9:30 PM Tue`
+`at -f {file value} 9:30 PM Tue`

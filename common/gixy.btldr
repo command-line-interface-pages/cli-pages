@@ -9,12 +9,12 @@
 
 - Analyze nginx configuration but skip specific tests:
 
-`gixy --skips {any something}`
+`gixy --skips {string value: http_splitting}`
 
 - Analyze nginx configuration with the specific severity level:
 
-`gixy {any something}`
+`gixy {string value: -l|-ll|-lll}`
 
 - Analyze nginx configuration files on the specific path:
 
-`gixy {any something} {any something}`
+`gixy {string value: path/to/configuration_file_1} {string value: path/to/configuration_file_2}`

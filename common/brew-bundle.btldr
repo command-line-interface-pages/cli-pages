@@ -9,7 +9,7 @@
 
 - Install packages from a specific Brewfile at a specific path:
 
-`brew bundle --file={file something}`
+`brew bundle --file={file value}`
 
 - Create a Brewfile from all installed packages:
 

@@ -18,4 +18,4 @@
 
 - Show the history of a local Docker image:
 
-`docker image history {any something}`
+`docker image history {string value: image}`

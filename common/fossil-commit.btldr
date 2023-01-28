@@ -9,12 +9,12 @@
 
 - Create a new version containing all the changes in the current checkout, using the specified comment:
 
-`fossil commit --comment "{any something}"`
+`fossil commit --comment "{string value: comment}"`
 
 - Create a new version containing all the changes in the current checkout with a comment read from a specific file:
 
-`fossil commit --message-file {file something: commit_message}`
+`fossil commit --message-file {file value: commit_message}`
 
 - Create a new version containing changes from the specified files; user will be prompted for a comment:
 
-`fossil commit {any something} {any something}`
+`fossil commit {string value: path/to/file1} {string value: path/to/file2}`

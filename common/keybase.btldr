@@ -9,23 +9,23 @@
 
 - Add a new proof:
 
-`keybase prove {any something} {any something}`
+`keybase prove {string value: service} {string value: service_username}`
 
 - Sign a file:
 
-`keybase sign --infile {file something: input} --outfile {file something: output}`
+`keybase sign --infile {file value: input} --outfile {file value: output}`
 
 - Verify a signed file:
 
-`keybase verify --infile {file something: input} --outfile {file something: output}`
+`keybase verify --infile {file value: input} --outfile {file value: output}`
 
 - Encrypt a file:
 
-`keybase encrypt --infile {file something: input} --outfile {file something: output} {any something}`
+`keybase encrypt --infile {file value: input} --outfile {file value: output} {string value: receiver}`
 
 - Decrypt a file:
 
-`keybase decrypt --infile {file something: input} --outfile {file something: output}`
+`keybase decrypt --infile {file value: input} --outfile {file value: output}`
 
 - Revoke current device, log out, and delete local data:
 

@@ -9,4 +9,4 @@
 
 - Display events related to a specific command given a command ID:
 
-`aws history show {any something}`
+`aws history show {string value: command_id}`

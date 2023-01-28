@@ -5,20 +5,20 @@
 
 - Count all the lines of code in a directory:
 
-`cloc {directory something}`
+`cloc {directory value}`
 
 - Count all the lines of code in a directory, displaying a progress bar during the counting process:
 
-`cloc --progress=1 {directory something}`
+`cloc --progress=1 {directory value}`
 
 - Compare 2 directory structures and count the differences between them:
 
-`cloc --diff {any something} {any something}`
+`cloc --diff {string value: path/to/directory/one} {string value: path/to/directory/two}`
 
 - Ignore files that are ignored by VCS, such as files specified in `.gitignore`:
 
-`cloc --vcs git {directory something}`
+`cloc --vcs git {directory value}`
 
 - Count all the lines of code in a directory, displaying the results for each file instead of each language:
 
-`cloc --by-file {directory something}`
+`cloc --by-file {directory value}`

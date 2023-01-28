@@ -9,16 +9,16 @@
 
 - Show package documentation and exported symbols:
 
-`go doc {any something}`
+`go doc {string value: encoding/json}`
 
 - Show also documentation of symbols:
 
-`go doc -all {any something}`
+`go doc -all {string value: encoding/json}`
 
 - Show also sources:
 
-`go doc -all -src {any something}`
+`go doc -all -src {string value: encoding/json}`
 
 - Show a specific symbol:
 
-`go doc -all -src {any something}`
+`go doc -all -src {string value: encoding/json.Number}`

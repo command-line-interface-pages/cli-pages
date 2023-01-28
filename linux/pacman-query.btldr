@@ -13,15 +13,15 @@
 
 - Find which package owns a file:
 
-`pacman --query --owns {any something}`
+`pacman --query --owns {file value}`
 
 - Display information about an installed package:
 
-`pacman --query --info {any something}`
+`pacman --query --info {string value: package_name}`
 
 - List files owned by a package:
 
-`pacman --query --list {any something}`
+`pacman --query --list {string value: package_name}`
 
 - List orphan packages (installed as dependencies but not required by any package):
 

@@ -5,12 +5,12 @@
 
 - Create an empty file of 15 kilobytes:
 
-`mkfile -n {any something} {file something}`
+`mkfile -n {string value: 15k} {file value}`
 
 - Create a file of a given size and unit (bytes, KB, MB, GB):
 
-`mkfile -n {any something}{any something} {file something}`
+`mkfile -n {string value: size}{string value: b|k|m|g} {file value}`
 
 - Create two files of 4 megabytes each:
 
-`mkfile -n {any something} {any something} {any something}`
+`mkfile -n {string value: 4m} {file value: first} {file value: second}`

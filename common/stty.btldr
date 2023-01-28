@@ -9,11 +9,11 @@
 
 - Set the number of rows or columns:
 
-`stty {any something} {any something}`
+`stty {string value: rows|cols} {string value: count}`
 
 - Get the actual transfer speed of a device:
 
-`stty --file {file something: device} speed`
+`stty --file {file value: device} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

@@ -9,7 +9,7 @@
 
 - Lint on a given set of files:
 
-`eslint {any something}.js {any something}.js`
+`eslint {file value}.js {string value: filename1}.js`
 
 - Fix lint issues:
 
@@ -17,4 +17,4 @@
 
 - Lint with config:
 
-`eslint -c {file something: config} {any something}`
+`eslint -c {file value: config} {string value: app/src}`

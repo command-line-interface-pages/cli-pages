@@ -5,15 +5,15 @@
 
 - Remove a module from the kernel:
 
-`sudo rmmod {any something}`
+`sudo rmmod {string value: module_name}`
 
 - Remove a module from the kernel and display verbose information:
 
-`sudo rmmod --verbose {any something}`
+`sudo rmmod --verbose {string value: module_name}`
 
 - Remove a module from the kernel and send errors to syslog instead of stderr:
 
-`sudo rmmod --syslog {any something}`
+`sudo rmmod --syslog {string value: module_name}`
 
 - Display help:
 

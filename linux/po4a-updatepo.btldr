@@ -5,7 +5,7 @@
 
 - Update a PO file according to the modification of its origin file:
 
-`po4a-updatepo --format {any something} --master {any something} --po {any something}`
+`po4a-updatepo --format {string value: text} --master {string value: path/to/master.txt} --po {string value: path/to/result.po}`
 
 - Get a list of available formats:
 
@@ -13,4 +13,4 @@
 
 - Update several PO files according to the modification of their origin file:
 
-`po4a-updatepo --format {any something} --master {any something} --po {any something} --po {any something}`
+`po4a-updatepo --format {string value: text} --master {string value: path/to/master.txt} --po {string value: path/to/po1.po} --po {string value: path/to/po2.po}`

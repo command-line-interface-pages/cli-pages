@@ -9,12 +9,12 @@
 
 - Stream logs sent to `syslog` from the process with a specific PID:
 
-`log stream --process {any something}`
+`log stream --process {string value: process_id}`
 
 - Show logs sent to syslog from a process with a specific name:
 
-`log show --predicate "process == '{any something}'"`
+`log show --predicate "process == '{string value: process_name}'"`
 
 - Export all logs to disk for the past hour:
 
-`sudo log collect --last {any something} --output {file something}`
+`sudo log collect --last {string value: 1h} --output {file value: sample.logarchive}`

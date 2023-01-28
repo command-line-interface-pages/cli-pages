@@ -5,24 +5,24 @@
 
 - Analyze duplicated code for a specific file or directory:
 
-`phpcpd {file something|path something}`
+`phpcpd {path value}`
 
 - Analyze using fuzzy matching for variable names:
 
-`phpcpd --fuzzy {file something|path something}`
+`phpcpd --fuzzy {path value}`
 
 - Specify a minimum number of identical lines (defaults to 5):
 
-`phpcpd --min-lines {any something} {file something|path something}`
+`phpcpd --min-lines {string value: number_of_lines} {path value}`
 
 - Specify a minimum number of identical tokens (defaults to 70):
 
-`phpcpd --min-tokens {any something} {file something|path something}`
+`phpcpd --min-tokens {string value: number_of_tokens} {path value}`
 
 - Exclude a directory from analysis (must be relative to the source):
 
-`phpcpd --exclude {directory something: excluded} {file something|path something}`
+`phpcpd --exclude {directory value: excluded} {path value}`
 
 - Output the results to a PHP-CPD XML file:
 
-`phpcpd --log-pmd {file something: log} {file something|path something}`
+`phpcpd --log-pmd {file value: log} {path value}`

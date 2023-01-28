@@ -10,7 +10,7 @@
 
 - Set the project's default remote:
 
-`dvc config core.remote {any something}`
+`dvc config core.remote {string value: remote_name}`
 
 - Unset the project's default remote:
 
@@ -18,16 +18,16 @@
 
 - Get the config value for a specified key for the current project:
 
-`dvc config {any something}`
+`dvc config {string value: key}`
 
 - Set the config value for a key on a project level:
 
-`dvc config {any something} {any something}`
+`dvc config {string value: key} {string value: value}`
 
 - Unset a project level config value for a given key:
 
-`dvc config --unset {any something}`
+`dvc config --unset {string value: key}`
 
 - Set a local, global, or system level config value:
 
-`dvc config --local/global/system {any something} {any something}`
+`dvc config --local/global/system {string value: key} {string value: value}`

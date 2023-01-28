@@ -9,8 +9,8 @@
 
 - Submit an interactive job with different attributes:
 
-`srun --ntasks-per-node={any something} --mem-per-cpu={any something} --pty /bin/bash`
+`srun --ntasks-per-node={string value: num_cores} --mem-per-cpu={string value: memory_MB} --pty /bin/bash`
 
 - Connect to a worker node with a job running:
 
-`srun --jobid={any something} --pty /bin/bash`
+`srun --jobid={string value: job_id} --pty /bin/bash`

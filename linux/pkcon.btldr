@@ -5,11 +5,11 @@
 
 - Install a package:
 
-`pkcon install {any something}`
+`pkcon install {string value: package}`
 
 - Remove a package:
 
-`pkcon remove {any something}`
+`pkcon remove {string value: package}`
 
 - Refresh the package cache:
 
@@ -21,7 +21,7 @@
 
 - Search for a specific package:
 
-`pkcon search {any something}`
+`pkcon search {string value: package}`
 
 - List all available packages:
 

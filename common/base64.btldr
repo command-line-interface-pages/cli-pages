@@ -5,16 +5,16 @@
 
 - Encode the contents of a file as base64 and write the result to stdout:
 
-`base64 {file something}`
+`base64 {file value}`
 
 - Decode the base64 contents of a file and write the result to stdout:
 
-`base64 --decode {file something}`
+`base64 --decode {file value}`
 
 - Encode from stdin:
 
-`{any something} | base64`
+`{string value: somecommand} | base64`
 
 - Decode from stdin:
 
-`{any something} | base64 --decode`
+`{string value: somecommand} | base64 --decode`

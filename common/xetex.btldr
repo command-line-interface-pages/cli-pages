@@ -5,12 +5,12 @@
 
 - Compile a PDF document:
 
-`xetex {any something}`
+`xetex {string value: source.tex}`
 
 - Compile a PDF document, specifying an output directory:
 
-`xetex -output-directory={directory something} {any something}`
+`xetex -output-directory={directory value} {string value: source.tex}`
 
 - Compile a PDF document, exiting if errors occur:
 
-`xetex -halt-on-error {any something}`
+`xetex -halt-on-error {string value: source.tex}`

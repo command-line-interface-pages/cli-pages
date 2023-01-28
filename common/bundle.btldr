@@ -9,7 +9,7 @@
 
 - Execute a command in the context of the current bundle:
 
-`bundle exec {any something} {any something}`
+`bundle exec {string value: command} {string value: arguments}`
 
 - Update all gems by the rules defined in the `Gemfile` and regenerate `Gemfile.lock`:
 
@@ -17,15 +17,15 @@
 
 - Update one or more specific gem(s) defined in the `Gemfile`:
 
-`bundle update {any something} {any something}`
+`bundle update {string value: gem_name} {string value: gem_name}`
 
 - Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
 
-`bundle update --patch {any something} {any something}`
+`bundle update --patch {string value: gem_name} {string value: gem_name}`
 
 - Update all gems within the given group in the `Gemfile`:
 
-`bundle update --group {any something}`
+`bundle update --group {string value: development}`
 
 - List installed gems in the `Gemfile` with newer versions available:
 
@@ -33,4 +33,4 @@
 
 - Create a new gem skeleton:
 
-`bundle gem {any something}`
+`bundle gem {string value: gem_name}`

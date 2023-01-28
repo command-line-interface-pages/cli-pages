@@ -5,28 +5,28 @@
 
 - Print the MIME type of a given file:
 
-`mimetype {file something}`
+`mimetype {file value}`
 
 - Display only the MIME type, and not the filename:
 
-`mimetype --brief {file something}`
+`mimetype --brief {file value}`
 
 - Display a description of the MIME type:
 
-`mimetype --describe {file something}`
+`mimetype --describe {file value}`
 
 - Determine the MIME type of stdin (does not check a filename):
 
-`{any something} | mimetype --stdin`
+`{string value: some_command} | mimetype --stdin`
 
 - Display debug information about how the MIME type was determined:
 
-`mimetype --debug {file something}`
+`mimetype --debug {file value}`
 
 - Display all the possible MIME types of a given file in confidence order:
 
-`mimetype --all {file something}`
+`mimetype --all {file value}`
 
 - Explicitly specify the 2-letter language code of the output:
 
-`mimetype --language {file something}`
+`mimetype --language {file value}`

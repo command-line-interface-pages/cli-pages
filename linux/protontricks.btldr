@@ -9,11 +9,11 @@
 
 - Run Winetricks for a specific game:
 
-`protontricks {any something} {any something}`
+`protontricks {string value: appid} {string value: winetricks_args}`
 
 - Run a command within a game's installation directory:
 
-`protontricks -c {any something} {any something}`
+`protontricks -c {string value: command} {string value: appid}`
 
 - [l]ist all installed games:
 
@@ -21,7 +21,7 @@
 
 - [s]earch for a game's App ID by name:
 
-`protontricks -s {any something}`
+`protontricks -s {string value: game_name}`
 
 - Show the protontricks help message:
 

@@ -6,12 +6,12 @@
 
 - Resolve the home folder path:
 
-`Resolve-Path {any something}`
+`Resolve-Path {string value: ~}`
 
 - Resolve a UNC path:
 
-`Resolve-Path -Path "\\{any something}\{file something}"`
+`Resolve-Path -Path "\\{string value: hostname}\{file value}"`
 
 - Get relative paths:
 
-`Resolve-Path -Path {file something|path something} -Relative`
+`Resolve-Path -Path {path value} -Relative`

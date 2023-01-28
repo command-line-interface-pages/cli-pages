@@ -5,16 +5,16 @@
 
 - Start an interactive shell (`bash`, by default) in a new root directory:
 
-`arch-chroot {any something}`
+`arch-chroot {string value: path/to/new/root}`
 
 - Specify the user (other than the current user) to run the shell as:
 
-`arch-chroot -u {any something} {any something}`
+`arch-chroot -u {string value: user} {string value: path/to/new/root}`
 
 - Run a custom command (instead of the default `bash`) in the new root directory:
 
-`arch-chroot {any something} {any something} {any something}`
+`arch-chroot {string value: path/to/new/root} {string value: command} {string value: command_arguments}`
 
 - Specify the shell, other than the default `bash` (in this case, the `zsh` package should have been installed in the target system):
 
-`arch-chroot {any something} {any something}`
+`arch-chroot {string value: path/to/new/root} {string value: zsh}`

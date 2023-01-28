@@ -6,4 +6,4 @@
 
 - Execute a process in a given cgroup with given controller:
 
-`cgexec -g {any something}:{any something} {any something}`
+`cgexec -g {string value: controller}:{string value: cgroup_name} {string value: process_name}`

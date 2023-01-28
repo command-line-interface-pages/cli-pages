@@ -14,15 +14,15 @@
 
 - Convert a file to one of the supported output formats, using the default parameters:
 
-`assimp export {file something: input} {file something: output}`
+`assimp export {file value: input.stl} {file value: output.obj}`
 
 - Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):
 
-`assimp export {file something: input} {file something: output} {any something}`
+`assimp export {file value: input.stl} {file value: output.obj} {string value: parameters}`
 
 - Display a summary of a 3D file's contents:
 
-`assimp info {file something}`
+`assimp info {file value}`
 
 - List all supported subcommands ("verbs"):
 
@@ -30,4 +30,4 @@
 
 - Get help on a specific subcommand (e.g. the parameters specific to it):
 
-`assimp {any something} --help`
+`assimp {string value: subcommand} --help`

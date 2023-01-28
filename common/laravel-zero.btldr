@@ -5,7 +5,7 @@
 
 - Create a new Laravel Zero application:
 
-`laravel-zero new {any something}`
+`laravel-zero new {string value: name}`
 
 - Update the installer to the latest version:
 

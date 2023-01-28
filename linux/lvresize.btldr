@@ -6,16 +6,16 @@
 
 - Change the size of a logical volume to 120 GB:
 
-`lvresize --size {any something} {any something}/{any something}`
+`lvresize --size {string value: 120G} {string value: volume_group}/{string value: logical_volume}`
 
 - Extend the size of a logical volume as well as the underlying filesystem by 120 GB:
 
-`lvresize --size +{any something} --resizefs {any something}/{any something}`
+`lvresize --size +{string value: 120G} --resizefs {string value: volume_group}/{string value: logical_volume}`
 
 - Extend the size of a logical volume to 100% of the free physical volume space:
 
-`lvresize --size {int number: 100}%FREE {any something}/{any something}`
+`lvresize --size {int value: 100}%FREE {string value: volume_group}/{string value: logical_volume}`
 
 - Reduce the size of a logical volume as well as the underlying filesystem by 120 GB:
 
-`lvresize --size -{any something} --resizefs {any something}/{any something}`
+`lvresize --size -{string value: 120G} --resizefs {string value: volume_group}/{string value: logical_volume}`

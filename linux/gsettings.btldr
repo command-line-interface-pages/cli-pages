@@ -5,15 +5,15 @@
 
 - Set the value of a key. Fails if the key doesn't exist or the value is out of range:
 
-`gsettings set {any something} {any something} {any something}`
+`gsettings set {string value: org.example.schema} {string value: example-key} {string value: value}`
 
 - Print the value of a key or the schema-provided default if the key has not been set in `dconf`:
 
-`gsetings get {any something} {any something}`
+`gsetings get {string value: org.example.schema} {string value: example-key}`
 
 - Unset a key, so that its schema default value will be used:
 
-`gsettings reset {any something} {any something}`
+`gsettings reset {string value: org.example.schema} {string value: example-key}`
 
 - Display all (non-relocatable) schemas, keys, and values:
 
@@ -21,12 +21,12 @@
 
 - Display all keys and values (default if not set) from one schema:
 
-`gsettings list-recursively {any something}`
+`gsettings list-recursively {string value: org.example.schema}`
 
 - Display schema-allowed values for a key (helpful with enum keys):
 
-`gsettings range {any something} {any something}`
+`gsettings range {string value: org.example.schema} {string value: example-key}`
 
 - Display the human-readable description of a key:
 
-`gsettings describe {any something} {any something}`
+`gsettings describe {string value: org.example.schema} {string value: example-key}`

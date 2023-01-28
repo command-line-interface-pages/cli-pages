@@ -6,20 +6,20 @@
 
 - Create a table with partition and lifecycle:
 
-`create table {any something} ({any something} {any something}) partitioned by ({any something} {any something}) lifecycle {any something};`
+`create table {string value: table_name} ({string value: col} {string value: type}) partitioned by ({string value: col} {string value: type}) lifecycle {string value: days};`
 
 - Create a table based on the definition of another table:
 
-`create table {any something} like {any something};`
+`create table {string value: table_name} like {string value: another_table};`
 
 - Add partition to a table:
 
-`alter table {any something} add partition ({any something});`
+`alter table {string value: table_name} add partition ({string value: partition_spec});`
 
 - Delete partition from a table:
 
-`alter table {any something} drop partition ({any something});`
+`alter table {string value: table_name} drop partition ({string value: partition_spec});`
 
 - Delete table:
 
-`drop table {any something};`
+`drop table {string value: table_name};`

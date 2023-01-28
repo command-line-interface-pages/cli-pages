@@ -5,28 +5,28 @@
 
 - Execute the specified commands if the condition is true:
 
-`if {any something} ({any something})`
+`if {string value: condition} ({string value: echo Condition is true})`
 
 - Execute the specified commands if the condition is false:
 
-`if not {any something} ({any something})`
+`if not {string value: condition} ({string value: echo Condition is true})`
 
 - Execute the first specified commands if the condition is true otherwise execute the second specified commands:
 
-`if {any something} ({any something}) else ({any something})`
+`if {string value: condition} ({string value: echo Condition is true}) else ({string value: echo Condition is false})`
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
-`if errorlevel {any something} ({any something})`
+`if errorlevel {string value: exit_code} ({string value: echo Condition is true})`
 
 - Check whether two strings are equal:
 
-`if %{any something}% == {any something} ({any something})`
+`if %{string value: variable}% == {string value: string} ({string value: echo Condition is true})`
 
 - Check whether two strings are equal without respecting letter case:
 
-`if /i %{any something}% == {any something} ({any something})`
+`if /i %{string value: variable}% == {string value: string} ({string value: echo Condition is true})`
 
 - Check whether a file exist:
 
-`if exist {file something} ({any something})`
+`if exist {file value} ({string value: echo Condition is true})`

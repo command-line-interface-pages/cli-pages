@@ -5,11 +5,11 @@
 
 - Start a server from a specific directory:
 
-`browser-sync start --server {directory something} --files {directory something}`
+`browser-sync start --server {directory value} --files {directory value}`
 
 - Start a server from local directory, watching all CSS files in a directory:
 
-`browser-sync start --server --files '{any something}'`
+`browser-sync start --server --files '{string value: path/to/directory/*.css}'`
 
 - Create configuration file:
 
@@ -17,4 +17,4 @@
 
 - Start browser-sync from config file:
 
-`browser-sync start --config {file something: config}`
+`browser-sync start --config {file value: config}`

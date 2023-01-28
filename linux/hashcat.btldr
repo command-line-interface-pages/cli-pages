@@ -5,28 +5,28 @@
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 3} {any something}`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 3} {string value: hash_value}`
 
 - Perform a brute-force attack (mode 3) with a known pattern of 4 digits:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 3} {any something} "{any something}"`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 3} {string value: hash_value} "{string value: ?d?d?d?d}"`
 
 - Perform a brute-force attack (mode 3) using at most 8 of all printable ASCII characters:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 3} --increment {any something} "{any something}"`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 3} --increment {string value: hash_value} "{string value: ?a?a?a?a?a?a?a?a}"`
 
 - Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 0} {any something} {any something}`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 0} {string value: hash_value} {string value: /usr/share/wordlists/rockyou.txt}`
 
 - Perform a rule-based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 0} --rules-file {any something} {any something} {any something}`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 0} --rules-file {string value: /usr/share/hashcat/rules/best64.rule} {string value: hash_value} {string value: /usr/share/wordlists/rockyou.txt}`
 
 - Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
 
-`hashcat --hash-type {any something} --attack-mode {int number: 1} {any something} {any something} {any something}`
+`hashcat --hash-type {string value: hash_type_id} --attack-mode {int value: 1} {string value: hash_value} {string value: /path/to/dictionary1.txt} {string value: /path/to/dictionary2.txt}`
 
 - Show result of an already cracked hash:
 
-`hashcat --show {any something}`
+`hashcat --show {string value: hash_value}`

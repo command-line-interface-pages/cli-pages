@@ -10,11 +10,11 @@
 
 - Execute a function:
 
-`clj -X {any something}`
+`clj -X {string value: namespace/function_name}`
 
 - Run the main function of a specified namespace:
 
-`clj -M -m {any something} {any something}`
+`clj -M -m {string value: namespace} {string value: args}`
 
 - Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
 

@@ -9,16 +9,16 @@
 
 - Play a beep that repeats:
 
-`beep -r {any something}`
+`beep -r {string value: repetitions}`
 
 - Play a beep at a specified frequency (Hz) and duration (milliseconds):
 
-`beep -f {any something} -l {any something}`
+`beep -f {string value: frequency} -l {string value: duration}`
 
 - Play each new frequency and duration as a distinct beep:
 
-`beep -f {any something} -l {any something} -n -f {any something} -l {any something}`
+`beep -f {string value: frequency} -l {string value: duration} -n -f {string value: frequency} -l {string value: duration}`
 
 - Play the C major scale:
 
-`beep -f {int number: 262} -n -f {int number: 294} -n -f {int number: 330} -n -f {int number: 349} -n -f {int number: 392} -n -f {int number: 440} -n -f {int number: 494} -n -f {int number: 523}`
+`beep -f {int value: 262} -n -f {int value: 294} -n -f {int value: 330} -n -f {int value: 349} -n -f {int value: 392} -n -f {int value: 440} -n -f {int value: 494} -n -f {int value: 523}`

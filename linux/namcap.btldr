@@ -5,12 +5,12 @@
 
 - Check a specific `PKGBUILD` file:
 
-`namcap {any something}`
+`namcap {string value: path/to/pkgbuild}`
 
 - Check a specific package file:
 
-`namcap {any something}`
+`namcap {string value: path/to/package.pkg.tar.zst}`
 
 - Check a file, printing extra [i]nformational messages:
 
-`namcap -i {file something}`
+`namcap -i {file value}`

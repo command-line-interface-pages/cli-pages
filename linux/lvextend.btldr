@@ -6,12 +6,12 @@
 
 - Increase a volume's size to 120 GB:
 
-`lvextend --size {any something} {any something}`
+`lvextend --size {string value: 120G} {string value: logical_volume}`
 
 - Increase a volume's size by 40 GB as well as the underlying filesystem:
 
-`lvextend --size +{any something} -r {any something}`
+`lvextend --size +{string value: 40G} -r {string value: logical_volume}`
 
 - Increase a volume's size to 100% of the free physical volume space:
 
-`lvextend --size {int number: 100}%FREE {any something}`
+`lvextend --size {int value: 100}%FREE {string value: logical_volume}`

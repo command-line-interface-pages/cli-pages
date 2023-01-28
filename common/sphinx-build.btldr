@@ -5,8 +5,8 @@
 
 - Build documentation:
 
-`sphinx-build -b {any something} {directory something: source} {directory something: build}`
+`sphinx-build -b {string value: html|epub|text|latex|man|...} {directory value: source} {directory value: build}`
 
 - Build documentations intended for readthedocs.io (requires the sphinx-rtd-theme pip package):
 
-`sphinx-build -b {any something} {directory something: docs} {directory something: build}`
+`sphinx-build -b {string value: html} {directory value: docs} {directory value: build}`

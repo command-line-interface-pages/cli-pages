@@ -5,23 +5,23 @@
 
 - Visit a website:
 
-`lynx {any something}`
+`lynx {string value: example.com}`
 
 - Apply restrictions for anonymous account:
 
-`lynx -anonymous {any something}`
+`lynx -anonymous {string value: example.com}`
 
 - Turn on mouse support, if available:
 
-`lynx -use_mouse {any something}`
+`lynx -use_mouse {string value: example.com}`
 
 - Force color mode on, if available:
 
-`lynx -color {any something}`
+`lynx -color {string value: example.com}`
 
 - Open a link, using a specific file to read and write cookies:
 
-`lynx -cookie_file={file something} {any something}`
+`lynx -cookie_file={file value} {string value: example.com}`
 
 - Navigate forwards and backwards through the links on a page:
 

@@ -9,23 +9,23 @@
 
 - Set the volume to 75% on the default sink:
 
-`pamixer --set-volume {int number: 75}`
+`pamixer --set-volume {int value: 75}`
 
 - Toggle mute on a sink other than the default:
 
-`pamixer --toggle-mute --sink {any something}`
+`pamixer --toggle-mute --sink {string value: ID}`
 
 - Increase the volume on default sink by 5%:
 
-`pamixer --increase {int number: 5}`
+`pamixer --increase {int value: 5}`
 
 - Decrease the volume on a source by 5%:
 
-`pamixer --decrease {int number: 5} --source {any something}`
+`pamixer --decrease {int value: 5} --source {string value: ID}`
 
 - Use the allow boost option to increase, decrease, or set the volume above 100%:
 
-`pamixer --set-volume {int number: 105} --allow-boost`
+`pamixer --set-volume {int value: 105} --allow-boost`
 
 - Mute the default sink (use `--unmute` instead to unmute):
 

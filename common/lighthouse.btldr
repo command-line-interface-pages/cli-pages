@@ -5,31 +5,31 @@
 
 - Generate an HTML report for a specific website and save it to a file in the current directory:
 
-`lighthouse {any something}`
+`lighthouse {string value: https://example.com}`
 
 - Generate a JSON report and print it:
 
-`lighthouse --output {any something} {any something}`
+`lighthouse --output {string value: json} {string value: https://example.com}`
 
 - Generate a JSON report and save it to a specific file:
 
-`lighthouse --output {any something} --output-path {file something} {any something}`
+`lighthouse --output {string value: json} --output-path {file value: sample.json} {string value: https://example.com}`
 
 - Generate a report using the browser in headless mode without logging to stdout:
 
-`lighthouse --quiet --chrome-flags="{any something}" {any something}`
+`lighthouse --quiet --chrome-flags="{string value: --headless}" {string value: https://example.com}`
 
 - Generate a report, using the HTTP header key/value pairs in the specified JSON file for all requests:
 
-`lighthouse --extra-headers={file something} {any something}`
+`lighthouse --extra-headers={file value: sample.json} {string value: https://example.com}`
 
 - Generate a report for specific categories only:
 
-`lighthouse --only-categories={any something} {any something}`
+`lighthouse --only-categories={string value: performance,accessibility,best-practices,seo,pwa} {string value: https://example.com}`
 
 - Generate a report with device emulation and all throttling disabled:
 
-`lighthouse --screenEmulation.disabled --throttling-method={any something} --no-emulatedUserAgent {any something}`
+`lighthouse --screenEmulation.disabled --throttling-method={string value: provided} --no-emulatedUserAgent {string value: https://example.com}`
 
 - Display help:
 

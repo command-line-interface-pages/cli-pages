@@ -5,27 +5,27 @@
 
 - Search Google for a keyword:
 
-`googler {any something}`
+`googler {string value: keyword}`
 
 - Search Google and open the first result in web browser:
 
-`googler -j {any something}`
+`googler -j {string value: keyword}`
 
 - Show N search results (default 10):
 
-`googler -n {any something} {any something}`
+`googler -n {string value: N} {string value: keyword}`
 
 - Disable automatic spelling correction:
 
-`googler -x {any something}`
+`googler -x {string value: keyword}`
 
 - Search one site for a keyword:
 
-`googler -w {any something} {any something}`
+`googler -w {string value: site} {string value: keyword}`
 
 - Show Google search result in JSON format:
 
-`googler --json {any something}`
+`googler --json {string value: keyword}`
 
 - Perform in-place self-upgrade:
 

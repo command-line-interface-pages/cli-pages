@@ -6,16 +6,16 @@
 
 - Create a new project:
 
-`gitlab create_project {any something}`
+`gitlab create_project {string value: project_name}`
 
 - Get info about a specific commit:
 
-`gitlab commit {any something} {any something}`
+`gitlab commit {string value: project_name} {string value: commit_hash}`
 
 - Get info about jobs in a CI pipeline:
 
-`gitlab pipeline_jobs {any something} {any something}`
+`gitlab pipeline_jobs {string value: project_name} {string value: pipeline_id}`
 
 - Start a specific CI job:
 
-`gitlab job_play {any something} {any something}`
+`gitlab job_play {string value: project_name} {string value: job_id}`

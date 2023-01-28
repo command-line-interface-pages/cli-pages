@@ -6,7 +6,7 @@
 
 - Start a process with a name that can be used for later operations:
 
-`pm2 start {any something} --name {any something}`
+`pm2 start {string value: app.js} --name {string value: application_name}`
 
 - List processes:
 
@@ -18,11 +18,11 @@
 
 - Stop a process:
 
-`pm2 stop {any something}`
+`pm2 stop {string value: application_name}`
 
 - Restart a process:
 
-`pm2 restart {any something}`
+`pm2 restart {string value: application_name}`
 
 - Dump all processes for resurrecting them later:
 

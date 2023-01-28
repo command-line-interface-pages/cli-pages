@@ -13,12 +13,12 @@
 
 - Create a new user with a home directory at the specified path:
 
-`adduser --home {any something} {string user}`
+`adduser --home {string value: path/to/home} {string user}`
 
 - Create a new user with the specified shell set as the login shell:
 
-`adduser --shell {any something} {string user}`
+`adduser --shell {string value: path/to/shell} {string user}`
 
 - Create a new user belonging to the specified group:
 
-`adduser --ingroup {any something} {string user}`
+`adduser --ingroup {string value: group} {string user}`

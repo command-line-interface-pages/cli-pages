@@ -5,7 +5,7 @@
 
 - Initialize a new React Native project in a directory of the same name:
 
-`react-native init {any something}`
+`react-native init {string value: project_name}`
 
 - Start the metro bundler:
 
@@ -25,7 +25,7 @@
 
 - Build the current application in `release` mode and start it on a connected Android device or emulator:
 
-`react-native run-android --variant={any something}`
+`react-native run-android --variant={string value: release}`
 
 - Start `logkitty` and print logs to stdout:
 

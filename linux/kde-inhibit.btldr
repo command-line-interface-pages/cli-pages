@@ -5,12 +5,12 @@
 
 - Inhibit power management:
 
-`kde-inhibit --power {any something} {any something}`
+`kde-inhibit --power {string value: command} {string value: command_arguments}`
 
 - Inhibit screen saver:
 
-`kde-inhibit --screenSaver {any something} {any something}`
+`kde-inhibit --screenSaver {string value: command} {string value: command_arguments}`
 
 - Launch VLC, and inhibit color correction (night mode) while it's running:
 
-`kde-inhibit --colorCorrect {any something}`
+`kde-inhibit --colorCorrect {string value: vlc}`

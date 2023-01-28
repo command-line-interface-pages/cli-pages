@@ -5,24 +5,24 @@
 
 - Count all lines in a file:
 
-`wc --lines {file something}`
+`wc --lines {file value}`
 
 - Count all words in a file:
 
-`wc --words {file something}`
+`wc --words {file value}`
 
 - Count all bytes in a file:
 
-`wc --bytes {file something}`
+`wc --bytes {file value}`
 
 - Count all characters in a file (taking multi-byte characters into account):
 
-`wc --chars {file something}`
+`wc --chars {file value}`
 
 - Count all lines, words and bytes from stdin:
 
-`{any something} | wc`
+`{string value: find .} | wc`
 
 - Count the length of the longest line in number of characters:
 
-`wc --max-line-length {file something}`
+`wc --max-line-length {file value}`

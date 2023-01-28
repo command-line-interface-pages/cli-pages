@@ -9,20 +9,20 @@
 
 - Display information about a specific release:
 
-`gh release view {any something}`
+`gh release view {string value: tag}`
 
 - Create a new release:
 
-`gh release create {any something}`
+`gh release create {string value: tag}`
 
 - Delete a specific release:
 
-`gh release delete {any something}`
+`gh release delete {string value: tag}`
 
 - Download assets from a specific release:
 
-`gh release download {any something}`
+`gh release download {string value: tag}`
 
 - Upload assets to a specific release:
 
-`gh release upload {any something} {any something} {any something}`
+`gh release upload {string value: tag} {string value: path/to/file1} {string value: path/to/file2}`

@@ -9,7 +9,7 @@
 
 - Check for typos in the specified file and interactively apply suggestions:
 
-`ispell {file something}`
+`ispell {file value}`
 
 - Display the version:
 

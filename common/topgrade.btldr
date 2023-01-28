@@ -17,11 +17,11 @@
 
 - Disable a certain update operation:
 
-`topgrade --disable {any something}`
+`topgrade --disable {string value: operation}`
 
 - Only perform a certain update operation:
 
-`topgrade --only {any something}`
+`topgrade --only {string value: operation}`
 
 - Edit the config file with default editor:
 

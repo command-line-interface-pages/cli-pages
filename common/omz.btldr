@@ -21,7 +21,7 @@
 
 - Enable/Disable an Oh My Zsh plugin:
 
-`omz plugin {any something} {any something}`
+`omz plugin {string value: enable|disable} {string value: plugin}`
 
 - List all available themes:
 
@@ -29,4 +29,4 @@
 
 - Set an Oh My Zsh theme in `~/.zshrc`:
 
-`omz theme set {any something}`
+`omz theme set {string value: theme}`

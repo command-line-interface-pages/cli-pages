@@ -9,4 +9,4 @@
 
 - Display reports every 2 seconds for 5 times:
 
-`vm_stat -c {int number: 5} {int number: 2}`
+`vm_stat -c {int value: 5} {int value: 2}`

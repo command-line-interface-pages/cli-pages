@@ -5,11 +5,11 @@
 
 - Initialize a website:
 
-`hexo init {directory something}`
+`hexo init {directory value}`
 
 - Create a new article:
 
-`hexo new {any something} {any something}`
+`hexo new {string value: layout} {string value: title}`
 
 - Generate static files:
 

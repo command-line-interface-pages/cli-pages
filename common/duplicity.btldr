@@ -6,24 +6,24 @@
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 
-`FTP_PASSWORD={any something} PASSPHRASE={any something} duplicity {any something} {any something}`
+`FTP_PASSWORD={string value: ftp_login_password} PASSPHRASE={string value: encryption_password} duplicity {string value: path/to/source/directory} {string value: ftps://user@hostname/target/directory/path/}`
 
 - Backup a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than {any something} --use-new-style s3://{any something}`
+`duplicity --full-if-older-than {string value: 1M} --use-new-style s3://{string value: bucket_name[/prefix]}`
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
-`FTP_PASSWORD={any something} duplicity remove-older-than {any something} --force {any something}`
+`FTP_PASSWORD={string value: webdav_login_password} duplicity remove-older-than {string value: 1Y} --force {string value: webdav[s]://user@hostname[:port]/some_dir}`
 
 - List the available backups:
 
-`duplicity collection-status "file://{any something}"`
+`duplicity collection-status "file://{string value: absolute/path/to/backup/directory}"`
 
 - List the files in a backup stored on a remote machine, via ssh:
 
-`duplicity list-current-files --time {any something} scp://{any something}/path/to/backup/dir`
+`duplicity list-current-files --time {string value: YYYY-MM-DD} scp://{string value: user@hostname}/path/to/backup/dir`
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE={any something} duplicity restore --encrypt-key {any something} --file-to-restore {any something} file://{any something} {any something}`
+`PASSPHRASE={string value: gpg_key_password} duplicity restore --encrypt-key {string value: gpg_key_id} --file-to-restore {string value: relative/path/restoredirectory} file://{string value: absolute/path/to/backup/directory} {string value: path/to/directory/to/restore/to}`

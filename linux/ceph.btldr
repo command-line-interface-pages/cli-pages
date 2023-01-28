@@ -13,20 +13,20 @@
 
 - Get the statistics for the placement groups in a cluster:
 
-`ceph pg dump --format {any something}`
+`ceph pg dump --format {string value: plain}`
 
 - Create a storage pool:
 
-`ceph osd pool create {any something} {any something}`
+`ceph osd pool create {string value: pool_name} {string value: page_number}`
 
 - Delete a storage pool:
 
-`ceph osd pool delete {any something}`
+`ceph osd pool delete {string value: pool_name}`
 
 - Rename a storage pool:
 
-`ceph osd pool rename {any something} {any something}`
+`ceph osd pool rename {string value: current_name} {string value: new_name}`
 
 - Self-repair pool storage:
 
-`ceph pg repair {any something}`
+`ceph pg repair {string value: pool_name}`

@@ -9,7 +9,7 @@
 
 - Run a command and only trace descendants of this command:
 
-`sudo extrace {any something}`
+`sudo extrace {string value: command}`
 
 - Print the current working directory of each process:
 

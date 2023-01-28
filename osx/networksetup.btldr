@@ -9,12 +9,12 @@
 
 - Show network settings for a particular networking device:
 
-`networksetup -getinfo "{any something}"`
+`networksetup -getinfo "{string value: Wi-Fi}"`
 
 - Get currently connected Wi-Fi network name (Wi-Fi device usually en0 or en1):
 
-`networksetup -getairportnetwork {any something}`
+`networksetup -getairportnetwork {string value: en0}`
 
 - Connect to a particular Wi-Fi network:
 
-`networksetup -setairportnetwork {any something} {any something} {any something}`
+`networksetup -setairportnetwork {string value: en0} {string value: Airport Network SSID} {string value: password}`

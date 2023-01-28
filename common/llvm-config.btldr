@@ -6,7 +6,7 @@
 
 - Compile and link an LLVM based program:
 
-`clang++ $(llvm-config --cxxflags --ldflags --libs) --output {any something} {any something}`
+`clang++ $(llvm-config --cxxflags --ldflags --libs) --output {string value: path/to/output_executable} {string value: path/to/source.cc}`
 
 - Print the `PREFIX` of your LLVM installation:
 

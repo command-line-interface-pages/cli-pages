@@ -6,20 +6,20 @@
 
 - Download the contents of a URL to a file:
 
-`Invoke-WebRequest {any something} -OutFile {any something}`
+`Invoke-WebRequest {string value: http://example.com} -OutFile {file value}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 
-`Invoke-WebRequest -Method Post -Body @{ name='bob' } {any something}`
+`Invoke-WebRequest -Method Post -Body @{ name='bob' } {string value: http://example.com/form}`
 
 - Send a request with an extra header, using a custom HTTP method:
 
-`Invoke-WebRequest -Headers {{@{ X-My-Header = '123' }}} -Method {any something} {any something}`
+`Invoke-WebRequest -Headers {{@{ X-My-Header = '123' }}} -Method {string value: PUT} {string value: http://example.com}`
 
 - Send data in JSON format, specifying the appropriate content-type header:
 
-`Invoke-WebRequest -Body {{'{"name":"bob"}'}}  -ContentType 'application/json' {any something}`
+`Invoke-WebRequest -Body {{'{"name":"bob"}'}}  -ContentType 'application/json' {string value: http://example.com/users/1234}`
 
 - Pass a username and password for server authentication:
 
-`Invoke-WebRequest -Headers @{ Authorization = "Basic "+ [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("myusername:mypassword")) } {any something}`
+`Invoke-WebRequest -Headers @{ Authorization = "Basic "+ [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("myusername:mypassword")) } {string value: http://example.com}`

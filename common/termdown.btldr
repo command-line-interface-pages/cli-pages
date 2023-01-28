@@ -9,15 +9,15 @@
 
 - Start a 1 minute and 30 seconds countdown:
 
-`termdown {any something}`
+`termdown {string value: 1m30s}`
 
 - Start a 1 minute 30 seconds countdown with blinking the terminal at the end:
 
-`termdown {any something} --blink`
+`termdown {string value: 1m30s} --blink`
 
 - Show a title above countdown:
 
-`termdown {any something} --title "{any something}"`
+`termdown {string value: 1m30s} --title "{string value: Interesting title}"`
 
 - Display current time:
 

@@ -5,7 +5,7 @@
 
 - Initialize a project with a skeleton configuration:
 
-`wrangler init {any something}`
+`wrangler init {string value: project_name}`
 
 - Authenticate with Cloudflare:
 
@@ -13,7 +13,7 @@
 
 - Start a local development server:
 
-`wrangler dev --host {any something}`
+`wrangler dev --host {string value: hostname}`
 
 - Publish the worker script:
 

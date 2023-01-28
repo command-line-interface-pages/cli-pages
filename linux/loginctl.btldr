@@ -9,7 +9,7 @@
 
 - Print all properties of a specific session:
 
-`loginctl show-session {any something} --all`
+`loginctl show-session {string value: session_id} --all`
 
 - Print all properties of a specific user:
 
@@ -17,8 +17,8 @@
 
 - Print a specific property of a user:
 
-`loginctl show-user {string user} --property={any something}`
+`loginctl show-user {string user} --property={string value: property_name}`
 
 - Execute a `loginctl` operation on a remote host:
 
-`loginctl list-users -H {any something}`
+`loginctl list-users -H {string value: hostname}`

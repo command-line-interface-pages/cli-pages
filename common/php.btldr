@@ -5,11 +5,11 @@
 
 - Parse and execute a PHP script:
 
-`php {file something}`
+`php {file value}`
 
 - Check syntax on (i.e. lint) a PHP script:
 
-`php -l {file something}`
+`php -l {file value}`
 
 - Run PHP interactively:
 
@@ -17,11 +17,11 @@
 
 - Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
 
-`php -r "{any something}"`
+`php -r "{string value: code}"`
 
 - Start a PHP built-in web server in the current directory:
 
-`php -S {any something}`
+`php -S {string value: host:port}`
 
 - Get a list of installed PHP extensions:
 
@@ -33,4 +33,4 @@
 
 - Display information about a specific function:
 
-`php --rf {any something}`
+`php --rf {string value: function_name}`

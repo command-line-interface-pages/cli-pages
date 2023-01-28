@@ -9,11 +9,11 @@
 
 - Set the path to one or more semicolon-separated directories:
 
-`path {any something}`
+`path {string value: path/to/directory(s)}`
 
 - Append a new directory to the original path:
 
-`path {directory something};%path%`
+`path {directory value};%path%`
 
 - Set command prompt to only search the current directory for executables:
 

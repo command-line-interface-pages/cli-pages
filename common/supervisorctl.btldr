@@ -6,19 +6,19 @@
 
 - Start/stop/restart a process:
 
-`supervisorctl {any something} {any something}`
+`supervisorctl {string value: start|stop|restart} {string value: process_name}`
 
 - Start/stop/restart all processes in a group:
 
-`supervisorctl {any something} {string group}:*`
+`supervisorctl {string value: start|stop|restart} {string group}:*`
 
 - Show last 100 **bytes** of process stderr:
 
-`supervisorctl tail -100 {any something} stderr`
+`supervisorctl tail -100 {string value: process_name} stderr`
 
 - Keep displaying stdout of a process:
 
-`supervisorctl tail -f {any something} stdout`
+`supervisorctl tail -f {string value: process_name} stdout`
 
 - Reload process config file to add/remove processes as necessary:
 

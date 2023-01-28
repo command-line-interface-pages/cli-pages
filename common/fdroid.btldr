@@ -6,24 +6,24 @@
 
 - Build a specific app:
 
-`fdroid build {any something}`
+`fdroid build {string value: app_id}`
 
 - Build a specific app in a build server VM:
 
-`fdroid build {any something} --server`
+`fdroid build {string value: app_id} --server`
 
 - Publish the app to the local repository:
 
-`fdroid publish {any something}`
+`fdroid publish {string value: app_id}`
 
 - Install the app on every connected device:
 
-`fdroid install {any something}`
+`fdroid install {string value: app_id}`
 
 - Check if the metadata is formatted correctly:
 
-`fdroid lint --format {any something}`
+`fdroid lint --format {string value: app_id}`
 
 - Fix the formatting automatically (if possible):
 
-`fdroid rewritemeta {any something}`
+`fdroid rewritemeta {string value: app_id}`

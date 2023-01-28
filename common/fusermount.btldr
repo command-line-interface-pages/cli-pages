@@ -5,11 +5,11 @@
 
 - Unmount a FUSE filesystem:
 
-`fusermount -u {any something}`
+`fusermount -u {string value: path/to/mount_point}`
 
 - Unmount a FUSE filesystem as soon as it becomes unused:
 
-`fusermount -z {any something}`
+`fusermount -z {string value: path/to/mount_point}`
 
 - Display version:
 

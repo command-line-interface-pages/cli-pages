@@ -17,7 +17,7 @@
 
 - Start or stop the daemon:
 
-`pihole {any something}`
+`pihole {string value: enable|disable}`
 
 - Restart the daemon (not the server itself):
 
@@ -25,11 +25,11 @@
 
 - Whitelist or blacklist a domain:
 
-`pihole {any something} {any something}`
+`pihole {string value: whitelist|blacklist} {string value: example.com}`
 
 - Search the lists for a domain:
 
-`pihole query {any something}`
+`pihole query {string value: example.com}`
 
 - Open a real-time log of connections:
 

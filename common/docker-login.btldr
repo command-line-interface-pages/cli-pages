@@ -13,8 +13,8 @@
 
 - Log into a registry with username and password:
 
-`docker login --username {string user} --password {any something} {any something}`
+`docker login --username {string user} --password {string value: password} {string value: server}`
 
 - Log into a registry with password from stdin:
 
-`echo "{any something}" | docker login --username {string user} --password-stdin`
+`echo "{string value: password}" | docker login --username {string user} --password-stdin`

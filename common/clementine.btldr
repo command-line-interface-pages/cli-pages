@@ -9,7 +9,7 @@
 
 - Start playing a music file:
 
-`clementine {any something}`
+`clementine {string value: url/or/path/to/file.ext}`
 
 - Toggle between pausing and playing:
 
@@ -29,8 +29,8 @@
 
 - Load a playlist file:
 
-`clementine --load {any something}`
+`clementine --load {string value: path/to/playlist.ext}`
 
 - Play the 5th track in the currently loaded playlist:
 
-`clementine --play-track {int number: 5}`
+`clementine --play-track {int value: 5}`

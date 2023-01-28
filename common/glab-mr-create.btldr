@@ -17,7 +17,7 @@
 
 - Create a merge request specifying the target branch, title, and description:
 
-`glab mr create --target-branch {any something} --title "{any something}" --description "{any something}"`
+`glab mr create --target-branch {string value: target_branch} --title "{string value: title}" --description "{string value: description}"`
 
 - Start opening a merge request in the default web browser:
 

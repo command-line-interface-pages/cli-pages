@@ -5,20 +5,20 @@
 
 - Check whether a file or directory is ignored:
 
-`git check-ignore {file something|path something}`
+`git check-ignore {path value}`
 
 - Check whether multiple files or directories are ignored:
 
-`git check-ignore {file something} {directory something}`
+`git check-ignore {file value} {directory value}`
 
 - Use pathnames, one per line, from stdin:
 
-`git check-ignore --stdin < {any something}`
+`git check-ignore --stdin < {string value: path/to/file_list}`
 
 - Do not check the index (used to debug why paths were tracked and not ignored):
 
-`git check-ignore --no-index {any something}`
+`git check-ignore --no-index {string value: path/to/files_or_directories}`
 
 - Include details about the matching pattern for each path:
 
-`git check-ignore --verbose {any something}`
+`git check-ignore --verbose {string value: path/to/files_or_directories}`

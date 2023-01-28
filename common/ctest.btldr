@@ -5,7 +5,7 @@
 
 - Run all tests defined in the CMake project, executing 4 jobs at a time in parallel:
 
-`ctest -j{int number: 4} --output-on-failure`
+`ctest -j{int value: 4} --output-on-failure`
 
 - Show a list of available tests:
 
@@ -13,4 +13,4 @@
 
 - Run a single test based on its name, or filter on a regular expression:
 
-`ctest --output-on-failure -R '^{any something}$'`
+`ctest --output-on-failure -R '^{string value: test_name}$'`

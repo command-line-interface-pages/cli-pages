@@ -9,7 +9,7 @@
 
 - Open a terminal with the specified title for the window:
 
-`kitty --title "{any something}"`
+`kitty --title "{string value: title}"`
 
 - Start the theme-chooser builtin:
 
@@ -17,8 +17,8 @@
 
 - Display an image in the terminal:
 
-`kitty +kitten icat {any something}`
+`kitty +kitten icat {string value: path/to/image}`
 
 - Copy the contents of stdin to the clipboard:
 
-`echo {any something} | kitty +kitten clipboard`
+`echo {string value: example} | kitty +kitten clipboard`

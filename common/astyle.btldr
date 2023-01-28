@@ -6,20 +6,20 @@
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 
-`astyle {file something: source}`
+`astyle {file value: source}`
 
 - Apply the Java style with attached braces:
 
-`astyle --style=java {file something}`
+`astyle --style=java {file value}`
 
 - Apply the allman style with broken braces:
 
-`astyle --style=allman {file something}`
+`astyle --style=allman {file value}`
 
 - Apply a custom indent using spaces. Choose between 2 and 20 spaces:
 
-`astyle --indent=spaces={any something} {file something}`
+`astyle --indent=spaces={string value: number_of_spaces} {file value}`
 
 - Apply a custom indent using tabs. Choose between 2 and 20 tabs:
 
-`astyle --indent=tab={any something} {file something}`
+`astyle --indent=tab={string value: number_of_tabs} {file value}`

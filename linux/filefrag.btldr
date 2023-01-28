@@ -5,24 +5,24 @@
 
 - Display a report for a specific file:
 
-`filefrag {file something}`
+`filefrag {file value}`
 
 - Display a report for space-separated list of files:
 
-`filefrag {any something} {any something}`
+`filefrag {string value: path/to/file1} {string value: path/to/file2}`
 
 - Display a report using a 1024 byte blocksize:
 
-`filefrag -b {file something}`
+`filefrag -b {file value}`
 
 - Sync the file before requesting the mapping:
 
-`filefrag -s {any something}`
+`filefrag -s {string value: path/to/files}`
 
 - Display mapping of extended attributes:
 
-`filefrag -x {any something}`
+`filefrag -x {string value: path/to/files}`
 
 - Display a report with verbose information:
 
-`filefrag -v {any something}`
+`filefrag -v {string value: path/to/files}`

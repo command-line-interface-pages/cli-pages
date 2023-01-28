@@ -10,16 +10,16 @@
 
 - Download and specify filename:
 
-`axel {string url} -o {file something}`
+`axel {string url} -o {file value}`
 
 - Download with multiple connections:
 
-`axel -n {any something} {string url}`
+`axel -n {string value: connections_num} {string url}`
 
 - Search for mirrors:
 
-`axel -S {any something} {string url}`
+`axel -S {string value: mirrors_num} {string url}`
 
 - Limit download speed (bytes per second):
 
-`axel -s {any something} {string url}`
+`axel -s {string value: speed} {string url}`

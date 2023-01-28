@@ -5,16 +5,16 @@
 
 - Run a process that can live beyond the terminal:
 
-`nohup {any something} {any something}`
+`nohup {string value: command} {string value: argument1 argument2 ...}`
 
 - Launch `nohup` in background mode:
 
-`nohup {any something} {any something} &`
+`nohup {string value: command} {string value: argument1 argument2 ...} &`
 
 - Run a shell script that can live beyond the terminal:
 
-`nohup {any something} &`
+`nohup {string value: path/to/script.sh} &`
 
 - Run a process and write the output to a specific file:
 
-`nohup {any something} {any something} > {file something: output} &`
+`nohup {string value: command} {string value: argument1 argument2 ...} > {file value: output} &`

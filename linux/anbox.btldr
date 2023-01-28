@@ -5,4 +5,4 @@
 
 - Launch Anbox into the app manager:
 
-`anbox launch --package={any something} --component={any something}`
+`anbox launch --package={string value: org.anbox.appmgr} --component={string value: org.anbox.appmgr.AppViewActivity}`

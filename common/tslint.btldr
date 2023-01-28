@@ -9,7 +9,7 @@
 
 - Lint on a given set of files:
 
-`tslint {any something}.js {any something}.js`
+`tslint {file value}.js {string value: filename1}.js`
 
 - Fix lint issues:
 
@@ -17,4 +17,4 @@
 
 - Lint with the config file in the project root:
 
-`tslint --project {any something}`
+`tslint --project {string value: path/to/project_root}`

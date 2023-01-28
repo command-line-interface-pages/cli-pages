@@ -5,7 +5,7 @@
 
 - Create a backup containing all resources:
 
-`velero backup create {any something}`
+`velero backup create {string value: backup_name}`
 
 - List all backups:
 
@@ -13,12 +13,12 @@
 
 - Delete a backup:
 
-`velero backup delete {any something}`
+`velero backup delete {string value: backup_name}`
 
 - Create a weekly backup, each living for 90 days (2160 hours):
 
-`velero schedule create {any something} --schedules="{any something}" --ttl {any something}`
+`velero schedule create {string value: schedule_name} --schedules="{string value: @every 7d}" --ttl {string value: 2160h0m0s}`
 
 - Create a restore from the latest successful backup triggered by specific schedule:
 
-`velero restore create --from-schedule {any something}`
+`velero restore create --from-schedule {string value: schedule_name}`

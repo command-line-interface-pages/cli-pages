@@ -5,7 +5,7 @@
 
 - Stash current changes, except new (untracked) files:
 
-`git stash push -m {any something}`
+`git stash push -m {string value: optional_stash_message}`
 
 - Stash current changes, including new (untracked) files:
 
@@ -25,11 +25,11 @@
 
 - Apply a stash (default is the latest, named stash@{0}):
 
-`git stash apply {any something}`
+`git stash apply {string value: optional_stash_name_or_commit}`
 
 - Drop or apply a stash (default is stash@{0}) and remove it from the stash list if applying doesn't cause conflicts:
 
-`git stash pop {any something}`
+`git stash pop {string value: optional_stash_name}`
 
 - Drop all stashes:
 

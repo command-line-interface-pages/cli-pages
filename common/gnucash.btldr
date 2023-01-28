@@ -9,7 +9,7 @@
 
 - Launch GnuCash and load the specified file:
 
-`gnucash {file something}`
+`gnucash {file value: sample.gnucash}`
 
 - Launch GnuCash and load an empty file:
 

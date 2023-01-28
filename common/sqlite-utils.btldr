@@ -5,31 +5,31 @@
 
 - Create a database:
 
-`sqlite-utils create-database {any something}`
+`sqlite-utils create-database {string value: path/to/database.db}`
 
 - Create a table:
 
-`sqlite-utils create-table {any something} {any something} {any something}`
+`sqlite-utils create-table {string value: path/to/database.db} {string value: table_name} {string value: id integer name text height float photo blob --pk id}`
 
 - List tables:
 
-`sqlite-utils tables {any something}`
+`sqlite-utils tables {string value: path/to/database.db}`
 
 - Upsert a record:
 
-`{{echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'}} | sqlite-utils upsert {any something} {any something} - {any something}`
+`{{echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'}} | sqlite-utils upsert {string value: path/to/database.db} {string value: table_name} - {string value: --pk id}`
 
 - Select records:
 
-`sqlite-utils rows {any something} {any something}`
+`sqlite-utils rows {string value: path/to/database.db} {string value: table_name}`
 
 - Delete a record:
 
-`sqlite-utils query {any something} "{any something}"`
+`sqlite-utils query {string value: path/to/database.db} "{string value: delete from table_name where name = 'Tony Hoare'}"`
 
 - Drop a table:
 
-`sqlite-utils drop-table {any something} {any something}`
+`sqlite-utils drop-table {string value: path/to/database.db} {string value: table_name}`
 
 - Show help information:
 

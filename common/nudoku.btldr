@@ -9,15 +9,15 @@
 
 - Choose the difficulty of the game:
 
-`nudoku -d {any something}`
+`nudoku -d {string value: easy|normal|hard}`
 
 - Navigate the board:
 
-`{any something} OR {any something} arrow key`
+`{string value: h|j|k|l} OR {string value: Left|Down|Up|Right} arrow key`
 
 - Delete a number:
 
-`{any something}`
+`{string value: Backspace|x}`
 
 - Get a hint:
 

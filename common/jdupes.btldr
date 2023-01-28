@@ -5,24 +5,24 @@
 
 - Search a single directory:
 
-`jdupes {directory something}`
+`jdupes {directory value}`
 
 - Search multiple directories:
 
-`jdupes {any something} {any something}`
+`jdupes {string value: directory1} {string value: directory2}`
 
 - Search all directories recursively:
 
-`jdupes --recurse {directory something}`
+`jdupes --recurse {directory value}`
 
 - Search directory recursively and let user choose files to preserve:
 
-`jdupes --delete --recurse {directory something}`
+`jdupes --delete --recurse {directory value}`
 
 - Search multiple directories and follow subdirectores under directory2, not directory1:
 
-`jdupes {any something} --recurse: {any something}`
+`jdupes {string value: directory1} --recurse: {string value: directory2}`
 
 - Search multiple directories and keep the directory order in result:
 
-`jdupes -O {any something} {any something} {any something}`
+`jdupes -O {string value: directory1} {string value: directory2} {string value: directory3}`

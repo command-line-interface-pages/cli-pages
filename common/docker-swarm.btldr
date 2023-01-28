@@ -9,11 +9,11 @@
 
 - Display the token to join a manager or a worker:
 
-`docker swarm join-token {any something}`
+`docker swarm join-token {string value: worker|manager}`
 
 - Join a new node to the cluster:
 
-`docker swarm join --token {any something} {any something}`
+`docker swarm join --token {string value: token} {string value: manager_node_url:2377}`
 
 - Remove a worker from the swarm (run inside the worker node):
 
@@ -29,4 +29,4 @@
 
 - Change the valid period for node certificates:
 
-`docker swarm update --cert-expiry {any something}h{any something}m{any something}s`
+`docker swarm update --cert-expiry {string value: hours}h{string value: minutes}m{string value: seconds}s`

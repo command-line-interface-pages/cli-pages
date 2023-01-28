@@ -5,16 +5,16 @@
 
 - Set an environment variable for the current user:
 
-`setx {any something} {any something}`
+`setx {string value: variable} {string value: value}`
 
 - Set an environment variable for the current machine:
 
-`setx {any something} {any something} /M`
+`setx {string value: variable} {string value: value} /M`
 
 - Set an environment variable for a user on a remote machine:
 
-`setx /s {any something} /u {string user} /p {any something} {any something} {any something}`
+`setx /s {string value: hostname} /u {string user} /p {string value: password} {string value: variable} {string value: value}`
 
 - Set an environment variable from a registry key value:
 
-`setx {any something} /k {any something}`
+`setx {string value: variable} /k {string value: registry\key\path}`

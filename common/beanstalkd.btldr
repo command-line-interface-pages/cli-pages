@@ -9,12 +9,12 @@
 
 - Start beanstalkd listening on a custom port and address:
 
-`beanstalkd -l {any something} -p {any something}`
+`beanstalkd -l {string value: ip_address} -p {string value: port_number}`
 
 - Persist work queues by saving them to disk:
 
-`beanstalkd -b {directory something: persistence}`
+`beanstalkd -b {directory value: persistence}`
 
 - Sync to the persistence directory every 500 milliseconds:
 
-`beanstalkd -b {directory something: persistence} -f {int number: 500}`
+`beanstalkd -b {directory value: persistence} -f {int value: 500}`

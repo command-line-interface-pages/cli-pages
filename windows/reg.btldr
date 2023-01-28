@@ -6,7 +6,7 @@
 
 - Execute registry commands:
 
-`reg {any something}`
+`reg {string value: command}`
 
 - Display general information and list all available commands:
 
@@ -14,4 +14,4 @@
 
 - Call help on a specific command:
 
-`reg {any something} /?`
+`reg {string value: command} /?`

@@ -6,15 +6,15 @@
 
 - Colorize edges of one or more graph layouts (that already have layout information) to clarify crossing edges:
 
-`edgepaint {any something} {any something} > {any something}`
+`edgepaint {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Colorize edges using a color scheme. (See <https://graphviz.org/doc/info/colors.html#brewer>):
 
-`edgepaint -color-scheme={any something} {any something} > {any something}`
+`edgepaint -color-scheme={string value: accent7} {string value: path/to/layout.gv} > {string value: path/to/output.gv}`
 
 - Lay out a graph and colorize its edges, then convert to a PNG image:
 
-`dot {any something} | edgepaint | dot -T {any something} > {any something}`
+`dot {string value: path/to/input.gv} | edgepaint | dot -T {string value: png} > {string value: path/to/output.png}`
 
 - Display help for `edgepaint`:
 

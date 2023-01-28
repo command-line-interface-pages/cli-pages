@@ -9,7 +9,7 @@
 
 - Call a specific java version with custom properties using coursier:
 
-`cs java --jvm {any something}:{any something} -Xmx32m -X{any something} -jar {any something}`
+`cs java --jvm {string value: jvm_name}:{string value: jvm_version} -Xmx32m -X{string value: another_jvm_opt} -jar {string value: path/to/jar_name.jar}`
 
 - List all the available JVM in the coursier default index:
 
@@ -21,7 +21,7 @@
 
 - Set the a specific JVM as one-off "default" for the shell instance:
 
-`cs java --jvm {any something}:{any something} --env`
+`cs java --jvm {string value: jvm_name}:{string value: jvm_version} --env`
 
 - Revert the changes for the default JVM settings:
 
@@ -29,4 +29,4 @@
 
 - Set a specific JVM as default for the whole system:
 
-`cs java --jvm {any something}:{any something} --setup`
+`cs java --jvm {string value: jvm_name}:{string value: jvm_version} --setup`

@@ -6,11 +6,11 @@
 
 - List available runtimes for a web application:
 
-`az webapp list-runtimes --os-type {any something}`
+`az webapp list-runtimes --os-type {string value: windows|linux}`
 
 - Create a web application:
 
-`az webapp up --name {any something} --location {any something} --runtime {any something}`
+`az webapp up --name {string value: name} --location {string value: location} --runtime {string value: runtime}`
 
 - List all web applications:
 
@@ -18,4 +18,4 @@
 
 - Delete a specific web application:
 
-`az webapp delete --name {any something} --resource-group {any something}`
+`az webapp delete --name {string value: name} --resource-group {string value: resource_group}`

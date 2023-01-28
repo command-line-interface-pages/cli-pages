@@ -5,12 +5,12 @@
 
 - Replace the input file with its stripped version:
 
-`strip {file something}`
+`strip {file value}`
 
 - Strip symbols from a file, saving the output to a specific file:
 
-`strip {file something: input} -o {file something: output}`
+`strip {file value: input} -o {file value: output}`
 
 - Strip debug symbols only:
 
-`strip --strip-debug {file something}`
+`strip --strip-debug {file value: sample.o}`

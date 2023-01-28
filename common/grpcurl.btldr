@@ -5,16 +5,16 @@
 
 - Send an empty request:
 
-`grpcurl {any something} {any something}`
+`grpcurl {string value: grpc.server.com:443} {string value: my.custom.server.Service/Method}`
 
 - Send a request with a header and a body:
 
-`grpcurl -H "{any something}" -d {{'{"foo": "bar"}'}} {any something} {any something}`
+`grpcurl -H "{string value: Authorization: Bearer $token}" -d {{'{"foo": "bar"}'}} {string value: grpc.server.com:443} {string value: my.custom.server.Service/Method}`
 
 - List all services exposed by a server:
 
-`grpcurl {any something} list`
+`grpcurl {string value: grpc.server.com:443} list`
 
 - List all methods in a particular service:
 
-`grpcurl {any something} list {any something}`
+`grpcurl {string value: grpc.server.com:443} list {string value: my.custom.server.Service}`

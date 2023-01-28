@@ -6,7 +6,7 @@
 
 - Format the output of a command for a 30 characters wide display:
 
-`printf "header1 header2\nbar foo\n" | column --output-width {int number: 30}`
+`printf "header1 header2\nbar foo\n" | column --output-width {int value: 30}`
 
 - Split columns automatically and auto-align them in a tabular format:
 
@@ -14,8 +14,8 @@
 
 - Specify the column delimiter character for the `--table` option (e.g. "," for CSV) (defaults to whitespace):
 
-`printf "header1,header2\nbar,foo\n" | column --table --separator {any something}`
+`printf "header1,header2\nbar,foo\n" | column --table --separator {string value: ,}`
 
 - Fill rows before filling columns:
 
-`printf "header1\nbar\nfoobar\n" | column --output-width {int number: 30} --fillrows`
+`printf "header1\nbar\nfoobar\n" | column --output-width {int value: 30} --fillrows`

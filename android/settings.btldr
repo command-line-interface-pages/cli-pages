@@ -5,16 +5,16 @@
 
 - Display a list of settings in the `global` namespace:
 
-`settings list {any something}`
+`settings list {string value: global}`
 
 - Get a value of a specific setting:
 
-`settings get {any something} {any something}`
+`settings get {string value: global} {string value: airplane_mode_on}`
 
 - Set a specific value of a setting:
 
-`settings put {any something} {any something} {int number: 42}`
+`settings put {string value: system} {string value: screen_brightness} {int value: 42}`
 
 - Delete a specific setting:
 
-`settings delete {any something} {any something}`
+`settings delete {string value: secure} {string value: screensaver_enabled}`

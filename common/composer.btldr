@@ -9,7 +9,7 @@
 
 - Add a package as a dependency for this project, adding it to `composer.json`:
 
-`composer require {any something}`
+`composer require {string value: user/package_name}`
 
 - Install all the dependencies in this project's `composer.json` and create `composer.lock`:
 
@@ -17,7 +17,7 @@
 
 - Uninstall a package from this project, removing it as a dependency from `composer.json`:
 
-`composer remove {any something}`
+`composer remove {string value: user/package_name}`
 
 - Update all the dependencies in this project's `composer.json` and note versions in `composer.lock` file:
 
@@ -29,7 +29,7 @@
 
 - Learn more about why a dependency can't be installed:
 
-`composer why-not {any something}`
+`composer why-not {string value: user/package_name}`
 
 - Update composer to its latest version:
 

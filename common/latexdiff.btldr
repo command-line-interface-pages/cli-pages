@@ -5,12 +5,12 @@
 
 - Determine changes between different versions of a LaTeX file (the resulting LaTeX file can be compiled to show differences underlined):
 
-`latexdiff {any something} {any something} > {any something}`
+`latexdiff {string value: old.tex} {string value: new.tex} > {string value: diff.tex}`
 
 - Determine changes between different versions of a LaTeX file by highlighting differences in boldface:
 
-`latexdiff --type=BOLD {any something} {any something} > {any something}`
+`latexdiff --type=BOLD {string value: old.tex} {string value: new.tex} > {string value: diff.tex}`
 
 - Determine changes between different versions of a LaTeX file, and display minor changes in equations with both added and deleted graphics:
 
-`latexdiff --math-markup=fine --graphics-markup=both {any something} {any something} > {any something}`
+`latexdiff --math-markup=fine --graphics-markup=both {string value: old.tex} {string value: new.tex} > {string value: diff.tex}`

@@ -6,24 +6,24 @@
 
 - Lookup the IP(s) associated with a hostname (A records):
 
-`dog {any something}`
+`dog {string value: example.com}`
 
 - Query the MX records type associated with a given domain name:
 
-`dog {any something} MX`
+`dog {string value: example.com} MX`
 
 - Specify a specific DNS server to query (e.g. Cloudflare):
 
-`dog {any something} MX @{any something}`
+`dog {string value: example.com} MX @{string value: 1.1.1.1}`
 
 - Query over TCP rather than UDP:
 
-`dog {any something} MX @{any something} --tcp`
+`dog {string value: example.com} MX @{string value: 1.1.1.1} --tcp`
 
 - Query the MX records type associated with a given domain name over TCP using explicit arguments:
 
-`dog --query {any something} --type MX --nameserver {any something} --tcp`
+`dog --query {string value: example.com} --type MX --nameserver {string value: 1.1.1.1} --tcp`
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
-`dog {any something} --https @{any something}`
+`dog {string value: example.com} --https @{string value: https://cloudflare-dns.com/dns-query}`

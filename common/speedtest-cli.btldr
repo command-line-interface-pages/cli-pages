@@ -30,7 +30,7 @@
 
 - Run a speed test to a specific speedtest.net server:
 
-`speedtest-cli --server {any something}`
+`speedtest-cli --server {string value: server_id}`
 
 - Run a speed test and display the results as JSON (suppresses progress information):
 

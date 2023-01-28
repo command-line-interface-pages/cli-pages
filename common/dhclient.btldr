@@ -5,8 +5,8 @@
 
 - Get an IP address for the `eth0` interface:
 
-`sudo dhclient {any something}`
+`sudo dhclient {string value: eth0}`
 
 - Release an IP address for the `eth0` interface:
 
-`sudo dhclient -r {any something}`
+`sudo dhclient -r {string value: eth0}`

@@ -5,20 +5,20 @@
 
 - Show details of pods in a namespace:
 
-`kubectl describe pods -n {any something}`
+`kubectl describe pods -n {string value: namespace}`
 
 - Show details of nodes in a namespace:
 
-`kubectl describe nodes -n {any something}`
+`kubectl describe nodes -n {string value: namespace}`
 
 - Show the details of a specific pod in a namespace:
 
-`kubectl describe pods {any something} -n {any something}`
+`kubectl describe pods {string value: pod_name} -n {string value: namespace}`
 
 - Show the details of a specific node in a namespace:
 
-`kubectl describe nodes {any something} -n {any something}`
+`kubectl describe nodes {string value: node_name} -n {string value: namespace}`
 
 - Show details of Kubernetes objects defined in a YAML manifest:
 
-`kubectl describe -f {any something}`
+`kubectl describe -f {string value: path/to/manifest.yaml}`

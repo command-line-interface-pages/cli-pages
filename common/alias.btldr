@@ -10,20 +10,20 @@
 
 - Create a generic alias:
 
-`alias {any something}="{any something}"`
+`alias {string value: word}="{string value: command}"`
 
 - View the command associated to a given alias:
 
-`alias {any something}`
+`alias {string value: word}`
 
 - Remove an aliased command:
 
-`unalias {any something}`
+`unalias {string value: word}`
 
 - Turn `rm` into an interactive command:
 
-`alias {any something}="{any something}"`
+`alias {string value: rm}="{string value: rm --interactive}"`
 
 - Create `la` as a shortcut for `ls --all`:
 
-`alias {any something}="{any something}"`
+`alias {string value: la}="{string value: ls --all}"`

@@ -5,16 +5,16 @@
 
 - Execute a command over SSH:
 
-`pyinfra {any something} exec -- {any something}`
+`pyinfra {string value: target_ip_address} exec -- {string value: command_name_and_arguments}`
 
 - Execute contents of a deploy file on a list of targets:
 
-`pyinfra {any something} {any something}`
+`pyinfra {string value: path/to/target_list.py} {string value: path/to/deploy.py}`
 
 - Execute commands on locally:
 
-`pyinfra @local {any something}`
+`pyinfra @local {string value: path/to/deploy.py}`
 
 - Execute commands over Docker:
 
-`pyinfra @docker/{any something} {any something}`
+`pyinfra @docker/{string value: container} {string value: path/to/deploy.py}`

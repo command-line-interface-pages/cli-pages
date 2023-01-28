@@ -6,8 +6,8 @@
 
 - Stop a process and wait:
 
-`Stop-Process -Id {any something}; Wait-Process -Id {any something}`
+`Stop-Process -Id {string value: process_id}; Wait-Process -Id {string value: process_id}`
 
 - Wait for processes for a specified time:
 
-`Wait-Process -Name {any something} -Timeout {int number: 30}`
+`Wait-Process -Name {string value: process_name} -Timeout {int value: 30}`

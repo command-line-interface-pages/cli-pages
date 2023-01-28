@@ -10,19 +10,19 @@
 
 - Search for a given package:
 
-`sudo deb-get search {any something}`
+`sudo deb-get search {string value: package}`
 
 - Show information about a package:
 
-`sudo deb-get show {any something}`
+`sudo deb-get show {string value: package}`
 
 - Install a package, or update it to the latest available version:
 
-`sudo deb-get install {any something}`
+`sudo deb-get install {string value: package}`
 
 - Remove a package (using `purge` instead also removes its configuration files):
 
-`sudo deb-get remove {any something}`
+`sudo deb-get remove {string value: package}`
 
 - Upgrade all installed packages to their newest available versions:
 

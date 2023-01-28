@@ -6,24 +6,24 @@
 
 - Make a simple GET request:
 
-`lwp-request -m GET {any something}`
+`lwp-request -m GET {string value: http://example.com/some/path}`
 
 - Upload a file with a POST request:
 
-`lwp-request -m POST {any something} < {file something}`
+`lwp-request -m POST {string value: http://example.com/some/path} < {file value}`
 
 - Make a request with a custom user agent:
 
-`lwp-request -H 'User-Agent: {any something} -m {any something} {any something}`
+`lwp-request -H 'User-Agent: {string value: user_agent} -m {string value: METHOD} {string value: http://example.com/some/path}`
 
 - Make a request with HTTP authentication:
 
-`lwp-request -C {string user}:{any something} -m {any something} {any something}`
+`lwp-request -C {string user}:{string value: password} -m {string value: METHOD} {string value: http://example.com/some/path}`
 
 - Make a request and print request headers:
 
-`lwp-request -U -m {any something} {any something}`
+`lwp-request -U -m {string value: METHOD} {string value: http://example.com/some/path}`
 
 - Make a request and print response headers and status chain:
 
-`lwp-request -E -m {any something} {any something}`
+`lwp-request -E -m {string value: METHOD} {string value: http://example.com/some/path}`

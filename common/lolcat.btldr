@@ -5,16 +5,16 @@
 
 - Print a file to the console in rainbow colors:
 
-`lolcat {file something}`
+`lolcat {file value}`
 
 - Print the result of a text-producing command in rainbow colors:
 
-`{any something} | lolcat`
+`{string value: fortune} | lolcat`
 
 - Print a file to the console with animated rainbow colors:
 
-`lolcat -a {file something}`
+`lolcat -a {file value}`
 
 - Print a file to the console with 24-bit (truecolor) rainbow colors:
 
-`lolcat -t {file something}`
+`lolcat -t {file value}`

@@ -6,12 +6,12 @@
 
 - Create a local branch:
 
-`git create-branch {any something}`
+`git create-branch {string value: branch_name}`
 
 - Create a branch locally and on origin:
 
-`git create-branch --remote {any something}`
+`git create-branch --remote {string value: branch_name}`
 
 - Create a branch locally and on upstream (through forks):
 
-`git create-branch --remote upstream {any something}`
+`git create-branch --remote upstream {string value: branch_name}`

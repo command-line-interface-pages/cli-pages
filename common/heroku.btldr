@@ -13,16 +13,16 @@
 
 - Show logs for an app:
 
-`heroku logs --app {any something}`
+`heroku logs --app {string value: app_name}`
 
 - Run a one-off process inside a dyno (Heroku virtual machine):
 
-`heroku run {any something} --app {any something}`
+`heroku run {string value: process_name} --app {string value: app_name}`
 
 - List dynos (Heroku virtual machines) for an app:
 
-`heroku ps --app {any something}`
+`heroku ps --app {string value: app_name}`
 
 - Permanently destroy an app:
 
-`heroku destroy --app {any something}`
+`heroku destroy --app {string value: app_name}`

@@ -9,4 +9,4 @@
 
 - Exit the shell with the specified exit code:
 
-`exit {any something}`
+`exit {string value: exit_code}`

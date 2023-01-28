@@ -5,32 +5,32 @@
 
 - Find files by extension:
 
-`find {any something} -name '{any something}'`
+`find {string value: root_path} -name '{string value: *.ext}'`
 
 - Find files matching multiple path/name patterns:
 
-`find {any something} -path '{any something}' -or -name '{any something}'`
+`find {string value: root_path} -path '{string value: **/path/**/*.ext}' -or -name '{string value: *pattern*}'`
 
 - Find directories matching a given name, in case-insensitive mode:
 
-`find {any something} -type d -iname '{any something}'`
+`find {string value: root_path} -type d -iname '{string value: *lib*}'`
 
 - Find files matching a given pattern, excluding specific paths:
 
-`find {any something} -name '{any something}' -not -path '{any something}'`
+`find {string value: root_path} -name '{string value: *.py}' -not -path '{string value: */site-packages/*}'`
 
 - Find files matching a given size range, limiting the recursive depth to "1"::
 
-`find {any something} -maxdepth 1 -size {any something} -size {any something}`
+`find {string value: root_path} -maxdepth 1 -size {string value: +500k} -size {string value: -10M}`
 
 - Run a command for each file (use `{}` within the command to access the filename):
 
-`find {any something} -name '{any something}' -exec {{wc -l {} }}\;`
+`find {string value: root_path} -name '{string value: *.ext}' -exec {{wc -l {} }}\;`
 
 - Find files modified in the last 7 days:
 
-`find {any something} -daystart -mtime -{int number: 7}`
+`find {string value: root_path} -daystart -mtime -{int value: 7}`
 
 - Find empty (0 byte) files and delete them:
 
-`find {any something} -type {any something} -empty -delete`
+`find {string value: root_path} -type {string value: f} -empty -delete`

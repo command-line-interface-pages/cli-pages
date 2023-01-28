@@ -13,7 +13,7 @@
 
 - List outdated processes in [v]erbose or [q]uiet mode:
 
-`needrestart -{any something}`
+`needrestart -{string value: v|q}`
 
 - Check if the [k]ernel is outdated:
 
@@ -29,7 +29,7 @@
 
 - List outdated processed using a specific [c]onfiguration file:
 
-`needrestart -c {any something}`
+`needrestart -c {string value: path/to/config}`
 
 - Display help:
 

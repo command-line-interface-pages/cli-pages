@@ -5,15 +5,15 @@
 
 - Compile a bison definition file:
 
-`bison {file something}`
+`bison {file value: sample.y}`
 
 - Compile in debug mode, which causes the resulting parser to write additional information to the stdout:
 
-`bison --debug {file something}`
+`bison --debug {file value: sample.y}`
 
 - Specify the output filename:
 
-`bison --output {any something} {file something}`
+`bison --output {string value: path/to/output.c} {file value: sample.y}`
 
 - Be verbose when compiling:
 

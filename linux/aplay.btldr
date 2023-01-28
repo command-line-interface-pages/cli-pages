@@ -5,12 +5,12 @@
 
 - Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):
 
-`aplay {file something}`
+`aplay {file value}`
 
 - Play the first 10 seconds of a specific file at 2500 Hz:
 
-`aplay --duration={int number: 10} --rate={int number: 2500} {file something}`
+`aplay --duration={int value: 10} --rate={int value: 2500} {file value}`
 
 - Play the raw file as a 22050 Hz, mono, 8-bit, Mu-Law `.au` file:
 
-`aplay --channels={int number: 1} --file-type {any something} --rate={int number: 22050} --format={any something} {file something}`
+`aplay --channels={int value: 1} --file-type {string value: raw} --rate={int value: 22050} --format={string value: mu_law} {file value}`

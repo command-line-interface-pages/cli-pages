@@ -5,20 +5,20 @@
 
 - Extract the second column from a CSV file:
 
-`csvtool --column {int number: 2} {file something}`
+`csvtool --column {int value: 2} {file value: sample.csv}`
 
 - Extract the second and fourth columns from a CSV file:
 
-`csvtool --column {any something} {file something}`
+`csvtool --column {string value: 2,4} {file value: sample.csv}`
 
 - Extract lines from a CSV file where the second column exactly matches 'Foo':
 
-`csvtool --column {int number: 2} --search '{any something}' {file something}`
+`csvtool --column {int value: 2} --search '{string value: ^Foo$}' {file value: sample.csv}`
 
 - Extract lines from a CSV file where the second column starts with 'Bar':
 
-`csvtool --column {int number: 2} --search '{any something}' {file something}`
+`csvtool --column {int value: 2} --search '{string value: ^Bar}' {file value: sample.csv}`
 
 - Find lines in a CSV file where the second column ends with 'Baz' and then extract the third and sixth columns:
 
-`csvtool --column {int number: 2} --search '{any something}' {file something} | csvtool --no-header --column {any something}`
+`csvtool --column {int value: 2} --search '{string value: Baz$}' {file value: sample.csv} | csvtool --no-header --column {string value: 3,6}`

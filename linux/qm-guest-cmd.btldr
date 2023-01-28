@@ -5,4 +5,4 @@
 
 - Execute a specific QEMU Guest Agent command:
 
-`qm guest cmd {any something} {any something}`
+`qm guest cmd {string value: virtual_machine_id} {string value: fsfreeze-freeze|fsfreeze-status|fsfreeze-thaw|fstrim|get-fsinfo|...}`

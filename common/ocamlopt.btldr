@@ -6,8 +6,8 @@
 
 - Compile a source file:
 
-`ocamlopt -o {any something} {file something: source}`
+`ocamlopt -o {string value: path/to/binary} {file value: source.ml}`
 
 - Compile with debugging enabled:
 
-`ocamlopt -g -o {any something} {file something: source}`
+`ocamlopt -g -o {string value: path/to/binary} {file value: source.ml}`

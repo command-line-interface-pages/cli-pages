@@ -5,12 +5,12 @@
 
 - Diff the changes of two individual commits:
 
-`git range-diff {any something}^! {any something}^!`
+`git range-diff {string value: commit_1}^! {string value: commit_2}^!`
 
 - Diff the changes of ours and theirs from their common ancestor, e.g. after an interactive rebase:
 
-`git range-diff {any something}...{any something}`
+`git range-diff {string value: theirs}...{string value: ours}`
 
 - Diff the changes of two commit ranges, e.g. to check whether conflicts have been resolved appropriately when rebasing commits from `base1` to `base2`:
 
-`git range-diff {any something}..{any something} {any something}..{any something}`
+`git range-diff {string value: base1}..{string value: rev1} {string value: base2}..{string value: rev2}`

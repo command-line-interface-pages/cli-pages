@@ -9,19 +9,19 @@
 
 - Display the main routing table (same as first example):
 
-`ip route show {any something}`
+`ip route show {string value: main|254}`
 
 - Display the local routing table:
 
-`ip route show table {any something}`
+`ip route show table {string value: local|255}`
 
 - Display all routing tables:
 
-`ip route show table {any something}`
+`ip route show table {string value: all|unspec|0}`
 
 - List routes from a given device only:
 
-`ip route show dev {any something}`
+`ip route show dev {string value: eth0}`
 
 - List routes within a given scope:
 
@@ -33,4 +33,4 @@
 
 - Display only IPv6 or IPv4 routes:
 
-`ip {any something} route show`
+`ip {string value: -6|-4} route show`

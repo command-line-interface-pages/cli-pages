@@ -6,7 +6,7 @@
 
 - Recursively find files matching a specific pattern in the current directory:
 
-`fd "{any something}"`
+`fd "{string value: string|regex}"`
 
 - Find files that begin with `foo`:
 
@@ -18,12 +18,12 @@
 
 - Find files in a specific directory:
 
-`fd "{any something}" {directory something}`
+`fd "{string value: string|regex}" {directory value}`
 
 - Include ignored and hidden files in the search:
 
-`fd --hidden --no-ignore "{any something}"`
+`fd --hidden --no-ignore "{string value: string|regex}"`
 
 - Execute a command on each search result returned:
 
-`fd "{any something}" --exec {any something}`
+`fd "{string value: string|regex}" --exec {string value: command}`

@@ -5,23 +5,23 @@
 
 - Import a JSON file into a specific collection:
 
-`mongoimport --file={file something} --uri={any something} --collection={any something}`
+`mongoimport --file={file value: sample.json} --uri={string value: mongodb_uri} --collection={string value: collection_name}`
 
 - Import a CSV file, using the first line of the file to determine field names:
 
-`mongoimport --type={any something} --file={file something} --db={any something} --collection={any something}`
+`mongoimport --type={string value: csv} --file={file value: sample.csv} --db={string value: database_name} --collection={string value: collection_name}`
 
 - Import a JSON array, using each element as a separate document:
 
-`mongoimport --jsonArray --file={file something}`
+`mongoimport --jsonArray --file={file value: sample.json}`
 
 - Import a JSON file using a specific mode and a query to match existing documents:
 
-`mongoimport --file={file something} --mode={any something} --upsertFields="{any something}"`
+`mongoimport --file={file value: sample.json} --mode={string value: delete|merge|upsert} --upsertFields="{string value: field1,field2,...}"`
 
 - Import a CSV file, reading field names from a separate CSV file and ignoring fields with empty values:
 
-`mongoimport --type={any something} --file={file something} --fieldFile={file something: field} --ignoreBlanks`
+`mongoimport --type={string value: csv} --file={file value: sample.csv} --fieldFile={file value: field.csv} --ignoreBlanks`
 
 - Display help:
 

@@ -5,11 +5,11 @@
 
 - Display QuickLook for one or multiple files:
 
-`qlmanage -p {any something} {any something}`
+`qlmanage -p {file value} {string value: filename2}`
 
 - Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory:
 
-`qlmanage {any something} -t -s {int number: 300} {directory something}`
+`qlmanage {string value: *.jpg} -t -s {int value: 300} {directory value}`
 
 - Reset QuickLook:
 

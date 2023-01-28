@@ -9,7 +9,7 @@
 
 - Specify the device to use (defaults to `video0`):
 
-`uvcdynctrl -d {any something}`
+`uvcdynctrl -d {string value: device_name}`
 
 - List available controls:
 
@@ -17,16 +17,16 @@
 
 - Set a new control value (for negative values, add -- before {{-value}}):
 
-`uvcdynctrl -s {any something} {any something}`
+`uvcdynctrl -s {string value: control_name} {string value: value}`
 
 - Get the current control value:
 
-`uvcdynctrl -g {any something}`
+`uvcdynctrl -g {string value: control_name}`
 
 - Save the state of the current controls to a file:
 
-`uvcdynctrl -W {any something}`
+`uvcdynctrl -W {file value}`
 
 - Load the state of the controls from a file:
 
-`uvcdynctrl -L {any something}`
+`uvcdynctrl -L {file value}`

@@ -5,20 +5,20 @@
 
 - Ping a host:
 
-`ping6 {any something}`
+`ping6 {string value: host}`
 
 - Ping a host only a specific number of times:
 
-`ping6 -c {any something} {any something}`
+`ping6 -c {string value: count} {string value: host}`
 
 - Ping a host, specifying the interval in seconds between requests (default is 1 second):
 
-`ping6 -i {any something} {any something}`
+`ping6 -i {string value: seconds} {string value: host}`
 
 - Ping a host without trying to lookup symbolic names for addresses:
 
-`ping6 -n {any something}`
+`ping6 -n {string value: host}`
 
 - Ping a host and ring the bell when a packet is received (if your terminal supports it):
 
-`ping6 -a {any something}`
+`ping6 -a {string value: host}`

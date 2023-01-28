@@ -9,16 +9,16 @@
 
 - Run a JavaScript file:
 
-`just {file something}`
+`just {file value: sample.js}`
 
 - Evaluate JavaScript code by passing it as an argument:
 
-`just eval "{any something}"`
+`just eval "{string value: code}"`
 
 - Initialize a new project in a directory of the same name:
 
-`just init {any something}`
+`just init {string value: project_name}`
 
 - Build a JavaScript application into an executable:
 
-`just build {file something} --static`
+`just build {file value: sample.js} --static`

@@ -9,4 +9,4 @@
 
 - Check if a given number is prime:
 
-`openssl prime {any something}`
+`openssl prime {string value: number}`

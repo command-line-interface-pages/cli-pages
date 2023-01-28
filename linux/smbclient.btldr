@@ -5,28 +5,28 @@
 
 - Connect to a share (user will be prompted for password; `exit` to quit the session):
 
-`smbclient {any something}`
+`smbclient {string value: //server/share}`
 
 - Connect with a different username:
 
-`smbclient {any something} --user {string user}`
+`smbclient {string value: //server/share} --user {string user}`
 
 - Connect with a different workgroup:
 
-`smbclient {any something} --workgroup {any something} --user {string user}`
+`smbclient {string value: //server/share} --workgroup {string value: domain} --user {string user}`
 
 - Connect with a username and password:
 
-`smbclient {any something} --user {any something}`
+`smbclient {string value: //server/share} --user {string value: username%password}`
 
 - Download a file from the server:
 
-`smbclient {any something} --directory {directory something} --command "get {file something}"`
+`smbclient {string value: //server/share} --directory {directory value} --command "get {file value: sample.txt}"`
 
 - Upload a file to the server:
 
-`smbclient {any something} --directory {directory something} --command "put {file something}"`
+`smbclient {string value: //server/share} --directory {directory value} --command "put {file value: sample.txt}"`
 
 - List the shares from a server anonymously:
 
-`smbclient --list={any something} --no-pass`
+`smbclient --list={string value: server} --no-pass`

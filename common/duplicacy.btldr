@@ -5,7 +5,7 @@
 
 - Use current directory as the repository, initialize a SFTP storage and encrypt the storage with a password:
 
-`duplicacy init -e {any something} {any something}`
+`duplicacy init -e {string value: snapshot_id} {string value: sftp://user@192.168.2.100/path/to/storage/}`
 
 - Save a snapshot of the repository to the default storage:
 
@@ -17,7 +17,7 @@
 
 - Restore the repository to a previously saved snapshot:
 
-`duplicacy restore -r {any something}`
+`duplicacy restore -r {string value: revision}`
 
 - Check the integrity of snapshots:
 
@@ -25,12 +25,12 @@
 
 - Add another storage to be used for the existing repository:
 
-`duplicacy add {any something} {any something} {any something}`
+`duplicacy add {string value: storage_name} {string value: snapshot_id} {string value: storage_url}`
 
 - Prune a specific revision of snapshot:
 
-`duplicacy prune -r {any something}`
+`duplicacy prune -r {string value: revision}`
 
 - Prune revisions, keeping one revision every `n` days for all revisions older than `m` days:
 
-`duplicacy prune -keep {any something}`
+`duplicacy prune -keep {string value: n:m}`

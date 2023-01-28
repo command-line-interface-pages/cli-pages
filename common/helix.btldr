@@ -6,11 +6,11 @@
 
 - Open a file:
 
-`helix {file something}`
+`helix {file value}`
 
 - Change the Helix theme:
 
-`:theme {any something}`
+`:theme {string value: theme_name}`
 
 - Save and Quit:
 
@@ -26,7 +26,7 @@
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`/{any something}<Enter>`
+`/{string value: search_pattern}<Enter>`
 
 - Format the file:
 

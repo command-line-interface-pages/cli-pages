@@ -5,12 +5,12 @@
 
 - Reproject a raster dataset:
 
-`gdalwarp -t_srs {any something} {any something} {any something}`
+`gdalwarp -t_srs {string value: EPSG:4326} {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Crop a raster dataset by using specific coordinates:
 
-`gdalwarp -te {any something} {any something} {any something} {any something} -te_srs {any something} {any something} {any something}`
+`gdalwarp -te {string value: min_x} {string value: min_y} {string value: max_x} {string value: max_y} -te_srs {string value: EPSG:4326} {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Crop a raster dataset using a vector layer:
 
-`gdalwarp -cutline {any something} -crop_to_cutline {any something} {any something}`
+`gdalwarp -cutline {string value: path/to/area_to_cut.geojson} -crop_to_cutline {string value: path/to/input.tif} {string value: path/to/output.tif}`

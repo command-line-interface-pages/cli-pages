@@ -5,28 +5,28 @@
 
 - Clone an existing repository into a specific directory (defaults to the repository name):
 
-`dolt clone {any something} {directory something}`
+`dolt clone {string value: repository_url} {directory value}`
 
 - Clone an existing repository and add a specific remote (defaults to origin):
 
-`dolt clone --remote {any something} {any something}`
+`dolt clone --remote {string value: remote_name} {string value: repository_url}`
 
 - Clone an existing repository only fetching a specific branch (defaults to all branches):
 
-`dolt clone --branch {any something} {any something}`
+`dolt clone --branch {string value: branch_name} {string value: repository_url}`
 
 - Clone a repository, using an AWS region (uses the profile's default region if none is provided):
 
-`dolt clone --aws-region {any something} {any something}`
+`dolt clone --aws-region {string value: region_name} {string value: repository_url}`
 
 - Clone a repository, using an AWS credentials file:
 
-`dolt clone --aws-creds-file {file something: credentials} {any something}`
+`dolt clone --aws-creds-file {file value: credentials} {string value: repository_url}`
 
 - Clone a repository, using an AWS credentials profile (uses the default profile if none is provided):
 
-`dolt clone --aws-creds-profile {any something} {any something}`
+`dolt clone --aws-creds-profile {string value: profile_name} {string value: repository_url}`
 
 - Clone a repository, using an AWS credentials type:
 
-`dolt clone --aws-creds-type {any something} {any something}`
+`dolt clone --aws-creds-type {string value: credentials_type} {string value: repository_url}`

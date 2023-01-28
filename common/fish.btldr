@@ -13,19 +13,19 @@
 
 - Execute specific commands:
 
-`fish --command "{any something}"`
+`fish --command "{string value: echo 'fish is executed'}"`
 
 - Execute a specific script:
 
-`fish {any something}`
+`fish {string value: path/to/script.fish}`
 
 - Check a specific script for syntax errors:
 
-`fish --no-execute {any something}`
+`fish --no-execute {string value: path/to/script.fish}`
 
 - Execute specific commands from stdin:
 
-`{any something} | fish`
+`{string value: echo "echo 'fish is executed'"} | fish`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
@@ -33,4 +33,4 @@
 
 - Define and export an environmental variable that persists across shell restarts (builtin):
 
-`set --universal --export {any something} {any something}`
+`set --universal --export {string value: variable_name} {string value: variable_value}`

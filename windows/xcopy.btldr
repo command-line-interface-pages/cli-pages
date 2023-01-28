@@ -5,31 +5,31 @@
 
 - Copy the file(s) to the specified destination:
 
-`xcopy {file something|path something} {any something}`
+`xcopy {path value} {string value: path/to/destination}`
 
 - List files that will be copied before copying:
 
-`xcopy {file something|path something} {any something} /p`
+`xcopy {path value} {string value: path/to/destination} /p`
 
 - Copy the directory structure only, excluding files:
 
-`xcopy {file something|path something} {any something} /t`
+`xcopy {path value} {string value: path/to/destination} /t`
 
 - Include empty directories when copying:
 
-`xcopy {file something|path something} {any something} /e`
+`xcopy {path value} {string value: path/to/destination} /e`
 
 - Keep the source ACL in the destination:
 
-`xcopy {file something|path something} {any something} /o`
+`xcopy {path value} {string value: path/to/destination} /o`
 
 - Allow resuming when network connection is lost:
 
-`xcopy {file something|path something} {any something} /z`
+`xcopy {path value} {string value: path/to/destination} /z`
 
 - Disable the prompt when the file exists in the destination:
 
-`xcopy {file something|path something} {any something} /y`
+`xcopy {path value} {string value: path/to/destination} /y`
 
 - Display detailed usage information:
 

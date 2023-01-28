@@ -6,20 +6,20 @@
 
 - Apply a patch using a diff file (filenames must be included in the diff file):
 
-`patch < {any something}`
+`patch < {string value: patch.diff}`
 
 - Apply a patch to a specific file:
 
-`patch {file something} < {any something}`
+`patch {file value} < {string value: patch.diff}`
 
 - Patch a file writing the result to a different file:
 
-`patch {file something: input} -o {file something: output} < {any something}`
+`patch {file value: input} -o {file value: output} < {string value: patch.diff}`
 
 - Apply a patch to the current directory:
 
-`patch -p1 < {any something}`
+`patch -p1 < {string value: patch.diff}`
 
 - Apply the reverse of a patch:
 
-`patch -R < {any something}`
+`patch -R < {string value: patch.diff}`

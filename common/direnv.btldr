@@ -5,15 +5,15 @@
 
 - Grant direnv permission to load the `.envrc` present in the current directory:
 
-`direnv allow {any something}`
+`direnv allow {string value: .}`
 
 - Revoke the authorization to load the `.envrc` present in the current directory:
 
-`direnv deny {any something}`
+`direnv deny {string value: .}`
 
 - Edit the `.envrc` file in the default text editor and reload the environment on exit:
 
-`direnv edit {any something}`
+`direnv edit {string value: .}`
 
 - Trigger a reload of the environment:
 

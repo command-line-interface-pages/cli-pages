@@ -6,19 +6,19 @@
 
 - Combine several graph layouts (that already have layout information):
 
-`gvpack {any something} {any something} > {any something}`
+`gvpack {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Combine several graph layouts at the graph level, keeping graphs separate:
 
-`gvpack -g {any something} {any something} > {any something}`
+`gvpack -g {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Combine several graph layouts at the node level, ignoring clusters:
 
-`gvpack -n {any something} {any something} > {any something}`
+`gvpack -n {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Combine several graph layouts without packing:
 
-`gvpack -u {any something} {any something} > {any something}`
+`gvpack -u {string value: path/to/layout1.gv} {string value: path/to/layout2.gv ...} > {string value: path/to/output.gv}`
 
 - Display help for `gvpack`:
 

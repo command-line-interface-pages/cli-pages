@@ -9,20 +9,20 @@
 
 - Create a NixOS container with a specific configuration file:
 
-`sudo nixos-container create {any something} --config-file {any something}`
+`sudo nixos-container create {string value: container_name} --config-file {string value: nix_config_file_path}`
 
 - Start, stop, terminate, or destroy a specific container:
 
-`sudo nixos-container {any something} {any something}`
+`sudo nixos-container {string value: start|stop|terminate|destroy|status} {string value: container_name}`
 
 - Run a command in a running container:
 
-`sudo nixos-container run {any something} -- {any something} {any something}`
+`sudo nixos-container run {string value: container_name} -- {string value: command} {string value: command_arguments}`
 
 - Update a container configuration:
 
-`sudo $EDITOR /var/lib/container/{any something}/etc/nixos/configuration.nix && sudo nixos-container update {any something}`
+`sudo $EDITOR /var/lib/container/{string value: container_name}/etc/nixos/configuration.nix && sudo nixos-container update {string value: container_name}`
 
 - Enter an interactive shell session on an already-running container:
 
-`sudo nixos-container root-login {any something}`
+`sudo nixos-container root-login {string value: container_name}`

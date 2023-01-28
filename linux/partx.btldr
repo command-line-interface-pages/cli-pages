@@ -5,12 +5,12 @@
 
 - List the partitions on a block device or disk image:
 
-`sudo partx --list {any something}`
+`sudo partx --list {string value: path/to/device_or_disk_image}`
 
 - Add all the partitions found in a given block device to the kernel:
 
-`sudo partx --add --verbose {any something}`
+`sudo partx --add --verbose {string value: path/to/device_or_disk_image}`
 
 - Delete all the partitions found from the kernel (does not alter partitions on disk):
 
-`sudo partx --delete {any something}`
+`sudo partx --delete {string value: path/to/device_or_disk_image}`

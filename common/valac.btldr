@@ -6,7 +6,7 @@
 
 - Compile a vala file, with gtk+:
 
-`valac {file something} --pkg {any something}`
+`valac {file value: sample.vala} --pkg {string value: gtk+-3.0}`
 
 - Display version info:
 

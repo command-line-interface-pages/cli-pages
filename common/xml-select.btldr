@@ -6,19 +6,19 @@
 
 - Select all elements matching "XPATH1" and print the value of their sub-element "XPATH2":
 
-`xml select --template --match "{any something}" --value-of "{any something}" {any something}`
+`xml select --template --match "{string value: XPATH1}" --value-of "{string value: XPATH2}" {string value: path/to/input.xml|URI}`
 
 - Match  "XPATH1" and print the value of "XPATH2" as text with new-lines:
 
-`xml select --text --template --match "{any something}" --value-of "{any something}" --nl {any something}`
+`xml select --text --template --match "{string value: XPATH1}" --value-of "{string value: XPATH2}" --nl {string value: path/to/input.xml|URI}`
 
 - Count the elements of "XPATH1":
 
-`xml select --template --value-of "count({any something})" {any something}`
+`xml select --template --value-of "count({string value: XPATH1})" {string value: path/to/input.xml|URI}`
 
 - Count all nodes in one or more XML documents:
 
-`xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {any something} {any something}`
+`xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {string value: path/to/input1.xml|URI} {string value: path/to/input2.xml|URI}`
 
 - Display help for the `select` subcommand:
 

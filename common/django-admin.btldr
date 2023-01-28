@@ -5,11 +5,11 @@
 
 - Create a new Django project:
 
-`django-admin startproject {any something}`
+`django-admin startproject {string value: project_name}`
 
 - Create a new app for the current project:
 
-`django-admin startapp {any something}`
+`django-admin startapp {string value: app_name}`
 
 - Check the current version of Django:
 
@@ -17,4 +17,4 @@
 
 - Display more information for the given command:
 
-`django-admin help {any something}`
+`django-admin help {string value: command}`

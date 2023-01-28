@@ -9,12 +9,12 @@
 
 - Display commands executed by a given user:
 
-`lastcomm --user {any something}`
+`lastcomm --user {string value: user}`
 
 - Display information about a given command executed on the system:
 
-`lastcomm --command {any something}`
+`lastcomm --command {string value: command}`
 
 - Display information about commands executed on a given terminal:
 
-`lastcomm --tty {any something}`
+`lastcomm --tty {string value: terminal_name}`

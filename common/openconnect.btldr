@@ -5,11 +5,11 @@
 
 - Connect to a server:
 
-`openconnect {any something}`
+`openconnect {string value: vpn.example.org}`
 
 - Connect to a server, forking into the background:
 
-`openconnect --background {any something}`
+`openconnect --background {string value: vpn.example.org}`
 
 - Terminate the connection that is running in the background:
 
@@ -17,8 +17,8 @@
 
 - Connect to a server, reading options from a config file:
 
-`openconnect --config={file something} {any something}`
+`openconnect --config={file value} {string value: vpn.example.org}`
 
 - Connect to a server and authenticate with a specific SSL client certificate:
 
-`openconnect --certificate={file something} {any something}`
+`openconnect --certificate={file value} {string value: vpn.example.org}`

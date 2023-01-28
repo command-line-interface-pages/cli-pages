@@ -9,12 +9,12 @@
 
 - Check for breaking changes since a specific tag:
 
-`roave-backward-compatibility-check --from={any something}`
+`roave-backward-compatibility-check --from={string value: git_reference}`
 
 - Check for breaking changes between the last tag and a specific reference:
 
-`roave-backward-compatibility-check --to={any something}`
+`roave-backward-compatibility-check --to={string value: git_reference}`
 
 - Check for breaking changes and output to Markdown:
 
-`roave-backward-compatibility-check --format=markdown > {any something}`
+`roave-backward-compatibility-check --format=markdown > {string value: results.md}`

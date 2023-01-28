@@ -9,20 +9,20 @@
 
 - While in a `yacas` session, execute a statement:
 
-`{any something};`
+`{string value: Integrate(x)Cos(x)};`
 
 - While in a `yacas` session, display an example:
 
-`{any something};`
+`{string value: Example()};`
 
 - Quit from a `yacas` session:
 
-`{any something}`
+`{string value: quit}`
 
 - Execute one or more `yacas` scripts (without terminal or prompts), then exit:
 
-`yacas -p -c {any something} {any something}`
+`yacas -p -c {string value: path/to/script1} {string value: path/to/script2}`
 
 - Execute and print the result of one statement, then exit:
 
-`echo "{any something}" | yacas -p -c /dev/stdin`
+`echo "{string value: Echo( Deriv(x)Cos(1/x) );}" | yacas -p -c /dev/stdin`

@@ -9,12 +9,12 @@
 
 - Connect with a specified username and password:
 
-`mytop -u {any something} -p {any something}`
+`mytop -u {string value: user} -p {string value: password}`
 
 - Connect with a specified username (the user will be prompted for a password):
 
-`mytop -u {any something} --prompt`
+`mytop -u {string value: user} --prompt`
 
 - Do not show any idle (sleeping) threads:
 
-`mytop -u {any something} -p {any something} --noidle`
+`mytop -u {string value: user} -p {string value: password} --noidle`

@@ -13,4 +13,4 @@
 
 - Set the console foreground and background to a specific color using hexadecimal numbers (`1-9,a-f`):
 
-`color {any something}{any something}`
+`color {string value: foreground_code}{string value: background_code}`

@@ -5,8 +5,8 @@
 
 - Advertise/Disable SSH on the host:
 
-`sudo tailscale up --ssh={any something}`
+`sudo tailscale up --ssh={string value: true|false}`
 
 - SSH to a specific host which has Tailscale-SSH enabled:
 
-`tailscale ssh {string user}@{any something}`
+`tailscale ssh {string user}@{string value: host}`

@@ -5,15 +5,15 @@
 
 - Index paths recursively for the very first run:
 
-`scd -ar {directory something}`
+`scd -ar {directory value}`
 
 - Change to a specific directory:
 
-`scd {directory something}`
+`scd {directory value}`
 
 - Change to a path matching specific patterns:
 
-`scd "{any something}"`
+`scd "{string value: pattern1 pattern2 ...}"`
 
 - Show selection menu and ranking of 20 most likely directories:
 
@@ -21,8 +21,8 @@
 
 - Add a specific alias for the current directory:
 
-`scd --alias={any something}`
+`scd --alias={string value: word}`
 
 - Change to a directory using a specific alias:
 
-`scd {any something}`
+`scd {string value: word}`

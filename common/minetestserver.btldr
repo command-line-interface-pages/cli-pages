@@ -14,7 +14,7 @@
 
 - Specify the world name to load:
 
-`minetestserver --world {any something}`
+`minetestserver --world {string value: world_name}`
 
 - List the available game IDs:
 
@@ -22,15 +22,15 @@
 
 - Specify a game to use:
 
-`minetestserver --gameid {any something}`
+`minetestserver --gameid {string value: game_id}`
 
 - Listen on a specific port:
 
-`minetestserver --port {int number: 34567}`
+`minetestserver --port {int value: 34567}`
 
 - Migrate to a different data backend:
 
-`minetestserver --migrate {any something}`
+`minetestserver --migrate {string value: sqlite3|leveldb|redis}`
 
 - Start an interactive terminal after starting the server:
 

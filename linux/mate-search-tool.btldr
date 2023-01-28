@@ -5,24 +5,24 @@
 
 - Search files containing a specific string in their name in a specific directory:
 
-`mate-search-tool --named={any something} --path={directory something}`
+`mate-search-tool --named={string value: string} --path={directory value}`
 
 - Search files without waiting a user confirmation:
 
-`mate-search-tool --start --named={any something} --path={directory something}`
+`mate-search-tool --start --named={string value: string} --path={directory value}`
 
 - Search files with name matching a specific regular expression:
 
-`mate-search-tool --start --regex={any something} --path={directory something}`
+`mate-search-tool --start --regex={string value: string} --path={directory value}`
 
 - Set a sorting order in search results:
 
-`mate-search-tool --start --named={any something} --path={directory something} --sortby={any something}`
+`mate-search-tool --start --named={string value: string} --path={directory value} --sortby={string value: name|folder|size|type|date}`
 
 - Set a descending sorting order:
 
-`mate-search-tool --start --named={any something} --path={directory something} --descending`
+`mate-search-tool --start --named={string value: string} --path={directory value} --descending`
 
 - Search files owned by a specific user/group:
 
-`mate-search-tool --start --{any something}={any something} --path={directory something}`
+`mate-search-tool --start --{string value: user|group}={string value: value} --path={directory value}`

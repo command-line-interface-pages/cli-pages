@@ -5,16 +5,16 @@
 
 - Convert a raster dataset to JPEG format:
 
-`gdal_translate -of {any something} {any something} {any something}`
+`gdal_translate -of {string value: JPEG} {string value: path/to/input.tif} {string value: path/to/output.jpeg}`
 
 - Assign a projection to a raster dataset:
 
-`gdal_translate -a_srs {any something} {any something} {any something}`
+`gdal_translate -a_srs {string value: EPSG:4326} {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Reduce the size of a raster dataset to a specific fraction:
 
-`gdal_translate -outsize {any something} {any something} {any something} {any something}`
+`gdal_translate -outsize {string value: 40%} {string value: 40%} {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Convert a GeoTiff to a Cloud Optimized GeoTiff:
 
-`gdal_translate {any something} {any something} -of COG -co COMPRESS=LZW`
+`gdal_translate {string value: path/to/input.tif} {string value: path/to/output.tif} -of COG -co COMPRESS=LZW`

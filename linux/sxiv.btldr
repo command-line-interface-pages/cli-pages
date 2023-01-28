@@ -5,20 +5,20 @@
 
 - Open an image:
 
-`sxiv {file something}`
+`sxiv {file value}`
 
 - Open an image in fullscreen mode:
 
-`sxiv -f {file something}`
+`sxiv -f {file value}`
 
 - Open a newline-separated list of images, reading filenames from stdin:
 
-`echo {file something} | sxiv -i`
+`echo {file value} | sxiv -i`
 
 - Open a space-separated list of images as a slideshow:
 
-`sxiv -S {any something} {file something}`
+`sxiv -S {string value: seconds} {file value}`
 
 - Open a space-separated list of images in thumbnail mode:
 
-`sxiv -t {file something}`
+`sxiv -t {file value}`

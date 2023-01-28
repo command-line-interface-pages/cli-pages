@@ -10,7 +10,7 @@
 
 - Open alpine directly to the message composition screen to send an email to a given email address:
 
-`alpine {any something}`
+`alpine {string value: email@example.net}`
 
 - Quit alpine:
 

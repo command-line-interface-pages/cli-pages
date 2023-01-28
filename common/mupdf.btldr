@@ -5,28 +5,28 @@
 
 - Open a PDF on the first page:
 
-`mupdf {file something}`
+`mupdf {file value}`
 
 - Open a PDF on page 3:
 
-`mupdf {file something} {int number: 3}`
+`mupdf {file value} {int value: 3}`
 
 - Open a password secured PDF:
 
-`mupdf -p {any something} {file something}`
+`mupdf -p {string value: password} {file value}`
 
 - Open a PDF with an initial zoom level, specified as DPI, of 72:
 
-`mupdf -r {int number: 72} {file something}`
+`mupdf -r {int value: 72} {file value}`
 
 - Open a PDF with inverted color:
 
-`mupdf -I {file something}`
+`mupdf -I {file value}`
 
 - Open a PDF tinted red #FF0000 (hexadecimal color syntax RRGGBB):
 
-`mupdf -C {any something}`
+`mupdf -C {string value: FF0000}`
 
 - Open a PDF without anti-aliasing (0 = off, 8 = best):
 
-`mupdf -A {int number: 0}`
+`mupdf -A {int value: 0}`

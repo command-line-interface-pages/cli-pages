@@ -6,16 +6,16 @@
 
 - Print indices and names of all columns:
 
-`csvcut -n {any something}`
+`csvcut -n {string value: data.csv}`
 
 - Extract the first and third columns:
 
-`csvcut -c {any something} {any something}`
+`csvcut -c {string value: 1,3} {string value: data.csv}`
 
 - Extract all columns **except** the fourth one:
 
-`csvcut -C {int number: 4} {any something}`
+`csvcut -C {int value: 4} {string value: data.csv}`
 
 - Extract the columns named "id" and "first name" (in that order):
 
-`csvcut -c {any something} {any something}`
+`csvcut -c {string value: id,"first name"} {string value: data.csv}`

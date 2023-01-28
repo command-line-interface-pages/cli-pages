@@ -5,11 +5,11 @@
 
 - Open specific files:
 
-`kate {any something}`
+`kate {file* value}`
 
 - Open specific remote files:
 
-`kate {any something}`
+`kate {string value: https://example.com/path/to/file1 https://example.com/path/to/file2 ...}`
 
 - Create a new editor instance even if one is already open:
 
@@ -17,15 +17,15 @@
 
 - Open a file with the cursor at the specific line:
 
-`kate --line {any something} {file something}`
+`kate --line {string value: line_number} {file value}`
 
 - Open a file with the cursor at the specific line and column:
 
-`kate --line {any something} --column {any something} {file something}`
+`kate --line {string value: line_number} --column {string value: column_number} {file value}`
 
 - Create a file from stdin:
 
-`cat {file something} | kate --stdin`
+`cat {file value} | kate --stdin`
 
 - Display help:
 

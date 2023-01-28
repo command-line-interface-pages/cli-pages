@@ -9,12 +9,12 @@
 
 - Report a bug about a specific package:
 
-`apport-bug {any something}`
+`apport-bug {string value: package}`
 
 - Report a bug about a specific executable:
 
-`apport-bug {any something}`
+`apport-bug {string value: path/to/executable}`
 
 - Report a bug about a specific process:
 
-`apport-bug {any something}`
+`apport-bug {string value: PID}`

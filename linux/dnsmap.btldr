@@ -5,16 +5,16 @@
 
 - Scan for subdomains using the internal wordlist:
 
-`dnsmap {any something}`
+`dnsmap {string value: example.com}`
 
 - Specify a list of subdomains to check for:
 
-`dnsmap {any something} -w {any something}`
+`dnsmap {string value: example.com} -w {string value: path/to/wordlist.txt}`
 
 - Store results to a CSV file:
 
-`dnsmap {any something} -c {file something}`
+`dnsmap {string value: example.com} -c {file value: sample.csv}`
 
 - Ignore 2 IPs that are false positives (up to 5 possible):
 
-`dnsmap {any something} -i {any something}`
+`dnsmap {string value: example.com} -i {string value: 123.45.67.89,98.76.54.32}`

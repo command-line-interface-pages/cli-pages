@@ -5,32 +5,32 @@
 
 - Watch a specific file for events, exiting after the first one:
 
-`inotifywait {file something}`
+`inotifywait {file value}`
 
 - Continuously watch a specific file for events without exiting:
 
-`inotifywait --monitor {file something}`
+`inotifywait --monitor {file value}`
 
 - Watch a directory recursively for events:
 
-`inotifywait --monitor --recursive {directory something}`
+`inotifywait --monitor --recursive {directory value}`
 
 - Watch a directory for changes, excluding files, whose names match a regular expression:
 
-`inotifywait --monitor --recursive --exclude "{any something}" {directory something}`
+`inotifywait --monitor --recursive --exclude "{string value: regular_expression}" {directory value}`
 
 - Watch a file for changes, exiting when no event occurs for 30 seconds:
 
-`inotifywait --monitor --timeout {int number: 30} {file something}`
+`inotifywait --monitor --timeout {int value: 30} {file value}`
 
 - Only watch a file for file modification events:
 
-`inotifywait --event {any something} {file something}`
+`inotifywait --event {string value: modify} {file value}`
 
 - Watch a file printing only events, and no status messages:
 
-`inotifywait --quiet {file something}`
+`inotifywait --quiet {file value}`
 
 - Run a command when a file is accessed:
 
-`inotifywait --event {any something} {file something} && {any something}`
+`inotifywait --event {string value: access} {file value} && {string value: command}`

@@ -5,11 +5,11 @@
 
 - Add the current node to an existing cluster:
 
-`pvecm add {any something}`
+`pvecm add {string value: hostname_or_ip}`
 
 - Add a node to the cluster configuration (internal use):
 
-`pvecm addnode {any something}`
+`pvecm addnode {string value: node}`
 
 - Return the version of the cluster join API available on this node:
 
@@ -17,11 +17,11 @@
 
 - Generate new cluster configuration:
 
-`pvecm create {any something}`
+`pvecm create {string value: clustername}`
 
 - Remove a node from the cluster configuration:
 
-`pvecm delnode {any something}`
+`pvecm delnode {string value: node}`
 
 - Display the local view of the cluster nodes:
 

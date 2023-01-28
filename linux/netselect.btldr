@@ -5,19 +5,19 @@
 
 - Choose the server with the lowest latency:
 
-`sudo netselect {any something} {any something}`
+`sudo netselect {string value: host_1} {string value: host_2}`
 
 - Display nameserver resolution and statistics:
 
-`sudo netselect -vv {any something} {any something}`
+`sudo netselect -vv {string value: host_1} {string value: host_2}`
 
 - Define maximum TTL (time to live):
 
-`sudo netselect -m {int number: 10} {any something} {any something}`
+`sudo netselect -m {int value: 10} {string value: host_1} {string value: host_2}`
 
 - Print fastest N servers among the hosts:
 
-`sudo netselect -s {any something} {any something} {any something} {any something}`
+`sudo netselect -s {string value: N} {string value: host_1} {string value: host_2} {string value: host_3}`
 
 - List available options:
 

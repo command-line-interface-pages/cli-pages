@@ -6,20 +6,20 @@
 
 - Copy unstaged files to a specific remote:
 
-`git scp {any something}`
+`git scp {string value: remote_name}`
 
 - Copy staged and unstaged files to a remote:
 
-`git scp {any something} HEAD`
+`git scp {string value: remote_name} HEAD`
 
 - Copy files that has been changed in the last commit and any staged or unstaged files to a remote:
 
-`git scp {any something} HEAD~1`
+`git scp {string value: remote_name} HEAD~1`
 
 - Copy specific files to a remote:
 
-`git scp {any something} {any something}`
+`git scp {string value: remote_name} {file* value}`
 
 - Copy a specific directory to a remote:
 
-`git scp {any something} {directory something}`
+`git scp {string value: remote_name} {directory value}`

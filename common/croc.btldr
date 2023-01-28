@@ -5,23 +5,23 @@
 
 - Send a file or directory:
 
-`croc send {file something|path something}`
+`croc send {path value}`
 
 - Send a file or directory with a specific passphrase:
 
-`croc send --code {any something} {file something|path something}`
+`croc send --code {string value: passphrase} {path value}`
 
 - Receive a file or directory on receiving machine:
 
-`croc {any something}`
+`croc {string value: passphrase}`
 
 - Send and connect over a custom relay:
 
-`croc --relay {any something} send {file something|path something}`
+`croc --relay {string value: ip_to_relay} send {path value}`
 
 - Receive and connect over a custom relay:
 
-`croc --relay {any something} {any something}`
+`croc --relay {string value: ip_to_relay} {string value: passphrase}`
 
 - Host a croc relay on the default ports:
 
@@ -29,4 +29,4 @@
 
 - Display parameters and options for a croc command:
 
-`croc {any something} --help`
+`croc {string value: send|relay} --help`

@@ -5,12 +5,12 @@
 
 - Remove an empty directory:
 
-`rmdir {directory something}`
+`rmdir {directory value}`
 
 - Remove a directory and its contents recursively:
 
-`rmdir {directory something} /s`
+`rmdir {directory value} /s`
 
 - Remove a directory and its contents recursively without prompting:
 
-`rmdir {directory something} /s /q`
+`rmdir {directory value} /s /q`

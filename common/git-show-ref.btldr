@@ -17,4 +17,4 @@
 
 - Verify that a given reference exists:
 
-`git show-ref --verify {any something}`
+`git show-ref --verify {string value: path/to/ref}`

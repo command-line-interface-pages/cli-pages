@@ -13,24 +13,24 @@
 
 - Run tests using the specified configuration file:
 
-`atoum -c {file something}`
+`atoum -c {file value}`
 
 - Run a specific test file:
 
-`atoum -f {file something}`
+`atoum -f {file value}`
 
 - Run a specific directory of tests:
 
-`atoum -d {directory something}`
+`atoum -d {directory value}`
 
 - Run all tests under a specific namespace:
 
-`atoum -ns {any something}`
+`atoum -ns {string value: namespace}`
 
 - Run all tests with a specific tag:
 
-`atoum -t {any something}`
+`atoum -t {string value: tag}`
 
 - Load a custom bootstrap file before running tests:
 
-`atoum --bootstrap-file {file something}`
+`atoum --bootstrap-file {file value}`

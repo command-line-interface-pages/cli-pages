@@ -5,16 +5,16 @@
 
 - Display the partition table stored in an image file:
 
-`mmls {file something: image}`
+`mmls {file value: image}`
 
 - Display the partition table with an additional column for the partition size:
 
-`mmls -B -i {file something: image}`
+`mmls -B -i {file value: image}`
 
 - Display the partition table in a split EWF image:
 
-`mmls -i ewf {any something} {any something}`
+`mmls -i ewf {string value: image.e01} {string value: image.e02}`
 
 - Display nested partition tables:
 
-`mmls -t {any something} -o {any something} {file something: image}`
+`mmls -t {string value: nested_table_type} -o {string value: offset} {file value: image}`

@@ -5,24 +5,24 @@
 
 - Load-test "example.com" with web interface using locustfile.py:
 
-`locust --host={any something}`
+`locust --host={string value: http://example.com}`
 
 - Use a different test file:
 
-`locust --locustfile={file something: test} --host={any something}`
+`locust --locustfile={file value: test.py} --host={string value: http://example.com}`
 
 - Run test without web interface, spawning 1 user a second until there are 100 users:
 
-`locust --no-web --clients={int number: 100} --hatch-rate={int number: 1} --host={any something}`
+`locust --no-web --clients={int value: 100} --hatch-rate={int value: 1} --host={string value: http://example.com}`
 
 - Start locust in master mode:
 
-`locust --master --host={any something}`
+`locust --master --host={string value: http://example.com}`
 
 - Connect locust slave to master:
 
-`locust --slave --host={any something}`
+`locust --slave --host={string value: http://example.com}`
 
 - Connect locust slave to master on a different machine:
 
-`locust --slave --master-host={any something} --host={any something}`
+`locust --slave --master-host={string value: master_hostname} --host={string value: http://example.com}`

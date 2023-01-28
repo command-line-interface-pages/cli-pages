@@ -5,32 +5,32 @@
 
 - Print the lines where a specific column is numerically equal to a given number:
 
-`tsv-filter -H --eq {any something}:{any something} {file something: tsv}`
+`tsv-filter -H --eq {string value: field_name}:{string value: number} {file value: tsv}`
 
 - Print the lines where a specific column is [eq]ual/[n]on [e]qual/[l]ess [t]han/[l]ess than or [e]qual/[g]reater [t]han/[g]reater than or [e]qual to a given number:
 
-`tsv-filter --{any something} {any something}:{any something} {file something: tsv}`
+`tsv-filter --{string value: eq|ne|lt|le|gt|ge} {string value: column_number}:{string value: number} {file value: tsv}`
 
 - Print the lines where a specific column is [eq]ual/[n]ot [e]qual/part of/not part of a given string:
 
-`tsv-filter --str-{any something} {any something}:{any something} {file something: tsv}`
+`tsv-filter --str-{string value: eq|ne|in-fld|not-in-fld} {string value: column_number}:{string value: string} {file value: tsv}`
 
 - Filter for non-empty fields:
 
-`tsv-filter --not-empty {any something} {file something: tsv}`
+`tsv-filter --not-empty {string value: column_number} {file value: tsv}`
 
 - Print the lines where a specific column is empty:
 
-`tsv-filter --invert --not-empty {any something} {file something: tsv}`
+`tsv-filter --invert --not-empty {string value: column_number} {file value: tsv}`
 
 - Print the lines that satisfy two conditions:
 
-`tsv-filter --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: tsv}`
+`tsv-filter --eq {string value: column_number1}:{string value: number} --str-eq {string value: column_number2}:{string value: string} {file value: tsv}`
 
 - Print the lines that match at least one condition:
 
-`tsv-filter --or --eq {any something}:{any something} --str-eq {any something}:{any something} {file something: tsv}`
+`tsv-filter --or --eq {string value: column_number1}:{string value: number} --str-eq {string value: column_number2}:{string value: string} {file value: tsv}`
 
 - Count matching lines, interpreting first line as a [H]eader:
 
-`tsv-filter --count -H --eq {any something}:{any something} {file something: tsv}`
+`tsv-filter --count -H --eq {string value: field_name}:{string value: number} {file value: tsv}`

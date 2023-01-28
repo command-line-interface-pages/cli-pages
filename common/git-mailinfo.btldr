@@ -5,12 +5,12 @@
 
 - Extract the patch and author data from an email message:
 
-`git mailinfo {any something}`
+`git mailinfo {string value: message|patch}`
 
 - Extract but remove leading and trailing whitespace:
 
-`git mailinfo -k {any something}`
+`git mailinfo -k {string value: message|patch}`
 
 - Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message or patch:
 
-`git mailinfo --scissors {any something}`
+`git mailinfo --scissors {string value: message|patch}`

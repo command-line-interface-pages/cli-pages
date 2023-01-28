@@ -5,8 +5,8 @@
 
 - Enable a virtual host:
 
-`sudo a2ensite {any something}`
+`sudo a2ensite {string value: virtual_host}`
 
 - Don't show informative messages:
 
-`sudo a2ensite --quiet {any something}`
+`sudo a2ensite --quiet {string value: virtual_host}`

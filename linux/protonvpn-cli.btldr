@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`protonvpn-cli {any something} --help`
+`protonvpn-cli {string value: subcommand} --help`

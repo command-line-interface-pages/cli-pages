@@ -5,12 +5,12 @@
 
 - Specify a config file:
 
-`mongod --config {file something}`
+`mongod --config {file value}`
 
 - Specify the port to listen on:
 
-`mongod --port {any something}`
+`mongod --port {string value: port}`
 
 - Specify database profiling level. 0 is off, 1 is only slow operations, 2 is all:
 
-`mongod --profile {any something}`
+`mongod --profile {string value: 0|1|2}`

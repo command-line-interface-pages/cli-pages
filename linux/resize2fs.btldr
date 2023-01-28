@@ -6,12 +6,12 @@
 
 - Automatically resize a filesystem:
 
-`resize2fs {any something}`
+`resize2fs {string value: /dev/sdXN}`
 
 - Resize the filesystem to a size of 40G, displaying a progress bar:
 
-`resize2fs -p {any something} {any something}`
+`resize2fs -p {string value: /dev/sdXN} {string value: 40G}`
 
 - Shrink the filesystem to its minimum possible size:
 
-`resize2fs -M {any something}`
+`resize2fs -M {string value: /dev/sdXN}`

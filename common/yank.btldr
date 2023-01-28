@@ -5,16 +5,16 @@
 
 - Yank using the default delimiters (\f, \n, \r, \s, \t):
 
-`{any something} | yank`
+`{string value: sudo dmesg} | yank`
 
 - Yank an entire line:
 
-`{any something} | yank -l`
+`{string value: sudo dmesg} | yank -l`
 
 - Yank using a specific delimiter:
 
-`{any something} | yank -d {any something}`
+`{string value: echo hello=world} | yank -d {string value: =}`
 
 - Only yank fields matching a specific pattern:
 
-`{any something} | yank -g "{any something}"`
+`{string value: ps ux} | yank -g "{string value: [0-9]+}"`

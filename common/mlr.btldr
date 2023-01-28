@@ -5,7 +5,7 @@
 
 - Pretty-print a CSV file in a tabular format:
 
-`mlr --icsv --opprint cat {any something}`
+`mlr --icsv --opprint cat {string value: example.csv}`
 
 - Receive JSON data and pretty print the output:
 
@@ -13,15 +13,15 @@
 
 - Sort alphabetically on a field:
 
-`mlr --icsv --opprint sort -f {any something} {any something}`
+`mlr --icsv --opprint sort -f {string value: field} {string value: example.csv}`
 
 - Sort in descending numerical order on a field:
 
-`mlr --icsv --opprint sort -nr {any something} {any something}`
+`mlr --icsv --opprint sort -nr {string value: field} {string value: example.csv}`
 
 - Convert CSV to JSON, performing calculations and display those calculations:
 
-`mlr --icsv --ojson put '${any something} = ${any something}/${any something}' {any something}`
+`mlr --icsv --ojson put '${string value: newField1} = ${string value: oldFieldA}/${string value: oldFieldB}' {string value: example.csv}`
 
 - Receive JSON and format the output as vertical JSON:
 
@@ -29,4 +29,4 @@
 
 - Filter lines of a compressed CSV file treating numbers as strings:
 
-`mlr --prepipe 'gunzip' --csv filter -S '${any something} =~ "{any something}"' {any something}`
+`mlr --prepipe 'gunzip' --csv filter -S '${string value: fieldName} =~ "{string value: regular_expression}"' {string value: example.csv.gz}`

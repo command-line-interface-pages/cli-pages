@@ -10,24 +10,24 @@
 
 - Start a new Remote Agent with a specific name and share it with friends:
 
-`pio remote agent start --name {any something} --share {any something} --share {any something}`
+`pio remote agent start --name {string value: agent_name} --share {string value: example1@example.com} --share {string value: example2@example.com}`
 
 - List devices from specified Agents (omit `--agent` to specify all Agents):
 
-`pio remote --agent {any something} --agent {any something} device list`
+`pio remote --agent {string value: agent_name1} --agent {string value: agent_name2} device list`
 
 - Connect to the serial port of a remote device:
 
-`pio remote --agent {any something} device monitor`
+`pio remote --agent {string value: agent_name} device monitor`
 
 - Run all targets on a specified Agent:
 
-`pio remote --agent {any something} run`
+`pio remote --agent {string value: agent_name} run`
 
 - Update installed core packages, development platforms and global libraries on a specific Agent:
 
-`pio remote --agent {any something} update`
+`pio remote --agent {string value: agent_name} update`
 
 - Run all tests in all environments on a specific Agent:
 
-`pio remote --agent {any something} test`
+`pio remote --agent {string value: agent_name} test`

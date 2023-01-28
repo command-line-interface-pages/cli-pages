@@ -5,8 +5,8 @@
 
 - Run a Go file:
 
-`go run {file something}`
+`go run {file value: sample.go}`
 
 - Run a main Go package:
 
-`go run {any something}`
+`go run {string value: path/to/package}`

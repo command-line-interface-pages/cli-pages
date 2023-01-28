@@ -5,15 +5,15 @@
 
 - Cut a file:
 
-`xcv x {file something: input}`
+`xcv x {file value: input}`
 
 - Copy a file:
 
-`xcv c {file something: input}`
+`xcv c {file value: input}`
 
 - Paste a file:
 
-`xcv v {file something: output}`
+`xcv v {file value: output}`
 
 - List files available for pasting:
 

@@ -5,24 +5,24 @@
 
 - Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
 
-`qpdf --empty --pages {any something} {any something} -- {any something}`
+`qpdf --empty --pages {string value: input.pdf} {string value: 1-3,5,6-10} -- {string value: output.pdf}`
 
 - Merge (concatenate) all the pages of a list of PDF files and save the result as a new PDF:
 
-`qpdf --empty --pages {any something} {any something} {any something} -- {any something}`
+`qpdf --empty --pages {string value: file1.pdf} {string value: file2.pdf} {string value: file3.pdf} -- {string value: output.pdf}`
 
 - Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF:
 
-`qpdf --empty --pages {any something} {any something} {any something} {any something} -- {any something}`
+`qpdf --empty --pages {string value: file1.pdf} {string value: 1,6-8} {string value: file2.pdf} {string value: 3,4,5} -- {string value: output.pdf}`
 
 - Write each group of n pages to a separate output file with a given filename pattern:
 
-`qpdf --split-pages=n {any something} {any something}`
+`qpdf --split-pages=n {string value: input.pdf} {string value: out_%d.pdf}`
 
 - Rotate certain pages of a PDF with a given angle:
 
-`qpdf --rotate={any something} --rotate={any something} {any something} {any something}`
+`qpdf --rotate={string value: 90:2,4,6} --rotate={string value: 180:7-8} {string value: input.pdf} {string value: output.pdf}`
 
 - Remove the password from a password-protected file:
 
-`qpdf --password={any something} --decrypt {any something} {any something}`
+`qpdf --password={string value: password} --decrypt {string value: input.pdf} {string value: output.pdf}`

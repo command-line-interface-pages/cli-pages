@@ -17,7 +17,7 @@
 
 - Update the changelog and tag a specific release type:
 
-`standard-version --release-as {any something}`
+`standard-version --release-as {string value: major|minor|patch}`
 
 - Tag a release, preventing hooks from being verified during the commit step:
 
@@ -29,7 +29,7 @@
 
 - Update a specific changelog file and tag a release:
 
-`standard-version --infile {file something}`
+`standard-version --infile {file value: sample.md}`
 
 - Display the release that would be performed without performing them:
 

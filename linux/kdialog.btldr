@@ -5,27 +5,27 @@
 
 - Open a dialog box displaying a specific message:
 
-`kdialog --msgbox "{any something}" "{any something}"`
+`kdialog --msgbox "{string value: message}" "{string value: optional_detailed_message}"`
 
 - Open a question dialog with a `yes` and `no` button, returning `0` and `1`, respectively:
 
-`kdialog --yesno "{any something}"`
+`kdialog --yesno "{string value: message}"`
 
 - Open a warning dialog with a `yes`, `no`, and `cancel` button, returning `0`, `1`, or `2` respectively:
 
-`kdialog --warningyesnocancel "{any something}"`
+`kdialog --warningyesnocancel "{string value: message}"`
 
 - Open an input dialog box and print the input to stdout when `OK` is pressed:
 
-`kdialog --inputbox "{any something}" "{any something}"`
+`kdialog --inputbox "{string value: message}" "{string value: optional_default_text}"`
 
 - Open a dialog to prompt for a specific password and print it to stdout:
 
-`kdialog --password "{any something}"`
+`kdialog --password "{string value: message}"`
 
 - Open a dialog containing a specific dropdown menu and print the selected item to stdout:
 
-`kdialog --combobx "{any something}" "{any something}" "{any something}" "{any something}"`
+`kdialog --combobx "{string value: message}" "{string value: item1}" "{string value: item2}" " "`
 
 - Open a file chooser dialog and print the selected file's path to stdout:
 
@@ -33,4 +33,4 @@
 
 - Open a progressbar dialog and print a DBUS reference for communication to stdout:
 
-`kdialog --progressbar "{any something}"`
+`kdialog --progressbar "{string value: message}"`

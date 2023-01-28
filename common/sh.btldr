@@ -10,11 +10,11 @@
 
 - Execute a command and then exit:
 
-`sh -c "{any something}"`
+`sh -c "{string value: command}"`
 
 - Execute a script:
 
-`sh {any something}`
+`sh {string value: path/to/script.sh}`
 
 - Read and execute commands from stdin:
 

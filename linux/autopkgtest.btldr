@@ -5,20 +5,20 @@
 
 - Build the package in the current directory and run all tests directly on the system:
 
-`autopkgtest -- {any something}`
+`autopkgtest -- {string value: null}`
 
 - Run a specific test for the package in the current directory:
 
-`autopkgtest --test-name={any something} -- {any something}`
+`autopkgtest --test-name={string value: test_name} -- {string value: null}`
 
 - Download and build a specific package with `apt-get`, then run all tests:
 
-`autopkgtest {any something} -- {any something}`
+`autopkgtest {string value: package} -- {string value: null}`
 
 - Test the package in the current directory using a new root directory:
 
-`autopkgtest -- {any something} {any something}`
+`autopkgtest -- {string value: chroot} {string value: path/to/new/root}`
 
 - Test the package in the current directory without rebuilding it:
 
-`autopkgtest --no-built-binaries -- {any something}`
+`autopkgtest --no-built-binaries -- {string value: null}`

@@ -17,7 +17,7 @@
 
 - Display a message before the password prompt:
 
-`physlock -p "{any something}"`
+`physlock -p "{string value: Locked!}"`
 
 - Fork and detach physlock (useful for suspend or hibernate scripts):
 

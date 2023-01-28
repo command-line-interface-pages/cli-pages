@@ -9,19 +9,19 @@
 
 - Prompt the current user to select a [c]hoice from a specific set:
 
-`choice /c {any something}`
+`choice /c {string value: AB}`
 
 - Prompt the current user to select a choice with a specific [m]essage:
 
-`choice /m "{any something}"`
+`choice /m "{string value: message}"`
 
 - Prompt the current user to select a [c]ase-[s]ensitive [c]hoice from a specific set:
 
-`choice /cs /c {any something}`
+`choice /cs /c {string value: Ab}`
 
 - Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
 
-`choice /t {int number: 5} /d {any something}`
+`choice /t {int value: 5} /d {string value: N}`
 
 - Display help:
 

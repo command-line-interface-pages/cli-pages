@@ -5,7 +5,7 @@
 
 - Enable interface eth0:
 
-`ifup {any something}`
+`ifup {string value: eth0}`
 
 - Enable all the interfaces defined with "auto" in `/etc/network/interfaces`:
 

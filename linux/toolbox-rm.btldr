@@ -6,7 +6,7 @@
 
 - Remove a toolbox container:
 
-`toolbox rm {any something}`
+`toolbox rm {string value: container_name}`
 
 - Remove all `toolbox` containers:
 
@@ -14,4 +14,4 @@
 
 - Force the removal of a currently active `toolbox` container:
 
-`toolbox rm --force {any something}`
+`toolbox rm --force {string value: container_name}`

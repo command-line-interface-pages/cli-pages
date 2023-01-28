@@ -10,7 +10,7 @@
 
 - Enable or disable networking and all interfaces managed by NetworkManager:
 
-`nmcli networking {any something}`
+`nmcli networking {string value: on|off}`
 
 - Show the last known connectivity state:
 

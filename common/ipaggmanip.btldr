@@ -5,12 +5,12 @@
 
 - Combine labels equal in their high-order bits:
 
-`ipaggmanip --prefix {int number: 16} {file something}`
+`ipaggmanip --prefix {int value: 16} {file value}`
 
 - Remove labels with a count smaller than a given number of bytes and output a random sample of such labels:
 
-`ipaggmanip --cut-smaller {int number: 100} --cull-labels {int number: 5} {file something}`
+`ipaggmanip --cut-smaller {int value: 100} --cull-labels {int value: 5} {file value}`
 
 - Replace each label's count with 1 if it is non-zero:
 
-`ipaggmanip --posterize {file something}`
+`ipaggmanip --posterize {file value}`

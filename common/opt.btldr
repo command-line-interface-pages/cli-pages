@@ -5,12 +5,12 @@
 
 - Run an optimization or analysis on a bitcode file:
 
-`opt -{any something} {file something} -S -o {any something}`
+`opt -{string value: passname} {file value: sample.bc} -S -o {string value: file_opt.bc}`
 
 - Output the Control Flow Graph of a function to a `.dot` file:
 
-`opt {any something} -S {file something} -disable-output`
+`opt {string value: -dot-cfg} -S {file value: sample.bc} -disable-output`
 
 - Optimize the program at level 2 and output the result to another file:
 
-`opt -O2 {file something} -S -o {file something: output}`
+`opt -O2 {file value: sample.bc} -S -o {file value: output.bc}`

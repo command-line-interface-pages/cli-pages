@@ -6,11 +6,11 @@
 
 - Restore an unstaged file to the version of the current commit (HEAD):
 
-`git restore {file something}`
+`git restore {file value}`
 
 - Restore an unstaged file to the version of a specific commit:
 
-`git restore --source {any something} {file something}`
+`git restore --source {string value: commit} {file value}`
 
 - Discard all unstaged changes to tracked files:
 
@@ -18,7 +18,7 @@
 
 - Unstage a file:
 
-`git restore --staged {file something}`
+`git restore --staged {file value}`
 
 - Unstage all files:
 

@@ -5,16 +5,16 @@
 
 - Trim some whitespace using a regular expression (output stream: stdout):
 
-`{any something} | sd '\s+$' ''`
+`{string value: echo 'lorem ipsum 23   '} | sd '\s+$' ''`
 
 - Replace words using capture groups (output stream: stdout):
 
-`{any something} | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'`
+`{string value: echo 'cargo +nightly watch'} | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'`
 
 - Find and replace in a specific file (output stream: stdout):
 
-`sd -p {any something} {any something} {file something}`
+`sd -p {string value: 'window.fetch'} {string value: 'fetch'} {file value: sample.js}`
 
 - Find and replace in all files in the current project (output stream: stdout):
 
-`sd {any something} {any something} "$(find . -type f)"`
+`sd {string value: 'from "react"'} {string value: 'from "preact"'} "$(find . -type f)"`

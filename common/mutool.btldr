@@ -5,24 +5,24 @@
 
 - Convert pages 1-10 into 10 PNGs:
 
-`mutool convert -o {any something} {file something} {any something}`
+`mutool convert -o {string value: image%d.png} {file value: sample.pdf} {string value: 1-10}`
 
 - Convert pages 2, 3 and 5 of a PDF into text in the stdout:
 
-`mutool draw -F {any something} {file something} {any something}`
+`mutool draw -F {string value: txt} {file value: sample.pdf} {string value: 2,3,5}`
 
 - Concatenate two PDFs:
 
-`mutool merge -o {any something} {any something} {any something}`
+`mutool merge -o {string value: output.pdf} {string value: input1.pdf} {string value: input2.pdf}`
 
 - Query information about all content embedded in a PDF:
 
-`mutool info {any something}`
+`mutool info {string value: input.pdf}`
 
 - Extract all images, fonts and resources embedded in a PDF out into the current directory:
 
-`mutool extract {any something}`
+`mutool extract {string value: input.pdf}`
 
 - Print the outline (table of contents) of a PDF:
 
-`mutool show {any something} outline`
+`mutool show {string value: input.pdf} outline`

@@ -6,28 +6,28 @@
 
 - Issue a certificate using webroot mode:
 
-`acme.sh --issue --domain {any something} --webroot {any something}`
+`acme.sh --issue --domain {string value: example.com} --webroot {string value: /path/to/webroot}`
 
 - Issue a certificate for multiple domains using standalone mode using port 80:
 
-`acme.sh --issue --standalone --domain {any something} --domain {any something}`
+`acme.sh --issue --standalone --domain {string value: example.com} --domain {string value: www.example.com}`
 
 - Issue a certificate using standalone TLS mode using port 443:
 
-`acme.sh --issue --alpn --domain {any something}`
+`acme.sh --issue --alpn --domain {string value: example.com}`
 
 - Issue a certificate using a working Nginx configuration:
 
-`acme.sh --issue --nginx --domain {any something}`
+`acme.sh --issue --nginx --domain {string value: example.com}`
 
 - Issue a certificate using a working Apache configuration:
 
-`acme.sh --issue --apache --domain {any something}`
+`acme.sh --issue --apache --domain {string value: example.com}`
 
 - Issue a wildcard (\*) certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns {any something} --domain {any something}`
+`acme.sh --issue --dns {string value: dns_cf} --domain {string value: *.example.com}`
 
 - Install certificate files into the specified locations (useful for automatic certificate renewal):
 
-`acme.sh --install-cert -d {any something} --key-file {any something} --fullchain-file {any something} --reloadcmd {any something}`
+`acme.sh --install-cert -d {string value: example.com} --key-file {string value: /path/to/example.com.key} --fullchain-file {string value: /path/to/example.com.cer} --reloadcmd {string value: "systemctl force-reload nginx"}`

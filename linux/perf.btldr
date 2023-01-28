@@ -5,7 +5,7 @@
 
 - Display basic performance counter stats for a command:
 
-`perf stat {any something}`
+`perf stat {string value: gcc hello.c}`
 
 - Display system-wide real-time performance counter profile:
 
@@ -13,11 +13,11 @@
 
 - Run a command and record its profile into `perf.data`:
 
-`sudo perf record {any something}`
+`sudo perf record {string value: command}`
 
 - Record the profile of an existing process into `perf.data`:
 
-`sudo perf record -p {any something}`
+`sudo perf record -p {string value: pid}`
 
 - Read `perf.data` (created by `perf record`) and display the profile:
 

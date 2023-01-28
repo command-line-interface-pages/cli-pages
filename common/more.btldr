@@ -5,11 +5,11 @@
 
 - Open a file:
 
-`more {file something}`
+`more {file value}`
 
 - Open a file displaying from a specific line:
 
-`more +{any something} {file something}`
+`more +{string value: line_number} {file value}`
 
 - Display help:
 
@@ -21,7 +21,7 @@
 
 - Search for a string (press `n` to go to the next match):
 
-`/{any something}`
+`/{string value: something}`
 
 - Exit:
 

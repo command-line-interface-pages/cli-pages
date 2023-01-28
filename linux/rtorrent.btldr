@@ -5,7 +5,7 @@
 
 - Add a torrent file or magnet to be downloaded:
 
-`rtorrent {any something}`
+`rtorrent {string value: torrent_or_magnet}`
 
 - Start the download:
 

@@ -5,15 +5,15 @@
 
 - Open a text file:
 
-`gedit {file something}`
+`gedit {file value}`
 
 - Open multiple text files:
 
-`gedit {any something}`
+`gedit {string value: file1 file2 ...}`
 
 - Open a text file with a specific encoding:
 
-`gedit --encoding={any something} {file something}`
+`gedit --encoding={string value: UTF-8} {file value}`
 
 - Display a list of supported encodings:
 

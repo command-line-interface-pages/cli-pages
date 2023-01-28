@@ -14,7 +14,7 @@
 
 - List files excluding those that match a specified blob pattern:
 
-`dir --hide={any something}`
+`dir --hide={string value: pattern}`
 
 - List subdirectories recursively:
 

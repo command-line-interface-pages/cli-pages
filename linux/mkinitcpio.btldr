@@ -9,11 +9,11 @@
 
 - Generate a ramdisk environment based on the `linux` preset:
 
-`mkinitcpio --preset {any something}`
+`mkinitcpio --preset {string value: linux}`
 
 - Generate a ramdisk environment based on the `linux-lts` preset:
 
-`mkinitcpio --preset {any something}`
+`mkinitcpio --preset {string value: linux-lts}`
 
 - Generate ramdisk environments based on all existing presets (used to regenerate all the initramfs images after a change in `/etc/mkinitcpio.conf`):
 
@@ -21,11 +21,11 @@
 
 - Generate an initramfs image using an alternative configuration file:
 
-`mkinitcpio --config {any something} --generate {any something}`
+`mkinitcpio --config {string value: path/to/mkinitcpio.conf} --generate {string value: path/to/initramfs.img}`
 
 - Generate an initramfs image for a kernel other than the one currently running (the installed kernel releases can be found in `/usr/lib/modules/`):
 
-`mkinitcpio --kernel {any something} --generate {any something}`
+`mkinitcpio --kernel {string value: kernel_version} --generate {string value: path/to/initramfs.img}`
 
 - List all available hooks:
 
@@ -33,4 +33,4 @@
 
 - Display help for a specific hook:
 
-`mkinitcpio --hookhelp {any something}`
+`mkinitcpio --hookhelp {string value: hook_name}`

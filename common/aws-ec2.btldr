@@ -6,7 +6,7 @@
 
 - Display information about a specific instance:
 
-`aws ec2 describe-instances --instance-ids {any something}`
+`aws ec2 describe-instances --instance-ids {string value: instance_id}`
 
 - Display information about all instances:
 
@@ -18,11 +18,11 @@
 
 - Delete an EC2 volume:
 
-`aws ec2 delete-volume --volume-id {any something}`
+`aws ec2 delete-volume --volume-id {string value: volume_id}`
 
 - Create a snapshot from an EC2 volume:
 
-`aws ec2 create-snapshot --volume-id {any something}`
+`aws ec2 create-snapshot --volume-id {string value: volume_id}`
 
 - List available AMIs (Amazon Machine Images):
 
@@ -34,4 +34,4 @@
 
 - Show help for specific EC2 subcommand:
 
-`aws ec2 {any something} help`
+`aws ec2 {string value: subcommand} help`

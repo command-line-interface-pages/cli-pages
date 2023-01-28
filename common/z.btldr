@@ -5,23 +5,23 @@
 
 - Go to a directory that contains "foo" in the name:
 
-`z {any something}`
+`z {string value: foo}`
 
 - Go to a directory that contains "foo" and then "bar":
 
-`z {any something} {any something}`
+`z {string value: foo} {string value: bar}`
 
 - Go to the highest-ranked directory matching "foo":
 
-`z -r {any something}`
+`z -r {string value: foo}`
 
 - Go to the most recently accessed directory matching "foo":
 
-`z -t {any something}`
+`z -t {string value: foo}`
 
 - List all directories in `z`'s database matching "foo":
 
-`z -l {any something}`
+`z -l {string value: foo}`
 
 - Remove the current directory from `z`'s database:
 
@@ -29,4 +29,4 @@
 
 - Restrict matches to subdirectories of the current directory:
 
-`z -c {any something}`
+`z -c {string value: foo}`

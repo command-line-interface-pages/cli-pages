@@ -10,12 +10,12 @@
 
 - Create a Java function using a `.jar` resource:
 
-`create function {any something} as {any something} using '{any something}';`
+`create function {string value: func_name} as {string value: path.to.package.Func} using '{string value: package.jar}';`
 
 - Create a Python function using a `.py` resource:
 
-`create function {any something} as {any something} using '{any something}';`
+`create function {string value: func_name} as {string value: script.Func} using '{string value: script.py}';`
 
 - Delete a function:
 
-`drop function {any something};`
+`drop function {string value: func_name};`

@@ -5,28 +5,28 @@
 
 - Add the latest version of a dependency to the current project:
 
-`cargo add {any something}`
+`cargo add {string value: dependency}`
 
 - Add a specific version of a dependency:
 
-`cargo add {any something}@{any something}`
+`cargo add {string value: dependency}@{string value: version}`
 
 - Add a dependency and enable one or more specific features:
 
-`cargo add {any something} --features {any something},{any something}`
+`cargo add {string value: dependency} --features {string value: feature_1},{string value: feature_2}`
 
 - Add an optional dependency, which then gets exposed as a feature of the crate:
 
-`cargo add {any something} --optional`
+`cargo add {string value: dependency} --optional`
 
 - Add a local crate as a dependency:
 
-`cargo add --path {any something}`
+`cargo add --path {string value: path/to/crate}`
 
 - Add a development or build dependency:
 
-`cargo add {any something} --{any something}`
+`cargo add {string value: dependency} --{string value: dev|build}`
 
 - Add a dependency with all default features disabled:
 
-`cargo add {any something} --no-default-features`
+`cargo add {string value: dependency} --no-default-features`

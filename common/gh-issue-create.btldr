@@ -9,19 +9,19 @@
 
 - Create a new issue with the `bug` label interactively:
 
-`gh issue create --label "{any something}"`
+`gh issue create --label "{string value: bug}"`
 
 - Create a new issue interactively and assign it to the specified users:
 
-`gh issue create --assignee {any something}`
+`gh issue create --assignee {string value: user1,user2,...}`
 
 - Create a new issue with a title, body and assign it to the current user:
 
-`gh issue create --title "{any something}" --body "{any something}" --assignee "{any something}"`
+`gh issue create --title "{string value: title}" --body "{string value: body}" --assignee "{string value: @me}"`
 
 - Create a new issue interactively, reading the body text from a file:
 
-`gh issue create --body-file {file something}`
+`gh issue create --body-file {file value}`
 
 - Create a new issue in the default web browser:
 

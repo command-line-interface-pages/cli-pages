@@ -10,7 +10,7 @@
 
 - Remove a user in other root directory:
 
-`sudo userdel --root {any something} {string user}`
+`sudo userdel --root {string value: path/to/other/root} {string user}`
 
 - Remove a user along with the home directory and mail spool:
 

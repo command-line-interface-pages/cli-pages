@@ -10,8 +10,8 @@
 
 - Open a specific spreadsheet:
 
-`calligrasheets {any something}`
+`calligrasheets {string value: path/to/spreadsheet}`
 
 - Display help or version:
 
-`calligrasheets --{any something}`
+`calligrasheets --{string value: help|version}`

@@ -6,20 +6,20 @@
 
 - Create a tag value:
 
-`az tag add-value --name {any something} --value {any something}`
+`az tag add-value --name {string value: tag_name} --value {string value: tag_value}`
 
 - Create a tag in the subscription:
 
-`az tag create --name {any something}`
+`az tag create --name {string value: tag_name}`
 
 - Delete a tag from the subscription:
 
-`az tag delete --name {any something}`
+`az tag delete --name {string value: tag_name}`
 
 - List all tags on a subscription:
 
-`az tag list --resource-id /subscriptions/{any something}`
+`az tag list --resource-id /subscriptions/{string value: subscription_id}`
 
 - Delete a tag value for a specific tag name:
 
-`az tag remove-value --name {any something} --value {any something}`
+`az tag remove-value --name {string value: tag_name} --value {string value: tag_value}`

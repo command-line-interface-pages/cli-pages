@@ -5,11 +5,11 @@
 
 - Increase/decrease the backlight by a specific percent count:
 
-`backlight_control {any something}{int number: 5}`
+`backlight_control {string value: +|-}{int value: 5}`
 
 - Set the backlight strength to a specific percent count:
 
-`backlight_control {int number: 90}`
+`backlight_control {int value: 90}`
 
 - Print the help:
 

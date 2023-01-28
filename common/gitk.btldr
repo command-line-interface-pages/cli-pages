@@ -9,16 +9,16 @@
 
 - Show repository browser for a specific file or directory:
 
-`gitk {file something|path something}`
+`gitk {path value}`
 
 - Show commits made since 1 week ago:
 
-`gitk --since="{any something}"`
+`gitk --since="{string value: 1 week ago}"`
 
 - Show commits older than 1/1/2016:
 
-`gitk --until="{any something}"`
+`gitk --until="{string value: 1/1/2015}"`
 
 - Show at most 100 changes in all branches:
 
-` gitk --max-count={int number: 100} --all`
+` gitk --max-count={int value: 100} --all`

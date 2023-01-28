@@ -13,4 +13,4 @@
 
 - If possible, subtract a given number of units from the returned value:
 
-`nproc --ignore {any something}`
+`nproc --ignore {string value: count}`

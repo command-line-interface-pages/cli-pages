@@ -9,11 +9,11 @@
 
 - Specify a configuration file to use:
 
-`mosquitto --config-file {file something}`
+`mosquitto --config-file {file value: sample.conf}`
 
 - Listen on a specific port:
 
-`mosquitto --port {int number: 8883}`
+`mosquitto --port {int value: 8883}`
 
 - Daemonize by forking into the background:
 

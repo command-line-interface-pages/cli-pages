@@ -5,19 +5,19 @@
 
 - Read system defaults for an application option:
 
-`defaults read "{any something}" "{any something}"`
+`defaults read "{string value: application}" "{string value: option}"`
 
 - Read default values for an application option:
 
-`defaults read -app "{any something}" "{any something}"`
+`defaults read -app "{string value: application}" "{string value: option}"`
 
 - Search for a keyword in domain names, keys, and values:
 
-`defaults find "{any something}"`
+`defaults find "{string value: keyword}"`
 
 - Write the default value of an application option:
 
-`defaults write "{any something}" "{any something}" {any something} {any something}`
+`defaults write "{string value: application}" "{string value: option}" {string value: -type} {string value: value}`
 
 - Speed up Mission Control animations:
 
@@ -25,4 +25,4 @@
 
 - Delete all defaults of an application:
 
-`defaults delete "{any something}"`
+`defaults delete "{string value: application}"`

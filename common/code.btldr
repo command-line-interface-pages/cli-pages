@@ -9,19 +9,19 @@
 
 - Open specific files/directories:
 
-`code {path* something}`
+`code {path* value}`
 
 - Compare two specific files:
 
-`code --diff {any something} {any something}`
+`code --diff {string value: path/to/file1} {string value: path/to/file2}`
 
 - Open specific files/directories in a new window:
 
-`code --new-window {path* something}`
+`code --new-window {path* value}`
 
 - Install/uninstall a specific extension:
 
-`code --{any something}-extension {any something}`
+`code --{string value: install|uninstall}-extension {string value: publisher.extension}`
 
 - Print installed extensions:
 
@@ -33,4 +33,4 @@
 
 - Start the editor as a superuser (root) while storing user data in a specific directory:
 
-`sudo code --user-data-dir {directory something}`
+`sudo code --user-data-dir {directory value}`

@@ -17,8 +17,8 @@
 
 - Parse and render only a specific version of a project:
 
-`doctum update --only-version={any something}`
+`doctum update --only-version={string value: version}`
 
 - Parse and render a project using a specific configuration:
 
-`doctum update {any something}`
+`doctum update {string value: path/to/config.php}`

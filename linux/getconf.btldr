@@ -9,7 +9,7 @@
 
 - List the configuration values for a specific directory:
 
-`getconf -a {directory something}`
+`getconf -a {directory value}`
 
 - Check if your linux system is a 32-bit or 64-bit:
 

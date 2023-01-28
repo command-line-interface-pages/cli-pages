@@ -9,8 +9,8 @@
 
 - Open an interactive shell against an existing database:
 
-`sqlite3 {any something}`
+`sqlite3 {string value: path/to/database.sqlite3}`
 
 - Execute an SQL statement against a database and then exit:
 
-`sqlite3 {any something} '{any something}'`
+`sqlite3 {string value: path/to/database.sqlite3} '{string value: SELECT * FROM some_table;}'`

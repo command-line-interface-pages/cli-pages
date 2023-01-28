@@ -5,16 +5,16 @@
 
 - Name a hash:
 
-`nth -t {any something}`
+`nth -t {string value: 5f4dcc3b5aa765d61d8327deb882cf99}`
 
 - Name hashes in a file:
 
-`nth -f {any something}`
+`nth -f {string value: path/to/hashes}`
 
 - Output in json format:
 
-`nth -t {any something} -g`
+`nth -t {string value: 5f4dcc3b5aa765d61d8327deb882cf99} -g`
 
 - Decode hash in Base64 before naming it:
 
-`nth -t {any something} -b64`
+`nth -t {string value: NWY0ZGNjM2I1YWE3NjVkNjFkODMyN2RlYjg4MmNmOTkK} -b64`

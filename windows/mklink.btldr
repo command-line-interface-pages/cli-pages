@@ -5,16 +5,16 @@
 
 - Create a symbolic link to a file:
 
-`mklink {any something} {file something: source}`
+`mklink {string value: path/to/link} {file value: source}`
 
 - Create a symbolic link to a directory:
 
-`mklink /d {any something} {directory something: source}`
+`mklink /d {string value: path/to/link} {directory value: source}`
 
 - Create a hard link to a file:
 
-`mklink /h {any something} {file something: source}`
+`mklink /h {string value: path/to/link} {file value: source}`
 
 - Create a directory junction:
 
-`mklink /j {any something} {file something: source}`
+`mklink /j {string value: path/to/link} {file value: source}`

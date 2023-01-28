@@ -5,16 +5,16 @@
 
 - Show a live view of the functions that take the most execution time of a running process:
 
-`py-spy top --pid {any something}`
+`py-spy top --pid {string value: pid}`
 
 - Start a program and show a live view of the functions that take the most execution time:
 
-`py-spy top -- python {file something}`
+`py-spy top -- python {file value: sample.py}`
 
 - Produce an SVG flame graph of the function call execution time:
 
-`py-spy record -o {any something} --pid {any something}`
+`py-spy record -o {string value: path/to/profile.svg} --pid {string value: pid}`
 
 - Dump the call stack of a running process:
 
-`py-spy dump --pid {any something}`
+`py-spy dump --pid {string value: pid}`

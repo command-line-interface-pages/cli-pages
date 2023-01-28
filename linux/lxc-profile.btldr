@@ -9,20 +9,20 @@
 
 - Show the configuration of a specific profile:
 
-`lxc profile show {any something}`
+`lxc profile show {string value: profile_name}`
 
 - Edit a specific profile in the default editor:
 
-`lxc profile edit {any something}`
+`lxc profile edit {string value: profile_name}`
 
 - Edit a specific profile importing the configuration values from a file:
 
-`lxc profile edit {any something} < {any something}`
+`lxc profile edit {string value: profile_name} < {string value: config.yaml}`
 
 - Launch a new container with specific profiles:
 
-`lxc launch {any something} {any something} --profile {any something} --profile {any something}`
+`lxc launch {string value: container_image} {string value: container_name} --profile {string value: profile1} --profile {string value: profile2}`
 
 - Change the profiles of a running container:
 
-`lxc profile assign {any something} {any something}`
+`lxc profile assign {string value: container_name} {string value: profile1,profile2}`

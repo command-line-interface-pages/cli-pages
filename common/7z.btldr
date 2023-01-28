@@ -5,31 +5,31 @@
 
 - [a]dd a file or directory to a new or existing archive:
 
-`7z a {any something} {file something|path something}`
+`7z a {string value: path/to/archive.7z} {path value}`
 
 - Encrypt an existing archive (including filenames):
 
-`7z a {any something} -p{any something} -mhe=on {any something}`
+`7z a {string value: path/to/encrypted.7z} -p{string value: password} -mhe=on {string value: path/to/archive.7z}`
 
 - E[x]tract an archive preserving the original directory structure:
 
-`7z x {any something}`
+`7z x {string value: path/to/archive.7z}`
 
 - E[x]tract an archive to a specific directory:
 
-`7z x {any something} -o{any something}`
+`7z x {string value: path/to/archive.7z} -o{string value: path/to/output}`
 
 - E[x]tract an archive to stdout:
 
-`7z x {any something} -so`
+`7z x {string value: path/to/archive.7z} -so`
 
 - [a]rchive using a specific archive type:
 
-`7z a -t{any something} {any something} {file something|path something}`
+`7z a -t{string value: 7z|bzip2|gzip|lzip|tar|zip} {string value: path/to/archive.7z} {path value}`
 
 - [l]ist the contents of an archive:
 
-`7z l {any something}`
+`7z l {string value: path/to/archive.7z}`
 
 - List available archive types:
 

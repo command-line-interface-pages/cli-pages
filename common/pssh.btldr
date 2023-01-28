@@ -5,24 +5,24 @@
 
 - Run a command on two hosts, and print its output on each server inline:
 
-`pssh -i -H "{any something} {any something}" {any something}`
+`pssh -i -H "{string value: host1} {string value: host2}" {string value: hostname -i}`
 
 - Run a command and save the output to separate files:
 
-`pssh -H {any something} -H {any something} -o {directory something: output} {any something}`
+`pssh -H {string value: host1} -H {string value: host2} -o {directory value: output} {string value: hostname -i}`
 
 - Run a command on multiple hosts, specified in a new-line separated file:
 
-`pssh -i -h {file something: hosts} {any something}`
+`pssh -i -h {file value: hosts} {string value: hostname -i}`
 
 - Run a command as root (this asks for the root password):
 
-`pssh -i -h {file something: hosts} -A -l {any something} {any something}`
+`pssh -i -h {file value: hosts} -A -l {string value: root_username} {string value: hostname -i}`
 
 - Run a command with extra SSH arguments:
 
-`pssh -i -h {file something: hosts} -x "{any something}" {any something}`
+`pssh -i -h {file value: hosts} -x "{string value: -O VisualHostKey=yes}" {string value: hostname -i}`
 
 - Run a command limiting the number of parallel connections to 10:
 
-`pssh -i -h {file something: hosts} -p {int number: 10} '{any something}'`
+`pssh -i -h {file value: hosts} -p {int value: 10} '{string value: cd dir; ./script.sh; exit}'`

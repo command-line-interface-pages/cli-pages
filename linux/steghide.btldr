@@ -5,19 +5,19 @@
 
 - Embed data in a PNG, prompting for a passphrase:
 
-`steghide embed --coverfile {any something} --embedfile {any something}`
+`steghide embed --coverfile {string value: path/to/image.png} --embedfile {string value: path/to/data.txt}`
 
 - Extract data from a WAV audio file:
 
-`steghide extract --stegofile {any something}`
+`steghide extract --stegofile {string value: path/to/sound.wav}`
 
 - Display file information, trying to detect an embedded file:
 
-`steghide info {file something}`
+`steghide info {file value: sample.jpg}`
 
 - Embed data in a JPEG image, using maximum compression:
 
-`steghide embed --coverfile {any something} --embedfile {any something} --compress {int number: 9}`
+`steghide embed --coverfile {string value: path/to/image.jpg} --embedfile {string value: path/to/data.txt} --compress {int value: 9}`
 
 - Get the list of supported encryption algorithms and modes:
 
@@ -25,4 +25,4 @@
 
 - Embed encrypted data in a JPEG image, e.g. with Blowfish in CBC mode:
 
-`steghide embed --coverfile {any something} --embedfile {any something} --encryption {any something} {any something}`
+`steghide embed --coverfile {string value: path/to/image.jpg} --embedfile {string value: path/to/data.txt} --encryption {string value: blowfish|...} {string value: cbc|...}`

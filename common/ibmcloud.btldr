@@ -25,4 +25,4 @@
 
 - Display help for a subcommand:
 
-`ibmcloud help {any something}`
+`ibmcloud help {string value: subcommand}`

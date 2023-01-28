@@ -5,12 +5,12 @@
 
 - Play a media file:
 
-`ffplay {file something}`
+`ffplay {file value}`
 
 - Play a video and show motion vectors in real time:
 
-`ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb {file something}`
+`ffplay -flags2 +export_mvs -vf codecview=mv=pf+bf+bb {file value}`
 
 - Show only video keyframes:
 
-`ffplay -vf select="{any something}" {file something}`
+`ffplay -vf select="{string value: eq(pict_type\,PICT_TYPE_I)}" {file value}`

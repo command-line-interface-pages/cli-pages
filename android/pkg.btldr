@@ -9,16 +9,16 @@
 
 - Install a package:
 
-`pkg install {any something}`
+`pkg install {string value: package}`
 
 - Uninstall a package:
 
-`pkg uninstall {any something}`
+`pkg uninstall {string value: package}`
 
 - Reinstall a package:
 
-`pkg reinstall {any something}`
+`pkg reinstall {string value: package}`
 
 - Search for a package:
 
-`pkg search {any something}`
+`pkg search {string value: package}`

@@ -5,7 +5,7 @@
 
 - Install, update, or remove specific plugins:
 
-`grafana-cli plugins {any something} {any something}`
+`grafana-cli plugins {string value: install|update|remove} {string value: plugin_id1 plugin_id2 ...}`
 
 - List all installed plugins:
 

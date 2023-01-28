@@ -5,16 +5,16 @@
 
 - Print shared object mappings for a Java process (output like pmap):
 
-`jmap {any something}`
+`jmap {string value: java_pid}`
 
 - Print heap summary information:
 
-`jmap -heap {any something} {any something}`
+`jmap -heap {file value: sample.jar} {string value: java_pid}`
 
 - Print histogram of heap usage by type:
 
-`jmap -histo {any something}`
+`jmap -histo {string value: java_pid}`
 
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-`jmap -dump:format=b,file={file something} {any something}`
+`jmap -dump:format=b,file={file value} {string value: java_pid}`

@@ -5,12 +5,12 @@
 
 - Search for a keyword using a regular expression:
 
-`apropos {any something}`
+`apropos {string value: regular_expression}`
 
 - Search without restricting the output to the terminal width:
 
-`apropos -l {any something}`
+`apropos -l {string value: regular_expression}`
 
 - Search for pages that contain all the expressions given:
 
-`apropos {any something} -a {any something} -a {any something}`
+`apropos {string value: regular_expression_1} -a {string value: regular_expression_2} -a {string value: regular_expression_3}`

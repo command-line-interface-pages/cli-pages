@@ -5,7 +5,7 @@
 
 - Fundamental grammar:
 
-`wmic {any something} {any something} {any something}`
+`wmic {string value: alias} {string value: where_clause} {string value: verb_clause}`
 
 - Show brief details about the currently running processes:
 
@@ -17,16 +17,16 @@
 
 - Access specific fields such as process name, process ID and parent process ID:
 
-`wmic process get {any something}`
+`wmic process get {string value: name,processid,parentprocessid}`
 
 - Display information about a specific process:
 
-`wmic process where {any something} list full`
+`wmic process where {string value: name="example.exe"} list full`
 
 - Display specific fields for a specific process:
 
-`wmic process where processid={any something} get {any something}`
+`wmic process where processid={string value: pid} get {string value: name,commandline}`
 
 - Kill a process:
 
-`wmic process {any something} delete`
+`wmic process {string value: pid} delete`

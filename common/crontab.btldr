@@ -9,11 +9,11 @@
 
 - Edit the crontab file for a specific user:
 
-`sudo crontab -e -u {any something}`
+`sudo crontab -e -u {string value: user}`
 
 - Replace the current crontab with the contents of the given file:
 
-`crontab {file something}`
+`crontab {file value}`
 
 - View a list of existing cron jobs for current user:
 
@@ -25,12 +25,12 @@
 
 - Sample job which runs at 10:00 every day (* means any value):
 
-`0 10 * * * {any something}`
+`0 10 * * * {string value: command_to_execute}`
 
 - Sample crontab entry, which runs a command every 10 minutes:
 
-`*/10 * * * * {any something}`
+`*/10 * * * * {string value: command_to_execute}`
 
 - Sample crontab entry, which runs a certain script at 02:30 every Friday:
 
-`30 2 * * Fri {any something}`
+`30 2 * * Fri {string value: /absolute/path/to/script.sh}`

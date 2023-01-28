@@ -9,24 +9,24 @@
 
 - Show information about a remote:
 
-`git remote show {any something}`
+`git remote show {string value: remote_name}`
 
 - Add a remote:
 
-`git remote add {any something} {any something}`
+`git remote add {string value: remote_name} {string value: remote_url}`
 
 - Change the URL of a remote (use `--add` to keep the existing URL):
 
-`git remote set-url {any something} {any something}`
+`git remote set-url {string value: remote_name} {string value: new_url}`
 
 - Show the URL of a remote:
 
-`git remote get-url {any something}`
+`git remote get-url {string value: remote_name}`
 
 - Remove a remote:
 
-`git remote remove {any something}`
+`git remote remove {string value: remote_name}`
 
 - Rename a remote:
 
-`git remote rename {any something} {any something}`
+`git remote rename {string value: old_name} {string value: new_name}`

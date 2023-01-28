@@ -9,7 +9,7 @@
 
 - View _number_ of stories on Hacker News:
 
-`hn --limit {any something}`
+`hn --limit {string value: number}`
 
 - View stories on Hacker News, and keep the list open after selecting a link:
 

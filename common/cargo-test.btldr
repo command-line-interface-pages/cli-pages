@@ -5,11 +5,11 @@
 
 - Only run tests containing a specific string in their names:
 
-`cargo test {any something}`
+`cargo test {string value: testname}`
 
 - Set the number of simultaneous running test cases:
 
-`cargo test -- --test-threads={any something}`
+`cargo test -- --test-threads={string value: count}`
 
 - Require that `Cargo.lock` is up to date:
 
@@ -25,7 +25,7 @@
 
 - Run tests for a package:
 
-`cargo test --package {any something}`
+`cargo test --package {string value: package}`
 
 - Run tests without hiding output from test executions:
 

@@ -5,4 +5,4 @@
 
 - Check the status of the specified website:
 
-`is-up {any something}`
+`is-up {string value: example.com}`

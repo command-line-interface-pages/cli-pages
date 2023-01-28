@@ -9,15 +9,15 @@
 
 - Search for existing development platforms:
 
-`pio platform search {any something}`
+`pio platform search {string value: platform}`
 
 - Show details about a development platform:
 
-`pio platform show {any something}`
+`pio platform show {string value: platform}`
 
 - Install a development platform:
 
-`pio platform install {any something}`
+`pio platform install {string value: platform}`
 
 - Update installed development platforms:
 
@@ -25,7 +25,7 @@
 
 - Uninstall a development platform:
 
-`pio platform uninstall {any something}`
+`pio platform uninstall {string value: platform}`
 
 - List all supported frameworks:
 

@@ -10,12 +10,12 @@
 
 - Run the go link tool:
 
-`go tool link {any something}`
+`go tool link {string value: path/to/main.o}`
 
 - Print the command that would be executed, but do not execute it (similar to `whereis`):
 
-`go tool -n {any something} {any something}`
+`go tool -n {string value: command} {string value: arguments}`
 
 - Display documentation for a specified tool:
 
-`go tool {any something} --help`
+`go tool {string value: command} --help`

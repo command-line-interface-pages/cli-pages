@@ -6,16 +6,16 @@
 
 - Decode a JWT:
 
-`jwt decode {any something}`
+`jwt decode {string value: jwt_string}`
 
 - Decode a JWT as a JSON string:
 
-`jwt decode -j {any something}`
+`jwt decode -j {string value: jwt_string}`
 
 - Encode a JSON string to a JWT:
 
-`jwt encode --alg {any something} --secret {int number: 1234567890} '{any something}'`
+`jwt encode --alg {string value: HS256} --secret {int value: 1234567890} '{string value: json_string}'`
 
 - Encode key pair payload to JWT:
 
-`jwt encode --alg {any something} --secret {int number: 1234567890} -P key=value`
+`jwt encode --alg {string value: HS256} --secret {int value: 1234567890} -P key=value`

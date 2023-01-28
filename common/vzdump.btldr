@@ -5,24 +5,24 @@
 
 - Dump a guest virtual machine into the default dump directory (usually `/var/lib/vz/dump/`), excluding snapshots:
 
-`vzdump {any something}`
+`vzdump {string value: vm_id}`
 
 - Back up the guest virtual machines with the IDs 101, 102, and 103:
 
-`vzdump {any something}`
+`vzdump {string value: 101 102 103}`
 
 - Dump a guest virtual machine using a specific mode:
 
-`vzdump {any something} --mode {any something}`
+`vzdump {string value: vm_id} --mode {string value: suspend|snapshot}`
 
 - Back up all guest systems and send an notification email to the root and admin users:
 
-`vzdump --all --mode {any something} --mailto {any something} --mailto {any something}`
+`vzdump --all --mode {string value: suspend} --mailto {string value: root} --mailto {string value: admin}`
 
 - Use snapshot mode (no downtime required) and a non-default dump directory:
 
-`vzdump {any something} --dumpdir {directory something} --mode {any something}`
+`vzdump {string value: vm_id} --dumpdir {directory value} --mode {string value: snapshot}`
 
 - Back up all guest virtual machines excluding the IDs 101 and 102:
 
-`vzdump --mode {any something} --exclude {any something}`
+`vzdump --mode {string value: suspend} --exclude {string value: 101, 102}`

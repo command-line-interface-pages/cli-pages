@@ -10,7 +10,7 @@
 
 - Open a subreddit:
 
-`/r/{any something}`
+`/r/{string value: subreddit_name}`
 
 - Expand/collapse comments:
 

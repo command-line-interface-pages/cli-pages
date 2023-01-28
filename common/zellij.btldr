@@ -6,7 +6,7 @@
 
 - Start a new named session:
 
-`zellij --session {any something}`
+`zellij --session {string value: name}`
 
 - List existing sessions:
 

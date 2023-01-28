@@ -5,27 +5,27 @@
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`):
 
-`dd if={file something} of=/dev/{any something}`
+`dd if={file value: sample.iso} of=/dev/{string value: usb_drive}`
 
 - Clone a drive to another drive with 4 MiB block and ignore error:
 
-`dd if=/dev/{any something} of=/dev/{any something} bs={int number: 4194304} conv={any something}`
+`dd if=/dev/{string value: source_drive} of=/dev/{string value: dest_drive} bs={int value: 4194304} conv={string value: noerror}`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
-`dd if=/dev/urandom of={file something: random} bs={int number: 100} count={int number: 1}`
+`dd if=/dev/urandom of={file value: random} bs={int value: 100} count={int value: 1}`
 
 - Benchmark the write performance of a disk:
 
-`dd if=/dev/zero of={any something} bs={int number: 1024} count={int number: 1000000}`
+`dd if=/dev/zero of={string value: path/to/file_1GB} bs={int value: 1024} count={int value: 1000000}`
 
 - Generate a system backup into an IMG file:
 
-`dd if={any something} of={file something}`
+`dd if={string value: /dev/drive_device} of={file value: sample.img}`
 
 - Restore a drive from an IMG file:
 
-`dd if={file something} of={any something}`
+`dd if={file value: sample.img} of={string value: /dev/drive_device}`
 
 - Check the progress of an ongoing dd operation (run this command from another shell):
 

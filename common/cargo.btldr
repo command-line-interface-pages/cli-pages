@@ -6,11 +6,11 @@
 
 - Search for crates:
 
-`cargo search {any something}`
+`cargo search {string value: search_string}`
 
 - Install a crate:
 
-`cargo install {any something}`
+`cargo install {string value: crate_name}`
 
 - List installed crates:
 
@@ -18,11 +18,11 @@
 
 - Create a new binary or library Rust project in the current directory:
 
-`cargo init --{any something}`
+`cargo init --{string value: bin|lib}`
 
 - Create a new binary or library Rust project in the specified directory:
 
-`cargo new {directory something} --{any something}`
+`cargo new {directory value} --{string value: bin|lib}`
 
 - Build the Rust project in the current directory:
 
@@ -34,4 +34,4 @@
 
 - Build using a specific number of threads (default is the number of CPU cores):
 
-`cargo build --jobs {any something}`
+`cargo build --jobs {string value: number_of_threads}`

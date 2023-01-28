@@ -9,12 +9,12 @@
 
 - Reassign a key on the keyboard to another key:
 
-`xmodmap -e 'keycode {any something} = {any something}'`
+`xmodmap -e 'keycode {string value: keycode} = {string value: keyname}'`
 
 - Disable a key on the keyboard:
 
-`xmodmap -e 'keycode {any something} ='`
+`xmodmap -e 'keycode {string value: keycode} ='`
 
 - Execute all xmodmap expressions in the specified file:
 
-`xmodmap {file something}`
+`xmodmap {file value}`

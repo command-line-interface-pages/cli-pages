@@ -14,7 +14,7 @@
 
 - Change the hostname of the current device:
 
-`sudo nmcli general hostname {any something}`
+`sudo nmcli general hostname {string value: new_hostname}`
 
 - Show the permissions of NetworkManager:
 
@@ -26,4 +26,4 @@
 
 - Set the logging level and/or domains (see `man NetworkManager.conf` for all available domains):
 
-`nmcli general logging level {any something} domain {any something}`
+`nmcli general logging level {string value: INFO|OFF|ERR|WARN|DEBUG|TRACE} domain {string value: domain_1,domain_2,...}`

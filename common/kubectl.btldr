@@ -6,11 +6,11 @@
 
 - List information about a resource with more details:
 
-`kubectl get {any something} -o wide`
+`kubectl get {string value: pod|service|deployment|ingress|...} -o wide`
 
 - Update specified pod with the label 'unhealthy' and the value 'true':
 
-`kubectl label pods {any something} unhealthy=true`
+`kubectl label pods {string value: name} unhealthy=true`
 
 - List all resources with different types:
 
@@ -18,7 +18,7 @@
 
 - Display resource (CPU/Memory/Storage) usage of nodes or pods:
 
-`kubectl top {any something}`
+`kubectl top {string value: pod|node}`
 
 - Print the address of the master and cluster services:
 
@@ -26,12 +26,12 @@
 
 - Display an explanation of a specific field:
 
-`kubectl explain {any something}`
+`kubectl explain {string value: pods.spec.containers}`
 
 - Print the logs for a container in a pod or specified resource:
 
-`kubectl logs {any something}`
+`kubectl logs {string value: pod_name}`
 
 - Run command in an existing pod:
 
-`kubectl exec {any something} -- {any something}`
+`kubectl exec {string value: pod_name} -- {string value: ls /}`

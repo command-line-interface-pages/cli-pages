@@ -5,16 +5,16 @@
 
 - Switch to a branch:
 
-`dolt checkout {any something}`
+`dolt checkout {string value: branch_name}`
 
 - Revert unstaged changes to a table:
 
-`dolt checkout {any something}`
+`dolt checkout {string value: table}`
 
 - Create new branch and switch to it:
 
-`dolt checkout -b {any something}`
+`dolt checkout -b {string value: branch_name}`
 
 - Create new branch based on a specified commit and switch to it:
 
-`dolt checkout -b {any something} {any something}`
+`dolt checkout -b {string value: branch_name} {string value: commit}`

@@ -9,12 +9,12 @@
 
 - Compile and install a specific local package:
 
-`go install {any something}`
+`go install {string value: path/to/package}`
 
 - Install the latest version of a program, ignoring `go.mod` in the current directory:
 
-`go install {any something}@{any something}`
+`go install {string value: golang.org/x/tools/gopls}@{string value: latest}`
 
 - Install a program at the version selected by `go.mod` in the current directory:
 
-`go install {any something}`
+`go install {string value: golang.org/x/tools/gopls}`

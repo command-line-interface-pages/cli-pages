@@ -6,12 +6,12 @@
 
 - Start a service by using its name:
 
-`Start-Service -Name {any something}`
+`Start-Service -Name {string value: service_name}`
 
 - Display information without starting a service:
 
-`Start-Service -DisplayName *{any something}* -WhatIf`
+`Start-Service -DisplayName *{string value: name}* -WhatIf`
 
 - Start a disabled service:
 
-`Set-Service {any something} -StartupType {any something}; Start-Service {any something}`
+`Set-Service {string value: service_name} -StartupType {string value: manual}; Start-Service {string value: service_name}`

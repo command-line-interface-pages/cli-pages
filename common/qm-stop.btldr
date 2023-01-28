@@ -5,16 +5,16 @@
 
 - Stop a virtual machine immediately:
 
-`qm stop {any something}`
+`qm stop {string value: VM_ID}`
 
 - Stop a virtual machine and wait for at most 10 seconds:
 
-`qm stop --timeout {int number: 10} {any something}`
+`qm stop --timeout {int value: 10} {string value: VM_ID}`
 
 - Stop a virtual machine and skip lock (only root can use this option):
 
-`qm stop --skiplock {bool flag: true} {any something}`
+`qm stop --skiplock {bool flag: true} {string value: VM_ID}`
 
 - Stop a virtual machine and don't deactivate storage volumes:
 
-`qm stop --keepActive {bool flag: true} {any something}`
+`qm stop --keepActive {bool flag: true} {string value: VM_ID}`

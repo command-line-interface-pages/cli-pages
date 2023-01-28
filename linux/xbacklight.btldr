@@ -9,16 +9,16 @@
 
 - Set the screen brightness to 40%:
 
-`xbacklight -set {int number: 40}`
+`xbacklight -set {int value: 40}`
 
 - Increase current brightness by 25%:
 
-`xbacklight -inc {int number: 25}`
+`xbacklight -inc {int value: 25}`
 
 - Decrease current brightness by 75%:
 
-`xbacklight -dec {int number: 75}`
+`xbacklight -dec {int value: 75}`
 
 - Increase backlight to 100%, over 60 seconds (value given in ms), using 60 steps:
 
-`xbacklight -set {int number: 100} -time {int number: 60000} -steps {int number: 60}`
+`xbacklight -set {int value: 100} -time {int value: 60000} -steps {int value: 60}`

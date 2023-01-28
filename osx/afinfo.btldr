@@ -6,23 +6,23 @@
 
 - Display info of a given audio file:
 
-`afinfo {file something}`
+`afinfo {file value}`
 
 - Print a one line description of the audio file:
 
-`afinfo --brief {file something}`
+`afinfo --brief {file value}`
 
 - Print metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo --info {file something}`
+`afinfo --info {file value}`
 
 - Print output in XML format:
 
-`afinfo --xml {file something}`
+`afinfo --xml {file value}`
 
 - Print warnings for the audio file if any:
 
-`afinfo --warnings {file something}`
+`afinfo --warnings {file value}`
 
 - Display help for full usage:
 

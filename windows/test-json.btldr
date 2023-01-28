@@ -6,12 +6,12 @@
 
 - Test if a string from stdin is in JSON format:
 
-`'{any something}' | Test-Json`
+`'{string value: string}' | Test-Json`
 
 - Test if a string JSON format:
 
-`Test-Json -Json '{any something}'`
+`Test-Json -Json '{string value: json_to_test}'`
 
 - Test if a string from stdin matches a specific schema file:
 
-`'{any something}' | Test-Json -SchemaFile {any something}`
+`'{string value: string}' | Test-Json -SchemaFile {string value: path/to/schema.json}`

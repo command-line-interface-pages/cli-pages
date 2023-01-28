@@ -5,8 +5,8 @@
 
 - Run a collection (from a file):
 
-`newman run {any something}`
+`newman run {string value: path/to/collection.json}`
 
 - Run a collection (from a URL):
 
-`newman run {any something}`
+`newman run {string value: https://www.getpostman.com/collections/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65-JsLv}`

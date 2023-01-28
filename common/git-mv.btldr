@@ -5,12 +5,12 @@
 
 - Move file inside the repo and add the movement to the next commit:
 
-`git mv {file something} {any something}`
+`git mv {file value} {string value: new/path/to/file}`
 
 - Rename file and add renaming to the next commit:
 
-`git mv {any something} {any something}`
+`git mv {file value} {file value: new}`
 
 - Overwrite the file in the target path if it exists:
 
-`git mv --force {file something} {any something}`
+`git mv --force {file value} {string value: target}`

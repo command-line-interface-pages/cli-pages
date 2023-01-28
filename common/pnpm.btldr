@@ -14,19 +14,19 @@
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`pnpm add {any something}@{any something}`
+`pnpm add {string value: module_name}@{string value: version}`
 
 - Download a package and add it to the list of [D]ev dependencies in `package.json`:
 
-`pnpm add -D {any something}`
+`pnpm add -D {string value: module_name}`
 
 - Download a package and install it [g]lobally:
 
-`pnpm add -g {any something}`
+`pnpm add -g {string value: module_name}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`pnpm remove {any something}`
+`pnpm remove {string value: module_name}`
 
 - Print a tree of locally installed modules:
 
@@ -34,4 +34,4 @@
 
 - List top-level [g]lobally installed modules:
 
-`pnpm list -g --depth={int number: 0}`
+`pnpm list -g --depth={int value: 0}`

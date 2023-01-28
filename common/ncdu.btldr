@@ -9,16 +9,16 @@
 
 - Colorize output:
 
-`ncdu --color {any something}`
+`ncdu --color {string value: dark|off}`
 
 - Analyze a given directory:
 
-`ncdu {directory something}`
+`ncdu {directory value}`
 
 - Save results to a file:
 
-`ncdu -o {file something}`
+`ncdu -o {file value}`
 
 - Exclude files that match a pattern, argument can be given multiple times to add more patterns:
 
-`ncdu --exclude '{any something}'`
+`ncdu --exclude '{string value: *.txt}'`

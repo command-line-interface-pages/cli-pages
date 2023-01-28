@@ -5,15 +5,15 @@
 
 - Disassemble and list a `.class` file:
 
-`javap {file something}`
+`javap {file value: sample.class}`
 
 - Disassemble and list multiple `.class` files:
 
-`javap {any something}`
+`javap {file* value: sample.class}`
 
 - Disassemble and list a built-in class file:
 
-`javap java.{any something}.{any something}`
+`javap java.{string value: package}.{string value: class}`
 
 - Display help:
 

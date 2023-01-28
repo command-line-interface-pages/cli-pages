@@ -5,7 +5,7 @@
 
 - Create the directory structure used by Zola at the given directory:
 
-`zola init {any something}`
+`zola init {string value: my_site}`
 
 - Build the whole site in the `public` directory after deleting it:
 
@@ -13,7 +13,7 @@
 
 - Build the whole site into a different directory:
 
-`zola build --output-dir {any something}`
+`zola build --output-dir {string value: path/to/output_directory/}`
 
 - Build and serve the site using a local server (default is `127.0.0.1:1111`):
 

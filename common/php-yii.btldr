@@ -5,12 +5,12 @@
 
 - Display a list of all available commands:
 
-`php yii {any something}`
+`php yii {string value: help}`
 
 - Start PHP's built-in web server for the current Yii application:
 
-`php yii {any something}`
+`php yii {string value: serve}`
 
 - Generate a controller, views and related files for the CRUD actions on the specified model class:
 
-`php yii {any something} --modelClass={any something} --controllerClass={any something}`
+`php yii {string value: gii/crud} --modelClass={string value: ModelName} --controllerClass={string value: ControllerName}`

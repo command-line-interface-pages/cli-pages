@@ -5,11 +5,11 @@
 
 - Highlight file syntax and print to stdout (language is inferred from the file extension):
 
-`pygmentize {file something}`
+`pygmentize {file value: sample.py}`
 
 - Explicitly set the language for syntax highlighting:
 
-`pygmentize -l {any something} {file something: input}`
+`pygmentize -l {string value: javascript} {file value: input}`
 
 - List available lexers (processors for input languages):
 
@@ -17,7 +17,7 @@
 
 - Save output to a file in HTML format:
 
-`pygmentize -f html -o {file something: output} {file something: input}`
+`pygmentize -f html -o {file value: output.html} {file value: input.py}`
 
 - List available output formats:
 
@@ -25,4 +25,4 @@
 
 - Output an HTML file, with additional formatter options (full page, with line numbers):
 
-`pygmentize -f html -O "full,linenos=True" -o {file something: output} {file something: input}`
+`pygmentize -f html -O "full,linenos=True" -o {file value: output.html} {file value: input}`

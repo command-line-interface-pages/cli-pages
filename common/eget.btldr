@@ -5,28 +5,28 @@
 
 - Download a prebuilt binary for the current system from a repository on GitHub:
 
-`eget {any something}`
+`eget {string value: zyedidia/micro}`
 
 - Download from a URL:
 
-`eget {any something}`
+`eget {string value: https://go.dev/dl/go1.17.5.linux-amd64.tar.gz}`
 
 - Specify the location to place the downloaded files:
 
-`eget {any something} --to={directory something}`
+`eget {string value: zyedidia/micro} --to={directory value}`
 
 - Specify a `git` tag instead of using the latest version:
 
-`eget {any something} --tag={any something}`
+`eget {string value: zyedidia/micro} --tag={string value: v2.0.10}`
 
 - Install the latest pre-release instead of the latest stable version:
 
-`eget {any something} --pre-release`
+`eget {string value: zyedidia/micro} --pre-release`
 
 - Only download the asset, skipping extraction:
 
-`eget {any something} --download-only`
+`eget {string value: zyedidia/micro} --download-only`
 
 - Only download if there is a newer release then the currently downloaded version:
 
-`eget {any something} --upgrade-only`
+`eget {string value: zyedidia/micro} --upgrade-only`

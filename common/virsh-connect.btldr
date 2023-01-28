@@ -18,4 +18,4 @@
 
 - Connect as root to a remote hypervisor using ssh:
 
-`virsh connect qemu+ssh://{any something}/system`
+`virsh connect qemu+ssh://{string value: user_name@host_name}/system`

@@ -10,7 +10,7 @@
 
 - Open a subreddit:
 
-`/{any something}`
+`/{string value: subreddit_name}`
 
 - Open a link:
 
@@ -18,7 +18,7 @@
 
 - Open a specific subreddit on launch:
 
-`tuir -s {any something}`
+`tuir -s {string value: subreddit_name}`
 
 - Open external links using programs defined in the mailcap config:
 

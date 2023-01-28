@@ -9,7 +9,7 @@
 
 - Display the last 20 commands (in `zsh` it displays all commands starting from the 20th):
 
-`history {int number: 20}`
+`history {int value: 20}`
 
 - Clear the commands history list (only for current `bash` shell):
 
@@ -21,4 +21,4 @@
 
 - Delete the history entry at the specified offset:
 
-`history -d {any something}`
+`history -d {string value: offset}`

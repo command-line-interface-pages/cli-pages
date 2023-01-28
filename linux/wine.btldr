@@ -5,23 +5,23 @@
 
 - Run a specific program inside the `wine` environment:
 
-`wine {any something}`
+`wine {string value: command}`
 
 - Run a specific program in background:
 
-`wine start {any something}`
+`wine start {string value: command}`
 
 - Install/uninstall an MSI package:
 
-`wine msiexec /{any something} {any something}`
+`wine msiexec /{string value: i|x} {string value: path/to/package.msi}`
 
 - Run `File Explorer`, `Notepad`, or `WordPad`:
 
-`wine {any something}`
+`wine {string value: explorer|notepad|write}`
 
 - Run `Registry Editor`, `Control Panel`, or `Task Manager`:
 
-`wine {any something}`
+`wine {string value: regedit|control|taskmgr}`
 
 - Run the configuration tool:
 

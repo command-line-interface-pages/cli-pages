@@ -13,16 +13,16 @@
 
 - Lint the pipeline code:
 
-`nf-core lint {directory something}`
+`nf-core lint {directory value}`
 
 - Bump software versions in pipeline recipe:
 
-`nf-core bump-version {directory something} {any something}`
+`nf-core bump-version {directory value} {string value: new_version}`
 
 - Launch an nf-core pipeline:
 
-`nf-core launch {any something}`
+`nf-core launch {string value: pipeline_name}`
 
 - Download an nf-core pipeline for offline use:
 
-`nf-core download {any something}`
+`nf-core download {string value: pipeline_name}`

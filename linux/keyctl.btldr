@@ -5,32 +5,32 @@
 
 - List keys in a specific keyring:
 
-`keyctl list {any something}`
+`keyctl list {string value: target_keyring}`
 
 - List current keys in the user default session:
 
-`keyctl list {any something}`
+`keyctl list {string value: @us}`
 
 - Store a key in a specific keyring:
 
-`keyctl add {any something} {any something} {any something} {any something}`
+`keyctl add {string value: type_keyring} {string value: key_name} {string value: key_value} {string value: target_keyring}`
 
 - Store a key with its value from stdin:
 
-`echo -n {any something} | keyctl padd {any something} {any something} {any something}`
+`echo -n {string value: key_value} | keyctl padd {string value: type_keyring} {string value: key_name} {string value: target_keyring}`
 
 - Put a timeout on a key:
 
-`keyctl timeout {any something} {any something}`
+`keyctl timeout {string value: key_name} {string value: timeout_in_seconds}`
 
 - Read a key and format it as a hex-dump if not printable:
 
-`keyctl read {any something}`
+`keyctl read {string value: key_name}`
 
 - Read a key and format as-is:
 
-`keyctl pipe {any something}`
+`keyctl pipe {string value: key_name}`
 
 - Revoke a key and prevent any further action on it:
 
-`keyctl revoke {any something}`
+`keyctl revoke {string value: key_name}`

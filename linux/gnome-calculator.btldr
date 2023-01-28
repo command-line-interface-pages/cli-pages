@@ -9,7 +9,7 @@
 
 - Solve the specified equation on the command-line without launching the desktop application:
 
-`gnome-calculator --solve {any something}`
+`gnome-calculator --solve {string value: 2^5 * 2 + 5}`
 
 - Display the version:
 

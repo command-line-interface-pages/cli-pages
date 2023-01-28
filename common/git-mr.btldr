@@ -6,11 +6,11 @@
 
 - Check out a specific merge request:
 
-`git mr {any something}`
+`git mr {string value: mr_number}`
 
 - Check out a merge request from a specific remote:
 
-`git mr {any something} {any something}`
+`git mr {string value: mr_number} {string value: remote}`
 
 - Checkout a merge request from its URL:
 

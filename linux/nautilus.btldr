@@ -14,11 +14,11 @@
 
 - Launch Nautilus and display a specific directory:
 
-`nautilus {directory something}`
+`nautilus {directory value}`
 
 - Launch Nautilus with a specific file or directory selected:
 
-`nautilus --select {file something|path something}`
+`nautilus --select {path value}`
 
 - Launch Nautilus in a separated window:
 

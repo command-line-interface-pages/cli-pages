@@ -5,11 +5,11 @@
 
 - Launch Firefox and open a web page:
 
-`firefox {any something}`
+`firefox {string value: https://www.duckduckgo.com}`
 
 - Open a new window:
 
-`firefox --new-window {any something}`
+`firefox --new-window {string value: https://www.duckduckgo.com}`
 
 - Open a private (incognito) window:
 
@@ -17,7 +17,7 @@
 
 - Search for "wikipedia" using the default search engine:
 
-`firefox --search "{any something}"`
+`firefox --search "{string value: wikipedia}"`
 
 - Launch Firefox in safe mode, with all extensions disabled:
 
@@ -25,11 +25,11 @@
 
 - Take a screenshot of a web page in headless mode:
 
-`firefox --headless --screenshot {file something: output} {any something}`
+`firefox --headless --screenshot {file value: output.png} {string value: https://example.com/}`
 
 - Use a specific profile to allow multiple separate instances of Firefox to run at once:
 
-`firefox --profile {directory something} {any something}`
+`firefox --profile {directory value} {string value: https://example.com/}`
 
 - Set Firefox as the default browser:
 

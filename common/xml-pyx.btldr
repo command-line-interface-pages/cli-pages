@@ -5,11 +5,11 @@
 
 - Convert an XML document to PYX format:
 
-`xml pyx {any something} > {any something}`
+`xml pyx {string value: path/to/input.xml|URI} > {string value: path/to/output.pyx}`
 
 - Convert an XML document from stdin to PYX format:
 
-`cat {any something} | xml pyx > {any something}`
+`cat {string value: path/to/input.xml} | xml pyx > {string value: path/to/output.pyx}`
 
 - Display help for the `pyx` subcommand:
 

@@ -9,12 +9,12 @@
 
 - Capture packets on a specific interface:
 
-`dumpcap --interface {int number: 1}`
+`dumpcap --interface {int value: 1}`
 
 - Capture packets to a specific location:
 
-`dumpcap --interface {int number: 1} -w {file something: output}`
+`dumpcap --interface {int value: 1} -w {file value: output.pcapng}`
 
 - Write to a ring buffer with a specific max file limit of a specific size:
 
-`dumpcap --interface {int number: 1} -w {file something: output} --ring-buffer filesize:{int number: 500000} --ring-buffer files:{int number: 10}`
+`dumpcap --interface {int value: 1} -w {file value: output.pcapng} --ring-buffer filesize:{int value: 500000} --ring-buffer files:{int value: 10}`

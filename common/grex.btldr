@@ -5,24 +5,24 @@
 
 - Generate a simple regular expression:
 
-` grex {any something}`
+` grex {string value: space_separated_strings}`
 
 - Generate a case-insensitive regular expression:
 
-`grex -i {any something}`
+`grex -i {string value: space_separated_strings}`
 
 - Replace digits with '\d':
 
-`grex -d {any something}`
+`grex -d {string value: space_separated_strings}`
 
 - Replace Unicode word character with '\w':
 
-`grex -w {any something}`
+`grex -w {string value: space_separated_strings}`
 
 - Replace spaces with '\s':
 
-`grex -s {any something}`
+`grex -s {string value: space_separated_strings}`
 
 - Add {min, max} quantifier representation for repeating sub-strings:
 
-`grex -r {any something}`
+`grex -r {string value: space_separated_strings}`

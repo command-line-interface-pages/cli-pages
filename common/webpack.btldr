@@ -5,16 +5,16 @@
 
 - Create a single output file from an entry point file:
 
-`webpack {any something} {any something}`
+`webpack {string value: app.js} {string value: bundle.js}`
 
 - Load CSS files too from the JavaScript file (this uses the CSS loader for `.css` files):
 
-`webpack {any something} {any something} --module-bind '{any something}'`
+`webpack {string value: app.js} {string value: bundle.js} --module-bind '{string value: css=css}'`
 
 - Pass a config file (with e.g. the entry script and the output filename) and show compilation progress:
 
-`webpack --config {any something} --progress`
+`webpack --config {string value: webpack.config.js} --progress`
 
 - Automatically recompile on changes to project files:
 
-`webpack --watch {any something} {any something}`
+`webpack --watch {string value: app.js} {string value: bundle.js}`

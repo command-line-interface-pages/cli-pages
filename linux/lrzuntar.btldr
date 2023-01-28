@@ -6,20 +6,20 @@
 
 - Decompress from a file to the current directory:
 
-`lrzuntar {any something}`
+`lrzuntar {string value: path/to/archive.tar.lrz}`
 
 - Decompress from a file to the current directory using a specific number of processor threads:
 
-`lrzuntar -p {int number: 8} {any something}`
+`lrzuntar -p {int value: 8} {string value: path/to/archive.tar.lrz}`
 
 - Decompress from a file to the current directory and silently overwrite items that already exist:
 
-`lrzuntar -f {any something}`
+`lrzuntar -f {string value: archive.tar.lrz}`
 
 - Specify the output path:
 
-`lrzuntar -O {directory something} {any something}`
+`lrzuntar -O {directory value} {string value: archive.tar.lrz}`
 
 - Delete the compressed file after decompression:
 
-`lrzuntar -D {any something}`
+`lrzuntar -D {string value: path/to/archive.tar.lrz}`

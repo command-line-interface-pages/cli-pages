@@ -6,8 +6,8 @@
 
 - Enable autostart for the storage pool specified by name or UUID (determine using `virsh pool-list`):
 
-`virsh pool-autostart --pool {any something}`
+`virsh pool-autostart --pool {string value: name|uuid}`
 
 - Disable autostart for the storage pool specified by name or UUID:
 
-`virsh pool-autostart --pool {any something} --disable`
+`virsh pool-autostart --pool {string value: name|uuid} --disable`

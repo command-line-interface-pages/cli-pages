@@ -5,15 +5,15 @@
 
 - Process a specific directory:
 
-`rector process {directory something}`
+`rector process {directory value}`
 
 - Process a directory without applying changes (dry run):
 
-`rector process {directory something} --dry-run`
+`rector process {directory value} --dry-run`
 
 - Process a directory and apply coding standards:
 
-`rector process {directory something} --with-style`
+`rector process {directory value} --with-style`
 
 - Display a list of available levels:
 
@@ -21,4 +21,4 @@
 
 - Process a directory with a specific level:
 
-`rector process {directory something} --level {any something}`
+`rector process {directory value} --level {string value: level_name}`

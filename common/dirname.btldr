@@ -5,12 +5,12 @@
 
 - Calculate the parent directory of a given path:
 
-`dirname {file something|path something}`
+`dirname {path value}`
 
 - Calculate the parent directory of multiple paths:
 
-`dirname {any something} {any something}`
+`dirname {string value: path/to/file_a} {string value: path/to/directory_b}`
 
 - Delimit output with a NUL character instead of a newline (useful when combining with `xargs`):
 
-`dirname --zero {any something} {any something}`
+`dirname --zero {string value: path/to/directory_a} {string value: path/to/file_b}`

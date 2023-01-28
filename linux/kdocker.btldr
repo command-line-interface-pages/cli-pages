@@ -9,7 +9,7 @@
 
 - Open an application and send it to the system tray:
 
-`kdocker {any something}`
+`kdocker {string value: application}`
 
 - Send focused window to the system tray:
 
@@ -17,11 +17,11 @@
 
 - Display a cursor to send a window to the system tray with a custom icon when pressing the left mouse button:
 
-`kdocker -i {any something}`
+`kdocker -i {string value: /path/to/icon}`
 
 - Open an application, send it to the system tray and if focus is lost, minimize it:
 
-`kdocker -l {any something}`
+`kdocker -l {string value: application}`
 
 - Print version:
 

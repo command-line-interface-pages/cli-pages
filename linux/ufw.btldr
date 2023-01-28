@@ -18,20 +18,20 @@
 
 - Allow incoming traffic on port 5432 on this host with a comment identifying the service:
 
-`ufw allow {int number: 5432} comment "{any something}"`
+`ufw allow {int value: 5432} comment "{string value: Service}"`
 
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
-`ufw allow proto {any something} from {any something} to {any something} port {int number: 22}`
+`ufw allow proto {string value: tcp} from {string value: 192.168.0.4} to {string value: any} port {int value: 22}`
 
 - Deny traffic on port 80 on this host:
 
-`ufw deny {int number: 80}`
+`ufw deny {int value: 80}`
 
 - Deny all UDP traffic to ports in range 8412:8500:
 
-`ufw deny proto {any something} from {any something} to {any something} port {any something}`
+`ufw deny proto {string value: udp} from {string value: any} to {string value: any} port {string value: 8412:8500}`
 
 - Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
-`ufw delete {any something}`
+`ufw delete {string value: rule_number}`

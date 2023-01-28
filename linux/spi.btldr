@@ -9,7 +9,7 @@
 
 - Install a package or slackbuild:
 
-`spi --install {any something}`
+`spi --install {string value: package/slackbuild_name}`
 
 - Upgrade all installed packages to the latest versions available:
 
@@ -17,11 +17,11 @@
 
 - Locate packages or slackbuilds by package name or description:
 
-`spi {any something}`
+`spi {string value: search_terms}`
 
 - Display information about a package or slackbuild:
 
-`spi --show {any something}`
+`spi --show {string value: package/slackbuild_name}`
 
 - Purge the local package and slackbuild caches:
 

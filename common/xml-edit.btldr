@@ -5,23 +5,23 @@
 
 - Delete elements matching an XPATH from an XML document:
 
-`xml edit --delete "{any something}" {any something}`
+`xml edit --delete "{string value: XPATH1}" {string value: path/to/input.xml|URI}`
 
 - Move an element node of an XML document from XPATH1 to XPATH2:
 
-`xml edit --move "{any something}" "{any something}" {any something}`
+`xml edit --move "{string value: XPATH1}" "{string value: XPATH2}" {string value: path/to/input.xml|URI}`
 
 - Rename all attributes named "id" to "ID":
 
-`xml edit --rename "{any something}" -v "{any something}" {any something}`
+`xml edit --rename "{string value: //*/@id}" -v "{string value: ID}" {string value: path/to/input.xml|URI}`
 
 - Rename sub-elements of the element "table" that are named "rec" to "record":
 
-`xml edit --rename "{any something}" -v "{any something}" {any something}`
+`xml edit --rename "{string value: /xml/table/rec}" -v "{string value: record}" {string value: path/to/input.xml|URI}`
 
 - Update the XML table record with "id=3" to the value "id=5":
 
-`xml edit --update "{any something}" -v {int number: 5} {any something}`
+`xml edit --update "{string value: xml/table/rec[@id=3]/@id}" -v {int value: 5} {string value: path/to/input.xml|URI}`
 
 - Display help for the `edit` subcommand:
 

@@ -13,4 +13,4 @@
 
 - Download changes from given remote repository and branch, then merge them into HEAD:
 
-`git pull {any something} {any something}`
+`git pull {string value: remote_name} {string value: branch}`

@@ -9,11 +9,11 @@
 
 - Navigate the current piece on a 2D plane:
 
-`{any something} arrow key`
+`{string value: Up|Down|Left|Right} arrow key`
 
 - Rotate the piece on its axis:
 
-`{any something}`
+`{string value: Q|W|E|A|S|D}`
 
 - Hard drop the current piece:
 

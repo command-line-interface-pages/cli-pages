@@ -13,11 +13,11 @@
 
 - Renew the IP addresses for a network adapter:
 
-`ipconfig /renew {any something}`
+`ipconfig /renew {string value: adapter}`
 
 - Free up the IP addresses for a network adapter:
 
-`ipconfig /release {any something}`
+`ipconfig /release {string value: adapter}`
 
 - Remove all data from the DNS cache:
 

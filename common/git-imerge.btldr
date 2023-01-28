@@ -6,11 +6,11 @@
 
 - Start imerge-based rebase (checkout the branch to be rebased, first):
 
-`git imerge rebase {any something}`
+`git imerge rebase {string value: branch_to_rebase_onto}`
 
 - Start imerge-based merge (checkout the branch to merge into, first):
 
-`git imerge merge {any something}`
+`git imerge merge {string value: branch_to_be_merged}`
 
 - Show ASCII diagram of in-progress merge or rebase:
 
@@ -26,4 +26,4 @@
 
 - Abort imerge operation, and return to the previous branch:
 
-`git-imerge remove && git checkout {any something}`
+`git-imerge remove && git checkout {string value: previous_branch}`

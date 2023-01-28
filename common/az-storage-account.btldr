@@ -6,16 +6,16 @@
 
 - Create an storage account:
 
-`az storage account create --name {any something} --resource-group {any something} --location {any something} --sku {any something}`
+`az storage account create --name {string value: storage_account_name} --resource-group {string value: azure_resource_group} --location {string value: azure_location} --sku {string value: storage_account_sku}`
 
 - Generate a shared access signature for a specific storage account:
 
-`az storage account generate-sas --account-name {any something} --name {any something} --permissions {any something} --expiry {any something} --services {any something} --resource-types {any something}`
+`az storage account generate-sas --account-name {string value: storage_account_name} --name {string value: account_name} --permissions {string value: sas_permissions} --expiry {string value: expiry_date} --services {string value: storage_services} --resource-types {string value: resource_types}`
 
 - List storage accounts:
 
-`az storage account list --resource-group {any something}`
+`az storage account list --resource-group {string value: azure_resource_group}`
 
 - Delete a specific storage account:
 
-`az storage account delete --name {any something} --resource-group {any something}`
+`az storage account delete --name {string value: storage_account_name} --resource-group {string value: azure_resource_group}`

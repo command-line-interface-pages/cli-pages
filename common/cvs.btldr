@@ -5,27 +5,27 @@
 
 - Create a new repository (requires the `CVSROOT` environment variable to be set externally):
 
-`cvs -d {any something} init`
+`cvs -d {string value: path/to/repository} init`
 
 - Add a project to the repository:
 
-`cvs import -m "{any something}" {any something} {any something} {any something}`
+`cvs import -m "{string value: message}" {string value: project_name} {string value: version} {string value: vendor}`
 
 - Checkout a project:
 
-`cvs checkout {any something}`
+`cvs checkout {string value: project_name}`
 
 - Show changes made to files:
 
-`cvs diff {file something}`
+`cvs diff {file value}`
 
 - Add a file:
 
-`cvs add {file something}`
+`cvs add {file value}`
 
 - Commit a file:
 
-`cvs commit -m "{any something}" {file something}`
+`cvs commit -m "{string value: message}" {file value}`
 
 - Update the working directory from the remote repository:
 

@@ -13,23 +13,23 @@
 
 - Power the Bluetooth controller on or off:
 
-`bluetoothctl power {any something}`
+`bluetoothctl power {string value: on|off}`
 
 - Pair with a device:
 
-`bluetoothctl pair {any something}`
+`bluetoothctl pair {string value: mac_address}`
 
 - Remove a device:
 
-`bluetoothctl remove {any something}`
+`bluetoothctl remove {string value: mac_address}`
 
 - Connect to a paired device:
 
-`bluetoothctl connect {any something}`
+`bluetoothctl connect {string value: mac_address}`
 
 - Disconnect from a paired device:
 
-`bluetoothctl disconnect {any something}`
+`bluetoothctl disconnect {string value: mac_address}`
 
 - Display help:
 

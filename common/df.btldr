@@ -13,7 +13,7 @@
 
 - Display the filesystem and its disk usage containing the given file or directory:
 
-`df {file something|path something}`
+`df {path value}`
 
 - Display statistics on the number of free inodes:
 
@@ -21,4 +21,4 @@
 
 - Display filesystems but exclude the specified types:
 
-`df -x {any something} -x {any something}`
+`df -x {string value: squashfs} -x {string value: tmpfs}`

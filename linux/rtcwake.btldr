@@ -9,15 +9,15 @@
 
 - Suspend to RAM and wakeup after 10 seconds:
 
-`sudo rtcwake -m mem -s {int number: 10}`
+`sudo rtcwake -m mem -s {int value: 10}`
 
 - Suspend to disk (higher power saving) and wakeup 15 minutes later:
 
-`sudo rtcwake -m disk --date +{int number: 15}min`
+`sudo rtcwake -m disk --date +{int value: 15}min`
 
 - Freeze the system (more efficient than suspend-to-RAM but version 3.9 or newer of the Linux kernel is required) and wakeup at a given date and time:
 
-`sudo rtcwake -m freeze --date {any something}`
+`sudo rtcwake -m freeze --date {string value: YYYYMMDDhhmm}`
 
 - Disable a previously set alarm:
 
@@ -25,4 +25,4 @@
 
 - Perform a dry run to wakeup the computer at a given time. (Press Ctrl + C to abort):
 
-`sudo rtcwake -m on --date {any something}`
+`sudo rtcwake -m on --date {string value: hh:ss}`

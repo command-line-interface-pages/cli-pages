@@ -9,7 +9,7 @@
 
 - Display the status of a specific service:
 
-`sudo gitlab-ctl status {any something}`
+`sudo gitlab-ctl status {string value: nginx}`
 
 - Restart every service:
 
@@ -17,7 +17,7 @@
 
 - Restart a specific service:
 
-`sudo gitlab-ctl restart {any something}`
+`sudo gitlab-ctl restart {string value: nginx}`
 
 - Display the logs of every service and keep reading until `Ctrl + C` is pressed:
 
@@ -25,4 +25,4 @@
 
 - Display the logs of a specific service:
 
-`sudo gitlab-ctl tail {any something}`
+`sudo gitlab-ctl tail {string value: nginx}`

@@ -5,28 +5,28 @@
 
 - Execute a specific expression (print a colored and formatted json):
 
-`{any something} | jq '.'`
+`{string value: cat path/to/file.json} | jq '.'`
 
 - Execute a specific script:
 
-`{any something} | jq --from-file {any something}`
+`{string value: cat path/to/file.json} | jq --from-file {string value: path/to/script.jq}`
 
 - Pass specific arguments:
 
-`{any something} | jq {any something} '{any something}'`
+`{string value: cat path/to/file.json} | jq {string value: --arg "name1" "value1" --arg "name2" "value2" ...} '{string value: . + $ARGS.named}'`
 
 - Print specific keys:
 
-`{any something} | jq '{any something}'`
+`{string value: cat path/to/file.json} | jq '{string value: .key1, .key2, ...}'`
 
 - Print specific array items:
 
-`{any something} | jq '{any something}'`
+`{string value: cat path/to/file.json} | jq '{string value: .[index1], .[index2], ...}'`
 
 - Print all array items/object keys:
 
-`{any something} | jq '.[]'`
+`{string value: cat path/to/file.json} | jq '.[]'`
 
 - Add/remove specific keys:
 
-`{any something} | jq '. {any something} {{any something}}'`
+`{string value: cat path/to/file.json} | jq '. {string value: +|-} {{string value: "key1": "value1", "key2": "value2", ...}}'`

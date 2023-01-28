@@ -5,11 +5,11 @@
 
 - Convert colors from one format to another. Here from RGB to HSL:
 
-`pastel format {any something} {any something}`
+`pastel format {string value: hsl} {string value: ff8000}`
 
 - Show and analyze colors on the terminal:
 
-`pastel color "{any something}"`
+`pastel color "{string value: rgb(255,50,127)}"`
 
 - Pick a color from somewhere on the screen:
 
@@ -17,7 +17,7 @@
 
 - Generate a set of N visually distinct colors:
 
-`pastel distinct {int number: 8}`
+`pastel distinct {int value: 8}`
 
 - Get a list of all X11 / CSS color names:
 

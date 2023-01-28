@@ -5,20 +5,20 @@
 
 - Display A (default) record from DNS for hostname(s):
 
-`adig {any something}`
+`adig {string value: example.com}`
 
 - Display extra [d]ebugging output:
 
-`adig -d {any something}`
+`adig -d {string value: example.com}`
 
 - Connect to a specific DNS [s]erver:
 
-`adig -s {any something} {any something}`
+`adig -s {string value: 1.2.3.4} {string value: example.com}`
 
 - Use a specific TCP port to connect to a DNS server:
 
-`adig -T {any something} {any something}`
+`adig -T {string value: port} {string value: example.com}`
 
 - Use a specific UDP port to connect to a DNS server:
 
-`adig -U {any something} {any something}`
+`adig -U {string value: port} {string value: example.com}`

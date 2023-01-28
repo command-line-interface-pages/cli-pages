@@ -5,8 +5,8 @@
 
 - Compare 2 images:
 
-`compare {any something} {any something} {any something}`
+`compare {string value: image1.png} {string value: image2.png} {string value: diff.png}`
 
 - Compare 2 images using a custom metric:
 
-`compare -verbose -metric {any something} {any something} {any something} {any something}`
+`compare -verbose -metric {string value: PSNR} {string value: image1.png} {string value: image2.png} {string value: diff.png}`

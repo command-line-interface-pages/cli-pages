@@ -6,19 +6,19 @@
 
 - Register the current directory as a workspace:
 
-`git bulk --addcurrent {any something}`
+`git bulk --addcurrent {string value: workspace_name}`
 
 - Register a workspace for bulk operations:
 
-`git bulk --addworkspace {any something} {any something}`
+`git bulk --addworkspace {string value: workspace_name} {string value: /absolute/path/to/repository}`
 
 - Clone a repository inside a specific directory then register the repository as a workspace:
 
-`git bulk --addworkspace {any something} {any something} --from {any something}`
+`git bulk --addworkspace {string value: workspace_name} {string value: /absolute/path/to/parent_directory} --from {string value: remote_repository_location}`
 
 - Clone repositories from a newline-separated list of remote locations then register them as workspaces:
 
-`git bulk --addworkspace {any something} {any something} --from {any something}`
+`git bulk --addworkspace {string value: workspace-name} {string value: absolute/path/to/root/directory} --from {string value: absolute/path/to/file}`
 
 - List all registered workspaces:
 
@@ -26,11 +26,11 @@
 
 - Run a Git command on the repositories of the current workspace:
 
-`git bulk {any something} {any something}`
+`git bulk {string value: command} {string value: command_arguments}`
 
 - Remove a specific workspace:
 
-`git bulk --removeworkspace {any something}`
+`git bulk --removeworkspace {string value: workspace_name}`
 
 - Remove all workspaces:
 

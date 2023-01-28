@@ -5,24 +5,24 @@
 
 - Run a basic benchmark, performing at least 10 runs:
 
-`hyperfine '{any something}'`
+`hyperfine '{string value: make}'`
 
 - Run a comparative benchmark:
 
-`hyperfine '{any something}' '{any something}'`
+`hyperfine '{string value: make target1}' '{string value: make target2}'`
 
 - Change minimum number of benchmarking runs:
 
-`hyperfine --min-runs {int number: 7} '{any something}'`
+`hyperfine --min-runs {int value: 7} '{string value: make}'`
 
 - Perform benchmark with warmup:
 
-`hyperfine --warmup {int number: 5} '{any something}'`
+`hyperfine --warmup {int value: 5} '{string value: make}'`
 
 - Run a command before each benchmark run (to clear caches, etc.):
 
-`hyperfine --prepare '{any something}' '{any something}'`
+`hyperfine --prepare '{string value: make clean}' '{string value: make}'`
 
 - Run a benchmark where a single parameter changes for each run:
 
-`hyperfine --prepare '{any something}' --parameter-scan {any something} {int number: 1} {int number: 10} '{{make -j {num_threads}}}'`
+`hyperfine --prepare '{string value: make clean}' --parameter-scan {string value: num_threads} {int value: 1} {int value: 10} '{{make -j {num_threads}}}'`

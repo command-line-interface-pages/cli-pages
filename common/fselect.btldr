@@ -5,20 +5,20 @@
 
 - Select full path and size from temporary or config files in a given directory:
 
-`fselect size, path from {directory something} where name = {any something} or name = {any something}`
+`fselect size, path from {directory value} where name = {string value: '*.cfg'} or name = {string value: '*.tmp'}`
 
 - Find square images:
 
-`fselect path from {directory something} where width = height`
+`fselect path from {directory value} where width = height`
 
 - Find old-school rap 320kbps MP3 files:
 
-`fselect path from {directory something} where genre = {any something} and bitrate = {int number: 320} and mp3_year lt {int number: 2000}`
+`fselect path from {directory value} where genre = {string value: Rap} and bitrate = {int value: 320} and mp3_year lt {int value: 2000}`
 
 - Select only the first 5 results and output as JSON:
 
-`fselect size, path from {directory something} limit {int number: 5} into json`
+`fselect size, path from {directory value} limit {int value: 5} into json`
 
 - Use SQL aggregate functions to calculate minimum, maximum and average size of files in a directory:
 
-`fselect "{any something} from {directory something}"`
+`fselect "{string value: MIN(size), MAX(size), AVG(size), SUM(size), COUNT(*)} from {directory value}"`

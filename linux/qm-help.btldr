@@ -5,8 +5,8 @@
 
 - Display help for a specific command:
 
-`qm help {any something}`
+`qm help {string value: command}`
 
 - Display help for a specific command with detailed information:
 
-`qm help {any something} --verbose {any something}`
+`qm help {string value: command} --verbose {string value: true|false}`

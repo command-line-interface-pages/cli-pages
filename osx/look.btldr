@@ -5,8 +5,8 @@
 
 - Look for lines which begins with the given prefix:
 
-`look {any something} {file something}`
+`look {string value: prefix} {file value}`
 
 - Look for lines ignoring case:
 
-`look --ignore-case {any something} {file something}`
+`look --ignore-case {string value: prefix} {file value}`

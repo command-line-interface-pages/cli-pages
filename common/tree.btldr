@@ -5,7 +5,7 @@
 
 - Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 
-`tree -L {any something}`
+`tree -L {string value: num}`
 
 - Print directories only:
 
@@ -25,12 +25,12 @@
 
 - Print files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:
 
-`tree -P '{any something}' --prune`
+`tree -P '{string value: *.txt}' --prune`
 
 - Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
-`tree -P {any something} --matchdirs --prune`
+`tree -P {string value: directory_name} --matchdirs --prune`
 
 - Print the tree ignoring the given directories:
 
-`tree -I '{any something}'`
+`tree -I '{string value: directory_name1|directory_name2}'`

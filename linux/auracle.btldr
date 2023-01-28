@@ -5,15 +5,15 @@
 
 - Display AUR packages that match a regular expression:
 
-`auracle search '{any something}'`
+`auracle search '{string value: regular_expression}'`
 
 - Display package information for a space-separated list of AUR packages:
 
-`auracle info {any something} {any something}`
+`auracle info {string value: package1} {string value: package2}`
 
 - Display the `PKGBUILD` file (build information) for a space-separated list of AUR packages:
 
-`auracle show {any something} {any something}`
+`auracle show {string value: package1} {string value: package2}`
 
 - Display updates for installed AUR packages:
 

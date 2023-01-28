@@ -5,24 +5,24 @@
 
 - Display the current settings for an interface:
 
-`ethtool {any something}`
+`ethtool {string value: eth0}`
 
 - Display the driver information for an interface:
 
-`ethtool --driver {any something}`
+`ethtool --driver {string value: eth0}`
 
 - Display all supported features for an interface:
 
-`ethtool --show-features {any something}`
+`ethtool --show-features {string value: eth0}`
 
 - Display the network usage statistics for an interface:
 
-`ethtool --statistics {any something}`
+`ethtool --statistics {string value: eth0}`
 
 - Blink one or more LEDs on an interface for 10 seconds:
 
-`ethtool --identify {any something} {int number: 10}`
+`ethtool --identify {string value: eth0} {int value: 10}`
 
 - Set the link speed, duplex mode, and parameter auto-negotiation for a given interface:
 
-`ethtool -s {any something} speed {any something} duplex {any something} autoneg {any something}`
+`ethtool -s {string value: eth0} speed {string value: 10|100|1000} duplex {string value: half|full} autoneg {string value: on|off}`

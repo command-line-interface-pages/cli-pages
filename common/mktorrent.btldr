@@ -5,20 +5,20 @@
 
 - Create a torrent with 2^21 KB as the piece size:
 
-`mktorrent -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
+`mktorrent -a {string value: tracker_announce_url} -l {int value: 21} -o {string value: path/to/example.torrent} {path value}`
 
 - Create a private torrent with a 2^21 KB piece size:
 
-`mktorrent -p -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
+`mktorrent -p -a {string value: tracker_announce_url} -l {int value: 21} -o {string value: path/to/example.torrent} {path value}`
 
 - Create a torrent with a comment:
 
-`mktorrent -c "{any something}" -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
+`mktorrent -c "{string value: comment}" -a {string value: tracker_announce_url} -l {int value: 21} -o {string value: path/to/example.torrent} {path value}`
 
 - Create a torrent with multiple trackers:
 
-`mktorrent -a {any something} -l {int number: 21} -o {any something} {file something|path something}`
+`mktorrent -a {string value: tracker_announce_url,tracker_announce_url_2} -l {int value: 21} -o {string value: path/to/example.torrent} {path value}`
 
 - Create a torrent with web seed URLs:
 
-`mktorrent -a {any something} -w {any something} -l {int number: 21} -o {any something} {file something|path something}`
+`mktorrent -a {string value: tracker_announce_url} -w {string value: web_seed_url} -l {int value: 21} -o {string value: path/to/example.torrent} {path value}`

@@ -5,32 +5,32 @@
 
 - Install one or more space-separated packages:
 
-`choco install {any something}`
+`choco install {string value: package(s)}`
 
 - Install packages from a custom configuration file:
 
-`choco install {any something}`
+`choco install {string value: path/to/packages.config}`
 
 - Install a specific nuspec or nupkg file:
 
-`choco install {file something}`
+`choco install {file value}`
 
 - Install a specific version of a package:
 
-`choco install {any something} --version {any something}`
+`choco install {string value: package} --version {string value: version}`
 
 - Allow installing multiple versions of a package:
 
-`choco install {any something} --allow-multiple`
+`choco install {string value: package} --allow-multiple`
 
 - Confirm all prompts automatically:
 
-`choco install {any something} --yes`
+`choco install {string value: package} --yes`
 
 - Specify a custom source to receive packages from:
 
-`choco install {any something} --source {any something}`
+`choco install {string value: package} --source {string value: source_url|alias}`
 
 - Provide a username and password for authentication:
 
-`choco install {any something} --user {string user} --password {any something}`
+`choco install {string value: package} --user {string user} --password {string value: password}`

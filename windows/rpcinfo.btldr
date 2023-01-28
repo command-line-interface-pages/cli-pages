@@ -9,12 +9,12 @@
 
 - List all programs registered on a remote computer:
 
-`rpcinfo /p {any something}`
+`rpcinfo /p {string value: computer_name}`
 
 - Call a specific program on a remote computer using TCP:
 
-`rpcinfo /t {any something} {any something}`
+`rpcinfo /t {string value: computer_name} {string value: program_name}`
 
 - Call a specific program on a remote computer using UDP:
 
-`rpcinfo /u {any something} {any something}`
+`rpcinfo /u {string value: computer_name} {string value: program_name}`

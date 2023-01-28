@@ -5,16 +5,16 @@
 
 - Convert a specific `.adoc` file to HTML (the default output format):
 
-`asciidoctor {file something}`
+`asciidoctor {file value: sample.adoc}`
 
 - Convert a specific `.adoc` file to HTML and link a CSS stylesheet:
 
-`asciidoctor -a stylesheet={any something} {file something}`
+`asciidoctor -a stylesheet={string value: path/to/stylesheet.css} {file value: sample.adoc}`
 
 - Convert a specific `.adoc` file to embeddable HTML, removing everything except the body:
 
-`asciidoctor --embedded {file something}`
+`asciidoctor --embedded {file value: sample.adoc}`
 
 - Convert a specific `.adoc` file to a PDF using the `asciidoctor-pdf` library:
 
-`asciidoctor --backend={any something} --require={any something} {file something}`
+`asciidoctor --backend={string value: pdf} --require={string value: asciidoctor-pdf} {file value: sample.adoc}`

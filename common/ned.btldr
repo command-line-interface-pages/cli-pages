@@ -6,32 +6,32 @@
 
 - Recursively search starting in the current directory, ignoring case:
 
-`ned --ignore-case --recursive '{any something}' {any something}`
+`ned --ignore-case --recursive '{string value: ^[dl]og}' {string value: .}`
 
 - Search always showing colored output:
 
-`ned --colors '{any something}' {any something}`
+`ned --colors '{string value: ^[dl]og}' {string value: .}`
 
 - Search never showing colored output:
 
-`ned --colors=never '{any something}' {any something}`
+`ned --colors=never '{string value: ^[dl]og}' {string value: .}`
 
 - Search ignoring certain files:
 
-`ned --recursive --exclude '{any something}' '{any something}' {any something}`
+`ned --recursive --exclude '{string value: *.htm}' '{string value: ^[dl]og}' {string value: .}`
 
 - Simple replace:
 
-`ned '{any something}' --replace '{any something}' {any something}`
+`ned '{string value: dog}' --replace '{string value: cat}' {string value: .}`
 
 - Replace using numbered group references:
 
-`ned '{any something}' --replace '{any something}' {any something}`
+`ned '{string value: the ([a-z]+) dog and the ([a-z]+) dog}' --replace '{string value: the $2 dog and the $1 dog}' {string value: .}`
 
 - Replace changing case:
 
-`ned '{any something}' --case-replacements --replace '{any something}' --stdout {any something}`
+`ned '{string value: ([a-z]+) dog}' --case-replacements --replace '{string value: \U$1\E! dog}' --stdout {string value: .}`
 
 - Preview results of a find and replace without updating the target files:
 
-`ned '{any something}' --replace '{any something}' --stdout {any something}`
+`ned '{string value: ^[sb]ad}' --replace '{string value: happy}' --stdout {string value: .}`

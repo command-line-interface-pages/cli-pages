@@ -9,11 +9,11 @@
 
 - Open specific documents:
 
-`pluma {any something}`
+`pluma {file* value}`
 
 - Open documents using a specific encoding:
 
-`pluma --encoding {any something} {any something}`
+`pluma --encoding {string value: WINDOWS-1252} {file* value}`
 
 - Print all supported encodings:
 
@@ -21,4 +21,4 @@
 
 - Open document and go to a specific line:
 
-`pluma +{int number: 10} {file something}`
+`pluma +{int value: 10} {file value}`

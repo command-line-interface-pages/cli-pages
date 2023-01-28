@@ -5,12 +5,12 @@
 
 - Run a command on node 0 with memory allocated on node 0 and 1:
 
-`numactl --cpunodebind={int number: 0} --membind={any something} -- {any something} {any something}`
+`numactl --cpunodebind={int value: 0} --membind={string value: 0,1} -- {string value: command} {string value: command_arguments}`
 
 - Run a command on CPUs (cores) 0-4 and 8-12 of the current cpuset:
 
-`numactl --physcpubind={any something} -- {any something} {any something}`
+`numactl --physcpubind={string value: +0-4,8-12} -- {string value: command} {string value: command_arguments}`
 
 - Run a command with its memory interleaved on all CPUs:
 
-`numactl --interleave={any something} -- {any something} {any something}`
+`numactl --interleave={string value: all} -- {string value: command} {string value: command_arguments}`

@@ -9,7 +9,7 @@
 
 - Display memory in Bytes/KB/MB/GB:
 
-`free -{any something}`
+`free -{string value: b|k|m|g}`
 
 - Display memory in human-readable units:
 
@@ -17,4 +17,4 @@
 
 - Refresh the output every 2 seconds:
 
-`free -s {int number: 2}`
+`free -s {int value: 2}`

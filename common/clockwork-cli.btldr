@@ -9,8 +9,8 @@
 
 - Monitor Clockwork logs for a specific project:
 
-`clockwork-cli {directory something}`
+`clockwork-cli {directory value}`
 
 - Monitor Clockwork logs for multiple projects:
 
-`clockwork-cli {any something}`
+`clockwork-cli {string value: path/to/directory1 path/to/directory2 …}`

@@ -5,24 +5,24 @@
 
 - Download a remote image from Sylabs Cloud:
 
-`singularity pull --name {any something} {any something}`
+`singularity pull --name {string value: image.sif} {string value: library://godlovedc/funny/lolcow:latest}`
 
 - Rebuild a remote image using the latest Singularity image format:
 
-`singularity build {any something} {any something}`
+`singularity build {string value: image.sif} {string value: docker://godlovedc/lolcow}`
 
 - Start a container from an image and get a shell inside it:
 
-`singularity shell {any something}`
+`singularity shell {string value: image.sif}`
 
 - Start a container from an image and run a command:
 
-`singularity exec {any something} {any something}`
+`singularity exec {string value: image.sif} {string value: command}`
 
 - Start a container from an image and execute the internal runscript:
 
-`singularity run {any something}`
+`singularity run {string value: image.sif}`
 
 - Build a singularity image from a recipe file:
 
-`sudo singularity build {any something} {any something}`
+`sudo singularity build {string value: image.sif} {string value: recipe}`

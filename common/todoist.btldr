@@ -5,15 +5,15 @@
 
 - Add a task:
 
-`todoist add "{any something}"`
+`todoist add "{string value: task_name}"`
 
 - Add a high priority task with a label, project, and due date:
 
-`todoist add "{any something}" --priority {int number: 1} --label-ids "{any something}" --project-name "{any something}" --date "{any something}"`
+`todoist add "{string value: task_name}" --priority {int value: 1} --label-ids "{string value: label_id}" --project-name "{string value: project_name}" --date "{string value: tmr 9am}"`
 
 - Add a high priority task with a label, project, and due date in quick mode:
 
-`todoist quick '#{any something} "{any something}" p{int number: 1} {any something} @{any something}'`
+`todoist quick '#{string value: project_name} "{string value: tmr 9am}" p{int value: 1} {string value: task_name} @{string value: label_name}'`
 
 - List all tasks with a header and color:
 
@@ -21,8 +21,8 @@
 
 - List all high priority tasks:
 
-`todoist list --filter p{int number: 1}`
+`todoist list --filter p{int value: 1}`
 
 - List today's tasks with high priority that have the specified label:
 
-`todoist list --filter '(@{any something} | {any something}) & p{int number: 1}'`
+`todoist list --filter '(@{string value: label_name} | {string value: today}) & p{int value: 1}'`

@@ -6,11 +6,11 @@
 
 - Register a provider:
 
-`az provider register --namespace {any something}`
+`az provider register --namespace {string value: Microsoft.PolicyInsights}`
 
 - Unregister a provider:
 
-`az provider unregister --namespace {any something}`
+`az provider unregister --namespace {string value: Microsoft.Automation}`
 
 - List all providers for a subscription:
 
@@ -18,8 +18,8 @@
 
 - Show information about a specific provider:
 
-`az provider show --namespace {any something}`
+`az provider show --namespace {string value: Microsoft.Storage}`
 
 - List all resource types for a specific provider:
 
-`az provider list --query "[?namespace=='{any something}'].resourceTypes[].resourceType"`
+`az provider list --query "[?namespace=='{string value: Microsoft.Network}'].resourceTypes[].resourceType"`

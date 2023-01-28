@@ -9,8 +9,8 @@
 
 - Open the funding URL for a specific package in the default web browser:
 
-`npm fund {any something}`
+`npm fund {string value: package}`
 
 - List dependencies with a funding URL for a specific [w]orkspace for the project in the current directory:
 
-`npm fund -w {any something}`
+`npm fund -w {string value: workspace}`

@@ -9,7 +9,7 @@
 
 - Launch the MOC terminal UI in a specific directory:
 
-`mocp {directory something}`
+`mocp {directory value}`
 
 - Start the MOC server in the background, without launching the MOC terminal UI:
 
@@ -17,11 +17,11 @@
 
 - Add a specific song to the play queue while MOC is in the background:
 
-`mocp --enqueue {file something: audio}`
+`mocp --enqueue {file value: audio}`
 
 - Add songs recursively to the play queue while MOC is in the background:
 
-`mocp --append {directory something}`
+`mocp --append {directory value}`
 
 - Clear the play queue while MOC is in the background:
 
@@ -29,7 +29,7 @@
 
 - Play or stop the currently queued song while MOC is in the background:
 
-`mocp --{any something}`
+`mocp --{string value: play|stop}`
 
 - Stop the MOC server while it's in the background:
 

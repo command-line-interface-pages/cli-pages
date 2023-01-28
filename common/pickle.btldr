@@ -5,16 +5,16 @@
 
 - Install a specific PHP extension:
 
-`pickle install {any something}`
+`pickle install {string value: extension_name}`
 
 - Convert an existing PECL extension configuration to a Pickle configuration file:
 
-`pickle convert {directory something}`
+`pickle convert {directory value}`
 
 - Validate a PECL extension:
 
-`pickle validate {directory something}`
+`pickle validate {directory value}`
 
 - Package a PECL extension for release:
 
-`pickle release {directory something}`
+`pickle release {directory value}`

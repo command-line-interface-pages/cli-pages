@@ -5,15 +5,15 @@
 
 - List all the extensions created by a publisher:
 
-`vsce list {any something}`
+`vsce list {string value: publisher}`
 
 - Publish an extension as major, minor or patch version:
 
-`vsce publish {any something}`
+`vsce publish {string value: major|minor|patch}`
 
 - Unpublish an extension:
 
-`vsce unpublish {any something}`
+`vsce unpublish {string value: extension_id}`
 
 - Package the current working directory as a `.vsix` file:
 
@@ -21,4 +21,4 @@
 
 - Show the metadata associated with an extension:
 
-`vsce show {any something}`
+`vsce show {string value: extension_id}`

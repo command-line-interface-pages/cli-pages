@@ -5,23 +5,23 @@
 
 - Run a command as a daemon:
 
-`daemon --name="{any something}" {any something}`
+`daemon --name="{string value: name}" {string value: command}`
 
 - Run a command as a daemon which will restart if the command crashes:
 
-`daemon --name="{any something}" --respawn {any something}`
+`daemon --name="{string value: name}" --respawn {string value: command}`
 
 - Run a command as a daemon which will restart if it crashes, with two attempts every 10 seconds:
 
-`daemon --name="{any something}" --respawn --attempts=2 --delay=10 {any something}`
+`daemon --name="{string value: name}" --respawn --attempts=2 --delay=10 {string value: command}`
 
 - Run a command as a daemon, writing logs to a specific file:
 
-`daemon --name="{any something}" --errlog={file something} {any something}`
+`daemon --name="{string value: name}" --errlog={file value: sample.log} {string value: command}`
 
 - Kill a daemon (SIGTERM):
 
-`daemon --name="{any something}" --stop`
+`daemon --name="{string value: name}" --stop`
 
 - List daemons:
 

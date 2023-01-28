@@ -6,32 +6,32 @@
 
 - Download the contents of a URL to a file (named "foo" in this case):
 
-`wget {any something}`
+`wget {string value: https://example.com/foo}`
 
 - Download the contents of a URL to a file (named "bar" in this case):
 
-`wget --output-document {any something} {any something}`
+`wget --output-document {string value: bar} {string value: https://example.com/foo}`
 
 - Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
-`wget --page-requisites --convert-links --wait=3 {any something}`
+`wget --page-requisites --convert-links --wait=3 {string value: https://example.com/somepage.html}`
 
 - Download all listed files within a directory and its sub-directories (does not download embedded page elements):
 
-`wget --mirror --no-parent {any something}`
+`wget --mirror --no-parent {string value: https://example.com/somepath/}`
 
 - Limit the download speed and the number of connection retries:
 
-`wget --limit-rate={any something} --tries={int number: 100} {any something}`
+`wget --limit-rate={string value: 300k} --tries={int value: 100} {string value: https://example.com/somepath/}`
 
 - Download a file from an HTTP server using Basic Auth (also works for FTP):
 
-`wget --user={string user} --password={any something} {any something}`
+`wget --user={string user} --password={string value: password} {string value: https://example.com}`
 
 - Continue an incomplete download:
 
-`wget --continue {any something}`
+`wget --continue {string value: https://example.com}`
 
 - Download all URLs stored in a text file to a specific directory:
 
-`wget --directory-prefix {directory something} --input-file {any something}`
+`wget --directory-prefix {directory value} --input-file {string value: URLs.txt}`

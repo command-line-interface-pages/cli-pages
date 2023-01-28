@@ -9,7 +9,7 @@
 
 - Show concise table of all RPC services registered on localhost:
 
-`rpcinfo -s {any something}`
+`rpcinfo -s {string value: localhost}`
 
 - Display table of statistics of rpcbind operations on localhost:
 
@@ -17,8 +17,8 @@
 
 - Display list of entries of given service name (mountd) and version number (2) on a remote nfs share:
 
-`rpcinfo -l {any something} {any something} {int number: 2}`
+`rpcinfo -l {string value: remote_nfs_server_ip} {string value: mountd} {int value: 2}`
 
 - Delete the registration for version 1 of the mountd service for all transports:
 
-`rpcinfo -d {any something} {int number: 1}`
+`rpcinfo -d {string value: mountd} {int value: 1}`

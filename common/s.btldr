@@ -5,7 +5,7 @@
 
 - Search for a query on Google (default provider):
 
-`s {any something}`
+`s {string value: query}`
 
 - List all providers:
 
@@ -13,8 +13,8 @@
 
 - Search for a query with a given provider:
 
-`s --provider {any something} {any something}`
+`s --provider {string value: provider} {string value: query}`
 
 - Use a specified binary to perform the search query:
 
-`s --binary "{any something} {any something}" {any something}`
+`s --binary "{string value: binary} {string value: arguments}" {string value: query}`

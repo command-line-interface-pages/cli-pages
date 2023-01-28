@@ -5,12 +5,12 @@
 
 - Describe the format and basic characteristics of an image:
 
-`identify {any something}`
+`identify {string value: path/to/image}`
 
 - Describe the format and verbose characteristics of an image:
 
-`identify -verbose {any something}`
+`identify -verbose {string value: path/to/image}`
 
 - Collect dimensions of all JPEG files under current directory:
 
-`identify -format "%f,%w,%h\n" *.{any something} > {any something}`
+`identify -format "%f,%w,%h\n" *.{string value: jpg} > {string value: path/to/filelist.csv}`

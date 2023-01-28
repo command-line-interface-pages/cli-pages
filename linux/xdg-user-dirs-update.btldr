@@ -5,8 +5,8 @@
 
 - Change XDG's DESKTOP directory to the specified directory (must be absolute):
 
-`xdg-user-dirs-update --set DESKTOP "{directory something}"`
+`xdg-user-dirs-update --set DESKTOP "{directory value}"`
 
 - Write the result to the specified dry-run-file instead of the `user-dirs.dirs` file:
 
-`xdg-user-dirs-update --dummy-output "{file something: dry_run}" --set {directory something: xdg_user} "{directory something}"`
+`xdg-user-dirs-update --dummy-output "{file value: dry_run}" --set {directory value: xdg_user} "{directory value}"`

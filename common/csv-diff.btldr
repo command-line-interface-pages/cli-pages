@@ -5,12 +5,12 @@
 
 - Display a human-readable summary of differences between files using a specific column as a unique identifier:
 
-`csv-diff {any something} {any something} --key={any something}`
+`csv-diff {string value: path/to/file1.csv} {string value: path/to/file2.csv} --key={string value: column_name}`
 
 - Display a human-readable summary of differences between files that includes unchanged values in rows with at least one change:
 
-`csv-diff {any something} {any something} --key={any something} --show-unchanged`
+`csv-diff {string value: path/to/file1.csv} {string value: path/to/file2.csv} --key={string value: column_name} --show-unchanged`
 
 - Display a summary of differences between files in JSON format using a specific column as a unique identifier:
 
-`csv-diff {any something} {any something} --key={any something} --json`
+`csv-diff {string value: path/to/file1.csv} {string value: path/to/file2.csv} --key={string value: column_name} --json`

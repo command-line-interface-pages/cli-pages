@@ -6,15 +6,15 @@
 
 - Display information about a specific user:
 
-`finger {any something}@{any something}`
+`finger {string value: user}@{string value: host}`
 
 - Display information about all users on the specified host:
 
-`finger @{any something}`
+`finger @{string value: host}`
 
 - Display information in a longer format:
 
-`finger {any something}@{any something} -l`
+`finger {string value: user}@{string value: host} -l`
 
 - Display help information:
 

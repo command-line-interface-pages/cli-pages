@@ -9,8 +9,8 @@
 
 - Save an RSA private key of an arbitrary number of bits to the output file:
 
-`openssl genrsa -out {file something: output} {int number: 1234}`
+`openssl genrsa -out {file value: output.key} {int value: 1234}`
 
 - Generate an RSA private key and encrypt it with AES256 (you will be prompted for a passphrase):
 
-`openssl genrsa {any something}`
+`openssl genrsa {string value: -aes256}`

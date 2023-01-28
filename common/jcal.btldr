@@ -13,8 +13,8 @@
 
 - Display a calendar for a specific year (4 digits):
 
-`jcal {any something}`
+`jcal {string value: year}`
 
 - Display a calendar for a specific month and year:
 
-`jcal {any something} {any something}`
+`jcal {string value: year} {string value: month}`

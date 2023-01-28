@@ -9,15 +9,15 @@
 
 - Listen for events, filtering on events with the name `charge.succeeded` and forwarding them to localhost:3000/events:
 
-`stripe listen --events="{any something}" --forward-to="{any something}"`
+`stripe listen --events="{string value: charge.succeeded}" --forward-to="{string value: localhost:3000/events}"`
 
 - Send a test webhook event:
 
-`stripe trigger {any something}`
+`stripe trigger {string value: charge.succeeded}`
 
 - Create a customer:
 
-`stripe customers create --email="{any something}" --name="{any something}"`
+`stripe customers create --email="{string value: test@example.com}" --name="{string value: Jenny Rosen}"`
 
 - Print to JSON:
 

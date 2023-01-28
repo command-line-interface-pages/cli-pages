@@ -10,11 +10,11 @@
 
 - Resume a specific task:
 
-`pueue start {any something}`
+`pueue start {string value: task_id}`
 
 - Resume multiple tasks at once:
 
-`pueue start {any something} {any something}`
+`pueue start {string value: task_id} {string value: task_id}`
 
 - Resume all tasks and start their children:
 

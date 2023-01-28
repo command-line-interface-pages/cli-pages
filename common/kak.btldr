@@ -6,7 +6,7 @@
 
 - Open a file and enter normal mode, to execute commands:
 
-`kak {file something}`
+`kak {file value}`
 
 - Enter insert mode from normal mode, to write text into the file:
 
@@ -18,7 +18,7 @@
 
 - Replace all instances of "foo" in the current file with "bar":
 
-`%s{any something}<Enter>c{any something}<Escape>`
+`%s{string value: foo}<Enter>c{string value: bar}<Escape>`
 
 - Unselect all secondary selections, and keep only the main one:
 
@@ -30,7 +30,7 @@
 
 - Insert the contents of a file:
 
-`!cat {file something}<Enter>`
+`!cat {file value}<Enter>`
 
 - Save the current file:
 

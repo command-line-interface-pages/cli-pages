@@ -10,11 +10,11 @@
 
 - Show events starting from or between specific dates (also takes relative dates e.g. "tomorrow"):
 
-`gcalcli agenda {any something} [{any something}]`
+`gcalcli agenda {string value: mm/dd} [{string value: mm/dd}]`
 
 - List events from a specific calendar:
 
-`gcalcli --calendar {any something} agenda`
+`gcalcli --calendar {string value: calendar_name} agenda`
 
 - Display an ASCII calendar of events by week:
 
@@ -26,8 +26,8 @@
 
 - Quick-add an event to your calendar:
 
-`gcalcli --calendar {any something} quick "{any something} {any something} {any something}"`
+`gcalcli --calendar {string value: calendar_name} quick "{string value: mm/dd} {string value: HH:MM} {string value: event_name}"`
 
 - Add an event to calendar. Triggers interactive prompt:
 
-`gcalcli --calendar "{any something}" add`
+`gcalcli --calendar "{string value: calendar_name}" add`

@@ -13,8 +13,8 @@
 
 - View a particular package's documentation:
 
-`cargo doc --open --package {any something}`
+`cargo doc --open --package {string value: package}`
 
 - View a particular package's documentation offline:
 
-`cargo doc --open --offline --package {any something}`
+`cargo doc --open --offline --package {string value: package}`

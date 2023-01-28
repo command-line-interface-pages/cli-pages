@@ -9,8 +9,8 @@
 
 - Apply a patch and create a new ROM file:
 
-`flips --apply {any something} {any something} {any something}`
+`flips --apply {string value: patch.bps} {string value: rom.smc} {string value: hack.smc}`
 
 - Create a patch from two ROMs:
 
-`flips --create {any something} {any something} {any something}`
+`flips --create {string value: rom.smc} {string value: hack.smc} {string value: patch.bps}`

@@ -9,16 +9,16 @@
 
 - Run in a specific directory:
 
-`alacritty --working-directory {directory something}`
+`alacritty --working-directory {directory value}`
 
 - Run a command in a new Alacritty window:
 
-`alacritty -e {any something}`
+`alacritty -e {string value: command}`
 
 - Specify alternative configuration file (defaults to `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
-`alacritty --config-file {any something}`
+`alacritty --config-file {string value: path/to/config.yml}`
 
 - Run with live config reload enabled (can also be enabled by default in `alacritty.yml`):
 
-`alacritty --live-config-reload --config-file {any something}`
+`alacritty --live-config-reload --config-file {string value: path/to/config.yml}`

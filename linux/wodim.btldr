@@ -10,12 +10,12 @@
 
 - Record ("burn") an audio-only disc:
 
-`wodim dev=/dev/{any something} -audio {any something}`
+`wodim dev=/dev/{string value: optical_drive} -audio {string value: track*.cdaudio}`
 
 - Burn a file to a disc, ejecting the disc once done (some recorders require this):
 
-`wodim -eject dev=/dev/{any something} -data {file something}`
+`wodim -eject dev=/dev/{string value: optical_drive} -data {file value: sample.iso}`
 
 - Burn a file to the disc in an optical drive, potentially writing to multiple discs in succession:
 
-`wodim -tao dev=/dev/{any something} -data {file something}`
+`wodim -tao dev=/dev/{string value: optical_drive} -data {file value: sample.iso}`

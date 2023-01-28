@@ -6,7 +6,7 @@
 
 - Open a file:
 
-`micro {file something}`
+`micro {file value}`
 
 - Save a file:
 
@@ -18,15 +18,15 @@
 
 - Search for a pattern in the file (press `Ctrl + N`/`Ctrl + P` to go to next/previous match):
 
-`Ctrl + F "{any something}" <Enter>`
+`Ctrl + F "{string value: pattern}" <Enter>`
 
 - Execute a command:
 
-`Ctrl + E {any something} <Enter>`
+`Ctrl + E {string value: command} <Enter>`
 
 - Perform a substitution in the whole file:
 
-`Ctrl + E replaceall "{any something}" "{any something}" <Enter>`
+`Ctrl + E replaceall "{string value: pattern}" "{string value: replacement}" <Enter>`
 
 - Quit:
 

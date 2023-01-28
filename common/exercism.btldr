@@ -5,15 +5,15 @@
 
 - Configure the application token and the preferred workspace for Exercism:
 
-`exercism configure --token={any something} --workspace={any something}`
+`exercism configure --token={string value: your-application-token} --workspace={string value: /path/to/preferred/workspace}`
 
 - Download a specific exercise:
 
-`exercism download --exercise={any something} --track={any something}`
+`exercism download --exercise={string value: exercise_slug} --track={string value: track_slug}`
 
 - Submit an exercise:
 
-`exercism submit {file something}`
+`exercism submit {file value}`
 
 - Print the path to the solution workspace:
 

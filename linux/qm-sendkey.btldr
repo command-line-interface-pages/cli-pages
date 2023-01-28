@@ -5,8 +5,8 @@
 
 - Send the specified key event to a specific virtual machine:
 
-`qm sendkey {any something} {any something}`
+`qm sendkey {string value: vm_id} {string value: key}`
 
 - Allow root user to send key event and ignore locks:
 
-`qm sendkey --skiplock {bool flag: true} {any something} {any something}`
+`qm sendkey --skiplock {bool flag: true} {string value: vm_id} {string value: key}`

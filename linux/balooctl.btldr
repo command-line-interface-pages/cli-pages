@@ -13,7 +13,7 @@
 
 - Enable/Disable the file indexer:
 
-`balooctl {any something}`
+`balooctl {string value: enable|disable}`
 
 - Clean the index database:
 

@@ -5,7 +5,7 @@
 
 - Start running a file forever (as a daemon):
 
-`forever {any something}`
+`forever {string value: script}`
 
 - List running "forever" processes (along with IDs and other details of "forever" processes):
 
@@ -13,4 +13,4 @@
 
 - Stop a running "forever" process:
 
-`forever stop {any something}`
+`forever stop {string value: ID|pid|script}`

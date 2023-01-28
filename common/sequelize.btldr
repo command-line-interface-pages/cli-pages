@@ -5,7 +5,7 @@
 
 - Create a model with 3 fields and a migration file:
 
-`sequelize model:generate --name {any something} --attributes {any something}`
+`sequelize model:generate --name {string value: table_name} --attributes {string value: field1:integer,field2:string,field3:boolean}`
 
 - Run the migration file:
 
@@ -17,7 +17,7 @@
 
 - Create a seed file with the specified name to populate the database:
 
-`sequelize seed:generate --name {any something}`
+`sequelize seed:generate --name {file value: seed}`
 
 - Populate database using all seed files:
 

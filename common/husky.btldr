@@ -9,15 +9,15 @@
 
 - Install Husky into a specific directory:
 
-`husky install {directory something}`
+`husky install {directory value}`
 
 - Set a specific command as a `pre-push` hook for Git:
 
-`husky set {any something} "{any something} {any something}"`
+`husky set {string value: .husky/pre-push} "{string value: command} {string value: command_arguments}"`
 
 - Add a specific command to the current `pre-commit` hook:
 
-`husky add {any something} "{any something} {any something}"`
+`husky add {string value: .husky/pre-commit} "{string value: command} {string value: command_arguments}"`
 
 - Uninstall Husky hooks from the current directory:
 

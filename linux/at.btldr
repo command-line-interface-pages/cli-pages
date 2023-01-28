@@ -5,16 +5,16 @@
 
 - Open an `at` prompt to create a new set of scheduled commands, press `Ctrl + D` to save and exit:
 
-`at {any something}`
+`at {string value: hh:mm}`
 
 - Execute the commands and email the result using a local mailing program such as Sendmail:
 
-`at {any something} -m`
+`at {string value: hh:mm} -m`
 
 - Execute a script at the given time:
 
-`at {any something} -f {file something}`
+`at {string value: hh:mm} -f {file value}`
 
 - Display a system notification at 11pm on February 18th:
 
-`echo "notify-send '{any something}'" | at {any something} {any something}`
+`echo "notify-send '{string value: Wake up!}'" | at {string value: 11pm} {string value: Feb 18}`

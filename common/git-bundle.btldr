@@ -5,28 +5,28 @@
 
 - Create a bundle file that contains all objects and references of a specific branch:
 
-`git bundle create {file something} {any something}`
+`git bundle create {file value: sample.bundle} {string value: branch_name}`
 
 - Create a bundle file of all branches:
 
-`git bundle create {file something} --all`
+`git bundle create {file value: sample.bundle} --all`
 
 - Create a bundle file of the last 5 commits of the current branch:
 
-`git bundle create {file something} -{int number: 5} {any something}`
+`git bundle create {file value: sample.bundle} -{int value: 5} {string value: HEAD}`
 
 - Create a bundle file of the latest 7 days:
 
-`git bundle create {file something} --since={any something} {any something}`
+`git bundle create {file value: sample.bundle} --since={string value: 7.days} {string value: HEAD}`
 
 - Verify that a bundle file is valid and can be applied to the current repository:
 
-`git bundle verify {file something}`
+`git bundle verify {file value: sample.bundle}`
 
 - Print to the stdout the list of references contained in a bundle:
 
-`git bundle unbundle {file something}`
+`git bundle unbundle {file value: sample.bundle}`
 
 - Unbundle a specific branch from a bundle file into the current repository:
 
-`git pull {file something} {any something}`
+`git pull {file value: sample.bundle} {string value: branch_name}`

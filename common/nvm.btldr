@@ -6,15 +6,15 @@
 
 - Install a specific version of Node.js:
 
-`nvm install {any something}`
+`nvm install {string value: node_version}`
 
 - Use a specific version of Node.js in the current shell:
 
-`nvm use {any something}`
+`nvm use {string value: node_version}`
 
 - Set the default Node.js version:
 
-`nvm alias default {any something}`
+`nvm alias default {string value: node_version}`
 
 - List all available Node.js versions and highlight the default one:
 
@@ -22,12 +22,12 @@
 
 - Uninstall a given Node.js version:
 
-`nvm uninstall {any something}`
+`nvm uninstall {string value: node_version}`
 
 - Launch the REPL of a specific version of Node.js:
 
-`nvm run {any something} --version`
+`nvm run {string value: node_version} --version`
 
 - Execute a script in a specific version of Node.js:
 
-`nvm exec {any something} node {any something}`
+`nvm exec {string value: node_version} node {string value: app.js}`

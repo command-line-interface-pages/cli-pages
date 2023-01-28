@@ -10,19 +10,19 @@
 
 - Create a tag with the given name pointing to the current commit:
 
-`git tag {any something}`
+`git tag {string value: tag_name}`
 
 - Create a tag with the given name pointing to a given commit:
 
-`git tag {any something} {any something}`
+`git tag {string value: tag_name} {string value: commit}`
 
 - Create an annotated tag with the given message:
 
-`git tag {any something} -m {any something}`
+`git tag {string value: tag_name} -m {string value: tag_message}`
 
 - Delete the tag with the given name:
 
-`git tag -d {any something}`
+`git tag -d {string value: tag_name}`
 
 - Get updated tags from upstream:
 
@@ -30,4 +30,4 @@
 
 - List all tags whose ancestors include a given commit:
 
-`git tag --contains {any something}`
+`git tag --contains {string value: commit}`

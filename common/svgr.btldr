@@ -5,28 +5,28 @@
 
 - Transform a SVG file into a React component to stdout:
 
-`svgr -- {file something}`
+`svgr -- {file value: sample.svg}`
 
 - Transform a SVG file into a React component using TypeScript to stdout:
 
-`svgr --typescript -- {file something}`
+`svgr --typescript -- {file value: sample.svg}`
 
 - Transform a SVG file into a React component using JSX transform to stdout:
 
-`svgr --jsx-runtime automatic -- {file something}`
+`svgr --jsx-runtime automatic -- {file value: sample.svg}`
 
 - Transform all SVG files from a directory to React components into a specific directory:
 
-`svgr --out-dir {directory something: output} {directory something: input}`
+`svgr --out-dir {directory value: output} {directory value: input}`
 
 - Transform all SVG files from a directory to React components into a specific directory skipping already transformed files:
 
-`svgr --out-dir {directory something: output} --ignore-existing {directory something: input}`
+`svgr --out-dir {directory value: output} --ignore-existing {directory value: input}`
 
 - Transform all SVG files from a directory to React components into a specific directory using a specific case for filenames:
 
-`svgr --out-dir {directory something: output} --filename-case {any something} {directory something: input}`
+`svgr --out-dir {directory value: output} --filename-case {string value: camel|kebab|pascal} {directory value: input}`
 
 - Transform all SVG files from a directory to React components into a specific directory without generating an index file:
 
-`svgr --out-dir {directory something: output} --no-index {directory something: input}`
+`svgr --out-dir {directory value: output} --no-index {directory value: input}`

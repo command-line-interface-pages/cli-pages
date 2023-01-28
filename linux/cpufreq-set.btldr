@@ -6,16 +6,16 @@
 
 - Set the CPU frequency policy of CPU 1 to "userspace":
 
-`sudo cpufreq-set -c {int number: 1} -g {any something}`
+`sudo cpufreq-set -c {int value: 1} -g {string value: userspace}`
 
 - Set the current minimum CPU frequency of CPU 1:
 
-`sudo cpufreq-set -c {int number: 1} --min {any something}`
+`sudo cpufreq-set -c {int value: 1} --min {string value: min_frequency}`
 
 - Set the current maximum CPU frequency of CPU 1:
 
-`sudo cpufreq-set -c {int number: 1} --max {any something}`
+`sudo cpufreq-set -c {int value: 1} --max {string value: max_frequency}`
 
 - Set the current work frequency of CPU 1:
 
-`sudo cpufreq-set -c {int number: 1} -f {any something}`
+`sudo cpufreq-set -c {int value: 1} -f {string value: work_frequency}`

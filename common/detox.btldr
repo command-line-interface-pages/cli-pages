@@ -6,12 +6,12 @@
 
 - Remove spaces and other undesirable characters from a file's name:
 
-`detox {file something}`
+`detox {file value}`
 
 - Show how detox would rename all the files in a directory tree:
 
-`detox --dry-run -r {directory something}`
+`detox --dry-run -r {directory value}`
 
 - Remove spaces and other undesirable characters from all files in a directory tree:
 
-`detox -r {directory something}`
+`detox -r {directory value}`

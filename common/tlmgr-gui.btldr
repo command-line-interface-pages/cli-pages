@@ -10,20 +10,20 @@
 
 - Start a GUI specifying the background color:
 
-`sudo tlmgr gui -background "{any something}"`
+`sudo tlmgr gui -background "{string value: #f39bc3}"`
 
 - Start a GUI specifying the foreground color:
 
-`sudo tlmgr gui -foreground "{any something}"`
+`sudo tlmgr gui -foreground "{string value: #0ef3bd}"`
 
 - Start a GUI specifying the font and font size:
 
-`sudo tlmgr gui -font "{any something}"`
+`sudo tlmgr gui -font "{string value: helvetica 18}"`
 
 - Start a GUI setting a specific geometry:
 
-`sudo tlmgr gui -geometry {any something}x{any something}-{any something}+{any something}`
+`sudo tlmgr gui -geometry {string value: width}x{string value: height}-{string value: xpos}+{string value: ypos}`
 
 - Start a GUI passing an arbitrary X resource string:
 
-`sudo tlmgr gui -xrm {any something}`
+`sudo tlmgr gui -xrm {string value: xresource}`

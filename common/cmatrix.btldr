@@ -9,7 +9,7 @@
 
 - Display red text:
 
-`cmatrix -C {any something}`
+`cmatrix -C {string value: red}`
 
 - Enable rainbow mode:
 
@@ -17,4 +17,4 @@
 
 - Set screen update delay to 2 centiseconds (20 milliseconds):
 
-`cmatrix -u {int number: 2}`
+`cmatrix -u {int value: 2}`

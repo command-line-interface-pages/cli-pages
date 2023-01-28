@@ -5,12 +5,12 @@
 
 - Download missing packages while compiling:
 
-`texliveonfly {any something}`
+`texliveonfly {string value: source.tex}`
 
 - Use a specific compiler (defaults to `pdflatex`):
 
-`texliveonfly --compiler={any something} {any something}`
+`texliveonfly --compiler={string value: compiler} {string value: source.tex}`
 
 - Use a custom TeX Live `bin` folder:
 
-`texliveonfly --texlive_bin={any something} {any something}`
+`texliveonfly --texlive_bin={string value: path/to/texlive_bin} {string value: source.tex}`

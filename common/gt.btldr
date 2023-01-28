@@ -5,7 +5,7 @@
 
 - Authenticate the CLI with Graphite's API:
 
-`gt auth --token {any something}`
+`gt auth --token {string value: graphite_cli_auth_token}`
 
 - Initialise `gt` for the repository in the current directory:
 
@@ -13,11 +13,11 @@
 
 - Create a new branch stacked on top of the current branch and commit staged changes:
 
-`gt branch create {any something}`
+`gt branch create {string value: branch_name}`
 
 - Create a new commit and fix upstack branches:
 
-`gt commit create -m {any something}`
+`gt commit create -m {string value: commit_message}`
 
 - Force push all branches in the current stack to GitHub and create or update PRs:
 
@@ -29,4 +29,4 @@
 
 - Print help for a specified subcommand:
 
-`gt {any something} --help`
+`gt {string value: subcommand} --help`

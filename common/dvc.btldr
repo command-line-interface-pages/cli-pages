@@ -14,8 +14,8 @@
 
 - Display help about a specific subcommand:
 
-`dvc {any something} --help`
+`dvc {string value: subcommand} --help`
 
 - Execute a DVC subcommand:
 
-`dvc {any something}`
+`dvc {string value: subcommand}`

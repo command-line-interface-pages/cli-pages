@@ -10,8 +10,8 @@
 
 - Start server on different port. Access at http://localhost:port:
 
-`calibre-server --port {any something}`
+`calibre-server --port {string value: port}`
 
 - Password protect the server:
 
-`calibre-server --username {string user} --password {any something}`
+`calibre-server --username {string user} --password {string value: password}`

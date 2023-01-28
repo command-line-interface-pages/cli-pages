@@ -9,7 +9,7 @@
 
 - Switch to a named context:
 
-`kubectx {any something}`
+`kubectx {string value: name}`
 
 - Switch to the previous context:
 
@@ -17,4 +17,4 @@
 
 - Delete a named context:
 
-`kubectx -d {any something}`
+`kubectx -d {string value: name}`

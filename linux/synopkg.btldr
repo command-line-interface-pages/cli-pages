@@ -9,23 +9,23 @@
 
 - List packages which depend on a specific package:
 
-`synopkg list --depend-on {any something}`
+`synopkg list --depend-on {string value: package}`
 
 - Start/Stop a package:
 
-`sudo synopkg {any something} {any something}`
+`sudo synopkg {string value: start|stop} {string value: package}`
 
 - Print the status of a package:
 
-`synopkg status {any something}`
+`synopkg status {string value: package}`
 
 - Uninstall a package:
 
-`sudo synopkg uninstall {any something}`
+`sudo synopkg uninstall {string value: package}`
 
 - Check if updates are available for a package:
 
-`synopkg checkupdate {any something}`
+`synopkg checkupdate {string value: package}`
 
 - Upgrade all packages to the latest version:
 
@@ -33,4 +33,4 @@
 
 - Install a package from a synopkg file:
 
-`sudo synopkg install {any something}`
+`sudo synopkg install {string value: path/to/package.spk}`

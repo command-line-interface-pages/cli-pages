@@ -5,20 +5,20 @@
 
 - Add a Git repository as a subtree:
 
-`git subtree add --prefix={any something} --squash {any something} {any something}`
+`git subtree add --prefix={string value: path/to/directory/} --squash {string value: repository_url} {string value: branch_name}`
 
 - Update subtree repository to its latest commit:
 
-`git subtree pull --prefix={any something} {any something} {any something}`
+`git subtree pull --prefix={string value: path/to/directory/} {string value: repository_url} {string value: branch_name}`
 
 - Merge recent changes up to the latest subtree commit into the subtree:
 
-`git subtree merge --prefix={any something} --squash {any something} {any something}`
+`git subtree merge --prefix={string value: path/to/directory/} --squash {string value: repository_url} {string value: branch_name}`
 
 - Push commits to a subtree repository:
 
-`git subtree push --prefix={any something} {any something} {any something}`
+`git subtree push --prefix={string value: path/to/directory/} {string value: repository_url} {string value: branch_name}`
 
 - Extract a new project history from the history of a subtree:
 
-`git subtree split --prefix={any something} {any something} -b {any something}`
+`git subtree split --prefix={string value: path/to/directory/} {string value: repository_url} -b {string value: branch_name}`

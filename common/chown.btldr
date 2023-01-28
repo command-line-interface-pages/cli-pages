@@ -5,20 +5,20 @@
 
 - Change the owner user of a file/directory:
 
-`chown {any something} {file something|path something}`
+`chown {string value: user} {path value}`
 
 - Change the owner user and group of a file/directory:
 
-`chown {any something}:{any something} {file something|path something}`
+`chown {string value: user}:{string value: group} {path value}`
 
 - Recursively change the owner of a directory and its contents:
 
-`chown -R {any something} {directory something}`
+`chown -R {string value: user} {directory value}`
 
 - Change the owner of a symbolic link:
 
-`chown -h {any something} {any something}`
+`chown -h {string value: user} {string value: path/to/symlink}`
 
 - Change the owner of a file/directory to match a reference file:
 
-`chown --reference={file something: reference} {file something|path something}`
+`chown --reference={file value: reference} {path value}`

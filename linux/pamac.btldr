@@ -6,15 +6,15 @@
 
 - Install a new package:
 
-`pamac install {any something}`
+`pamac install {string value: package_name}`
 
 - Remove a package and its no longer required dependencies (orphans):
 
-`pamac remove --orphans {any something}`
+`pamac remove --orphans {string value: package_name}`
 
 - Search the package database for a package:
 
-`pamac search {any something}`
+`pamac search {string value: package_name}`
 
 - List installed packages:
 

@@ -6,12 +6,12 @@
 
 - Render markdown to console from a file:
 
-`Show-Markdown -Path {file something}`
+`Show-Markdown -Path {file value}`
 
 - Render markdown to console from string:
 
-`{any something} | Show-Markdown`
+`{string value: "# Markdown content"} | Show-Markdown`
 
 - Open Markdown file in a browser:
 
-`Show-Markdown -Path {file something} -UseBrowser`
+`Show-Markdown -Path {file value} -UseBrowser`

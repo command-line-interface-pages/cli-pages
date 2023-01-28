@@ -5,23 +5,23 @@
 
 - Render diagrams to default format (PNG):
 
-`plantuml {any something} {any something}`
+`plantuml {string value: diagram1.puml} {string value: diagram2.puml}`
 
 - Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
 
-`plantuml -t {any something} {any something}`
+`plantuml -t {string value: format} {string value: diagram.puml}`
 
 - Render all diagrams of a directory:
 
-`plantuml {any something}`
+`plantuml {string value: path/to/diagrams}`
 
 - Render a diagram to the output directory:
 
-`plantuml -o {any something} {any something}`
+`plantuml -o {string value: path/to/output} {string value: diagram.puml}`
 
 - Render a diagram with the configuration file:
 
-`plantuml -config {any something} {any something}`
+`plantuml -config {string value: config.cfg} {string value: diagram.puml}`
 
 - Display help:
 

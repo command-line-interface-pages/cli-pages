@@ -6,20 +6,20 @@
 
 - Generate by directly inputting text:
 
-`figlet {any something}`
+`figlet {string value: input_text}`
 
 - Use a custom font file:
 
-`figlet {any something} -f {file something: font}`
+`figlet {string value: input_text} -f {file value: font.flf}`
 
 - Use a font from the default font directory (the extension can be omitted):
 
-`figlet {any something} -f {any something}`
+`figlet {string value: input_text} -f {file value: font}`
 
 - Pipe command output through FIGlet:
 
-`{any something} | figlet`
+`{string value: command} | figlet`
 
 - Show available FIGlet fonts:
 
-`showfigfonts {any something}`
+`showfigfonts {string value: optional_string_to_display}`

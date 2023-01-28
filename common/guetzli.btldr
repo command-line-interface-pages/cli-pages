@@ -5,12 +5,12 @@
 
 - Compress a JPEG image:
 
-`guetzli {any something} {any something}`
+`guetzli {string value: input.jpg} {string value: output.jpg}`
 
 - Create a compressed JPEG from a PNG:
 
-`guetzli {any something} {any something}`
+`guetzli {string value: input.png} {string value: output.jpg}`
 
 - Compress a JPEG with the desired visual quality (84-100):
 
-`guetzli --quality {any something} {any something} {any something}`
+`guetzli --quality {string value: quality_value} {string value: input.jpg} {string value: output.jpg}`

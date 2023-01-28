@@ -21,11 +21,11 @@
 
 - Specify a custom configuration file location:
 
-`collectd -C {file something}`
+`collectd -C {file value}`
 
 - Specify a custom PID file location:
 
-`collectd -P {file something}`
+`collectd -P {file value}`
 
 - Don't fork into the background:
 

@@ -9,7 +9,7 @@
 
 - Print more information about a process:
 
-`gops {any something}`
+`gops {string value: pid}`
 
 - Display a process tree:
 
@@ -17,8 +17,8 @@
 
 - Print the current stack trace from a target program:
 
-`gops stack {any something}`
+`gops stack {string value: pid|addr}`
 
 - Print the current runtime memory statistics:
 
-`gops memstats {any something}`
+`gops memstats {string value: pid|addr}`

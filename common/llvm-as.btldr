@@ -5,12 +5,12 @@
 
 - Assemble an IR file:
 
-`llvm-as -o {any something} {any something}`
+`llvm-as -o {string value: path/to/out.bc} {string value: path/to/source.ll}`
 
 - Assemble an IR file and include a module hash in the produced Bitcode file:
 
-`llvm-as --module-hash -o {any something} {any something}`
+`llvm-as --module-hash -o {string value: path/to/out.bc} {string value: path/to/source.ll}`
 
 - Read an IR file from stdin and assemble it:
 
-`cat {any something} | llvm-as -o {any something}`
+`cat {string value: path/to/source.ll} | llvm-as -o {string value: path/to/out.bc}`

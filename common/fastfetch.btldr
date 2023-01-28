@@ -9,16 +9,16 @@
 
 - Set the structure of the fetch:
 
-`fastfetch --structure {any something}`
+`fastfetch --structure {string value: structure}`
 
 - Load a custom config file:
 
-`fastfetch --load-config {file something: config}`
+`fastfetch --load-config {file value: config}`
 
 - Set the logo to use:
 
-`fastfetch --logo {any something}`
+`fastfetch --logo {string value: logo}`
 
 - Set the color of the keys and title:
 
-`fastfetch --color {any something}`
+`fastfetch --color {string value: blue}`

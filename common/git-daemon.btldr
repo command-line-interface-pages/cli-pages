@@ -5,12 +5,12 @@
 
 - Launch a Git daemon with a whitelisted set of directories:
 
-`git daemon --export-all {any something} {any something}`
+`git daemon --export-all {string value: path/to/directory1} {string value: path/to/directory2}`
 
 - Launch a Git daemon with a specific base directory and allow pulling from all sub-directories that look like Git repositories:
 
-`git daemon --base-path={directory something} --export-all --reuseaddr`
+`git daemon --base-path={directory value} --export-all --reuseaddr`
 
 - Launch a Git daemon for the specified directory, verbosely printing log messages and allowing Git clients to write to it:
 
-`git daemon {directory something} --enable=receive-pack --informative-errors --verbose`
+`git daemon {directory value} --enable=receive-pack --informative-errors --verbose`

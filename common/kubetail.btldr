@@ -5,16 +5,16 @@
 
 - Tail the logs of multiple pods (whose name starts with "my_app") in one go:
 
-`kubetail {any something}`
+`kubetail {string value: my_app}`
 
 - Tail only a specific container from multiple pods:
 
-`kubetail {any something} -c {any something}`
+`kubetail {string value: my_app} -c {string value: my_container}`
 
 - To tail multiple containers from multiple pods:
 
-`kubetail {any something} -c {any something} -c {any something}`
+`kubetail {string value: my_app} -c {string value: my_container_1} -c {string value: my_container_2}`
 
 - To tail multiple applications at the same time separate them by comma:
 
-`kubetail {any something},{any something}`
+`kubetail {string value: my_app_1},{string value: my_app_2}`

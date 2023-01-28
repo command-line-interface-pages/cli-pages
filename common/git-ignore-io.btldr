@@ -9,4 +9,4 @@
 
 - Generate a .gitignore template:
 
-`git ignore-io {any something}`
+`git ignore-io {string value: item_a,item_b,item_n}`

@@ -17,7 +17,7 @@
 
 - Set update interval:
 
-`rsstail -u {string url} -i {any something}`
+`rsstail -u {string url} -i {string value: interval_in_seconds}`
 
 - Show feed and exit:
 

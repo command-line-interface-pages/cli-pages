@@ -6,12 +6,12 @@
 
 - Build a Linux ext2 filesystem on a partition:
 
-`mkfs {any something}`
+`mkfs {string value: path/to/partition}`
 
 - Build a filesystem of a specified type:
 
-`mkfs -t {any something} {any something}`
+`mkfs -t {string value: ext4} {string value: path/to/partition}`
 
 - Build a filesystem of a specified type and check for bad blocks:
 
-`mkfs -c -t {any something} {any something}`
+`mkfs -c -t {string value: ntfs} {string value: path/to/partition}`

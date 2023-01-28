@@ -21,4 +21,4 @@
 
 - Download and install Unity version and editor [p]ackages:
 
-`u3d install {any something} -p {any something}`
+`u3d install {string value: 2021.2.0f1} -p {string value: Unity,iOS,Android}`

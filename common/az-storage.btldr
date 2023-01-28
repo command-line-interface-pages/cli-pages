@@ -6,7 +6,7 @@
 
 - Create a storage account:
 
-`az storage account create -g {string group} -n {any something} -l {any something} --sku {any something}`
+`az storage account create -g {string group} -n {string value: account_name} -l {string value: location} --sku {string value: account_sku}`
 
 - List all storage accounts in a resource group:
 
@@ -14,12 +14,12 @@
 
 - List the access keys for a storage account:
 
-`az storage account keys list -g {string group} -n {any something}`
+`az storage account keys list -g {string group} -n {string value: account_name}`
 
 - Delete a storage account:
 
-`az storage account delete -g {string group} -n {any something}`
+`az storage account delete -g {string group} -n {string value: account_name}`
 
 - Update the minimum tls version setting for a storage account:
 
-`az storage account update --min-tls-version TLS1_2 -g {string group} -n {any something}`
+`az storage account update --min-tls-version TLS1_2 -g {string group} -n {string value: account_name}`

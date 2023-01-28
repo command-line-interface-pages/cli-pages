@@ -6,32 +6,32 @@
 
 - Connect to a host and run the current shell:
 
-`xxh "{any something}"`
+`xxh "{string value: host}"`
 
 - Install the current shell into the target machine without prompting:
 
-`xxh "{any something}" ++install`
+`xxh "{string value: host}" ++install`
 
 - Run the specified shell on the target machine:
 
-`xxh "{any something}" ++shell {any something}`
+`xxh "{string value: host}" ++shell {string value: xonsh|zsh|fish|bash|osquery}`
 
 - Use a specific xxh configuration directory on the target machine:
 
-`xxh "{any something}" ++host-xxh-home {any something}`
+`xxh "{string value: host}" ++host-xxh-home {string value: ~/.xxh}`
 
 - Use the specified configuration file on the host machine:
 
-`xxh "{any something}" ++xxh-config {any something}`
+`xxh "{string value: host}" ++xxh-config {string value: ~/.config/xxh/config.xxhc}`
 
 - Specify a password to use for the SSH connection:
 
-`xxh "{any something}" ++password "{any something}"`
+`xxh "{string value: host}" ++password "{string value: password}"`
 
 - Install an xxh package on the target machine:
 
-`xxh "{any something}" ++install-xxh-packages {any something}`
+`xxh "{string value: host}" ++install-xxh-packages {string value: package}`
 
 - Set an environment variable for the shell process on the target machine:
 
-`xxh "{any something}" ++env {any something}={any something}`
+`xxh "{string value: host}" ++env {string value: name}={string value: value}`

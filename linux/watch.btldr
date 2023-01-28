@@ -5,12 +5,12 @@
 
 - Monitor files in the current directory:
 
-`watch {any something}`
+`watch {string value: ls}`
 
 - Monitor disk space and highlight the changes:
 
-`watch -d {any something}`
+`watch -d {string value: df}`
 
 - Monitor "node" processes, refreshing every 3 seconds:
 
-`watch -n {int number: 3} "{any something}"`
+`watch -n {int value: 3} "{string value: ps aux | grep node}"`

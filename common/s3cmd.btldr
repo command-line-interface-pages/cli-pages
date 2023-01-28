@@ -9,24 +9,24 @@
 
 - List Buckets/Folders/Objects:
 
-`s3cmd ls s3://{any something}`
+`s3cmd ls s3://{string value: bucket|path/to/file}`
 
 - Create Bucket/Folder:
 
-`s3cmd mb s3://{any something}`
+`s3cmd mb s3://{string value: bucket}`
 
 - Download a specific file from a bucket:
 
-`s3cmd get s3://{any something}/{file something} {file something: local}`
+`s3cmd get s3://{string value: bucket_name}/{file value} {file value: local}`
 
 - Upload a file to a bucket:
 
-`s3cmd put {file something: local} s3://{any something}/{file something}`
+`s3cmd put {file value: local} s3://{string value: bucket}/{file value}`
 
 - Move an object to a specific bucket location:
 
-`s3cmd mv s3://{any something}/{any something} s3://{any something}/{any something}`
+`s3cmd mv s3://{string value: src_bucket}/{string value: src_object} s3://{string value: dst_bucket}/{string value: dst_object}`
 
 - Delete a specific object:
 
-`s3cmd rm s3://{any something}/{any something}`
+`s3cmd rm s3://{string value: bucket}/{string value: object}`

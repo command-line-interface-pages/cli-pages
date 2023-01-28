@@ -13,7 +13,7 @@
 
 - Test a specified network interface:
 
-`networkQuality -I {any something}`
+`networkQuality -I {string value: en0}`
 
 - Test the network quality with verbose output:
 

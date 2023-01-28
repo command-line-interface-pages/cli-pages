@@ -6,7 +6,7 @@
 
 - Clone a GitHub repository locally:
 
-`gh repo clone {any something}/{any something}`
+`gh repo clone {string value: owner}/{string value: repository}`
 
 - Create a new issue:
 
@@ -18,7 +18,7 @@
 
 - View an issue in the default web browser:
 
-`gh issue view --web {any something}`
+`gh issue view --web {string value: issue_number}`
 
 - Create a pull request:
 
@@ -26,11 +26,11 @@
 
 - View a pull request in the default web browser:
 
-`gh pr view --web {any something}`
+`gh pr view --web {string value: pr_number}`
 
 - Check out a specific pull request locally:
 
-`gh pr checkout {any something}`
+`gh pr checkout {string value: pr_number}`
 
 - Check the status of a repository's pull requests:
 

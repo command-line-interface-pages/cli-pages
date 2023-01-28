@@ -5,15 +5,15 @@
 
 - Generate ASCII art for a given text:
 
-`toilet {any something}`
+`toilet {string value: input_text}`
 
 - Generate ASCII art using a custom font file:
 
-`toilet {any something} -f {any something}`
+`toilet {string value: input_text} -f {file value: font}`
 
 - Generate ASCII art using a filter:
 
-`toilet {any something} --filter {any something}`
+`toilet {string value: input_text} --filter {string value: filter_name}`
 
 - Show available toilet filters:
 

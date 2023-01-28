@@ -9,11 +9,11 @@
 
 - Choose level:
 
-`{any something}`
+`{string value: 1|2|3|4|5}`
 
 - Navigate the snake:
 
-`{any something} arrow key`
+`{string value: Up|Down|Left|Right} arrow key`
 
 - Pause game:
 

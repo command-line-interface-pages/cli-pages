@@ -9,8 +9,8 @@
 
 - Commit changes to a specified DVC-tracked target:
 
-`dvc commit {any something}`
+`dvc commit {string value: target}`
 
 - Recursively commit all DVC-tracked files in a directory:
 
-`dvc commit --recursive {directory something}`
+`dvc commit --recursive {directory value}`

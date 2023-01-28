@@ -5,12 +5,12 @@
 
 - Connect to a database with the currently logged in user:
 
-`mycli {any something}`
+`mycli {string value: database_name}`
 
 - Connect to a database with the specified user:
 
-`mycli -u {any something} {any something}`
+`mycli -u {string value: user} {string value: database_name}`
 
 - Connect to a database on the specified host with the specified user:
 
-`mycli -u {any something} -h {any something} {any something}`
+`mycli -u {string value: user} -h {string value: host} {string value: database_name}`

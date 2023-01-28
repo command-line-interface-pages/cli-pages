@@ -6,16 +6,16 @@
 
 - Create a new Redis cache instance:
 
-`az redis create --location {any something} --name {any something} --resource-group {any something} --sku {any something} --vm-size {any something}`
+`az redis create --location {string value: location} --name {string value: name} --resource-group {string value: resource_group} --sku {string value: Basic|Premium|Standard} --vm-size {string value: c0|c1|c2|c3|c4|c5|c6|p1|p2|p3|p4|p5}`
 
 - Update a Redis cache:
 
-`az redis update --name {any something} --resource-group {any something} --sku {any something} --vm-size {any something}`
+`az redis update --name {string value: name} --resource-group {string value: resource_group} --sku {string value: Basic|Premium|Standard} --vm-size {string value: c0|c1|c2|c3|c4|c5|c6|p1|p2|p3|p4|p5}`
 
 - Export data stored in a Redis cache:
 
-`az redis export --container {any something} --file-format {any something} --name {any something} --prefix {any something} --resource-group {any something}`
+`az redis export --container {string value: container} --file-format {string value: file-format} --name {string value: name} --prefix {string value: prefix} --resource-group {string value: resource_group}`
 
 - Delete a Redis cache:
 
-`az redis delete --name {any something} --resource-group {any something} --yes`
+`az redis delete --name {string value: name} --resource-group {string value: resource_group} --yes`

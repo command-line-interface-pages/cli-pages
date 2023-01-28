@@ -5,12 +5,12 @@
 
 - Initialize a basic repository in a directory:
 
-`createrepo {directory something}`
+`createrepo {directory value}`
 
 - Initialize a repository, exclude test RPMs and display verbose logs:
 
-`createrepo -v -x {any something} {directory something}`
+`createrepo -v -x {string value: test_*.rpm} {directory value}`
 
 - Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links:
 
-`createrepo -S -s {any something} {directory something}`
+`createrepo -S -s {string value: sha1} {directory value}`

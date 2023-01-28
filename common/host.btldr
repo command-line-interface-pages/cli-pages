@@ -5,16 +5,16 @@
 
 - Lookup A, AAAA, and MX records of a domain:
 
-`host {any something}`
+`host {string value: domain}`
 
 - Lookup a field (CNAME, TXT,...) of a domain:
 
-`host -t {any something} {any something}`
+`host -t {string value: field} {string value: domain}`
 
 - Reverse lookup an IP:
 
-`host {any something}`
+`host {string value: ip_address}`
 
 - Specify an alternate DNS server to query:
 
-`host {any something} {any something}`
+`host {string value: domain} {string value: 8.8.8.8}`

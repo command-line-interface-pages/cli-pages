@@ -6,24 +6,24 @@
 
 - Merge two audio files into one:
 
-`sox -m {any something} {any something} {any something}`
+`sox -m {string value: input_audiofile1} {string value: input_audiofile2} {string value: output_audiofile}`
 
 - Trim an audio file to the specified times:
 
-`sox {any something} {any something} trim {any something} {any something}`
+`sox {string value: input_audiofile} {string value: output_audiofile} trim {string value: start} {string value: end}`
 
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 
-`sox --norm {any something} {any something}`
+`sox --norm {string value: input_audiofile} {string value: output_audiofile}`
 
 - Reverse and save an audio file:
 
-`sox {any something} {any something} reverse`
+`sox {string value: input_audiofile} {string value: output_audiofile} reverse`
 
 - Print statistical data of an audio file:
 
-`sox {any something} -n stat`
+`sox {string value: input_audiofile} -n stat`
 
 - Increase the volume of an audio file by 2x:
 
-`sox -v 2.0 {any something} {any something}`
+`sox -v 2.0 {string value: input_audiofile} {string value: output_audiofile}`

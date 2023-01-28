@@ -5,7 +5,7 @@
 
 - Run a `pyATS` subcommand:
 
-`pyats {any something}`
+`pyats {string value: subcommand}`
 
 - Display version:
 
@@ -17,4 +17,4 @@
 
 - Display help about a specific subcommand:
 
-`pyats {any something} --help`
+`pyats {string value: subcommand} --help`

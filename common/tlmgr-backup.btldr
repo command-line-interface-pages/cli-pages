@@ -6,7 +6,7 @@
 
 - Make a backup of one or more packages:
 
-`tlmgr backup {any something}`
+`tlmgr backup {string value: package1 package2 ...}`
 
 - Make a backup of all packages:
 
@@ -14,11 +14,11 @@
 
 - Make a backup to a custom directory:
 
-`tlmgr backup {any something} --backupdir {directory something: backup}`
+`tlmgr backup {string value: package} --backupdir {directory value: backup}`
 
 - Remove a backup of one or more packages:
 
-`tlmgr backup clean {any something}`
+`tlmgr backup clean {string value: package1 package2 ...}`
 
 - Remove all backups:
 

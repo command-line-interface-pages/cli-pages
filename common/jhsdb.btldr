@@ -5,16 +5,16 @@
 
 - Print stack and locks information of a Java process:
 
-`jhsdb jstack --pid {any something}`
+`jhsdb jstack --pid {string value: pid}`
 
 - Open a core dump in interactive debug mode:
 
-`jhsdb clhsdb --core {any something} --exe {any something}`
+`jhsdb clhsdb --core {string value: path/to/core_dump} --exe {string value: path/to/jdk/bin/java}`
 
 - Start a remote debug server:
 
-`jhsdb debugd --pid {any something} --serverid {any something}`
+`jhsdb debugd --pid {string value: pid} --serverid {string value: optional_unique_id}`
 
 - Connect to a process in interactive debug mode:
 
-`jhsdb clhsdb --pid {any something}`
+`jhsdb clhsdb --pid {string value: pid}`

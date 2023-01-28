@@ -5,11 +5,11 @@
 
 - Create a new directory with the specified branch checked out into it:
 
-`git worktree add {directory something} {any something}`
+`git worktree add {directory value} {string value: branch}`
 
 - Create a new directory with a new branch checked out into it:
 
-`git worktree add {directory something} -b {any something}`
+`git worktree add {directory value} -b {string value: new_branch}`
 
 - List all the working directories attached to this repository:
 

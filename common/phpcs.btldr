@@ -5,7 +5,7 @@
 
 - Sniff the specified directory for issues (defaults to the PEAR standard):
 
-`phpcs {directory something}`
+`phpcs {directory value}`
 
 - Display a list of installed coding standards:
 
@@ -13,24 +13,24 @@
 
 - Specify a coding standard to validate against:
 
-`phpcs {directory something} --standard {any something}`
+`phpcs {directory value} --standard {string value: standard}`
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcs {directory something} --extensions {any something}`
+`phpcs {directory value} --extensions {string value: file_extension(s)}`
 
 - Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`):
 
-`phpcs {directory something} --report {any something}`
+`phpcs {directory value} --report {string value: format}`
 
 - Set config variables to be used during the process:
 
-`phpcs {directory something} --config-set {any something} {any something}`
+`phpcs {directory value} --config-set {string value: key} {string value: value}`
 
 - A comma-separated list of files to load before processing:
 
-`phpcs {directory something} --bootstrap {any something}`
+`phpcs {directory value} --bootstrap {string value: file(s)}`
 
 - Don't recurse into subdirectories:
 
-`phpcs {directory something} -l`
+`phpcs {directory value} -l`

@@ -9,19 +9,19 @@
 
 - Perform a calculation in non-interactive mode:
 
-`calc '{any something}'`
+`calc '{string value: 85 * (36 / 4)}'`
 
 - Perform a calculation without any output formatting (for use with pipes):
 
-`calc -p '{any something}'`
+`calc -p '{string value: 4/3 * pi() * 5^3}'`
 
 - Perform a calculation and then switch to [i]nteractive mode:
 
-`calc -i '{any something}'`
+`calc -i '{string value: sqrt(2)}'`
 
 - Start `calc` in a specific permission [m]ode (0 to 7, defaults to 7):
 
-`calc -m {any something}`
+`calc -m {string value: mode}`
 
 - View an introduction to `calc`:
 

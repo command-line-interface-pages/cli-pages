@@ -9,7 +9,7 @@
 
 - Display the details in a specific format:
 
-`getmac /fo {any something}`
+`getmac /fo {string value: table|list|csv}`
 
 - Exclude the header in the output list:
 
@@ -17,7 +17,7 @@
 
 - Display the MAC addresses for a remote machine:
 
-`getmac /s {any something} /u {string user} /p {any something}`
+`getmac /s {string value: hostname} /u {string user} /p {string value: password}`
 
 - Display the MAC addresses with verbose information:
 

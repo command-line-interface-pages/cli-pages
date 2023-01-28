@@ -5,19 +5,19 @@
 
 - Gather information on a domain using Google:
 
-`theHarvester --domain {any something} --source google`
+`theHarvester --domain {string value: domain_name} --source google`
 
 - Gather information on a domain using multiple sources:
 
-`theHarvester --domain {any something} --source {any something}`
+`theHarvester --domain {string value: domain_name} --source {string value: google,bing,crtsh}`
 
 - Change the limit of results to work with:
 
-`theHarvester --domain {any something} --source {any something} --limit {int number: 200}`
+`theHarvester --domain {string value: domain_name} --source {string value: google} --limit {int value: 200}`
 
 - Save the output to two files in XML and HTML format:
 
-`theHarvester --domain {any something} --source {any something} --file {any something}`
+`theHarvester --domain {string value: domain_name} --source {string value: google} --file {file value: output}`
 
 - Output all available options:
 

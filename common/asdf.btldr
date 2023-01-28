@@ -9,20 +9,20 @@
 
 - Install a plugin:
 
-`asdf plugin add {any something}`
+`asdf plugin add {string value: name}`
 
 - List all available versions for a package:
 
-`asdf list all {any something}`
+`asdf list all {string value: name}`
 
 - Install a specific version of a package:
 
-`asdf install {any something} {any something}`
+`asdf install {string value: name} {string value: version}`
 
 - Set global version for a package:
 
-`asdf global {any something} {any something}`
+`asdf global {string value: name} {string value: version}`
 
 - Set local version for a package:
 
-`asdf local {any something} {any something}`
+`asdf local {string value: name} {string value: version}`

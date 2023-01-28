@@ -5,7 +5,7 @@
 
 - Calculate the checksum for a file using a specific algorithm:
 
-`xxhsum -H{any something} {file something}`
+`xxhsum -H{string value: 0|32|64|128} {file value}`
 
 - Run benchmark:
 

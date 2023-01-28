@@ -5,12 +5,12 @@
 
 - Display the type of a command:
 
-`type {any something}`
+`type {string value: command}`
 
 - Display all locations containing the specified executable:
 
-`type -a {any something}`
+`type -a {string value: command}`
 
 - Display the name of the disk file that would be executed:
 
-`type -p {any something}`
+`type -p {string value: command}`

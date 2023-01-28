@@ -13,7 +13,7 @@
 
 - Access a service named my_service exposed via a node port and get the URL:
 
-`minikube service {any something} --url`
+`minikube service {string value: my_service} --url`
 
 - Open the Kubernetes dashboard in a browser:
 

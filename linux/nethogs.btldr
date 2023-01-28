@@ -9,12 +9,12 @@
 
 - Monitor bandwidth on specific device:
 
-`sudo nethogs {any something}`
+`sudo nethogs {string value: device}`
 
 - Monitor bandwidth on multiple devices:
 
-`sudo nethogs {any something} {any something}`
+`sudo nethogs {string value: device1} {string value: device2}`
 
 - Specify refresh rate:
 
-`sudo nethogs -t {any something}`
+`sudo nethogs -t {string value: seconds}`

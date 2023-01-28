@@ -5,7 +5,7 @@
 
 - Serve HTTP requests to a specific port instead of port `9090`:
 
-`cockpit-tls --port {any something}`
+`cockpit-tls --port {string value: port}`
 
 - Display help:
 

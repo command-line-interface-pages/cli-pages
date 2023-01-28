@@ -5,7 +5,7 @@
 
 - Run the daemon with a configuration file:
 
-`dbus-daemon --config-file {file something}`
+`dbus-daemon --config-file {file value}`
 
 - Run the daemon with the standard per-login-session message bus configuration:
 
@@ -17,7 +17,7 @@
 
 - Set the address to listen on and override the configuration value for it:
 
-`dbus-daemon --address {any something}`
+`dbus-daemon --address {string value: address}`
 
 - Output the process ID to stdout:
 

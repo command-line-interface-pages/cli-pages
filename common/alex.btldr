@@ -6,7 +6,7 @@
 
 - Analyze text from stdin:
 
-`echo {any something} | alex --stdin`
+`echo {string value: His network looks good} | alex --stdin`
 
 - Analyze all files in the current directory:
 
@@ -14,8 +14,8 @@
 
 - Analyze a specific file:
 
-`alex {any something}`
+`alex {string value: textfile.md}`
 
 - Analyze all Markdown files except `example.md`:
 
-`alex *.md !{any something}`
+`alex *.md !{string value: example.md}`

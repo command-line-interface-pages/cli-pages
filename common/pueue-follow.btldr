@@ -6,8 +6,8 @@
 
 - Follow the output of a task (stdout + stderr):
 
-`pueue follow {any something}`
+`pueue follow {string value: task_id}`
 
 - Follow the stderr of a task:
 
-`pueue follow --err {any something}`
+`pueue follow --err {string value: task_id}`

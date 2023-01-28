@@ -5,20 +5,20 @@
 
 - Create a new castle:
 
-`homeshick generate {any something}`
+`homeshick generate {string value: castle_name}`
 
 - Add a file to your castle:
 
-`homeshick track {any something} {file something}`
+`homeshick track {string value: castle_name} {file value}`
 
 - Go to a castle:
 
-`homeshick cd {any something}`
+`homeshick cd {string value: castle_name}`
 
 - Clone a castle:
 
-`homeshick clone {any something}/{any something}`
+`homeshick clone {string value: github_username}/{string value: repository_name}`
 
 - Symlink all files from a castle:
 
-`homeshick link {any something}`
+`homeshick link {string value: castle_name}`

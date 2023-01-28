@@ -6,24 +6,24 @@
 
 - Connect to a remote server:
 
-`mosh {string user}@{any something}`
+`mosh {string user}@{string value: remote_host}`
 
 - Connect to a remote server with a specific identity (private key):
 
-`mosh --ssh="ssh -i {file something: key}" {string user}@{any something}`
+`mosh --ssh="ssh -i {file value: key}" {string user}@{string value: remote_host}`
 
 - Connect to a remote server using a specific port:
 
-`mosh --ssh="ssh -p {int number: 2222}" {string user}@{any something}`
+`mosh --ssh="ssh -p {int value: 2222}" {string user}@{string value: remote_host}`
 
 - Run a command on a remote server:
 
-`mosh {any something} -- {any something}`
+`mosh {string value: remote_host} -- {string value: command -with -flags}`
 
 - Select Mosh UDP port (useful when `{{remote_host}}` is behind a NAT):
 
-`mosh -p {int number: 124} {string user}@{any something}`
+`mosh -p {int value: 124} {string user}@{string value: remote_host}`
 
 - Usage when `mosh-server` binary is outside standard path:
 
-`mosh --server={any something}mosh-server {any something}`
+`mosh --server={string value: path/to/bin/}mosh-server {string value: remote_host}`

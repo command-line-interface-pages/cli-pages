@@ -9,8 +9,8 @@
 
 - Set the brightness to 100%:
 
-`brightness {int number: 1}`
+`brightness {int value: 1}`
 
 - Set the brightness to 50%:
 
-`brightness {float number: 0.5}`
+`brightness {float value: 0.5}`

@@ -6,28 +6,28 @@
 
 - Create a new Azure Pipeline (YAML based):
 
-`az pipelines create --org {any something} --project {any something} --name {any something} --description {any something} --repository {any something} --branch {any something}`
+`az pipelines create --org {string value: organization_url} --project {string value: project_name} --name {string value: pipeline_name} --description {string value: description} --repository {string value: repository_name} --branch {string value: branch_name}`
 
 - Delete a specific pipeline:
 
-`az pipelines delete --org {any something} --project {any something} --id {any something}`
+`az pipelines delete --org {string value: organization_url} --project {string value: project_name} --id {string value: pipeline_id}`
 
 - List pipelines:
 
-`az pipelines list --org {any something} --project {any something}`
+`az pipelines list --org {string value: organization_url} --project {string value: project_name}`
 
 - Enqueue a specific pipeline to run:
 
-`az pipelines run --org {any something} --project {any something} --name {any something}`
+`az pipelines run --org {string value: organization_url} --project {string value: project_name} --name {string value: pipeline_name}`
 
 - Get the details of a specific pipeline:
 
-`az pipelines show --org {any something} --project {any something} --name {any something}`
+`az pipelines show --org {string value: organization_url} --project {string value: project_name} --name {string value: pipeline_name}`
 
 - Update a specific pipeline:
 
-`az pipelines update --org {any something} --project {any something} --name {any something} --new-name {any something} --new-folder-path {any something}`
+`az pipelines update --org {string value: organization_url} --project {string value: project_name} --name {string value: pipeline_name} --new-name {string value: pipeline_new_name} --new-folder-path {string value: user1/production_pipelines}`
 
 - Get a list of agents in a pool:
 
-`az pipelines agent list --org {any something} --pool-id {any something}`
+`az pipelines agent list --org {string value: organization_url} --pool-id {string value: agent_pool}`

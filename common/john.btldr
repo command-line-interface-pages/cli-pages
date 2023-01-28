@@ -5,19 +5,19 @@
 
 - Crack password hashes:
 
-`john {any something}`
+`john {string value: path/to/hashes.txt}`
 
 - Show passwords cracked:
 
-`john --show {any something}`
+`john --show {string value: path/to/hashes.txt}`
 
 - Display users' cracked passwords by user identifier from multiple files:
 
-`john --show --users={any something} {any something} {any something}`
+`john --show --users={string value: user_ids} {string value: path/to/hashes*} {string value: path/to/other/hashes*}`
 
 - Crack password hashes, using a custom wordlist:
 
-`john --wordlist={any something} {any something}`
+`john --wordlist={string value: path/to/wordlist.txt} {string value: path/to/hashes.txt}`
 
 - List available hash formats:
 
@@ -25,12 +25,12 @@
 
 - Crack password hashes, using a specific hash format:
 
-`john --format={any something} {any something}`
+`john --format={string value: md5crypt} {string value: path/to/hashes.txt}`
 
 - Crack password hashes, enabling word mangling rules:
 
-`john --rules {any something}`
+`john --rules {string value: path/to/hashes.txt}`
 
 - Restore an interrupted cracking session from a state file, e.g. `mycrack.rec`:
 
-`john --restore={any something}`
+`john --restore={string value: path/to/mycrack.rec}`

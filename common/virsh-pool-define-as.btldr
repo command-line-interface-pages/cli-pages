@@ -6,4 +6,4 @@
 
 - Create the configuration file for a storage pool called pool_name using `/var/vms` as the underlying storage system:
 
-`virsh pool-define-as --name {any something} --type {any something} --target {any something}`
+`virsh pool-define-as --name {string value: pool_name} --type {string value: dir} --target {string value: /var/vms}`

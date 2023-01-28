@@ -5,27 +5,27 @@
 
 - Check the status of a tape drive:
 
-`mt -f {any something} status`
+`mt -f {string value: /dev/nstX} status`
 
 - Rewind the tape to beginning:
 
-`mt -f {any something} rewind`
+`mt -f {string value: /dev/nstX} rewind`
 
 - Move forward a given files, then position the tape on first block of next file:
 
-`mt -f {any something} fsf {any something}`
+`mt -f {string value: /dev/nstX} fsf {string value: count}`
 
 - Rewind the tape, then position the tape at beginning of the given file:
 
-`mt -f {any something} asf {any something}`
+`mt -f {string value: /dev/nstX} asf {string value: count}`
 
 - Position the tape at the end of valid data:
 
-`mt -f {any something} eod`
+`mt -f {string value: /dev/nstX} eod`
 
 - Rewind the tape and unload/eject it:
 
-`mt -f {any something} eject`
+`mt -f {string value: /dev/nstX} eject`
 
 - Write EOF (End-of-file) mark at the current position:
 

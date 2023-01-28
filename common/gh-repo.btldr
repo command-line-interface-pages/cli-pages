@@ -5,28 +5,28 @@
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):
 
-`gh repo create {any something}`
+`gh repo create {string value: name}`
 
 - Clone a repository:
 
-`gh repo clone {any something}/{any something}`
+`gh repo clone {string value: owner}/{string value: repository}`
 
 - Fork and clone a repository:
 
-`gh repo fork {any something}/{any something} --clone`
+`gh repo fork {string value: owner}/{string value: repository} --clone`
 
 - View a repository in the default web browser:
 
-`gh repo view {any something} --web`
+`gh repo view {string value: repository} --web`
 
 - List repositories owned by a specific user or organization (if the owner is not set, the default owner will be the currently logged in user):
 
-`gh repo list {any something}`
+`gh repo list {string value: owner}`
 
 - List only non-forks repositories:
 
-`gh repo list {any something} --non-forks`
+`gh repo list {string value: owner} --non-forks`
 
 - List repositories with a specific primary coding language:
 
-`gh repo list {any something} --language {any something}`
+`gh repo list {string value: owner} --language {string value: language_name}`

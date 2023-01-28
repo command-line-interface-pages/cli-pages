@@ -5,20 +5,20 @@
 
 - Log a message to syslog:
 
-`logger {any something}`
+`logger {string value: message}`
 
 - Take input from stdin and log to syslog:
 
-`echo {any something} | logger`
+`echo {string value: log_entry} | logger`
 
 - Send the output to a remote syslog server running at a given port. Default port is 514:
 
-`echo {any something} | logger --server {any something} --port {any something}`
+`echo {string value: log_entry} | logger --server {string value: hostname} --port {string value: port}`
 
 - Use a specific tag for every line logged. Default is the name of logged in user:
 
-`echo {any something} | logger --tag {any something}`
+`echo {string value: log_entry} | logger --tag {string value: tag}`
 
 - Log messages with a given priority. Default is `user.notice`. See `man logger` for all priority options:
 
-`echo {any something} | logger --priority {any something}`
+`echo {string value: log_entry} | logger --priority {string value: user.warning}`

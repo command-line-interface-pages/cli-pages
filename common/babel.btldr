@@ -5,31 +5,31 @@
 
 - Transpile a specified input file and output to stdout:
 
-`babel {file something}`
+`babel {file value}`
 
 - Transpile a specified input file and output to a specific file:
 
-`babel {file something: input} --out-file {file something: output}`
+`babel {file value: input} --out-file {file value: output}`
 
 - Transpile the input file every time it is changed:
 
-`babel {file something: input} --watch`
+`babel {file value: input} --watch`
 
 - Transpile a whole directory of files:
 
-`babel {directory something: input}`
+`babel {directory value: input}`
 
 - Ignore specified comma-separated files in a directory:
 
-`babel {directory something: input} --ignore {any something}`
+`babel {directory value: input} --ignore {file* value: ignored}`
 
 - Transpile and output as minified JavaScript:
 
-`babel {file something: input} --minified`
+`babel {file value: input} --minified`
 
 - Choose a set of presets for output formatting:
 
-`babel {file something: input} --presets {any something}`
+`babel {file value: input} --presets {string value: presets}`
 
 - Output all available options:
 

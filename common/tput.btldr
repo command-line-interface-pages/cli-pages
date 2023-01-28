@@ -5,15 +5,15 @@
 
 - Move the cursor to a screen location:
 
-`tput cup {any something} {any something}`
+`tput cup {string value: row} {string value: column}`
 
 - Set foreground (af) or background (ab) color:
 
-`tput {any something} {any something}`
+`tput {string value: setaf|setab} {string value: ansi_color_code}`
 
 - Show number of columns, lines, or colors:
 
-`tput {any something}`
+`tput {string value: cols|lines|colors}`
 
 - Ring the terminal bell:
 
@@ -25,4 +25,4 @@
 
 - Enable or disable word wrap:
 
-`tput {any something}`
+`tput {string value: smam|rmam}`

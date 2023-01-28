@@ -6,12 +6,12 @@
 
 - Generate a `CREATE TABLE` SQL statement for a CSV file:
 
-`csvsql {any something}`
+`csvsql {string value: path/to/data.csv}`
 
 - Import a CSV file into an SQL database:
 
-`csvsql --insert --db "{any something}" {any something}`
+`csvsql --insert --db "{string value: mysql://user:password@host/database}" {string value: data.csv}`
 
 - Run an SQL query on a CSV file:
 
-`csvsql --query "{any something}" {any something}`
+`csvsql --query "{string value: select * from 'data'}" {string value: data.csv}`

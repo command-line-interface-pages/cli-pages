@@ -5,7 +5,7 @@
 
 - Create a new Middleman project:
 
-`middleman init "{any something}"`
+`middleman init "{string value: project_name}"`
 
 - Start local server for current project on port 4567:
 
@@ -13,7 +13,7 @@
 
 - Start local server for current project on a specified port:
 
-`middleman server -p "{any something}"`
+`middleman server -p "{string value: port}"`
 
 - Build the project in the current directory to prepare for deployment:
 

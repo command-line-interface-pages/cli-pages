@@ -10,4 +10,4 @@
 
 - Open a specific upstream in the default browser:
 
-`git browse {any something}`
+`git browse {string value: upstream}`

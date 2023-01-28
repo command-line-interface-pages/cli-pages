@@ -11,19 +11,19 @@
 
 - Search for a given package:
 
-`apt search {any something}`
+`apt search {string value: package}`
 
 - Show information for a package:
 
-`apt show {any something}`
+`apt show {string value: package}`
 
 - Install a package, or update it to the latest available version:
 
-`sudo apt install {any something}`
+`sudo apt install {string value: package}`
 
 - Remove a package (using `purge` instead also removes its configuration files):
 
-`sudo apt remove {any something}`
+`sudo apt remove {string value: package}`
 
 - Upgrade all installed packages to their newest available versions:
 

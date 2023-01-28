@@ -13,20 +13,20 @@
 
 - List supported video formats and resolutions of a specific video device:
 
-`v4l2-ctl --list-formats-ext --device {any something}`
+`v4l2-ctl --list-formats-ext --device {string value: path/to/video_device}`
 
 - Get all details of a video device:
 
-`v4l2-ctl --all --device {any something}`
+`v4l2-ctl --all --device {string value: path/to/video_device}`
 
 - Capture a JPEG photo with a specific resolution from video device:
 
-`v4l2-ctl --device {any something} --set-fmt-video=width={any something},height={any something},pixelformat=MJPG --stream-mmap --stream-to={any something} --stream-count=1`
+`v4l2-ctl --device {string value: path/to/video_device} --set-fmt-video=width={string value: width},height={string value: height},pixelformat=MJPG --stream-mmap --stream-to={string value: path/to/output.jpg} --stream-count=1`
 
 - Capture a raw video stream from video device:
 
-`v4l2-ctl --device {any something} --set-fmt-video=width={any something},height={any something},pixelformat={any something} --stream-mmap --stream-to={any something} --stream-count={any something}`
+`v4l2-ctl --device {string value: path/to/video_device} --set-fmt-video=width={string value: width},height={string value: height},pixelformat={string value: format} --stream-mmap --stream-to={string value: path/to/output} --stream-count={string value: number_of_frames_to_capture}`
 
 - List all video device's controls and their values:
 
-`v4l2-ctl --list-ctrls --device {any something}`
+`v4l2-ctl --list-ctrls --device {string value: /path/to/video_device}`

@@ -9,4 +9,4 @@
 
 - Open specific files:
 
-`pinta {any something}`
+`pinta {string value: path/to/image1 path/to/image2 ...}`

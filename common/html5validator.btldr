@@ -5,28 +5,28 @@
 
 - Validate a specific file:
 
-`html5validator {file something}`
+`html5validator {file value}`
 
 - Validate all HTML files in a specific directory:
 
-`html5validator --root {directory something}`
+`html5validator --root {directory value}`
 
 - Show warnings as well as errors:
 
-`html5validator --show-warnings {file something}`
+`html5validator --show-warnings {file value}`
 
 - Match multiple files using a glob pattern:
 
-`html5validator --root {directory something} --match "{any something}"`
+`html5validator --root {directory value} --match "{string value: *.html *.php}"`
 
 - Ignore specific directory names:
 
-`html5validator --root {directory something} --blacklist "{any something}"`
+`html5validator --root {directory value} --blacklist "{string value: node_modules vendor}"`
 
 - Output the results in a specific format:
 
-`html5validator --format {any something} {file something}`
+`html5validator --format {string value: gnu|xml|json|text} {file value}`
 
 - Output the log at a specific verbosity level:
 
-`html5validator --root {directory something} --log {any something}`
+`html5validator --root {directory value} --log {string value: debug|info|warning}`

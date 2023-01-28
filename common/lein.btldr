@@ -5,7 +5,7 @@
 
 - Generate scaffolding for a new project based on a template:
 
-`lein new {any something} {any something}`
+`lein new {string value: template_name} {string value: project_name}`
 
 - Start a REPL session either with the project or standalone:
 
@@ -13,7 +13,7 @@
 
 - Run the project's `-main` function with optional args:
 
-`lein run {any something}`
+`lein run {string value: args}`
 
 - Run the project's tests:
 

@@ -10,11 +10,11 @@
 
 - Install a new package:
 
-`zypper install {any something}`
+`zypper install {string value: package}`
 
 - Remove a package:
 
-`zypper remove {any something}`
+`zypper remove {string value: package}`
 
 - Upgrade installed packages to the newest available versions:
 
@@ -22,7 +22,7 @@
 
 - Search package via keyword:
 
-`zypper search {any something}`
+`zypper search {string value: keyword}`
 
 - Show information related to configured repositories:
 

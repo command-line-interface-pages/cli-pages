@@ -5,7 +5,7 @@
 
 - Start peco on all files in the specified directory:
 
-`find {directory something} -type f | peco`
+`find {directory value} -type f | peco`
 
 - Start peco for running processes:
 
@@ -13,4 +13,4 @@
 
 - Start peco with a specified query:
 
-`peco --query "{any something}"`
+`peco --query "{string value: query}"`

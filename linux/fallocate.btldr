@@ -6,12 +6,12 @@
 
 - Reserve a file taking up 700 MiB of disk space:
 
-`fallocate --length {any something} {file something}`
+`fallocate --length {string value: 700M} {file value}`
 
 - Shrink an already allocated file by 200 MiB:
 
-`fallocate --collapse-range --length {any something} {file something}`
+`fallocate --collapse-range --length {string value: 200M} {file value}`
 
 - Shrink 20 MB of space after 100 MiB in a file:
 
-`fallocate --collapse-range --offset {any something} --length {any something} {file something}`
+`fallocate --collapse-range --offset {string value: 100M} --length {string value: 20M} {file value}`

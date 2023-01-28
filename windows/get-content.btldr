@@ -6,12 +6,12 @@
 
 - Display the content of a file:
 
-`Get-Content -Path {file something}`
+`Get-Content -Path {file value}`
 
 - Display the first few lines of a file:
 
-`Get-Content -Path {file something} -TotalCount {any something}`
+`Get-Content -Path {file value} -TotalCount {string value: count}`
 
 - Display the content of the file and keep reading from it until `Ctrl + C` is pressed:
 
-`Get-Content -Path {file something} -Wait`
+`Get-Content -Path {file value} -Wait`

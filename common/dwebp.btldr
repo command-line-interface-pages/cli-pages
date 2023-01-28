@@ -6,24 +6,24 @@
 
 - Convert a `webp` file into a `png` file:
 
-`dwebp {any something} -o {any something}`
+`dwebp {string value: path/to/input.webp} -o {string value: path/to/output.png}`
 
 - Convert a `webp` file into a specific filetype:
 
-`dwebp {any something} -bmp|-tiff|-pam|-ppm|-pgm|-yuv -o {any something}`
+`dwebp {string value: path/to/input.webp} -bmp|-tiff|-pam|-ppm|-pgm|-yuv -o {string value: path/to/output}`
 
 - Convert a `webp` file, using multi-threading if possible:
 
-`dwebp {any something} -o {any something} -mt`
+`dwebp {string value: path/to/input.webp} -o {string value: path/to/output.png} -mt`
 
 - Convert a `webp` file, but also crop and scale at the same time:
 
-`dwebp {any something} -o {any something} -crop {any something} {any something} {any something} {any something} -scale {any something} {any something}`
+`dwebp {string value: input.webp} -o {string value: output.png} -crop {string value: x_pos} {string value: y_pos} {string value: width} {string value: height} -scale {string value: width} {string value: height}`
 
 - Convert a `webp` file and flip the output:
 
-`dwebp {any something} -o {any something} -flip`
+`dwebp {string value: path/to/input.webp} -o {string value: path/to/output.png} -flip`
 
 - Convert a `webp` file and don't use in-loop filtering to speed up the decoding process:
 
-`dwebp {any something} -o {any something} -nofilter`
+`dwebp {string value: path/to/input.webp} -o {string value: path/to/output.png} -nofilter`

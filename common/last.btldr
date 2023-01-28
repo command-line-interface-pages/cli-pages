@@ -9,7 +9,7 @@
 
 - Specify how many of the last logins to show:
 
-`last -n {any something}`
+`last -n {string value: login_count}`
 
 - Print the full date and time for entries and then display the hostname column last to prevent truncation:
 

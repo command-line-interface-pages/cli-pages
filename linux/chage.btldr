@@ -9,16 +9,16 @@
 
 - Enable password expiration in 10 days:
 
-`sudo chage --maxdays {int number: 10} {string user}`
+`sudo chage --maxdays {int value: 10} {string user}`
 
 - Disable password expiration:
 
-`sudo chage --maxdays {int number: -1} {string user}`
+`sudo chage --maxdays {int value: -1} {string user}`
 
 - Set account expiration date:
 
-`sudo chage --expiredate {any something} {string user}`
+`sudo chage --expiredate {string value: YYYY-MM-DD} {string user}`
 
 - Force user to change password on next log in:
 
-`sudo chage --lastday {int number: 0} {string user}`
+`sudo chage --lastday {int value: 0} {string user}`

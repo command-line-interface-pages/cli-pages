@@ -5,11 +5,11 @@
 
 - Create a new project:
 
-`tmuxinator new {any something}`
+`tmuxinator new {string value: project}`
 
 - Edit a project:
 
-`tmuxinator edit {any something}`
+`tmuxinator edit {string value: project}`
 
 - List projects:
 
@@ -17,8 +17,8 @@
 
 - Start a tmux session based on project:
 
-`tmuxinator start {any something}`
+`tmuxinator start {string value: project}`
 
 - Stop a project's tmux session:
 
-`tmuxinator stop {any something}`
+`tmuxinator stop {string value: project}`

@@ -5,20 +5,20 @@
 
 - Render an image or animated GIF:
 
-`viu {file something}`
+`viu {file value}`
 
 - Render an image or GIF from the internet using `curl`:
 
-`curl -s {any something} | viu -`
+`curl -s {string value: https://example.com/image.png} | viu -`
 
 - Render an image with a transparent background:
 
-`viu -t {file something}`
+`viu -t {file value}`
 
 - Render an image with a specific width and height in pixels:
 
-`viu -w {any something} -h {any something} {file something}`
+`viu -w {string value: width} -h {string value: height} {file value}`
 
 - Render an image or GIF and display its file name:
 
-`viu -n {file something}`
+`viu -n {file value}`

@@ -17,11 +17,11 @@
 
 - Show information about a specific package:
 
-`tlmgr info {any something}`
+`tlmgr info {string value: package_name}`
 
 - List all files contained in a specific package:
 
-`tlmgr info {any something} --list`
+`tlmgr info {string value: package_name} --list`
 
 - List all installed packages:
 
@@ -29,7 +29,7 @@
 
 - Show only specific information about a package:
 
-`tlmgr info {any something} --data "{any something},{any something},{any something},{any something},{any something},..."`
+`tlmgr info {string value: package_name} --data "{string value: name},{string value: category},{string value: installed},{string value: size},{string value: depends},..."`
 
 - Print all available packages as JSON encoded array:
 

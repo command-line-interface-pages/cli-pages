@@ -5,7 +5,7 @@
 
 - Check out a working copy from a repository:
 
-`svn co {any something}`
+`svn co {string value: url/to/repository}`
 
 - Bring changes from the repository into the working copy:
 
@@ -13,15 +13,15 @@
 
 - Put files and directories under version control, scheduling them for addition to repository. They will be added in next commit:
 
-`svn add {any something}`
+`svn add {string value: PATH}`
 
 - Send changes from your working copy to the repository:
 
-`svn ci -m {any something} [{any something}]`
+`svn ci -m {string value: commit_log_message} [{string value: PATH}]`
 
 - Display changes from the last 10 revisions, showing modified files for each revision:
 
-`svn log -vl {int number: 10}`
+`svn log -vl {int value: 10}`
 
 - Show detailed help:
 

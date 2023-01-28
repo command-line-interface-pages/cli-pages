@@ -5,11 +5,11 @@
 
 - Display a specific issue:
 
-`gh issue view {any something}`
+`gh issue view {string value: issue_number}`
 
 - Display a specific issue in the default web browser:
 
-`gh issue view {any something} --web`
+`gh issue view {string value: issue_number} --web`
 
 - Create a new issue in the default web browser:
 
@@ -17,7 +17,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`gh issue list --limit {int number: 10} --label "{any something}"`
+`gh issue list --limit {int value: 10} --label "{string value: bug}"`
 
 - List closed issues made by a specific user:
 
@@ -25,8 +25,8 @@
 
 - Display the status of issues relevant to the user, in a specific repository:
 
-`gh issue status --repo {any something}/{any something}`
+`gh issue status --repo {string value: owner}/{string value: repository}`
 
 - Reopen a specific issue:
 
-`gh issue reopen {any something}`
+`gh issue reopen {string value: issue_number}`

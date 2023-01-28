@@ -5,11 +5,11 @@
 
 - Run a Crystal file:
 
-`crystal {file something}`
+`crystal {file value: sample.cr}`
 
 - Compile a file and all dependencies to a single executable:
 
-`crystal build {file something}`
+`crystal build {file value: sample.cr}`
 
 - Start a local interactive server for testing the language:
 
@@ -17,7 +17,7 @@
 
 - Create a project directory for a Crystal application:
 
-`crystal init app {any something}`
+`crystal init app {string value: application_name}`
 
 - Display all help options:
 

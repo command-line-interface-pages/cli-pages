@@ -9,15 +9,15 @@
 
 - Display running processes in a specified output format:
 
-`tasklist /fo {any something}`
+`tasklist /fo {string value: table|list|csv}`
 
 - Display running processes using the specified `.exe` or `.dll` file name:
 
-`tasklist /m {any something}`
+`tasklist /m {string value: module_pattern}`
 
 - Display processes running on a remote machine:
 
-`tasklist /s {any something} /u {string user} /p {any something}`
+`tasklist /s {string value: remote_name} /u {string user} /p {string value: password}`
 
 - Display services using each process:
 

@@ -13,4 +13,4 @@
 
 - Print a text message:
 
-`hello --greeting="{any something}"`
+`hello --greeting="{string value: greeting_text}"`

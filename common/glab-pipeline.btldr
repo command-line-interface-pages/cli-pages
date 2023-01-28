@@ -9,7 +9,7 @@
 
 - View a running pipeline on a specific branch:
 
-`glab pipeline status --branch {any something}`
+`glab pipeline status --branch {string value: branch_name}`
 
 - Get the list of pipelines:
 
@@ -21,4 +21,4 @@
 
 - Run a manual pipeline on a specific branch:
 
-`glab pipeline run --branch {any something}`
+`glab pipeline run --branch {string value: branch_name}`

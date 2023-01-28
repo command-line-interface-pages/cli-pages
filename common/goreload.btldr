@@ -5,11 +5,11 @@
 
 - Set the name of the binary file to watch (defaults to `.goreload`):
 
-`goreload -b {any something} {file something}.go`
+`goreload -b {string value: path/to/binary} {file value}.go`
 
 - Set a custom log prefix (defaults to `goreload`):
 
-`goreload --logPrefix {any something} {file something}.go`
+`goreload --logPrefix {string value: prefix} {file value}.go`
 
 - Reload whenever any file changes:
 

@@ -6,24 +6,24 @@
 
 - Search for an exact string in a file:
 
-`fgrep {any something} {file something}`
+`fgrep {string value: search_string} {file value}`
 
 - Search only lines that match entirely in files:
 
-`fgrep -x {any something} {any something}`
+`fgrep -x {string value: path/to/file1} {string value: path/to/file2}`
 
 - Count the number of lines that match the given string in a file:
 
-`fgrep -c {any something} {file something}`
+`fgrep -c {string value: search_string} {file value}`
 
 - Show the line number in the file along with the line matched:
 
-`fgrep -n {any something} {file something}`
+`fgrep -n {string value: search_string} {file value}`
 
 - Display all lines except those that contain the search string:
 
-`fgrep -v {any something} {file something}`
+`fgrep -v {string value: search_string} {file value}`
 
 - Display filenames whose content matches the search string at least once:
 
-`fgrep -l {any something} {any something} {any something}`
+`fgrep -l {string value: search_string} {string value: path/to/file1} {string value: path/to/file2}`

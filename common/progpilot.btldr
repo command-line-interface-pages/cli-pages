@@ -9,8 +9,8 @@
 
 - Analyze a specific file or directory:
 
-`progpilot {file something|path something}`
+`progpilot {path value}`
 
 - Specify a custom configuration file:
 
-`progpilot --configuration {any something}`
+`progpilot --configuration {string value: path/to/configuration.yml}`

@@ -9,7 +9,7 @@
 
 - Create a name with 4 digits for the abbreviated commit hash:
 
-`git describe --abbrev={int number: 4}`
+`git describe --abbrev={int value: 4}`
 
 - Generate a name with the tag reference path:
 
@@ -17,8 +17,8 @@
 
 - Describe a Git tag:
 
-`git describe {any something}`
+`git describe {string value: v1.0.0}`
 
 - Create a name for the last commit of a given branch:
 
-`git describe {any something}`
+`git describe {string value: branch_name}`

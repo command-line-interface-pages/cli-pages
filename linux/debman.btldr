@@ -5,12 +5,12 @@
 
 - Read a man page for a command that is provided by a specified package name:
 
-`debman -p {any something} {any something}`
+`debman -p {string value: package_name} {string value: command_name}`
 
 - Specify a package version to download:
 
-`debman -p {any something}={any something} {any something}`
+`debman -p {string value: package_name}={string value: version} {string value: command_name}`
 
 - Read a man page in a `.deb` file:
 
-`debman -f {file something} {any something}`
+`debman -f {file value: sample.deb} {string value: command_name}`

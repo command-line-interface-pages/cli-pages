@@ -6,4 +6,4 @@
 
 - Open a file:
 
-`view {file something}`
+`view {file value}`

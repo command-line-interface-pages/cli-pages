@@ -5,24 +5,24 @@
 
 - Scan a binary file:
 
-`binwalk {any something}`
+`binwalk {string value: path/to/binary}`
 
 - Extract files from a binary, specifying the output directory:
 
-`binwalk --extract --directory {directory something: output} {any something}`
+`binwalk --extract --directory {directory value: output} {string value: path/to/binary}`
 
 - Recursively extract files from a binary limiting the recursion depth to 2:
 
-`binwalk --extract --matryoshka --depth {int number: 2} {any something}`
+`binwalk --extract --matryoshka --depth {int value: 2} {string value: path/to/binary}`
 
 - Extract files from a binary with the specified file signature:
 
-`binwalk --dd '{any something}' {any something}`
+`binwalk --dd '{string value: png image:png}' {string value: path/to/binary}`
 
 - Analyze the entropy of a binary, saving the plot with the same name as the binary and `.png` extension appended:
 
-`binwalk --entropy --save {any something}`
+`binwalk --entropy --save {string value: path/to/binary}`
 
 - Combine entropy, signature and opcodes analysis in a single command:
 
-`binwalk --entropy --signature --opcodes {any something}`
+`binwalk --entropy --signature --opcodes {string value: path/to/binary}`

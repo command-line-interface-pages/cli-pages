@@ -5,8 +5,8 @@
 
 - Run command as new root directory:
 
-`chroot {any something} {any something}`
+`chroot {string value: path/to/new/root} {string value: command}`
 
 - Specify user and group (ID or name) to use:
 
-`chroot --userspec={any something}`
+`chroot --userspec={string value: user:group}`

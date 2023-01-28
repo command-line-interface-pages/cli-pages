@@ -5,12 +5,12 @@
 
 - Remove first column of stdin:
 
-`colrm {any something}`
+`colrm {string value: 1 1}`
 
 - Remove from 3rd column till the end of each line:
 
-`colrm {int number: 3}`
+`colrm {int value: 3}`
 
 - Remove from the 3rd column till the 5th column of each line:
 
-`colrm {any something}`
+`colrm {string value: 3 5}`

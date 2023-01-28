@@ -10,23 +10,23 @@
 
 - Create a virtual machine using the default Ubuntu image and generate ssh keys:
 
-`az vm create --resource-group {any something} --name {any something} --image {any something} --admin-user {any something} --generate-ssh-keys`
+`az vm create --resource-group {string value: rg} --name {string value: vm_name} --image {string value: UbuntuLTS} --admin-user {string value: azureuser} --generate-ssh-keys`
 
 - Stop a Virtual Machine:
 
-`az vm stop --resource-group {any something} --name {any something}`
+`az vm stop --resource-group {string value: rg} --name {string value: vm_name}`
 
 - Deallocate a Virtual Machine:
 
-`az vm deallocate --resource-group {any something} --name {any something}`
+`az vm deallocate --resource-group {string value: rg} --name {string value: vm_name}`
 
 - Start a Virtual Machine:
 
-`az vm start --resource-group {any something} --name {any something}`
+`az vm start --resource-group {string value: rg} --name {string value: vm_name}`
 
 - Restart a Virtual Machine:
 
-`az vm restart --resource-group {any something} --name {any something}`
+`az vm restart --resource-group {string value: rg} --name {string value: vm_name}`
 
 - List VM images available in the Azure Marketplace:
 

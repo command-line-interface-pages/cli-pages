@@ -17,7 +17,7 @@
 
 - Show a specific device:
 
-`lspci -s {any something}`
+`lspci -s {string value: 00:18.3}`
 
 - Dump info in a readable form:
 

@@ -9,11 +9,11 @@
 
 - Display system configuration in a specified output format:
 
-`systeminfo /fo {any something}`
+`systeminfo /fo {string value: table|list|csv}`
 
 - Display system configuration for a remote machine:
 
-`systeminfo /s {any something} /u {string user} /p {any something}`
+`systeminfo /s {string value: remote_name} /u {string user} /p {string value: password}`
 
 - Display detailed usage information:
 

@@ -6,12 +6,12 @@
 
 - Mount a `.raw` image file into a DMG container file:
 
-`xmount --in {any something} {any something} --out {any something} {any something}`
+`xmount --in {string value: raw} {string value: path/to/image.dd} --out {string value: dmg} {string value: mountpoint}`
 
 - Mount an EWF image file with write-cache support into a VHD file to boot from:
 
-`xmount --cache {any something} --in {any something} {any something} --out {any something} {any something}`
+`xmount --cache {string value: path/to/cache.ovl} --in {string value: ewf} {string value: path/to/image.E??} --out {string value: vhd} {string value: mountpoint}`
 
 - Mount the first partition at sector 2048 into a new `.raw` image file:
 
-`xmount --offset {int number: 2048} --in {any something} {any something} --out {any something} {any something}`
+`xmount --offset {int value: 2048} --in {string value: raw} {string value: path/to/image.dd} --out {string value: raw} {string value: mountpoint}`

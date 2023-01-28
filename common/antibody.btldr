@@ -5,7 +5,7 @@
 
 - Bundle all plugins for static loading:
 
-`antibody bundle < {any something} > {any something}`
+`antibody bundle < {string value: ~/.zsh_plugins.txt} > {string value: ~/.zsh_plugins.sh}`
 
 - Update all bundles:
 

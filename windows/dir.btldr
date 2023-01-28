@@ -9,7 +9,7 @@
 
 - Show the contents of a given directory:
 
-`dir {directory something}`
+`dir {directory value}`
 
 - Show the contents of the current directory, including hidden ones:
 
@@ -17,4 +17,4 @@
 
 - Show the contents of a given directory, including hidden ones:
 
-`dir {directory something} /A`
+`dir {directory value} /A`

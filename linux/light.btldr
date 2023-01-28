@@ -9,12 +9,12 @@
 
 - Set the backlight value to 50 percent:
 
-`light -S {int number: 50}`
+`light -S {int value: 50}`
 
 - Reduce 20 percent from the current backlight value:
 
-`light -U {int number: 20}`
+`light -U {int value: 20}`
 
 - Add 20 percent to the current backlight value:
 
-`light -A {int number: 20}`
+`light -A {int value: 20}`

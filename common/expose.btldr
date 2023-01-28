@@ -5,7 +5,7 @@
 
 - Register your authentication token:
 
-`expose token {any something}`
+`expose token {string value: token}`
 
 - Share the current working directory:
 
@@ -13,7 +13,7 @@
 
 - Share the current working directory with a specific subdomain:
 
-`expose --subdomain={any something}`
+`expose --subdomain={string value: subdomain}`
 
 - Share a local URL:
 
@@ -25,4 +25,4 @@
 
 - Run the Expose server with a specific hostname:
 
-`expose serve {any something}`
+`expose serve {string value: hostname}`

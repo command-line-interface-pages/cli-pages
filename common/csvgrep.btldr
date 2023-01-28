@@ -6,12 +6,12 @@
 
 - Find rows that have a certain string in column 1:
 
-`csvgrep -c {int number: 1} -m {any something} {any something}`
+`csvgrep -c {int value: 1} -m {string value: string_to_match} {string value: data.csv}`
 
 - Find rows in which columns 3 or 4 match a certain regular expression:
 
-`csvgrep -c {any something} -r {any something} {any something}`
+`csvgrep -c {string value: 3,4} -r {string value: regular_expression} {string value: data.csv}`
 
 - Find rows in which the "name" column does NOT include the string "John Doe":
 
-`csvgrep -i -c {any something} -m "{any something}" {any something}`
+`csvgrep -i -c {string value: name} -m "{string value: John Doe}" {string value: data.csv}`

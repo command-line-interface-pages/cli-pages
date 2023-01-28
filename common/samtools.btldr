@@ -6,32 +6,32 @@
 
 - Convert a SAM input file to BAM stream and save to file:
 
-`samtools view -S -b {any something} > {any something}`
+`samtools view -S -b {string value: input.sam} > {string value: output.bam}`
 
 - Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
 
-`{any something} | samtools view -h - chromosome:start-end`
+`{string value: other_command} | samtools view -h - chromosome:start-end`
 
 - Sort file and save to BAM (the output format is automatically determined from the output file's extension):
 
-`samtools sort {any something} -o {any something}`
+`samtools sort {string value: input} -o {string value: output.bam}`
 
 - Index a sorted BAM file (creates {{sorted_input.bam.bai}}):
 
-`samtools index {any something}`
+`samtools index {string value: sorted_input.bam}`
 
 - Print alignment statistics about a file:
 
-`samtools flagstat {any something}`
+`samtools flagstat {string value: sorted_input}`
 
 - Count alignments to each index (chromosome / contig):
 
-`samtools idxstats {any something}`
+`samtools idxstats {string value: sorted_indexed_input}`
 
 - Merge multiple files:
 
-`samtools merge {any something} {any something}`
+`samtools merge {string value: output} {string value: input1 input2 …}`
 
 - Split input file according to read groups:
 
-`samtools split {any something}`
+`samtools split {string value: merged_input}`

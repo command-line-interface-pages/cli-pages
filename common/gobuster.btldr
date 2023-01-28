@@ -5,24 +5,24 @@
 
 - Discover directories and files that match in the wordlist:
 
-`gobuster dir --url {any something} --wordlist {file something}`
+`gobuster dir --url {string value: https://example.com/} --wordlist {file value}`
 
 - Discover subdomains:
 
-`gobuster dns --domain {any something} --wordlist {file something}`
+`gobuster dns --domain {string value: example.com} --wordlist {file value}`
 
 - Discover Amazon S3 buckets:
 
-`gobuster s3 --wordlist {file something}`
+`gobuster s3 --wordlist {file value}`
 
 - Discover other virtual hosts on the server:
 
-`gobuster vhost --url {any something} --wordlist {file something}`
+`gobuster vhost --url {string value: https://example.com/} --wordlist {file value}`
 
 - Fuzz the value of a parameter:
 
-`gobuster fuzz --url {any something} --wordlist {file something}`
+`gobuster fuzz --url {string value: https://example.com/?parameter=FUZZ} --wordlist {file value}`
 
 - Fuzz the name of a parameter:
 
-`gobuster fuzz --url {any something} --wordlist {file something}`
+`gobuster fuzz --url {string value: https://example.com/?FUZZ=value} --wordlist {file value}`

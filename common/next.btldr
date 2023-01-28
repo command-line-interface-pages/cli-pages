@@ -9,7 +9,7 @@
 
 - Start the current application and listen on a specific port:
 
-`next dev --port {any something}`
+`next dev --port {string value: port}`
 
 - Build the current application optimized for production:
 
@@ -21,7 +21,7 @@
 
 - Start the compiled application and listen on a specific port:
 
-`next start --port {any something}`
+`next start --port {string value: port}`
 
 - Export the current application to static HTML pages:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`next {any something} --help`
+`next {string value: build|dev|export|start|telemetry} --help`

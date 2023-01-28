@@ -5,24 +5,24 @@
 
 - Test a URL with default settings:
 
-`siege {any something}`
+`siege {string value: https://example.com}`
 
 - Test a list of URLs:
 
-`siege --file {any something}`
+`siege --file {string value: path/to/url_list.txt}`
 
 - Test list of URLs in a random order (Simulates internet traffic):
 
-`siege --internet --file {any something}`
+`siege --internet --file {string value: path/to/url_list.txt}`
 
 - Benchmark a list of URLs (without waiting between requests):
 
-`siege --benchmark --file {any something}`
+`siege --benchmark --file {string value: path/to/url_list.txt}`
 
 - Set the amount of concurrent connections:
 
-`siege --concurrent={int number: 50} --file {any something}`
+`siege --concurrent={int value: 50} --file {string value: path/to/url_list.txt}`
 
 - Set how long for the siege to run for:
 
-`siege --time={any something} --file {any something}`
+`siege --time={string value: 30s} --file {string value: path/to/url_list.txt}`

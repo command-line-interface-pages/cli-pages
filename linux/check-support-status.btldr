@@ -9,7 +9,7 @@
 
 - Display only packages whose support has ended:
 
-`check-support-status --type {any something}`
+`check-support-status --type {string value: ended}`
 
 - Skip printing a headline:
 

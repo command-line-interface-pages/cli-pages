@@ -9,8 +9,8 @@
 
 - Launch a session with a given URL:
 
-`http-prompt {any something}`
+`http-prompt {string value: http://example.com}`
 
 - Launch a session with some initial options:
 
-`http-prompt {any something} --auth {any something}`
+`http-prompt {string value: localhost:8000/api} --auth {string value: username:password}`

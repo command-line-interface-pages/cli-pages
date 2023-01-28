@@ -5,19 +5,19 @@
 
 - Create a new environment:
 
-`virtualenv {any something}`
+`virtualenv {string value: path/to/venv}`
 
 - Customize the prompt prefix:
 
-`virtualenv --prompt={any something} {any something}`
+`virtualenv --prompt={string value: prompt_prefix} {string value: path/to/venv}`
 
 - Use a different version of Python with virtualenv:
 
-`virtualenv --python={any something} {any something}`
+`virtualenv --python={string value: path/to/pythonbin} {string value: path/to/venv}`
 
 - Start (select) the environment:
 
-`source {any something}/bin/activate`
+`source {string value: path/to/venv}/bin/activate`
 
 - Stop the environment:
 

@@ -5,16 +5,16 @@
 
 - Submit a batch job:
 
-`sbatch {any something}`
+`sbatch {string value: path/to/job.sh}`
 
 - Submit a batch job with a custom name:
 
-`sbatch --job-name={any something} {any something}`
+`sbatch --job-name={string value: myjob} {string value: path/to/job.sh}`
 
 - Submit a batch job with a time limit of 30 minutes:
 
-`sbatch --time={any something} {any something}`
+`sbatch --time={string value: 00:30:00} {string value: path/to/job.sh}`
 
 - Submit a job and request multiple nodes:
 
-`sbatch --nodes={int number: 3} {any something}`
+`sbatch --nodes={int value: 3} {string value: path/to/job.sh}`

@@ -13,7 +13,7 @@
 
 - Append a message to the bonsai:
 
-`cbonsai -m "{any something}"`
+`cbonsai -m "{string value: message}"`
 
 - Display extra information about the bonsai:
 

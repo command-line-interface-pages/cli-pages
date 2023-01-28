@@ -5,7 +5,7 @@
 
 - Create a new Python 3.6.6 virtual environment:
 
-`pyenv virtualenv {any something} {any something}`
+`pyenv virtualenv {string value: 3.6.6} {string value: virtualenv_name}`
 
 - List all existing virtual environments:
 
@@ -13,7 +13,7 @@
 
 - Activate a virtual environment:
 
-`pyenv activate {any something}`
+`pyenv activate {string value: virtualenv_name}`
 
 - Deactivate the virtual environment:
 

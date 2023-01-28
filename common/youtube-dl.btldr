@@ -5,19 +5,19 @@
 
 - Download a video or playlist:
 
-`youtube-dl '{any something}'`
+`youtube-dl '{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}'`
 
 - List all formats that a video or playlist is available in:
 
-`youtube-dl --list-formats '{any something}'`
+`youtube-dl --list-formats '{string value: https://www.youtube.com/watch?v=Mwa0_nE9H7A}'`
 
 - Download a video or playlist at a specific quality:
 
-`youtube-dl --format "{any something}" '{any something}'`
+`youtube-dl --format "{string value: best[height<=480]}" '{string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}'`
 
 - Download the audio from a video and convert it to an MP3:
 
-`youtube-dl -x --audio-format {any something} '{string url}'`
+`youtube-dl -x --audio-format {string value: mp3} '{string url}'`
 
 - Download the best quality audio and video and merge them:
 
@@ -25,12 +25,12 @@
 
 - Download video(s) as MP4 files with custom filenames:
 
-`youtube-dl --format {any something} -o "{any something}" '{string url}'`
+`youtube-dl --format {string value: mp4} -o "{string value: %(playlist_index)s-%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}" '{string url}'`
 
 - Download a particular language's subtitles along with the video:
 
-`youtube-dl --sub-lang {any something} --write-sub '{any something}'`
+`youtube-dl --sub-lang {string value: en} --write-sub '{string value: https://www.youtube.com/watch?v=Mwa0_nE9H7A}'`
 
 - Download a playlist and extract MP3s from it:
 
-`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {any something}`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {string value: url_to_playlist}`

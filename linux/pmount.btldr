@@ -5,19 +5,19 @@
 
 - Mount a device below `/media/` (using device as mount point):
 
-`pmount {any something}`
+`pmount {string value: /dev/to/block/device}`
 
 - Mount a device with a specific filesystem type to `/media/label`:
 
-`pmount --type {any something} {any something} {any something}`
+`pmount --type {string value: filesystem} {string value: /dev/to/block/device} {string value: label}`
 
 - Mount a CD-ROM (filesystem type ISO9660) in read-only mode:
 
-`pmount --type {any something} --read-only {any something}`
+`pmount --type {string value: iso9660} --read-only {string value: /dev/cdrom}`
 
 - Mount an NTFS-formatted disk, forcing read-write access:
 
-`pmount --type {any something} --read-write {/file something: device}`
+`pmount --type {string value: ntfs} --read-write {/file value: device}`
 
 - Display all mounted removable devices:
 

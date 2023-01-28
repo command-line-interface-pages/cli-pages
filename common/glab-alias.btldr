@@ -13,12 +13,12 @@
 
 - Create a `glab` subcommand alias:
 
-`glab alias set {any something} '{any something}'`
+`glab alias set {string value: mrv} '{string value: mr view}'`
 
 - Set a shell command as a `glab` subcommand:
 
-`glab alias set --shell {any something} {any something}`
+`glab alias set --shell {string value: alias_name} {string value: command}`
 
 - Delete a command shortcut:
 
-`glab alias delete {any something}`
+`glab alias delete {string value: alias_name}`

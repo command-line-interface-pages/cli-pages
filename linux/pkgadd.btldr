@@ -5,8 +5,8 @@
 
 - Install a local software package:
 
-`pkgadd {any something}`
+`pkgadd {string value: package_name}`
 
 - Update an already installed package from a local package:
 
-`pkgadd -u {any something}`
+`pkgadd -u {string value: package_name}`

@@ -14,4 +14,4 @@
 
 - Show help for a specific subcommand:
 
-`pio {any something} --help`
+`pio {string value: subcommand} --help`

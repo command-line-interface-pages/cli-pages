@@ -10,20 +10,20 @@
 
 - List available plugins of a specific type:
 
-`ansible-doc --type {any something} --list`
+`ansible-doc --type {string value: become|cache|callback|cliconf|connection|...} --list`
 
 - Show information about a specific action plugin (module):
 
-`ansible-doc {any something}`
+`ansible-doc {string value: plugin_name}`
 
 - Show information about a plugin with a specific type:
 
-`ansible-doc --type {any something} {any something}`
+`ansible-doc --type {string value: become|cache|callback|cliconf|connection|...} {string value: plugin_name}`
 
 - Show the playbook snippet for action plugin (modules):
 
-`ansible-doc --snippet {any something}`
+`ansible-doc --snippet {string value: plugin_name}`
 
 - Show information about an action plugin (module) as JSON:
 
-`ansible-doc --json {any something}`
+`ansible-doc --json {string value: plugin_name}`

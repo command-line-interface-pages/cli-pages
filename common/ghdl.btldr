@@ -5,23 +5,23 @@
 
 - Analyze a VHDL source file and produce an object file:
 
-`ghdl -a {any something}`
+`ghdl -a {file value: sample.vhdl}`
 
 - Elaborate a design (where `{{design}}` is the name of a configuration unit, entity unit or architecture unit):
 
-`ghdl -e {any something}`
+`ghdl -e {string value: design}`
 
 - Run an elaborated design:
 
-`ghdl -r {any something}`
+`ghdl -r {string value: design}`
 
 - Run an elaborated design and dump output to a waveform file:
 
-`ghdl -r {any something} --wave={any something}`
+`ghdl -r {string value: design} --wave={string value: output.ghw}`
 
 - Check the syntax of a VHDL source file:
 
-`ghdl -s {any something}`
+`ghdl -s {file value: sample.vhdl}`
 
 - Display the help page:
 

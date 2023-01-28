@@ -5,8 +5,8 @@
 
 - Analyze a Docker image:
 
-`dive {any something}`
+`dive {string value: your_image_tag}`
 
 - Build an image and start analyzing it:
 
-`dive build -t {any something}`
+`dive build -t {string value: some_tag}`

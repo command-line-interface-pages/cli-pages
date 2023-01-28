@@ -26,7 +26,7 @@
 
 - Run cargo build with a certain toolchain:
 
-`rustup run {any something} cargo build`
+`rustup run {string value: toolchain_name} cargo build`
 
 - Open the local rust documentation in the default web browser:
 

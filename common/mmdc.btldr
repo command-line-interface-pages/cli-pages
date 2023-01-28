@@ -6,12 +6,12 @@
 
 - Convert a file to the specified format (automatically determined from the file extension):
 
-`mmdc --input {any something} --output {any something}`
+`mmdc --input {string value: input.mmd} --output {string value: output.svg}`
 
 - Specify the theme of the chart:
 
-`mmdc --input {any something} --output {any something} --theme {any something}`
+`mmdc --input {string value: input.mmd} --output {string value: output.svg} --theme {string value: forest|dark|neutral|default}`
 
 - Specify the background color of the chart (e.g. `lime`, `"#D8064F"`, or `transparent`):
 
-`mmdc --input {any something} --output {any something} --backgroundColor {any something}`
+`mmdc --input {string value: input.mmd} --output {string value: output.svg} --backgroundColor {string value: color}`

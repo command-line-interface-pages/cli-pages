@@ -13,15 +13,15 @@
 
 - Install a new package (includes AUR):
 
-`pacaur -S {any something}`
+`pacaur -S {string value: package_name}`
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`pacaur -Rs {any something}`
+`pacaur -Rs {string value: package_name}`
 
 - Search the package database for a keyword (includes AUR):
 
-`pacaur -Ss {any something}`
+`pacaur -Ss {string value: keyword}`
 
 - List all currently installed packages (includes AUR packages):
 

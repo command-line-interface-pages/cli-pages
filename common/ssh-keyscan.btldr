@@ -5,16 +5,16 @@
 
 - Retrieve all public ssh keys of a remote host:
 
-`ssh-keyscan {any something}`
+`ssh-keyscan {string value: host}`
 
 - Retrieve all public ssh keys of a remote host listening on a specific port:
 
-`ssh-keyscan -p {any something} {any something}`
+`ssh-keyscan -p {string value: port} {string value: host}`
 
 - Retrieve certain types of public ssh keys of a remote host:
 
-`ssh-keyscan -t {any something} {any something}`
+`ssh-keyscan -t {string value: rsa,dsa,ecdsa,ed25519} {string value: host}`
 
 - Manually update the ssh known_hosts file with the fingerprint of a given host:
 
-`ssh-keyscan -H {any something} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {string value: host} >> ~/.ssh/known_hosts`

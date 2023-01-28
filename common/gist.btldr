@@ -9,15 +9,15 @@
 
 - Create a gist from any number of text files:
 
-`gist {file something} {any something}`
+`gist {file value: sample.txt} {string value: file2.txt}`
 
 - Create a private gist with a description:
 
-`gist --private --description "{any something}" {file something} `
+`gist --private --description "{string value: A meaningful description}" {file value: sample.txt} `
 
 - Read contents from stdin and create a gist from it:
 
-`{any something} | gist`
+`{string value: echo "hello world"} | gist`
 
 - List your public and private gists:
 
@@ -29,4 +29,4 @@
 
 - Update a gist using the ID from URL:
 
-`gist --update {any something} {file something}`
+`gist --update {string value: GIST_ID} {file value: sample.txt}`

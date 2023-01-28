@@ -6,12 +6,12 @@
 
 - Send a typed email message. The command-line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multiline). Press Ctrl-D key to complete the message text:
 
-`mail --subject="{any something}" {any something}`
+`mail --subject="{string value: subject line}" {string value: to_user@example.com}`
 
 - Send an email that contains file content:
 
-`mail --subject="{any something}" {any something} < {file something}`
+`mail --subject="{string value: $HOSTNAME filename.txt}" {string value: to_user@example.com} < {file value: sample.txt}`
 
 - Send a `tar.gz` file as an attachment:
 
-`tar cvzf - {any something} | uuencode {any something} | mail --subject="{any something}" {any something}`
+`tar cvzf - {string value: path/to/directory1 path/to/directory2} | uuencode {string value: data.tar.gz} | mail --subject="{string value: subject_line}" {string value: to_user@example.com}`

@@ -9,7 +9,7 @@
 
 - Restore dependencies for a .NET project or solution in a specific location:
 
-`dotnet restore {any something}`
+`dotnet restore {string value: path/to/project_or_solution}`
 
 - Restore dependencies without caching the HTTP requests:
 
@@ -25,4 +25,4 @@
 
 - Restore dependencies with a specific verbosity level:
 
-`dotnet restore --verbosity {any something}`
+`dotnet restore --verbosity {string value: quiet|minimal|normal|detailed|diagnostic}`

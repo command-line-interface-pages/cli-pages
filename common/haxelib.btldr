@@ -5,15 +5,15 @@
 
 - Search for a Haxe library:
 
-`haxelib search {any something}`
+`haxelib search {string value: keyword}`
 
 - Install a Haxe library:
 
-`haxelib install {any something}`
+`haxelib install {string value: libname}`
 
 - Install a specific version of a Haxe library:
 
-`haxelib install {any something} {any something}`
+`haxelib install {string value: libname} {string value: version}`
 
 - Upgrade all installed Haxe libraries:
 
@@ -21,11 +21,11 @@
 
 - Install the development version of a library from a Git repository:
 
-`haxelib git {any something} {any something}`
+`haxelib git {string value: libname} {string value: git_url}`
 
 - Uninstall a Haxe library:
 
-`haxelib remove {any something}`
+`haxelib remove {string value: libname}`
 
 - Print a tree of locally installed Haxe libraries:
 

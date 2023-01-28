@@ -5,8 +5,8 @@
 
 - Evaluate contents of a given file:
 
-`source {file something}`
+`source {file value}`
 
 - Evaluate contents of a given file (alternatively replacing `source` with `.`):
 
-`. {file something}`
+`. {file value}`

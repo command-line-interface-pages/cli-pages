@@ -34,4 +34,4 @@
 
 - Only list directories:
 
-`lsd -d {any something}`
+`lsd -d {string value: */}`

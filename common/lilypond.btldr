@@ -5,19 +5,19 @@
 
 - Compile a lilypond file into a PDF:
 
-`lilypond {file something}`
+`lilypond {file value}`
 
 - Compile into the specified format:
 
-`lilypond --formats={any something} {file something}`
+`lilypond --formats={string value: format_dump} {file value}`
 
 - Compile the specified file, suppressing progress updates:
 
-`lilypond -s {file something}`
+`lilypond -s {file value}`
 
 - Compile the specified file, and also specify the output filename:
 
-`lilypond --output={file something: output} {file something: input}`
+`lilypond --output={file value: output} {file value: input}`
 
 - Show the current version of lilypond:
 

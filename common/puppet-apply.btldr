@@ -5,12 +5,12 @@
 
 - Apply a manifest:
 
-`puppet apply {any something}`
+`puppet apply {string value: path/to/manifest}`
 
 - Execute puppet code:
 
-`puppet apply --execute {any something}`
+`puppet apply --execute {string value: code}`
 
 - Use a specific module and hiera config file:
 
-`puppet apply --modulepath {directory something} --hiera_config {file something} {any something}`
+`puppet apply --modulepath {directory value} --hiera_config {file value} {string value: path/to/manifest}`

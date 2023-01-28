@@ -5,12 +5,12 @@
 
 - Discard all sectors on a device, removing all data:
 
-`blkdiscard /dev/{any something}`
+`blkdiscard /dev/{string value: device}`
 
 - Securely discard all blocks on a device, removing all data:
 
-`blkdiscard --secure /dev/{any something}`
+`blkdiscard --secure /dev/{string value: device}`
 
 - Discard the first 100 MB of a device:
 
-`blkdiscard --length {any something} /dev/{any something}`
+`blkdiscard --length {string value: 100MB} /dev/{string value: device}`

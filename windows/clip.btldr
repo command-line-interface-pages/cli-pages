@@ -5,15 +5,15 @@
 
 - Pipe command-line output to the Windows clipboard:
 
-`{any something} | clip`
+`{string value: dir} | clip`
 
 - Copy the contents of a file to the Windows clipboard:
 
-`clip < {file something}`
+`clip < {file value: sample.ext}`
 
 - Copy text with a trailing newline to the Windows clipboard:
 
-`echo {any something} | clip`
+`echo {string value: some text} | clip`
 
 - Copy text without a trailing newline to the Windows clipboard:
 

@@ -9,16 +9,16 @@
 
 - List installed packages matching a pattern:
 
-`dpkg-query --list '{any something}'`
+`dpkg-query --list '{string value: libc6*}'`
 
 - List all files installed by a package:
 
-`dpkg-query --listfiles {any something}`
+`dpkg-query --listfiles {string value: libc6}`
 
 - Show information about a package:
 
-`dpkg-query --status {any something}`
+`dpkg-query --status {string value: libc6}`
 
 - Search for packages that own files matching a pattern:
 
-`dpkg-query --search {any something}`
+`dpkg-query --search {string value: /etc/ld.so.conf.d}`

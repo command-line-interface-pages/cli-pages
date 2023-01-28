@@ -5,12 +5,12 @@
 
 - Copy your keys to the remote machine:
 
-`ssh-copy-id {any something}`
+`ssh-copy-id {string value: username@remote_host}`
 
 - Copy the given public key to the remote:
 
-`ssh-copy-id -i {any something} {string user}@{any something}`
+`ssh-copy-id -i {string value: path/to/certificate} {string user}@{string value: remote_host}`
 
 - Copy the given public key to the remote with specific port:
 
-`ssh-copy-id -i {any something} -p {any something} {string user}@{any something}`
+`ssh-copy-id -i {string value: path/to/certificate} -p {string value: port} {string user}@{string value: remote_host}`

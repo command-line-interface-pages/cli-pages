@@ -9,4 +9,4 @@
 
 - Display the `toolbox` manual for a specific subcommand:
 
-`toolbox help {any something}`
+`toolbox help {string value: subcommand}`

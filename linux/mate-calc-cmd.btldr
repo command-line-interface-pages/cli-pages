@@ -9,4 +9,4 @@
 
 - Calculate a specific mathematic expression:
 
-`{any something}`
+`{string value: 2 + 5}`

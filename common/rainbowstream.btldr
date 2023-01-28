@@ -10,24 +10,24 @@
 
 - Show your timeline (optional number of tweets to display, default is 5):
 
-`home [{any something}]`
+`home [{string value: num_of_last_tweets}]`
 
 - Show profile of a given user:
 
-`whois @{any something}`
+`whois @{string value: user}`
 
 - Tweet the message as-is:
 
-`t {any something}`
+`t {string value: message}`
 
 - Retweet the tweet with given ID (ID is beside the time):
 
-`rt {any something}`
+`rt {string value: tweet_id}`
 
 - Favorite the tweet with given ID:
 
-`fav {any something}`
+`fav {string value: tweet_id}`
 
 - Perform a search for a given word (with or without hashtag):
 
-`s {any something}`
+`s {string value: word}`

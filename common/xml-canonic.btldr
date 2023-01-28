@@ -5,15 +5,15 @@
 
 - Make an XML document canonical, preserving comments:
 
-`xml canonic {any something} > {any something}`
+`xml canonic {string value: path/to/input.xml|URI} > {string value: path/to/output.xml}`
 
 - Make an XML document canonical, removing comments:
 
-`xml canonic --without-comments {any something} > {any something}`
+`xml canonic --without-comments {string value: path/to/input.xml|URI} > {string value: path/to/output.xml}`
 
 - Make XML exclusively canonical, using an XPATH from a file, preserving comments:
 
-`xml canonic --exc-with-comments {any something} {any something}`
+`xml canonic --exc-with-comments {string value: path/to/input.xml|URI} {string value: path/to/c14n.xpath}`
 
 - Display help for the `canonic` subcommand:
 

@@ -17,8 +17,8 @@
 
 - Specify the output format:
 
-`slop -f {any something}`
+`slop -f {string value: format_string}`
 
 - Specify the selection rectangle's color:
 
-`slop -c {any something},{any something},{any something},{any something}`
+`slop -c {string value: red},{string value: green},{string value: blue},{string value: alpha}`

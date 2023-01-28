@@ -6,20 +6,20 @@
 
 - Capture packets on a specific network interface:
 
-`snoop -d {any something}`
+`snoop -d {string value: e1000g0}`
 
 - Save captured packets in a file instead of displaying them:
 
-`snoop -o {any something}`
+`snoop -o {file value}`
 
 - Display verbose protocol layer summary of packets from a file:
 
-`snoop -V -i {any something}`
+`snoop -V -i {file value}`
 
 - Capture network packets that come from a hostname and go to a given port:
 
-`snoop to port {any something} from host {any something}`
+`snoop to port {string value: port} from host {string value: hostname}`
 
 - Capture and show a hex-dump of network packets exchanged between two IP addresses:
 
-`snoop -x0 -p4 {any something} {any something}`
+`snoop -x0 -p4 {string value: ip_address_1} {string value: ip_address_2}`

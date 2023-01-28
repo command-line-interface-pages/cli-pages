@@ -5,24 +5,24 @@
 
 - Open a PDF file:
 
-`xpdf {file something}`
+`xpdf {file value: sample.pdf}`
 
 - Open a specific page in a PDF file:
 
-`xpdf {file something} :{any something}`
+`xpdf {file value: sample.pdf} :{string value: page_number}`
 
 - Open a compressed PDF file:
 
-`xpdf {any something}`
+`xpdf {string value: path/to/file.pdf.tar}`
 
 - Open a PDF file in fullscreen mode:
 
-`xpdf -fullscreen {file something}`
+`xpdf -fullscreen {file value: sample.pdf}`
 
 - Specify the initial zoom:
 
-`xpdf -z {int number: 75}% {file something}`
+`xpdf -z {int value: 75}% {file value: sample.pdf}`
 
 - Specify the initial zoom at page width or full page:
 
-`xpdf -z {any something} {file something}`
+`xpdf -z {string value: page|width} {file value: sample.pdf}`

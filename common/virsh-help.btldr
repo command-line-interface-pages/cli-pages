@@ -14,8 +14,8 @@
 
 - List the commands in a category:
 
-`virsh help {any something}`
+`virsh help {string value: category_keyword}`
 
 - Show help for a command:
 
-`virsh help {any something}`
+`virsh help {string value: command}`

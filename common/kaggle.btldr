@@ -9,4 +9,4 @@
 
 - Download a specific file from a competition dataset:
 
-`kaggle competitions download {any something} -f {any something}`
+`kaggle competitions download {string value: competition} -f {file value}`

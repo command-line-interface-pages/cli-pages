@@ -5,11 +5,11 @@
 
 - Set the keyboard in French AZERTY:
 
-`setxkbmap {any something}`
+`setxkbmap {string value: fr}`
 
 - Set multiple keyboard layouts, their variants and switching option:
 
-`setxkbmap -layout {any something} -variant {any something} -option {any something}`
+`setxkbmap -layout {string value: us,de} -variant {string value: ,qwerty} -option {string value: 'grp:alt_caps_toggle'}`
 
 - Get help:
 
@@ -21,7 +21,7 @@
 
 - List variants for the layout:
 
-`localectl list-x11-keymap-variants {any something}`
+`localectl list-x11-keymap-variants {string value: de}`
 
 - List available switching options:
 

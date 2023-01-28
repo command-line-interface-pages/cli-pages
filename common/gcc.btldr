@@ -5,20 +5,20 @@
 
 - Compile multiple source files into executable:
 
-`gcc {any something} -o {any something}`
+`gcc {string value: path/to/source1.c path/to/source2.c ...} -o {string value: path/to/output_executable}`
 
 - Show common warnings, debug symbols in output, and optimize without affecting debugging:
 
-`gcc {any something} -Wall -g -Og -o {any something}`
+`gcc {string value: path/to/source.c} -Wall -g -Og -o {string value: path/to/output_executable}`
 
 - Include libraries from a different path:
 
-`gcc {any something} -o {any something} -I{any something} -L{any something} -l{any something}`
+`gcc {string value: path/to/source.c} -o {string value: path/to/output_executable} -I{string value: path/to/header} -L{string value: path/to/library} -l{string value: library_name}`
 
 - Compile source code into Assembler instructions:
 
-`gcc -S {any something}`
+`gcc -S {string value: path/to/source.c}`
 
 - Compile source code into an object file without linking:
 
-`gcc -c {any something}`
+`gcc -c {string value: path/to/source.c}`

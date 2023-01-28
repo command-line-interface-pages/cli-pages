@@ -9,8 +9,8 @@
 
 - Convert a Gregorian date to a Hijri date:
 
-`ical --gregorian {any something}`
+`ical --gregorian {string value: yyyymmdd}`
 
 - Convert a Hirji date to a Gregorian date:
 
-`ical --hijri {any something}`
+`ical --hijri {string value: yyyymmdd}`

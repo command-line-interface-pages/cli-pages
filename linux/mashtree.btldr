@@ -6,12 +6,12 @@
 
 - Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
 
-`mashtree --numcpus {int number: 12} {any something} {any something} > {any something}`
+`mashtree --numcpus {int value: 12} {string value: *.fastq.gz} {string value: *.fasta} > {string value: mashtree.dnd}`
 
 - Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
 
-`mashtree --mindepth {int number: 0} --numcpus {int number: 12} {any something} {any something} > {any something}`
+`mashtree --mindepth {int value: 0} --numcpus {int value: 12} {string value: *.fastq.gz} {string value: *.fasta} > {string value: mashtree.dnd}`
 
 - Most accurate method to create a tree with confidence values (note that any options for `mashtree` itself has to be on the right side of the `--`):
 
-`mashtree_bootstrap.pl --reps {int number: 100} --numcpus {int number: 12} {any something} -- --min-depth {int number: 0} > {any something}`
+`mashtree_bootstrap.pl --reps {int value: 100} --numcpus {int value: 12} {string value: *.fastq.gz} -- --min-depth {int value: 0} > {string value: mashtree.bootstrap.dnd}`

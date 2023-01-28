@@ -5,24 +5,24 @@
 
 - Display a simple message:
 
-`whiptail --title "{any something}" --msgbox "{any something}" {any something} {any something}`
+`whiptail --title "{string value: title}" --msgbox "{string value: message}" {string value: height_in_chars} {string value: width_in_chars}`
 
 - Display a boolean choice, returning the result through the exit code:
 
-`whiptail --title "{any something}" --yesno "{any something}" {any something} {any something}`
+`whiptail --title "{string value: title}" --yesno "{string value: message}" {string value: height_in_chars} {string value: width_in_chars}`
 
 - Customise the text on the yes / no buttons:
 
-`whiptail --title "{any something}" --yes-button "{any something}" --no-button "{any something}" --yesno "{any something}" {any something} {any something}`
+`whiptail --title "{string value: title}" --yes-button "{string value: text}" --no-button "{string value: text}" --yesno "{string value: message}" {string value: height_in_chars} {string value: width_in_chars}`
 
 - Display a text input box:
 
-`{any something}="$(whiptail --title "{any something}" --inputbox "{any something}" {any something} {any something} {any something} 3>&1 1>&2 2>&3)"`
+`{string value: result_variable_name}="$(whiptail --title "{string value: title}" --inputbox "{string value: message}" {string value: height_in_chars} {string value: width_in_chars} {string value: default_text} 3>&1 1>&2 2>&3)"`
 
 - Display a password input box:
 
-`{any something}="$(whiptail --title "{any something}" --passwordbox "{any something}" {any something} {any something} 3>&1 1>&2 2>&3)"`
+`{string value: result_variable_name}="$(whiptail --title "{string value: title}" --passwordbox "{string value: message}" {string value: height_in_chars} {string value: width_in_chars} 3>&1 1>&2 2>&3)"`
 
 - Display a multiple-choice menu:
 
-`{any something}=$(whiptail --title "{any something}" --menu "{any something}" {any something} {any something} {any something} "{any something}" "{any something}" "{any something}" "{any something}" ..... 3>&1 1>&2 2>&3)`
+`{string value: result_variable_name}=$(whiptail --title "{string value: title}" --menu "{string value: message}" {string value: height_in_chars} {string value: width_in_chars} {string value: menu_display_height} "{string value: value_1}" "{string value: display_text_1}" "{string value: value_n}" "{string value: display_text_n}" ..... 3>&1 1>&2 2>&3)`

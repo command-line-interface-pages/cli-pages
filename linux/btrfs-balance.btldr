@@ -5,28 +5,28 @@
 
 - Show the status of a running or paused balance operation:
 
-`sudo btrfs balance status {any something}`
+`sudo btrfs balance status {string value: path/to/btrfs_filesystem}`
 
 - Balance all block groups (slow; rewrites all blocks in filesystem):
 
-`sudo btrfs balance start {any something}`
+`sudo btrfs balance start {string value: path/to/btrfs_filesystem}`
 
 - Balance data block groups which are less than 15% utilized, running the operation in the background:
 
-`sudo btrfs balance start --bg -dusage={int number: 15} {any something}`
+`sudo btrfs balance start --bg -dusage={int value: 15} {string value: path/to/btrfs_filesystem}`
 
 - Balance a max of 10 metadata chunks with less than 20% utilization and at least 1 chunk on a given device `devid` (see `btrfs filesystem show`):
 
-`sudo btrfs balance start -musage={int number: 20},limit={int number: 10},devid={any something} {any something}`
+`sudo btrfs balance start -musage={int value: 20},limit={int value: 10},devid={string value: devid} {string value: path/to/btrfs_filesystem}`
 
 - Convert data blocks to the raid6 and metadata to raid1c3 (see mkfs.btrfs(8) for profiles):
 
-`sudo btrfs balance start -dconvert={any something} -mconvert={any something} {any something}`
+`sudo btrfs balance start -dconvert={string value: raid6} -mconvert={string value: raid1c3} {string value: path/to/btrfs_filesystem}`
 
 - Convert data blocks to raid1, skipping already converted chunks (e.g. after a previous cancelled conversion operation):
 
-`sudo btrfs balance start -dconvert={any something},soft {any something}`
+`sudo btrfs balance start -dconvert={string value: raid1},soft {string value: path/to/btrfs_filesystem}`
 
 - Cancel, pause, or resume a running or paused balance operation:
 
-`sudo btrfs balance {any something} {any something}`
+`sudo btrfs balance {string value: cancel|pause|resume} {string value: path/to/btrfs_filesystem}`

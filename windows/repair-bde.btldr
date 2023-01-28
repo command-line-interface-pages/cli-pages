@@ -5,31 +5,31 @@
 
 - Attempt to repair a specified volume:
 
-`repair-bde {any something}`
+`repair-bde {string value: C:}`
 
 - Attempt to repair a specified volume and output to another volume:
 
-`repair-bde {any something} {any something}`
+`repair-bde {string value: C:} {string value: D:}`
 
 - Attempt to repair a specified volume using the provided recovery key file:
 
-`repair-bde {any something} -RecoveryKey {file something}`
+`repair-bde {string value: C:} -RecoveryKey {file value: sample.bek}`
 
 - Attempt to repair a specified volume using the provided numerical recovery password:
 
-`repair-bde {any something} -RecoveryPassword {any something}`
+`repair-bde {string value: C:} -RecoveryPassword {string value: password}`
 
 - Attempt to repair a specified volume using the provided password:
 
-`repair-bde {any something} -Password {any something}`
+`repair-bde {string value: C:} -Password {string value: password}`
 
 - Attempt to repair a specified volume using the provided key package:
 
-`repair-bde {any something} -KeyPackage {directory something}`
+`repair-bde {string value: C:} -KeyPackage {directory value}`
 
 - Log all output to a specific file:
 
-`repair-bde {any something} -LogFile {file something}`
+`repair-bde {string value: C:} -LogFile {file value}`
 
 - Display all available options:
 

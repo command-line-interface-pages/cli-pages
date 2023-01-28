@@ -6,20 +6,20 @@
 
 - Run a program in a new session:
 
-`setsid {any something}`
+`setsid {string value: program}`
 
 - Run a program in a new session discarding the resulting output and error:
 
-`setsid {any something} > /dev/null 2>&1`
+`setsid {string value: program} > /dev/null 2>&1`
 
 - Run a program creating a new process:
 
-`setsid --fork {any something}`
+`setsid --fork {string value: program}`
 
 - Return the exit code of a program as the exit code of setsid when the program exits:
 
-`setsid --wait {any something}`
+`setsid --wait {string value: program}`
 
 - Run a program in a new session setting the current terminal as the controlling terminal:
 
-`setsid --ctty {any something}`
+`setsid --ctty {string value: program}`

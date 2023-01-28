@@ -5,7 +5,7 @@
 
 - Create kustomization file with resources and namespace:
 
-`kustomize create --resources {any something} --namespace {any something}`
+`kustomize create --resources {string value: deployment.yaml,service.yaml} --namespace {string value: staging}`
 
 - Build kustomization file and deploy it with `kubectl`:
 
@@ -13,7 +13,7 @@
 
 - Set an image in the kustomization file:
 
-`kustomize edit set image {any something}`
+`kustomize edit set image {string value: busybox=alpine:3.6}`
 
 - Search for Kubernetes resources in the current directory to be added to the kustomization file:
 

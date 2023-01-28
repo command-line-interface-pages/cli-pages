@@ -14,7 +14,7 @@
 
 - Connect using a specific node for internet traffic:
 
-`sudo tailscale up --exit-node={any something}`
+`sudo tailscale up --exit-node={string value: exit_node_ip}`
 
 - Connect and block incoming connections to the current node:
 
@@ -26,7 +26,7 @@
 
 - Connect and configure Tailscale as a subnet router:
 
-`sudo tailscale up --advertise-routes={any something},{any something}`
+`sudo tailscale up --advertise-routes={string value: 10.0.0.0/24},{string value: 10.0.1.0/24}`
 
 - Connect and accept subnet routes from Tailscale:
 

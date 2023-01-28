@@ -9,15 +9,15 @@
 
 - Compile and run Go application if any `.go` file changes:
 
-`reflex --regex='{any something}' {any something}`
+`reflex --regex='{string value: \.go$}' {string value: go run .}`
 
 - Ignore a directory when watching for changes:
 
-`reflex --inverse-regex='{any something}' {any something}`
+`reflex --inverse-regex='{string value: ^dir/}' {string value: command}`
 
 - Run command when reflex starts and restarts on file changes:
 
-`reflex --start-service=true {any something}`
+`reflex --start-service=true {string value: command}`
 
 - Substitute the filename that changed in:
 

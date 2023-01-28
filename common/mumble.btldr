@@ -9,16 +9,16 @@
 
 - Open Mumble and immediately connect to a server:
 
-`mumble mumble://{string user}@{any something}`
+`mumble mumble://{string user}@{string value: example.com}`
 
 - Open Mumble and immediately connect to a password protected server:
 
-`mumble mumble://{string user}:{any something}@{any something}`
+`mumble mumble://{string user}:{string value: password}@{string value: example.com}`
 
 - Mute/unmute the microphone in a running Mumble instance:
 
-`mumble rpc {any something}`
+`mumble rpc {string value: mute|unmute}`
 
 - Mute/unmute the microphone and the audio output of Mumble:
 
-`mumble rpc {any something}`
+`mumble rpc {string value: deaf|undeaf}`

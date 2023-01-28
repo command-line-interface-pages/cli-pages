@@ -6,4 +6,4 @@
 
 - Tell the kernel about the existence of the specified partition:
 
-`addpart {any something} {any something} {any something} {any something}`
+`addpart {string value: device} {string value: partition} {string value: start} {string value: length}`

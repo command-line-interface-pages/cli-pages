@@ -5,19 +5,19 @@
 
 - Create a torrent with 2048 KB as the piece size:
 
-`transmission-create -o {any something} --tracker {any something} --piecesize {int number: 2048} {file something|path something}`
+`transmission-create -o {string value: path/to/example.torrent} --tracker {string value: tracker_announce_url} --piecesize {int value: 2048} {path value}`
 
 - Create a private torrent with a 2048 KB piece size:
 
-`transmission-create -p -o {any something} --tracker {any something} --piecesize {int number: 2048} {file something|path something}`
+`transmission-create -p -o {string value: path/to/example.torrent} --tracker {string value: tracker_announce_url} --piecesize {int value: 2048} {path value}`
 
 - Create a torrent with a comment:
 
-`transmission-create -o {any something} --tracker {any something} -c {any something} {file something|path something}`
+`transmission-create -o {string value: path/to/example.torrent} --tracker {string value: tracker_url1} -c {string value: comment} {path value}`
 
 - Create a torrent with multiple trackers:
 
-`transmission-create -o {any something} --tracker {any something} --tracker {any something} {file something|path something}`
+`transmission-create -o {string value: path/to/example.torrent} --tracker {string value: tracker_url1} --tracker {string value: tracker_url2} {path value}`
 
 - Show help page:
 

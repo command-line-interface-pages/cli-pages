@@ -9,8 +9,8 @@
 
 - Show detailed configuration for a specific ZFS pool:
 
-`zdb -C {any something}`
+`zdb -C {string value: poolname}`
 
 - Show statistics about number, size and deduplication of blocks:
 
-`zdb -b {any something}`
+`zdb -b {string value: poolname}`

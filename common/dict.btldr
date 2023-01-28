@@ -9,15 +9,15 @@
 
 - Get information about a database:
 
-`dict -i {any something}`
+`dict -i {string value: database_name}`
 
 - Look up a word in a specific database:
 
-`dict -d {any something} {any something}`
+`dict -d {string value: database_name} {string value: word}`
 
 - Look up a word in all available databases:
 
-`dict {any something}`
+`dict {string value: word}`
 
 - Show information about the DICT server:
 

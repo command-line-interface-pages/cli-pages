@@ -5,24 +5,24 @@
 
 - Inspect the headers of a file:
 
-`xsv headers {file something}`
+`xsv headers {file value: sample.csv}`
 
 - Count the number of entries:
 
-`xsv count {file something}`
+`xsv count {file value: sample.csv}`
 
 - Get an overview of the shape of entries:
 
-`xsv stats {file something} | xsv table`
+`xsv stats {file value: sample.csv} | xsv table`
 
 - Select a few columns:
 
-`xsv select {any something} {file something}`
+`xsv select {string value: column_a,column_b} {file value: sample.csv}`
 
 - Show 10 random entries:
 
-`xsv sample {int number: 10} {file something}`
+`xsv sample {int value: 10} {file value: sample.csv}`
 
 - Join a column from one file to another:
 
-`xsv join --no-case {any something} {any something} {any something} {any something} | xsv table`
+`xsv join --no-case {string value: column_a} {string value: path/to/file/a.csv} {string value: column_b} {string value: path/to/file/b.csv} | xsv table`

@@ -10,7 +10,7 @@
 
 - Open specific files:
 
-`krita {any something}`
+`krita {string value: path/to/image1 path/to/image2 ...}`
 
 - Start without a splash screen:
 
@@ -18,7 +18,7 @@
 
 - Start with a specific workspace:
 
-`krita --workspace {any something}`
+`krita --workspace {string value: Animation}`
 
 - Start in fullscreen mode:
 

@@ -9,20 +9,20 @@
 
 - Run a Chisel server listening to a specific port:
 
-`chisel server -p {any something}`
+`chisel server -p {string value: server_port}`
 
 - Run a chisel server that accepts authenticated connections using username and password:
 
-`chisel server --auth {string user}:{any something}`
+`chisel server --auth {string user}:{string value: password}`
 
 - Connect to a Chisel server and tunnel a specific port to a remote server and port:
 
-`chisel client {any something}:{any something} {any something}:{any something}:{any something}`
+`chisel client {string value: server_ip}:{string value: server_port} {string value: local_port}:{string value: remote_server}:{string value: remote_port}`
 
 - Connect to a Chisel server and tunnel a specific host and port to a remote server and port:
 
-`chisel client {any something}:{any something} {any something}:{any something}:{any something}:{any something}`
+`chisel client {string value: server_ip}:{string value: server_port} {string value: local_host}:{string value: local_port}:{string value: remote_server}:{string value: remote_port}`
 
 - Connect to a Chisel server using username and password authentication:
 
-`chisel client --auth {string user}:{any something} {any something}:{any something} {any something}:{any something}:{any something}`
+`chisel client --auth {string user}:{string value: password} {string value: server_ip}:{string value: server_port} {string value: local_port}:{string value: remote_server}:{string value: remote_port}`

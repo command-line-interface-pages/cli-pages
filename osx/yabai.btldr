@@ -5,11 +5,11 @@
 
 - Set the layout to bsp:
 
-`yabai -m config layout {any something}`
+`yabai -m config layout {string value: bsp}`
 
 - Set the window gap to 10pt:
 
-`yabai -m config window_gap {int number: 10}`
+`yabai -m config window_gap {int value: 10}`
 
 - Enable opacity:
 

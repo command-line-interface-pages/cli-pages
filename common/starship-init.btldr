@@ -9,12 +9,12 @@
 
 - Print the starship integration code for the specified shell:
 
-`starship init {any something}`
+`starship init {string value: bash|elvish|fish|ion|powershell|tcsh|zsh}`
 
 - Append the `starship` integration code to `~/.bashrc`:
 
-`starship init {any something} >> {any something}`
+`starship init {string value: bash} >> {string value: ~/.bashrc}`
 
 - Append the `starship` integration code to `~/.zshrc`:
 
-`starship init {any something} >> {any something}`
+`starship init {string value: zsh} >> {string value: ~/.zshrc}`

@@ -25,7 +25,7 @@
 
 - Specify a timeout in seconds to wait before shutting down:
 
-`shutdown /s /t {any something}`
+`shutdown /s /t {string value: seconds}`
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 
@@ -33,4 +33,4 @@
 
 - Shutdown a remote machine:
 
-`shutdown /m {any something}`
+`shutdown /m {string value: \\hostname}`

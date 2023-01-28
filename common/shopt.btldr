@@ -10,11 +10,11 @@
 
 - Set an option:
 
-`shopt -s {any something}`
+`shopt -s {string value: option_name}`
 
 - Unset an option:
 
-`shopt -u {any something}`
+`shopt -u {string value: option_name}`
 
 - Print a list of all options and their status formatted as runnable `shopt` commands:
 

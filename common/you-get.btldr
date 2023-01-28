@@ -5,20 +5,20 @@
 
 - Print media information about a specific media on the web:
 
-`you-get --info {any something}`
+`you-get --info {string value: https://example.com/video?id=value}`
 
 - Download a media from a specific URL:
 
-`you-get {any something}`
+`you-get {string value: https://example.com/video?id=value}`
 
 - Search on Google Videos and download:
 
-`you-get {any something}`
+`you-get {string value: keywords}`
 
 - Download a media to a specific location:
 
-`you-get --output-dir {directory something} --output-filename {any something} {any something}`
+`you-get --output-dir {directory value} --output-filename {file value} {string value: https://example.com/watch?v=value}`
 
 - Download a media using a proxy:
 
-`you-get --http-proxy {any something} {any something}`
+`you-get --http-proxy {string value: proxy_server} {string value: https://example.com/watch?v=value}`

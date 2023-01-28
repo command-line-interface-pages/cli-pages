@@ -5,8 +5,8 @@
 
 - Merge 2 PDFs into a single PDF:
 
-`pdfunite {any something} {any something} {any something}`
+`pdfunite {string value: path/to/fileA.pdf} {string value: path/to/fileB.pdf} {string value: path/to/merged_output.pdf}`
 
 - Merge a directory of PDFs into a single PDF:
 
-`pdfunite {any something} {any something}`
+`pdfunite {string value: path/to/directory/*.pdf} {string value: path/to/merged_output.pdf}`

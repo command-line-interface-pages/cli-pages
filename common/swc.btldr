@@ -5,24 +5,24 @@
 
 - Transpile a specified input file and output to stdout:
 
-`swc {file something}`
+`swc {file value}`
 
 - Transpile the input file every time it is changed:
 
-`swc {file something} --watch`
+`swc {file value} --watch`
 
 - Transpile a specified input file and output to a specific file:
 
-`swc {file something: input} --out-file {file something: output}`
+`swc {file value: input} --out-file {file value: output}`
 
 - Transpile a specified input directory and output to a specific directory:
 
-`swc {directory something: input} --out-dir {directory something: output}`
+`swc {directory value: input} --out-dir {directory value: output}`
 
 - Transpile a specified input directory using a specific configuration file:
 
-`swc {directory something: input} --config-file {any something}`
+`swc {directory value: input} --config-file {string value: path/to/.swcrc}`
 
 - Ignore files in a directory specified using glob path:
 
-`swc {directory something: input} --ignore {any something}`
+`swc {directory value: input} --ignore {file* value: ignored}`

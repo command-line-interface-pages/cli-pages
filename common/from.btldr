@@ -13,8 +13,8 @@
 
 - List mail in the specified mailbox directory:
 
-`MAIL={any something} from`
+`MAIL={string value: path/to/mailbox} from`
 
 - Print the mail from the specified address:
 
-`from --sender={any something}`
+`from --sender={string value: me@example.com}`

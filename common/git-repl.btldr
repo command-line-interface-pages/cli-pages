@@ -10,11 +10,11 @@
 
 - Run a Git command while in the interactive Git shell:
 
-`{any something} {any something}`
+`{string value: git_subcommand} {string value: command_arguments}`
 
 - Run an external (non-Git) command while in the interactive Git shell:
 
-`!{any something} {any something}`
+`!{string value: command} {string value: command_arguments}`
 
 - Exit the interactive Git shell (or press Ctrl + D):
 

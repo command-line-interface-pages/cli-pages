@@ -9,11 +9,11 @@
 
 - Commit all changes in `/etc`:
 
-`sudo etckeeper commit {any something}`
+`sudo etckeeper commit {string value: message}`
 
 - Run arbitrary Git commands:
 
-`sudo etckeeper vcs {any something}`
+`sudo etckeeper vcs {string value: status}`
 
 - Check if there are uncommitted changes (only returns an exit code):
 

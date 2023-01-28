@@ -5,15 +5,15 @@
 
 - Run a command as the superuser:
 
-`sudo {any something}`
+`sudo {string value: less /var/log/syslog}`
 
 - Edit a file as the superuser with your default editor:
 
-`sudo --edit {any something}`
+`sudo --edit {string value: /etc/fstab}`
 
 - Run a command as another user and/or group:
 
-`sudo --user={any something} --group={any something} {any something}`
+`sudo --user={string value: user} --group={string value: group} {string value: id -a}`
 
 - Repeat the last command prefixed with `sudo` (only in `bash`, `zsh`, etc.):
 
@@ -29,7 +29,7 @@
 
 - Launch the default shell as the specified user, loading the user's environment and reading login-specific files (`.profile`, `.bash_profile`, etc.):
 
-`sudo --login --user={any something}`
+`sudo --login --user={string value: user}`
 
 - List the allowed (and forbidden) commands for the invoking user:
 

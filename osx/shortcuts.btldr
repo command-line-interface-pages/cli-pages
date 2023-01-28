@@ -5,7 +5,7 @@
 
 - Run the specified shortcut (`Count holidays`):
 
-`shortcuts run "{any something}"`
+`shortcuts run "{string value: Count holidays}"`
 
 - Print all shortcuts:
 
@@ -17,4 +17,4 @@
 
 - Open the specified shortcut (`Count holidays`) in the Shortcuts editor:
 
-`shortcuts view "{any something}"`
+`shortcuts view "{string value: Count holidays}"`

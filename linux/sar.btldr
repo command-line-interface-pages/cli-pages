@@ -5,24 +5,24 @@
 
 - Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
 
-`sar -b {int number: 1}`
+`sar -b {int value: 1}`
 
 - Report a total of 10 network device statistics, one per 2 seconds:
 
-`sar -n DEV {int number: 2} {int number: 10}`
+`sar -n DEV {int value: 2} {int value: 10}`
 
 - Report CPU utilization, one per 2 seconds:
 
-`sar -u ALL {int number: 2}`
+`sar -u ALL {int value: 2}`
 
 - Report a total of 20 memory utilization statistics, one per second:
 
-`sar -r ALL {int number: 1} {int number: 20}`
+`sar -r ALL {int value: 1} {int value: 20}`
 
 - Report the run queue length and load averages, one per second:
 
-`sar -q {int number: 1}`
+`sar -q {int value: 1}`
 
 - Report paging statistics, one per 5 seconds:
 
-`sar -B {int number: 5}`
+`sar -B {int value: 5}`

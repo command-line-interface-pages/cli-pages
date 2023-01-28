@@ -9,27 +9,27 @@
 
 - Send changes from a specific local branch to its remote counterpart:
 
-`git push {any something} {any something}`
+`git push {string value: remote_name} {string value: local_branch}`
 
 - Send changes from a specific local branch to its remote counterpart, and set the remote one as the default push/pull target of the local one:
 
-`git push -u {any something} {any something}`
+`git push -u {string value: remote_name} {string value: local_branch}`
 
 - Send changes from a specific local branch to a specific remote branch:
 
-`git push {any something} {any something}:{any something}`
+`git push {string value: remote_name} {string value: local_branch}:{string value: remote_branch}`
 
 - Send changes on all local branches to their counterparts in a given remote repository:
 
-`git push --all {any something}`
+`git push --all {string value: remote_name}`
 
 - Delete a branch in a remote repository:
 
-`git push {any something} --delete {any something}`
+`git push {string value: remote_name} --delete {string value: remote_branch}`
 
 - Remove remote branches that don't have a local counterpart:
 
-`git push --prune {any something}`
+`git push --prune {string value: remote_name}`
 
 - Publish tags that aren't yet in the remote repository:
 

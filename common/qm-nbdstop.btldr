@@ -5,4 +5,4 @@
 
 - Stop embedded nbd server:
 
-`qm nbdstop {any something}`
+`qm nbdstop {string value: VM_ID}`

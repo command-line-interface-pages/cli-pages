@@ -13,11 +13,11 @@
 
 - Open a specific project file:
 
-`burpsuite --project-file={file something}`
+`burpsuite --project-file={file value}`
 
 - Load a specific configuration file:
 
-`burpsuite --config-file={file something}`
+`burpsuite --config-file={file value}`
 
 - Start without extensions:
 

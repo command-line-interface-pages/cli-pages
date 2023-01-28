@@ -9,7 +9,7 @@
 
 - Print information about an object with a specific ID:
 
-`pw-cli info {int number: 4}`
+`pw-cli info {int value: 4}`
 
 - Print all objects' information:
 

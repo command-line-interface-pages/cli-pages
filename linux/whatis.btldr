@@ -5,20 +5,20 @@
 
 - Display a description from a man page:
 
-`whatis {any something}`
+`whatis {string value: command}`
 
 - Don't cut the description off at the end of the line:
 
-`whatis --long {any something}`
+`whatis --long {string value: command}`
 
 - Display descriptions for all commands matching a glob:
 
-`whatis --wildcard {any something}`
+`whatis --wildcard {string value: net*}`
 
 - Search man page descriptions with a regular expression:
 
-`whatis --regex '{any something}'`
+`whatis --regex '{string value: wish[0-9]\.[0-9]}'`
 
 - Display descriptions of a specific language (requires `manpage-{{locale}}` package):
 
-`whatis --locale={any something} {any something}`
+`whatis --locale={string value: en} {string value: command}`

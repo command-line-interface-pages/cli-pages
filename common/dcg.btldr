@@ -9,8 +9,8 @@
 
 - Directly specify the kind of code to generate:
 
-`dcg {any something}`
+`dcg {string value: service|plugin|theme|module|form}`
 
 - Generate the code in a specific directory:
 
-`dcg --directory {directory something}`
+`dcg --directory {directory value}`

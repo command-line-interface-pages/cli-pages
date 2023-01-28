@@ -5,11 +5,11 @@
 
 - Execute a code snippet:
 
-`ngs -e "{any something}"`
+`ngs -e "{string value: echo('ngs is executed')}"`
 
 - Execute a script:
 
-`ngs {any something}`
+`ngs {string value: path/to/script.ngs}`
 
 - Print the version:
 

@@ -9,4 +9,4 @@
 
 - Start a preset installer:
 
-`archinstall {any something}`
+`archinstall {string value: minimal|unattended}`

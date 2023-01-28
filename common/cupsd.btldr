@@ -17,19 +17,19 @@
 
 - Start `cupsd` using the specified [`c`]`upsd.conf` configuration file:
 
-`cupsd -c {any something}`
+`cupsd -c {string value: path/to/cupsd.conf}`
 
 - Start `cupsd` using the specified `cups-file`[`s`]`.conf` configuration file:
 
-`cupsd -s {any something}`
+`cupsd -s {string value: path/to/cups-files.conf}`
 
 - [t]est the [`c`]`upsd.conf` configuration file for errors:
 
-`cupsd -t -c {any something}`
+`cupsd -t -c {string value: path/to/cupsd.conf}`
 
 - [t]est the `cups-file`[`s`]`.conf` configuration file for errors:
 
-`cupsd -t -s {any something}`
+`cupsd -t -s {string value: path/to/cups-files.conf}`
 
 - Display all available options:
 

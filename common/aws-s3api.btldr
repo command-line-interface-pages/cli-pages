@@ -5,11 +5,11 @@
 
 - Create bucket in a specific region:
 
-`aws s3api create-bucket --bucket {any something} --region {any something} --create-bucket-configuration LocationConstraint={any something}`
+`aws s3api create-bucket --bucket {string value: bucket_name} --region {string value: region} --create-bucket-configuration LocationConstraint={string value: region}`
 
 - Delete a bucket:
 
-`aws s3api delete-bucket --bucket {any something}`
+`aws s3api delete-bucket --bucket {string value: bucket_name}`
 
 - List buckets:
 
@@ -17,20 +17,20 @@
 
 - List the objects inside of a bucket and only show each object's key and size:
 
-`aws s3api list-objects --bucket {any something} --query '{{Contents[].{Key: Key, Size: Size}}}'`
+`aws s3api list-objects --bucket {string value: bucket_name} --query '{{Contents[].{Key: Key, Size: Size}}}'`
 
 - Add an object to a bucket:
 
-`aws s3api put-object --bucket {any something} --key {any something} --body {file something}`
+`aws s3api put-object --bucket {string value: bucket_name} --key {string value: object_key} --body {file value}`
 
 - Download object from a bucket (The output file is always the last argument):
 
-`aws s3api get-object --bucket {any something} --key {any something} {file something: output}`
+`aws s3api get-object --bucket {string value: bucket_name} --key {string value: object_key} {file value: output}`
 
 - Apply an Amazon S3 bucket policy to a specified bucket:
 
-`aws s3api put-bucket-policy --bucket {any something} --policy file://{any something}`
+`aws s3api put-bucket-policy --bucket {string value: bucket_name} --policy file://{string value: path/to/bucket_policy.json}`
 
 - Download the Amazon S3 bucket policy from a specified bucket:
 
-`aws s3api get-bucket-policy --bucket {any something} --query Policy --output {any something} > {any something}`
+`aws s3api get-bucket-policy --bucket {string value: bucket_name} --query Policy --output {string value: json|table|text|yaml|yaml-stream} > {string value: path/to/bucket_policy}`

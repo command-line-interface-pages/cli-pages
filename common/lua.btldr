@@ -9,8 +9,8 @@
 
 - Execute a Lua script:
 
-`lua {any something} {any something}`
+`lua {string value: script_name.lua} {string value: --optional-argument}`
 
 - Execute a Lua expression:
 
-`lua -e '{any something}'`
+`lua -e '{string value: print( "Hello World" )}'`

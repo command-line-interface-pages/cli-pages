@@ -5,7 +5,7 @@
 
 - Format a single file:
 
-`uncrustify -f {file something} -o {any something}`
+`uncrustify -f {file value: sample.cpp} -o {string value: path/to/output.cpp}`
 
 - Read filenames from stdin, and take backups before writing output back to the original filepaths:
 
@@ -17,12 +17,12 @@
 
 - Use a custom configuration file and write the result to stdout:
 
-`uncrustify -c {any something} -f {file something}`
+`uncrustify -c {string value: path/to/uncrustify.cfg} -f {file value: sample.cpp}`
 
 - Explicitly set a configuration variable's value:
 
-`uncrustify --set {any something}={any something}`
+`uncrustify --set {string value: option}={string value: value}`
 
 - Generate a new configuration file:
 
-`uncrustify --update-config -o {any something}`
+`uncrustify --update-config -o {string value: path/to/new.cfg}`

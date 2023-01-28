@@ -9,11 +9,11 @@
 
 - Start an application with a specified Procfile:
 
-`foreman start -f {any something}`
+`foreman start -f {string value: Procfile}`
 
 - Start a specific application:
 
-`foreman start {any something}`
+`foreman start {string value: process}`
 
 - Validate Procfile format:
 
@@ -21,8 +21,8 @@
 
 - Run one-off commands with the process's environment:
 
-`foreman run {any something}`
+`foreman run {string value: command}`
 
 - Start all processes except the one named "worker":
 
-`foreman start -m all=1,{any something}=0`
+`foreman start -m all=1,{string value: worker}=0`

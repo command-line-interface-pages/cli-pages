@@ -5,32 +5,32 @@
 
 - Bundle a JavaScript application and print to stdout:
 
-`esbuild --bundle {file something}`
+`esbuild --bundle {file value: sample.js}`
 
 - Bundle a JSX application from stdin:
 
-`esbuild --bundle --outfile={any something} < {file something}`
+`esbuild --bundle --outfile={string value: path/to/out.js} < {file value: sample.jsx}`
 
 - Bundle and minify a JSX application with source maps in `production` mode:
 
-`esbuild --bundle --define:{any something} --minify --sourcemap {file something}`
+`esbuild --bundle --define:{string value: process.env.NODE_ENV=\"production\"} --minify --sourcemap {file value: sample.js}`
 
 - Bundle a JSX application for a comma-separated list of browsers:
 
-`esbuild --bundle --minify --sourcemap --target={any something} {file something}`
+`esbuild --bundle --minify --sourcemap --target={string value: chrome58,firefox57,safari11,edge16} {file value: sample.jsx}`
 
 - Bundle a JavaScript application for a specific node version:
 
-`esbuild --bundle --platform={any something} --target={any something} {file something}`
+`esbuild --bundle --platform={string value: node} --target={string value: node12} {file value: sample.js}`
 
 - Bundle a JavaScript application enabling JSX syntax in `.js` files:
 
-`esbuild --bundle app.js --loader:{any something} {file something}`
+`esbuild --bundle app.js --loader:{string value: .js=jsx} {file value: sample.js}`
 
 - Bundle and serve a JavaScript application on an HTTP server:
 
-`esbuild --bundle --serve={any something} --outfile={any something} {file something}`
+`esbuild --bundle --serve={string value: port} --outfile={string value: index.js} {file value: sample.js}`
 
 - Bundle a list of files to an output directory:
 
-`esbuild --bundle --outdir={directory something: output} {any something}`
+`esbuild --bundle --outdir={directory value: output} {file* value}`

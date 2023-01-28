@@ -10,7 +10,7 @@
 
 - Display the current date and time with a .NET format specifier:
 
-`Get-Date -Format "{any something}"`
+`Get-Date -Format "{string value: yyyy-MM-dd HH:mm:ss}"`
 
 - Display the current date and time in UTC and ISO 8601 format:
 
@@ -18,4 +18,4 @@
 
 - Convert a Unix timestamp:
 
-`Get-Date -UnixTimeSeconds {int number: 1577836800}`
+`Get-Date -UnixTimeSeconds {int value: 1577836800}`

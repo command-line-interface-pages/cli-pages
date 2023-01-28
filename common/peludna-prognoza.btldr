@@ -9,12 +9,12 @@
 
 - Fetch data for a city:
 
-`peludna-prognoza "{any something}"`
+`peludna-prognoza "{string value: city}"`
 
 - Display data in a machine-readable format:
 
-`peludna-prognoza "{any something}" --{any something}`
+`peludna-prognoza "{string value: city}" --{string value: json|xml}`
 
 - Display the pollen measurement page for a city at <https://plivazdravlje.hr> in the default web browser:
 
-`peludna-prognoza "{any something}" --web`
+`peludna-prognoza "{string value: city}" --web`

@@ -5,28 +5,28 @@
 
 - Connect to an FTP server:
 
-`lftp {any something}`
+`lftp {string value: ftp.example.com}`
 
 - Download multiple files (glob expression):
 
-`mget {any something}`
+`mget {string value: path/to/*.png}`
 
 - Upload multiple files (glob expression):
 
-`mput {any something}`
+`mput {string value: path/to/*.zip}`
 
 - Delete multiple files on the remote server:
 
-`mrm {any something}`
+`mrm {string value: path/to/*.txt}`
 
 - Rename a file on the remote server:
 
-`mv {any something} {any something}`
+`mv {file value: original} {file value: new}`
 
 - Download or update an entire directory:
 
-`mirror {directory something: remote} {directory something: local_output}`
+`mirror {directory value: remote} {directory value: local_output}`
 
 - Upload or update an entire directory:
 
-`mirror -R {directory something: local} {directory something: remote_output}`
+`mirror -R {directory value: local} {directory value: remote_output}`

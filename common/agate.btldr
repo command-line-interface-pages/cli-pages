@@ -5,11 +5,11 @@
 
 - Run and generate a private key and certificate:
 
-`agate --content {any something} --addr {any something} --addr {any something} --hostname {any something} --lang {any something}`
+`agate --content {string value: path/to/content/} --addr {string value: [::]:1965} --addr {string value: 0.0.0.0:1965} --hostname {string value: example.com} --lang {string value: en-US}`
 
 - Run server:
 
-`agate {file something}`
+`agate {file value}`
 
 - Display help:
 

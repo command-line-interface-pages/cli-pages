@@ -6,23 +6,23 @@
 
 - Print the contents of a file to the stdout:
 
-`bat {file something}`
+`bat {file value}`
 
 - Concatenate several files into the target file:
 
-`bat {any something} {any something} > {file something: target}`
+`bat {string value: file1} {string value: file2} > {file value: target}`
 
 - Append several files into the target file:
 
-`bat {any something} {any something} >> {file something: target}`
+`bat {string value: file1} {string value: file2} >> {file value: target}`
 
 - Number all output lines:
 
-`bat --number {file something}`
+`bat --number {file value}`
 
 - Syntax highlight a JSON file:
 
-`bat --language json {file something}`
+`bat --language json {file value: sample.json}`
 
 - Display all supported languages:
 

@@ -9,16 +9,16 @@
 
 - List information about processes, if the commands which started them contain `zsh`:
 
-`procs {any something}`
+`procs {string value: zsh}`
 
 - List information about all processes sorted by CPU time in [a]scending or [d]escending order:
 
-`procs {any something} cpu`
+`procs {string value: --sorta|--sortd} cpu`
 
 - List information about processes with either a PID, command, or user containing `41` or `firefox`:
 
-`procs --or {any something} {int number: 41} {any something}`
+`procs --or {string value: PID|command|user} {int value: 41} {string value: firefox}`
 
 - List information about processes with both PID `41` and a command or user containing `zsh`:
 
-`procs --and {int number: 41} {any something}`
+`procs --and {int value: 41} {string value: zsh}`

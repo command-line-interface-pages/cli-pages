@@ -9,8 +9,8 @@
 
 - Get the [t]ype (blob, tree, commit, tag) of a given Git object:
 
-`git cat-file -t {any something}`
+`git cat-file -t {string value: 8c442dc3}`
 
 - Pretty-[p]rint the contents of a given Git object based on its type:
 
-`git cat-file -p {any something}`
+`git cat-file -p {string value: HEAD~2}`

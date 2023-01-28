@@ -6,28 +6,28 @@
 
 - Copy a local file to a remote host:
 
-`scp {file something: local} {any something}:{file something: remote}`
+`scp {file value: local} {string value: remote_host}:{file value: remote}`
 
 - Use a specific port when connecting to the remote host:
 
-`scp -P {any something} {file something: local} {any something}:{file something: remote}`
+`scp -P {string value: port} {file value: local} {string value: remote_host}:{file value: remote}`
 
 - Copy a file from a remote host to a local directory:
 
-`scp {any something}:{file something: remote} {directory something: local}`
+`scp {string value: remote_host}:{file value: remote} {directory value: local}`
 
 - Recursively copy the contents of a directory from a remote host to a local directory:
 
-`scp -r {any something}:{directory something: remote} {directory something: local}`
+`scp -r {string value: remote_host}:{directory value: remote} {directory value: local}`
 
 - Copy a file between two remote hosts transferring through the local host:
 
-`scp -3 {any something}:{file something: remote} {any something}:{directory something: remote}`
+`scp -3 {string value: host1}:{file value: remote} {string value: host2}:{directory value: remote}`
 
 - Use a specific username when connecting to the remote host:
 
-`scp {file something: local} {any something}@{any something}:{directory something: remote}`
+`scp {file value: local} {string value: remote_username}@{string value: remote_host}:{directory value: remote}`
 
 - Use a specific ssh private key for authentication with the remote host:
 
-`scp -i {any something} {file something: local} {any something}:{any something}`
+`scp -i {string value: ~/.ssh/private_key} {file value: local} {string value: remote_host}:{string value: /path/remote_file}`

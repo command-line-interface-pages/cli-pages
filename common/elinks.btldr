@@ -13,4 +13,4 @@
 
 - Dump output of webpage to console, colorizing the text with ANSI control codes:
 
-`elinks -dump -dump-color-mode {int number: 1} {string url}`
+`elinks -dump -dump-color-mode {int value: 1} {string url}`

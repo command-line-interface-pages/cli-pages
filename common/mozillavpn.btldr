@@ -21,7 +21,7 @@
 
 - Select a specific server:
 
-`mozillavpn select {any something}`
+`mozillavpn select {string value: server_name}`
 
 - Disconnect from Mozilla VPN:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`mozillavpn {any something} --help`
+`mozillavpn {string value: subcommand} --help`

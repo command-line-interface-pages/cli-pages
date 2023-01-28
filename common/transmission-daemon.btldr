@@ -10,12 +10,12 @@
 
 - Start and watch a specific directory for new torrents:
 
-`transmission-daemon --watch-dir {directory something}`
+`transmission-daemon --watch-dir {directory value}`
 
 - Dump daemon settings in JSON format:
 
-`transmission-daemon --dump-settings > {file something}`
+`transmission-daemon --dump-settings > {file value: sample.json}`
 
 - Start with specific settings for the web interface:
 
-`transmission-daemon --auth --username {string user} --password {any something} --port {int number: 9091} --allowed {any something}`
+`transmission-daemon --auth --username {string user} --password {string value: password} --port {int value: 9091} --allowed {string value: 127.0.0.1}`

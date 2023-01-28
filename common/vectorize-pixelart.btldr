@@ -5,4 +5,4 @@
 
 - Convert a PNG to a vector image format:
 
-`vectorize-pixelart {any something} {any something}`
+`vectorize-pixelart {string value: path/to/input.png} {string value: path/to/output.svg|.eps}`

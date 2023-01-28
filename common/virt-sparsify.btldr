@@ -6,8 +6,8 @@
 
 - Create a sparsified compressed image without snapshots from an unsparsified one:
 
-`virt-sparsify --compress {any something} {any something}`
+`virt-sparsify --compress {string value: path/to/image.qcow2} {string value: path/to/image_new.qcow2}`
 
 - Sparsify an image in-place:
 
-`virt-sparsify --in-place {any something}`
+`virt-sparsify --in-place {string value: path/to/image.img}`

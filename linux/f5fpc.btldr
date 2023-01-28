@@ -9,11 +9,11 @@
 
 - Open a new VPN connection to a specific host:
 
-`sudo f5fpc --start --host {any something}`
+`sudo f5fpc --start --host {string value: host.example.com}`
 
 - Specify a username (user will be prompted for a password):
 
-`sudo f5fpc --start --host {any something} --username {any something}`
+`sudo f5fpc --start --host {string value: host.example.com} --username {string value: user}`
 
 - Show the current VPN status:
 

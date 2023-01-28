@@ -13,15 +13,15 @@
 
 - Set the global Perl version (used unless a local or shell version takes priority):
 
-`plenv global {any something}`
+`plenv global {string value: version}`
 
 - Set the local application-specific Perl version (used in the current directory and all directories below it):
 
-`plenv local {any something}`
+`plenv local {string value: version}`
 
 - Set the shell-specific Perl version (used for the current session only):
 
-`plenv shell {any something}`
+`plenv shell {string value: version}`
 
 - Display help:
 
@@ -29,4 +29,4 @@
 
 - Display help for a command:
 
-`plenv help {any something}`
+`plenv help {string value: command}`

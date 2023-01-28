@@ -10,7 +10,7 @@
 
 - Print the status line to stdout periodically, using a specific configuration:
 
-`i3status -c {any something}`
+`i3status -c {string value: path/to/i3status.conf}`
 
 - Display the `i3status` version and help:
 

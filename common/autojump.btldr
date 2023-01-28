@@ -6,15 +6,15 @@
 
 - Jump to a directory that contains the given pattern:
 
-`j {any something}`
+`j {string value: pattern}`
 
 - Jump to a sub-directory (child) of the current directory that contains the given pattern:
 
-`jc {any something}`
+`jc {string value: pattern}`
 
 - Open a directory that contains the given pattern in the operating system file manager:
 
-`jo {any something}`
+`jo {string value: pattern}`
 
 - Remove non-existing directories from the autojump database:
 

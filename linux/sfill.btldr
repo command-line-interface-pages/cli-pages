@@ -5,20 +5,20 @@
 
 - Overwrite free space and inodes of a disk with 38 writes (slow but secure):
 
-`sfill {/directory something: mounted_disk}`
+`sfill {/directory value: mounted_disk}`
 
 - Overwrite free space and inodes of a disk with 6 writes (fast but less secure) and show status:
 
-`sfill -l -v {/directory something: mounted_disk}`
+`sfill -l -v {/directory value: mounted_disk}`
 
 - Overwrite free space and inodes of a disk with 1 write (very fast but insecure) and show status:
 
-`sfill -ll -v {/directory something: mounted_disk}`
+`sfill -ll -v {/directory value: mounted_disk}`
 
 - Overwrite only free space of a disk:
 
-`sfill -I {/directory something: mounted_disk}`
+`sfill -I {/directory value: mounted_disk}`
 
 - Overwrite only free inodes of a disk:
 
-`sfill -i {/directory something: mounted_disk}`
+`sfill -i {/directory value: mounted_disk}`

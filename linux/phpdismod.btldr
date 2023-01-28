@@ -5,8 +5,8 @@
 
 - Disable the JSON extension for every SAPI of every PHP version:
 
-`sudo phpdismod {any something}`
+`sudo phpdismod {string value: json}`
 
 - Disable the JSON extension for PHP 7.3 with the cli SAPI:
 
-`sudo phpdismod -v {float number: 7.3} -s {any something} {any something}`
+`sudo phpdismod -v {float value: 7.3} -s {string value: cli} {string value: json}`

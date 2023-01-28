@@ -6,12 +6,12 @@
 
 - Create and push a release:
 
-`git release {any something}`
+`git release {string value: tag_name}`
 
 - Create and push a signed release:
 
-`git release {any something} -s`
+`git release {string value: tag_name} -s`
 
 - Create and push a release with a message:
 
-`git release {{any something}} -m "{any something}"`
+`git release {{string value: tag_name}} -m "{string value: message}"`

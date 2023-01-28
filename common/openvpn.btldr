@@ -5,24 +5,24 @@
 
 - Connect to server using a config file:
 
-`sudo openvpn {any something}`
+`sudo openvpn {string value: path/to/client.conf}`
 
 - Try to set up an insecure peer-to-peer tunnel on bob.example.com host:
 
-`sudo openvpn --remote {any something} --dev {any something} --ifconfig {any something} {any something}`
+`sudo openvpn --remote {string value: alice.example.com} --dev {string value: tun1} --ifconfig {string value: 10.4.0.1} {string value: 10.4.0.2}`
 
 - Connect to the awaiting bob.example.com host without encryption:
 
-`sudo openvpn --remote {any something} --dev {any something} --ifconfig {any something} {any something}`
+`sudo openvpn --remote {string value: bob.example.com} --dev {string value: tun1} --ifconfig {string value: 10.4.0.2} {string value: 10.4.0.1}`
 
 - Create a cryptographic key and save it to file:
 
-`openvpn --genkey --secret {any something}`
+`openvpn --genkey --secret {string value: path/to/key}`
 
 - Try to set up a peer-to-peer tunnel on bob.example.com host with a static key:
 
-`sudo openvpn --remote {any something} --dev {any something} --ifconfig {any something} {any something} --secret {any something}`
+`sudo openvpn --remote {string value: alice.example.com} --dev {string value: tun1} --ifconfig {string value: 10.4.0.1} {string value: 10.4.0.2} --secret {string value: path/to/key}`
 
 - Connect to the awaiting bob.example.com host with the same static key as on bob.example.com:
 
-`sudo openvpn --remote {any something} --dev {any something} --ifconfig {any something} {any something} --secret {any something}`
+`sudo openvpn --remote {string value: bob.example.com} --dev {string value: tun1} --ifconfig {string value: 10.4.0.2} {string value: 10.4.0.1} --secret {string value: path/to/key}`

@@ -6,16 +6,16 @@
 
 - Create a local Kubernetes cluster:
 
-`kind create cluster --name {any something}`
+`kind create cluster --name {string value: cluster_name}`
 
 - Delete one or more clusters:
 
-`kind delete clusters {any something}`
+`kind delete clusters {string value: cluster_name}`
 
 - Get details about clusters, nodes, or the kubeconfig:
 
-`kind get {any something}`
+`kind get {string value: clusters|nodes|kubeconfig}`
 
 - Export the kubeconfig or the logs:
 
-`kind export {any something}`
+`kind export {string value: kubeconfig|logs}`

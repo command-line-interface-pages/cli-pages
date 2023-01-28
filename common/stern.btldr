@@ -9,20 +9,20 @@
 
 - Tail all pods with a specific status:
 
-`stern . --container-state {any something}`
+`stern . --container-state {string value: running|waiting|terminated}`
 
 - Tail all pods that matches a given regular expression:
 
-`stern {any something}`
+`stern {string value: pod_query}`
 
 - Tail matched pods from all namespaces:
 
-`stern {any something} --all-namespaces`
+`stern {string value: pod_query} --all-namespaces`
 
 - Tail matched pods from 15 minutes ago:
 
-`stern {any something} --since {any something}`
+`stern {string value: pod_query} --since {string value: 15m}`
 
 - Tail matched pods with a specific label:
 
-`stern {any something} --selector {any something}`
+`stern {string value: pod_query} --selector {string value: release=canary}`

@@ -10,4 +10,4 @@
 
 - Create a Git repository in a specific directory and commit all files:
 
-`git setup {directory something}`
+`git setup {directory value}`

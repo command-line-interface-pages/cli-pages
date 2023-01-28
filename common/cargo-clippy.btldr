@@ -17,7 +17,7 @@
 
 - Run checks for a package:
 
-`cargo clippy --package {any something}`
+`cargo clippy --package {string value: package}`
 
 - Treat warnings as errors:
 

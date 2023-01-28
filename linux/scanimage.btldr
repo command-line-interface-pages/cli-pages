@@ -9,4 +9,4 @@
 
 - Scan an image and save it to a file:
 
-`scanimage --format={any something} > {any something}`
+`scanimage --format={string value: pnm|tiff|png|jpeg} > {string value: path/to/new_image}`

@@ -9,12 +9,12 @@
 
 - Scan a specific namespace:
 
-`popeye -n {any something}`
+`popeye -n {string value: namespace}`
 
 - Scan specific Kubernetes context:
 
-`popeye --context={any something}`
+`popeye --context={string value: context}`
 
 - Use a spinach configuration file for scanning:
 
-`popeye -f {any something}`
+`popeye -f {string value: spinach.yaml}`

@@ -5,32 +5,32 @@
 
 - Extract the sound from a video and save it as MP3:
 
-`ffmpeg -i {any something} -vn {any something}.mp3`
+`ffmpeg -i {string value: video.mp4} -vn {string value: sound}.mp3`
 
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
-`ffmpeg -i {any something} -vf 'scale=-1:{int number: 1000}' -r {int number: 15} {any something}`
+`ffmpeg -i {string value: video.mp4} -vf 'scale=-1:{int value: 1000}' -r {int value: 15} {string value: output.gif}`
 
 - Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
 
-`ffmpeg -i {any something} -f image2 {any something}`
+`ffmpeg -i {string value: frame_%d.jpg} -f image2 {string value: video.mpg|video.gif}`
 
 - Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
 
-`ffmpeg -ss {any something} -i {any something} -frames 1 -s {any something} -f image2 {any something}`
+`ffmpeg -ss {string value: mm:ss} -i {string value: video.mp4} -frames 1 -s {string value: 128x128} -f image2 {string value: image.png}`
 
 - Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 
-`ffmpeg -ss {any something} -to {any something} -i {any something} -codec copy {any something}`
+`ffmpeg -ss {string value: mm:ss} -to {string value: mm2:ss2} -i {string value: video.mp4} -codec copy {string value: output.mp4}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
-`ffmpeg -i {any something}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {any something}.mp4`
+`ffmpeg -i {string value: input_video}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {string value: output_video}.mp4`
 
 - Remux MKV video to MP4 without re-encoding audio or video streams:
 
-`ffmpeg -i {any something}.mkv -codec copy {any something}.mp4`
+`ffmpeg -i {string value: input_video}.mkv -codec copy {string value: output_video}.mp4`
 
 - Convert MP4 video to VP9 codec. For the best quality, use a CRF value (recommended range 15-35) and -b:video MUST be 0:
 
-`ffmpeg -i {any something}.mp4 -codec:video libvpx-vp9 -crf {int number: 30} -b:video 0 -codec:audio libopus -vbr on -threads {any something} {any something}.webm`
+`ffmpeg -i {string value: input_video}.mp4 -codec:video libvpx-vp9 -crf {int value: 30} -b:video 0 -codec:audio libopus -vbr on -threads {string value: number_of_threads} {string value: output_video}.webm`

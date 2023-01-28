@@ -5,20 +5,20 @@
 
 - Create a new Gist from a space-separated list of files:
 
-`gh gist create {any something}`
+`gh gist create {string value: path/to/files}`
 
 - Create a new Gist with a description:
 
-`gh gist create {file something} --desc "{any something}"`
+`gh gist create {file value} --desc "{string value: description}"`
 
 - Edit a Gist:
 
-`gh gist edit {any something}`
+`gh gist edit {string value: id_or_url}`
 
 - List Gists owned by the currently logged in user:
 
-`gh gist list --limit {any something}`
+`gh gist list --limit {string value: int}`
 
 - View a Gist in the default browser without rendering Markdown:
 
-`gh gist view {any something} --web --raw`
+`gh gist view {string value: id_or_url} --web --raw`

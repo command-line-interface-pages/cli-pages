@@ -9,7 +9,7 @@
 
 - Compile and begin debugging a specific package:
 
-`dlv debug {any something} {any something}`
+`dlv debug {string value: package} {string value: arguments}`
 
 - Compile a test binary and begin debugging the compiled program:
 
@@ -17,12 +17,12 @@
 
 - Connect to a headless debug server:
 
-`dlv connect {any something}`
+`dlv connect {string value: ip_address}`
 
 - Attach to a running process and begin debugging:
 
-`div attach {any something}`
+`div attach {string value: pid}`
 
 - Compile and begin tracing a program:
 
-`dlv trace {any something} --regexp '{any something}'`
+`dlv trace {string value: package} --regexp '{string value: regular_expression}'`

@@ -5,4 +5,4 @@
 
 - Print current working directory of a process:
 
-`pwdx {any something}`
+`pwdx {string value: process_id}`

@@ -5,24 +5,24 @@
 
 - Find which processes are accessing a file or directory:
 
-`fuser {file something|path something}`
+`fuser {path value}`
 
 - Show more fields (`USER`, `PID`, `ACCESS` and `COMMAND`):
 
-`fuser --verbose {file something|path something}`
+`fuser --verbose {path value}`
 
 - Identify processes using a TCP socket:
 
-`fuser --namespace tcp {any something}`
+`fuser --namespace tcp {string value: port}`
 
 - Kill all processes accessing a file or directory (sends the `SIGKILL` signal):
 
-`fuser --kill {file something|path something}`
+`fuser --kill {path value}`
 
 - Find which processes are accessing the filesystem containing a specific file or directory:
 
-`fuser --mount {file something|path something}`
+`fuser --mount {path value}`
 
 - Kill all processes with a TCP connection on a specific port:
 
-`fuser --kill {any something}/tcp`
+`fuser --kill {string value: port}/tcp`

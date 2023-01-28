@@ -6,20 +6,20 @@
 
 - Start tracing a program by executing it, following all child processes:
 
-`truss -f {any something}`
+`truss -f {string value: program}`
 
 - Start tracing a specific process by its PID:
 
-`truss -p {any something}`
+`truss -p {string value: pid}`
 
 - Start tracing a program by executing it, showing arguments and environment variables:
 
-`truss -a -e {any something}`
+`truss -a -e {string value: program}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-`truss -c -p {any something}`
+`truss -c -p {string value: pid}`
 
 - Trace a process filtering output by system call:
 
-`truss -p {any something} -t {any something}`
+`truss -p {string value: pid} -t {string value: system_call_name}`

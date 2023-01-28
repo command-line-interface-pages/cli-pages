@@ -5,8 +5,8 @@
 
 - Optimize an SVG:
 
-`svgcleaner {any something} {any something}`
+`svgcleaner {string value: input.svg} {string value: output.svg}`
 
 - Optimize an SVG multiple times:
 
-`svgcleaner --multipass {any something} {any something}`
+`svgcleaner --multipass {string value: input.svg} {string value: output.svg}`

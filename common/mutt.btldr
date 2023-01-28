@@ -5,20 +5,20 @@
 
 - Open the specified mailbox:
 
-`mutt -f {any something}`
+`mutt -f {string value: mailbox}`
 
 - Send an email and specify a subject and a cc recipient:
 
-`mutt -s {any something} -c {any something} {any something}`
+`mutt -s {string value: subject} -c {string value: cc@example.com} {string value: recipient@example.com}`
 
 - Send an email with files attached:
 
-`mutt -a {any something} {any something} -- {any something}`
+`mutt -a {string value: file1} {string value: file2} -- {string value: recipient@example.com}`
 
 - Specify a file to include as the message body:
 
-`mutt -i {file something} {any something}`
+`mutt -i {file value} {string value: recipient@example.com}`
 
 - Specify a draft file containing the header and the body of the message, in RFC 5322 format:
 
-`mutt -H {file something} {any something}`
+`mutt -H {file value} {string value: recipient@example.com}`

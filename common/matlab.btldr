@@ -9,8 +9,8 @@
 
 - Execute a MATLAB statement:
 
-`matlab -r "{any something}"`
+`matlab -r "{string value: matlab_statement}"`
 
 - Run a MATLAB script:
 
-`matlab -r "run({any something})"`
+`matlab -r "run({string value: path/to/script.m})"`

@@ -7,4 +7,4 @@
 
 - Freeze 1 or more specified stages:
 
-`dvc freeze {any something} [{any something} ...]`
+`dvc freeze {string value: stage_name_a} [{string value: stage_name_b} ...]`

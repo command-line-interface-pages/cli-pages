@@ -5,7 +5,7 @@
 
 - Transform an XML document using an XSL stylesheet, passing one XPATH parameter and one literal string parameter:
 
-`xml transform {any something} -p "{any something}" -s {any something} {any something}`
+`xml transform {string value: path/to/stylesheet.xsl} -p "{string value: Count='count(/xml/table/rec)'}" -s {string value: Text="Count="} {string value: path/to/input.xml|URI}`
 
 - Display help for the `transform` subcommand:
 

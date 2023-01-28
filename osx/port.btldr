@@ -5,11 +5,11 @@
 
 - Search for a package:
 
-`port search {any something}`
+`port search {string value: search_term}`
 
 - Install a package:
 
-`sudo port install {any something}`
+`sudo port install {string value: package_name}`
 
 - List installed packages:
 

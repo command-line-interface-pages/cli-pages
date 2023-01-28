@@ -5,11 +5,11 @@
 
 - Load a new kernel:
 
-`kexec -l {any something} --initrd={any something} --command-line={any something}`
+`kexec -l {string value: path/to/kernel} --initrd={string value: path/to/initrd} --command-line={string value: arguments}`
 
 - Load a new kernel with current boot parameters:
 
-`kexec -l {any something} --initrd={any something} --reuse-cmdline`
+`kexec -l {string value: path/to/kernel} --initrd={string value: path/to/initrd} --reuse-cmdline`
 
 - Execute a currently loaded kernel:
 

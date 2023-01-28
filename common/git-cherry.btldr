@@ -9,8 +9,8 @@
 
 - Specify a different upstream and topic branch:
 
-`git cherry {any something} {any something}`
+`git cherry {string value: origin} {string value: topic}`
 
 - Limit commits to those within a given limit:
 
-`git cherry {any something} {any something} {any something}`
+`git cherry {string value: origin} {string value: topic} {string value: base}`

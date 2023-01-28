@@ -13,7 +13,7 @@
 
 - Generate a new Eloquent model class with a migration, factory and resource controller:
 
-`php artisan make:model {any something} --all`
+`php artisan make:model {string value: ModelName} --all`
 
 - Display a list of all available commands:
 

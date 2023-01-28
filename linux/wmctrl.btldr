@@ -9,20 +9,20 @@
 
 - Switch to the first window whose (partial) title matches:
 
-`wmctrl -a {any something}`
+`wmctrl -a {string value: window_title}`
 
 - Move a window to the current workspace, raise it and give it focus:
 
-`wmctrl -R {any something}`
+`wmctrl -R {string value: window_title}`
 
 - Switch to a workspace:
 
-`wmctrl -s {any something}`
+`wmctrl -s {string value: workspace_number}`
 
 - Select a window and toggle fullscreen:
 
-`wmctrl -r {any something} -b toggle,fullscreen`
+`wmctrl -r {string value: window_title} -b toggle,fullscreen`
 
 - Select a window a move it to a workspace:
 
-`wmctrl -r {any something} -t {any something}`
+`wmctrl -r {string value: window_title} -t {string value: workspace_number}`

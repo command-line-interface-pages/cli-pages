@@ -17,20 +17,20 @@
 
 - Print information about specific containers:
 
-`crictl inspect {any something}`
+`crictl inspect {string value: container_id1 container_id2 ...}`
 
 - Open a specific shell inside a running container:
 
-`crictl exec -it {any something} {any something}`
+`crictl exec -it {string value: container_id} {string value: sh}`
 
 - Pull a specific image from a registry:
 
-`crictl pull {any something}`
+`crictl pull {string value: image:tag}`
 
 - Print and [f]ollow logs of a specific container:
 
-`crictl logs -f {any something}`
+`crictl logs -f {string value: container_id}`
 
 - Remove one or more images:
 
-`crictl rmi {any something}`
+`crictl rmi {string value: image_id1 image_id2 ...}`

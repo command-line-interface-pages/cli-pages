@@ -9,7 +9,7 @@
 
 - Exclude test task:
 
-`gradle build -x {any something}`
+`gradle build -x {string value: test}`
 
 - Run in offline mode to prevent Gradle from accessing the network during builds:
 

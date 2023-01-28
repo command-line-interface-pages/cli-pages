@@ -5,11 +5,11 @@
 
 - Write the current directory's listing to an XML document:
 
-`xml list > {any something}`
+`xml list > {string value: path/to/dir_list.xml}`
 
 - Write the specified directory's listing to an XML document:
 
-`xml list {directory something} > {any something}`
+`xml list {directory value} > {string value: path/to/dir_list.xml}`
 
 - Display help for the `list` subcommand:
 

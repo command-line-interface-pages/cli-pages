@@ -5,24 +5,24 @@
 
 - Convert a Shapefile into a GeoPackage:
 
-`ogr2ogr -f GPKG {any something}.gpkg {any something}.shp`
+`ogr2ogr -f GPKG {string value: path/to/output}.gpkg {string value: path/to/input}.shp`
 
 - Reduce a GeoJSON to features matching a condition:
 
-`ogr2ogr -where '{any something}' -f {any something} {any something} {any something}`
+`ogr2ogr -where '{string value: myProperty > 42}' -f {string value: GeoJSON} {string value: path/to/output.geojson} {string value: path/to/input.geojson}`
 
 - Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`:
 
-`ogr2ogr -s_srs {any something} -t_srs {any something} -f GPKG {any something}.gpkg {any something}.gpkg`
+`ogr2ogr -s_srs {string value: EPSG:4326} -t_srs {string value: EPSG:3857} -f GPKG {string value: path/to/output}.gpkg {string value: path/to/input}.gpkg`
 
 - Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system:
 
-`ogr2ogr -f GPKG {any something}.gpkg {any something}.csv -oo X_POSSIBLE_NAMES={any something} -oo Y_POSSIBLE_NAMES={any something} -a_srs {any something}`
+`ogr2ogr -f GPKG {string value: path/to/output}.gpkg {string value: path/to/input}.csv -oo X_POSSIBLE_NAMES={string value: longitude} -oo Y_POSSIBLE_NAMES={string value: latitude} -a_srs {string value: EPSG:4326}`
 
 - Load a GeoPackage into a PostGIS database:
 
-`ogr2ogr -f PostgreSQL PG:dbname="{any something}" {any something}.gpkg`
+`ogr2ogr -f PostgreSQL PG:dbname="{string value: database_name}" {string value: path/to/input}.gpkg`
 
 - Clip layers of a GeoPackage file to the given bounding box:
 
-`ogr2ogr -spat {any something} {any something} {any something} {any something} -f GPKG {any something}.gpkg {any something}.gpkg`
+`ogr2ogr -spat {string value: min_x} {string value: min_y} {string value: max_x} {string value: max_y} -f GPKG {string value: path/to/output}.gpkg {string value: path/to/input}.gpkg`

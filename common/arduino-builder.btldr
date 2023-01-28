@@ -6,19 +6,19 @@
 
 - Compile a sketch:
 
-`arduino-builder -compile {any something}`
+`arduino-builder -compile {string value: path/to/sketch.ino}`
 
 - Specify the debug level (default: 5):
 
-`arduino-builder -debug-level {int number: 1..10}`
+`arduino-builder -debug-level {int range: 1..10}`
 
 - Specify a custom build directory:
 
-`arduino-builder -build-path {directory something: build}`
+`arduino-builder -build-path {directory value: build}`
 
 - Use a build option file, instead of specifying `--hardware`, `--tools`, etc. manually every time:
 
-`arduino-builder -build-options-file {any something}`
+`arduino-builder -build-options-file {string value: path/to/build.options.json}`
 
 - Enable verbose mode:
 

@@ -5,7 +5,7 @@
 
 - Start a new stopwatch, giving a tag name to the activity being tracked:
 
-`timew start {any something}`
+`timew start {string value: activity_tag}`
 
 - View running stopwatches:
 
@@ -13,7 +13,7 @@
 
 - Stop the stopwatch with a given tag name:
 
-`timew stop {any something}`
+`timew stop {string value: activity_tag}`
 
 - Stop all running stopwatches:
 

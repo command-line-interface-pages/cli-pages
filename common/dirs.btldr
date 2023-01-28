@@ -14,7 +14,7 @@
 
 - Display only the nth entry in the directory stack, starting at 0:
 
-`dirs +{any something}`
+`dirs +{string value: N}`
 
 - Clear the directory stack:
 

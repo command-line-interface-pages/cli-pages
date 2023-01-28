@@ -5,16 +5,16 @@
 
 - Decompress a specific file:
 
-`ouch decompress {any something}`
+`ouch decompress {string value: path/to/archive.tar.xz}`
 
 - Decompress a file to a specific location:
 
-`ouch decompress {any something} --dir {directory something}`
+`ouch decompress {string value: path/to/archive.tar.xz} --dir {directory value}`
 
 - Decompress multiple files:
 
-`ouch decompress {any something}`
+`ouch decompress {string value: path/to/archive1.tar path/to/archive2.tar.gz ...}`
 
 - Compress files:
 
-`ouch compress {any something} {any something}`
+`ouch compress {file* value} {string value: path/to/archive.zip}`

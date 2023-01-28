@@ -6,23 +6,23 @@
 
 - Enqueue multiple stashed tasks at once:
 
-`pueue enqueue {any something} {any something}`
+`pueue enqueue {string value: task_id} {string value: task_id}`
 
 - Enqueue a stashed task after 60 seconds:
 
-`pueue enqueue --delay {int number: 60} {any something}`
+`pueue enqueue --delay {int value: 60} {string value: task_id}`
 
 - Enqueue a stashed task next Wednesday:
 
-`pueue enqueue --delay {any something} {any something}`
+`pueue enqueue --delay {string value: wednesday} {string value: task_id}`
 
 - Enqueue a stashed task after four months:
 
-`pueue enqueue --delay "4 months" {any something}`
+`pueue enqueue --delay "4 months" {string value: task_id}`
 
 - Enqueue a stashed task on 2021-02-19:
 
-`pueue enqueue --delay {any something} {any something}`
+`pueue enqueue --delay {string value: 2021-02-19} {string value: task_id}`
 
 - List all available date/time formats:
 

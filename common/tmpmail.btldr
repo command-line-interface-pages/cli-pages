@@ -17,7 +17,7 @@
 
 - Open a specific message:
 
-`tmpmail {any something}`
+`tmpmail {string value: email_id}`
 
 - View email as raw text without HTML tags:
 
@@ -25,4 +25,4 @@
 
 - Open email with a specific browser (default is w3m):
 
-`tmpmail --browser {any something}`
+`tmpmail --browser {string value: browser}`

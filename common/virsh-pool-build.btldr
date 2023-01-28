@@ -6,4 +6,4 @@
 
 - Build the storage pool specified by name or UUID (determine using `virsh pool-list`):
 
-`virsh pool-build --pool {any something}`
+`virsh pool-build --pool {string value: name|uuid}`

@@ -6,8 +6,8 @@
 
 - Remove job number 10:
 
-`atrm {int number: 10}`
+`atrm {int value: 10}`
 
 - Remove many jobs, separated by spaces:
 
-`atrm {int number: 15} {int number: 17} {int number: 22}`
+`atrm {int value: 15} {int value: 17} {int value: 22}`

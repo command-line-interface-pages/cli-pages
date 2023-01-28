@@ -17,20 +17,20 @@
 
 - Scan a WordPress website, checking for vulnerable plugins and specifying the path to the `wp-content` directory:
 
-`wpscan --url {string url} --enumerate {any something} --wp-content-dir {any something}`
+`wpscan --url {string url} --enumerate {string value: vp} --wp-content-dir {string value: remote/path/to/wp-content}`
 
 - Scan a WordPress website through a proxy:
 
-`wpscan --url {string url} --proxy {any something} --proxy-auth {any something}`
+`wpscan --url {string url} --proxy {string value: protocol://ip:port} --proxy-auth {string value: username:password}`
 
 - Perform user identifiers enumeration on a WordPress website:
 
-`wpscan --url {string url} --enumerate {any something}`
+`wpscan --url {string url} --enumerate {string value: u}`
 
 - Execute a password guessing attack on a WordPress website:
 
-`wpscan --url {string url} --usernames {any something} --passwords {any something} threads {int number: 20}`
+`wpscan --url {string url} --usernames {string value: username|path/to/usernames.txt} --passwords {string value: path/to/passwords.txt} threads {int value: 20}`
 
 - Scan a WordPress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/):
 
-`wpscan --url {string url} --api-token {any something}`
+`wpscan --url {string url} --api-token {string value: token}`

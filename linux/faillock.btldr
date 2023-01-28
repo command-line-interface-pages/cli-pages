@@ -9,8 +9,8 @@
 
 - List login failures of the specified user:
 
-`sudo faillock --user {any something}`
+`sudo faillock --user {string value: user}`
 
 - Reset the failure records of the specified user:
 
-`sudo faillock --user {any something} --reset`
+`sudo faillock --user {string value: user} --reset`

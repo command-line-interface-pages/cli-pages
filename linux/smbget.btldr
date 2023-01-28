@@ -5,16 +5,16 @@
 
 - Download a file from a server:
 
-`smbget {any something}`
+`smbget {string value: smb://server/share/file}`
 
 - Download a share or directory recursively:
 
-`smbget --recursive {any something}`
+`smbget --recursive {string value: smb://server/share}`
 
 - Connect with a username and password:
 
-`smbget {any something} --user {any something}`
+`smbget {string value: smb://server/share/file} --user {string value: username%password}`
 
 - Require encrypted transfers:
 
-`smbget {any something} --encrypt`
+`smbget {string value: smb://server/share/file} --encrypt`

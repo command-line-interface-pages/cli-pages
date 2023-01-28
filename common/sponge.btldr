@@ -5,8 +5,8 @@
 
 - Append file content to the source file:
 
-`cat {file something} | sponge -a {file something}`
+`cat {file value} | sponge -a {file value}`
 
 - Remove all lines starting with # in a file:
 
-`grep -v '^{any something}' {file something} | sponge {file something}`
+`grep -v '^{string value: #}' {file value} | sponge {file value}`

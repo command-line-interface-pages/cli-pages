@@ -21,11 +21,11 @@
 
 - Add a new entity to a generated project:
 
-`jhipster entity {any something}`
+`jhipster entity {string value: entity_name}`
 
 - Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/):
 
-`jhipster import-jdl {file something: first_file.jh second_file.jh ... n}`
+`jhipster import-jdl {file value: first_file.jh second_file.jh ... n.jh}`
 
 - Generate a CI/CD pipeline for your application:
 

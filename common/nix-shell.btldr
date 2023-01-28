@@ -9,20 +9,20 @@
 
 - Run shell command in non-interactive shell and exit:
 
-`nix-shell --run "{any something} {any something}"`
+`nix-shell --run "{string value: command} {string value: arg1 arg2 ...}"`
 
 - Start with expression in `default.nix` in the current directory:
 
-`nix-shell {any something}`
+`nix-shell {string value: default.nix}`
 
 - Start with packages loaded from nixpkgs:
 
-`nix-shell --packages {any something}`
+`nix-shell --packages {string value: package_name_1 package_name_2 ...}`
 
 - Start with packages loaded from specific nixpkgs revision:
 
-`nix-shell --packages {any something} -I nixpkgs={any something}`
+`nix-shell --packages {string value: package_name_1 package_name_2 ...} -I nixpkgs={string value: https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}`
 
 - Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
 
-`nix-shell -i {any something} --packages {any something}`
+`nix-shell -i {string value: interpreter} --packages {string value: package_name_1 package_name_2 ...}`

@@ -17,7 +17,7 @@
 
 - Use a specific editor to view and merge configuration files (default is `vim -d`):
 
-`DIFFPROG={any something} pacdiff`
+`DIFFPROG={string value: editor} pacdiff`
 
 - Scan for configuration files with `locate` instead of using pacman database:
 

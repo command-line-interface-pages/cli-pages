@@ -5,24 +5,24 @@
 
 - Start tracing a specific process by its PID:
 
-`strace -p {any something}`
+`strace -p {string value: pid}`
 
 - Trace a process and filter output by system call:
 
-`strace -p {any something} -e {any something}`
+`strace -p {string value: pid} -e {string value: system_call_name}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-`strace -p {any something} -c`
+`strace -p {string value: pid} -c`
 
 - Show the time spent in every system call:
 
-`strace -p {any something} -T`
+`strace -p {string value: pid} -T`
 
 - Start tracing a program by executing it:
 
-`strace {any something}`
+`strace {string value: program}`
 
 - Start tracing file operations of a program:
 
-`strace -e trace=file {any something}`
+`strace -e trace=file {string value: program}`

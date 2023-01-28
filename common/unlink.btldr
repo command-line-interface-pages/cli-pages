@@ -6,4 +6,4 @@
 
 - Remove the specified file if it is the last link:
 
-`unlink {file something}`
+`unlink {file value}`

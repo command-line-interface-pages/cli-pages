@@ -9,4 +9,4 @@
 
 - Display reports every 2 seconds for 5 times:
 
-`vmstat {int number: 2} {int number: 5}`
+`vmstat {int value: 2} {int value: 5}`

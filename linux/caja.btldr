@@ -9,15 +9,15 @@
 
 - Open specific directories in separate windows:
 
-`caja {directory* something}`
+`caja {directory* value}`
 
 - Open specific directories in tabs:
 
-`caja --tabs {directory* something}`
+`caja --tabs {directory* value}`
 
 - Open a directory with a specific window size:
 
-`caja --geometry={int number: 600}x{int number: 400} {directory something}`
+`caja --geometry={int value: 600}x{int value: 400} {directory value}`
 
 - Close all windows:
 

@@ -5,20 +5,20 @@
 
 - Sign 'unsigned.layout' with two keys and write it to 'root.layout':
 
-`in-toto-sign -f {any something} -k {any something} {any something} -o {any something}`
+`in-toto-sign -f {string value: unsigned.layout} -k {string value: priv_key1} {string value: priv_key2} -o {string value: root.layout}`
 
 - Replace signature in link file and write to default filename:
 
-`in-toto-sign -f {any something} -k {any something}`
+`in-toto-sign -f {string value: package.2f89b927.link} -k {string value: priv_key}`
 
 - Verify a layout signed with 3 keys:
 
-`in-toto-sign -f {any something} -k {any something} {any something} {any something} --verify`
+`in-toto-sign -f {string value: root.layout} -k {string value: pub_key0} {string value: pub_key1} {string value: pub_key2} --verify`
 
 - Sign a layout with the default GPG key in default GPG keyring:
 
-`in-toto-sign -f {any something} --gpg`
+`in-toto-sign -f {string value: root.layout} --gpg`
 
 - Verify a layout with a GPG key identified by keyid '...439F3C2':
 
-`in-toto-sign -f {any something} --verify --gpg {any something}`
+`in-toto-sign -f {string value: root.layout} --verify --gpg {string value: ...439F3C2}`

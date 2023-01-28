@@ -5,28 +5,28 @@
 
 - Scan a domain and save the results to a SQLite database:
 
-`dnsrecon --domain {any something} --db {any something}`
+`dnsrecon --domain {string value: example.com} --db {string value: path/to/database.sqlite}`
 
 - Scan a domain, specifying the nameserver and performing a zone transfer:
 
-`dnsrecon --domain {any something} --name_server {any something} --type axfr`
+`dnsrecon --domain {string value: example.com} --name_server {string value: nameserver.example.com} --type axfr`
 
 - Scan a domain, using a brute-force attack and a dictionary of subdomains and hostnames:
 
-`dnsrecon --domain {any something} --dictionary {any something} --type brt`
+`dnsrecon --domain {string value: example.com} --dictionary {string value: path/to/dictionary.txt} --type brt`
 
 - Scan a domain, performing a reverse lookup of IP ranges from the SPF record and saving the results to a JSON file:
 
-`dnsrecon --domain {any something} -s --json`
+`dnsrecon --domain {string value: example.com} -s --json`
 
 - Scan a domain, performing a Google enumeration and saving the results to a CSV file:
 
-`dnsrecon --domain {any something} -g --csv`
+`dnsrecon --domain {string value: example.com} -g --csv`
 
 - Scan a domain, performing DNS cache snooping:
 
-`dnsrecon --domain {any something} --type snoop --name_server {any something} --dictionary {any something}`
+`dnsrecon --domain {string value: example.com} --type snoop --name_server {string value: nameserver.example.com} --dictionary {string value: path/to/dictionary.txt}`
 
 - Scan a domain, performing zone walking:
 
-`dnsrecon --domain {any something} --type zonewalk`
+`dnsrecon --domain {string value: example.com} --type zonewalk`

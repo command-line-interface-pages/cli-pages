@@ -5,27 +5,27 @@
 
 - Create a new Laravel application:
 
-`laravel new {any something}`
+`laravel new {string value: name}`
 
 - Use the latest development release:
 
-`laravel new {any something} --dev`
+`laravel new {string value: name} --dev`
 
 - Overwrite if the directory already exists:
 
-`laravel new {any something} --force`
+`laravel new {string value: name} --force`
 
 - Install the Laravel Jetstream scaffolding:
 
-`laravel new {any something} --jet`
+`laravel new {string value: name} --jet`
 
 - Install the Laravel Jetstream scaffolding with a specific stack:
 
-`laravel new {any something} --jet --stack {any something}`
+`laravel new {string value: name} --jet --stack {string value: livewire|inertia}`
 
 - Install the Laravel Jetstream scaffolding with support for teams:
 
-`laravel new {any something} --jet --teams`
+`laravel new {string value: name} --jet --teams`
 
 - List the available installer commands:
 

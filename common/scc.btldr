@@ -9,7 +9,7 @@
 
 - Print lines of code in the target directory:
 
-`scc {directory something}`
+`scc {directory value}`
 
 - Display output for every file:
 
@@ -17,19 +17,19 @@
 
 - Display output using a specific output format (defaults to `tabular`):
 
-`scc --format {any something}`
+`scc --format {string value: tabular|wide|json|csv|cloc-yaml|html|html-table}`
 
 - Only count files with specific file extensions:
 
-`scc --include-ext {any something}`
+`scc --include-ext {string value: go, java, js}`
 
 - Exclude directories from being counted:
 
-`scc --exclude-dir {any something}`
+`scc --exclude-dir {string value: .git,.hg}`
 
 - Display output and sort by column (defaults to by files):
 
-`scc --sort {any something}`
+`scc --sort {string value: files|name|lines|blanks|code|comments|complexity}`
 
 - Print help for scc:
 

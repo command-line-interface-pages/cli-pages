@@ -9,16 +9,16 @@
 
 - List captured core dumps for a program:
 
-`coredumpctl list {any something}`
+`coredumpctl list {string value: program}`
 
 - Show information about the core dumps matching a program with `PID`:
 
-`coredumpctl info {any something}`
+`coredumpctl info {string value: PID}`
 
 - Invoke debugger using the last core dump of a program:
 
-`coredumpctl debug {any something}`
+`coredumpctl debug {string value: program}`
 
 - Extract the last core dump of a program to a file:
 
-`coredumpctl --output={file something} dump {any something}`
+`coredumpctl --output={file value} dump {string value: program}`

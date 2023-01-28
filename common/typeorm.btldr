@@ -9,11 +9,11 @@
 
 - Create an empty migration file:
 
-`typeorm migration:create --name {any something}`
+`typeorm migration:create --name {string value: migration_name}`
 
 - Create a migration file with the SQL statements to update the schema:
 
-`typeorm migration:generate --name {any something}`
+`typeorm migration:generate --name {string value: migration_name}`
 
 - Run all pending migrations:
 
@@ -21,7 +21,7 @@
 
 - Create a new entity file in a specific directory:
 
-`typeorm entity:create --name {any something} --dir {directory something}`
+`typeorm entity:create --name {string value: entity} --dir {directory value}`
 
 - Display the SQL statements to be executed by `typeorm schema:sync` on the default connection:
 
@@ -29,8 +29,8 @@
 
 - Execute a specific SQL statement on the default connection:
 
-`typeorm query {any something}`
+`typeorm query {string value: sql_sentence}`
 
 - Display help for a subcommand:
 
-`typeorm {any something} --help`
+`typeorm {string value: subcommand} --help`

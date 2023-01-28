@@ -6,8 +6,8 @@
 
 - Change the line endings of a file:
 
-`dos2unix {any something}`
+`dos2unix {file value}`
 
 - Create a copy with Unix-style line endings:
 
-`dos2unix -n {any something} {any something}`
+`dos2unix -n {file value} {file value: new}`

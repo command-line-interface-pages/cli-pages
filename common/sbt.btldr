@@ -9,7 +9,7 @@
 
 - Create a new Scala project from an existing Giter8 template hosted on GitHub:
 
-`sbt new {any something}`
+`sbt new {string value: scala/hello-world.g8}`
 
 - Compile and run all tests:
 
@@ -25,11 +25,11 @@
 
 - Use the specified version of sbt:
 
-`sbt -sbt-version {any something}`
+`sbt -sbt-version {string value: version}`
 
 - Use a specific jar file as the sbt launcher:
 
-`sbt -sbt-jar {any something}`
+`sbt -sbt-jar {string value: path}`
 
 - List all sbt options:
 

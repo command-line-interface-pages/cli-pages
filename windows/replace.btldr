@@ -6,31 +6,31 @@
 
 - Replace the destination file with the one from the source directory:
 
-`replace {file something|path something} {any something}`
+`replace {path value} {string value: path/to/destination}`
 
 - Add files to the destination directory instead of replacing existing files:
 
-`replace {file something|path something} {any something} /a`
+`replace {path value} {string value: path/to/destination} /a`
 
 - Interactively copy multiple files, with a prompt before replacing or adding a destination file:
 
-`replace {file something|path something} {any something} /p`
+`replace {path value} {string value: path/to/destination} /p`
 
 - Replace even read only files:
 
-`replace {file something|path something} {any something} /r`
+`replace {path value} {string value: path/to/destination} /r`
 
 - Wait for you to insert a disk before it replaces files (originally to allow inserting a floppy disk):
 
-`replace {file something|path something} {any something} /w`
+`replace {path value} {string value: path/to/destination} /w`
 
 - Replace all files in subdirectories of the destination:
 
-`replace {file something|path something} {any something} /s`
+`replace {path value} {string value: path/to/destination} /s`
 
 - Replace only files in the destination directory which are older than the files in the source directory:
 
-`replace {file something|path something} {any something} /u`
+`replace {path value} {string value: path/to/destination} /u`
 
 - Display detailed usage information:
 

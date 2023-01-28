@@ -9,12 +9,12 @@
 
 - Display a specific source and its API key:
 
-`choco apikey --source "{any something}"`
+`choco apikey --source "{string value: source_url}"`
 
 - Set an API key for a source:
 
-`choco apikey --source "{any something}" --key "{any something}"`
+`choco apikey --source "{string value: source_url}" --key "{string value: api_key}"`
 
 - Remove an API key for a source:
 
-`choco apikey --source "{any something}" --remove`
+`choco apikey --source "{string value: source_url}" --remove`

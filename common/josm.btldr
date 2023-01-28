@@ -13,7 +13,7 @@
 
 - Launch JOSM and set a specific language:
 
-`josm --language {any something}`
+`josm --language {string value: de}`
 
 - Launch JOSM and reset all preferences to their default values:
 
@@ -21,11 +21,11 @@
 
 - Launch JOSM and download a specific bounding box:
 
-`josm --download {any something}`
+`josm --download {string value: minlat,minlon,maxlat,maxlon}`
 
 - Launch JOSM and download a specific bounding box as raw GPS:
 
-`josm --downloadgps {any something}`
+`josm --downloadgps {string value: minlat,minlon,maxlat,maxlon}`
 
 - Launch JOSM without plugins:
 

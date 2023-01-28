@@ -5,12 +5,12 @@
 
 - Generate documentation for Java source code and save the result in a directory:
 
-`javadoc -d {any something} {any something}`
+`javadoc -d {string value: path/to/directory/} {string value: path/to/java_source_code}`
 
 - Generate documentation with a specific encoding:
 
-`javadoc -docencoding {any something} {any something}`
+`javadoc -docencoding {string value: UTF-8} {string value: path/to/java_source_code}`
 
 - Generate documentation excluding some packages:
 
-`javadoc -exclude {any something} {any something}`
+`javadoc -exclude {string value: package_list} {string value: path/to/java_source_code}`

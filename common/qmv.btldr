@@ -5,23 +5,23 @@
 
 - Move a single file (open an editor with the source filename on the left and the target filename on the right):
 
-`qmv {file something: source}`
+`qmv {file value: source}`
 
 - Move multiple JPG files:
 
-`qmv {any something}`
+`qmv {string value: *.jpg}`
 
 - Move multiple directories:
 
-`qmv -d {any something} {any something} {any something}`
+`qmv -d {string value: path/to/directory1} {string value: path/to/directory2} {string value: path/to/directory3}`
 
 - Move all files and directories inside a directory:
 
-`qmv --recursive {directory something}`
+`qmv --recursive {directory value}`
 
 - Move files, but swap the positions of the source and the target filenames in the editor:
 
-`qmv --option swap {any something}`
+`qmv --option swap {string value: *.jpg}`
 
 - Rename all files and folders in the current directory, but show only target filenames in the editor (you can think of it as a kind of simple mode):
 

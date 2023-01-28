@@ -5,24 +5,24 @@
 
 - Compress a file, replacing it with a gzipped compressed version:
 
-`gzip {file something}`
+`gzip {file value: sample.ext}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`gzip -d {file something}.gz`
+`gzip -d {file value: sample.ext}.gz`
 
 - Compress a file, keeping the original file:
 
-`gzip --keep {file something}`
+`gzip --keep {file value: sample.ext}`
 
 - Compress a file specifying the output filename:
 
-`gzip -c {file something} > {any something}`
+`gzip -c {file value: sample.ext} > {string value: compressed_file.ext.gz}`
 
 - Decompress a gzipped file specifying the output filename:
 
-`gzip -c -d {file something}.gz > {file something: uncompressed}`
+`gzip -c -d {file value: sample.ext}.gz > {file value: uncompressed.ext}`
 
 - Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
 
-`gzip -9 -c {file something} > {any something}`
+`gzip -9 -c {file value: sample.ext} > {string value: compressed_file.ext.gz}`

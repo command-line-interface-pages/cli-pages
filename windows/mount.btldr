@@ -5,28 +5,28 @@
 
 - Mount a share to the "Z" drive letter:
 
-`mount \\{any something}\{any something} {any something}`
+`mount \\{string value: computer_name}\{string value: share_name} {string value: Z:}`
 
 - Mount a share to the next available drive letter:
 
-`mount \\{any something}\{any something} *`
+`mount \\{string value: computer_name}\{string value: share_name} *`
 
 - Mount a share with a read timeout in seconds (defaults to 0.8, can be 0.9 or 1 to 60):
 
-`mount -o timeout={any something} \\{any something}\{any something} {any something}`
+`mount -o timeout={string value: seconds} \\{string value: computer_name}\{string value: share_name} {string value: Z:}`
 
 - Mount a share and retry up to 10 times if it fails:
 
-`mount -o retry={any something} \\{any something}\{any something} {any something}`
+`mount -o retry={string value: retries} \\{string value: computer_name}\{string value: share_name} {string value: Z:}`
 
 - Mount a share with forced case sensitivity:
 
-`mount -o casesensitive \\{any something}\{any something} {any something}`
+`mount -o casesensitive \\{string value: computer_name}\{string value: share_name} {string value: Z:}`
 
 - Mount a share as an anonymous user:
 
-`mount -o anon \\{any something}\{any something} {any something}`
+`mount -o anon \\{string value: computer_name}\{string value: share_name} {string value: Z:}`
 
 - Mount a share using a specific mount type:
 
-`mount -o mtype={any something} \\{any something}\{any something} {any something}`
+`mount -o mtype={string value: soft|hard} \\{string value: computer_name}\{string value: share_name} {string value: Z:}`

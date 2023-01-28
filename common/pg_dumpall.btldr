@@ -5,24 +5,24 @@
 
 - Dump all databases:
 
-`pg_dumpall > {file something}`
+`pg_dumpall > {file value: sample.sql}`
 
 - Dump all databases using a specific username:
 
-`pg_dumpall --username={string user} > {file something}`
+`pg_dumpall --username={string user} > {file value: sample.sql}`
 
 - Same as above, customize host and port:
 
-`pg_dumpall -h {any something} -p {any something} > {file something: output}`
+`pg_dumpall -h {string value: host} -p {string value: port} > {file value: output.sql}`
 
 - Dump all databases into a custom-format archive file with moderate compression:
 
-`pg_dumpall -Fc > {file something: output}`
+`pg_dumpall -Fc > {file value: output.dump}`
 
 - Dump only database data into an SQL-script file:
 
-`pg_dumpall --data-only > {file something}`
+`pg_dumpall --data-only > {file value: sample.sql}`
 
 - Dump only schema (data definitions) into an SQL-script file:
 
-`pg_dumpall -s > {file something: output}`
+`pg_dumpall -s > {file value: output.sql}`

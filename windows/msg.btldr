@@ -5,15 +5,15 @@
 
 - Send a message to a specified user or session:
 
-`msg {any something} {any something}`
+`msg {string value: username|session_name|session_id} {string value: message}`
 
 - Send a message from stdin:
 
-`echo "{any something}" | msg {any something}`
+`echo "{string value: message}" | msg {string value: username|session_name|session_id}`
 
 - Send a message to a specific server:
 
-`msg /server:{any something} {any something}`
+`msg /server:{string value: server_name} {string value: username|session_name|session_id}`
 
 - Send a message to all users of the current machine:
 
@@ -21,4 +21,4 @@
 
 - Set a delay in seconds for a message:
 
-`msg /time:{any something}`
+`msg /time:{string value: seconds}`

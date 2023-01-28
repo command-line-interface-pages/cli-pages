@@ -5,16 +5,16 @@
 
 - Synchronize and set date and time:
 
-`sudo ntpdate {any something}`
+`sudo ntpdate {string value: host}`
 
 - Query the host without setting the time:
 
-`ntpdate -q {any something}`
+`ntpdate -q {string value: host}`
 
 - Use an unprivileged port in case a firewall is blocking privileged ports:
 
-`sudo ntpdate -u {any something}`
+`sudo ntpdate -u {string value: host}`
 
 - Force time to be stepped using `settimeofday` instead of `slewed`:
 
-`sudo ntpdate -b {any something}`
+`sudo ntpdate -b {string value: host}`

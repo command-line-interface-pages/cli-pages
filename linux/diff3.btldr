@@ -5,8 +5,8 @@
 
 - Compare files:
 
-`diff3 {any something} {any something} {any something}`
+`diff3 {string value: file1} {string value: file2} {string value: file3}`
 
 - Show all changes, outlining conflicts:
 
-`diff3 --show-all {any something} {any something} {any something}`
+`diff3 --show-all {string value: file1} {string value: file2} {string value: file3}`

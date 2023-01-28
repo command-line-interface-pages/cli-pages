@@ -5,16 +5,16 @@
 
 - View the current and permanent MAC addresses of a interface:
 
-`macchanger --show {any something}`
+`macchanger --show {string value: interface}`
 
 - Set interface to a random MAC:
 
-`macchanger --random {any something}`
+`macchanger --random {string value: interface}`
 
 - Set interface to a specific MAC:
 
-`macchanger --mac {any something} {any something}`
+`macchanger --mac {string value: XX:XX:XX:XX:XX:XX} {string value: interface}`
 
 - Reset interface to its permanent hardware MAC:
 
-`macchanger --permanent {any something}`
+`macchanger --permanent {string value: interface}`

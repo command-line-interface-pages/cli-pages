@@ -9,4 +9,4 @@
 
 - Calculate a specific mathematic expression:
 
-`mate-calc --solve {any something}`
+`mate-calc --solve {string value: 2 + 5}`

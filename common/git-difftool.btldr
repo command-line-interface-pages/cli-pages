@@ -10,7 +10,7 @@
 
 - Set the default diff tool to meld:
 
-`git config --global diff.tool "{any something}"`
+`git config --global diff.tool "{string value: meld}"`
 
 - Use the default diff tool to show staged changes:
 
@@ -18,4 +18,4 @@
 
 - Use a specific tool (opendiff) to show changes since a given commit:
 
-`git difftool --tool={any something} {any something}`
+`git difftool --tool={string value: opendiff} {string value: commit}`

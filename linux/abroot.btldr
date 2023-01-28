@@ -6,7 +6,7 @@
 
 - Output the current or future root partition state:
 
-`sudo abroot get {any something}`
+`sudo abroot get {string value: present|future}`
 
 - Enter the transactional shell in the future root partition and switch root on the next boot:
 
@@ -14,11 +14,11 @@
 
 - Execute a specific command in the transactional shell in the future root partition and switch to it on the next boot:
 
-`sudo abroot exec "{any something}"`
+`sudo abroot exec "{string value: command}"`
 
 - Install specific packages in the host inside the transactional shell in the future root partition and switch to it on the next boot:
 
-`sudo abroot exec apt install {any something}`
+`sudo abroot exec apt install {string value: package1 package2 ...}`
 
 - Update the boot partition (for advanced users only):
 

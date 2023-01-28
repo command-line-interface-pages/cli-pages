@@ -5,20 +5,20 @@
 
 - Play a MIDI file:
 
-`timidity {file something}`
+`timidity {file value: sample.mid}`
 
 - Play a MIDI file in a loop:
 
-`timidity --loop {file something}`
+`timidity --loop {file value: sample.mid}`
 
 - Play a MIDI file in a specific key (0 = C major/A minor, -1 = F major/D minor, +1 = G major/E minor, etc.):
 
-`timidity --force-keysig={any something} {file something}`
+`timidity --force-keysig={string value: -flats|+sharps} {file value: sample.mid}`
 
 - Convert a MIDI file to PCM (WAV) audio:
 
-`timidity --output-mode={any something} --output-file={file something} {file something}`
+`timidity --output-mode={string value: w} --output-file={file value: sample.wav} {file value: sample.mid}`
 
 - Convert a MIDI file to FLAC audio:
 
-`timidity --output-mode={any something} --output-file={file something} {file something}`
+`timidity --output-mode={string value: F} --output-file={file value: sample.flac} {file value: sample.mid}`

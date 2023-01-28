@@ -5,11 +5,11 @@
 
 - Upgrade one or more space-separated packages:
 
-`choco upgrade {any something}`
+`choco upgrade {string value: package(s)}`
 
 - Upgrade to a specific version of a package:
 
-`choco upgrade {any something} --version {any something}`
+`choco upgrade {string value: package} --version {string value: version}`
 
 - Upgrade all packages:
 
@@ -17,16 +17,16 @@
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "{any something}"`
+`choco upgrade all --except "{string value: package(s)}"`
 
 - Confirm all prompts automatically:
 
-`choco upgrade {any something} --yes`
+`choco upgrade {string value: package} --yes`
 
 - Specify a custom source to receive packages from:
 
-`choco upgrade {any something} --source {any something}`
+`choco upgrade {string value: package} --source {string value: source_url|alias}`
 
 - Provide a username and password for authentication:
 
-`choco upgrade {any something} --user {string user} --password {any something}`
+`choco upgrade {string value: package} --user {string user} --password {string value: password}`

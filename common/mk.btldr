@@ -10,19 +10,19 @@
 
 - Call a specific target:
 
-`mk {any something}`
+`mk {string value: target}`
 
 - Call a specific target, executing 4 jobs at a time in parallel:
 
-`NPROC=4 mk {any something}`
+`NPROC=4 mk {string value: target}`
 
 - Force mking of a target, even if source files are unchanged:
 
-`mk -w{any something} {any something}`
+`mk -w{string value: target} {string value: target}`
 
 - Assume all targets to be out of date. Thus, update `target` and all of its dependencies:
 
-`mk -a {any something}`
+`mk -a {string value: target}`
 
 - Keep going as far as possible on error:
 

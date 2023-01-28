@@ -6,11 +6,11 @@
 
 - Install a module:
 
-`drupal module:install {any something}`
+`drupal module:install {string value: module_name}`
 
 - Uninstall a module:
 
-`drupal module:uninstall {any something}`
+`drupal module:uninstall {string value: module_name}`
 
 - Clear all caches:
 

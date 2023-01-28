@@ -14,16 +14,16 @@
 
 - Add a file:
 
-`git annex add {file something|path something}`
+`git annex add {path value}`
 
 - Show the current status of a file or directory:
 
-`git annex status {file something|path something}`
+`git annex status {path value}`
 
 - Synchronize a local repository with a remote:
 
-`git annex {any something}`
+`git annex {string value: remote}`
 
 - Get a file or directory:
 
-`git annex get {file something|path something}`
+`git annex get {path value}`

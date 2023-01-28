@@ -6,16 +6,16 @@
 
 - Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user-agent:
 
-`feroxbuster --url "{any something}" --wordlist {file something} --threads {int number: 100} --extensions "{any something}" --random-agent`
+`feroxbuster --url "{string value: https://example.com}" --wordlist {file value} --threads {int value: 100} --extensions "{string value: php,txt}" --random-agent`
 
 - Enumerate directories without recursion through a specific proxy:
 
-`feroxbuster --url "{any something}" --wordlist {file something} --no-recursion --proxy "{any something}"`
+`feroxbuster --url "{string value: https://example.com}" --wordlist {file value} --no-recursion --proxy "{string value: http://127.0.0.1:8080}"`
 
 - Find links in webpages:
 
-`feroxbuster --url "{any something}" --extract-links`
+`feroxbuster --url "{string value: https://example.com}" --extract-links`
 
 - Filter by a specific status code and a number of chars:
 
-`feroxbuster --url "{any something}" --filter-status {int number: 301} --filter-size {int number: 4092}`
+`feroxbuster --url "{string value: https://example.com}" --filter-status {int value: 301} --filter-size {int value: 4092}`

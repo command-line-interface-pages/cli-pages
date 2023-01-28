@@ -10,8 +10,8 @@
 
 - Trim unused blocks on a specified partition:
 
-`sudo fstrim {any something}`
+`sudo fstrim {string value: /}`
 
 - Display statistics after trimming:
 
-`sudo fstrim --verbose {any something}`
+`sudo fstrim --verbose {string value: /}`

@@ -6,12 +6,12 @@
 
 - Send a message to a given user on a given terminal id:
 
-`write {string user} {any something}`
+`write {string user} {string value: terminal_id}`
 
 - Send message to "testuser" on terminal `/dev/tty/5`:
 
-`write {any something} {any something}`
+`write {string value: testuser} {string value: tty/5}`
 
 - Send message to "johndoe" on pseudo terminal `/dev/pts/5`:
 
-`write {any something} {any something}`
+`write {string value: johndoe} {string value: pts/5}`

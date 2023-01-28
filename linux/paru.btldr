@@ -5,7 +5,7 @@
 
 - Interactively search for and install a package:
 
-`paru {any something}`
+`paru {string value: package_name_or_search_term}`
 
 - Synchronize and update all packages:
 
@@ -17,12 +17,12 @@
 
 - Get information about a package:
 
-`paru -Si {any something}`
+`paru -Si {string value: package_name}`
 
 - Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru --getpkgbuild {any something}`
+`paru --getpkgbuild {string value: package_name}`
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print {any something}`
+`paru --getpkgbuild --print {string value: package_name}`

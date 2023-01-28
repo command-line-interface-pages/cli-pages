@@ -9,20 +9,20 @@
 
 - Create a new service:
 
-`docker service create --name {any something} {any something}:{any something}`
+`docker service create --name {string value: service_name} {string value: image}:{string value: tag}`
 
 - Display detailed information of a space-separated list of services:
 
-`docker service inspect {any something}`
+`docker service inspect {string value: service_name|ID}`
 
 - List the tasks of a space-separated list of services:
 
-`docker service ps {any something}`
+`docker service ps {string value: service_name|ID}`
 
 - Scale to a specific number of replicas for a space-separated list of services:
 
-`docker service scale {any something}={any something}`
+`docker service scale {string value: service_name}={string value: count_of_replicas}`
 
 - Remove a space-separated list of services:
 
-`docker service rm {any something}`
+`docker service rm {string value: service_name|ID}`

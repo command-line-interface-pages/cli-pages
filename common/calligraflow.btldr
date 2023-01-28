@@ -10,8 +10,8 @@
 
 - Open a specific file:
 
-`calligraflow {file something}`
+`calligraflow {file value}`
 
 - Display help or version:
 
-`calligraflow --{any something}`
+`calligraflow --{string value: help|version}`

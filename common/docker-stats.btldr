@@ -9,11 +9,11 @@
 
 - Display a live stream of statistics for a space-separated list of containers:
 
-`docker stats {any something}`
+`docker stats {string value: container_name}`
 
 - Change the columns format to display container's CPU usage percentage:
 
-`docker stats --format "{any something}:\t{any something}"`
+`docker stats --format "{string value: .Name}:\t{string value: .CPUPerc}"`
 
 - Display statistics for all containers (both running and stopped):
 

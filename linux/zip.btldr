@@ -6,28 +6,28 @@
 
 - Add files/directories to a specific archive:
 
-`zip -r {any something} {path* something}`
+`zip -r {string value: path/to/compressed.zip} {path* value}`
 
 - Remove files/directories from a specific archive:
 
-`zip --delete {any something} {path* something}`
+`zip --delete {string value: path/to/compressed.zip} {path* value}`
 
 - Archive files/directories e[x]cluding specified ones:
 
-`zip {any something} {path* something} --exclude {any something}`
+`zip {string value: path/to/compressed.zip} {path* value} --exclude {string value: path/to/excluded_files_or_directories}`
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -r -{any something} {any something} {path* something}`
+`zip -r -{string value: 0-9} {string value: path/to/compressed.zip} {path* value}`
 
 - Create an encrypted archive with a specific password:
 
-`zip -r --encrypt {any something} {path* something}`
+`zip -r --encrypt {string value: path/to/compressed.zip} {path* value}`
 
 - Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
 
-`zip -r -s {any something} {any something} {path* something}`
+`zip -r -s {string value: 3g} {string value: path/to/compressed.zip} {path* value}`
 
 - Print a specific archive contents:
 
-`zip -sf {any something}`
+`zip -sf {string value: path/to/compressed.zip}`

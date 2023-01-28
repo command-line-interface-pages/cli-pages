@@ -9,11 +9,11 @@
 
 - Set a specific login [s]hell for the current user:
 
-`chsh -s {any something}`
+`chsh -s {string value: path/to/shell}`
 
 - Set a login [s]hell for a specific user:
 
-`chsh -s {any something} {string user}`
+`chsh -s {string value: path/to/shell} {string user}`
 
 - [l]ist available shells:
 

@@ -6,16 +6,16 @@
 
 - Create a commit object with the specified message:
 
-`git commit-tree {any something} -m "{any something}"`
+`git commit-tree {string value: tree} -m "{string value: message}"`
 
 - Create a commit object reading the message from a file (use `-` for stdin):
 
-`git commit-tree {any something} -F {file something}`
+`git commit-tree {string value: tree} -F {file value}`
 
 - Create a GPG-signed commit object:
 
-`git commit-tree {any something} -m "{any something}" --gpg-sign`
+`git commit-tree {string value: tree} -m "{string value: message}" --gpg-sign`
 
 - Create a commit object with the specified parent commit object:
 
-`git commit-tree {any something} -m "{any something}" -p {any something}`
+`git commit-tree {string value: tree} -m "{string value: message}" -p {string value: parent_commit_sha}`

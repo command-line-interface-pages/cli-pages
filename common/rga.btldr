@@ -5,7 +5,7 @@
 
 - Search recursively for a pattern in all files in the current directory:
 
-`rga {any something}`
+`rga {string value: regular_expression}`
 
 - List available adapters:
 
@@ -13,11 +13,11 @@
 
 - Change which adapters to use (e.g. ffmpeg, pandoc, poppler etc.):
 
-`rga --rga-adapters={any something} {any something}`
+`rga --rga-adapters={string value: adapter1,adapter2} {string value: regular_expression}`
 
 - Search for a pattern using the mime type instead of the file extension (slower):
 
-`rga --rga-accurate {any something}`
+`rga --rga-accurate {string value: regular_expression}`
 
 - Display detailed help:
 

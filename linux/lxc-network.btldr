@@ -9,20 +9,20 @@
 
 - Show the configuration of a specific network:
 
-`lxc network show {any something}`
+`lxc network show {string value: network_name}`
 
 - Add a running instance to a specific network:
 
-`lxc network attach {any something} {any something}`
+`lxc network attach {string value: network_name} {string value: container_name}`
 
 - Create a new managed network:
 
-`lxc network create {any something}`
+`lxc network create {string value: network_name}`
 
 - Set a bridge interface of a specific network:
 
-`lxc network set {any something} bridge.external_interfaces {any something}`
+`lxc network set {string value: network_name} bridge.external_interfaces {string value: eth0}`
 
 - Disable NAT for a specific network:
 
-`lxc network set {any something} ipv{int number: 4}.nat false`
+`lxc network set {string value: network_name} ipv{int value: 4}.nat false`

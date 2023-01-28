@@ -6,12 +6,12 @@
 
 - Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
 
-`apm install {any something}`
+`apm install {string value: package_name}`
 
 - Remove a package/theme:
 
-`apm remove {any something}`
+`apm remove {string value: package_name}`
 
 - Upgrade a package/theme:
 
-`apm upgrade {any something}`
+`apm upgrade {string value: package_name}`

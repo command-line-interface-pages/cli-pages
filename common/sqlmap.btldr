@@ -5,20 +5,20 @@
 
 - Run sqlmap against a single target URL:
 
-`python sqlmap.py -u "{any something}"`
+`python sqlmap.py -u "{string value: http://www.target.com/vuln.php?id=1}"`
 
 - Send data in a POST request (`--data` implies POST request):
 
-`python sqlmap.py -u "{any something}" --data="{any something}"`
+`python sqlmap.py -u "{string value: http://www.target.com/vuln.php}" --data="{string value: id=1}"`
 
 - Change the parameter delimiter (& is the default):
 
-`python sqlmap.py -u "{any something}" --data="{any something}" --param-del="{any something}"`
+`python sqlmap.py -u "{string value: http://www.target.com/vuln.php}" --data="{string value: query=foobar;id=1}" --param-del="{string value: ;}"`
 
 - Select a random `User-Agent` from `./txt/user-agents.txt` and use it:
 
-`python sqlmap.py -u "{any something}" --random-agent`
+`python sqlmap.py -u "{string value: http://www.target.com/vuln.php}" --random-agent`
 
 - Provide user credentials for HTTP protocol authentication:
 
-`python sqlmap.py -u "{any something}" --auth-type {any something} --auth-cred "{any something}"`
+`python sqlmap.py -u "{string value: http://www.target.com/vuln.php}" --auth-type {string value: Basic} --auth-cred "{string value: testuser:testpass}"`

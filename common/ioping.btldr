@@ -13,8 +13,8 @@
 
 - Measure disk seek rate on `/dev/sdX`:
 
-`ioping -R {/file something: device}`
+`ioping -R {/file value: device}`
 
 - Measure disk sequential speed on `/dev/sdX`:
 
-`ioping -RL {/file something: device}`
+`ioping -RL {/file value: device}`

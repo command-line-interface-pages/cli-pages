@@ -5,27 +5,27 @@
 
 - Export a collection to stdout, formatted as JSON:
 
-`mongoexport --uri={any something} --collection={any something}`
+`mongoexport --uri={string value: connection_string} --collection={string value: collection_name}`
 
 - Export the documents in the specified collection that match a query to a JSON file:
 
-`mongoexport --db={any something} --collection={any something} --query="{any something}" --out={file something}`
+`mongoexport --db={string value: database_name} --collection={string value: collection_name} --query="{string value: query_object}" --out={file value: sample.json}`
 
 - Export documents as a JSON array instead of one object per line:
 
-`mongoexport --collection={any something} --jsonArray`
+`mongoexport --collection={string value: collection_name} --jsonArray`
 
 - Export documents to a CSV file:
 
-`mongoexport --collection={any something} --type={any something} --fields="{any something}" --out={file something}`
+`mongoexport --collection={string value: collection_name} --type={string value: csv} --fields="{string value: field1,field2,...}" --out={file value: sample.csv}`
 
 - Export documents that match the query in the specified file to a CSV file, omitting the list of field names on the first line:
 
-`mongoexport --collection={any something} --type={any something} --fields="{any something}" --queryFile={file something} --noHeaderLine --out={file something}`
+`mongoexport --collection={string value: collection_name} --type={string value: csv} --fields="{string value: field1,field2,...}" --queryFile={file value} --noHeaderLine --out={file value: sample.csv}`
 
 - Export documents to stdout, formatted as human-readable JSON:
 
-`mongoexport --uri={any something} --collection={any something} --pretty`
+`mongoexport --uri={string value: mongodb_uri} --collection={string value: collection_name} --pretty`
 
 - Display help:
 

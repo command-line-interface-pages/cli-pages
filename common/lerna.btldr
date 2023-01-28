@@ -13,11 +13,11 @@
 
 - Run a specific script for every package that contains it in its `package.json`:
 
-`lerna run {any something}`
+`lerna run {string value: script}`
 
 - Execute an arbitrary shell command in every package:
 
-`lerna exec -- {any something}`
+`lerna exec -- {string value: ls}`
 
 - Publish all packages that have changed since the last release:
 

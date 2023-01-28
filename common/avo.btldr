@@ -13,7 +13,7 @@
 
 - Switch to an existing Avo branch:
 
-`avo checkout {any something}`
+`avo checkout {string value: branch_name}`
 
 - Pull analytics wrappers for the current path:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`avo {any something} --help`
+`avo {string value: subcommand} --help`

@@ -9,7 +9,7 @@
 
 - Play a WAV file over the default target:
 
-`pw-cat --playback {file something}`
+`pw-cat --playback {file value: sample.wav}`
 
 - List all available record targets:
 
@@ -17,8 +17,8 @@
 
 - Record a sample recording at a different volume level:
 
-`pw-cat --record --volume={float number: 0.1} {file something}`
+`pw-cat --record --volume={float value: 0.1} {file value: sample.wav}`
 
 - Record a sample recording using a different sample rate:
 
-`pw-cat --record --rate={int number: 6000} {file something}`
+`pw-cat --record --rate={int value: 6000} {file value: sample.wav}`

@@ -6,7 +6,7 @@
 
 - Check a specific script file for syntax errors:
 
-`grub-script-check {file something: grub_config}`
+`grub-script-check {file value: grub_config}`
 
 - Display each line of input after reading it:
 

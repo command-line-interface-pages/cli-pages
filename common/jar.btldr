@@ -5,16 +5,16 @@
 
 - Recursively archive all files in the current directory into a .jar file:
 
-`jar cf {file something} *`
+`jar cf {file value: sample.jar} *`
 
 - Unzip .jar/.war file to the current directory:
 
-`jar -xvf {file something}`
+`jar -xvf {file value: sample.jar}`
 
 - List a .jar/.war file content:
 
-`jar tf {file something}`
+`jar tf {file value: sample.jar}`
 
 - List a .jar/.war file content with verbose output:
 
-`jar tvf {file something}`
+`jar tvf {file value: sample.jar}`

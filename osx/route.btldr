@@ -6,15 +6,15 @@
 
 - Add a route to a destination through a gateway:
 
-`sudo route add "{any something}" "{any something}"`
+`sudo route add "{string value: destination_ip_address}" "{string value: gateway_address}"`
 
 - Add a route to a /24 subnet through a gateway:
 
-`sudo route add "{any something}/24" "{any something}"`
+`sudo route add "{string value: subnet_ip_address}/24" "{string value: gateway_address}"`
 
 - Run in test mode (does not do anything, just print):
 
-`sudo route -t add "{any something}/24" "{any something}"`
+`sudo route -t add "{string value: destination_ip_address}/24" "{string value: gateway_address}"`
 
 - Remove all routes:
 
@@ -22,8 +22,8 @@
 
 - Delete a specific route:
 
-`sudo route delete "{any something}/24"`
+`sudo route delete "{string value: destination_ip_address}/24"`
 
 - Lookup and display the route for a destination (hostname or IP address):
 
-`sudo route get "{any something}"`
+`sudo route get "{string value: destination}"`

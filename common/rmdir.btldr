@@ -6,8 +6,8 @@
 
 - Remove specific directories:
 
-`rmdir {directory* something}`
+`rmdir {directory* value}`
 
 - Remove specific nested directories recursively:
 
-`rmdir -p {directory* something}`
+`rmdir -p {directory* value}`

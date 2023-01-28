@@ -18,7 +18,7 @@
 
 - Ping a peer node at the Tailscale layer and display which route it took for each response:
 
-`tailscale ping {any something}`
+`tailscale ping {string value: ip|hostname}`
 
 - Analyze the local network conditions and display the result:
 
@@ -34,4 +34,4 @@
 
 - Display help for a subcommand:
 
-`tailscale {any something} --help`
+`tailscale {string value: subcommand} --help`

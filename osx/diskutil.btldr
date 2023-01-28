@@ -9,12 +9,12 @@
 
 - Repair the filesystem data structures of a volume:
 
-`diskutil repairVolume {any something}`
+`diskutil repairVolume {string value: /dev/diskX}`
 
 - Unmount a volume:
 
-`diskutil unmountDisk {any something}`
+`diskutil unmountDisk {string value: /dev/diskX}`
 
 - Eject a CD/DVD (unmount first):
 
-`diskutil eject {any something}`
+`diskutil eject {string value: /dev/disk1}`

@@ -5,12 +5,12 @@
 
 - Make a file or directory immutable to changes and deletion, even by superuser:
 
-`chattr +i {file something|path something}`
+`chattr +i {path value}`
 
 - Make a file or directory mutable:
 
-`chattr -i {file something|path something}`
+`chattr -i {path value}`
 
 - Recursively make an entire directory and contents immutable:
 
-`chattr -R +i {directory something}`
+`chattr -R +i {directory value}`

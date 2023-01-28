@@ -6,7 +6,7 @@
 
 - Start SC-IM:
 
-`scim {file something}.csv`
+`scim {file value}.csv`
 
 - Enter a string into the current cell:
 

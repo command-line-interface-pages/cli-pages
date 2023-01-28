@@ -5,31 +5,31 @@
 
 - Parse and transform a CSS file:
 
-`postcss {file something}`
+`postcss {file value}`
 
 - Parse and transform a CSS file and output to a specific file:
 
-`postcss {file something} --output {file something}`
+`postcss {file value} --output {file value}`
 
 - Parse and transform a CSS file and output to a specific directory:
 
-`postcss {file something} --dir {directory something}`
+`postcss {file value} --dir {directory value}`
 
 - Parse and transform a CSS file in-place:
 
-`postcss {file something} --replace`
+`postcss {file value} --replace`
 
 - Specify a custom PostCSS parser:
 
-`postcss {file something} --parser {any something}`
+`postcss {file value} --parser {string value: parser}`
 
 - Specify a custom PostCSS syntax:
 
-`postcss {file something} --syntax {any something}`
+`postcss {file value} --syntax {string value: syntax}`
 
 - Watch for changes to a CSS file:
 
-`postcss {file something} --watch`
+`postcss {file value} --watch`
 
 - Display available options and examples:
 

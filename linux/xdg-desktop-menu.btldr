@@ -5,16 +5,16 @@
 
 - Install an application to the desktop menu system:
 
-`xdg-desktop-menu install {file something}`
+`xdg-desktop-menu install {file value: sample.desktop}`
 
 - Install an application to the desktop menu system with the vendor prefix check disabled:
 
-`xdg-desktop-menu install --novendor {file something}`
+`xdg-desktop-menu install --novendor {file value: sample.desktop}`
 
 - Uninstall an application from the desktop menu system:
 
-`xdg-desktop-menu uninstall {file something}`
+`xdg-desktop-menu uninstall {file value: sample.desktop}`
 
 - Force an update of the desktop menu system:
 
-`xdg-desktop-menu forceupdate --mode {any something}`
+`xdg-desktop-menu forceupdate --mode {string value: user|system}`

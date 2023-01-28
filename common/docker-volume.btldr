@@ -5,15 +5,15 @@
 
 - Create a volume:
 
-`docker volume create {any something}`
+`docker volume create {string value: volume_name}`
 
 - Create a volume with a specific label:
 
-`docker volume create --label {any something} {any something}`
+`docker volume create --label {string value: label} {string value: volume_name}`
 
 - Create a `tmpfs` volume a size of 100 MiB and an uid of 1000:
 
-`docker volume create --opt {any something}={any something} --opt {any something}={any something} --opt {any something}={any something} {any something}`
+`docker volume create --opt {string value: type}={string value: tmpfs} --opt {string value: device}={string value: tmpfs} --opt {string value: o}={string value: size=100m,uid=1000} {string value: volume_name}`
 
 - List all volumes:
 
@@ -21,11 +21,11 @@
 
 - Remove a volume:
 
-`docker volume rm {any something}`
+`docker volume rm {string value: volume_name}`
 
 - Display information about a volume:
 
-`docker volume inspect {any something}`
+`docker volume inspect {string value: volume_name}`
 
 - Remove all unused local volumes:
 
@@ -33,4 +33,4 @@
 
 - Display help for a subcommand:
 
-`docker volume {any something} --help`
+`docker volume {string value: subcommand} --help`

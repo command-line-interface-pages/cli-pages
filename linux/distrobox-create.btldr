@@ -6,8 +6,8 @@
 
 - Create a distrobox using the Alpine image:
 
-`distrobox-create {any something} --image alpine`
+`distrobox-create {string value: container_name} --image alpine`
 
 - Clone a distrobox:
 
-`distrobox-create --clone {any something} {any something}`
+`distrobox-create --clone {string value: container_name} {string value: cloned_container_name}`

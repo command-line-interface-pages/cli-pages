@@ -6,7 +6,7 @@
 
 - Start fzf on all files in the specified directory:
 
-`find {directory something} -type f | fzf`
+`find {directory value} -type f | fzf`
 
 - Start fzf for running processes:
 
@@ -14,11 +14,11 @@
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {directory something} -type f | fzf --multi > {file something}`
+`find {directory value} -type f | fzf --multi > {file value}`
 
 - Start fzf with a specified query:
 
-`fzf --query "{any something}"`
+`fzf --query "{string value: query}"`
 
 - Start fzf on entries that start with core and end with either go, rb, or py:
 

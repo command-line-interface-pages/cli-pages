@@ -5,15 +5,15 @@
 
 - Print the code metrics for the specified files:
 
-`mh_metric {any something}`
+`mh_metric {file* value: sample.m}`
 
 - Print the code metrics for the specified Octave files:
 
-`mh_metric --octave {any something}`
+`mh_metric --octave {file* value: sample.m}`
 
 - Print the code metrics for the specified directory recursively:
 
-`mh_metric {directory something}`
+`mh_metric {directory value}`
 
 - Print the code metrics for the current directory:
 
@@ -21,4 +21,4 @@
 
 - Print the code metrics report in HTML or JSON format:
 
-`mh_metric --{any something} {file something: output}`
+`mh_metric --{string value: html|json} {file value: output}`

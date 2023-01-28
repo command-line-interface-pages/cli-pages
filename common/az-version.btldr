@@ -10,4 +10,4 @@
 
 - Show the current version of Azure CLI modules and extensions in a given format:
 
-`az version --output {any something}`
+`az version --output {string value: json|table|tsv}`

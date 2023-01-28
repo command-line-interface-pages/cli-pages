@@ -5,20 +5,20 @@
 
 - Compile a source file into an executable:
 
-`iverilog {any something} -o {any something}`
+`iverilog {string value: path/to/source.v} -o {string value: path/to/executable}`
 
 - Compile a source file into an executable while displaying all warnings:
 
-`iverilog {any something} -Wall -o {any something}`
+`iverilog {string value: path/to/source.v} -Wall -o {string value: path/to/executable}`
 
 - Compile and run explicitly using the VVP runtime:
 
-`iverilog -o {any something} -tvvp {any something}`
+`iverilog -o {string value: path/to/executable} -tvvp {string value: path/to/source.v}`
 
 - Compile using Verilog library files from a different path:
 
-`iverilog {any something} -o {any something} -I{directory something: library}`
+`iverilog {string value: path/to/source.v} -o {string value: path/to/executable} -I{directory value: library}`
 
 - Preprocess Verilog code without compiling:
 
-`iverilog -E {any something}`
+`iverilog -E {string value: path/to/source.v}`

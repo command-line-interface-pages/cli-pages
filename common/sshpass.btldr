@@ -6,12 +6,12 @@
 
 - Connect to a remote server using a password supplied on a file descriptor (in this case, stdin):
 
-`sshpass -d {int number: 0} ssh {any something}@{any something}`
+`sshpass -d {int value: 0} ssh {string value: user}@{string value: hostname}`
 
 - Connect to a remote server with the password supplied as an option, and automatically accept unknown ssh keys:
 
-`sshpass -p {any something} ssh -o StrictHostKeyChecking=no {any something}@{any something}`
+`sshpass -p {string value: password} ssh -o StrictHostKeyChecking=no {string value: user}@{string value: hostname}`
 
 - Connect to a remote server using the first line of a file as the password, automatically accept unknown ssh keys, and launch a command:
 
-`sshpass -f {file something} ssh -o StrictHostKeyChecking=no {any something}@{any something} "{any something}"`
+`sshpass -f {file value} ssh -o StrictHostKeyChecking=no {string value: user}@{string value: hostname} "{string value: command}"`

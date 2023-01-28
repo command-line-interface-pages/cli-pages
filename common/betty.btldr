@@ -5,7 +5,7 @@
 
 - Ask Betty something:
 
-`betty {any something}`
+`betty {string value: what time is it}`
 
 - Ask Betty version:
 
@@ -13,23 +13,23 @@
 
 - Download a file:
 
-`betty download {any something} to {file something}`
+`betty download {string value: https://example.com/file.png} to {file value: sample.png}`
 
 - Compress a file or directory to one of the support archive formats:
 
-`betty {any something} {file something|path something}`
+`betty {string value: zip} {path value}`
 
 - Extract an archive into the current directory:
 
-`betty {any something} {any something}`
+`betty {string value: unzip} {string value: archive.tar.gz}`
 
 - Extract an archive into a directory:
 
-`betty unarchive {any something} to {directory something}`
+`betty unarchive {string value: archive.tar.gz} to {directory value}`
 
 - Play Spotify:
 
-`betty play {any something}`
+`betty play {string value: Spotify}`
 
 - Drive Betty to madness:
 

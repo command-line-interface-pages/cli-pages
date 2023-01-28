@@ -6,16 +6,16 @@
 
 - Move files using a regular expression-like pattern:
 
-`zmv '{any something}' '{any something}'`
+`zmv '{string value: (*).log}' '{string value: $1.txt}'`
 
 - Preview the result of a move, without making any actual changes:
 
-`zmv -n '{any something}' '{any something}'`
+`zmv -n '{string value: (*).log}' '{string value: $1.txt}'`
 
 - Interactively move files, with a prompt before every change:
 
-`zmv -i '{any something}' '{any something}'`
+`zmv -i '{string value: (*).log}' '{string value: $1.txt}'`
 
 - Verbosely print each action as it's being executed:
 
-`zmv -v '{any something}' '{any something}'`
+`zmv -v '{string value: (*).log}' '{string value: $1.txt}'`

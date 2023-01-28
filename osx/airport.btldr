@@ -9,7 +9,7 @@
 
 - Sniff wireless traffic on channel 1:
 
-`airport sniff {int number: 1}`
+`airport sniff {int value: 1}`
 
 - Scan for available wireless networks:
 

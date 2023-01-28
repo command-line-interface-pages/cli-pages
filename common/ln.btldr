@@ -5,12 +5,12 @@
 
 - Create a symbolic link to a file or directory:
 
-`ln -s {/file something|/path something} {any something}`
+`ln -s {/path value} {string value: path/to/symlink}`
 
 - Overwrite an existing symbolic link to point to a different file:
 
-`ln -sf {/file something: new} {any something}`
+`ln -sf {/file value: new} {string value: path/to/symlink}`
 
 - Create a hard link to a file:
 
-`ln {/file something} {any something}`
+`ln {/file value} {string value: path/to/hardlink}`

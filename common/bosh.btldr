@@ -5,7 +5,7 @@
 
 - Create local alias for director:
 
-`bosh alias-env {any something} -e {any something} --ca-cert {any something}`
+`bosh alias-env {string value: environment_name} -e {string value: ip_address|url} --ca-cert {string value: ca_certificate}`
 
 - List environments:
 
@@ -13,24 +13,24 @@
 
 - Log in to the director:
 
-`bosh login -e {any something} `
+`bosh login -e {string value: environment} `
 
 - List deployments:
 
-`bosh -e {any something} deployments`
+`bosh -e {string value: environment} deployments`
 
 - List environment virtual machines:
 
-`bosh -e {any something} vms -d {any something}`
+`bosh -e {string value: environment} vms -d {string value: deployment}`
 
 - Ssh into virtual machine:
 
-`bosh -e {any something} ssh {any something} -d {any something}`
+`bosh -e {string value: environment} ssh {string value: virtual_machine} -d {string value: deployment}`
 
 - Upload stemcell:
 
-`bosh -e {any something} upload-stemcell {any something}`
+`bosh -e {string value: environment} upload-stemcell {string value: stemcell_file|url}`
 
 - Show current cloud config:
 
-`bosh -e {any something} cloud-config`
+`bosh -e {string value: environment} cloud-config`

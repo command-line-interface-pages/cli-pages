@@ -9,19 +9,19 @@
 
 - Log in to a specific API endpoint (default is `cloud.ibm.com`):
 
-`ibmcloud login -a {any something}`
+`ibmcloud login -a {string value: api_endpoint}`
 
 - Log in by providing username, password and the targeted region as parameters:
 
-`ibmcloud login -u {string user} -p {any something} -r {any something}`
+`ibmcloud login -u {string user} -p {string value: password} -r {string value: us-south}`
 
 - Log in with an API key, passing it as an argument:
 
-`ibmcloud login --apikey {any something}`
+`ibmcloud login --apikey {string value: api_key_string}`
 
 - Log in with an API key, passing it as a file:
 
-`ibmcloud login --apikey @{file something: api_key}`
+`ibmcloud login --apikey @{file value: api_key}`
 
 - Log in with a federated ID (single sign-on):
 

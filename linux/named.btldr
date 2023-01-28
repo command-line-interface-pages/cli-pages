@@ -9,15 +9,15 @@
 
 - Read a custom configuration file:
 
-`named -c {any something}`
+`named -c {string value: path/to/named.conf}`
 
 - Use IPv4 or IPv6 only, even if the host machine is capable of utilising other protocols:
 
-`named {any something}`
+`named {string value: -4|-6}`
 
 - Listen for queries on a specific port instead of the default port 53:
 
-`named -p {any something}`
+`named -p {string value: port}`
 
 - Run the server in the foreground and do not daemonize:
 

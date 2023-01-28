@@ -13,7 +13,7 @@
 
 - List namespaces associated with {{pid}}:
 
-`lsns --task {any something}`
+`lsns --task {string value: pid}`
 
 - List the specified type of namespaces only:
 

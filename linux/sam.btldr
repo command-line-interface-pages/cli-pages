@@ -9,7 +9,7 @@
 
 - Initialize a serverless application with a specific runtime:
 
-`sam init --runtime {any something}`
+`sam init --runtime {string value: python3.7}`
 
 - Package a SAM application:
 

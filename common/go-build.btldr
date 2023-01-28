@@ -5,16 +5,16 @@
 
 - Compile a 'package main' file (output will be the filename without extension):
 
-`go build {any something}`
+`go build {string value: path/to/main.go}`
 
 - Compile, specifying the output filename:
 
-`go build -o {any something} {any something}`
+`go build -o {string value: path/to/binary} {string value: path/to/source.go}`
 
 - Compile a package:
 
-`go build -o {any something} {any something}`
+`go build -o {string value: path/to/binary} {string value: path/to/package}`
 
 - Compile a main package into an executable, enabling data race detection:
 
-`go build -race -o {any something} {any something}`
+`go build -race -o {string value: path/to/executable} {string value: path/to/main/package}`

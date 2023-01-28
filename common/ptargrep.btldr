@@ -5,16 +5,16 @@
 
 - Search for a pattern within a tar file:
 
-`ptargrep "{any something}" {file something}`
+`ptargrep "{string value: search_pattern}" {file value}`
 
 - Search for a pattern within multiple files:
 
-`ptargrep "{any something}" {any something} {any something} {any something}`
+`ptargrep "{string value: search_pattern}" {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3}`
 
 - Extract to the current directory using the basename of the file from the archive:
 
-`ptargrep --basename "{any something}" {file something}`
+`ptargrep --basename "{string value: search_pattern}" {file value}`
 
 - Search for a case-insensitive pattern matching within a tar file:
 
-`ptargrep --ignore-case "{any something}" {file something}`
+`ptargrep --ignore-case "{string value: search_pattern}" {file value}`

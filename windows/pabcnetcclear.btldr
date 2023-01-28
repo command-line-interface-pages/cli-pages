@@ -5,20 +5,20 @@
 
 - Compile the specified source file into an executable with the same name:
 
-`pabcnetcclear {file something: source}`
+`pabcnetcclear {file value: source.pas}`
 
 - Compile the specified source file into an executable with the specified name:
 
-`pabcnetcclear /Output:{file something} {file something: source}`
+`pabcnetcclear /Output:{file value: sample.exe} {file value: source.pas}`
 
 - Compile the specified source file into an executable with the same name along with/without debug information:
 
-`pabcnetcclear /Debug:{any something} {file something: source}`
+`pabcnetcclear /Debug:{string value: 0|1} {file value: source.pas}`
 
 - Allow units to be searched in the specified path while compiling the source file into an executable with the same name:
 
-`pabcnetcclear /SearchDir:{directory something} {file something: source}`
+`pabcnetcclear /SearchDir:{directory value} {file value: source.pas}`
 
 - Compile the specified source file into an executable, defining a symbol:
 
-`pabcnetcclear /Define:{any something} {file something: source}`
+`pabcnetcclear /Define:{string value: symbol} {file value: source.pas}`

@@ -5,12 +5,12 @@
 
 - Print an `A` or `AAAA` record associated with a hostname or IP address:
 
-`ahost {any something}`
+`ahost {string value: example.com}`
 
 - Display some extra debugging output:
 
-`ahost -d {any something}`
+`ahost -d {string value: example.com}`
 
 - Display the record with a specified type:
 
-`ahost -t {any something} {any something}`
+`ahost -t {string value: a|aaaa|u} {string value: example.com}`

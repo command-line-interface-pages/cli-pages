@@ -9,4 +9,4 @@
 
 - Set a specific power profile:
 
-`powerprofilesctl set {any something}`
+`powerprofilesctl set {string value: profile_name}`

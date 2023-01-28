@@ -9,7 +9,7 @@
 
 - Link to an existing Project under a Railway account or team:
 
-`railway link {any something}`
+`railway link {string value: projectId}`
 
 - Create a new project directly from the command line:
 
@@ -17,7 +17,7 @@
 
 - Run a local command using variables from the active environment:
 
-`railway run {any something}`
+`railway run {string value: cmd}`
 
 - Deploy the linked project directory (if running from a subdirectory, the project root is still deployed):
 

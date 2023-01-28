@@ -6,8 +6,8 @@
 
 - Validate an XML file against a specific schema:
 
-`virt-xml-validate {file something} {any something}`
+`virt-xml-validate {file value: sample.xml} {string value: schema}`
 
 - Validate the domain XML against the domain schema:
 
-`virt-xml-validate {any something} domain`
+`virt-xml-validate {string value: path/to/domain.xml} domain`

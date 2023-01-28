@@ -5,11 +5,11 @@
 
 - Unescape special XML characters from a string:
 
-`xml unescape "{any something}"`
+`xml unescape "{string value: &lt;a1&gt;}"`
 
 - Unescape special XML characters from stdin:
 
-`echo  "{any something}" | xml unescape`
+`echo  "{string value: &lt;a1&gt;}" | xml unescape`
 
 - Display help for the `unescape` subcommand:
 

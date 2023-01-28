@@ -5,7 +5,7 @@
 
 - Convert blanks in each file to tabs, writing to stdout:
 
-`unexpand {file something}`
+`unexpand {file value}`
 
 - Convert blanks to tabs, reading from stdout:
 
@@ -13,12 +13,12 @@
 
 - Convert all blanks, instead of just initial blanks:
 
-`unexpand -a {file something}`
+`unexpand -a {file value}`
 
 - Convert only leading sequences of blanks (overrides -a):
 
-`unexpand --first-only {file something}`
+`unexpand --first-only {file value}`
 
 - Have tabs a certain number of characters apart, not 8 (enables -a):
 
-`unexpand -t {any something} {file something}`
+`unexpand -t {string value: number} {file value}`

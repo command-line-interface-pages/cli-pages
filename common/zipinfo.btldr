@@ -5,8 +5,8 @@
 
 - List all files in a `.zip` file in long format (permissions, ownership, size, and modification date):
 
-`zipinfo {any something}`
+`zipinfo {string value: path/to/archive.zip}`
 
 - List all files in a `.zip` file:
 
-`zipinfo -1 {any something}`
+`zipinfo -1 {string value: path/to/archive.zip}`

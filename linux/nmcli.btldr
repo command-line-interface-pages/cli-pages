@@ -6,7 +6,7 @@
 
 - Run an `nmcli` subcommand:
 
-`nmcli {any something} {any something}`
+`nmcli {string value: agent|connection|device|general|help|monitor|networking|radio} {string value: command_options}`
 
 - Display the current version of NetworkManager:
 
@@ -18,4 +18,4 @@
 
 - Display help for a subcommand:
 
-`nmcli {any something} --help`
+`nmcli {string value: subcommand} --help`

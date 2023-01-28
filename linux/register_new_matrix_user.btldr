@@ -5,12 +5,12 @@
 
 - Create a user interactively:
 
-`register_new_matrix_user --config {any something}`
+`register_new_matrix_user --config {string value: path/to/homeserver.yaml}`
 
 - Create an admin user interactively:
 
-`register_new_matrix_user --config {any something} --admin`
+`register_new_matrix_user --config {string value: path/to/homeserver.yaml} --admin`
 
 - Create an admin user non-interactively (not recommended):
 
-`register_new_matrix_user --config {any something} --user {string user} --password {any something} --admin`
+`register_new_matrix_user --config {string value: path/to/homeserver.yaml} --user {string user} --password {string value: password} --admin`

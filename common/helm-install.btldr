@@ -5,28 +5,28 @@
 
 - Install a helm chart:
 
-`helm install {any something} {any something}/{any something}`
+`helm install {string value: name} {string value: repository_name}/{string value: chart_name}`
 
 - Install a helm chart from an unpacked chart directory:
 
-`helm install {any something} {directory something: source}`
+`helm install {string value: name} {directory value: source}`
 
 - Install a helm chart from a URL:
 
-`helm install {any something} {any something}`
+`helm install {string value: package_name} {string value: https://example.com/charts/packagename-1.2.3.tgz}`
 
 - Install a helm chart and generate a name:
 
-`helm install {any something}/{any something} --generate-name`
+`helm install {string value: repository_name}/{string value: chart_name} --generate-name`
 
 - Perform a dry run:
 
-`helm install {any something} {any something}/{any something} --dry-run`
+`helm install {string value: name} {string value: repository_name}/{string value: chart_name} --dry-run`
 
 - Install a helm chart with custom values:
 
-`helm install {any something} {any something}/{any something} --set {any something}={any something},{any something}={any something}`
+`helm install {string value: name} {string value: repository_name}/{string value: chart_name} --set {string value: parameter1}={string value: value1},{string value: parameter2}={string value: value2}`
 
 - Install a helm chart passing a custom values file:
 
-`helm install {any something} {any something}/{any something} --values {any something}`
+`helm install {string value: name} {string value: repository_name}/{string value: chart_name} --values {string value: path/to/values.yaml}`

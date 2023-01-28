@@ -5,32 +5,32 @@
 
 - Send a GET request (default method with no request data):
 
-`http {any something}`
+`http {string value: https://example.com}`
 
 - Send a POST request (default method with request data):
 
-`http {any something} {any something}`
+`http {string value: https://example.com} {string value: hello=World}`
 
 - Send a POST request with redirected input:
 
-`http {any something} < {file something}`
+`http {string value: https://example.com} < {file value: sample.json}`
 
 - Send a PUT request with a given JSON body:
 
-`http PUT {any something} {any something}`
+`http PUT {string value: https://example.com/todos/7} {string value: hello=world}`
 
 - Send a DELETE request with a given request header:
 
-`http DELETE {any something} {any something}`
+`http DELETE {string value: https://example.com/todos/7} {string value: API-Key:foo}`
 
 - Show the whole HTTP exchange (both request and response):
 
-`http -v {any something}`
+`http -v {string value: https://example.com}`
 
 - Download a file:
 
-`http --download {any something}`
+`http --download {string value: https://example.com}`
 
 - Follow redirects and show intermediary requests and responses:
 
-`http --follow --all {any something}`
+`http --follow --all {string value: https://example.com}`

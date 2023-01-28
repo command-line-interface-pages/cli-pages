@@ -6,32 +6,32 @@
 
 - Download the contents of a URL to a file:
 
-`curl {any something} --output {file something}`
+`curl {string value: http://example.com} --output {file value}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 
-`curl --remote-name {any something}`
+`curl --remote-name {string value: http://example.com/filename}`
 
 - Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
 
-`curl --fail --remote-name --location --continue-at - {any something}`
+`curl --fail --remote-name --location --continue-at - {string value: http://example.com/filename}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 
-`curl --data {any something} {any something}`
+`curl --data {string value: 'name=bob'} {string value: http://example.com/form}`
 
 - Send a request with an extra header, using a custom HTTP method:
 
-`curl --header {any something} --request {any something} {any something}`
+`curl --header {string value: 'X-My-Header: 123'} --request {string value: PUT} {string value: http://example.com}`
 
 - Send data in JSON format, specifying the appropriate content-type header:
 
-`curl --data {{'{"name":"bob"}'}} --header {any something} {any something}`
+`curl --data {{'{"name":"bob"}'}} --header {string value: 'Content-Type: application/json'} {string value: http://example.com/users/1234}`
 
 - Pass a username and password for server authentication:
 
-`curl --user myusername:mypassword {any something}`
+`curl --user myusername:mypassword {string value: http://example.com}`
 
 - Pass client certificate and key for a resource, skipping certificate validation:
 
-`curl --cert {any something} --key {any something} --insecure {any something}`
+`curl --cert {string value: client.pem} --key {string value: key.pem} --insecure {string value: https://example.com}`

@@ -17,19 +17,19 @@
 
 - Deploy locally:
 
-`spatial local launch {any something} --snapshot={file something: snapshot}`
+`spatial local launch {string value: launch_config} --snapshot={file value: snapshot}`
 
 - Launch a local worker to connect to your local deployment:
 
-`spatial local worker launch {any something} {any something}`
+`spatial local worker launch {string value: worker_type} {string value: launch_config}`
 
 - Upload an assembly to use for cloud deployments:
 
-`spatial cloud upload {any something}`
+`spatial cloud upload {string value: assembly_name}`
 
 - Launch a cloud deployment:
 
-`spatial cloud launch {any something} {any something} {any something}`
+`spatial cloud launch {string value: assembly_name} {string value: launch_config} {string value: deployment_name}`
 
 - Clean worker directories:
 

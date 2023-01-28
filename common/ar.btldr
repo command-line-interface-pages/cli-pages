@@ -6,20 +6,20 @@
 
 - E[x]tract all members from an archive:
 
-`ar x {file something}`
+`ar x {file value: sample.a}`
 
 - Lis[t] contents in a specific archive:
 
-`ar t {file something}`
+`ar t {file value: sample.ar}`
 
 - [r]eplace or add specific files to an archive:
 
-`ar r {file something} {any something}`
+`ar r {file value: sample.deb} {string value: path/to/debian-binary path/to/control.tar.gz path/to/data.tar.xz ...}`
 
 - In[s]ert an object file index (equivalent to using `ranlib`):
 
-`ar s {file something}`
+`ar s {file value: sample.a}`
 
 - Create an archive with specific files and an accompanying object file index:
 
-`ar rs {file something} {any something}`
+`ar rs {file value: sample.a} {file* value: sample.o}`

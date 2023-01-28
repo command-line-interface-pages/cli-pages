@@ -29,8 +29,8 @@
 
 - Exclude the devices specified by the comma-separated list of major device numbers:
 
-`lsblk -e {any something}`
+`lsblk -e {string value: 1,7}`
 
 - Display a customized summary using a comma-separated list of columns:
 
-`lsblk --output {any something},{any something},{any something},{any something},{any something},{any something},{any something},{any something}`
+`lsblk --output {string value: NAME},{string value: SERIAL},{string value: MODEL},{string value: TRAN},{string value: TYPE},{string value: SIZE},{string value: FSTYPE},{string value: MOUNTPOINT}`

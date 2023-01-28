@@ -17,7 +17,7 @@
 
 - Encrypt values in `.travis.yml`:
 
-`travis encrypt {any something}`
+`travis encrypt {string value: token}`
 
 - Generate a `.travis.yml` file and enable the project:
 

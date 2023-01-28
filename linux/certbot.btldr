@@ -6,15 +6,15 @@
 
 - Obtain a new certificate via webroot authorization, but do not install it automatically:
 
-`sudo certbot certonly --webroot --webroot-path {any something} --domain {any something}`
+`sudo certbot certonly --webroot --webroot-path {string value: path/to/webroot} --domain {string value: subdomain.example.com}`
 
 - Obtain a new certificate via nginx authorization, installing the new certificate automatically:
 
-`sudo certbot --nginx --domain {any something}`
+`sudo certbot --nginx --domain {string value: subdomain.example.com}`
 
 - Obtain a new certificate via apache authorization, installing the new certificate automatically:
 
-`sudo certbot --apache --domain {any something}`
+`sudo certbot --apache --domain {string value: subdomain.example.com}`
 
 - Renew all Let's Encrypt certificates that expire in 30 days or less (don't forget to restart any servers that use them afterwards):
 
@@ -22,8 +22,8 @@
 
 - Simulate the obtaining of a new certificate, but don't actually save any new certificates to disk:
 
-`sudo certbot --webroot --webroot-path {any something} --domain {any something} --dry-run`
+`sudo certbot --webroot --webroot-path {string value: path/to/webroot} --domain {string value: subdomain.example.com} --dry-run`
 
 - Obtain an untrusted test certificate instead:
 
-`sudo certbot --webroot --webroot-path {any something} --domain {any something} --test-cert`
+`sudo certbot --webroot --webroot-path {string value: path/to/webroot} --domain {string value: subdomain.example.com} --test-cert`

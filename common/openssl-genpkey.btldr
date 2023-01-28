@@ -5,12 +5,12 @@
 
 - Generate an RSA private key of 2048 bits, saving it to a specific file:
 
-`openssl genpkey -algorithm rsa -pkeyopt rsa_keygen_bits:{int number: 2048} -out {any something}`
+`openssl genpkey -algorithm rsa -pkeyopt rsa_keygen_bits:{int value: 2048} -out {file value: sample.key}`
 
 - Generate an elliptic curve private key using the curve `prime256v1`, saving it to a specific file:
 
-`openssl genpkey -algorithm EC -pkeyopt ec_paramgen_curve:{any something} -out {any something}`
+`openssl genpkey -algorithm EC -pkeyopt ec_paramgen_curve:{string value: prime256v1} -out {file value: sample.key}`
 
 - Generate an `ED25519` elliptic curve private key, saving it to a specific file:
 
-`openssl genpkey -algorithm {any something} -out {any something}`
+`openssl genpkey -algorithm {string value: ED25519} -out {file value: sample.key}`

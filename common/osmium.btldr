@@ -5,32 +5,32 @@
 
 - Show file information:
 
-`osmium fileinfo {any something}`
+`osmium fileinfo {string value: path/to/input.osm}`
 
 - Display contents:
 
-`osmium show {any something}`
+`osmium show {string value: path/to/input.osm}`
 
 - Convert file format from PBF into XML:
 
-`osmium cat {any something} -o {any something}`
+`osmium cat {string value: path/to/input.osm.pbf} -o {string value: path/to/output.osm}`
 
 - Extract a geographic region by the given [b]ounding box:
 
-`osmium extract -b {any something},{any something},{any something},{any something} {any something} -o {any something}`
+`osmium extract -b {string value: min_longitude},{string value: min_latitude},{string value: max_longitude},{string value: max_latitude} {string value: path/to/input.pbf} -o {string value: path/to/output.pbf}`
 
 - Extract a geographic region by a GeoJSON file:
 
-`osmium extract -p {any something} {any something} -o {any something}`
+`osmium extract -p {string value: path/to/polygon.geojson} {string value: path/to/input.pbf} -o {string value: path/to/output.pbf}`
 
 - Filter all objects tagged as "restaurant":
 
-`osmium tags-filter {any something} amenity=restaurant -o {any something}`
+`osmium tags-filter {string value: path/to/input.pbf} amenity=restaurant -o {string value: path/to/output.pbf}`
 
 - Filter for "way" objects tagged as "highway":
 
-`osmium tags-filter {any something} w/highway -o {any something}`
+`osmium tags-filter {string value: path/to/input.pbf} w/highway -o {string value: path/to/output.pbf}`
 
 - Filter "way" and "relation" objects tagged as "building":
 
-`osmium tags-filter {any something} wr/building -o {any something}`
+`osmium tags-filter {string value: path/to/input.pbf} wr/building -o {string value: path/to/output.pbf}`

@@ -9,16 +9,16 @@
 
 - Destroy a model named Post:
 
-`rails destroy model {any something}`
+`rails destroy model {string value: Post}`
 
 - Destroy a controller named Posts:
 
-`rails destroy controller {any something}`
+`rails destroy controller {string value: Posts}`
 
 - Destroy a migration that creates Posts:
 
-`rails destroy migration {any something}`
+`rails destroy migration {string value: CreatePosts}`
 
 - Destroy a scaffold for a model named Post:
 
-`rails destroy scaffold {any something}`
+`rails destroy scaffold {string value: Post}`

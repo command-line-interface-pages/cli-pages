@@ -6,11 +6,11 @@
 
 - Open cmus into the specified directory (this will become your new working directory):
 
-`cmus {directory something}`
+`cmus {directory value}`
 
 - Add file/directory to library:
 
-`:add {file something|path something}`
+`:add {path value}`
 
 - Pause/unpause current song:
 

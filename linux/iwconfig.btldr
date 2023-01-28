@@ -9,12 +9,12 @@
 
 - Show the parameters and statistics of the specified interface:
 
-`iwconfig {any something}`
+`iwconfig {string value: interface}`
 
 - Set the ESSID (network name) of the specified interface (e.g. eth0 or wlp2s0):
 
-`iwconfig {any something} {any something}`
+`iwconfig {string value: interface} {string value: new_network_name}`
 
 - Set the operating mode of the specified interface:
 
-`iwconfig {any something} mode {any something}`
+`iwconfig {string value: interface} mode {string value: ad hoc|Managed|Master|Repeater|Secondary|Monitor|Auto}`

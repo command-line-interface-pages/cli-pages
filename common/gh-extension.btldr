@@ -5,11 +5,11 @@
 
 - Initialize a new GitHub CLI extension project in a directory of the same name:
 
-`gh extension create {any something}`
+`gh extension create {string value: extension_name}`
 
 - Install an extension from a GitHub repository:
 
-`gh extension install {any something}/{any something}`
+`gh extension install {string value: owner}/{string value: repository}`
 
 - List installed extensions:
 
@@ -17,7 +17,7 @@
 
 - Upgrade a specific extension:
 
-`gh extension upgrade {any something}`
+`gh extension upgrade {string value: extension_name}`
 
 - Upgrade all extensions:
 
@@ -29,8 +29,8 @@
 
 - Remove an extension:
 
-`gh extension remove {any something}`
+`gh extension remove {string value: extension_name}`
 
 - Display help about a subcommand:
 
-`gh extension {any something} --help`
+`gh extension {string value: subcommand} --help`

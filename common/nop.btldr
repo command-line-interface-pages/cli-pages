@@ -6,11 +6,11 @@
 
 - Pretty-print one or more graphs in canonical format:
 
-`nop {any something} {any something} > {any something}`
+`nop {string value: path/to/input1.gv} {string value: path/to/input2.gv ...} > {string value: path/to/output.gv}`
 
 - Check one or more graphs for validity, producing no output graph:
 
-`nop -p {any something} {any something}`
+`nop -p {string value: path/to/input1.gv} {string value: path/to/input2.gv ...}`
 
 - Display help for `nop`:
 

@@ -5,4 +5,4 @@
 
 - Create a named pipe at a given path:
 
-`mkfifo {any something}`
+`mkfifo {string value: path/to/pipe}`

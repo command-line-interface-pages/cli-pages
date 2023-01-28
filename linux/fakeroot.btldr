@@ -9,19 +9,19 @@
 
 - Run a command as fakeroot:
 
-`fakeroot -- {any something} {any something}`
+`fakeroot -- {string value: command} {string value: command_arguments}`
 
 - Run a command as fakeroot and save the environment to a file on exit:
 
-`fakeroot -s {file something} -- {any something} {any something}`
+`fakeroot -s {file value} -- {string value: command} {string value: command_arguments}`
 
 - Load a fakeroot environment and run a command as fakeroot:
 
-`fakeroot -i {file something} -- {any something} {any something}`
+`fakeroot -i {file value} -- {string value: command} {string value: command_arguments}`
 
 - Run a command keeping the real ownership of files instead of pretending they are owned by root:
 
-`fakeroot --unknown-is-real -- {any something} {any something}`
+`fakeroot --unknown-is-real -- {string value: command} {string value: command_arguments}`
 
 - Display help:
 

@@ -14,4 +14,4 @@
 
 - Use the `Width` parameter to prevent truncation:
 
-`@{TestKey = ('x' * 200)} | Out-String -Width {int number: 250}`
+`@{TestKey = ('x' * 200)} | Out-String -Width {int value: 250}`

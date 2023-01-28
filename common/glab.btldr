@@ -6,7 +6,7 @@
 
 - Clone a GitLab repository locally:
 
-`glab repo clone {any something}/{any something}`
+`glab repo clone {string value: owner}/{string value: repository}`
 
 - Create a new issue:
 
@@ -18,7 +18,7 @@
 
 - View an issue in the default browser:
 
-`glab issue view --web {any something}`
+`glab issue view --web {string value: issue_number}`
 
 - Create a merge request:
 
@@ -26,8 +26,8 @@
 
 - View a pull request in the default web browser:
 
-`glab mr view --web {any something}`
+`glab mr view --web {string value: pr_number}`
 
 - Check out a specific pull request locally:
 
-`glab mr checkout {any something}`
+`glab mr checkout {string value: pr_number}`

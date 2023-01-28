@@ -5,16 +5,16 @@
 
 - Play a sound file (waits until playback ends):
 
-`afplay {file something}`
+`afplay {file value}`
 
 - Play a sound file at 2x speed (playback rate):
 
-`afplay --rate {int number: 2} {file something}`
+`afplay --rate {int value: 2} {file value}`
 
 - Play a sound file at half speed:
 
-`afplay --rate {float number: 0.5} {file something}`
+`afplay --rate {float value: 0.5} {file value}`
 
 - Play the first N seconds of a sound file:
 
-`afplay --time {any something} {file something}`
+`afplay --time {string value: seconds} {file value}`

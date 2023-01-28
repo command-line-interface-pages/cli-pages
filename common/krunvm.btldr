@@ -5,11 +5,11 @@
 
 - Create MicroVM based on Fedora:
 
-`krunvm create {any something} --cpus {any something} --mem {any something} --name "{any something}"`
+`krunvm create {string value: docker.io/fedora} --cpus {string value: number_of_vcpus} --mem {string value: memory_in_megabytes} --name "{string value: name}"`
 
 - Start a specific image:
 
-`krunvm start "{any something}"`
+`krunvm start "{string value: image_name}"`
 
 - List images:
 
@@ -17,8 +17,8 @@
 
 - Change a specific image:
 
-`krunvm changevm --cpus {any something} --mem {any something} --name "{any something}" "{any something}"`
+`krunvm changevm --cpus {string value: number_of_vcpus} --mem {string value: memory_in_megabytes} --name "{string value: new_vm_name}" "{string value: current_vm_name}"`
 
 - Delete a specific image:
 
-`krunvm delete "{any something}"`
+`krunvm delete "{string value: image_name}"`

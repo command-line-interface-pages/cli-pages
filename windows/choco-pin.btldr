@@ -10,12 +10,12 @@
 
 - Pin a package at its current version:
 
-`choco pin add --name {any something}`
+`choco pin add --name {string value: package}`
 
 - Pin a package at a specific version:
 
-`choco pin add --name {any something} --version {any something}`
+`choco pin add --name {string value: package} --version {string value: version}`
 
 - Remove a pin for a specific package:
 
-`choco pin remove --name {any something}`
+`choco pin remove --name {string value: package}`

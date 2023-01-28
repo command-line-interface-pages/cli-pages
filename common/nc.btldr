@@ -5,28 +5,28 @@
 
 - Listen on a specified port and print any data received:
 
-`nc -l {any something}`
+`nc -l {string value: port}`
 
 - Connect to a certain port:
 
-`nc {any something} {any something}`
+`nc {string value: ip_address} {string value: port}`
 
 - Set a timeout:
 
-`nc -w {any something} {any something} {any something}`
+`nc -w {string value: timeout_in_seconds} {string value: ipaddress} {string value: port}`
 
 - Keep the server up after the client detaches:
 
-`nc -k -l {any something}`
+`nc -k -l {string value: port}`
 
 - Keep the client up even after EOF:
 
-`nc -q {any something} {any something}`
+`nc -q {string value: timeout} {string value: ip_address}`
 
 - Scan the open ports of a specified host:
 
-`nc -v -z {any something} {any something}`
+`nc -v -z {string value: ip_address} {string value: port}`
 
 - Act as proxy and forward data from a local TCP port to the given remote host:
 
-`nc -l {any something} | nc {any something} {any something}`
+`nc -l {string value: local_port} | nc {string value: hostname} {string value: remote_port}`

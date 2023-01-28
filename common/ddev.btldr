@@ -21,12 +21,12 @@
 
 - Install a specific Node.js version:
 
-`ddev nvm install {any something}`
+`ddev nvm install {string value: version}`
 
 - Export a database:
 
-`ddev export-db --file={any something}`
+`ddev export-db --file={string value: /tmp/db.sql.gz}`
 
 - Run a specific command within a container:
 
-`ddev exec {any something}`
+`ddev exec {string value: echo 1}`

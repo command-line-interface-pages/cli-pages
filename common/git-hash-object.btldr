@@ -5,16 +5,16 @@
 
 - Compute the object ID without storing it:
 
-`git hash-object {file something}`
+`git hash-object {file value}`
 
 - Compute the object ID and store it in the Git database:
 
-`git hash-object -w {file something}`
+`git hash-object -w {file value}`
 
 - Compute the object ID specifying the object type:
 
-`git hash-object -t {any something} {file something}`
+`git hash-object -t {string value: blob|commit|tag|tree} {file value}`
 
 - Compute the object ID from stdin:
 
-`cat {file something} | git hash-object --stdin`
+`cat {file value} | git hash-object --stdin`

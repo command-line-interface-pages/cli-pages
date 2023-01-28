@@ -5,7 +5,7 @@
 
 - List all subkeys of a given option key:
 
-`nixos-option {any something}`
+`nixos-option {string value: option_key}`
 
 - List current boot kernel modules:
 
@@ -13,7 +13,7 @@
 
 - List authorized keys for a specific user:
 
-`nixos-option users.users.{string user}.openssh.authorizedKeys.{any something}`
+`nixos-option users.users.{string user}.openssh.authorizedKeys.{string value: keyFiles|keys}`
 
 - List all remote builders:
 
@@ -21,8 +21,8 @@
 
 - List all subkeys of a given key on another NixOS configuration:
 
-`NIXOS_CONFIG={any something} nixos-option {any something}`
+`NIXOS_CONFIG={string value: path_to_configuration.nix} nixos-option {string value: option_key}`
 
 - Show recursively all values of a user:
 
-`nixos-option -r users.users.{any something}`
+`nixos-option -r users.users.{string value: user}`

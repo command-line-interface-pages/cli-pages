@@ -5,7 +5,7 @@
 
 - Create a new project using the default template:
 
-`spike new {any something}`
+`spike new {string value: project_name}`
 
 - Compile your project, watch for changes, and auto-reload the browser:
 

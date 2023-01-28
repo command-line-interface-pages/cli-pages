@@ -5,16 +5,16 @@
 
 - Take ownership of the specified file:
 
-`takeown /f {file something}`
+`takeown /f {file value}`
 
 - Take ownership of the specified directory:
 
-`takeown /d {directory something}`
+`takeown /d {directory value}`
 
 - Take ownership of the specified directory and all subdirectories:
 
-`takeown /r /d {directory something}`
+`takeown /r /d {directory value}`
 
 - Change ownership to the Administrator group instead of the current user:
 
-`takeown /a /f {file something}`
+`takeown /a /f {file value}`

@@ -5,28 +5,28 @@
 
 - Print the contents of a file to the stdout:
 
-`cat {file something}`
+`cat {file value}`
 
 - Concatenate several files into an output file:
 
-`cat {any something} > {file something: output}`
+`cat {file* value} > {file value: output}`
 
 - Append several files to an output file:
 
-`cat {any something} >> {file something: output}`
+`cat {file* value} >> {file value: output}`
 
 - Copy the contents of a file into an output file without buffering:
 
-`cat -u {any something} > {any something}`
+`cat -u {string value: /dev/tty12} > {string value: /dev/tty13}`
 
 - Write stdin to a file:
 
-`cat - > {file something}`
+`cat - > {file value}`
 
 - Number all output lines:
 
-`cat -n {file something}`
+`cat -n {file value}`
 
 - Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
 
-`cat -v -t -e {file something}`
+`cat -v -t -e {file value}`

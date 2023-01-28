@@ -5,20 +5,20 @@
 
 - Run a command once for each line of input data as arguments:
 
-`{any something} | xe {any something}`
+`{string value: arguments_source} | xe {string value: command}`
 
 - Execute the commands, replacing any occurrence of the placeholder (marked as `{}`) with the input line:
 
-`{any something} | xe {any something} {} {any something}`
+`{string value: arguments_source} | xe {string value: command} {} {string value: optional_extra_arguments}`
 
 - Execute a shellscript, joining every `N` lines into a single call:
 
-`echo -e 'a\nb' | xe -N{int number: 2} -s 'echo $2 $1'`
+`echo -e 'a\nb' | xe -N{int value: 2} -s 'echo $2 $1'`
 
 - Delete all files with a `.backup` extension:
 
-`find . -name {any something} | xe rm -v`
+`find . -name {string value: '*.backup'} | xe rm -v`
 
 - Run up to `max-jobs` processes in parallel; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
 
-`{any something} | xe -j {any something} {any something}`
+`{string value: arguments_source} | xe -j {string value: max-jobs} {string value: command}`

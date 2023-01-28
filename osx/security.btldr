@@ -9,24 +9,24 @@
 
 - Delete a specific keychain:
 
-`security delete-keychain {file something}`
+`security delete-keychain {file value: sample.keychain}`
 
 - Create a keychain:
 
-`security create-keychain -p {any something} {file something}`
+`security create-keychain -p {string value: password} {file value: sample.keychain}`
 
 - Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):
 
-`security set-identity-preference -s {any something} -c "{any something}" {file something}`
+`security set-identity-preference -s {string value: URL|hostname|service} -c "{string value: common_name}" {file value: sample.keychain}`
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k {file something} {any something}`
+`security add-certificates -k {file value: sample.keychain} {string value: path/to/cert.pem}`
 
 - Add a CA certificate to the per-user Trust Settings:
 
-`security add-trusted-cert -k {any something} {any something}`
+`security add-trusted-cert -k {string value: path/to/user-keychain.keychain-db} {string value: path/to/ca-cert.pem}`
 
 - Remove a CA certificate from the per-user Trust Settings:
 
-`security remove-trusted-cert {any something}`
+`security remove-trusted-cert {string value: path/to/ca-cert.pem}`

@@ -6,24 +6,24 @@
 
 - Extract all files/directories from specific archives into the current directory:
 
-`unzip {any something}`
+`unzip {string value: path/to/archive1.zip path/to/archive2.zip ...}`
 
 - Extract files/directories from archives to a specific path:
 
-`unzip {any something} -d {any something}`
+`unzip {string value: path/to/archive1.zip path/to/archive2.zip ...} -d {string value: path/to/output}`
 
 - Extract files/directories from archives to stdout:
 
-`unzip -c {any something}`
+`unzip -c {string value: path/to/archive1.zip path/to/archive2.zip ...}`
 
 - Extract the contents of the file(s) to stdout alongside the extracted file names:
 
-`unzip -O {any something} {any something}`
+`unzip -O {string value: gbk} {string value: path/to/archive1.zip path/to/archive2.zip ...}`
 
 - List the contents of a specific archive without extracting them:
 
-`unzip -l {any something}`
+`unzip -l {string value: path/to/archive.zip}`
 
 - Extract a specific file from an archive:
 
-`unzip -j {any something} {any something}`
+`unzip -j {string value: path/to/archive.zip} {string value: path/to/file_in_archive1 path/to/file_in_archive2 ...}`

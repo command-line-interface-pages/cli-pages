@@ -6,8 +6,8 @@
 
 - Capture packets and display information about a wireless network:
 
-`sudo airodump-ng {any something}`
+`sudo airodump-ng {string value: interface}`
 
 - Capture packets and display information about a wireless network given the MAC address and channel, and save the output to a file:
 
-`sudo airodump-ng --channel {any something} --write {file something} --bssid {any something} {any something}`
+`sudo airodump-ng --channel {string value: channel} --write {file value} --bssid {string value: mac} {string value: interface}`

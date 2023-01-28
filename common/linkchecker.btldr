@@ -5,16 +5,16 @@
 
 - Find broken links on https://example.com/:
 
-`linkchecker {any something}`
+`linkchecker {string value: https://example.com/}`
 
 - Also check URLs that point to external domains:
 
-`linkchecker --check-extern {any something}`
+`linkchecker --check-extern {string value: https://example.com/}`
 
 - Ignore URLs that match a specific regular expression:
 
-`linkchecker --ignore-url {any something} {any something}`
+`linkchecker --ignore-url {string value: regular_expression} {string value: https://example.com/}`
 
 - Output results to a CSV file:
 
-`linkchecker --file-output {any something}/{file something} {any something}`
+`linkchecker --file-output {string value: csv}/{file value} {string value: https://example.com/}`

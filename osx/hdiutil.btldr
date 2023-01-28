@@ -5,11 +5,11 @@
 
 - Mount an image:
 
-`hdiutil attach {file something: image}`
+`hdiutil attach {file value: image}`
 
 - Unmount an image:
 
-`hdiutil detach /Volumes/{any something}`
+`hdiutil detach /Volumes/{string value: volume_name}`
 
 - List mounted images:
 
@@ -17,4 +17,4 @@
 
 - Create an ISO image from the contents of a directory:
 
-`hdiutil makehybrid -o {file something: output} {directory something}`
+`hdiutil makehybrid -o {file value: output} {directory value}`

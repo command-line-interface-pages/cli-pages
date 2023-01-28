@@ -9,12 +9,12 @@
 
 - Display the window manager hints for a window:
 
-`xprop -name "{any something}" WM_HINTS`
+`xprop -name "{string value: window_name}" WM_HINTS`
 
 - Display the point size of a font:
 
-`xprop -font "{any something}" POINT_SIZE`
+`xprop -font "{string value: font_name}" POINT_SIZE`
 
 - Display all the properties of the window with the id 0x200007:
 
-`xprop -id {any something}`
+`xprop -id {string value: 0x200007}`

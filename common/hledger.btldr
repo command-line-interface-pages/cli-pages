@@ -9,7 +9,7 @@
 
 - Show the account hierarchy, using a specific journal file:
 
-`hledger --file {file something} accounts --tree`
+`hledger --file {file value: sample.journal} accounts --tree`
 
 - Show a monthly income statement:
 

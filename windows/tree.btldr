@@ -9,12 +9,12 @@
 
 - Display the tree for a specific directory:
 
-`tree {directory something}`
+`tree {directory value}`
 
 - Display the tree for a directory including files:
 
-`tree {directory something} /f`
+`tree {directory value} /f`
 
 - Display the tree using ASCII characters instead of extended characters:
 
-`tree {directory something} /a`
+`tree {directory value} /a`

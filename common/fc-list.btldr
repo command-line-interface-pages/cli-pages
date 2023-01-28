@@ -9,7 +9,7 @@
 
 - Return a list of installed fonts with given name:
 
-`fc-list | grep '{any something}'`
+`fc-list | grep '{string value: DejaVu Serif}'`
 
 - Return the number of installed fonts in your system:
 

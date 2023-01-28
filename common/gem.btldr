@@ -5,23 +5,23 @@
 
 - Search for remote gem(s) and show all available versions:
 
-`gem search {any something} --all`
+`gem search {string value: regular_expression} --all`
 
 - Install the latest version of a gem:
 
-`gem install {any something}`
+`gem install {string value: gemname}`
 
 - Install specific version of a gem:
 
-`gem install {any something} --version {any something}`
+`gem install {string value: gemname} --version {string value: 1.0.0}`
 
 - Install the latest matching (SemVer) version of a gem:
 
-`gem install {any something} --version '~> {float number: 1.0}'`
+`gem install {string value: gemname} --version '~> {float value: 1.0}'`
 
 - Update a gem:
 
-`gem update {any something}`
+`gem update {string value: gemname}`
 
 - List all local gems:
 
@@ -29,8 +29,8 @@
 
 - Uninstall a gem:
 
-`gem uninstall {any something}`
+`gem uninstall {string value: gemname}`
 
 - Uninstall specific version of a gem:
 
-`gem uninstall {any something} --version {any something}`
+`gem uninstall {string value: gemname} --version {string value: 1.0.0}`

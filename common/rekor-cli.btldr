@@ -5,16 +5,16 @@
 
 - Upload an artifact to Rekor:
 
-`rekor-cli upload --artifact {file something} --signature {any something} --pki-format={any something} --public-key={any something}`
+`rekor-cli upload --artifact {file value: sample.ext} --signature {string value: path/to/file.ext.sig} --pki-format={string value: x509} --public-key={string value: path/to/key.pub}`
 
 - Get information regarding entries in the Transparency Log:
 
-`rekor-cli get --uuid={any something}`
+`rekor-cli get --uuid={string value: 0e81b4d9299e2609e45b5c453a4c0e7820ac74e02c4935a8b830d104632fd2d1}`
 
 - Search the Rekor index to find entries by Artifact:
 
-`rekor-cli search --artifact {file something}`
+`rekor-cli search --artifact {file value: sample.ext}`
 
 - Search the Rekor index to find entries by a specific hash:
 
-`rekor-cli search --sha {any something}`
+`rekor-cli search --sha {string value: 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b}`

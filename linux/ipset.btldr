@@ -5,20 +5,20 @@
 
 - Create an empty IP set which will contain IP addresses:
 
-`ipset create {any something} hash:ip`
+`ipset create {string value: set_name} hash:ip`
 
 - Destroy a specific IP set:
 
-`ipset destroy {any something}`
+`ipset destroy {string value: set_name}`
 
 - Add an IP address to a specific set:
 
-`ipset add {any something} {any something}`
+`ipset add {string value: set_name} {string value: 192.168.1.25}`
 
 - Delete a specific IP address from a set:
 
-`ipset del {any something} {any something}`
+`ipset del {string value: set_name} {string value: 192.168.1.25}`
 
 - Save an IP set:
 
-`ipset save {any something} > {any something}`
+`ipset save {string value: set_name} > {string value: path/to/ip_set}`

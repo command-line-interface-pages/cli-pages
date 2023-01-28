@@ -6,4 +6,4 @@
 
 - View a CSV file:
 
-`csvlook {any something}`
+`csvlook {string value: data.csv}`

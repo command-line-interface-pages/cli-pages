@@ -5,16 +5,16 @@
 
 - Compile a file to an object file:
 
-`adscript --output {file something} {file something: input}`
+`adscript --output {file value: sample.o} {file value: input.adscript}`
 
 - Compile and link a file to a standalone executable:
 
-`adscript --executable --output {file something} {file something: input}`
+`adscript --executable --output {file value} {file value: input.adscript}`
 
 - Compile a file to LLVM IR instead of native machine code:
 
-`adscript --llvm-ir --output {file something} {file something: input}`
+`adscript --llvm-ir --output {file value: sample.ll} {file value: input.adscript}`
 
 - Cross-compile a file to an object file for a foreign CPU architecture or operating system:
 
-`adscript --target-triple {any something} --output {file something} {file something: input}`
+`adscript --target-triple {string value: i386-linux-elf} --output {file value: sample.o} {file value: input.adscript}`

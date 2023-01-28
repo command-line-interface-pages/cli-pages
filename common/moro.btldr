@@ -9,7 +9,7 @@
 
 - Specify a custom time for the start of the working day:
 
-`moro hi {any something}`
+`moro hi {string value: 09:30}`
 
 - Invoke `moro` without parameters a second time, to set the current time at the end of the working day:
 
@@ -17,11 +17,11 @@
 
 - Specify a custom time for the end of the working day:
 
-`moro bye {any something}`
+`moro bye {string value: 17:30}`
 
 - Add a note on the current working day:
 
-`moro note {any something}`
+`moro note {string value: 3 hours on project Foo}`
 
 - Show a report of time logs and notes for the current working day:
 

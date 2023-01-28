@@ -9,7 +9,7 @@
 
 - Connect to a hypervisor:
 
-`virt-manager --connect {any something}`
+`virt-manager --connect {string value: hypervisor_uri}`
 
 - Don't fork virt-manager process into background on startup:
 
@@ -25,11 +25,11 @@
 
 - Show domain details window:
 
-`virt-manager --show-domain-editor {any something}`
+`virt-manager --show-domain-editor {string value: name|id|uuid}`
 
 - Show domain performance window:
 
-`virt-manager --show-domain-performance {any something}`
+`virt-manager --show-domain-performance {string value: name|id|uuid}`
 
 - Show connection details window:
 

@@ -22,8 +22,8 @@
 
 - Exec into a pod's container:
 
-`execpod {any something}`
+`execpod {string value: shell_command}`
 
 - Port-forward a pod:
 
-`pfpod {any something}`
+`pfpod {string value: port_number}`

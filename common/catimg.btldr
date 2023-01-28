@@ -6,16 +6,16 @@
 
 - Print a JPEG, PNG, or GIF to the terminal:
 
-`catimg {file something}`
+`catimg {file value}`
 
 - Double the [r]esolution of an image:
 
-`catimg -r 2 {file something}`
+`catimg -r 2 {file value}`
 
 - Disable 24-bit color for better [t]erminal support:
 
-`catimg -t {file something}`
+`catimg -t {file value}`
 
 - Specify a custom [w]idth or [H]eight:
 
-`catimg {any something} {int number: 40} {file something}`
+`catimg {string value: -w|-H} {int value: 40} {file value}`

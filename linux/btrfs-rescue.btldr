@@ -5,19 +5,19 @@
 
 - Rebuild the filesystem metadata tree (very slow):
 
-`sudo btrfs rescue chunk-recover {any something}`
+`sudo btrfs rescue chunk-recover {string value: path/to/partition}`
 
 - Fix device size alignment related problems (e.g. unable to mount the filesystem with super total bytes mismatch):
 
-`sudo btrfs rescue fix-device-size {any something}`
+`sudo btrfs rescue fix-device-size {string value: path/to/partition}`
 
 - Recover a corrupted superblock from correct copies (recover the root of filesystem tree):
 
-`sudo btrfs rescue super-recover {any something}`
+`sudo btrfs rescue super-recover {string value: path/to/partition}`
 
 - Recover from an interrupted transactions (fixes log replay problems):
 
-`sudo btrfs rescue zero-log {any something}`
+`sudo btrfs rescue zero-log {string value: path/to/partition}`
 
 - Create a `/dev/btrfs-control` control device when `mknod` is not installed:
 

@@ -6,16 +6,16 @@
 
 - Set a reminder at a given time:
 
-`leave {any something}`
+`leave {string value: time_to_leave}`
 
 - Set a reminder to leave at noon:
 
-`leave {int number: 1200}`
+`leave {int value: 1200}`
 
 - Set a reminder in a specific amount of time:
 
-`leave +{any something}`
+`leave +{string value: amount_of_time}`
 
 - Set a reminder to leave in 4 hours and 4 minutes:
 
-`leave +{int number: 0404}`
+`leave +{int value: 0404}`

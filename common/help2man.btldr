@@ -5,19 +5,19 @@
 
 - Generate a man page for an executable:
 
-`help2man {any something}`
+`help2man {string value: executable}`
 
 - Specify the "name" paragraph in the man page:
 
-`help2man {any something} --name {any something}`
+`help2man {string value: executable} --name {string value: name}`
 
 - Specify the section for the man page (defaults to 1):
 
-`help2man {any something} --section {any something}`
+`help2man {string value: executable} --section {string value: section}`
 
 - Output to a file instead of stdout:
 
-`help2man {any something} --output {file something}`
+`help2man {string value: executable} --output {file value}`
 
 - Display detailed help:
 

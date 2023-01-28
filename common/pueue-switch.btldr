@@ -5,4 +5,4 @@
 
 - Switch the priority of two tasks:
 
-`pueue switch {any something} {any something}`
+`pueue switch {string value: task_id1} {string value: task_id2}`

@@ -7,11 +7,11 @@
 
 - Open a file:
 
-`vim {file something}`
+`vim {file value}`
 
 - Open a file at a specified line number:
 
-`vim +{any something} {file something}`
+`vim +{string value: line_number} {file value}`
 
 - View Vim's help manual:
 
@@ -27,11 +27,11 @@
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`/{any something}<Enter>`
+`/{string value: search_pattern}<Enter>`
 
 - Perform a regular expression substitution in the whole file:
 
-`:%s/{any something}/{any something}/g<Enter>`
+`:%s/{string value: regular_expression}/{string value: replacement}/g<Enter>`
 
 - Display the line numbers:
 

@@ -9,12 +9,12 @@
 
 - Remove one or more images given their names:
 
-`docker rmi {any something}`
+`docker rmi {string value: image1 image2 ...}`
 
 - Force remove an image:
 
-`docker rmi --force {any something}`
+`docker rmi --force {string value: image}`
 
 - Remove an image without deleting untagged parents:
 
-`docker rmi --no-prune {any something}`
+`docker rmi --no-prune {string value: image}`

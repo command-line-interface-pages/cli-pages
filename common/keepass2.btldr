@@ -9,8 +9,8 @@
 
 - Start KeePass 2, opening a specific password database:
 
-`keepass2 {any something}`
+`keepass2 {string value: path/to/database.kbdx}`
 
 - Use a specific key file to open a password database:
 
-`keepass2 {any something} -keyfile:{any something}`
+`keepass2 {string value: path/to/database.kbdx} -keyfile:{string value: path/to/key/file.key}`

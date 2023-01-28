@@ -5,15 +5,15 @@
 
 - Add space-separated files or directories to a Phar file:
 
-`phar add -f {file something: phar} {directory* something: files_or}`
+`phar add -f {file value: phar} {directory* value: files_or}`
 
 - Display the contents of a Phar file:
 
-`phar list -f {file something: phar}`
+`phar list -f {file value: phar}`
 
 - Delete the specified file or directory from a Phar file:
 
-`phar delete -f {file something: phar} -e {file something|path something}`
+`phar delete -f {file value: phar} -e {path value}`
 
 - Display full usage information and available hashing/compression algorithms:
 
@@ -21,16 +21,16 @@
 
 - Compress or uncompress files and directories in a Phar file:
 
-`phar compress -f {file something: phar} -c {any something}`
+`phar compress -f {file value: phar} -c {string value: algorithm}`
 
 - Get information about a Phar file:
 
-`phar info -f {file something: phar}`
+`phar info -f {file value: phar}`
 
 - Sign a Phar file with a specific hash algorithm:
 
-`phar sign -f {file something: phar} -h {any something}`
+`phar sign -f {file value: phar} -h {string value: algorithm}`
 
 - Sign a Phar file with an OpenSSL private key:
 
-`phar sign -f {file something: phar} -h openssl -y {any something}`
+`phar sign -f {file value: phar} -h openssl -y {string value: path/to/private_key}`

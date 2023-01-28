@@ -5,32 +5,32 @@
 
 - Consume messages starting with the newest offset:
 
-`kcat -C -t {any something} -b {any something}`
+`kcat -C -t {string value: topic} -b {string value: brokers}`
 
 - Consume messages starting with the oldest offset and exit after the last message is received:
 
-`kcat -C -t {any something} -b {any something} -o beginning -e`
+`kcat -C -t {string value: topic} -b {string value: brokers} -o beginning -e`
 
 - Consume messages as a Kafka consumer group:
 
-`kcat -G {any something} {any something} -b {any something}`
+`kcat -G {string value: group_id} {string value: topic} -b {string value: brokers}`
 
 - Publish message by reading from stdin:
 
-` echo {any something} | kcat -P -t {any something} -b {any something}`
+` echo {string value: message} | kcat -P -t {string value: topic} -b {string value: brokers}`
 
 - Publish messages by reading from a file:
 
-`kcat -P -t {any something} -b {any something} {file something}`
+`kcat -P -t {string value: topic} -b {string value: brokers} {file value}`
 
 - List metadata for all topics and brokers:
 
-`kcat -L -b {any something}`
+`kcat -L -b {string value: brokers}`
 
 - List metadata for a specific topic:
 
-`kcat -L -t {any something} -b {any something}`
+`kcat -L -t {string value: topic} -b {string value: brokers}`
 
 - Get offset for a topic/partition for a specific point in time:
 
-`kcat -Q -t {any something}:{any something}:{any something} -b {any something}`
+`kcat -Q -t {string value: topic}:{string value: partition}:{string value: unix_timestamp} -b {string value: brokers}`

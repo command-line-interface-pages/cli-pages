@@ -18,15 +18,15 @@
 
 - Run a task without concurrency:
 
-`turbo run {any something} --concurrency={int number: 1}`
+`turbo run {string value: task_name} --concurrency={int value: 1}`
 
 - Run a task ignoring cached artifacts and forcibly re-execute all tasks:
 
-`turbo run {any something} --force`
+`turbo run {string value: task_name} --force`
 
 - Run a task in parallel across packages:
 
-`turbo run {any something} --parallel --no-cache`
+`turbo run {string value: task_name} --parallel --no-cache`
 
 - Unlink the current directory from your Vercel organization and disable Remote Caching:
 
@@ -34,4 +34,4 @@
 
 - Generate a Dot graph of a specific task execution (the output file format can be controlled with the filename):
 
-`turbo run {any something} --graph={file something}.{any something}`
+`turbo run {string value: task_name} --graph={file value}.{string value: html|jpg|json|pdf|png|svg}`

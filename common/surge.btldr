@@ -5,11 +5,11 @@
 
 - Upload a new site to surge.sh:
 
-`surge {any something}`
+`surge {string value: path/to/my_project}`
 
 - Deploy site to custom domain (note that the DNS records must point to the surge.sh subdomain):
 
-`surge {any something} {any something}`
+`surge {string value: path/to/my_project} {string value: my_custom_domain.com}`
 
 - List your surge projects:
 
@@ -17,4 +17,4 @@
 
 - Remove a project:
 
-`surge teardown {any something}`
+`surge teardown {string value: my_custom_domain.com}`

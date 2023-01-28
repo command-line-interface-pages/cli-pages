@@ -9,7 +9,7 @@
 
 - Pull from a specified source repository:
 
-`hg pull {any something}`
+`hg pull {string value: path/to/source_repository}`
 
 - Update the local repository to the head of the remote:
 
@@ -21,12 +21,12 @@
 
 - Specify a specific revision changeset to pull up to:
 
-`hg pull --rev {any something}`
+`hg pull --rev {string value: revision}`
 
 - Specify a specific branch to pull:
 
-`hg pull --branch {any something}`
+`hg pull --branch {string value: branch}`
 
 - Specify a specific bookmark to pull:
 
-`hg pull --bookmark {any something}`
+`hg pull --bookmark {string value: bookmark}`

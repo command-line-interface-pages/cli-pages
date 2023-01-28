@@ -5,12 +5,12 @@
 
 - Compare PDFs, indicating changes using return codes (`0` = no difference, `1` = PDFs differ):
 
-`diff-pdf {any something} {any something}`
+`diff-pdf {string value: path/to/a.pdf} {string value: path/to/b.pdf}`
 
 - Compare PDFs, outputting a PDF with visually highlighted differences:
 
-`diff-pdf --output-diff={any something} {any something} {any something}`
+`diff-pdf --output-diff={string value: path/to/diff.pdf} {string value: path/to/a.pdf} {string value: path/to/b.pdf}`
 
 - Compare PDFs, viewing differences in a simple GUI:
 
-`diff-pdf --view {any something} {any something}`
+`diff-pdf --view {string value: path/to/a.pdf} {string value: path/to/b.pdf}`

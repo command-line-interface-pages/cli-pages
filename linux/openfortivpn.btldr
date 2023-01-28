@@ -5,16 +5,16 @@
 
 - Connect to a VPN with a username and password:
 
-`openfortivpn --username={string user} --password={any something}`
+`openfortivpn --username={string user} --password={string value: password}`
 
 - Connect to a VPN using a specific configuration file (defaults to `/etc/openfortivpn/config`):
 
-`sudo openfortivpn --config={any something}`
+`sudo openfortivpn --config={string value: path/to/config}`
 
 - Connect to a VPN by specifying the host and port:
 
-`openfortivpn {any something}:{any something}`
+`openfortivpn {string value: host}:{string value: port}`
 
 - Trust a given gateway by passing in its certificate's sha256 sum:
 
-`openfortivpn --trusted-cert={any something}`
+`openfortivpn --trusted-cert={string value: sha256_sum}`

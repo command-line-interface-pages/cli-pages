@@ -13,11 +13,11 @@
 
 - Start Qt Creator but don't load the specified plugin:
 
-`qtcreator -noload {any something}`
+`qtcreator -noload {string value: plugin}`
 
 - Start Qt Creator but don't load any plugins:
 
-`qtcreator -noload {any something}`
+`qtcreator -noload {string value: all}`
 
 - Start Qt Creator in presentation mode with pop-ups for keyboard shortcuts:
 
@@ -25,4 +25,4 @@
 
 - Start Qt Creator and show the diff from a specific commit:
 
-`qtcreator -git-show {any something}`
+`qtcreator -git-show {string value: commit}`

@@ -17,8 +17,8 @@
 
 - Create a package and set the name:
 
-`sudo checkinstall --pkgname {any something}`
+`sudo checkinstall --pkgname {string value: package}`
 
 - Create a package and specify where to save it:
 
-`sudo checkinstall --pakdir {directory something}`
+`sudo checkinstall --pakdir {directory value}`

@@ -10,11 +10,11 @@
 
 - Accept a minion key by name:
 
-`salt-key -a {any something}`
+`salt-key -a {string value: MINION_ID}`
 
 - Reject a minion key by name:
 
-`salt-key -r {any something}`
+`salt-key -r {string value: MINION_ID}`
 
 - Print fingerprints of all public keys:
 

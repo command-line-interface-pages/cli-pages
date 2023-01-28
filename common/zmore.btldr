@@ -5,7 +5,7 @@
 
 - Open a compressed file:
 
-`zmore {any something}`
+`zmore {string value: path/to/file.txt.gz}`
 
 - Display the next page of the file:
 
@@ -13,7 +13,7 @@
 
 - Search for a pattern in the file (press `n` to go to next match):
 
-`/{any something}`
+`/{string value: regular_expression}`
 
 - Exit:
 

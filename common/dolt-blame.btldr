@@ -5,11 +5,11 @@
 
 - Display the latest commit for each row of a table:
 
-`dolt blame {any something}`
+`dolt blame {string value: table}`
 
 - Display the latest commits for each row of a table when the specified commit was made:
 
-`dolt blame {any something} {any something}`
+`dolt blame {string value: commit} {string value: table}`
 
 - View help:
 

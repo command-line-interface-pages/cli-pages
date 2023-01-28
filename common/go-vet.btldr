@@ -10,7 +10,7 @@
 
 - Check the Go package in the specified path:
 
-`go vet {file something|path something}`
+`go vet {path value}`
 
 - List available checks that can be run with go vet:
 
@@ -18,11 +18,11 @@
 
 - View details and flags for a particular check:
 
-`go tool vet help {any something}`
+`go tool vet help {string value: check_name}`
 
 - Display offending lines plus N lines of surrounding context:
 
-`go vet -c={any something}`
+`go vet -c={string value: N}`
 
 - Output analysis and errors in JSON format:
 

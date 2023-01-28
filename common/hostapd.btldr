@@ -5,8 +5,8 @@
 
 - Start an access point:
 
-`sudo hostapd {any something}`
+`sudo hostapd {string value: path/to/hostapd.conf}`
 
 - Start an access point, forking into the background:
 
-`sudo hostapd -B {any something}`
+`sudo hostapd -B {string value: path/to/hostapd.conf}`

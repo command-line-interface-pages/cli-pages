@@ -5,12 +5,12 @@
 
 - Run with concurrent users and a specified amount of requests per second:
 
-`loadtest --concurrency {int number: 10} --rps {int number: 200} {any something}`
+`loadtest --concurrency {int value: 10} --rps {int value: 200} {string value: https://example.com}`
 
 - Run with a custom HTTP header:
 
-`loadtest --headers "{any something}" {any something}`
+`loadtest --headers "{string value: accept:text/plain;text-html}" {string value: https://example.com}`
 
 - Run with a specific HTTP method:
 
-`loadtest --method {any something} {any something}`
+`loadtest --method {string value: GET} {string value: https://example.com}`

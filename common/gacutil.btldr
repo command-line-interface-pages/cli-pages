@@ -5,11 +5,11 @@
 
 - Install the specified assembly into GAC:
 
-`gacutil -i {any something}`
+`gacutil -i {string value: path/to/assembly.dll}`
 
 - Uninstall the specified assembly from GAC:
 
-`gacutil -i {any something}`
+`gacutil -i {string value: assembly_display_name}`
 
 - Print the content of GAC:
 

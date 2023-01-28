@@ -14,16 +14,16 @@
 
 - Execute specific [c]ommands:
 
-`tcsh -c "{any something}"`
+`tcsh -c "{string value: echo 'tcsh is executed'}"`
 
 - Execute a specific script:
 
-`tcsh {any something}`
+`tcsh {string value: path/to/script.tcsh}`
 
 - Check a specific script for syntax errors:
 
-`tcsh -n {any something}`
+`tcsh -n {string value: path/to/script.tcsh}`
 
 - Execute specific commands from stdin:
 
-`{any something} | tcsh`
+`{string value: echo "echo 'tcsh is executed'"} | tcsh`

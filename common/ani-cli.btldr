@@ -5,19 +5,19 @@
 
 - Search anime by name:
 
-`ani-cli "{any something}"`
+`ani-cli "{string value: anime_name}"`
 
 - Download episode:
 
-`ani-cli -d "{any something}"`
+`ani-cli -d "{string value: anime_name}"`
 
 - Use VLC as the media player:
 
-`ani-cli -v "{any something}"`
+`ani-cli -v "{string value: anime_name}"`
 
 - Specify episode to watch:
 
-`ani-cli -a {any something} "{any something}"`
+`ani-cli -a {string value: episode_number} "{string value: anime_name}"`
 
 - Continue watching anime from history:
 

@@ -13,16 +13,16 @@
 
 - Display information about a specific network interface:
 
-`ip address show dev {any something}`
+`ip address show dev {string value: eth0}`
 
 - Add an IP address to a network interface:
 
-`ip address add {any something} dev {any something}`
+`ip address add {string value: ip_address} dev {string value: eth0}`
 
 - Remove an IP address from a network interface:
 
-`ip address delete {any something} dev {any something}`
+`ip address delete {string value: ip_address} dev {string value: eth0}`
 
 - Delete all IP addresses in a given scope from a network interface:
 
-`ip address flush dev {any something} scope {any something}`
+`ip address flush dev {string value: eth0} scope {string value: global|host|link}`

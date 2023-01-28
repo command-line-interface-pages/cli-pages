@@ -6,4 +6,4 @@
 
 - Open a compressed file:
 
-`xzless {any something}`
+`xzless {string value: path/to/archive.xz}`

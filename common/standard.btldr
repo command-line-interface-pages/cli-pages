@@ -9,7 +9,7 @@
 
 - Lint specific JavaScript file(s):
 
-`standard {any something}`
+`standard {file* value}`
 
 - Apply automatic fixes during linting:
 
@@ -17,16 +17,16 @@
 
 - Declare any available global variables:
 
-`standard --global {any something}`
+`standard --global {string value: variable}`
 
 - Use a custom ESLint plugin when linting:
 
-`standard --plugin {any something}`
+`standard --plugin {string value: plugin}`
 
 - Use a custom JS parser when linting:
 
-`standard --parser {any something}`
+`standard --parser {string value: parser}`
 
 - Use a custom ESLint environment when linting:
 
-`standard --env {any something}`
+`standard --env {string value: environment}`

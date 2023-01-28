@@ -5,8 +5,8 @@
 
 - Terminate a process by its process identifier:
 
-`tskill {any something}`
+`tskill {string value: process_id}`
 
 - Terminate a process by its name:
 
-`tskill {any something}`
+`tskill {string value: process_name}`

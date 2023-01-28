@@ -5,16 +5,16 @@
 
 - Restore virtual machine from given backup file on the original storage:
 
-`qmrestore {any something} {int number: 100}`
+`qmrestore {string value: path/to/vzdump-qemu-100.vma.lzo} {int value: 100}`
 
 - Overwrite existing virtual machine from a given backup file on the original storage:
 
-`qmrestore {any something} {int number: 100} --force true`
+`qmrestore {string value: path/to/vzdump-qemu-100.vma.lzo} {int value: 100} --force true`
 
 - Restore the virtual machine from a given backup file on specific storage:
 
-`qmrestore {any something} {int number: 100} --storage {any something}`
+`qmrestore {string value: path/to/vzdump-qemu-100.vma.lzo} {int value: 100} --storage {string value: local}`
 
 - Start virtual machine immediately from the backup while restoring in the background (only on Proxmox Backup Server):
 
-`qmrestore {any something} {int number: 100} --live-restore true`
+`qmrestore {string value: path/to/vzdump-qemu-100.vma.lzo} {int value: 100} --live-restore true`

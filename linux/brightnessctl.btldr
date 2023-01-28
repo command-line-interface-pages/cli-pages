@@ -13,12 +13,12 @@
 
 - Set the brightness of the display backlight to a specified percentage within range:
 
-`brightnessctl set {any something}`
+`brightnessctl set {string value: 50%}`
 
 - Increase brightness by a specified increment:
 
-`brightnessctl set {any something}`
+`brightnessctl set {string value: +10%}`
 
 - Decrease brightness by a specified decrement:
 
-`brightnessctl set {any something}`
+`brightnessctl set {string value: 10%-}`

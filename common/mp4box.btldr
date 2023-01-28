@@ -5,12 +5,12 @@
 
 - Display information about an existing MP4 file:
 
-`mp4box -info {file something}`
+`mp4box -info {file value}`
 
 - Add an SRT subtitle file into an MP4 file:
 
-`mp4box -add {any something}:lang=eng -add {any something} {any something}`
+`mp4box -add {string value: input_subs.srt}:lang=eng -add {string value: input.mp4} {string value: output.mp4}`
 
 - Combine audio from one file and video from another:
 
-`mp4box -add {any something}#audio -add {any something}#video {any something}`
+`mp4box -add {string value: input1.mp4}#audio -add {string value: input2.mp4}#video {string value: output.mp4}`

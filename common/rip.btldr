@@ -5,11 +5,11 @@
 
 - Remove files or directories from specified locations and place them in the graveyard:
 
-`rip {file something|path something} {any something}`
+`rip {path value} {string value: path/to/another/file_or_directory}`
 
 - Interactively remove files or directories, with a prompt before every removal:
 
-`rip --inspect {file something|path something} {any something}`
+`rip --inspect {path value} {string value: path/to/another/file_or_directory}`
 
 - List all files and directories in the graveyard that were originally within the current directory:
 

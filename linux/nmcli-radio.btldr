@@ -10,7 +10,7 @@
 
 - Turn Wi-Fi on or off in NetworkManager:
 
-`nmcli radio wifi {any something}`
+`nmcli radio wifi {string value: on|off}`
 
 - Show status of WWAN in NetworkManager:
 
@@ -18,7 +18,7 @@
 
 - Turn WWAN on or off in NetworkManager:
 
-`nmcli radio wwan {any something}`
+`nmcli radio wwan {string value: on|off}`
 
 - Show status of both switches in NetworkManager:
 
@@ -26,4 +26,4 @@
 
 - Turn both switches on or off in NetworkManager:
 
-`nmcli radio all {any something}`
+`nmcli radio all {string value: on|off}`

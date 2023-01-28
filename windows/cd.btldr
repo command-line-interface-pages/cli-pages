@@ -17,8 +17,8 @@
 
 - Go to a specific directory in the same drive:
 
-`cd {any something}`
+`cd {string value: path\to\directory}`
 
 - Go to a specific directory in a different [d]rive:
 
-`cd /d {any something}:{any something}`
+`cd /d {string value: C}:{string value: path\to\directory}`

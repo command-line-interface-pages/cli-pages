@@ -14,8 +14,8 @@
 
 - Set a trap to execute commands when one or more signals are detected:
 
-`trap 'echo "Caught signal {any something}"' {any something}`
+`trap 'echo "Caught signal {string value: SIGHUP}"' {string value: SIGHUP}`
 
 - Remove active traps:
 
-`trap - {any something} {any something}`
+`trap - {string value: SIGHUP} {string value: SIGINT}`

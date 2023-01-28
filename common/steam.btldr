@@ -17,7 +17,7 @@
 
 - Log into Steam with the specified credentials:
 
-`steam -login {string user} {any something}`
+`steam -login {string user} {string value: password}`
 
 - Launch Steam in Big Picture Mode:
 

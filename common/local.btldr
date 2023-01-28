@@ -5,20 +5,20 @@
 
 - Declare a string variable with the specified value:
 
-`local {any something}="{any something}"`
+`local {string value: variable}="{string value: value}"`
 
 - Declare an integer variable with the specified value:
 
-`local -i {any something}="{any something}"`
+`local -i {string value: variable}="{string value: value}"`
 
 - Declare an array variable with the specified value:
 
-`local {any something}=({any something})`
+`local {string value: variable}=({string value: item_a item_b item_c})`
 
 - Declare an associative array variable with the specified value:
 
-`local -A {any something}=({any something})`
+`local -A {string value: variable}=({string value: [key_a]=item_a [key_b]=item_b [key_c]=item_c})`
 
 - Declare a readonly variable with the specified value:
 
-`local -r {any something}="{any something}"`
+`local -r {string value: variable}="{string value: value}"`

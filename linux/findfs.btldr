@@ -5,16 +5,16 @@
 
 - Search block devices by filesystem label:
 
-`findfs LABEL={any something}`
+`findfs LABEL={string value: label}`
 
 - Search by filesystem UUID:
 
-`findfs UUID={any something}`
+`findfs UUID={string value: uuid}`
 
 - Search by partition label (GPT or MAC partition table):
 
-`findfs PARTLABEL={any something}`
+`findfs PARTLABEL={string value: partition_label}`
 
 - Search by partition UUID (GPT partition table only):
 
-`findfs PARTUUID={any something}`
+`findfs PARTUUID={string value: partition_uuid}`

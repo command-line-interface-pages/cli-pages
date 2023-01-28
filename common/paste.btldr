@@ -5,20 +5,20 @@
 
 - Join all the lines into a single line, using TAB as delimiter:
 
-`paste -s {file something}`
+`paste -s {file value}`
 
 - Join all the lines into a single line, using the specified delimiter:
 
-`paste -s -d {any something} {file something}`
+`paste -s -d {string value: delimiter} {file value}`
 
 - Merge two files side by side, each in its column, using TAB as delimiter:
 
-`paste {any something} {any something}`
+`paste {string value: file1} {string value: file2}`
 
 - Merge two files side by side, each in its column, using the specified delimiter:
 
-`paste -d {any something} {any something} {any something}`
+`paste -d {string value: delimiter} {string value: file1} {string value: file2}`
 
 - Merge two files, with lines added alternatively:
 
-`paste -d '\n' {any something} {any something}`
+`paste -d '\n' {string value: file1} {string value: file2}`

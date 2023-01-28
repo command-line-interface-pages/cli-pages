@@ -5,24 +5,24 @@
 
 - Run tasks in playbook:
 
-`ansible-playbook {any something}`
+`ansible-playbook {string value: playbook}`
 
 - Run tasks in playbook with custom host inventory:
 
-`ansible-playbook {any something} -i {file something: inventory}`
+`ansible-playbook {string value: playbook} -i {file value: inventory}`
 
 - Run tasks in playbook with extra variables defined via the command-line:
 
-`ansible-playbook {any something} -e "{any something}={any something} {any something}={any something}"`
+`ansible-playbook {string value: playbook} -e "{string value: variable1}={string value: value1} {string value: variable2}={string value: value2}"`
 
 - Run tasks in playbook with extra variables defined in a JSON file:
 
-`ansible-playbook {any something} -e "@{any something}"`
+`ansible-playbook {string value: playbook} -e "@{string value: variables.json}"`
 
 - Run tasks in playbook for the given tags:
 
-`ansible-playbook {any something} --tags {any something}`
+`ansible-playbook {string value: playbook} --tags {string value: tag1,tag2}`
 
 - Run tasks in a playbook starting at a specific task:
 
-`ansible-playbook {any something} --start-at {any something}`
+`ansible-playbook {string value: playbook} --start-at {string value: task_name}`

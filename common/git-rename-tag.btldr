@@ -6,4 +6,4 @@
 
 - Rename an existing Git tag locally and remotely:
 
-`git rename-tag {any something} {any something}`
+`git rename-tag {string value: old_tag_name} {string value: new_tag_name}`

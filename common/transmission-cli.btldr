@@ -6,32 +6,32 @@
 
 - Download a specific torrent:
 
-`transmission-cli {any something}`
+`transmission-cli {string value: url|magnet|path/to/file}`
 
 - Download a torrent to a specific directory:
 
-`transmission-cli --download-dir {directory something: download} {any something}`
+`transmission-cli --download-dir {directory value: download} {string value: url|magnet|path/to/file}`
 
 - Create a torrent file from a specific file or directory:
 
-`transmission-cli --new {directory something: source_file_or}`
+`transmission-cli --new {directory value: source_file_or}`
 
 - Set the download speed limit to 50 KB/s:
 
-`transmission-cli --downlimit {int number: 50} {any something}`
+`transmission-cli --downlimit {int value: 50} {string value: url|magnet|path/to/file}`
 
 - Set the upload speed limit to 50 KB/s:
 
-`transmission-cli --uplimit {int number: 50} {any something}`
+`transmission-cli --uplimit {int value: 50} {string value: url|magnet|path/to/file}`
 
 - Use a specific port for connections:
 
-`transmission-cli --port {any something} {any something}`
+`transmission-cli --port {string value: port_number} {string value: url|magnet|path/to/file}`
 
 - Force encryption for peer connections:
 
-`transmission-cli --encryption-required {any something}`
+`transmission-cli --encryption-required {string value: url|magnet|path/to/file}`
 
 - Use a Bluetack-formatted peer blocklist:
 
-`transmission-cli --blocklist {any something} {any something}`
+`transmission-cli --blocklist {string value: blocklist_url|path/to/blocklist} {string value: url|magnet|path/to/file}`

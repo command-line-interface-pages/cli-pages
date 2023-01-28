@@ -9,24 +9,24 @@
 
 - Load save game at start:
 
-`openttd -g {file something}`
+`openttd -g {file value}`
 
 - Start with the specified window resolution:
 
-`openttd -r {any something}`
+`openttd -r {string value: 1920x1080}`
 
 - Start with a custom configuration file:
 
-`openttd -c {file something}`
+`openttd -c {file value}`
 
 - Start with selected video, sound, and music drivers:
 
-`openttd -v {any something} -s {any something} -m {any something}`
+`openttd -v {string value: video_driver} -s {string value: sound_driver} -m {string value: music_driver}`
 
 - Start a dedicated server, forked in the background:
 
-`openttd -f -D {any something}:{any something}`
+`openttd -f -D {string value: host}:{string value: port}`
 
 - Join a server with a password:
 
-`openttd -n {any something}:{any something}#{any something} -p {any something}`
+`openttd -n {string value: host}:{string value: port}#{string value: player_name} -p {string value: password}`

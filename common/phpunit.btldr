@@ -9,12 +9,12 @@
 
 - Run tests in a specific file:
 
-`phpunit {any something}`
+`phpunit {string value: path/to/TestFile.php}`
 
 - Run tests annotated with the given group:
 
-`phpunit --group {any something}`
+`phpunit --group {string value: name}`
 
 - Run tests and generate a coverage report in HTML:
 
-`phpunit --coverage-html {directory something}`
+`phpunit --coverage-html {directory value}`

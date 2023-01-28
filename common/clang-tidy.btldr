@@ -5,16 +5,16 @@
 
 - Run default checks on a source file:
 
-`clang-tidy {file something}`
+`clang-tidy {file value: sample.cpp}`
 
 - Don't run any checks other than the `cppcoreguidelines` checks on a file:
 
-`clang-tidy {file something} -checks={any something}`
+`clang-tidy {file value: sample.cpp} -checks={string value: -*,cppcoreguidelines-*}`
 
 - List all available checks:
 
-`clang-tidy -checks={any something} -list-checks`
+`clang-tidy -checks={string value: *} -list-checks`
 
 - Specify defines and includes as compilation options (after `--`):
 
-`clang-tidy {file something} -- -I{any something} -D{any something}`
+`clang-tidy {file value: sample.cpp} -- -I{string value: my_project/include} -D{string value: definitions}`

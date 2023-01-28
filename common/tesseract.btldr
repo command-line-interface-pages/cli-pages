@@ -5,11 +5,11 @@
 
 - Recognize text in an image and save it to `output.txt` (the `.txt` extension is added automatically):
 
-`tesseract {any something} {any something}`
+`tesseract {string value: image.png} {string value: output}`
 
 - Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
-`tesseract -l deu {any something} {any something}`
+`tesseract -l deu {string value: image.png} {string value: output}`
 
 - List the ISO 639-2 codes of available languages:
 
@@ -17,7 +17,7 @@
 
 - Specify a custom page segmentation mode (default is 3):
 
-`tesseract -psm {any something} {any something} {any something}`
+`tesseract -psm {string value: 0_to_10} {string value: image.png} {string value: output}`
 
 - List page segmentation modes and their descriptions:
 

@@ -30,8 +30,8 @@
 
 - Probe a network device "eth0" for supported `eBPF` features:
 
-`bpftool feature probe dev {any something}`
+`bpftool feature probe dev {string value: eth0}`
 
 - Run commands in batch mode from a file:
 
-`bpftool batch file {any something}`
+`bpftool batch file {string value: myfile}`

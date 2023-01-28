@@ -9,24 +9,24 @@
 
 - Scan a file or directory for problems using comma-separated rulesets:
 
-`phpmd {file something|path something} {any something} {any something}`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets}`
 
 - Specify the minimum priority threshold for rules:
 
-`phpmd {file something|path something} {any something} {any something} --minimumpriority {any something}`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets} --minimumpriority {string value: priority}`
 
 - Include only the specified extensions in analysis:
 
-`phpmd {file something|path something} {any something} {any something} --suffixes {any something}`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets} --suffixes {string value: extensions}`
 
 - Exclude the specified comma-separated directories:
 
-`phpmd {file something|path something} {any something} {any something} --exclude {any something}`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets} --exclude {string value: directory_patterns}`
 
 - Output the results to a file instead of stdout:
 
-`phpmd {file something|path something} {any something} {any something} --reportfile {file something: report}`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets} --reportfile {file value: report}`
 
 - Ignore the use of warning-suppressive PHPDoc comments:
 
-`phpmd {file something|path something} {any something} {any something} --strict`
+`phpmd {path value} {string value: xml|text|html} {string value: rulesets} --strict`

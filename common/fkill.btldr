@@ -9,4 +9,4 @@
 
 - Kill the process by PID, name or port:
 
-`fkill {any something}`
+`fkill {string value: pid|name|:port}`

@@ -5,12 +5,12 @@
 
 - Run a benchmark for `30` seconds, using `12` threads, and keeping `400` HTTP connections open:
 
-`wrk -t{int number: 12} -c{int number: 400} -d{any something} "{any something}"`
+`wrk -t{int value: 12} -c{int value: 400} -d{string value: 30s} "{string value: http://127.0.0.1:8080/index.html}"`
 
 - Run a benchmark with a custom header:
 
-`wrk -t{int number: 2} -c{int number: 5} -d{any something} -H "{any something}" "{any something}"`
+`wrk -t{int value: 2} -c{int value: 5} -d{string value: 5s} -H "{string value: Host: example.com}" "{string value: http://example.com/index.html}"`
 
 - Run a benchmark with a request timeout of `2` seconds:
 
-`wrk -t{int number: 2} -c{int number: 5} -d{any something} --timeout {any something} "{any something}"`
+`wrk -t{int value: 2} -c{int value: 5} -d{string value: 5s} --timeout {string value: 2s} "{string value: http://example.com/index.html}"`

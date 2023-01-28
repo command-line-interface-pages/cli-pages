@@ -6,19 +6,19 @@
 
 - Display a menu of the output of the `ls` command:
 
-`{any something} | dmenu`
+`{string value: ls} | dmenu`
 
 - Display a menu with custom items separated by a new line (`\n`):
 
-`echo -e "{any something}\n{any something}\n{any something}" | dmenu`
+`echo -e "{string value: red}\n{string value: green}\n{string value: blue}" | dmenu`
 
 - Let the user choose between multiple items and save the selected one to a file:
 
-`echo -e "{any something}\n{any something}\n{any something}" | dmenu > {any something}`
+`echo -e "{string value: red}\n{string value: green}\n{string value: blue}" | dmenu > {string value: color.txt}`
 
 - Launch dmenu on a specific monitor:
 
-`ls | dmenu -m {int number: 1}`
+`ls | dmenu -m {int value: 1}`
 
 - Display dmenu at the bottom of the screen:
 

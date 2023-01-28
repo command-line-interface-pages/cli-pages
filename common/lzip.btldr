@@ -6,32 +6,32 @@
 
 - Archive a file, replacing it with with a compressed version:
 
-`lzip {file something}`
+`lzip {file value}`
 
 - Archive a file, keeping the input file:
 
-`lzip -k {file something}`
+`lzip -k {file value}`
 
 - Archive a file with the best compression (level=9):
 
-`lzip -k {file something} --best`
+`lzip -k {file value} --best`
 
 - Archive a file at the fastest speed (level=0):
 
-`lzip -k {file something} --fast`
+`lzip -k {file value} --fast`
 
 - Test the integrity of compressed file:
 
-`lzip --test {any something}`
+`lzip --test {string value: path/to/archive.lz}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`lzip -d {any something}`
+`lzip -d {string value: path/to/archive.lz}`
 
 - Decompress a file, keeping the archive:
 
-`lzip -d -k {any something}`
+`lzip -d -k {string value: path/to/archive.lz}`
 
 - List files which are in an archive and show compression stats:
 
-`lzip --list {any something}`
+`lzip --list {string value: path/to/archive.lz}`

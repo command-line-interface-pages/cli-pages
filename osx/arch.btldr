@@ -10,4 +10,4 @@
 
 - Run a command using x86_64:
 
-`arch -x86_64 "{any something}"`
+`arch -x86_64 "{string value: command}"`

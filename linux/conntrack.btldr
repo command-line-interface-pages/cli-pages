@@ -18,8 +18,8 @@
 
 - Display a real-time event log of connection changes for a specific IP address:
 
-`conntrack --event --orig-src {any something}`
+`conntrack --event --orig-src {string value: ip_address}`
 
 - Delete all flows for a specific source IP address:
 
-`conntrack --delete --orig-src {any something}`
+`conntrack --delete --orig-src {string value: ip_address}`

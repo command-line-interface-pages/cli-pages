@@ -17,4 +17,4 @@
 
 - Execute an arbitrary command on a particular minion:
 
-`salt '{any something}' cmd.run "ls "`
+`salt '{string value: minion_id}' cmd.run "ls "`

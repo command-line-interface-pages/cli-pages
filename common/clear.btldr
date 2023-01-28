@@ -13,7 +13,7 @@
 
 - Indicate the type of terminal to clean (defaults to the value of the environment variable `TERM`):
 
-`clear -T {any something}`
+`clear -T {string value: type_of_terminal}`
 
 - Show the version of `ncurses` used by `clear`:
 

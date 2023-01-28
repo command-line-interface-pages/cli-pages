@@ -6,16 +6,16 @@
 
 - Set the max number of counts before a filesystem is checked to 2:
 
-`tune2fs -c {int number: 2} {any something}`
+`tune2fs -c {int value: 2} {string value: /dev/sdXN}`
 
 - Set the filesystem label to MY_LABEL:
 
-`tune2fs -L {any something} {any something}`
+`tune2fs -L {string value: 'MY_LABEL'} {string value: /dev/sdXN}`
 
 - Enable discard and user-specified extended attributes for a filesystem:
 
-`tune2fs -o {any something} {any something}`
+`tune2fs -o {string value: discard,user_xattr} {string value: /dev/sdXN}`
 
 - Enable journaling for a filesystem:
 
-`tune2fs -o^{any something} {any something}`
+`tune2fs -o^{string value: nobarrier} {string value: /dev/sdXN}`

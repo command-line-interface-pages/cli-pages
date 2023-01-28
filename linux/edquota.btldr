@@ -14,11 +14,11 @@
 
 - Edit quota for a group:
 
-`sudo edquota --group {any something}`
+`sudo edquota --group {string value: group}`
 
 - Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):
 
-`sudo edquota --file-system {any something}`
+`sudo edquota --file-system {string value: filesystem}`
 
 - Edit the default grace period:
 
@@ -26,4 +26,4 @@
 
 - Duplicate a quota to other users:
 
-`sudo edquota -p {any something} {any something} {any something}`
+`sudo edquota -p {string value: reference_user} {string value: destination_user1} {string value: destination_user2}`

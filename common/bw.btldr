@@ -13,11 +13,11 @@
 
 - Search and display items from Bitwarden vault:
 
-`bw list items --search {any something}`
+`bw list items --search {string value: github}`
 
 - Display a particular item from Bitwarden vault:
 
-`bw get item {any something}`
+`bw get item {string value: github}`
 
 - Create a folder in Bitwarden vault:
 

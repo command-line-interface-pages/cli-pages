@@ -9,7 +9,7 @@
 
 - Show the bandwidth usage of a given interface:
 
-`sudo iftop -i {any something}`
+`sudo iftop -i {string value: interface}`
 
 - Show the bandwidth usage with port information:
 

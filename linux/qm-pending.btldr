@@ -5,4 +5,4 @@
 
 - Get the virtual machine configuration of a specific virtual machine:
 
-`qm pending {any something}`
+`qm pending {string value: vm_id}`

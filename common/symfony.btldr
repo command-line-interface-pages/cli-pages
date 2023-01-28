@@ -5,7 +5,7 @@
 
 - Create a new Symfony project:
 
-`symfony new {any something}`
+`symfony new {string value: name}`
 
 - Run a local web server:
 

@@ -5,20 +5,20 @@
 
 - Debug an executable:
 
-`gdb {any something}`
+`gdb {string value: executable}`
 
 - Attach a process to gdb:
 
-`gdb -p {any something}`
+`gdb -p {string value: procID}`
 
 - Debug with a core file:
 
-`gdb -c {any something} {any something}`
+`gdb -c {string value: core} {string value: executable}`
 
 - Execute given GDB commands upon start:
 
-`gdb -ex "{any something}" {any something}`
+`gdb -ex "{string value: commands}" {string value: executable}`
 
 - Start gdb and pass arguments to the executable:
 
-`gdb --args {any something} {any something} {any something}`
+`gdb --args {string value: executable} {string value: argument1} {string value: argument2}`

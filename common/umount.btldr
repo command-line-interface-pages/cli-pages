@@ -6,11 +6,11 @@
 
 - Unmount a filesystem, by passing the path to the source it is mounted from:
 
-`umount {file something: device}`
+`umount {file value: device}`
 
 - Unmount a filesystem, by passing the path to the target where it is mounted:
 
-`umount {directory something: mounted}`
+`umount {directory value: mounted}`
 
 - Unmount all mounted filesystems (except the `proc` filesystem):
 

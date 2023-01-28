@@ -14,11 +14,11 @@
 
 - Override default config file and directory locations:
 
-`soupault --config {any something} --site-dir {any something} --build-dir {any something}`
+`soupault --config {string value: config_path} --site-dir {string value: input_dir} --build-dir {string value: output_dir}`
 
 - Extract metadata into a JSON file without generating pages:
 
-`soupault --index-only --dump-index-json {file something}`
+`soupault --index-only --dump-index-json {file value: sample.json}`
 
 - Show the effective config (values from `soupault.toml` plus defaults):
 

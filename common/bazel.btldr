@@ -5,7 +5,7 @@
 
 - Build the specified target in the workspace:
 
-`bazel build {any something}`
+`bazel build {string value: target}`
 
 - Remove output files and stop the server if running:
 

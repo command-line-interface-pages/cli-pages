@@ -6,7 +6,7 @@
 
 - Execute a dolt subcommand:
 
-`dolt {any something}`
+`dolt {string value: subcommand}`
 
 - List available subcommands:
 

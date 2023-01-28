@@ -5,24 +5,24 @@
 
 - A preferred way to trace the path to a host:
 
-`tracepath -p {int number: 33434} {any something}`
+`tracepath -p {int value: 33434} {string value: host}`
 
 - Specify the initial destination port, useful with non-standard firewall settings:
 
-`tracepath -p {any something} {any something} `
+`tracepath -p {string value: destination_port} {string value: host} `
 
 - Print both hostnames and numerical IP addresses:
 
-`tracepath -b {any something}`
+`tracepath -b {string value: host}`
 
 - Specify a maximum TTL (number of hops):
 
-`tracepath -m {any something} {any something}`
+`tracepath -m {string value: max_hops} {string value: host}`
 
 - Specify the initial packet length (defaults to 65535 for IPv4 and 128000 for IPv6):
 
-`tracepath -l {any something} {any something}`
+`tracepath -l {string value: packet_length} {string value: host}`
 
 - Use only IPv6 addresses:
 
-`tracepath -6 {any something}`
+`tracepath -6 {string value: host}`

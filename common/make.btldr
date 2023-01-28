@@ -10,28 +10,28 @@
 
 - Call a specific target:
 
-`make {any something}`
+`make {string value: target}`
 
 - Call a specific target, executing 4 jobs at a time in parallel:
 
-`make -j{int number: 4} {any something}`
+`make -j{int value: 4} {string value: target}`
 
 - Use a specific Makefile:
 
-`make --file {file something}`
+`make --file {file value}`
 
 - Execute make from another directory:
 
-`make --directory {directory something}`
+`make --directory {directory value}`
 
 - Force making of a target, even if source files are unchanged:
 
-`make --always-make {any something}`
+`make --always-make {string value: target}`
 
 - Override a variable defined in the Makefile:
 
-`make {any something} {any something}={any something}`
+`make {string value: target} {string value: variable}={string value: new_value}`
 
 - Override variables defined in the Makefile by the environment:
 
-`make --environment-overrides {any something}`
+`make --environment-overrides {string value: target}`

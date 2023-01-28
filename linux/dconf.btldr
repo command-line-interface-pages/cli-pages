@@ -6,24 +6,24 @@
 
 - Print a specific key value:
 
-`dconf read {any something}`
+`dconf read {string value: /path/to/key}`
 
 - Print a specific path sub-directories and sub-keys:
 
-`dconf list {any something}`
+`dconf list {string value: /path/to/directory/}`
 
 - Write a specific key value:
 
-`dconf write {any something} "{any something}"`
+`dconf write {string value: /path/to/key} "{string value: value}"`
 
 - Reset a specific key value:
 
-`dconf reset {any something}`
+`dconf reset {string value: /path/to/key}`
 
 - Watch a specific key/directory for changes:
 
-`dconf watch {any something}`
+`dconf watch {string value: /path/to/key|/path/to/directory/}`
 
 - Dump a specific directory in INI file format:
 
-`dconf dump {any something}`
+`dconf dump {string value: /path/to/directory/}`

@@ -9,7 +9,7 @@
 
 - Specify an editor to open with:
 
-`fc -e {any something}`
+`fc -e {string value: 'emacs'}`
 
 - List recent commands from history:
 
@@ -21,4 +21,4 @@
 
 - List commands in a given interval:
 
-`fc '{int number: 416}' '{int number: 420}'`
+`fc '{int value: 416}' '{int value: 420}'`

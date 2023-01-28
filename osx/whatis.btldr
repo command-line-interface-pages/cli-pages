@@ -5,8 +5,8 @@
 
 - Search for information about keyword:
 
-`whatis {any something}`
+`whatis {string value: keyword}`
 
 - Search for information about multiple keywords:
 
-`whatis {any something} {any something}`
+`whatis {string value: first_keyword} {string value: second_keyword}`

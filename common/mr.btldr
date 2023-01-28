@@ -9,7 +9,7 @@
 
 - Update repositories in 5 concurrent jobs:
 
-`mr -j{int number: 5} update`
+`mr -j{int value: 5} update`
 
 - Print the status of all repositories:
 

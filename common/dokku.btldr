@@ -10,16 +10,16 @@
 
 - Create an app:
 
-`dokku apps:create {any something}`
+`dokku apps:create {string value: app_name}`
 
 - Remove an app:
 
-`dokku apps:destroy {any something}`
+`dokku apps:destroy {string value: app_name}`
 
 - Install plugin:
 
-`dokku plugin:install {any something}`
+`dokku plugin:install {string value: full_repo_url}`
 
 - Link database to an app:
 
-`dokku {any something}:link {any something} {any something}`
+`dokku {string database}:link {string value: db_name} {string value: app_name}`

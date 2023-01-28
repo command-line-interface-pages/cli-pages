@@ -10,8 +10,8 @@
 
 - Execute specific [c]ommands:
 
-`elvish -c "{any something}"`
+`elvish -c "{string value: echo 'elvish is executed'}"`
 
 - Execute a specific script:
 
-`elvish {any something}`
+`elvish {string value: path/to/script.elv}`

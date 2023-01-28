@@ -6,7 +6,7 @@
 
 - Create a new Vue project interactively:
 
-`vue create {any something}`
+`vue create {string value: project_name}`
 
 - Create a new project with web UI:
 

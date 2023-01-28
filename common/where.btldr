@@ -6,4 +6,4 @@
 
 - Find all instances of a command:
 
-`where {any something}`
+`where {string value: command}`

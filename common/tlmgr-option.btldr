@@ -17,12 +17,12 @@
 
 - Show the value of a specific TeX Live setting:
 
-`tlmgr option {any something}`
+`tlmgr option {string value: setting}`
 
 - Modify the value of a specific TeX Live setting:
 
-`tlmgr option {any something} {any something}`
+`tlmgr option {string value: setting} {string value: value}`
 
 - Set TeX Live to get future updates from the internet after installing from DVD:
 
-`tlmgr option {any something} {any something}`
+`tlmgr option {string value: repository} {string value: https://mirror.ctan.org/systems/texlive/tlnet}`

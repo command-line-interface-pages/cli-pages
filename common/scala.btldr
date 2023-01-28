@@ -9,16 +9,16 @@
 
 - Start the interpreter with a dependency in the classpath:
 
-`scala -classpath {any something} {any something}`
+`scala -classpath {file value: sample.jar} {string value: command}`
 
 - Execute a Scala script:
 
-`scala {any something}`
+`scala {string value: script.scala}`
 
 - Execute a `.jar` program:
 
-`scala {any something}`
+`scala {file value: sample.jar}`
 
 - Execute a single Scala command in the command-line:
 
-`scala -e {any something}`
+`scala -e {string value: command}`

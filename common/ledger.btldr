@@ -5,15 +5,15 @@
 
 - Print a balance report showing totals:
 
-`ledger balance --file {any something}`
+`ledger balance --file {string value: path/to/ledger.journal}`
 
 - List all postings in Expenses ordered by amount:
 
-`ledger register {any something} --sorted {any something}`
+`ledger register {string value: expenses} --sorted {string value: amount}`
 
 - Print total Expenses other than Drinks and Food:
 
-`ledger balance {any something} and not ({any something} or {any something})`
+`ledger balance {string value: Expenses} and not ({string value: Drinks} or {string value: Food})`
 
 - Print a budget report:
 

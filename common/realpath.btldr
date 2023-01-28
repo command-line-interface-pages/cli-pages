@@ -5,20 +5,20 @@
 
 - Display the absolute path for a file or directory:
 
-`realpath {file something|path something}`
+`realpath {path value}`
 
 - Require all path components to exist:
 
-`realpath --canonicalize-existing {file something|path something}`
+`realpath --canonicalize-existing {path value}`
 
 - Resolve ".." components before symlinks:
 
-`realpath --logical {file something|path something}`
+`realpath --logical {path value}`
 
 - Disable symlink expansion:
 
-`realpath --no-symlinks {file something|path something}`
+`realpath --no-symlinks {path value}`
 
 - Suppress error messages:
 
-`realpath --quiet {file something|path something}`
+`realpath --quiet {path value}`

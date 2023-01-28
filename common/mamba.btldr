@@ -6,11 +6,11 @@
 
 - Create a new environment, installing the specified packages into it:
 
-`mamba create --name {any something} {any something}`
+`mamba create --name {string value: environment_name} {string value: python=3.10 matplotlib}`
 
 - Install packages into the current environment, specifying the package [c]hannel:
 
-`mamba install -c {any something} {any something}`
+`mamba install -c {string value: conda-forge} {string value: python=3.6 numpy}`
 
 - Update all packages in the current environment:
 
@@ -18,7 +18,7 @@
 
 - Search for a specific package across repositories:
 
-`mamba repoquery search {any something}`
+`mamba repoquery search {string value: numpy}`
 
 - List all environments:
 
@@ -30,7 +30,7 @@
 
 - Activate an environment:
 
-`mamba activate {any something}`
+`mamba activate {string value: environment_name}`
 
 - List all installed packages in the currently activated environment:
 

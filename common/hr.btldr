@@ -9,8 +9,8 @@
 
 - Print a horizontal rule with a custom string:
 
-`hr {any something}`
+`hr {string value: string}`
 
 - Print a multiline horizontal rule:
 
-`hr {any something} {any something} {any something}`
+`hr {string value: string_a} {string value: string_b} {string value: string_c}`

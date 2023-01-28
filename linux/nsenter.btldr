@@ -6,24 +6,24 @@
 
 - Run a specific command using the same namespaces as an existing process:
 
-`nsenter --target {any something} --all {any something} {any something}`
+`nsenter --target {string value: pid} --all {string value: command} {string value: command_arguments}`
 
 - Run a specific command in an existing process's network namespace:
 
-`nsenter --target {any something} --net {any something} {any something}`
+`nsenter --target {string value: pid} --net {string value: command} {string value: command_arguments}`
 
 - Run a specific command in an existing process's PID namespace:
 
-`nsenter --target {any something} --pid {any something} {any something}`
+`nsenter --target {string value: pid} --pid {string value: command} {string value: command_arguments}`
 
 - Run a specific command in an existing process's IPC namespace:
 
-`nsenter --target {any something} --ipc {any something} {any something}`
+`nsenter --target {string value: pid} --ipc {string value: command} {string value: command_arguments}`
 
 - Run a specific command in an existing process's UTS, time, and IPC namespaces:
 
-`nsenter --target {any something} --uts --time --ipc -- {any something} {any something}`
+`nsenter --target {string value: pid} --uts --time --ipc -- {string value: command} {string value: command_arguments}`
 
 - Run a specific command in an existing process's namespace by referencing procfs:
 
-`nsenter --pid=/proc/{any something}/pid/net -- {any something} {any something}`
+`nsenter --pid=/proc/{string value: pid}/pid/net -- {string value: command} {string value: command_arguments}`

@@ -5,16 +5,16 @@
 
 - Encode a file:
 
-`base32 {file something}`
+`base32 {file value}`
 
 - Decode a file:
 
-`base32 --decode {file something}`
+`base32 --decode {file value}`
 
 - Encode from stdin:
 
-`{any something} | base32`
+`{string value: somecommand} | base32`
 
 - Decode from stdin:
 
-`{any something} | base32 --decode`
+`{string value: somecommand} | base32 --decode`

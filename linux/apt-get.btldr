@@ -10,15 +10,15 @@
 
 - Install a package, or update it to the latest available version:
 
-`apt-get install {any something}`
+`apt-get install {string value: package}`
 
 - Remove a package:
 
-`apt-get remove {any something}`
+`apt-get remove {string value: package}`
 
 - Remove a package and its configuration files:
 
-`apt-get purge {any something}`
+`apt-get purge {string value: package}`
 
 - Upgrade all installed packages to their newest available versions:
 

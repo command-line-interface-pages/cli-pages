@@ -5,8 +5,8 @@
 
 - Convert a file to a C source file and header and display it to the console:
 
-`wasm2c {file something}`
+`wasm2c {file value: sample.wasm}`
 
 - Write the output to a given file (`file.h` gets additionally generated):
 
-`wasm2c {file something} -o {file something}`
+`wasm2c {file value: sample.wasm} -o {file value: sample.c}`

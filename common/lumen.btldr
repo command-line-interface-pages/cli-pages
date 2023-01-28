@@ -5,7 +5,7 @@
 
 - Create a new Lumen application:
 
-`lumen new {any something}`
+`lumen new {string value: application_name}`
 
 - List the available installer commands:
 

@@ -9,7 +9,7 @@
 
 - Open the homepage of a specific repository in the default web browser:
 
-`gh browse {any something}/{any something}`
+`gh browse {string value: owner}/{string value: repository}`
 
 - Open the settings page of the current repository in the default web browser:
 
@@ -21,15 +21,15 @@
 
 - Open a specific issue or pull request in the web browser:
 
-`gh browse {any something}`
+`gh browse {string value: issue_or_pull_request_number}`
 
 - Open a specific branch in the web browser:
 
-`gh browse --branch {any something}`
+`gh browse --branch {string value: branch_name}`
 
 - Open a specific file or directory of the current repository in the web browser:
 
-`gh browse {any something}`
+`gh browse {string value: path_from_root_of_repository}`
 
 - Print the destination URL without open the web browser:
 

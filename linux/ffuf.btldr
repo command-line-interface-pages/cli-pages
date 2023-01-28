@@ -5,24 +5,24 @@
 
 - Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:
 
-`ffuf -w {any something} -u {any something} -c -v`
+`ffuf -w {string value: path/to/wordlist} -u {string value: https://target/FUZZ} -c -v`
 
 - Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:
 
-`ffuf -w {any something} -u {any something} -H "{any something}" -mc {int number: 200}`
+`ffuf -w {string value: hosts.txt} -u {string value: https://example.org} -H "{string value: Host: FUZZ}" -mc {int value: 200}`
 
 - Discover directories using a [w]ordlist on a target website with a max individual job time of 60 seconds and recursion discovery depth of 2 levels:
 
-`ffuf -w {any something} -u {any something} -maxtime-job {int number: 60} -recursion -recursion-depth {int number: 2}`
+`ffuf -w {string value: path/to/wordlist} -u {string value: https://target/FUZZ} -maxtime-job {int value: 60} -recursion -recursion-depth {int value: 2}`
 
 - Fuzz GET parameter on a target website and [f]ilter out message [s]ize response of 4242 bytes:
 
-`ffuf -w {any something} -u {any something} -fs {int number: 4242}`
+`ffuf -w {string value: path/to/param_names.txt} -u {string value: https://target/script.php?FUZZ=test_value} -fs {int value: 4242}`
 
 - Fuzz POST method with POST [d]ata of password on a target website and [f]ilter out HTTP response [c]ode 401:
 
-`ffuf -w {any something} -X {any something} -d "{any something}" -u {any something} -fc {int number: 401}`
+`ffuf -w {string value: path/to/postdata.txt} -X {string value: POST} -d "{string value: username=admin\&password=FUZZ}" -u {string value: https://target/login.php} -fc {int value: 401}`
 
 - Discover subdomains using a subdomain list on a target website:
 
-`ffuf -w {any something} -u {any something} -H "{any something}"`
+`ffuf -w {string value: subdomains.txt} -u {string value: https://website.com} -H "{string value: Host: FUZZ.website.com}"`

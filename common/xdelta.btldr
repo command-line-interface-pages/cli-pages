@@ -6,8 +6,8 @@
 
 - Apply a patch:
 
-`xdelta -d -s {file something: input} {file something: delta} {file something: output}`
+`xdelta -d -s {file value: input} {file value: delta.xdelta} {file value: output}`
 
 - Create a patch:
 
-`xdelta -e -s {file something: old} {file something: new} {file something: output}`
+`xdelta -e -s {file value: old} {file value: new} {file value: output.xdelta}`

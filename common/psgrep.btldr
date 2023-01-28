@@ -5,12 +5,12 @@
 
 - Find process lines containing a specific string:
 
-`psgrep {any something}`
+`psgrep {string value: process_name}`
 
 - Find process lines containing a specific string, excluding headers:
 
-`psgrep -n {any something}`
+`psgrep -n {string value: process_name}`
 
 - Search using a simplified format (PID, user, command):
 
-`psgrep -s {any something}`
+`psgrep -s {string value: process_name}`

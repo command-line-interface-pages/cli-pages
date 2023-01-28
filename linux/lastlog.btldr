@@ -13,8 +13,8 @@
 
 - Display records older than 7 days:
 
-`lastlog --before {int number: 7}`
+`lastlog --before {int value: 7}`
 
 - Display records more recent than 3 days:
 
-`lastlog -time {int number: 3}`
+`lastlog -time {int value: 3}`

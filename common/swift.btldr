@@ -9,7 +9,7 @@
 
 - Execute a program:
 
-`swift {file something}`
+`swift {file value: sample.swift}`
 
 - Start a new project with the package manager:
 

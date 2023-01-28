@@ -6,7 +6,7 @@
 
 - Create a new functions project:
 
-`func init {any something}`
+`func init {string value: project}`
 
 - Create a new function:
 
@@ -18,12 +18,12 @@
 
 - Publish your code to a function app in Azure:
 
-`func azure functionapp publish {any something}`
+`func azure functionapp publish {string value: function}`
 
 - Download all settings from an existing function app:
 
-`func azure functionapp fetch-app-settings {any something}`
+`func azure functionapp fetch-app-settings {string value: function}`
 
 - Get the connection string for a specific storage account:
 
-`func azure storage fetch-connection-string {any something}`
+`func azure storage fetch-connection-string {string value: storage_account}`

@@ -5,8 +5,8 @@
 
 - Compile a Lua source file to Lua bytecode:
 
-`luac -o {any something} {any something}`
+`luac -o {string value: byte_code.luac} {string value: source.lua}`
 
 - Do not include debug symbols in the output:
 
-`luac -s -o {any something} {any something}`
+`luac -s -o {string value: byte_code.luac} {string value: source.lua}`

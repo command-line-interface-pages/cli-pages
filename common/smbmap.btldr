@@ -5,20 +5,20 @@
 
 - Enumerate hosts with NULL sessions enabled and open shares:
 
-`smbmap --host-file {file something}`
+`smbmap --host-file {file value}`
 
 - Enumerate hosts and check SMB file permissions:
 
-`smbmap --host-file {file something} -u {string user} -p {any something} -q`
+`smbmap --host-file {file value} -u {string user} -p {string value: password} -q`
 
 - Connect to an ip or hostname through smb using a username and password:
 
-`smbmap -u {string user} -p {any something} -d {any something} -H {any something}`
+`smbmap -u {string user} -p {string value: password} -d {string value: domain} -H {string value: ip_or_hostname}`
 
 - Locate and download files [R]ecursively up to N levels depth, searching for filename pattern (regex), and excluding certain shares:
 
-`smbmap --host-file {file something} -u {string user} -p {any something} -q -R --depth {any something} --exclude {any something} -A {any something}`
+`smbmap --host-file {file value} -u {string user} -p {string value: password} -q -R --depth {string value: number} --exclude {string value: sharename} -A {string value: filepattern}`
 
 - Upload file through smb using username and password:
 
-`smbmap -u {string user} -p {any something} -d {any something} -H {any something} --upload {file something} '{any something}'`
+`smbmap -u {string user} -p {string value: password} -d {string value: domain} -H {string value: ip_or_hostname} --upload {file value} '{string value: /share_name/remote_filename}'`

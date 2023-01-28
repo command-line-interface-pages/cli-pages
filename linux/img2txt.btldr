@@ -5,20 +5,20 @@
 
 - Set output column count to a specific value:
 
-`img2txt --width={int number: 10}`
+`img2txt --width={int value: 10}`
 
 - Set output line count to a specific value:
 
-`img2txt --height={int number: 5}`
+`img2txt --height={int value: 5}`
 
 - Set output font width to a specific value:
 
-`img2txt --font-width={int number: 12}`
+`img2txt --font-width={int value: 12}`
 
 - Set output font height to a specific value:
 
-`img2txt --font-height={int number: 14}`
+`img2txt --font-height={int value: 14}`
 
 - Set image brightness to a specific value:
 
-`img2txt --brightness={int number: 2}`
+`img2txt --brightness={int value: 2}`

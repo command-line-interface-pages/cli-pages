@@ -14,4 +14,4 @@
 
 - Use a custom file for the SNTP state:
 
-`sntpd -z {any something}`
+`sntpd -z {string value: path/to/state.bin}`

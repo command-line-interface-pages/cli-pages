@@ -5,20 +5,20 @@
 
 - Start tunnel from a specific port:
 
-`lt --port {int number: 8000}`
+`lt --port {int value: 8000}`
 
 - Specify the upstream server doing the forwarding:
 
-`lt --port {int number: 8000} --host {any something}`
+`lt --port {int value: 8000} --host {string value: host}`
 
 - Request a specific subdomain:
 
-`lt --port {int number: 8000} --subdomain {any something}`
+`lt --port {int value: 8000} --subdomain {string value: subdomain}`
 
 - Print basic request info:
 
-`lt --port {int number: 8000} --print-requests`
+`lt --port {int value: 8000} --print-requests`
 
 - Open the tunnel URL in the default web browser:
 
-`lt --port {int number: 8000} --open`
+`lt --port {int value: 8000} --open`

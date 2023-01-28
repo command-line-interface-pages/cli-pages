@@ -9,7 +9,7 @@
 
 - Add the Corepack shims to a specific directory:
 
-`corepack enable --install-directory {directory something}`
+`corepack enable --install-directory {directory value}`
 
 - Remove the Corepack shims from the Node.js installation directory:
 
@@ -17,7 +17,7 @@
 
 - Prepare a specific package manager:
 
-`corepack prepare {any something}@{any something} --activate`
+`corepack prepare {string value: package_manager}@{string value: version} --activate`
 
 - Prepare the package manager configured for the project in the current path:
 
@@ -25,12 +25,12 @@
 
 - Use a package manager without installing it as a global command:
 
-`corepack {any something} {any something}`
+`corepack {string value: npm|pnpm|yarn} {string value: package_manager_arguments}`
 
 - Install a package manager from the specified archive:
 
-`corepack hydrate {any something}`
+`corepack hydrate {string value: path/to/corepack.tgz}`
 
 - Display help for a subcommand:
 
-`corepack {any something} --help`
+`corepack {string value: subcommand} --help`

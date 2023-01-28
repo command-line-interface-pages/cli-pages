@@ -5,11 +5,11 @@
 
 - Get the list of libraries and their dependencies:
 
-`pkg-config --libs {any something}`
+`pkg-config --libs {string value: library1 library2 ...}`
 
 - Get the list of libraries, their dependencies, and proper cflags for gcc:
 
-`pkg-config --cflags --libs {any something}`
+`pkg-config --cflags --libs {string value: library1 library2 ...}`
 
 - Compile your code with libgtk-3, libwebkit2gtk-4.0 and all their dependencies:
 

@@ -9,11 +9,11 @@
 
 - Open specific directories:
 
-`dolphin {directory* something}`
+`dolphin {directory* value}`
 
 - Open with specific files or directories selected:
 
-`dolphin --select {path* something}`
+`dolphin --select {path* value}`
 
 - Open a new window:
 
@@ -21,7 +21,7 @@
 
 - Open specific directories in split view:
 
-`dolphin --split {any something} {any something}`
+`dolphin --split {string value: path/to/directory1} {string value: path/to/directory2}`
 
 - Launch the daemon (only required to use the DBus interface):
 

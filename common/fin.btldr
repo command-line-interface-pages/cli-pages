@@ -13,12 +13,12 @@
 
 - Open a shell into a specific container:
 
-`fin bash {any something}`
+`fin bash {string value: container_name}`
 
 - Display logs of a specific container:
 
-`fin logs {any something}`
+`fin logs {string value: container_name}`
 
 - Display logs of a specific container and follow the log:
 
-`fin logs -f {any something}`
+`fin logs -f {string value: container_name}`

@@ -5,16 +5,16 @@
 
 - Recompress a file from `.Z` to `.gz` format:
 
-`znew {any something}`
+`znew {string value: path/to/file1.Z}`
 
 - Recompress multiple files and display the achieved size reduction % per file:
 
-`znew -v {any something} {any something} {any something}`
+`znew -v {string value: path/to/file1.Z} {string value: path/to/file2.Z} {string value: path/to/file3.Z}`
 
 - Recompress a file using the slowest compression method (for optimal compression):
 
-`znew -9 {any something}`
+`znew -9 {string value: path/to/file1.Z}`
 
 - Recompress a file, [K]eeping the `.Z` file if it is smaller than the `.gz` file:
 
-`znew -K {any something}`
+`znew -K {string value: path/to/file1.Z}`

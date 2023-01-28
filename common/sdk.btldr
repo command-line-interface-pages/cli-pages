@@ -6,15 +6,15 @@
 
 - Install an SDK version:
 
-`sdk install {any something} {any something}`
+`sdk install {string value: sdk_name} {string value: sdk_version}`
 
 - Use a specific SDK version for the current terminal session:
 
-`sdk use {any something} {any something}`
+`sdk use {string value: sdk_name} {string value: sdk_version}`
 
 - Show the stable version of any available SDK:
 
-`sdk current {any something}`
+`sdk current {string value: sdk_name}`
 
 - Show the stable versions of all installed SDKs:
 
@@ -26,12 +26,12 @@
 
 - List all versions of an SDK:
 
-`sdk list {any something}`
+`sdk list {string value: sdk_name}`
 
 - Upgrade an SDK to the latest stable version:
 
-`sdk upgrade {any something}`
+`sdk upgrade {string value: sdk_name}`
 
 - Uninstall a specific SDK version:
 
-`sdk rm {any something} {any something}`
+`sdk rm {string value: sdk_name} {string value: sdk_version}`

@@ -6,20 +6,20 @@
 
 - Archive a file, replacing it with a 7zipped compressed version:
 
-`p7zip {file something}`
+`p7zip {file value}`
 
 - Archive a file keeping the input file:
 
-`p7zip -k {file something}`
+`p7zip -k {file value}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`p7zip -d {any something}.7z`
+`p7zip -d {string value: compressed.ext}.7z`
 
 - Decompress a file keeping the input file:
 
-`p7zip -d -k {any something}.7z`
+`p7zip -d -k {string value: compressed.ext}.7z`
 
 - Skip some checks and force compression or decompression:
 
-`p7zip -f {file something}`
+`p7zip -f {file value}`

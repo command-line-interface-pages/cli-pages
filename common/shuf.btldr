@@ -5,16 +5,16 @@
 
 - Randomize the order of lines in a file and output the result:
 
-`shuf {file something}`
+`shuf {file value}`
 
 - Only output the first 5 entries of the result:
 
-`shuf --head-count={int number: 5} {file something}`
+`shuf --head-count={int value: 5} {file value}`
 
 - Write the output to another file:
 
-`shuf {any something} --output={any something}`
+`shuf {string value: path/to/input} --output={string value: path/to/output}`
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 
-`shuf --head-count={int number: 3} --input-range={any something} --repeat`
+`shuf --head-count={int value: 3} --input-range={string value: 1-10} --repeat`

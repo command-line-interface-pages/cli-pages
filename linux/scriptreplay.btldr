@@ -5,12 +5,12 @@
 
 - Replay a typescript at the speed it was recorded:
 
-`scriptreplay {file something: timing} {any something}`
+`scriptreplay {file value: timing} {string value: path/to/typescript}`
 
 - Replay a typescript at double the original speed:
 
-`scriptreplay {any something} {any something} 2`
+`scriptreplay {string value: path/to/timingfile} {string value: path/to/typescript} 2`
 
 - Replay a typescript at half the original speed:
 
-`scriptreplay {any something} {any something} 0.5`
+`scriptreplay {string value: path/to/timingfile} {string value: path/to/typescript} 0.5`

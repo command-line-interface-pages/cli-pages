@@ -9,4 +9,4 @@
 
 - Show help for a specific subcommand:
 
-`pueue help {any something}`
+`pueue help {string value: subcommand}`

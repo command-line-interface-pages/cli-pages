@@ -5,28 +5,28 @@
 
 - Connect to a database:
 
-`mysql {any something}`
+`mysql {string value: database_name}`
 
 - Connect to a database, user will be prompted for a password:
 
-`mysql -u {any something} --password {any something}`
+`mysql -u {string value: user} --password {string value: database_name}`
 
 - Connect to a database on another host:
 
-`mysql -h {any something} {any something}`
+`mysql -h {string value: database_host} {string value: database_name}`
 
 - Connect to a database through a Unix socket:
 
-`mysql --socket {any something}`
+`mysql --socket {string value: path/to/socket.sock}`
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql -e "source {any something}" {any something}`
+`mysql -e "source {file value: sample.sql}" {string value: database_name}`
 
 - Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
 
-`mysql --user {any something} --password {any something} < {any something}`
+`mysql --user {string value: user} --password {string value: database_name} < {string value: path/to/backup.sql}`
 
 - Restore all databases from a backup (user will be prompted for a password):
 
-`mysql --user {any something} --password < {any something}`
+`mysql --user {string value: user} --password < {string value: path/to/backup.sql}`

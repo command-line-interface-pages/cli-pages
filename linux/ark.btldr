@@ -5,12 +5,12 @@
 
 - Extract a specific archive into the current directory:
 
-`ark --batch {any something}`
+`ark --batch {string value: path/to/archive}`
 
 - Extract an archive into a specific directory:
 
-`ark --batch --destination {directory something} {any something}`
+`ark --batch --destination {directory value} {string value: path/to/archive}`
 
 - Create an archive if it does not exist and add specific files to it:
 
-`ark --add-to {any something} {any something}`
+`ark --add-to {string value: path/to/archive} {file* value}`

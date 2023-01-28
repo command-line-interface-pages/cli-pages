@@ -9,16 +9,16 @@
 
 - Sign a file:
 
-`minisign -Sm {file something}`
+`minisign -Sm {file value}`
 
 - Sign a file, adding a trusted (signed) and an untrusted (unsigned) comment in the signature:
 
-`minisign -Sm {file something} -c "{any something}" -t "{any something}"`
+`minisign -Sm {file value} -c "{string value: Untrusted comment}" -t "{string value: Trusted comment}"`
 
 - Verify a file and the trusted comments in its signature using the specified public key file:
 
-`minisign -Vm {file something} -p {any something}`
+`minisign -Vm {file value} -p {string value: path/to/publickey.pub}`
 
 - Verify a file and the trusted comments in its signature, specifying a public key as a Base64 encoded literal:
 
-`minisign -Vm {file something} -P "{any something}"`
+`minisign -Vm {file value} -P "{string value: public_key_base64}"`

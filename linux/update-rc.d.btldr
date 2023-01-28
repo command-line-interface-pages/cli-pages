@@ -6,16 +6,16 @@
 
 - Install a service:
 
-`update-rc.d {any something} defaults`
+`update-rc.d {string value: mysql} defaults`
 
 - Enable a service:
 
-`update-rc.d {any something} enable`
+`update-rc.d {string value: mysql} enable`
 
 - Disable a service:
 
-`update-rc.d {any something} disable`
+`update-rc.d {string value: mysql} disable`
 
 - Forcibly remove a service:
 
-`update-rc.d -f {any something} remove`
+`update-rc.d -f {string value: mysql} remove`

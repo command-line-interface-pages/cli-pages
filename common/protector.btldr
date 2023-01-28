@@ -5,12 +5,12 @@
 
 - Protect branches of a GitHub repository (create branch protection rules):
 
-`protector {any something} -repos {any something}`
+`protector {string value: branches_regex} -repos {string value: organization/repository}`
 
 - Use the dry run to see what would be protected (can also be used for freeing):
 
-`protector -dry-run {any something} -repos {any something}`
+`protector -dry-run {string value: branches_regex} -repos {string value: organization/repository}`
 
 - Free branches of a GitHub repository (delete branch protection rules):
 
-`protector -free {any something} -repos {any something}`
+`protector -free {string value: branches_regex} -repos {string value: organization/repository}`

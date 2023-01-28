@@ -5,15 +5,15 @@
 
 - Create a new Poetry project in the directory with a specific name:
 
-`poetry new {any something}`
+`poetry new {string value: project_name}`
 
 - Install a dependency and its subdependencies:
 
-`poetry add {any something}`
+`poetry add {string value: dependency}`
 
 - Install a development dependency and its subdependencies:
 
-`poetry add --group dev {any something}`
+`poetry add --group dev {string value: dependency}`
 
 - Interactively initialize the current directory as a new Poetry project:
 
@@ -25,7 +25,7 @@
 
 - Execute a command inside the project's virtual environment:
 
-`poetry run {any something}`
+`poetry run {string value: command}`
 
 - Bump the minor version of the project in `pyproject.toml`:
 

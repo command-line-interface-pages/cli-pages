@@ -5,12 +5,12 @@
 
 - Wait until the virtual machine is stopped:
 
-`qm wait {any something}`
+`qm wait {string value: vm_id}`
 
 - Wait until the virtual machine is stopped with a 10 second timeout:
 
-`qm wait --timeout {int number: 10} {any something}`
+`qm wait --timeout {int value: 10} {string value: vm_id}`
 
 - Send a shutdown request, then wait until the virtual machine is stopped with a 10 second timeout:
 
-`qm shutdown {any something} && qm wait --timeout {int number: 10} {any something}`
+`qm shutdown {string value: vm_id} && qm wait --timeout {int value: 10} {string value: vm_id}`

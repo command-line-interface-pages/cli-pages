@@ -13,7 +13,7 @@
 
 - Specify the path to the EFI system partition (defaults to `/efi/`, `/boot/` or `/boot/efi`):
 
-`sudo bootctl --esp-path={any something}`
+`sudo bootctl --esp-path={string value: /path/to/efi_system_partition/}`
 
 - Show all available bootloader entries:
 

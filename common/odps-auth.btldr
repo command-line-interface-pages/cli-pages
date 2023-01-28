@@ -10,7 +10,7 @@
 
 - Grant a set of authorities to a user:
 
-`grant {any something} on {any something} {any something} to user {string user};`
+`grant {string value: action_list} on {string value: object_type} {string value: object_name} to user {string user};`
 
 - Show authorities of a user:
 
@@ -18,16 +18,16 @@
 
 - Create a user role:
 
-`create role {any something};`
+`create role {string value: role_name};`
 
 - Grant a set of authorities to a role:
 
-`grant {any something} on {any something} {any something} to role {any something};`
+`grant {string value: action_list} on {string value: object_type} {string value: object_name} to role {string value: role_name};`
 
 - Describe authorities of a role:
 
-`desc role {any something};`
+`desc role {string value: role_name};`
 
 - Grant a role to a user:
 
-`grant {any something} to {string user};`
+`grant {string value: role_name} to {string user};`

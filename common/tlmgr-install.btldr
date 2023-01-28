@@ -5,20 +5,20 @@
 
 - Install a package and its dependencies:
 
-`sudo tlmgr install {any something}`
+`sudo tlmgr install {string value: package}`
 
 - Reinstall a package:
 
-`sudo tlmgr install --reinstall {any something}`
+`sudo tlmgr install --reinstall {string value: package}`
 
 - Simulate installing a package without making any changes:
 
-`tlmgr install --dry-run {any something}`
+`tlmgr install --dry-run {string value: package}`
 
 - Install a package without its dependencies:
 
-`sudo tlmgr install --no-depends {any something}`
+`sudo tlmgr install --no-depends {string value: package}`
 
 - Install a package from a specific file:
 
-`sudo tlmgr install --file {any something}`
+`sudo tlmgr install --file {string value: path/to/package}`

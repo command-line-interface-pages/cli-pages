@@ -5,19 +5,19 @@
 
 - Ping a host using ICMP:
 
-`psping {any something}`
+`psping {string value: hostname}`
 
 - Ping a host over a TCP port:
 
-`psping {any something}:{any something}`
+`psping {string value: hostname}:{string value: port}`
 
 - Specify the number of pings and perform it quietly:
 
-`psping {any something} -n {any something} -q`
+`psping {string value: hostname} -n {string value: pings} -q`
 
 - Ping the target over TCP 50 times and produce a histogram of the results:
 
-`psping {any something}:{any something} -q -n {int number: 50} -h`
+`psping {string value: hostname}:{string value: port} -q -n {int value: 50} -h`
 
 - Display usage information:
 

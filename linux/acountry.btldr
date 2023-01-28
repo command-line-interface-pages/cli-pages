@@ -5,12 +5,12 @@
 
 - Print a country where an IPv4 address or host is located:
 
-`acountry {any something}`
+`acountry {string value: example.com}`
 
 - Print extra [d]ebugging output:
 
-`acountry -d {any something}`
+`acountry -d {string value: example.com}`
 
 - Print more [v]erbose information:
 
-`acountry -v {any something}`
+`acountry -v {string value: example.com}`

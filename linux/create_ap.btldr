@@ -5,28 +5,28 @@
 
 - Create an open network with no passphrase:
 
-`create_ap {any something} {any something} {any something}`
+`create_ap {string value: wlan0} {string value: eth0} {string value: access_point_ssid}`
 
 - Use a WPA + WPA2 passphrase:
 
-`create_ap {any something} {any something} {any something} {any something}`
+`create_ap {string value: wlan0} {string value: eth0} {string value: access_point_ssid} {string value: passphrase}`
 
 - Create an access point without Internet sharing:
 
-`create_ap -n {any something} {any something} {any something}`
+`create_ap -n {string value: wlan0} {string value: access_point_ssid} {string value: passphrase}`
 
 - Create a bridged network with Internet sharing:
 
-`create_ap -m bridge {any something} {any something} {any something} {any something}`
+`create_ap -m bridge {string value: wlan0} {string value: eth0} {string value: access_point_ssid} {string value: passphrase}`
 
 - Create a bridged network with Internet sharing and a pre-configured bridge interface:
 
-`create_ap -m bridge {any something} {any something} {any something} {any something}`
+`create_ap -m bridge {string value: wlan0} {string value: br0} {string value: access_point_ssid} {string value: passphrase}`
 
 - Create an access port for Internet sharing from the same Wi-Fi interface:
 
-`create_ap {any something} {any something} {any something} {any something}`
+`create_ap {string value: wlan0} {string value: wlan0} {string value: access_point_ssid} {string value: passphrase}`
 
 - Choose a different Wi-Fi adapter driver:
 
-`create_ap --driver {any something} {any something} {any something} {any something} {any something}`
+`create_ap --driver {string value: wifi_adapter} {string value: wlan0} {string value: eth0} {string value: access_point_ssid} {string value: passphrase}`

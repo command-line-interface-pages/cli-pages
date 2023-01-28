@@ -9,7 +9,7 @@
 
 - Start an HTTP server on a specific [p]ort to serve a specific directory:
 
-`serve -p {any something} {directory something}`
+`serve -p {string value: port} {directory value}`
 
 - Start an HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
 
@@ -21,11 +21,11 @@
 
 - Start an HTTPS server on the default port using the specified certificate:
 
-`serve --ssl-cert {any something} --ssl-key {any something}`
+`serve --ssl-cert {string value: path/to/cert.pem} --ssl-key {string value: path/to/key.pem}`
 
 - Start an HTTP server on the default port using a specific configuration file:
 
-`serve --config {any something}`
+`serve --config {string value: path/to/serve.json}`
 
 - Display help:
 

@@ -6,11 +6,11 @@
 
 - Start the command-line with a custom configuration file:
 
-`odpscmd --config={any something}`
+`odpscmd --config={string value: odps_config.ini}`
 
 - Switch current project:
 
-`use {any something};`
+`use {string value: project_name};`
 
 - Show tables in the current project:
 
@@ -18,12 +18,12 @@
 
 - Describe a table:
 
-`desc {any something};`
+`desc {string value: table_name};`
 
 - Show table partitions:
 
-`show partitions {any something};`
+`show partitions {string value: table_name};`
 
 - Describe a partition:
 
-`desc {any something} partition ({any something});`
+`desc {string value: table_name} partition ({string value: partition_spec});`

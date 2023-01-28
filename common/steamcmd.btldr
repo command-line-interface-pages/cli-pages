@@ -5,12 +5,12 @@
 
 - Install or update an application anonymously:
 
-`steamcmd +login {any something} +app_update {any something} +quit`
+`steamcmd +login {string value: anonymous} +app_update {string value: appid} +quit`
 
 - Install or update an application using the specified credentials:
 
-`steamcmd +login {string user} +app_update {any something} +quit`
+`steamcmd +login {string user} +app_update {string value: appid} +quit`
 
 - Install an application for a specific platform:
 
-`steamcmd +@sSteamCmdForcePlatformType {any something} +login {any something} +app_update {any something} validate +quit`
+`steamcmd +@sSteamCmdForcePlatformType {string value: windows} +login {string value: anonymous} +app_update {string value: appid} validate +quit`

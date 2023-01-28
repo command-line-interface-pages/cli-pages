@@ -9,20 +9,20 @@
 
 - Display information about a specific release:
 
-`glab release view {any something}`
+`glab release view {string value: tag}`
 
 - Create a new release:
 
-`glab release create {any something}`
+`glab release create {string value: tag}`
 
 - Delete a specific release:
 
-`glab release delete {any something}`
+`glab release delete {string value: tag}`
 
 - Download assets from a specific release:
 
-`glab release download {any something}`
+`glab release download {string value: tag}`
 
 - Upload assets to a specific release:
 
-`glab release upload {any something} {any something} {any something}`
+`glab release upload {string value: tag} {string value: path/to/file1} {string value: path/to/file2}`

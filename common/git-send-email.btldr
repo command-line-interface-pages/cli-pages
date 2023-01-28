@@ -10,16 +10,16 @@
 
 - Send a given commit:
 
-`git send-email -1 {any something}`
+`git send-email -1 {string value: commit}`
 
 - Send multiple (e.g. 10) commits in the current branch:
 
-`git send-email {int number: -10}`
+`git send-email {int value: -10}`
 
 - Send an introductory email message for the patch series:
 
-`git send-email -{any something} --compose`
+`git send-email -{string value: number_of_commits} --compose`
 
 - Review and edit the email message for each patch you're about to send:
 
-`git send-email -{any something} --annotate`
+`git send-email -{string value: number_of_commits} --annotate`

@@ -13,4 +13,4 @@
 
 - Change the current system date to a specific date:
 
-`date {any something}-{any something}-{any something}`
+`date {string value: month}-{string value: day}-{string value: year}`

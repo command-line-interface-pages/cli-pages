@@ -5,11 +5,11 @@
 
 - Expose a local HTTP service on a given port:
 
-`ngrok http {int number: 80}`
+`ngrok http {int value: 80}`
 
 - Expose a local HTTP service on a specific host:
 
-`ngrok http {any something}:{int number: 80}`
+`ngrok http {string value: foo.dev}:{int value: 80}`
 
 - Expose a local HTTPS server:
 
@@ -17,8 +17,8 @@
 
 - Expose TCP traffic on a given port:
 
-`ngrok tcp {int number: 22}`
+`ngrok tcp {int value: 22}`
 
 - Expose TLS traffic for a specific host and port:
 
-`ngrok tls -hostname={any something} {int number: 443}`
+`ngrok tls -hostname={string value: foo.com} {int value: 443}`

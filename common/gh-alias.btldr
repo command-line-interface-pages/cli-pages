@@ -13,12 +13,12 @@
 
 - Create a `gh` subcommand alias:
 
-`gh alias set {any something} '{any something}'`
+`gh alias set {string value: pv} '{string value: pr view}'`
 
 - Set a shell command as a `gh` subcommand:
 
-`gh alias set --shell {any something} {any something}`
+`gh alias set --shell {string value: alias_name} {string value: command}`
 
 - Delete a command shortcut:
 
-`gh alias delete {any something}`
+`gh alias delete {string value: alias_name}`

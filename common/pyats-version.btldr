@@ -17,4 +17,4 @@
 
 - Update or downgrade packages to a specific version:
 
-`pyats version update {any something}`
+`pyats version update {string value: version}`

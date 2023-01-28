@@ -14,12 +14,12 @@
 
 - Launch a VNC server on a specific display and screen (both starting at index zero):
 
-`x11vnc -display :{any something}.{any something}`
+`x11vnc -display :{string value: display}.{string value: screen}`
 
 - Launch a VNC server on the third display's default screen:
 
-`x11vnc -display :{int number: 2}`
+`x11vnc -display :{int value: 2}`
 
 - Launch a VNC server on the first display's second screen:
 
-`x11vnc -display :{int number: 0}.{int number: 1}`
+`x11vnc -display :{int value: 0}.{int value: 1}`

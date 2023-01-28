@@ -10,11 +10,11 @@
 
 - Open specific files:
 
-`gimp {any something}`
+`gimp {string value: path/to/image1 path/to/image2 ...}`
 
 - Open specific files in a new window:
 
-`gimp --new-instance {any something}`
+`gimp --new-instance {string value: path/to/image1 path/to/image2 ...}`
 
 - Start without a splash screen:
 

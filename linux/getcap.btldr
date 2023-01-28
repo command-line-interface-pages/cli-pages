@@ -5,12 +5,12 @@
 
 - Get capabilities for the given files:
 
-`getcap {any something}`
+`getcap {file* value}`
 
 - Get capabilities for all the files recursively under the given directories:
 
-`getcap -r {directory* something}`
+`getcap -r {directory* value}`
 
 - Displays all searched entries even if no capabilities are set:
 
-`getcap -v {any something}`
+`getcap -v {file* value}`

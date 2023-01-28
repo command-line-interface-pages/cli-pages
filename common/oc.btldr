@@ -10,19 +10,19 @@
 
 - Create a new project:
 
-`oc new-project {any something}`
+`oc new-project {string value: project_name}`
 
 - Switch to an existing project:
 
-`oc project {any something}`
+`oc project {string value: project_name}`
 
 - Add a new application to a project:
 
-`oc new-app {any something} --name {any something}`
+`oc new-app {string value: repo_url} --name {string value: application}`
 
 - Open a remote shell session to a container:
 
-`oc rsh {any something}`
+`oc rsh {string value: pod_name}`
 
 - List pods in a project:
 

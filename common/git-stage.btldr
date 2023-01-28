@@ -6,7 +6,7 @@
 
 - Add a file to the index:
 
-`git stage {file something}`
+`git stage {file value}`
 
 - Add all files (tracked and untracked):
 
@@ -26,7 +26,7 @@
 
 - Interactively stage parts of a given file:
 
-`git stage -p {file something}`
+`git stage -p {file value}`
 
 - Interactively stage a file:
 

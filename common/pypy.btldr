@@ -9,24 +9,24 @@
 
 - Execute script in a given Python file:
 
-`pypy {file something}`
+`pypy {file value: sample.py}`
 
 - Execute script as part of an interactive shell:
 
-`pypy -i {file something}`
+`pypy -i {file value: sample.py}`
 
 - Execute a Python expression:
 
-`pypy -c "{any something}"`
+`pypy -c "{string value: expression}"`
 
 - Run library module as a script (terminates option list):
 
-`pypy -m {any something} {any something}`
+`pypy -m {string value: module} {string value: arguments}`
 
 - Install a package using pip:
 
-`pypy -m pip install {any something}`
+`pypy -m pip install {string value: package_name}`
 
 - Interactively debug a Python script:
 
-`pypy -m pdb {file something}`
+`pypy -m pdb {file value: sample.py}`

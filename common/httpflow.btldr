@@ -5,20 +5,20 @@
 
 - Capture traffic on all interfaces:
 
-`httpflow -i {any something}`
+`httpflow -i {string value: any}`
 
 - Use a bpf-style capture to filter the results:
 
-`httpflow {any something}`
+`httpflow {string value: host httpbin.org or host baidu.com}`
 
 - Use a regular expression to filter requests by URLs:
 
-`httpflow -u '{any something}'`
+`httpflow -u '{string value: regular_expression}'`
 
 - Read packets from pcap format binary file:
 
-`httpflow -r {any something}`
+`httpflow -r {string value: out.cap}`
 
 - Write the output to a directory:
 
-`httpflow -w {directory something}`
+`httpflow -w {directory value}`

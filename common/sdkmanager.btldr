@@ -9,7 +9,7 @@
 
 - Install a package:
 
-`sdkmanager {any something}`
+`sdkmanager {string value: package}`
 
 - Update every installed package:
 
@@ -17,4 +17,4 @@
 
 - Uninstall a package:
 
-`sdkmanager --uninstall {any something}`
+`sdkmanager --uninstall {string value: package}`

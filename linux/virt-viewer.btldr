@@ -10,16 +10,16 @@
 
 - Launch `virt-viewer` for a specific virtual machine by ID, UUID or name:
 
-`virt-viewer "{any something}"`
+`virt-viewer "{string value: domain}"`
 
 - Wait for a virtual machine to start and automatically reconnect if it shutdown and restarts:
 
-`virt-viewer --reconnect --wait "{any something}"`
+`virt-viewer --reconnect --wait "{string value: domain}"`
 
 - Connect to a specific remote virtual machine over TLS:
 
-`virt-viewer --connect "xen//{string url}" "{any something}"`
+`virt-viewer --connect "xen//{string url}" "{string value: domain}"`
 
 - Connect to a specific remote virtual machine over SSH:
 
-`virt-viewer --connect "qemu+ssh//{string user}@{string url}/system" "{any something}"`
+`virt-viewer --connect "qemu+ssh//{string user}@{string url}/system" "{string value: domain}"`

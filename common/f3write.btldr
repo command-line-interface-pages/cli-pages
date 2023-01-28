@@ -6,8 +6,8 @@
 
 - Write test files to a given directory, filling the drive:
 
-`f3write {any something}`
+`f3write {string value: path/to/mount_point}`
 
 - Limit the write speed:
 
-`f3write --max-write-rate={any something} {any something}`
+`f3write --max-write-rate={string value: kb_per_second} {string value: path/to/mount_point}`

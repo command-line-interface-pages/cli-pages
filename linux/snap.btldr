@@ -6,19 +6,19 @@
 
 - Search for a package:
 
-`snap find {any something}`
+`snap find {string value: package_name}`
 
 - Install a package:
 
-`snap install {any something}`
+`snap install {string value: package_name}`
 
 - Update a package:
 
-`snap refresh {any something}`
+`snap refresh {string value: package_name}`
 
 - Update a package to another channel (track, risk, or branch):
 
-`snap refresh {any something} --channel={any something}`
+`snap refresh {string value: package_name} --channel={string value: channel}`
 
 - Update all packages:
 
@@ -30,7 +30,7 @@
 
 - Uninstall a package:
 
-`snap remove {any something}`
+`snap remove {string value: package_name}`
 
 - Check for recent snap changes in the system:
 

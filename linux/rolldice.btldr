@@ -5,16 +5,16 @@
 
 - Roll a single 20 sided dice:
 
-`rolldice d{int number: 20}`
+`rolldice d{int value: 20}`
 
 - Roll two six sided dice and drop the lowest roll:
 
-`rolldice {int number: 2}d{int number: 6}s{int number: 1}`
+`rolldice {int value: 2}d{int value: 6}s{int value: 1}`
 
 - Roll two 20 sided dice and add a modifier value:
 
-`rolldice {int number: 2}d{int number: 20}{int number: +5}`
+`rolldice {int value: 2}d{int value: 20}{int value: +5}`
 
 - Roll a 20 sided dice two times:
 
-`rolldice {int number: 2}xd{int number: 20}`
+`rolldice {int value: 2}xd{int value: 20}`

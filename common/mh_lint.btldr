@@ -10,12 +10,12 @@
 
 - Check a specific directory recursively:
 
-`mh_lint {directory something}`
+`mh_lint {directory value}`
 
 - Check a MATLAB file:
 
-`mh_lint {file something}`
+`mh_lint {file value: sample.m}`
 
 - Check an Octave file:
 
-`mh_lint --octave {file something}`
+`mh_lint --octave {file value: sample.m}`

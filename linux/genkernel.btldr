@@ -9,7 +9,7 @@
 
 - Build and install the bzImage|initramfs|kernel|ramdisk only:
 
-`sudo genkernel {any something}`
+`sudo genkernel {string value: bzImage|initramfs|kernel|ramdisk}`
 
 - Apply changes to the kernel configuration before compiling and installing:
 
@@ -17,8 +17,8 @@
 
 - Generate a kernel with a custom name:
 
-`sudo genkernel --kernname={any something} all`
+`sudo genkernel --kernname={string value: custom_name} all`
 
 - Use a kernel source outside the default directory `/usr/src/linux`:
 
-`sudo genkernel --kerneldir={directory something} all`
+`sudo genkernel --kerneldir={directory value} all`

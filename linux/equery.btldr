@@ -9,16 +9,16 @@
 
 - Search for installed packages in the Portage tree and in overlays:
 
-`equery list -po {any something}`
+`equery list -po {string value: package_name}`
 
 - List all packages that depend on a given package:
 
-`equery depends {any something}`
+`equery depends {string value: package_name}`
 
 - List all packages that a given package depends on:
 
-`equery depgraph {any something}`
+`equery depgraph {string value: package_name}`
 
 - List all files installed by a package:
 
-`equery files --tree {any something}`
+`equery files --tree {string value: package_name}`

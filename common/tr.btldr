@@ -5,28 +5,28 @@
 
 - Replace all occurrences of a character in a file, and print the result:
 
-`tr {any something} {any something} < {file something}`
+`tr {string value: find_character} {string value: replace_character} < {file value}`
 
 - Replace all occurrences of a character from another command's output:
 
-`echo {any something} | tr {any something} {any something}`
+`echo {string value: text} | tr {string value: find_character} {string value: replace_character}`
 
 - Map each character of the first set to the corresponding character of the second set:
 
-`tr '{any something}' '{any something}' < {file something}`
+`tr '{string value: abcd}' '{string value: jkmn}' < {file value}`
 
 - Delete all occurrences of the specified set of characters from the input:
 
-`tr -d '{any something}' < {file something}`
+`tr -d '{string value: input_characters}' < {file value}`
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '{any something}' < {file something}`
+`tr -s '{string value: input_characters}' < {file value}`
 
 - Translate the contents of a file to upper-case:
 
-`tr "[:lower:]" "[:upper:]" < {file something}`
+`tr "[:lower:]" "[:upper:]" < {file value}`
 
 - Strip out non-printable characters from a file:
 
-`tr -cd "[:print:]" < {file something}`
+`tr -cd "[:print:]" < {file value}`

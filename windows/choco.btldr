@@ -6,7 +6,7 @@
 
 - Execute Chocolatey command:
 
-`choco {any something}`
+`choco {string value: command}`
 
 - Call general help:
 
@@ -14,7 +14,7 @@
 
 - Call help on a specific command:
 
-`choco {any something} -?`
+`choco {string value: command} -?`
 
 - Check the Chocolatey version:
 

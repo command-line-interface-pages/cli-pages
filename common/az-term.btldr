@@ -6,8 +6,8 @@
 
 - Print marketplace terms:
 
-`az term show --product "{any something}" --plan "{any something}" --publisher "{any something}"`
+`az term show --product "{string value: product_identifier}" --plan "{string value: plan_identifier}" --publisher "{string value: publisher_identifier}"`
 
 - Accept marketplace terms:
 
-`az term accept --product "{any something}" --plan "{any something}" --publisher "{any something}"`
+`az term accept --product "{string value: product_identifier}" --plan "{string value: plan_identifier}" --publisher "{string value: publisher_identifier}"`

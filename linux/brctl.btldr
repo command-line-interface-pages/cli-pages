@@ -9,16 +9,16 @@
 
 - Create a new Ethernet bridge interface:
 
-`sudo brctl add {any something}`
+`sudo brctl add {string value: bridge_name}`
 
 - Delete an existing Ethernet bridge interface:
 
-`sudo brctl del {any something}`
+`sudo brctl del {string value: bridge_name}`
 
 - Add an interface to an existing bridge:
 
-`sudo brctl addif {any something} {any something}`
+`sudo brctl addif {string value: bridge_name} {string value: interface_name}`
 
 - Remove an interface from an existing bridge:
 
-`sudo brctl delif {any something} {any something}`
+`sudo brctl delif {string value: bridge_name} {string value: interface_name}`

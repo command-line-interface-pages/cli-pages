@@ -9,12 +9,12 @@
 
 - Start an X session with a predefined depth value:
 
-`startx -- -depth {any something}`
+`startx -- -depth {string value: value}`
 
 - Start an X session with a predefined dpi value:
 
-`startx -- -dpi {any something}`
+`startx -- -dpi {string value: value}`
 
 - Override the settings in the `.xinitrc` file and start a new X session:
 
-`startx /{any something}`
+`startx /{string value: path/to/window_manager_or_desktop_environment}`

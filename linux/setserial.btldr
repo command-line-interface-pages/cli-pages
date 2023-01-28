@@ -5,16 +5,16 @@
 
 - Print all information about a specific serial device:
 
-`setserial -a {any something}`
+`setserial -a {string value: /dev/cuaN}`
 
 - Print the configuration summary of a specific serial device (useful for printing during bootup process):
 
-`setserial -b {any something}`
+`setserial -b {string value: device}`
 
 - Set a specific configuration parameter to a device:
 
-`sudo setserial {any something} {any something}`
+`sudo setserial {string value: device} {string value: parameter}`
 
 - Print the configuration of a list of devices:
 
-`setserial -g {any something}`
+`setserial -g {string value: device1 device2 ...}`

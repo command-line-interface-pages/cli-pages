@@ -6,24 +6,24 @@
 
 - Analyze live traffic from a network interface:
 
-`sudo zeek --iface {any something}`
+`sudo zeek --iface {string value: interface}`
 
 - Analyze live traffic from a network interface and load custom scripts:
 
-`sudo zeek --iface {any something} {any something} {any something}`
+`sudo zeek --iface {string value: interface} {string value: script1} {string value: script2}`
 
 - Analyze live traffic from a network interface, without loading any scripts:
 
-`sudo zeek --bare-mode --iface {any something}`
+`sudo zeek --bare-mode --iface {string value: interface}`
 
 - Analyze live traffic from a network interface, applying a `tcpdump` filter:
 
-`sudo zeek --filter {any something} --iface {any something}`
+`sudo zeek --filter {string value: path/to/filter} --iface {string value: interface}`
 
 - Analyze live traffic from a network interface using a watchdog timer:
 
-`sudo zeek --watchdog --iface {any something}`
+`sudo zeek --watchdog --iface {string value: interface}`
 
 - Analyze traffic from a `pcap` file:
 
-`zeek --readfile {file something}`
+`zeek --readfile {file value: sample.trace}`

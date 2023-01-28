@@ -5,19 +5,19 @@
 
 - Create a new organization:
 
-`pio org create {any something}`
+`pio org create {string value: organization_name}`
 
 - Delete an organization:
 
-`pio org destroy {any something}`
+`pio org destroy {string value: organization_name}`
 
 - Add a user to an organization:
 
-`pio org add {any something} {string user}`
+`pio org add {string value: organization_name} {string user}`
 
 - Remove a user from an organization:
 
-`pio org remove {any something} {string user}`
+`pio org remove {string value: organization_name} {string user}`
 
 - List all organizations the current user is a member of and their owners:
 
@@ -25,4 +25,4 @@
 
 - Update the name, email or display name of an organization:
 
-`pio org update --orgname {any something} --email {any something} --displayname {any something} {any something}`
+`pio org update --orgname {string value: new_organization_name} --email {string value: new_email} --displayname {string value: new_display_name} {string value: organization_name}`

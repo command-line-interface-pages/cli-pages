@@ -9,12 +9,12 @@
 
 - Trigger an info line from appearing in the output, where 'infoname' is the function name in the config file, e.g. memory:
 
-`neofetch --{any something} {any something}`
+`neofetch --{string value: enable|disable} {string value: infoname}`
 
 - Hide/Show OS architecture:
 
-`neofetch --os_arch {any something}`
+`neofetch --os_arch {string value: on|off}`
 
 - Enable/Disable CPU brand in output:
 
-`neofetch --cpu_brand {any something}`
+`neofetch --cpu_brand {string value: on|off}`

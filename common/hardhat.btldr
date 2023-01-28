@@ -13,7 +13,7 @@
 
 - Run a user-defined script after compiling the project:
 
-`hardhat run {any something}`
+`hardhat run {string value: path/to/script.js}`
 
 - Run Mocha tests:
 
@@ -21,7 +21,7 @@
 
 - Run all given test files:
 
-`hardhat test {any something} {any something}`
+`hardhat test {string value: path/to/file1.js} {string value: path/to/file2.js}`
 
 - Start a local Ethereum JSON-RPC node for development:
 
@@ -29,7 +29,7 @@
 
 - Start a local Ethereum JSON-RPC node with a specific hostname and port:
 
-`hardhat node --hostname {any something} --port {any something}`
+`hardhat node --hostname {string value: hostname} --port {string value: port}`
 
 - Clean the cache and all artifacts:
 

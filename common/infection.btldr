@@ -9,19 +9,19 @@
 
 - Use a specific number of threads:
 
-`infection --threads {any something}`
+`infection --threads {string value: number_of_threads}`
 
 - Specify a minimum Mutation Score Indicator (MSI):
 
-`infection --min-msi {any something}`
+`infection --min-msi {string value: percentage}`
 
 - Specify a minimum covered code MSI:
 
-`infection --min-covered-msi {any something}`
+`infection --min-covered-msi {string value: percentage}`
 
 - Use a specific test framework (defaults to PHPUnit):
 
-`infection --test-framework {any something}`
+`infection --test-framework {string value: phpunit|phpspec}`
 
 - Only mutate lines of code that are covered by tests:
 
@@ -33,4 +33,4 @@
 
 - Specify the log verbosity:
 
-`infection --log-verbosity {any something}`
+`infection --log-verbosity {string value: default|all|none}`

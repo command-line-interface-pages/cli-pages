@@ -9,7 +9,7 @@
 
 - Set the initial title:
 
-`xfce4-terminal --initial-title "{any something}"`
+`xfce4-terminal --initial-title "{string value: initial_title}"`
 
 - Open a new tab in the current terminal window:
 
@@ -17,12 +17,12 @@
 
 - Execute a command in a new terminal window:
 
-`xfce4-terminal --command "{any something}"`
+`xfce4-terminal --command "{string value: command_with_args}"`
 
 - Keep the terminal around after the executed command finishes executing:
 
-`xfce4-terminal --command "{any something}" --hold`
+`xfce4-terminal --command "{string value: command_with_args}" --hold`
 
 - Open multiple new tabs, executing a command in each:
 
-`xfce4-terminal --tab --command "{any something}" --tab --command "{any something}"`
+`xfce4-terminal --tab --command "{string value: command_a}" --tab --command "{string value: command_b}"`

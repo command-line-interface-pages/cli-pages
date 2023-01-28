@@ -9,15 +9,15 @@
 
 - Install a specified Phar to the local directory:
 
-`phive install {any something}`
+`phive install {string value: alias|url}`
 
 - Install a specified Phar globally:
 
-`phive install {any something} --global`
+`phive install {string value: alias|url} --global`
 
 - Install a specified Phar to a target directory:
 
-`phive install {any something} --target {directory something}`
+`phive install {string value: alias|url} --target {directory value}`
 
 - Update all Phar files to the latest version:
 
@@ -25,7 +25,7 @@
 
 - Remove a specified Phar file:
 
-`phive remove {any something}`
+`phive remove {string value: alias|url}`
 
 - Remove unused Phar files:
 

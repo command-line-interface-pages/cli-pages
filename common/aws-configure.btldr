@@ -9,23 +9,23 @@
 
 - Configure a named profile for AWS CLI interactively (creates a new profile or updates an existing one):
 
-`aws configure --profile {any something}`
+`aws configure --profile {string value: profile_name}`
 
 - Display the value from a specific configuration variable:
 
-`aws configure get {any something}`
+`aws configure get {string value: name}`
 
 - Display the value for a configuration variable in a specific profile:
 
-`aws configure get {any something} --profile {any something}`
+`aws configure get {string value: name} --profile {string value: profile_name}`
 
 - Set the value of a specific configuration variable:
 
-`aws configure set {any something} {any something}`
+`aws configure set {string value: name} {string value: value}`
 
 - Set the value of a configuration variable in a specific profile:
 
-`aws configure set {any something} {any something} --profile {any something}`
+`aws configure set {string value: name} {string value: value} --profile {string value: profile_name}`
 
 - List the configuration entries:
 
@@ -33,4 +33,4 @@
 
 - List the configuration entries for a specific profile:
 
-`aws configure list --profile {any something}`
+`aws configure list --profile {string value: profile_name}`

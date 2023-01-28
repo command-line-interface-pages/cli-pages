@@ -6,15 +6,15 @@
 
 - Switch to an existing branch:
 
-`git switch {any something}`
+`git switch {string value: branch_name}`
 
 - Create a new branch and switch to it:
 
-`git switch --create {any something}`
+`git switch --create {string value: branch_name}`
 
 - Create a new branch based on an existing commit and switch to it:
 
-`git switch --create {any something} {any something}`
+`git switch --create {string value: branch_name} {string value: commit}`
 
 - Switch to the previous branch:
 
@@ -22,8 +22,8 @@
 
 - Switch to a branch and update all submodules to match:
 
-`git switch --recurse-submodules {any something}`
+`git switch --recurse-submodules {string value: branch_name}`
 
 - Switch to a branch and automatically merge the current branch and any uncommitted changes into it:
 
-`git switch --merge {any something}`
+`git switch --merge {string value: branch_name}`

@@ -9,11 +9,11 @@
 
 - Navigate the piece horizontally:
 
-`{any something} arrow key`
+`{string value: Left|Right} arrow key`
 
 - Rotate the piece clockwise or counterclockwise:
 
-`{any something}`
+`{string value: Spacebar|Up arrow key}`
 
 - Soft drop the piece:
 

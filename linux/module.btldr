@@ -9,11 +9,11 @@
 
 - Search for a module by name:
 
-`module avail {any something}`
+`module avail {string value: module_name}`
 
 - Load a module:
 
-`module load {any something}`
+`module load {string value: module_name}`
 
 - Display loaded modules:
 
@@ -21,7 +21,7 @@
 
 - Unload a specific loaded module:
 
-`module unload {any something}`
+`module unload {string value: module_name}`
 
 - Unload all loaded modules:
 

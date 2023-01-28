@@ -9,7 +9,7 @@
 
 - Update a single entry:
 
-`mandb --filename {file something}`
+`mandb --filename {file value}`
 
 - Create entries from scratch instead of updating:
 

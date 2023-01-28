@@ -5,7 +5,7 @@
 
 - Install a new package:
 
-`sudo pacman --sync {any something}`
+`sudo pacman --sync {string value: package_name}`
 
 - Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
 
@@ -13,23 +13,23 @@
 
 - Update all packages and install a new one without prompting:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {any something}`
+`sudo pacman --sync --refresh --sysupgrade --noconfirm {string value: package_name}`
 
 - Search the package database for a regular expression or keyword:
 
-`pacman --sync --search "{any something}"`
+`pacman --sync --search "{string value: search_pattern}"`
 
 - Display information about a package:
 
-`pacman --sync --info {any something}`
+`pacman --sync --info {string value: package_name}`
 
 - Overwrite conflicting files during a package update:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {file something}`
+`sudo pacman --sync --refresh --sysupgrade --overwrite {file value}`
 
 - Synchronize and update all packages, but ignore a specific package (can be used more than once):
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {any something}`
+`sudo pacman --sync --refresh --sysupgrade --ignore {string value: package_name}`
 
 - Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
 

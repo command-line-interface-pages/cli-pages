@@ -5,12 +5,12 @@
 
 - Delay in seconds:
 
-`sleep {any something}`
+`sleep {string value: seconds}`
 
 - Delay in minutes:
 
-`sleep {any something}m`
+`sleep {string value: minutes}m`
 
 - Delay in hours:
 
-`sleep {any something}h`
+`sleep {string value: hours}h`

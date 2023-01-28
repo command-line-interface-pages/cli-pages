@@ -6,8 +6,8 @@
 
 - Start listening on a specific port:
 
-`rc -lp {any something}`
+`rc -lp {string value: port}`
 
 - Start a reverse shell:
 
-`rc {any something} {any something} -r {any something}`
+`rc {string value: host} {string value: port} -r {string value: shell}`

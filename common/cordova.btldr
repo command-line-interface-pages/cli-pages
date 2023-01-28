@@ -5,7 +5,7 @@
 
 - Create a Cordova project:
 
-`cordova create {any something} {any something} {any something}`
+`cordova create {string value: path} {string value: package_name} {string value: project_name}`
 
 - Display the current workspace status:
 
@@ -13,16 +13,16 @@
 
 - Add a Cordova platform:
 
-`cordova platform add {any something}`
+`cordova platform add {string value: platform}`
 
 - Remove a Cordova platform:
 
-`cordova platform remove {any something}`
+`cordova platform remove {string value: platform}`
 
 - Add a Cordova plugin:
 
-`cordova plugin add {any something}`
+`cordova plugin add {string value: pluginid}`
 
 - Remove a Cordova plugin:
 
-`cordova plugin remove {any something}`
+`cordova plugin remove {string value: pluginid}`

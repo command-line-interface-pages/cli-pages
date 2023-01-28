@@ -5,12 +5,12 @@
 
 - Use a specific base URL:
 
-`cotton -u {any something} {file something}.md`
+`cotton -u {string value: base_url} {file value}.md`
 
 - Disable certificate verification (insecure mode):
 
-`cotton -u {any something} -i {file something}.md`
+`cotton -u {string value: base_url} -i {file value}.md`
 
 - Stop running when a test fails:
 
-`cotton -u {any something} -s {file something}.md`
+`cotton -u {string value: base_url} -s {file value}.md`

@@ -5,16 +5,16 @@
 
 - Get ephemerides for Paris, France:
 
-`kosmorro --latitude={float number: 48.7996} --longitude={float number: 2.3511}`
+`kosmorro --latitude={float value: 48.7996} --longitude={float value: 2.3511}`
 
 - Get ephemerides for Paris, France, in the UTC+2 timezone:
 
-`kosmorro --latitude={float number: 48.7996} --longitude={float number: 2.3511} --timezone={int number: 2}`
+`kosmorro --latitude={float value: 48.7996} --longitude={float value: 2.3511} --timezone={int value: 2}`
 
 - Get ephemerides for Paris, France, on June 9th, 2020:
 
-`kosmorro --latitude={float number: 48.7996} --longitude={float number: 2.3511} --date={any something}`
+`kosmorro --latitude={float value: 48.7996} --longitude={float value: 2.3511} --date={string value: 2020-06-09}`
 
 - Generate a PDF (note: TeXLive must be installed):
 
-`kosmorro --format={any something} --output={file something}`
+`kosmorro --format={string value: pdf} --output={file value: sample.pdf}`

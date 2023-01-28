@@ -10,15 +10,15 @@
 
 - Run a specific screensaver:
 
-`gh screensaver --saver {any something}`
+`gh screensaver --saver {string value: fireworks|marquee|pipes|pollock|starfield}`
 
 - Run the "marquee" screensaver with a specific text and font:
 
-`gh screensaver --saver {any something} -- --message="{any something}" --font={any something}`
+`gh screensaver --saver {string value: marquee} -- --message="{string value: message}" --font={string value: font_name}`
 
 - Run the "starfield" screensaver with a specific density and speed:
 
-`gh screensaver --saver {any something} -- --density {int number: 500} --speed {int number: 10}`
+`gh screensaver --saver {string value: starfield} -- --density {int value: 500} --speed {int value: 10}`
 
 - List available screensavers:
 

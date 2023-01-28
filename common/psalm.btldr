@@ -13,11 +13,11 @@
 
 - Analyze a specific directory or file:
 
-`psalm {file something|path something}`
+`psalm {path value}`
 
 - Analyze a project with a specific configuration file:
 
-`psalm --config {any something}`
+`psalm --config {string value: path/to/psalm.xml}`
 
 - Include informational findings in the output:
 
@@ -29,4 +29,4 @@
 
 - Analyze a project in parallel with 4 threads:
 
-`psalm --threads {int number: 4}`
+`psalm --threads {int value: 4}`

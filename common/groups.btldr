@@ -10,4 +10,4 @@
 
 - Print group memberships for a list of users:
 
-`groups {any something}`
+`groups {string value: username1 username2 ...}`

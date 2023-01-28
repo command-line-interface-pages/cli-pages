@@ -5,7 +5,7 @@
 
 - Go to the specified directory:
 
-`cd {directory something}`
+`cd {directory value}`
 
 - Go up to the parent of the current directory:
 

@@ -6,7 +6,7 @@
 
 - Create a package tarball from the current directory:
 
-`pio package pack --output {any something}`
+`pio package pack --output {string value: path/to/package.tar.gz}`
 
 - Create and publish a package tarball from the current directory:
 
@@ -18,20 +18,20 @@
 
 - Publish a package:
 
-`pio package publish {any something}`
+`pio package publish {string value: path/to/package.tar.gz}`
 
 - Publish a package with a custom release date (UTC):
 
-`pio package publish {any something} --released-at "{any something}"`
+`pio package publish {string value: path/to/package.tar.gz} --released-at "{string value: 2021-04-08 21:15:38}"`
 
 - Remove all versions of a published package from the registry:
 
-`pio package unpublish {any something}`
+`pio package unpublish {string value: package_name}`
 
 - Remove a specific version of a published package from the registry:
 
-`pio package unpublish {any something}@{any something}`
+`pio package unpublish {string value: package_name}@{string value: version}`
 
 - Undo the removal, putting all versions or a specific version of the package back into the registry:
 
-`pio package unpublish --undo {any something}@{any something}`
+`pio package unpublish --undo {string value: package_name}@{string value: version}`

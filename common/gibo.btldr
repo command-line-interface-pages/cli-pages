@@ -9,15 +9,15 @@
 
 - Write a boilerplate to stdout:
 
-`gibo dump {any something}`
+`gibo dump {string value: boilerplate}`
 
 - Write a boilerplate to .gitignore:
 
-`gibo dump {any something} >>{any something}`
+`gibo dump {string value: boilerplate} >>{string value: .gitignore}`
 
 - Search for boilerplates containing a given string:
 
-`gibo search {any something}`
+`gibo search {string value: string}`
 
 - Update available local boilerplates:
 

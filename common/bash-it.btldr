@@ -5,7 +5,7 @@
 
 - Update Bash-it to the latest stable/development version:
 
-`bash-it update {any something}`
+`bash-it update {string value: stable|dev}`
 
 - Reload Bash profile (set `BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE` to non-empty value for an automatic reload):
 
@@ -21,12 +21,12 @@
 
 - Reload Bash profile with enabled error/warning/entire logging:
 
-`bash-it doctor {any something}`
+`bash-it doctor {string value: errors|warnings|all}`
 
 - Search for Bash-it aliases/plugins/completions:
 
-`bash-it search {any something}`
+`bash-it search {string value: alias|plugin|completion}`
 
 - Search for Bash-it aliases/plugins/completions and enable/disable all found items:
 
-`bash-it search --{any something} {any something}`
+`bash-it search --{string value: enable|disable} {string value: alias|plugin|completion}`

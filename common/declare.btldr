@@ -5,24 +5,24 @@
 
 - Declare a string variable with the specified value:
 
-`declare {any something}="{any something}"`
+`declare {string value: variable}="{string value: value}"`
 
 - Declare an integer variable with the specified value:
 
-`declare -i {any something}="{any something}"`
+`declare -i {string value: variable}="{string value: value}"`
 
 - Declare an array variable with the specified value:
 
-`declare -a {any something}=({any something})`
+`declare -a {string value: variable}=({string value: item_a item_b item_c})`
 
 - Declare an associative array variable with the specified value:
 
-`declare -A {any something}=({any something})`
+`declare -A {string value: variable}=({string value: [key_a]=item_a [key_b]=item_b [key_c]=item_c})`
 
 - Declare a readonly string variable with the specified value:
 
-`declare -r {any something}="{any something}"`
+`declare -r {string value: variable}="{string value: value}"`
 
 - Declare a global variable within a function with the specified value:
 
-`declare -g {any something}="{any something}"`
+`declare -g {string value: variable}="{string value: value}"`

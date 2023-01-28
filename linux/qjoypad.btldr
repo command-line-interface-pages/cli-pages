@@ -9,7 +9,7 @@
 
 - Start QJoyPad and look for devices in a specific directory:
 
-`qjoypad --device={directory something}`
+`qjoypad --device={directory value}`
 
 - Start QJoyPad but don't show a system tray icon:
 
@@ -25,4 +25,4 @@
 
 - Load the given layout in an already running instance of QJoyPad, or start QJoyPad using the given layout:
 
-`qjoypad "{any something}"`
+`qjoypad "{string value: layout}"`

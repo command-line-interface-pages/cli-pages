@@ -9,28 +9,28 @@
 
 - Set chain policy rule:
 
-`sudo iptables -P {any something} {any something}`
+`sudo iptables -P {string value: chain} {string value: rule}`
 
 - Append rule to chain policy for IP:
 
-`sudo iptables -A {any something} -s {string ip} -j {any something}`
+`sudo iptables -A {string value: chain} -s {string ip} -j {string value: rule}`
 
 - Append rule to chain policy for IP considering protocol and port:
 
-`sudo iptables -A {any something} -s {string ip} -p {any something} --dport {any something} -j {any something}`
+`sudo iptables -A {string value: chain} -s {string ip} -p {string value: protocol} --dport {string value: port} -j {string value: rule}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
-`sudo iptables -t {any something} -A {any something} -s {any something} -j {any something}`
+`sudo iptables -t {string value: nat} -A {string value: POSTROUTING} -s {string value: 192.168.0.0/24} -j {string value: MASQUERADE}`
 
 - Delete chain rule:
 
-`sudo iptables -D {any something} {any something}`
+`sudo iptables -D {string value: chain} {string value: rule_line_number}`
 
 - Save iptables configuration of a given table to a file:
 
-`sudo iptables-save -t {any something} > {file something: iptables}`
+`sudo iptables-save -t {string value: tablename} > {file value: iptables}`
 
 - Restore iptables configuration from a file:
 
-`sudo iptables-restore < {file something: iptables}`
+`sudo iptables-restore < {file value: iptables}`

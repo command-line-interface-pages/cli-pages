@@ -13,20 +13,20 @@
 
 - Run a specific directory of tests:
 
-`rspec {directory something}`
+`rspec {directory value}`
 
 - Run a specific test file:
 
-`rspec {file something}`
+`rspec {file value}`
 
 - Run multiple test files:
 
-`rspec {any something} {any something}`
+`rspec {string value: path/to/file1} {string value: path/to/file2}`
 
 - Run a specific test in a file (e.g. the test starts on line 83):
 
-`rspec {file something}:{int number: 83}`
+`rspec {file value}:{int value: 83}`
 
 - Run specs with a specific seed:
 
-`rspec --seed {any something}`
+`rspec --seed {string value: seed_number}`

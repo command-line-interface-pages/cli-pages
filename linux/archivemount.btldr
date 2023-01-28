@@ -5,4 +5,4 @@
 
 - Mount an archive to a specific mountpoint:
 
-`archivemount {any something} {any something}`
+`archivemount {string value: path/to/archive} {string value: path/to/mount_point}`

@@ -17,7 +17,7 @@
 
 - Start all containers using an alternate compose file:
 
-`docker compose --file {file something} up`
+`docker compose --file {file value} up`
 
 - Stop all running containers:
 
@@ -33,4 +33,4 @@
 
 - Follow logs for a specific container:
 
-`docker compose logs --follow {any something}`
+`docker compose logs --follow {string value: container_name}`

@@ -9,7 +9,7 @@
 
 - Launch an application from a specific Dockerfile (the default path is the current working directory):
 
-`flyctl launch --dockerfile {any something}`
+`flyctl launch --dockerfile {string value: path/to/dockerfile}`
 
 - Open the current deployed application in the default web browser:
 
@@ -17,7 +17,7 @@
 
 - Deploy the Fly applications from a specific Dockerfile:
 
-`flyctl deploy --dockerfile {any something}`
+`flyctl deploy --dockerfile {string value: path/to/dockerfile}`
 
 - Open the Fly Web UI for the current application in a web browser:
 
@@ -29,7 +29,7 @@
 
 - View the status of a specific running application:
 
-`flyctl status --app {any something}`
+`flyctl status --app {string value: app_name}`
 
 - Show version information:
 

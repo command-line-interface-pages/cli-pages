@@ -17,4 +17,4 @@
 
 - Display all exported filesystems for a remote server:
 
-`showmount -e {any something}`
+`showmount -e {string value: server_address}`

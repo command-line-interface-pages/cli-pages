@@ -9,16 +9,16 @@
 
 - Capture a screenshot, detecting a plugin automatically:
 
-`lxi screenshot --address {any something}`
+`lxi screenshot --address {string value: ip_address}`
 
 - Capture a screenshot using a specified plugin:
 
-`lxi screenshot --address {any something} --plugin {any something}`
+`lxi screenshot --address {string value: ip_address} --plugin {string value: rigol-1000z}`
 
 - Send an SCPI command to an instrument:
 
-`lxi scpi --address {any something} "{any something}"`
+`lxi scpi --address {string value: ip_address} "{string value: *IDN?}"`
 
 - Run a benchmark for request and response performance:
 
-`lxi benchmark --address {any something}`
+`lxi benchmark --address {string value: ip_address}`

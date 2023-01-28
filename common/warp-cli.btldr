@@ -25,4 +25,4 @@
 
 - Display help for a subcommand:
 
-`warp-cli help {any something}`
+`warp-cli help {string value: subcommand}`

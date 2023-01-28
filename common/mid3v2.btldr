@@ -6,28 +6,28 @@
 
 - List all supported ID3v2.3 or ID3v2.4 frames and their meanings:
 
-`id3v2 --list-frames {any something}`
+`id3v2 --list-frames {file* value: sample.mp3}`
 
 - List all supported ID3v1 numeric genres:
 
-`id3v2 --list-genres {any something}`
+`id3v2 --list-genres {file* value: sample.mp3}`
 
 - List all tags in specific files:
 
-`id3v2 --list {any something}`
+`id3v2 --list {file* value: sample.mp3}`
 
 - Set specific artist, album, or song information:
 
-`id3v2 {any something}={any something} {any something}`
+`id3v2 {string value: --artist|--album|--song}={string value: string} {file* value: sample.mp3}`
 
 - Set specific picture information:
 
-`id3v2 --picture={any something} {any something}`
+`id3v2 --picture={string value: filename:description:image_type:mime_type} {file* value: sample.mp3}`
 
 - Set specific year information:
 
-`id3v2 --year={any something} {any something}`
+`id3v2 --year={string value: YYYY} {file* value: sample.mp3}`
 
 - Set specific date information:
 
-`id3v2 --date={any something} {any something}`
+`id3v2 --date={string value: YYYY-MM-DD} {file* value: sample.mp3}`

@@ -9,16 +9,16 @@
 
 - Display only the ASCII art and color palette fields:
 
-`PF_INFO="{any something}" pfetch`
+`PF_INFO="{string value: ascii palette}" pfetch`
 
 - Display all possible fields:
 
-`PF_INFO="{any something}" pfetch`
+`PF_INFO="{string value: ascii title os host kernel uptime pkgs memory shell editor wm de palette}" pfetch`
 
 - Display a different username and hostname:
 
-`USER="{any something}" HOSTNAME="{any something}" pfetch`
+`USER="{string value: user}" HOSTNAME="{string value: hostname}" pfetch`
 
 - Display without colors:
 
-`PF_COLOR={int number: 0} pfetch`
+`PF_COLOR={int value: 0} pfetch`

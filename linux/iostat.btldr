@@ -21,8 +21,8 @@
 
 - Display extended disk statistics with disk names for device "sda":
 
-`iostat -xN {any something}`
+`iostat -xN {string value: sda}`
 
 - Display incremental reports of CPU and disk statistics every 2 seconds:
 
-`iostat {int number: 2}`
+`iostat {int value: 2}`

@@ -13,8 +13,8 @@
 
 - Add an SSH key to the currently authenticated user's account:
 
-`gh ssh-key add {any something}`
+`gh ssh-key add {string value: path/to/key.pub}`
 
 - Add an SSH key to the currently authenticated user's account with a specific title:
 
-`gh ssh-key add --title {any something} {any something}`
+`gh ssh-key add --title {string value: title} {string value: path/to/key.pub}`

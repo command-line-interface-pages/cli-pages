@@ -9,7 +9,7 @@
 
 - Display the current user sessions on a remote computer:
 
-`query session /server:{any something}`
+`query session /server:{string value: hostname}`
 
 - Display logged in users:
 
@@ -17,7 +17,7 @@
 
 - Display all user sessions on a remote computer:
 
-`query session /server:{any something}`
+`query session /server:{string value: hostname}`
 
 - Display all running processes:
 
@@ -25,4 +25,4 @@
 
 - Display running processes by session or user name:
 
-`query process {any something}`
+`query process {string value: session_name|user_name}`

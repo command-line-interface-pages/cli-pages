@@ -5,20 +5,20 @@
 
 - Initialize a Satis configuration:
 
-`satis init {any something}`
+`satis init {string value: satis.json}`
 
 - Add a VCS repository to the Satis configuration:
 
-`satis add {any something}`
+`satis add {string value: repository_url}`
 
 - Build the static output from the configuration:
 
-`satis build {any something} {directory something: output}`
+`satis build {string value: satis.json} {directory value: output}`
 
 - Build the static output by updating only the specified repository:
 
-`satis build --repository-url {any something} {any something} {directory something: output}`
+`satis build --repository-url {string value: repository_url} {string value: satis.json} {directory value: output}`
 
 - Remove useless archive files:
 
-`satis purge {any something} {directory something: output}`
+`satis purge {string value: satis.json} {directory value: output}`

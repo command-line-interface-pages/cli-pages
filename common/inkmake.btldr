@@ -5,19 +5,19 @@
 
 - Export an SVG file executing the specified Inkfile:
 
-`inkmake {any something}`
+`inkmake {string value: path/to/Inkfile}`
 
 - Execute an Inkfile and show detailed information:
 
-`inkmake --verbose {any something}`
+`inkmake --verbose {string value: path/to/Inkfile}`
 
 - Execute an Inkfile, specifying SVG input file(s) and an output file:
 
-`inkmake --svg {file something} --out {any something} {any something}`
+`inkmake --svg {file value: sample.svg} --out {string value: path/to/output_image} {string value: path/to/Inkfile}`
 
 - Specify a custom Inkscape binary to use as the backend:
 
-`inkmake --inkscape {any something} {any something}`
+`inkmake --inkscape {string value: /Applications/Inkscape.app/Contents/Resources/bin/inkscape} {string value: path/to/Inkfile}`
 
 - Display help:
 

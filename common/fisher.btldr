@@ -6,15 +6,15 @@
 
 - Install one or more plugins:
 
-`fisher {any something} {any something}`
+`fisher {string value: plugin1} {string value: plugin2}`
 
 - Install a plugin from a GitHub gist:
 
-`fisher {any something}`
+`fisher {string value: gist_url}`
 
 - Edit 'fishfile' manually with your favorite editor and install multiple plugins:
 
-`{any something} ~/.config/fish/fishfile; fisher`
+`{string value: editor} ~/.config/fish/fishfile; fisher`
 
 - List installed plugins:
 
@@ -26,4 +26,4 @@
 
 - Remove one or more plugins:
 
-`fisher remove {any something} {any something}`
+`fisher remove {string value: plugin1} {string value: plugin2}`

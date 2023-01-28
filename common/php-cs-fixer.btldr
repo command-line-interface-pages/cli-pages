@@ -9,7 +9,7 @@
 
 - Execute code style fixing for a specific directory:
 
-`php-cs-fixer fix {directory something}`
+`php-cs-fixer fix {directory value}`
 
 - Execute code style linting without applying changes:
 
@@ -17,7 +17,7 @@
 
 - Execute code style fixes using specific rules:
 
-`php-cs-fixer fix --rules={any something}`
+`php-cs-fixer fix --rules={string value: rules}`
 
 - Display the rules that have been applied:
 
@@ -25,7 +25,7 @@
 
 - Output the results in a different format:
 
-`php-cs-fixer fix --format={any something}`
+`php-cs-fixer fix --format={string value: txt|json|xml|checkstyle|junit|gitlab}`
 
 - Display files that require fixing:
 
@@ -33,4 +33,4 @@
 
 - Describe a rule or ruleset:
 
-`php-cs-fixer describe {any something}`
+`php-cs-fixer describe {string value: rule}`

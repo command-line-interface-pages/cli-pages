@@ -6,4 +6,4 @@
 
 - Add an article to the RSS feed:
 
-`sup {file something}`
+`sup {file value: sample.html}`

@@ -13,7 +13,7 @@
 
 - Start the daemon with a specific configuration file (defaults to `/etc/bluetooth/main.conf`):
 
-`bluetoothd --configfile {file something}`
+`bluetoothd --configfile {file value}`
 
 - Start the daemon with verbose output to stderr:
 
@@ -21,4 +21,4 @@
 
 - Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source:
 
-`bluetoothd --debug={any something}:{any something}:{any something}`
+`bluetoothd --debug={string value: path/to/file1}:{string value: path/to/file2}:{string value: path/to/file3}`

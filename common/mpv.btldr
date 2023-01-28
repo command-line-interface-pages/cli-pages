@@ -5,11 +5,11 @@
 
 - Play a video or audio file:
 
-`mpv {file something}`
+`mpv {file value}`
 
 - Play a video or audio file from a URL:
 
-`mpv '{any something}'`
+`mpv '{string value: https://www.youtube.com/watch?v=dQw4w9WgXcQ}'`
 
 - Jump backward/forward 5 seconds:
 
@@ -25,12 +25,12 @@
 
 - Play a file at a specified speed (0.01 to 100, default 1):
 
-`mpv --speed {any something} {file something}`
+`mpv --speed {string value: speed} {file value}`
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {any something} {file something}`
+`mpv --profile {string value: profile_name} {file value}`
 
 - Display the output of webcam or other video input device:
 
-`mpv /dev/{any something}`
+`mpv /dev/{string value: video0}`

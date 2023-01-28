@@ -5,11 +5,11 @@
 
 - Create a droplet:
 
-`doctl compute droplet create --region {any something} --image {any something} --size {any something} {any something}`
+`doctl compute droplet create --region {string value: region} --image {string value: os_image} --size {string value: vps_type} {string value: droplet_name}`
 
 - Delete a droplet:
 
-`doctl compute droplet delete {any something}`
+`doctl compute droplet delete {string value: droplet_id|droplet_name}`
 
 - List droplets:
 

@@ -6,12 +6,12 @@
 
 - Compile an Inno Setup script:
 
-`iscc {file something}`
+`iscc {file value: sample.iss}`
 
 - Quietly compile an Inno Setup installer:
 
-`iscc /Q {file something}`
+`iscc /Q {file value: sample.iss}`
 
 - Compile a signed Inno Setup installer:
 
-`iscc /S={any something}={any something} {file something}`
+`iscc /S={string value: name}={string value: command} {file value: sample.iss}`

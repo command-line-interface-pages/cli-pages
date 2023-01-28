@@ -5,28 +5,28 @@
 
 - Display a file with syntax highlighting:
 
-`rich {file something}`
+`rich {file value: sample.py}`
 
 - Add line numbers, and indentation guides:
 
-`rich {file something} --line-number --guides`
+`rich {file value: sample.py} --line-number --guides`
 
 - Apply a theme:
 
-`rich {file something} --theme {any something}`
+`rich {file value: sample.py} --theme {string value: monokai}`
 
 - Display a file in an interactive pager:
 
-`rich {file something} --pager`
+`rich {file value: sample.py} --pager`
 
 - Display contents from a URL:
 
-`rich {any something} --markdown --pager`
+`rich {string value: https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md} --markdown --pager`
 
 - Export a file as HTML:
 
-`rich {file something} --export-html {file something}`
+`rich {file value: sample.md} --export-html {file value: sample.html}`
 
 - Display text with formatting tags, custom alignment, and line width:
 
-`rich --print {any something} --{any something} --width {int number: 10}`
+`rich --print {string value: "Hello [green on black]Stylized[/green on black] [bold]World[/bold]"} --{string value: left|center|right} --width {int value: 10}`

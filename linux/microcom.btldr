@@ -5,8 +5,8 @@
 
 - Open a serial port using the specified baud rate:
 
-`microcom --port {any something} --speed {any something}`
+`microcom --port {string value: path/to/serial_port} --speed {string value: baud_rate}`
 
 - Establish a telnet connection to the specified host:
 
-`microcom --telnet {any something}:{any something}`
+`microcom --telnet {string value: hostname}:{string value: port}`

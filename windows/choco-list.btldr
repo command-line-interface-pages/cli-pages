@@ -21,8 +21,8 @@
 
 - Specify a custom source to display packages from:
 
-`choco list --source {any something}`
+`choco list --source {string value: source_url|alias}`
 
 - Provide a username and password for authentication:
 
-`choco list --user {string user} --password {any something}`
+`choco list --user {string user} --password {string value: password}`

@@ -10,20 +10,20 @@
 
 - Search for e-books displaying additional information:
 
-`calibredb list --search {any something}`
+`calibredb list --search {string value: search_term}`
 
 - Search for just ids of e-books:
 
-`calibredb search {any something}`
+`calibredb search {string value: search_term}`
 
 - Add one or more e-books to the library:
 
-`calibredb add {any something}`
+`calibredb add {string value: file1 file2 …}`
 
 - Recursively add all e-books under a directory to the library:
 
-`calibredb add -r {directory something}`
+`calibredb add -r {directory value}`
 
 - Remove one or more e-books from the library. You need the e-book IDs (see above):
 
-`calibredb remove {any something}`
+`calibredb remove {string value: id1 id2 …}`

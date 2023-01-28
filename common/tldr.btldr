@@ -5,15 +5,15 @@
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
 
-`tldr {any something}`
+`tldr {string value: command}`
 
 - Print the tldr page for a specific subcommand:
 
-`tldr {any something}-{any something}`
+`tldr {string value: command}-{string value: subcommand}`
 
 - Print the tldr page for a command for a specific [p]latform:
 
-`tldr -p {any something} {any something}`
+`tldr -p {string value: android|linux|osx|sunos|windows} {string value: command}`
 
 - [u]pdate the local cache of tldr pages:
 

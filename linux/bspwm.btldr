@@ -5,7 +5,7 @@
 
 - Start `bspwm` (note that a pre-existing window manager must not be open when this command is run):
 
-`bspwm -c {any something}`
+`bspwm -c {string value: path/to/config}`
 
 - View documentation for `bspc`:
 

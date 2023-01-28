@@ -10,4 +10,4 @@
 
 - Display available fonts using a specific text:
 
-`showfigfonts {any something}`
+`showfigfonts {string value: input_text}`

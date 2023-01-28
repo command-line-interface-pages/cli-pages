@@ -9,11 +9,11 @@
 
 - Open specific files:
 
-`xed {any something}`
+`xed {file* value}`
 
 - Open files using a specific encoding:
 
-`xed --encoding {any something} {any something}`
+`xed --encoding {string value: WINDOWS-1252} {file* value}`
 
 - Print all supported encodings:
 
@@ -21,4 +21,4 @@
 
 - Open a file and go to a specific line:
 
-`xed +{int number: 10} {file something}`
+`xed +{int value: 10} {file value}`

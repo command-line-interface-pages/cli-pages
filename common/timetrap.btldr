@@ -5,11 +5,11 @@
 
 - Create a new timesheet:
 
-`timetrap sheet {any something}`
+`timetrap sheet {string value: timesheet}`
 
 - Check in an entry started 5 minutes ago:
 
-`timetrap in --at "{any something}" {any something}`
+`timetrap in --at "{string value: 5 minutes ago}" {string value: entry_notes}`
 
 - Display the current timesheet:
 

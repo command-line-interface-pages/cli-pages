@@ -6,8 +6,8 @@
 
 - Create an ISO from a directory:
 
-`mkisofs -o {any something} {directory something: source}`
+`mkisofs -o {file value: sample.iso} {directory value: source}`
 
 - Set the disc label when creating an ISO:
 
-`mkisofs -o {any something} -V "{any something}" {directory something: source}`
+`mkisofs -o {file value: sample.iso} -V "{string value: label_name}" {directory value: source}`

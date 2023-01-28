@@ -6,20 +6,20 @@
 
 - Display general information about a binary (architecture, type, endianness):
 
-`rabin2 -I {any something}`
+`rabin2 -I {string value: path/to/binary}`
 
 - Display linked libraries:
 
-`rabin2 -l {any something}`
+`rabin2 -l {string value: path/to/binary}`
 
 - Display symbols imported from libraries:
 
-`rabin2 -i {any something}`
+`rabin2 -i {string value: path/to/binary}`
 
 - Display strings contained in the binary:
 
-`rabin2 -z {any something}`
+`rabin2 -z {string value: path/to/binary}`
 
 - Display the output in JSON:
 
-`rabin2 -j -I {any something}`
+`rabin2 -j -I {string value: path/to/binary}`

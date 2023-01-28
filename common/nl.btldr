@@ -5,20 +5,20 @@
 
 - Number non-blank lines in a file:
 
-`nl {file something}`
+`nl {file value}`
 
 - Read from stdout:
 
-`cat {file something} | nl {any something} -`
+`cat {file value} | nl {string value: options} -`
 
 - Number only the lines with printable text:
 
-`nl -t {file something}`
+`nl -t {file value}`
 
 - Number all lines including blank lines:
 
-`nl -b a {file something}`
+`nl -b a {file value}`
 
 - Number only the body lines that match a basic regular expression (BRE) pattern:
 
-`nl -b p'FooBar[0-9]' {file something}`
+`nl -b p'FooBar[0-9]' {file value}`

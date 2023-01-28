@@ -5,28 +5,28 @@
 
 - Create array:
 
-`sudo mdadm --create {any something} --level {any something} --raid-devices {any something} {any something}`
+`sudo mdadm --create {string value: /dev/md/MyRAID} --level {string value: raid_level} --raid-devices {string value: number_of_disks} {string value: /dev/sdXN}`
 
 - Stop array:
 
-`sudo mdadm --stop {any something}`
+`sudo mdadm --stop {string value: /dev/md0}`
 
 - Mark disk as failed:
 
-`sudo mdadm --fail {any something} {any something}`
+`sudo mdadm --fail {string value: /dev/md0} {string value: /dev/sdXN}`
 
 - Remove disk:
 
-`sudo mdadm --remove {any something} {any something}`
+`sudo mdadm --remove {string value: /dev/md0} {string value: /dev/sdXN}`
 
 - Add disk to array:
 
-`sudo mdadm --assemble {any something} {any something}`
+`sudo mdadm --assemble {string value: /dev/md0} {string value: /dev/sdXN}`
 
 - Show RAID info:
 
-`sudo mdadm --detail {any something}`
+`sudo mdadm --detail {string value: /dev/md0}`
 
 - Reset disk by deleting RAID metadata:
 
-`sudo mdadm --zero-superblock {any something}`
+`sudo mdadm --zero-superblock {string value: /dev/sdXN}`

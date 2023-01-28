@@ -9,11 +9,11 @@
 
 - Open a specific file:
 
-`monodevelop {file something}`
+`monodevelop {file value}`
 
 - Open a specific file with the caret at a specific position:
 
-`monodevelop {file something};{any something};{any something}`
+`monodevelop {file value};{string value: line_number};{string value: column_number}`
 
 - Force opening a new window instead of switching to an existing one:
 

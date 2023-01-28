@@ -5,8 +5,8 @@
 
 - Build an image:
 
-`packer build {any something}`
+`packer build {string value: path/to/config.json}`
 
 - Check the syntax of a Packer image config:
 
-`packer validate {any something}`
+`packer validate {string value: path/to/config.json}`

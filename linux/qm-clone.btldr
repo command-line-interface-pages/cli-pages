@@ -5,24 +5,24 @@
 
 - Copy a virtual machine:
 
-`qm copy {any something} {any something}`
+`qm copy {string value: vm_id} {string value: new_vm_id}`
 
 - Copy a virtual machine using a specific name:
 
-`qm copy {any something} {any something} --name {any something}`
+`qm copy {string value: vm_id} {string value: new_vm_id} --name {string value: name}`
 
 - Copy a virtual machine using a specific descriptionn:
 
-`qm copy {any something} {any something} --description {any something}`
+`qm copy {string value: vm_id} {string value: new_vm_id} --description {string value: description}`
 
 - Copy a virtual machine creating a full copy of all disks:
 
-`qm copy {any something} {any something} --full`
+`qm copy {string value: vm_id} {string value: new_vm_id} --full`
 
 - Copy a virtual machine using a specific format for file storage (requires `--full`):
 
-`qm copy {any something} {any something} --full --format {any something}`
+`qm copy {string value: vm_id} {string value: new_vm_id} --full --format {string value: qcow2|raw|vmdk}`
 
 - Copy a virtual machine then add it to a specific pool:
 
-`qm copy {any something} {any something} --pool {any something}`
+`qm copy {string value: vm_id} {string value: new_vm_id} --pool {string value: pool_name}`

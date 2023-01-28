@@ -5,16 +5,16 @@
 
 - Acquire a lease for resource:
 
-`stormlock acquire {any something}`
+`stormlock acquire {string value: resource}`
 
 - Release the given lease for the given resource:
 
-`stormlock release {any something} {any something}`
+`stormlock release {string value: resource} {string value: lease_id}`
 
 - Show information on the current lease for a resource, if any:
 
-`stormlock current {any something}`
+`stormlock current {string value: resource}`
 
 - Test if a lease for given resource is currently active:
 
-`stormlock is-held {any something} {any something}`
+`stormlock is-held {string value: resource} {string value: lease_id}`

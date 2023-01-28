@@ -6,8 +6,8 @@
 
 - Add or remove a URL from a torrent's announce list:
 
-`transmission-edit --{any something} {any something} {file something}`
+`transmission-edit --{string value: add|delete} {string value: http://example.com} {file value: sample.torrent}`
 
 - Update a tracker's passcode in a torrent file:
 
-`transmission-edit --replace {any something} {any something} {file something}`
+`transmission-edit --replace {string value: old-passcode} {string value: new-passcode} {file value: sample.torrent}`

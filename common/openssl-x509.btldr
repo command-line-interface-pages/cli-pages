@@ -5,16 +5,16 @@
 
 - Display certificate information:
 
-`openssl x509 -in {any something} -noout -text`
+`openssl x509 -in {file value: sample.crt} -noout -text`
 
 - Display a certificate's expiration date:
 
-`openssl x509 -enddate -noout -in {any something}`
+`openssl x509 -enddate -noout -in {file value: sample.pem}`
 
 - Convert a certificate between binary DER encoding and textual PEM encoding:
 
-`openssl x509 -inform {any something} -outform {any something} -in {file something: original_certificate} -out {file something: converted_certificate}`
+`openssl x509 -inform {string value: der} -outform {string value: pem} -in {file value: original_certificate} -out {file value: converted_certificate}`
 
 - Store a certificate's public key in a file:
 
-`openssl x509 -in {file something: certificate} -noout -pubkey -out {file something: output}`
+`openssl x509 -in {file value: certificate} -noout -pubkey -out {file value: output}`

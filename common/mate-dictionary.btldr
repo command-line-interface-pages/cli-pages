@@ -5,8 +5,8 @@
 
 - Print a specific word definition:
 
-`mate-dictionary --no-window --look-up '{any something}'`
+`mate-dictionary --no-window --look-up '{string value: word}'`
 
 - Show similar words for a specific one in a new window:
 
-`mate-dictionary --match '{any something}'`
+`mate-dictionary --match '{string value: word}'`

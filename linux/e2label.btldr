@@ -5,4 +5,4 @@
 
 - Change the volume label on a specific ext partition:
 
-`e2label {any something} "{any something}"`
+`e2label {string value: /dev/sda1} "{string value: label_name}"`

@@ -5,11 +5,11 @@
 
 - Telnet to the default port of a host:
 
-`telnet {any something}`
+`telnet {string value: host}`
 
 - Telnet to a specific port of a host:
 
-`telnet {any something} {any something}`
+`telnet {string value: ip_address} {string value: port}`
 
 - Exit a telnet session:
 
@@ -21,8 +21,8 @@
 
 - Start telnet with "x" as the session termination character:
 
-`telnet -e {any something} {any something} {any something}`
+`telnet -e {string value: x} {string value: ip_address} {string value: port}`
 
 - Telnet to Star Wars animation:
 
-`telnet {any something}`
+`telnet {string value: towel.blinkenlights.nl}`

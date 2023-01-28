@@ -10,4 +10,4 @@
 
 - Display information about volume group vg1:
 
-`sudo vgdisplay {any something}`
+`sudo vgdisplay {string value: vg1}`

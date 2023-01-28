@@ -5,12 +5,12 @@
 
 - Display the file access control list:
 
-`getfacl {file something|path something}`
+`getfacl {path value}`
 
 - Display the file access control list with numeric user and group IDs:
 
-`getfacl -n {file something|path something}`
+`getfacl -n {path value}`
 
 - Display the file access control list with tabular output format:
 
-`getfacl -t {file something|path something}`
+`getfacl -t {path value}`

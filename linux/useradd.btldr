@@ -10,15 +10,15 @@
 
 - Create a new user with the specified user id:
 
-`sudo useradd --uid {any something} {string user}`
+`sudo useradd --uid {string value: id} {string user}`
 
 - Create a new user with the specified shell:
 
-`sudo useradd --shell {any something} {string user}`
+`sudo useradd --shell {string value: path/to/shell} {string user}`
 
 - Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`sudo useradd --groups {any something} {string user}`
+`sudo useradd --groups {string value: group1,group2,...} {string user}`
 
 - Create a new user with the default home directory:
 
@@ -26,7 +26,7 @@
 
 - Create a new user with the home directory filled by template directory files:
 
-`sudo useradd --skel {directory something: template} --create-home {string user}`
+`sudo useradd --skel {directory value: template} --create-home {string user}`
 
 - Create a new system user without the home directory:
 

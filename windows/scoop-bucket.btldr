@@ -14,12 +14,12 @@
 
 - Add a known bucket by its name:
 
-`scoop bucket add {any something}`
+`scoop bucket add {string value: name}`
 
 - Add an unknown bucket by its name and Git repository URL:
 
-`scoop bucket add {any something} {any something}`
+`scoop bucket add {string value: name} {string value: https://example.com/repository.git}`
 
 - Remove a bucket by its name:
 
-`scoop bucket rm {any something}`
+`scoop bucket rm {string value: name}`

@@ -9,23 +9,23 @@
 
 - Build a specific project file:
 
-`msbuild {file something: project}`
+`msbuild {file value: project}`
 
 - Set one or more semicolon-separated targets to build:
 
-`msbuild {file something: project} /target:{any something}`
+`msbuild {file value: project} /target:{string value: targets}`
 
 - Set one or more semicolon-separated properties:
 
-`msbuild {file something: project} /property:{any something}`
+`msbuild {file value: project} /property:{string value: name=value}`
 
 - Set the build tools version to use:
 
-`msbuild {file something: project} /toolsversion:{any something}`
+`msbuild {file value: project} /toolsversion:{string value: version}`
 
 - Display detailed information at the end of the log about how the project was configured:
 
-`msbuild {file something: project} /detailedsummary`
+`msbuild {file value: project} /detailedsummary`
 
 - Display detailed help information:
 

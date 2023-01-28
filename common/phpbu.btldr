@@ -9,11 +9,11 @@
 
 - Run backups using a specific configuration file:
 
-`phpbu --configuration={file something: configuration}`
+`phpbu --configuration={file value: configuration.xml}`
 
 - Only run the specified backups:
 
-`phpbu --limit={any something}`
+`phpbu --limit={string value: backup_task_name}`
 
 - Simulate the actions that would have been performed:
 

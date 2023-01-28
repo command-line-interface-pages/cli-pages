@@ -5,16 +5,16 @@
 
 - Calculate a hash with a password and a salt with the default parameters:
 
-`echo "{any something}" | argon2 "{any something}"`
+`echo "{string value: password}" | argon2 "{string value: salt_text}"`
 
 - Calculate a hash with the specified algorithm:
 
-`echo "{any something}" | argon2 "{any something}" -{any something}`
+`echo "{string value: password}" | argon2 "{string value: salt_text}" -{string value: d|i|id}`
 
 - Display the output hash without additional information:
 
-`echo "{any something}" | argon2 "{any something}" -e`
+`echo "{string value: password}" | argon2 "{string value: salt_text}" -e`
 
 - Calculate a hash with given iteration [t]imes, [m]emory usage, and [p]arallelism parameters:
 
-`echo "{any something}" | argon2 "{any something}" -t {int number: 5} -m {int number: 20} -p {int number: 7}`
+`echo "{string value: password}" | argon2 "{string value: salt_text}" -t {int value: 5} -m {int value: 20} -p {int value: 7}`

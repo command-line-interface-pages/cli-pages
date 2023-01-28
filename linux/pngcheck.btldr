@@ -6,16 +6,16 @@
 
 - Verify the integrity of an image file:
 
-`pngcheck {file something}`
+`pngcheck {file value: sample.png}`
 
 - Check the file with [v]erbose and [c]olorized output:
 
-`pngcheck -vc {file something}`
+`pngcheck -vc {file value: sample.png}`
 
 - Display contents of [t]ext chunks and [s]earch for PNGs within a specific file:
 
-`pngcheck -ts {file something}`
+`pngcheck -ts {file value: sample.png}`
 
 - Search for, and e[x]tract embedded PNGs within a specific file:
 
-`pngcheck -x {file something}`
+`pngcheck -x {file value: sample.png}`

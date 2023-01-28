@@ -5,24 +5,24 @@
 
 - Build a specific project:
 
-`nx build {any something}`
+`nx build {string value: project}`
 
 - Test a specific project:
 
-`nx test {any something}`
+`nx test {string value: project}`
 
 - Execute a target on a specific project:
 
-`nx run {any something}:{any something}`
+`nx run {string value: project}:{string value: target}`
 
 - Execute a target on multiple projects:
 
-`nx run-many --target {any something} --projects {any something},{any something}`
+`nx run-many --target {string value: target} --projects {string value: project1},{string value: project2}`
 
 - Execute a target on all projects in the workspace:
 
-`nx run-many --target {any something} --all`
+`nx run-many --target {string value: target} --all`
 
 - Execute a target only on projects that have been changed:
 
-`nx affected --target {any something}`
+`nx affected --target {string value: target}`

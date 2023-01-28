@@ -5,7 +5,7 @@
 
 - Register a node at a Puppet server and apply the received catalog:
 
-`puppet agent --test --server {any something} --serverport {any something} --waitforcert {any something}`
+`puppet agent --test --server {string value: puppetserver_fqdn} --serverport {string value: port} --waitforcert {string value: poll_time}`
 
 - Run the agent in the background (uses settings from `puppet.conf`):
 
@@ -25,7 +25,7 @@
 
 - Disable the agent:
 
-`puppet agent --disable "{any something}"`
+`puppet agent --disable "{string value: message}"`
 
 - Enable the agent:
 

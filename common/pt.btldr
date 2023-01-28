@@ -6,20 +6,20 @@
 
 - Find files containing "foo" and print the files with highlighted matches:
 
-`pt {any something}`
+`pt {string value: foo}`
 
 - Find files containing "foo" and display count of matches in each file:
 
-`pt -c {any something}`
+`pt -c {string value: foo}`
 
 - Find files containing "foo" as a whole word and ignore its case:
 
-`pt -wi {any something}`
+`pt -wi {string value: foo}`
 
 - Find "foo" in files with a given extension using a regular expression:
 
-`pt -G='{any something}' {any something}`
+`pt -G='{string value: \.bar$}' {string value: foo}`
 
 - Find files whose contents match the regular expression, up to 2 directories deep:
 
-`pt --depth={int number: 2} -e '{any something}'`
+`pt --depth={int value: 2} -e '{string value: ^ba[rz]*$}'`

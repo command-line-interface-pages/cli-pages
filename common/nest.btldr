@@ -9,16 +9,16 @@
 
 - Create a new NestJS project in a directory of the same name:
 
-`nest new {any something}`
+`nest new {string value: project_name}`
 
 - Build a specific NestJS project:
 
-`nest build {any something}`
+`nest build {string value: project_name}`
 
 - Run a specific NestJS project:
 
-`nest start {any something}`
+`nest start {string value: project_name}`
 
 - Import a library into the current NestJS project:
 
-`nest add {any something}`
+`nest add {string value: library_name}`

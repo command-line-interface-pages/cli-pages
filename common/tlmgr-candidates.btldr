@@ -5,4 +5,4 @@
 
 - List all available repositories from which a package can be installed:
 
-`tlmgr candidates {any something}`
+`tlmgr candidates {string value: package}`

@@ -7,20 +7,20 @@
 
 - Search for a pattern within a file:
 
-`Select-String -Path "{file something}" -Pattern '{any something}'`
+`Select-String -Path "{file value}" -Pattern '{string value: search_pattern}'`
 
 - Search for an exact string (disables regular expressions):
 
-`Select-String -SimpleMatch "{any something}" {file something}`
+`Select-String -SimpleMatch "{string value: exact_string}" {file value}`
 
 - Search for pattern in all `.ext` files in current dir:
 
-`Select-String -Path "{any something}" -Pattern '{any something}'`
+`Select-String -Path "{string value: *.ext}" -Pattern '{string value: search_pattern}'`
 
 - Capture the specified number of lines before and after the line that matches the pattern:
 
-`Select-String --Context {any something} "{any something}" {file something}`
+`Select-String --Context {string value: 2,3} "{string value: search_pattern}" {file value}`
 
 - Search stdin for lines that do not match a pattern:
 
-`Get-Content {file something} | Select-String --NotMatch "{any something}"`
+`Get-Content {file value} | Select-String --NotMatch "{string value: search_pattern}"`

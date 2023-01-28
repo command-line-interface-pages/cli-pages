@@ -10,15 +10,15 @@
 
 - Create a container from an image, with a custom name:
 
-`podman run --name {any something} {any something}`
+`podman run --name {string value: container_name} {string value: image}`
 
 - Start or stop an existing container:
 
-`podman {any something} {any something}`
+`podman {string value: start|stop} {string value: container_name}`
 
 - Pull an image from a registry (defaults to Docker Hub):
 
-`podman pull {any something}`
+`podman pull {string value: image}`
 
 - Display the list of already downloaded images:
 
@@ -26,12 +26,12 @@
 
 - Open a shell inside an already running container:
 
-`podman exec --interactive --tty {any something} {any something}`
+`podman exec --interactive --tty {string value: container_name} {string value: sh}`
 
 - Remove a stopped container:
 
-`podman rm {any something}`
+`podman rm {string value: container_name}`
 
 - Display the logs of one or more containers and follow log output:
 
-`podman logs --follow {any something} {any something}`
+`podman logs --follow {string value: container_name} {string value: container_id}`

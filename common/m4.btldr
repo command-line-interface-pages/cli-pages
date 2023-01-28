@@ -5,8 +5,8 @@
 
 - Process macros in a file:
 
-`m4 {file something}`
+`m4 {file value}`
 
 - Define a macro before processing files:
 
-`m4 -D{any something}={any something} {file something}`
+`m4 -D{string value: macro_name}={string value: macro_value} {file value}`

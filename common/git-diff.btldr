@@ -21,16 +21,16 @@
 
 - Show only names of changed files since a given commit:
 
-`git diff --name-only {any something}`
+`git diff --name-only {string value: commit}`
 
 - Output a summary of file creations, renames and mode changes since a given commit:
 
-`git diff --summary {any something}`
+`git diff --summary {string value: commit}`
 
 - Compare a single file between two branches or commits:
 
-`git diff {any something}..{any something} [--] {file something}`
+`git diff {string value: branch_1}..{string value: branch_2} [--] {file value}`
 
 - Compare different files from the current branch to other branch:
 
-`git diff {any something}:{any something} {file something}`
+`git diff {string value: branch}:{string value: path/to/file2} {file value}`

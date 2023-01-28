@@ -5,11 +5,11 @@
 
 - Assemble `source.asm` into a binary file `source`, in the (default) raw binary format:
 
-`nasm {any something}`
+`nasm {string value: source.asm}`
 
 - Assemble `source.asm` into a binary file `output_file`, in the specified format:
 
-`nasm -f {any something} {any something} -o {file something: output}`
+`nasm -f {string value: format} {string value: source.asm} -o {file value: output}`
 
 - List valid output formats (along with basic nasm help):
 
@@ -17,8 +17,8 @@
 
 - Assemble and generate an assembly listing file:
 
-`nasm -l {file something: list} {any something}`
+`nasm -l {file value: list} {string value: source.asm}`
 
 - Add a directory (must be written with trailing slash) to the include file search path before assembling:
 
-`nasm -i {any something} {any something}`
+`nasm -i {string value: path/to/include_dir/} {string value: source.asm}`

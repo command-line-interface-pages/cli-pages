@@ -6,16 +6,16 @@
 
 - Download files from a `mega.nz` link into the current directory:
 
-`megatools-dl {any something}`
+`megatools-dl {string value: https://mega.nz/...}`
 
 - Download files from a `mega.nz` link into a specific directory:
 
-`megatools-dl --path {directory something} {any something}`
+`megatools-dl --path {directory value} {string value: https://mega.nz/...}`
 
 - Interactively choose which files to download:
 
-`megatools-dl --choose-files {any something}`
+`megatools-dl --choose-files {string value: https://mega.nz/...}`
 
 - Limit the download speed in KiB/s:
 
-`megatools-dl --limit-speed {any something} {any something}`
+`megatools-dl --limit-speed {string value: speed} {string value: https://mega.nz/...}`

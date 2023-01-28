@@ -5,8 +5,8 @@
 
 - Decode a file that was encoded with `uuencode` and print the result to stdout:
 
-`uudecode {file something: encoded}`
+`uudecode {file value: encoded}`
 
 - Decode a file that was encoded with `uuencode` and write the result to a file:
 
-`uudecode -o {file something: decoded} {file something: encoded}`
+`uudecode -o {file value: decoded} {file value: encoded}`

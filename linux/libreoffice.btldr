@@ -5,16 +5,16 @@
 
 - Open a space-separated list of files in read-only mode:
 
-`libreoffice --view {any something} {any something}`
+`libreoffice --view {string value: path/to/file1} {string value: path/to/file2}`
 
 - Display the content of specific files:
 
-`libreoffice --cat {any something} {any something}`
+`libreoffice --cat {string value: path/to/file1} {string value: path/to/file2}`
 
 - Print files to a specific printer:
 
-`libreoffice --pt {any something} {any something} {any something}`
+`libreoffice --pt {string value: printer_name} {string value: path/to/file1} {string value: path/to/file2}`
 
 - Convert all `.doc` files in current directory to PDF:
 
-`libreoffice --convert-to {any something} {any something}`
+`libreoffice --convert-to {string value: pdf} {string value: *.doc}`

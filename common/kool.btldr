@@ -5,15 +5,15 @@
 
 - Create a project using a specific preset:
 
-`kool create {any something} {any something}`
+`kool create {string value: preset} {string value: project_name}`
 
 - Run a specific script defined in the `kool.yml` file in the current directory:
 
-`kool run {any something}`
+`kool run {string value: script}`
 
 - Start/stop services in the current directory:
 
-`kool {any something}`
+`kool {string value: start|stop}`
 
 - Display status of the services in the current directory:
 
@@ -25,4 +25,4 @@
 
 - Print the completion script for the specified shell:
 
-`kool completion {any something}`
+`kool completion {string value: bash|fish|powershell|zsh}`

@@ -5,12 +5,12 @@
 
 - Open the first search result in the default PDF viewer:
 
-`texdoc {any something}`
+`texdoc {string value: search}`
 
 - List the best search results:
 
-`texdoc --list {any something}`
+`texdoc --list {string value: search}`
 
 - Open full documentation of texdoc:
 
-`texdoc {any something}`
+`texdoc {string value: texdoc}`

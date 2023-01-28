@@ -5,15 +5,15 @@
 
 - Open a file:
 
-`most {file something}`
+`most {file value}`
 
 - Open several files:
 
-`most {any something} {any something}`
+`most {string value: path/to/file1} {string value: path/to/file2}`
 
 - Open a file at the first occurrence of "string":
 
-`most {file something} +/{any something}`
+`most {file value} +/{string value: string}`
 
 - Move through opened files:
 
@@ -21,7 +21,7 @@
 
 - Jump to the 100th line:
 
-`{int number: 100}j`
+`{int value: 100}j`
 
 - Edit current file:
 

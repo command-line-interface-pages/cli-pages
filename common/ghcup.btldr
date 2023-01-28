@@ -18,11 +18,11 @@
 
 - Install a specific GHC version:
 
-`ghcup install ghc {any something}`
+`ghcup install ghc {string value: version}`
 
 - Set the currently "active" GHC version:
 
-`ghcup set ghc {any something}`
+`ghcup set ghc {string value: version}`
 
 - Install cabal-install:
 

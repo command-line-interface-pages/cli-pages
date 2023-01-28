@@ -9,7 +9,7 @@
 
 - Display calendar for the month of February of the year 2010:
 
-`gcal {int number: 2} {int number: 2010}`
+`gcal {int value: 2} {int value: 2010}`
 
 - Provide calendar sheet with week numbers:
 
@@ -17,7 +17,7 @@
 
 - Change starting day of week to 1st day of the week (Monday):
 
-`gcal --starting-day={int number: 1}`
+`gcal --starting-day={int value: 1}`
 
 - Display the previous, current and next month surrounding today:
 

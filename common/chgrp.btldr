@@ -5,16 +5,16 @@
 
 - Change the owner group of a file/directory:
 
-`chgrp {any something} {file something|path something}`
+`chgrp {string value: group} {path value}`
 
 - Recursively change the owner group of a directory and its contents:
 
-`chgrp -R {any something} {directory something}`
+`chgrp -R {string value: group} {directory value}`
 
 - Change the owner group of a symbolic link:
 
-`chgrp -h {any something} {any something}`
+`chgrp -h {string value: group} {string value: path/to/symlink}`
 
 - Change the owner group of a file/directory to match a reference file:
 
-`chgrp --reference={file something: reference} {file something|path something}`
+`chgrp --reference={file value: reference} {path value}`

@@ -6,20 +6,20 @@
 
 - Create an image using a `Dockerfile` or `Containerfile` in the specified directory:
 
-`podman build {directory something}`
+`podman build {directory value}`
 
 - Create an image with a specified tag:
 
-`podman build --tag {any something} {directory something}`
+`podman build --tag {string value: image_name:version} {directory value}`
 
 - Create an image from a non-standard file:
 
-`podman build --file {any something} .`
+`podman build --file {string value: Containerfile.different} .`
 
 - Create an image without using any previously cached images:
 
-`podman build --no-cache {directory something}`
+`podman build --no-cache {directory value}`
 
 - Create an image suppressing all output:
 
-`podman build --quiet {directory something}`
+`podman build --quiet {directory value}`

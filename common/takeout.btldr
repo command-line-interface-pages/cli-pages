@@ -9,11 +9,11 @@
 
 - Enable a specific service:
 
-`takeout enable {any something}`
+`takeout enable {string value: name}`
 
 - Enable a specific service with the default parameters:
 
-`takeout enable --default {any something}`
+`takeout enable --default {string value: name}`
 
 - Display a list of enabled services:
 
@@ -21,7 +21,7 @@
 
 - Disable a specific service:
 
-`takeout disable {any something}`
+`takeout disable {string value: name}`
 
 - Disable all services:
 
@@ -29,8 +29,8 @@
 
 - Start a specific container:
 
-`takeout start {any something}`
+`takeout start {string value: container_id}`
 
 - Stop a specific container:
 
-`takeout stop {any something}`
+`takeout stop {string value: container_id}`

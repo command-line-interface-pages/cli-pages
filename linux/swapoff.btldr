@@ -5,11 +5,11 @@
 
 - Disable a given swap partition:
 
-`swapoff {any something}`
+`swapoff {string value: /dev/sdb7}`
 
 - Disable a given swap file:
 
-`swapoff {file something}`
+`swapoff {file value}`
 
 - Disable all swap areas:
 
@@ -17,4 +17,4 @@
 
 - Disable swap by label of a device or file:
 
-`swapoff -L {any something}`
+`swapoff -L {string value: swap1}`

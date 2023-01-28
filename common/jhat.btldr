@@ -5,12 +5,12 @@
 
 - Analyze a heap dump (from `jmap`), view via HTTP on port 7000:
 
-`jhat {file something: dump}`
+`jhat {file value: dump.bin}`
 
 - Analyze a heap dump, specifying an alternate port for the http server:
 
-`jhat -p {any something} {file something: dump}`
+`jhat -p {string value: port} {file value: dump.bin}`
 
 - Analyze a dump letting `jhat` use up to 8 GB RAM (2-4x dump size recommended):
 
-`jhat -J-mx8G {file something: dump}`
+`jhat -J-mx8G {file value: dump.bin}`

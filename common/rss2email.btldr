@@ -13,15 +13,15 @@
 
 - Add a feed:
 
-`r2e add {any something}`
+`r2e add {string value: feed_address}`
 
 - Add a feed with a specific email address:
 
-`r2e add {any something} {any something}`
+`r2e add {string value: feed_address} {string value: new_email@example.com}`
 
 - Delete a specific feed:
 
-`r2e delete {any something}`
+`r2e delete {string value: number_of_feed_in_list}`
 
 - Display help:
 

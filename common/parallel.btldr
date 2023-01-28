@@ -5,7 +5,7 @@
 
 - Gzip several files at once, using all cores:
 
-`parallel gzip ::: {any something} {any something} {any something}`
+`parallel gzip ::: {string value: file1} {string value: file2} {string value: file3}`
 
 - Read arguments from stdin, run 4 jobs at once:
 
@@ -17,12 +17,12 @@
 
 - Parallel xargs, cram as many args as possible onto one command:
 
-`{any something} | parallel -X {any something}`
+`{string value: args} | parallel -X {string value: command}`
 
 - Break stdin into ~1M blocks, feed each block to stdin of new command:
 
-`cat {file something: big} | parallel --pipe --block 1M {any something}`
+`cat {file value: big.txt} | parallel --pipe --block 1M {string value: command}`
 
 - Run on multiple machines via SSH:
 
-`parallel -S {any something},{any something} {any something} ::: {any something} {any something}`
+`parallel -S {string value: machine1},{string value: machine2} {string value: command} ::: {string value: arg1} {string value: arg2}`

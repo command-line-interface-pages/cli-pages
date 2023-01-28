@@ -14,12 +14,12 @@
 
 - Fetch, build and install the specified slackbuild(s):
 
-`slapt-src --install {any something}`
+`slapt-src --install {string value: slackbuild_name}`
 
 - Locate slackbuilds by their name or description:
 
-`slapt-src --search {any something}`
+`slapt-src --search {string value: search_term}`
 
 - Display information about a slackbuild:
 
-`slapt-src --show {any something}`
+`slapt-src --show {string value: slackbuild_name}`

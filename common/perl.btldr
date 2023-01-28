@@ -5,32 +5,32 @@
 
 - Parse and execute a Perl script:
 
-`perl {any something}`
+`perl {string value: script.pl}`
 
 - Check syntax errors on a Perl script:
 
-`perl -c {any something}`
+`perl -c {string value: script.pl}`
 
 - Parse and execute a Perl statement:
 
-`perl -e {any something}`
+`perl -e {string value: perl_statement}`
 
 - Run a Perl script in debug mode, using `perldebug`:
 
-`perl -d {any something}`
+`perl -d {string value: script.pl}`
 
 - Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
 
-`perl -p -i'.{any something}' -e 's/{any something}/{any something}/g' {file something}`
+`perl -p -i'.{string value: extension}' -e 's/{string value: regular_expression}/{string value: replacement}/g' {file value}`
 
 - Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:
 
-`perl -p -e 's/{any something}/{any something}/g' {file something: input} > {file something: output}`
+`perl -p -e 's/{string value: foo\nbar}/{string value: foobar}/g' {file value: input} > {file value: output}`
 
 - Run a regular [e]xpression on stdin, printing matching [l]ines:
 
-`cat {file something} | perl -n -l -e 'print if /{any something}/'`
+`cat {file value} | perl -n -l -e 'print if /{string value: regular_expression}/'`
 
 - Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:
 
-`cat {file something} | perl -n -l -e 'print $1 if /{any something}({any something}){any something}/'`
+`cat {file value} | perl -n -l -e 'print $1 if /{string value: before}({string value: regular_expression}){string value: after}/'`

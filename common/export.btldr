@@ -5,16 +5,16 @@
 
 - Set a new environment variable:
 
-`export {any something}={any something}`
+`export {string value: VARIABLE}={string value: value}`
 
 - Remove an environment variable:
 
-`export -n {any something}`
+`export -n {string value: VARIABLE}`
 
 - Mark a shell function for export:
 
-`export -f {any something}`
+`export -f {string value: FUNCTION_NAME}`
 
 - Append something to the PATH variable:
 
-`export PATH=$PATH:{any something}`
+`export PATH=$PATH:{string value: path/to/append}`

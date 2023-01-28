@@ -9,12 +9,12 @@
 
 - List files owned by a package:
 
-`pkginfo -l {any something}`
+`pkginfo -l {string value: package_name}`
 
 - List the owner(s) of files matching a pattern:
 
-`pkginfo -o {any something}`
+`pkginfo -o {string value: pattern}`
 
 - Print the footprint of a file:
 
-`pkginfo -f {file something}`
+`pkginfo -f {file value}`

@@ -9,27 +9,27 @@
 
 - Query installed packages:
 
-`nix-env -q {any something}`
+`nix-env -q {string value: search_term}`
 
 - Query available packages:
 
-`nix-env -qa {any something}`
+`nix-env -qa {string value: search_term}`
 
 - Install package:
 
-`nix-env -iA nixpkgs.{any something}`
+`nix-env -iA nixpkgs.{string value: pkg_name}`
 
 - Install a package from a URL:
 
-`nix-env -i {any something} --file {any something}`
+`nix-env -i {string value: pkg_name} --file {string value: example.com}`
 
 - Uninstall package:
 
-`nix-env -e {any something}`
+`nix-env -e {string value: pkg_name}`
 
 - Upgrade one package:
 
-`nix-env -u {any something}`
+`nix-env -u {string value: pkg_name}`
 
 - Upgrade all packages:
 

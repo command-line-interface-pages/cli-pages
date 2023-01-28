@@ -10,23 +10,23 @@
 
 - Find the package that owns a specific file:
 
-`pacman --files {any something}`
+`pacman --files {file value}`
 
 - Find the package that owns a specific file, using a regular expression:
 
-`pacman --files --regex '{any something}'`
+`pacman --files --regex '{string value: regular_expression}'`
 
 - List only the package names:
 
-`pacman --files --quiet {any something}`
+`pacman --files --quiet {file value}`
 
 - List the files owned by a specific package:
 
-`pacman --files --list {any something}`
+`pacman --files --list {string value: package_name}`
 
 - List only the absolute path to the files:
 
-`pacman --query --list --quiet {any something}`
+`pacman --query --list --quiet {string value: package_name}`
 
 - Display help:
 

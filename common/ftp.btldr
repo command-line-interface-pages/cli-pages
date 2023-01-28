@@ -5,11 +5,11 @@
 
 - Connect to an FTP server:
 
-`ftp {any something}`
+`ftp {string value: ftp.example.com}`
 
 - Connect to an FTP server specifying its IP address and port:
 
-`ftp {any something} {any something}`
+`ftp {string value: ip_address} {string value: port}`
 
 - Switch to binary transfer mode (graphics, compressed files, etc):
 
@@ -21,16 +21,16 @@
 
 - Download multiple files (glob expression):
 
-`mget {any something}`
+`mget {string value: *.png}`
 
 - Upload multiple files (glob expression):
 
-`mput {any something}`
+`mput {string value: *.zip}`
 
 - Delete multiple files on the remote server:
 
-`mdelete {any something}`
+`mdelete {string value: *.txt}`
 
 - Rename a file on the remote server:
 
-`rename {any something} {any something}`
+`rename {file value: original} {file value: new}`

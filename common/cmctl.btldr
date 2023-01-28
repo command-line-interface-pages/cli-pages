@@ -10,12 +10,12 @@
 
 - Check the status of a certificate:
 
-`cmctl status certificate {any something}`
+`cmctl status certificate {string value: cert_name}`
 
 - Create a new certificate request based on an existing certificate:
 
-`cmctl create certificaterequest my-cr --from-certificate-file {any something}`
+`cmctl create certificaterequest my-cr --from-certificate-file {string value: cert.yaml}`
 
 - Create a new certificate request, fetch the signed certificate, and set a maximum wait time:
 
-`cmctl create certificaterequest my-cr --from-certificate-file {any something} --fetch-certificate --timeout {any something}`
+`cmctl create certificaterequest my-cr --from-certificate-file {string value: cert.yaml} --fetch-certificate --timeout {string value: 20m}`

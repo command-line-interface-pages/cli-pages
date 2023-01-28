@@ -6,16 +6,16 @@
 
 - Replace the specified text in the current repository:
 
-`git sed '{any something}' '{any something}'`
+`git sed '{string value: find_text}' '{string value: replace_text}'`
 
 - Replace the specified text and then commit the resulting changes with a standard commit message:
 
-`git sed -c '{any something}' '{any something}'`
+`git sed -c '{string value: find_text}' '{string value: replace_text}'`
 
 - Replace the specified text, using regular expressions:
 
-`git sed -f g '{any something}' '{any something}'`
+`git sed -f g '{string value: find_text}' '{string value: replace_text}'`
 
 - Replace a specific text in all files under a given directory:
 
-`git sed '{any something}' '{any something}' -- {directory something}`
+`git sed '{string value: find_text}' '{string value: replace_text}' -- {directory value}`

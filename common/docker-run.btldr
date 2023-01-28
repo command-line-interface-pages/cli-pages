@@ -5,32 +5,32 @@
 
 - Run command in a new container from a tagged image:
 
-`docker run {any something} {any something}`
+`docker run {string value: image:tag} {string value: command}`
 
 - Run command in a new container in background and display its ID:
 
-`docker run --detach {any something} {any something}`
+`docker run --detach {string value: image} {string value: command}`
 
 - Run command in a one-off container in interactive mode and pseudo-TTY:
 
-`docker run --rm --interactive --tty {any something} {any something}`
+`docker run --rm --interactive --tty {string value: image} {string value: command}`
 
 - Run command in a new container with passed environment variables:
 
-`docker run --env '{any something}={any something}' --env {any something} {any something} {any something}`
+`docker run --env '{string value: variable}={string value: value}' --env {string value: variable} {string value: image} {string value: command}`
 
 - Run command in a new container with bind mounted volumes:
 
-`docker run --volume {any something}:{any something} {any something} {any something}`
+`docker run --volume {string value: /path/to/host_path}:{string value: /path/to/container_path} {string value: image} {string value: command}`
 
 - Run command in a new container with published ports:
 
-`docker run --publish {any something}:{any something} {any something} {any something}`
+`docker run --publish {string value: host_port}:{string value: container_port} {string value: image} {string value: command}`
 
 - Run command in a new container overwriting the entrypoint of the image:
 
-`docker run --entrypoint {any something} {any something}`
+`docker run --entrypoint {string value: command} {string value: image}`
 
 - Run command in a new container connecting it to a network:
 
-`docker run --network {any something} {any something}`
+`docker run --network {string value: network} {string value: image}`

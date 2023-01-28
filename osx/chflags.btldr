@@ -5,16 +5,16 @@
 
 - Set the `hidden` flag for a file:
 
-`chflags {any something} {file something}`
+`chflags {string value: hidden} {file value}`
 
 - Unset the `hidden` flag for a file:
 
-`chflags {any something} {file something}`
+`chflags {string value: nohidden} {file value}`
 
 - Recursively set the `uchg` flag for a directory:
 
-`chflags -R {any something} {directory something}`
+`chflags -R {string value: uchg} {directory value}`
 
 - Recursively unset the `uchg` flag for a directory:
 
-`chflags -R {any something} {directory something}`
+`chflags -R {string value: nouchg} {directory value}`

@@ -9,7 +9,7 @@
 
 - Fetch latest changes from a specific remote upstream repository:
 
-`dolt fetch {any something}`
+`dolt fetch {string value: remote_name}`
 
 - Update branches with the current state of the remote, overwriting any conflicting history:
 

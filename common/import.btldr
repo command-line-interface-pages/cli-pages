@@ -6,12 +6,12 @@
 
 - Capture the entire X server screen in the PostScript image format:
 
-`import -window root {any something}`
+`import -window root {string value: output.postscript}`
 
 - Capture contents of a remote X server screen in the PNG format:
 
-`import -window root -display {any something}:{any something}.{any something} {any something}`
+`import -window root -display {string value: remote_host}:{string value: screen}.{string value: display} {string value: output.png}`
 
 - Capture a specific window, given its ID as displayed by `xwininfo`, into the JPEG format:
 
-`import -window {any something} {any something}`
+`import -window {string value: window_id} {string value: output.jpg}`

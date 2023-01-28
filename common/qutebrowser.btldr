@@ -5,19 +5,19 @@
 
 - Open qutebrowser with a specified storage directory:
 
-`qutebrowser --basedir {directory something}`
+`qutebrowser --basedir {directory value}`
 
 - Open a qutebrowser instance with temporary settings:
 
-`qutebrowser --set {any something} {any something}`
+`qutebrowser --set {string value: content.geolocation} {string value: true|false}`
 
 - Restore a named session of a qutebrowser instance:
 
-`qutebrowser --restore {any something}`
+`qutebrowser --restore {string value: session_name}`
 
 - Launch qutebrowser, opening all URLs using the specified method:
 
-`qutebrowser --target {any something}`
+`qutebrowser --target {string value: auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}`
 
 - Open qutebrowser with a temporary base directory and print logs to stdout as JSON:
 

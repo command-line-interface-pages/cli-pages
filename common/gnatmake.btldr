@@ -5,12 +5,12 @@
 
 - Compile an executable:
 
-`gnatmake {any something}`
+`gnatmake {string value: source_file1.adb source_file2.adb ...}`
 
 - Set a custom executable name:
 
-`gnatmake -o {any something} {file something: source}`
+`gnatmake -o {string value: executable_name} {file value: source.adb}`
 
 - [f]orce recompilation:
 
-`gnatmake -f {file something: source}`
+`gnatmake -f {file value: source.adb}`

@@ -5,12 +5,12 @@
 
 - Encrypt the contents of a zipfile:
 
-`zipcloak {any something}`
+`zipcloak {string value: path/to/archive.zip}`
 
 - [d]ecrypt the contents of a zipfile:
 
-`zipcloak -d {any something}`
+`zipcloak -d {string value: path/to/archive.zip}`
 
 - [O]utput the encrypted contents into a new zipfile:
 
-`zipcloak {any something} -O {any something}`
+`zipcloak {string value: path/to/archive.zip} -O {string value: path/to/encrypted.zip}`

@@ -5,8 +5,8 @@
 
 - Format a USB then create a bootable Windows installation drive:
 
-`woeusb --device {any something} {/file something: device}`
+`woeusb --device {string value: path/to/windows.iso} {/file value: device}`
 
 - Copy Windows files to an existing partition of a USB storage device and make it bootable, without erasing the current data:
 
-`woeusb --partition {any something} {any something}`
+`woeusb --partition {string value: path/to/windows.iso} {string value: /dev/sdXN}`

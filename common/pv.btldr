@@ -5,24 +5,24 @@
 
 - Print the contents of the file and display a progress bar:
 
-`pv {file something}`
+`pv {file value}`
 
 - Measure the speed and amount of data flow between pipes (`--size` is optional):
 
-`command1 | pv --size {any something} | command2`
+`command1 | pv --size {string value: expected_amount_of_data_for_eta} | command2`
 
 - Filter a file, see both progress and amount of output data:
 
-`pv -cN in {file something: big_text} | grep {any something} | pv -cN out > {file something: filtered}`
+`pv -cN in {file value: big_text} | grep {string value: pattern} | pv -cN out > {file value: filtered}`
 
 - Attach to an already running process and see its file reading progress:
 
-`pv -d {any something}`
+`pv -d {string value: PID}`
 
 - Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
 
-`pv -EE {any something} > image.img`
+`pv -EE {string value: path/to/faulty_media} > image.img`
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K --stop-at --size {any something}`
+`pv -L 1K --stop-at --size {string value: maximum_file_size_to_be_read}`

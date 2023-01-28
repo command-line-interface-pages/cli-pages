@@ -6,20 +6,20 @@
 
 - Render an image directly in the terminal:
 
-`chafa {file something}`
+`chafa {file value}`
 
 - Render an image with 24-bit [c]olor:
 
-`chafa -c full {file something}`
+`chafa -c full {file value}`
 
 - Improve image rendering with small color palettes using dithering:
 
-`chafa -c 16 --dither ordered {file something}`
+`chafa -c 16 --dither ordered {file value}`
 
 - Render an image, making it appear pixelated:
 
-`chafa --symbols vhalf {file something}`
+`chafa --symbols vhalf {file value}`
 
 - Render a monochrome image with only braille characters:
 
-`chafa -c none --symbols braille {file something}`
+`chafa -c none --symbols braille {file value}`

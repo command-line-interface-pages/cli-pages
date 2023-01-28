@@ -5,7 +5,7 @@
 
 - Record an application:
 
-`rr record {any something}`
+`rr record {string value: path/to/binary --arg1 --arg2}`
 
 - Replay latest recorded execution:
 

@@ -6,7 +6,7 @@
 
 - Scan a specific file for viruses:
 
-`vt scan file {file something}`
+`vt scan file {file value}`
 
 - Scan a URL for viruses:
 
@@ -14,11 +14,11 @@
 
 - Display information from a specific analysis:
 
-`vt analysis {any something}`
+`vt analysis {string value: file_id|analysis_id}`
 
 - Download files in encrypted `.zip` format (requires premium account):
 
-`vt download {any something} --output {directory something} --zip --zip-password {any something}`
+`vt download {string value: file_id} --output {directory value} --zip --zip-password {string value: password}`
 
 - Initialize or re-initialize `vt` to enter API key interactively:
 
@@ -34,4 +34,4 @@
 
 - Display information for a specific IP address:
 
-`vt domain {any something}`
+`vt domain {string value: ip_address}`

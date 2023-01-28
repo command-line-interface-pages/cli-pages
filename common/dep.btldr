@@ -10,7 +10,7 @@
 
 - Deploy an application to a remote host:
 
-`dep deploy {any something}`
+`dep deploy {string value: hostname}`
 
 - Rollback to the previous working release:
 
@@ -18,7 +18,7 @@
 
 - Connect to a remote host via ssh:
 
-`dep ssh {any something}`
+`dep ssh {string value: hostname}`
 
 - List commands:
 
@@ -26,8 +26,8 @@
 
 - Run any arbitrary command on the remote hosts:
 
-`dep run "{any something}"`
+`dep run "{string value: command}"`
 
 - Display help for a command:
 
-`dep help {any something}`
+`dep help {string value: command}`

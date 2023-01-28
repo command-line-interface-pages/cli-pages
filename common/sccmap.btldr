@@ -6,11 +6,11 @@
 
 - Extract strongly connected components of one or more directed graphs:
 
-`sccmap -S {any something} {any something} > {any something}`
+`sccmap -S {string value: path/to/input1.gv} {string value: path/to/input2.gv ...} > {string value: path/to/output.gv}`
 
 - Print statistics about a graph, producing no output graph:
 
-`sccmap -v -s {any something} {any something}`
+`sccmap -v -s {string value: path/to/input1.gv} {string value: path/to/input2.gv ...}`
 
 - Display help for `sccmap`:
 

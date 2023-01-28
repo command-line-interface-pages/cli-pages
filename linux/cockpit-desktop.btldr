@@ -6,8 +6,8 @@
 
 - Open a page:
 
-`cockpit-desktop {string url} {any something}`
+`cockpit-desktop {string url} {string value: SSH_host}`
 
 - Open storage page:
 
-`cockpit-desktop {any something}`
+`cockpit-desktop {string value: /cockpit/@localhost/storage/index.html}`

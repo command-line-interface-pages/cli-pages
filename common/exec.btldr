@@ -5,16 +5,16 @@
 
 - Replace with the specified command using the current environment variables:
 
-`exec {any something}`
+`exec {string value: command -with -flags}`
 
 - Replace with the specified command, clearing environment variables:
 
-`exec -c {any something}`
+`exec -c {string value: command -with -flags}`
 
 - Replace with the specified command and login using the default shell:
 
-`exec -l {any something}`
+`exec -l {string value: command -with -flags}`
 
 - Replace with the specified command and change the process name:
 
-`exec -a {any something} {any something}`
+`exec -a {string value: process_name} {string value: command -with -flags}`

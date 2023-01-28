@@ -5,24 +5,24 @@
 
 - Authorize `twurl` to access a Twitter account:
 
-`twurl authorize --consumer-key {any something} --consumer-secret {any something}`
+`twurl authorize --consumer-key {string value: twitter_api_key} --consumer-secret {string value: twitter_api_secret}`
 
 - Make a GET request to an API endpoint:
 
-`twurl -X GET {any something}`
+`twurl -X GET {string value: twitter_api_endpoint}`
 
 - Make a POST request to an API endpoint:
 
-`twurl -X POST -d '{any something}' {any something}`
+`twurl -X POST -d '{string value: endpoint_params}' {string value: twitter_api_endpoint}`
 
 - Upload media to Twitter:
 
-`twurl -H "{any something}" -X POST "{any something}" --file "{any something}" --file-field "media"`
+`twurl -H "{string value: twitter_upload_url}" -X POST "{string value: twitter_upload_endpoint}" --file "{string value: path/to/media.jpg}" --file-field "media"`
 
 - Access a different Twitter API host:
 
-`twurl -H {any something} -X GET {any something}`
+`twurl -H {string value: twitter_api_url} -X GET {string value: twitter_api_endpoint}`
 
 - Create an alias for a requested resource:
 
-`twurl alias {any something} {any something}`
+`twurl alias {string value: alias_name} {string value: resource}`

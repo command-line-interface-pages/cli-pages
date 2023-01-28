@@ -17,7 +17,7 @@
 
 - Build the metadata cache:
 
-`cake schema_cache build --connection {any something}`
+`cake schema_cache build --connection {string value: connection}`
 
 - Clear the metadata cache:
 
@@ -25,7 +25,7 @@
 
 - Clear a single cache table:
 
-`cake schema_cache clear {any something}`
+`cake schema_cache clear {string value: table_name}`
 
 - Start a development web server (defaults to port 8765):
 

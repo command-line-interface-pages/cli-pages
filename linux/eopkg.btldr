@@ -5,7 +5,7 @@
 
 - Install a specific package:
 
-`sudo eopkg install {any something}`
+`sudo eopkg install {string value: package_name}`
 
 - Update all packages:
 
@@ -13,4 +13,4 @@
 
 - Search for packages:
 
-`sudo eopkg search {any something}`
+`sudo eopkg search {string value: search_term}`

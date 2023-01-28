@@ -10,24 +10,24 @@
 
 - Encrypt a specified file for a specified recipient, writing the output to a new file with `.gpg` appended:
 
-`gpg2 --encrypt --recipient {any something} {any something}`
+`gpg2 --encrypt --recipient {string value: alice@example.com} {string value: path/to/doc.txt}`
 
 - Encrypt a specified file with only a passphrase, writing the output to a new file with `.gpg` appended:
 
-`gpg2 --symmetric {any something}`
+`gpg2 --symmetric {string value: path/to/doc.txt}`
 
 - Decrypt a specified file, writing the result to the stdout:
 
-`gpg2 --decrypt {any something}`
+`gpg2 --decrypt {string value: path/to/doc.txt.gpg}`
 
 - Import a public key:
 
-`gpg2 --import {any something}`
+`gpg2 --import {string value: path/to/public_key.gpg}`
 
 - Export the public key of a specified email address to the stdout:
 
-`gpg2 --export --armor {any something}`
+`gpg2 --export --armor {string value: alice@example.com}`
 
 - Export the private key with a specified email address to the stdout:
 
-`gpg2 --export-secret-keys --armor {any something}`
+`gpg2 --export-secret-keys --armor {string value: alice@example.com}`

@@ -13,23 +13,23 @@
 
 - Launch the Blackfire agent on a specific socket:
 
-`blackfire agent --socket="{any something}"`
+`blackfire agent --socket="{string value: tcp://127.0.0.1:8307}"`
 
 - Run the profiler on a specific program:
 
-`blackfire run {any something}`
+`blackfire run {string value: php path/to/file.php}`
 
 - Run the profiler and collect 10 samples:
 
-`blackfire --samples={int number: 10} run {any something}`
+`blackfire --samples={int value: 10} run {string value: php path/to/file.php}`
 
 - Run the profiler and output results as JSON:
 
-`blackfire --json run {any something}`
+`blackfire --json run {string value: php path/to/file.php}`
 
 - Upload a profiler file to the Blackfire web service:
 
-`blackfire upload {file something}`
+`blackfire upload {file value}`
 
 - View the status of profiles on the Blackfire web service:
 

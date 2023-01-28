@@ -5,11 +5,11 @@
 
 - Use a specific audio driver:
 
-`musescore --audio-driver {any something}`
+`musescore --audio-driver {string value: jack|alsa|portaudio|pulse}`
 
 - Set the MP3 output bitrate in kbit/s:
 
-`musescore --bitrate {any something}`
+`musescore --bitrate {string value: bitrate}`
 
 - Start MuseScore in debug mode:
 
@@ -21,12 +21,12 @@
 
 - Export the given file to the specified output file. The file type depends on the given extension:
 
-`musescore --export-to {file something: output} {file something: input}`
+`musescore --export-to {file value: output} {file value: input}`
 
 - Print a diff between the given scores:
 
-`musescore --diff {any something} {any something}`
+`musescore --diff {string value: path/to/file1} {string value: path/to/file2}`
 
 - Specify a MIDI import operations file:
 
-`musescore --midi-operations {file something}`
+`musescore --midi-operations {file value}`

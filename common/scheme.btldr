@@ -9,15 +9,15 @@
 
 - Run a scheme program (with no REPL output):
 
-`scheme --quiet < {any something}`
+`scheme --quiet < {string value: script.scm}`
 
 - Load a scheme program into the REPL:
 
-`scheme --load {any something}`
+`scheme --load {string value: script.scm}`
 
 - Load scheme expressions into the REPL:
 
-`scheme --eval "{any something}"`
+`scheme --eval "{string value: (define foo 'x)}"`
 
 - Open the REPL in quiet mode:
 

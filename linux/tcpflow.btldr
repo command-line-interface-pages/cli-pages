@@ -5,4 +5,4 @@
 
 - Show all data on the given interface and port:
 
-`tcpflow -c -i {any something} port {int number: 80}`
+`tcpflow -c -i {string value: eth0} port {int value: 80}`

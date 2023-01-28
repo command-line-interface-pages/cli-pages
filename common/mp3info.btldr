@@ -5,19 +5,19 @@
 
 - Show all ID3v1 tags of a specific MP3 file:
 
-`mp3info {file something}`
+`mp3info {file value: sample.mp3}`
 
 - Edit ID3v1 tags interactively:
 
-`mp3info -i {file something}`
+`mp3info -i {file value: sample.mp3}`
 
 - Set values for ID3v1 tags in a specific MP3 file:
 
-`mp3info -a "{any something}" -t "{any something}" -l "{any something}" -y {any something} -c "{any something}" {file something}`
+`mp3info -a "{string value: artist_name}" -t "{string value: song_title}" -l "{string value: album_title}" -y {string value: year} -c "{string value: comment_text}" {file value: sample.mp3}`
 
 - Set the number of the track in the album for a specific MP3 file:
 
-`mp3info -n {any something} {file something}`
+`mp3info -n {string value: track_number} {file value: sample.mp3}`
 
 - Print a list of valid genres and their numeric codes:
 
@@ -25,4 +25,4 @@
 
 - Set the music genre for a specific MP3 file:
 
-`mp3info -g {any something} {file something}`
+`mp3info -g {string value: genre_number} {file value: sample.mp3}`

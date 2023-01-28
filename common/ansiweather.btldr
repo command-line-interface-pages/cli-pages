@@ -5,7 +5,7 @@
 
 - Display a forecast using metric units for the next five days for Rzeszow, Poland:
 
-`ansiweather -u {any something} -f {int number: 5} -l {any something}`
+`ansiweather -u {string value: metric} -f {int value: 5} -l {string value: Rzeszow,PL}`
 
 - Display a forecast showing symbols and daylight data for your current location:
 

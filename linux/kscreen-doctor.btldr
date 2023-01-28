@@ -9,8 +9,8 @@
 
 - Set the rotation of a display output with an ID of 1 to the right:
 
-`kscreen-doctor {any something}`
+`kscreen-doctor {string value: output.1.rotation.right}`
 
 - Set the scale of a display output with an ID of `HDMI-2` to 2 (200%):
 
-`kscreen-doctor {any something}`
+`kscreen-doctor {string value: output.HDMI-2.scale.2}`

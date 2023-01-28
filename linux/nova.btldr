@@ -13,16 +13,16 @@
 
 - Boot a VM on a specific host:
 
-`nova boot --nic net-id={any something} --image {any something} --flavor {any something} --availability-zone nova:{any something} {any something}`
+`nova boot --nic net-id={string value: net_id} --image {string value: image_id} --flavor {string value: flavor} --availability-zone nova:{string value: host_name} {string value: vm_name}`
 
 - Start a server:
 
-`nova start {any something}`
+`nova start {string value: server}`
 
 - Stop a server:
 
-`nova stop {any something}`
+`nova stop {string value: server}`
 
 - Attach a network interface to a specific VM:
 
-`nova interface-attach --net-id {any something} {any something}`
+`nova interface-attach --net-id {string value: net_id} {string value: server}`

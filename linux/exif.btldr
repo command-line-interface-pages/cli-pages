@@ -5,20 +5,20 @@
 
 - Show all recognized EXIF information in an image:
 
-`exif {any something}`
+`exif {string value: path/to/image.jpg}`
 
 - Show a table listing known EXIF tags and whether each one exists in an image:
 
-`exif --list-tags --no-fixup {any something}`
+`exif --list-tags --no-fixup {string value: image.jpg}`
 
 - Extract the image thumbnail into the file `thumbnail.jpg`:
 
-`exif --extract-thumbnail --output={any something} {any something}`
+`exif --extract-thumbnail --output={string value: thumbnail.jpg} {string value: image.jpg}`
 
 - Show the raw contents of the "Model" tag in the given image:
 
-`exif --ifd={int number: 0} --tag={any something} --machine-readable {any something}`
+`exif --ifd={int value: 0} --tag={string value: Model} --machine-readable {string value: image.jpg}`
 
 - Change the value of the "Artist" tag to John Smith and save to `new.jpg`:
 
-`exif --output={any something} --ifd={int number: 0} --tag="{any something}" --set-value="{any something}" --no-fixup {any something}`
+`exif --output={string value: new.jpg} --ifd={int value: 0} --tag="{string value: Artist}" --set-value="{string value: John Smith}" --no-fixup {string value: image.jpg}`

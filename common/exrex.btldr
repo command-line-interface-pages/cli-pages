@@ -6,31 +6,31 @@
 
 - Generate all possible strings that match a regular expression:
 
-`exrex '{any something}'`
+`exrex '{string value: regular_expression}'`
 
 - Generate a random string that matches a regular expression:
 
-`exrex --random '{any something}'`
+`exrex --random '{string value: regular_expression}'`
 
 - Generate at most 100 strings that match a regular expression:
 
-`exrex --max-number {int number: 100} '{any something}'`
+`exrex --max-number {int value: 100} '{string value: regular_expression}'`
 
 - Generate all possible strings that match a regular expression, joined by a custom delimiter string:
 
-`exrex --delimiter "{any something}" '{any something}'`
+`exrex --delimiter "{string value: , }" '{string value: regular_expression}'`
 
 - Print count of all possible strings that match a regular expression:
 
-`exrex --count '{any something}'`
+`exrex --count '{string value: regular_expression}'`
 
 - Simplify a regular expression:
 
-`exrex --simplify '{any something}'`
+`exrex --simplify '{string value: ab|ac}'`
 
 - Print eyes:
 
-`exrex '{any something}'`
+`exrex '{string value: [oO0](_)[oO0]}'`
 
 - Print a boat:
 

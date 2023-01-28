@@ -9,12 +9,12 @@
 
 - Specify a port (default is 8080) from which to serve a file:
 
-`live-server --port={int number: 8081}`
+`live-server --port={int value: 8081}`
 
 - Specify a given file to serve:
 
-`live-server --open={any something}`
+`live-server --open={string value: about.html}`
 
 - Proxy all requests for ROUTE to URL:
 
-`live-server --proxy={any something}:{any something}`
+`live-server --proxy={string value: /}:{string value: http:localhost:3000}`

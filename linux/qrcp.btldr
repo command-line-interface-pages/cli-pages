@@ -5,7 +5,7 @@
 
 - Send a file or directories:
 
-`qrcp send {any something}`
+`qrcp send {string value: path/to/file_or_directory path/to/file_directory ...}`
 
 - Receive files:
 
@@ -13,16 +13,16 @@
 
 - Compress content before transferring:
 
-`qrcp send --zip {file something|path something}`
+`qrcp send --zip {path value}`
 
 - Specify a [p]ort to use:
 
-`qrcp {any something} --port {any something}`
+`qrcp {string value: send|receive} --port {string value: port_number}`
 
 - Specify the network [i]nterface to use:
 
-`qrcp {any something} --interface interface`
+`qrcp {string value: send|receive} --interface interface`
 
 - Keep the server alive:
 
-`qrcp {any something} --keep-alive`
+`qrcp {string value: send|receive} --keep-alive`

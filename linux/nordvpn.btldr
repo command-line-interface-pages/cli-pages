@@ -21,11 +21,11 @@
 
 - Connect to a NordVPN server in a specific country:
 
-`nordvpn connect {any something}`
+`nordvpn connect {string value: Germany}`
 
 - Connect to a NordVPN server in a specific country and city:
 
-`nordvpn connect {any something} {any something}`
+`nordvpn connect {string value: Germany} {string value: Berlin}`
 
 - Set autoconnect option:
 

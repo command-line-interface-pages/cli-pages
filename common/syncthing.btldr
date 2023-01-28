@@ -17,7 +17,7 @@
 
 - Change the home directory:
 
-`syncthing -home={directory something}`
+`syncthing -home={directory value}`
 
 - Force a full index exchange:
 
@@ -25,7 +25,7 @@
 
 - Change the address upon which the web interface listens:
 
-`syncthing -gui-address={any something}`
+`syncthing -gui-address={string value: ip_address:port|path/to/socket.sock}`
 
 - Show filepaths to the files used by Syncthing:
 

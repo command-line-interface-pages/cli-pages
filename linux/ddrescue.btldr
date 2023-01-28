@@ -5,8 +5,8 @@
 
 - Take an image of a device, creating a log file:
 
-`sudo ddrescue {/file something: device} {any something} {any something}`
+`sudo ddrescue {/file value: device} {string value: path/to/image.dd} {string value: path/to/log.txt}`
 
 - Clone Disk A to Disk B, creating a log file:
 
-`sudo ddrescue --force --no-scrape {/file something: device} {/file something: device} {any something}`
+`sudo ddrescue --force --no-scrape {/file value: device} {/file value: device} {string value: path/to/log.txt}`

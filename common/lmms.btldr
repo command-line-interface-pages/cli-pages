@@ -10,28 +10,28 @@
 
 - Start the GUI and load external config:
 
-`lmms --config {any something}`
+`lmms --config {string value: path/to/config.xml}`
 
 - Start the GUI and import MIDI or Hydrogen file:
 
-`lmms --import {any something}`
+`lmms --import {string value: path/to/midi/or/hydrogen/file}`
 
 - Start the GUI with a specified window size:
 
-`lmms --geometry {any something}x{any something}+{any something}+{any something}`
+`lmms --geometry {string value: x_size}x{string value: y_size}+{string value: x_offset}+{string value: y_offset}`
 
 - Dump a `.mmpz` file:
 
-`lmms dump {any something}`
+`lmms dump {string value: path/to/mmpz/file.mmpz}`
 
 - Render a project file:
 
-`lmms render {any something}`
+`lmms render {string value: path/to/mmpz_or_mmp/file}`
 
 - Render the individual tracks of a project file:
 
-`lmms rendertracks {any something} {any something}`
+`lmms rendertracks {string value: path/to/mmpz_or_mmp/file} {string value: path/to/dump/directory}`
 
 - Render with custom samplerate, format, and as a loop:
 
-`lmms render --samplerate {int number: 88200} --format {any something} --loop --output {any something}`
+`lmms render --samplerate {int value: 88200} --format {string value: ogg} --loop --output {string value: path/to/output/file.ogg}`

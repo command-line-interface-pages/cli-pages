@@ -5,8 +5,8 @@
 
 - Get the label of a FAT32 partition:
 
-`fatlabel {any something}`
+`fatlabel {string value: /dev/sda1}`
 
 - Set the label of a FAT32 partition:
 
-`fatlabel {any something} "{any something}"`
+`fatlabel {string value: /dev/sdc3} "{string value: new_label}"`

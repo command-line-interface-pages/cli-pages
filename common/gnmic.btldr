@@ -6,20 +6,20 @@
 
 - Request device capabilities:
 
-`gnmic --address {any something} capabilities`
+`gnmic --address {string value: ip:port} capabilities`
 
 - Provide a username and password to fetch device capabilities:
 
-`gnmic --address {any something} --username {string user} --password {any something} capabilities`
+`gnmic --address {string value: ip:port} --username {string user} --password {string value: password} capabilities`
 
 - Get a snapshot of the device state at a specific path:
 
-`gnmic -a {any something} get --path {any something}`
+`gnmic -a {string value: ip:port} get --path {string value: path}`
 
 - Update device state at a specific path:
 
-`gnmic -a {any something} set --update-path {any something} --update-value {any something}`
+`gnmic -a {string value: ip:port} set --update-path {string value: path} --update-value {string value: value}`
 
 - Subscribe to target state updates under the subtree at a specific path:
 
-`gnmic -a {any something} subscribe --path {any something}`
+`gnmic -a {string value: ip:port} subscribe --path {string value: path}`

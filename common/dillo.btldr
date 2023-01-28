@@ -9,15 +9,15 @@
 
 - Launch Dillo with a specific window size and screen location:
 
-`dillo --geometry {any something}x{any something}+{any something}+{any something}`
+`dillo --geometry {string value: width}x{string value: height}+{string value: x_position}+{string value: y_position}`
 
 - Launch Dillo and open a specific URL:
 
-`dillo {any something}`
+`dillo {string value: duckduckgo.com}`
 
 - Launch Dillo and open a file or directory:
 
-`dillo {file something|path something}`
+`dillo {path value}`
 
 - Launch Dillo in full-screen mode:
 

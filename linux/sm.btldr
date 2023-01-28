@@ -5,24 +5,24 @@
 
 - Display a message in full-screen:
 
-`sm "{any something}"`
+`sm "{string value: Hello World!}"`
 
 - Display a message with inverted colors:
 
-`sm -i "{any something}"`
+`sm -i "{string value: Hello World!}"`
 
 - Display a message with a custom foreground color:
 
-`sm -f {any something} "{any something}"`
+`sm -f {string value: blue} "{string value: Hello World!}"`
 
 - Display a message with a custom background color:
 
-`sm -b {any something} "{any something}"`
+`sm -b {string value: #008888} "{string value: Hello World!}"`
 
 - Display a message rotated 3 times (in steps of 90 degrees, counterclockwise):
 
-`sm -r {int number: 3} "{any something}"`
+`sm -r {int value: 3} "{string value: Hello World!}"`
 
 - Display a message using the output from another command:
 
-`{any something} | sm -`
+`{string value: echo "Hello World!"} | sm -`

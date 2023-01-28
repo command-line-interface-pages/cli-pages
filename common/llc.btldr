@@ -5,16 +5,16 @@
 
 - Compile a bitcode or IR file to an assembly file with the same base name:
 
-`llc {file something}`
+`llc {file value: sample.ll}`
 
 - Enable all optimizations:
 
-`llc -O3 {any something}`
+`llc -O3 {string value: path/to/input.ll}`
 
 - Output assembly to a specific file:
 
-`llc --output {any something}`
+`llc --output {string value: path/to/output.s}`
 
 - Emit fully relocatable, position independent code:
 
-`llc -relocation-model=pic {any something}`
+`llc -relocation-model=pic {string value: path/to/input.ll}`

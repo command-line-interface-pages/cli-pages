@@ -6,15 +6,15 @@
 
 - Install a package and its dependencies:
 
-`tlmgr install {any something}`
+`tlmgr install {string value: package}`
 
 - Remove a package and its dependencies:
 
-`tlmgr remove {any something}`
+`tlmgr remove {string value: package}`
 
 - Display information about a package:
 
-`tlmgr info {any something}`
+`tlmgr info {string value: package}`
 
 - Update all packages:
 

@@ -5,7 +5,7 @@
 
 - Create an image from a file using default settings:
 
-`carbon-now {file something}`
+`carbon-now {file value}`
 
 - Create an image from a text in clipboard using default settings:
 
@@ -13,24 +13,24 @@
 
 - Create an image from stdin using default settings:
 
-`{any something} | carbon-now`
+`{string value: input} | carbon-now`
 
 - Create images interactively for custom settings and optionally save a preset:
 
-`carbon-now -i {file something}`
+`carbon-now -i {file value}`
 
 - Create images from previously saved preset:
 
-`carbon-now -p {any something} {file something}`
+`carbon-now -p {string value: preset} {file value}`
 
 - Start at a specified line of text:
 
-`carbon-now -s {any something} {file something}`
+`carbon-now -s {string value: line} {file value}`
 
 - End at a specific line of text:
 
-`carbon-now -e {any something} {file something}`
+`carbon-now -e {string value: line} {file value}`
 
 - Open image in a browser instead of saving:
 
-`carbon-now --open {file something}`
+`carbon-now --open {file value}`

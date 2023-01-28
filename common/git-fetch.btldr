@@ -9,7 +9,7 @@
 
 - Fetch new branches from a specific remote upstream repository:
 
-`git fetch {any something}`
+`git fetch {string value: remote_name}`
 
 - Fetch the latest changes from all remote upstream repositories:
 

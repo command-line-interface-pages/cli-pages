@@ -9,24 +9,24 @@
 
 - Display information about a container, image, or volume using a name or ID:
 
-`docker inspect {any something}`
+`docker inspect {string value: container|image|ID}`
 
 - Display a container's IP address:
 
-`docker inspect --format='{any something}{any something}{any something}' {any something}`
+`docker inspect --format='{string value: range .NetworkSettings.Networks}{string value: .IPAddress}{string value: end}' {string value: container}`
 
 - Display the path to the container's log file:
 
-`docker inspect --format='{any something}' {any something}`
+`docker inspect --format='{string value: .LogPath}' {string value: container}`
 
 - Display the image name of the container:
 
-`docker inspect --format='{any something}' {any something}`
+`docker inspect --format='{string value: .Config.Image}' {string value: container}`
 
 - Display the configuration information as JSON:
 
-`docker inspect --format='{any something}' {any something}`
+`docker inspect --format='{string value: json .Config}' {string value: container}`
 
 - Display all port bindings:
 
-`docker inspect --format='{any something} {any something} -> {any something} {any something}' {any something}`
+`docker inspect --format='{string value: range $p, $conf := .NetworkSettings.Ports} {string value: $p} -> {string value: (index $conf 0).HostPort} {string value: end}' {string value: container}`

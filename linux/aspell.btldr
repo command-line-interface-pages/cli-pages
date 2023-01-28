@@ -5,11 +5,11 @@
 
 - Spell check a single file:
 
-`aspell check {file something}`
+`aspell check {file value}`
 
 - List misspelled words from stdin:
 
-`cat {file something} | aspell list`
+`cat {file value} | aspell list`
 
 - Show available dictionary languages:
 
@@ -17,8 +17,8 @@
 
 - Run `aspell` with a different language (takes two-letter ISO 639 language code):
 
-`aspell --lang={any something}`
+`aspell --lang={string value: cs}`
 
 - List misspelled words from stdin and ignore words from personal word list:
 
-`cat {file something} | aspell --personal={any something} list`
+`cat {file value} | aspell --personal={string value: personal-word-list.pws} list`

@@ -6,23 +6,23 @@
 
 - Install packages based on `conanfile.txt`:
 
-`conan install {any something}`
+`conan install {string value: .}`
 
 - Install packages and create configuration files for a specific generator:
 
-`conan install -g {any something}`
+`conan install -g {string value: generator}`
 
 - Install packages, building from source:
 
-`conan install {any something} --build`
+`conan install {string value: .} --build`
 
 - Search for locally installed packages:
 
-`conan search {any something}`
+`conan search {string value: package}`
 
 - Search for remote packages:
 
-`conan search {any something} -r {any something}`
+`conan search {string value: package} -r {string value: remote}`
 
 - List remotes:
 

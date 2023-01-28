@@ -5,15 +5,15 @@
 
 - Mount an encrypted filesystem. The initialization wizard will be started on the first execution:
 
-`cryfs {directory something: cipher} {any something}`
+`cryfs {directory value: cipher} {string value: path/to/mount_point}`
 
 - Unmount an encrypted filesystem:
 
-`cryfs-unmount {any something}`
+`cryfs-unmount {string value: path/to/mount_point}`
 
 - Automatically unmount after ten minutes of inactivity:
 
-`cryfs --unmount-idle {int number: 10} {directory something: cipher} {any something}`
+`cryfs --unmount-idle {int value: 10} {directory value: cipher} {string value: path/to/mount_point}`
 
 - Show a list of supported ciphers:
 

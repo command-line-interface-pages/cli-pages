@@ -6,20 +6,20 @@
 
 - Symlink all files recursively to a given directory:
 
-`stow --target={directory something: target} {any something}`
+`stow --target={directory value: target} {string value: file1 directory1 file2 directory2}`
 
 - Delete symlinks recursively from a given directory:
 
-`stow --delete --target={directory something: target} {any something}`
+`stow --delete --target={directory value: target} {string value: file1 directory1 file2 directory2}`
 
 - Simulate to see what the result would be like:
 
-`stow --simulate --target={directory something: target} {any something}`
+`stow --simulate --target={directory value: target} {string value: file1 directory1 file2 directory2}`
 
 - Delete and resymlink:
 
-`stow --restow --target={directory something: target} {any something}`
+`stow --restow --target={directory value: target} {string value: file1 directory1 file2 directory2}`
 
 - Exclude files matching a regular expression:
 
-`stow --ignore={any something} --target={directory something: target} {any something}`
+`stow --ignore={string value: regular_expression} --target={directory value: target} {string value: file1 directory1 file2 directory2}`

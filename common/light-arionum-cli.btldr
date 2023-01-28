@@ -13,11 +13,11 @@
 
 - Display the balance of the specified address:
 
-`light-arionum-cli balance {any something}`
+`light-arionum-cli balance {string value: address}`
 
 - Send a transaction with an optional message:
 
-`light-arionum-cli send {any something} {any something} {any something}`
+`light-arionum-cli send {string value: address} {string value: value} {string value: optional_message}`
 
 - Export the current wallet information:
 
@@ -33,4 +33,4 @@
 
 - Display information about a specific transaction:
 
-`light-arionum-cli transaction {any something}`
+`light-arionum-cli transaction {string value: transaction_id}`

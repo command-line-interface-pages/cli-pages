@@ -9,4 +9,4 @@
 
 - Initialize a new repository in the specified directory:
 
-`hg init {directory something}`
+`hg init {directory value}`

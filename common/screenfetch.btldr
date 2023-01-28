@@ -13,11 +13,11 @@
 
 - Specify distribution logo:
 
-`screenfetch -A '{any something}'`
+`screenfetch -A '{string value: distribution_name}'`
 
 - Specify distribution logo and text:
 
-`screenfetch -D '{any something}'`
+`screenfetch -D '{string value: distribution_name}'`
 
 - Strip all color:
 

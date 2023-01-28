@@ -21,4 +21,4 @@
 
 - Perform a reverse DNS lookup:
 
-`getent hosts {any something}`
+`getent hosts {string value: host}`

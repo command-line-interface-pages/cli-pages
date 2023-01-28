@@ -5,20 +5,20 @@
 
 - Use an existing [l]ocation as workspace path:
 
-`azurite {any something} {directory something}`
+`azurite {string value: -l|--location} {directory value}`
 
 - Disable access log displayed in console:
 
-`azurite {any something}`
+`azurite {string value: -s|--silent}`
 
 - Enable [d]ebug log by providing a file path as log destination:
 
-`azurite {any something} {any something}`
+`azurite {string value: -d|--debug} {string value: path/to/debug.log}`
 
 - Customize the listening address of Blob/Queue/Table service:
 
-`azurite {any something} {any something}`
+`azurite {string value: --blobHost|--queueHost|--tableHost} {string value: 0.0.0.0}`
 
 - Customize the listening port of Blob/Queue/Table service:
 
-`azurite {any something} {int number: 8888}`
+`azurite {string value: --blobPort|--queuePort|--tablePort} {int value: 8888}`

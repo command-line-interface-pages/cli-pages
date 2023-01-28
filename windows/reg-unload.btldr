@@ -5,4 +5,4 @@
 
 - Remove data from the registry for a specified key:
 
-`reg unload {any something}`
+`reg unload {string value: key_name}`

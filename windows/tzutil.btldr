@@ -13,4 +13,4 @@
 
 - Set the system time zone to the specific value:
 
-`tzutil /s {any something}`
+`tzutil /s {string value: timezone_id}`

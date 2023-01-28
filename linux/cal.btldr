@@ -17,8 +17,8 @@
 
 - Display a calendar for a specific year (4 digits):
 
-`cal {any something}`
+`cal {string value: year}`
 
 - Display a calendar for a specific month and year:
 
-`cal {any something} {any something}`
+`cal {string value: month} {string value: year}`

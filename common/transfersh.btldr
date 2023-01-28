@@ -5,24 +5,24 @@
 
 - Upload a file to transfer.sh:
 
-`transfersh {file something}`
+`transfersh {file value}`
 
 - Upload a file showing a progress bar (requires Python package `requests_toolbelt`):
 
-`transfersh --progress {file something}`
+`transfersh --progress {file value}`
 
 - Upload a file using a different file name:
 
-`transfersh --name {any something} {file something}`
+`transfersh --name {file value} {file value}`
 
 - Upload a file to a custom transfer.sh server:
 
-`transfersh --servername {any something} {file something}`
+`transfersh --servername {string value: upload.server.name} {file value}`
 
 - Upload all files from a directory recursively:
 
-`transfersh --recursive {any something}`
+`transfersh --recursive {string value: path/to/directory/}`
 
 - Upload a specific directory as an uncompressed tar:
 
-`transfersh -rt {directory something}`
+`transfersh -rt {directory value}`

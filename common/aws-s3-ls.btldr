@@ -9,19 +9,19 @@
 
 - List files and folders in the root of a bucket (`s3://` is optional):
 
-`aws s3 ls s3://{any something}`
+`aws s3 ls s3://{string value: bucket_name}`
 
 - List files and folders directly inside a directory:
 
-`aws s3 ls {any something}/{directory something}/`
+`aws s3 ls {string value: bucket_name}/{directory value}/`
 
 - List all files in a bucket:
 
-`aws s3 ls --recursive {any something}`
+`aws s3 ls --recursive {string value: bucket_name}`
 
 - List all files in a path with a given prefix:
 
-`aws s3 ls --recursive {any something}/{any something}{any something}`
+`aws s3 ls --recursive {string value: bucket_name}/{string value: path/to/directory/}{string value: prefix}`
 
 - Display help:
 

@@ -5,20 +5,20 @@
 
 - Specify the range of pages to convert (N-first page, M-last page):
 
-`pdftoppm -f {any something} -l {any something} {file something} {any something}`
+`pdftoppm -f {string value: N} -l {string value: M} {file value: sample.pdf} {string value: image_name_prefix}`
 
 - Convert only the first page of a PDF:
 
-`pdftoppm -singlefile {file something} {any something}`
+`pdftoppm -singlefile {file value: sample.pdf} {string value: image_name_prefix}`
 
 - Generate a monochrome PBM file (instead of a color PPM file):
 
-`pdftoppm -mono {file something} {any something}`
+`pdftoppm -mono {file value: sample.pdf} {string value: image_name_prefix}`
 
 - Generate a grayscale PGM file (instead of a color PPM file):
 
-`pdftoppm -gray {file something} {any something}`
+`pdftoppm -gray {file value: sample.pdf} {string value: image_name_prefix}`
 
 - Generate a PNG file instead a PPM file:
 
-`pdftoppm -png {file something} {any something}`
+`pdftoppm -png {file value: sample.pdf} {string value: image_name_prefix}`

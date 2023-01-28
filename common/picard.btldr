@@ -9,7 +9,7 @@
 
 - Open a set of files:
 
-`picard {any something} {any something}`
+`picard {string value: path/to/file1.mp3} {string value: path/to/file2.mp3}`
 
 - Display the version of Picard installed:
 

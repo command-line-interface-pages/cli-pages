@@ -6,19 +6,19 @@
 
 - Install a new package:
 
-`yum install {any something}`
+`yum install {string value: package}`
 
 - Install a new package and assume yes to all questions (also works with update, great for automated updates):
 
-`yum -y install {any something}`
+`yum -y install {string value: package}`
 
 - Find the package that provides a particular command:
 
-`yum provides {any something}`
+`yum provides {string value: command}`
 
 - Remove a package:
 
-`yum remove {any something}`
+`yum remove {string value: package}`
 
 - Display available updates for installed packages:
 

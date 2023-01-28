@@ -9,16 +9,16 @@
 
 - List vulnerable installed packages of a specific suite:
 
-`debsecan --suite {any something}`
+`debsecan --suite {string value: release_code_name}`
 
 - List only fixed vulnerabilities:
 
-`debsecan --suite {any something} --only-fixed`
+`debsecan --suite {string value: release_code_name} --only-fixed`
 
 - List only fixed vulnerabilities of unstable ("sid") and mail to root:
 
-`debsecan --suite {any something} --only-fixed --format {any something} --mailto {any something} --update-history`
+`debsecan --suite {string value: sid} --only-fixed --format {string value: report} --mailto {string value: root} --update-history`
 
 - Upgrade vulnerable installed packages:
 
-`sudo apt upgrade $(debsecan --only-fixed --format {any something})`
+`sudo apt upgrade $(debsecan --only-fixed --format {string value: packages})`

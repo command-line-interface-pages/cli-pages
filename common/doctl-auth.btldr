@@ -5,7 +5,7 @@
 
 - Open a prompt to enter an API token and label its context:
 
-`doctl auth init --context {any something}`
+`doctl auth init --context {string value: token_label}`
 
 - List authentication contexts (API tokens):
 
@@ -13,11 +13,11 @@
 
 - Switch contexts (API tokens):
 
-`doctl auth switch --context {any something}`
+`doctl auth switch --context {string value: token_label}`
 
 - Remove a stored authentication context (API token):
 
-`doctl auth remove --context {any something}`
+`doctl auth remove --context {string value: token_label}`
 
 - Show available commands:
 

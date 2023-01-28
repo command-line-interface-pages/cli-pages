@@ -6,12 +6,12 @@
 
 - Calculate the current compression ratio for a file or directory:
 
-`sudo compsize {file something|path something}`
+`sudo compsize {path value}`
 
 - Don't traverse filesystem boundaries:
 
-`sudo compsize --one-file-system {file something|path something}`
+`sudo compsize --one-file-system {path value}`
 
 - Show raw byte counts instead of human-readable sizes:
 
-`sudo compsize --bytes {file something|path something}`
+`sudo compsize --bytes {path value}`

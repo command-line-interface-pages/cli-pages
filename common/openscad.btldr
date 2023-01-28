@@ -5,12 +5,12 @@
 
 - Open a file:
 
-`openscad {any something}`
+`openscad {string value: path/to/button.scad}`
 
 - Convert a file to STL:
 
-`openscad -o {any something} {any something}`
+`openscad -o {string value: path/to/button.stl} {string value: path/to/button.scad}`
 
 - Render a file to PNG in a specific colorscheme:
 
-`openscad -o {any something} --colorscheme {any something} {any something}`
+`openscad -o {string value: path/to/button.png} --colorscheme {string value: Sunset} {string value: path/to/button.scad}`

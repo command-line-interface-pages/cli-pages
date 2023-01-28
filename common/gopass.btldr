@@ -17,15 +17,15 @@
 
 - Mount a shared Git store:
 
-`gopass mounts add {any something} {any something}`
+`gopass mounts add {string value: store_name} {string value: git_repo_url}`
 
 - Search interactively using a keyword:
 
-`gopass show {any something}`
+`gopass show {string value: keyword}`
 
 - Search using a keyword:
 
-`gopass find {any something}`
+`gopass find {string value: keyword}`
 
 - Sync all mounted stores:
 
@@ -33,4 +33,4 @@
 
 - Show a particular password entry:
 
-`gopass {any something}`
+`gopass {string value: store_name|path/to/directory|email@email.com}`

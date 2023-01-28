@@ -10,7 +10,7 @@
 
 - Start a new named session:
 
-`tmux new -s {any something}`
+`tmux new -s {string value: name}`
 
 - List existing sessions:
 
@@ -34,4 +34,4 @@
 
 - Kill a session by name:
 
-`tmux kill-session -t {any something}`
+`tmux kill-session -t {string value: name}`

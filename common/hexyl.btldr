@@ -5,16 +5,16 @@
 
 - Print the hexadecimal representation of a file:
 
-`hexyl {file something}`
+`hexyl {file value}`
 
 - Print the hexadecimal representation of the first n bytes of a file:
 
-`hexyl -n {any something} {file something}`
+`hexyl -n {string value: n} {file value}`
 
 - Print bytes 512 through 1024 of a file:
 
-`hexyl -r {int number: 512}:{int number: 1024} {file something}`
+`hexyl -r {int value: 512}:{int value: 1024} {file value}`
 
 - Print 512 bytes starting at the 1024th byte:
 
-`hexyl -r {int number: 1024}:+{int number: 512} {file something}`
+`hexyl -r {int value: 1024}:+{int value: 512} {file value}`

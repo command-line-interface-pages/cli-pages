@@ -5,11 +5,11 @@
 
 - Compile and install terminfo for a terminal:
 
-`tic -xe {any something} {any something}`
+`tic -xe {string value: terminal} {string value: path/to/terminal.info}`
 
 - Check terminfo file for errors:
 
-`tic -c {any something}`
+`tic -c {string value: path/to/terminal.info}`
 
 - Print database locations:
 

@@ -13,4 +13,4 @@
 
 - Initialize DVC in a subdirectory:
 
-`cd {any something} && dvc init --sudir`
+`cd {string value: path/to/subdir} && dvc init --sudir`

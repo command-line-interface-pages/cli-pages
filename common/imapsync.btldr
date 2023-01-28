@@ -5,4 +5,4 @@
 
 - Synchronize IMAP account between host1 and host2:
 
-`imapsync --host1 {any something} --user1 {any something} --password1 {any something} --host2 {any something} --user2 {any something} --password2 {any something}`
+`imapsync --host1 {string value: host1} --user1 {string value: user1} --password1 {string value: secret1} --host2 {string value: host2} --user2 {string value: user2} --password2 {string value: secret2}`

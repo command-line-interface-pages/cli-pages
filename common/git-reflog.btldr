@@ -9,8 +9,8 @@
 
 - Show the reflog for a given branch:
 
-`git reflog {any something}`
+`git reflog {string value: branch_name}`
 
 - Show only the 5 latest entries in the reflog:
 
-`git reflog -n {int number: 5}`
+`git reflog -n {int value: 5}`

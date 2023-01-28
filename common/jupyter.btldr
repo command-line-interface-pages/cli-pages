@@ -10,15 +10,15 @@
 
 - Open a specific Jupyter notebook:
 
-`jupyter notebook {any something}`
+`jupyter notebook {string value: example.ipynb}`
 
 - Export a specific Jupyter notebook into another format:
 
-`jupyter nbconvert --to {any something} {any something}`
+`jupyter nbconvert --to {string value: html|markdown|pdf|script} {string value: example.ipynb}`
 
 - Start a server on a specific port:
 
-`jupyter notebook --port={any something}`
+`jupyter notebook --port={string value: port}`
 
 - List currently running notebook servers:
 

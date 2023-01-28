@@ -5,8 +5,8 @@
 
 - Optimize a PNG:
 
-`zopflipng {any something} {any something}`
+`zopflipng {string value: input.png} {string value: output.png}`
 
 - Optimize several PNGs and save with given prefix:
 
-`zopflipng --prefix={any something} {any something} {any something} {any something}`
+`zopflipng --prefix={string value: prefix} {string value: image1.png} {string value: image2.png} {string value: image3.png}`

@@ -5,7 +5,7 @@
 
 - Install a specific version of Node.js:
 
-`nodenv install {any something}`
+`nodenv install {string value: version}`
 
 - Display a list of available versions:
 
@@ -13,11 +13,11 @@
 
 - Use a specific version of Node.js across the whole system:
 
-`nodenv global {any something}`
+`nodenv global {string value: version}`
 
 - Use a specific version of Node.js with a directory:
 
-`nodenv local {any something}`
+`nodenv local {string value: version}`
 
 - Display the Node.js version for the current directory:
 
@@ -25,4 +25,4 @@
 
 - Display the location of a Node.js installed command (e.g. `npm`):
 
-`nodenv which {any something}`
+`nodenv which {string value: command}`

@@ -10,15 +10,15 @@
 
 - Start a container from an image, with a custom name:
 
-`docker run --name {any something} {any something}`
+`docker run --name {string value: container_name} {string value: image}`
 
 - Start or stop an existing container:
 
-`docker {any something} {any something}`
+`docker {string value: start|stop} {string value: container_name}`
 
 - Pull an image from a docker registry:
 
-`docker pull {any something}`
+`docker pull {string value: image}`
 
 - Display the list of already downloaded images:
 
@@ -26,12 +26,12 @@
 
 - Open a shell inside a running container:
 
-`docker exec -it {any something} {any something}`
+`docker exec -it {string value: container_name} {string value: sh}`
 
 - Remove a stopped container:
 
-`docker rm {any something}`
+`docker rm {string value: container_name}`
 
 - Fetch and follow the logs of a container:
 
-`docker logs -f {any something}`
+`docker logs -f {string value: container_name}`

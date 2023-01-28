@@ -10,7 +10,7 @@
 
 - Print options for a specific subcommand:
 
-`openssl help {any something}`
+`openssl help {string value: x509}`
 
 - Print the version of OpenSSL:
 

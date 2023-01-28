@@ -9,19 +9,19 @@
 
 - Install a new package:
 
-`trizen -S {any something}`
+`trizen -S {string value: package}`
 
 - Remove a package and its dependencies:
 
-`trizen -Rs {any something}`
+`trizen -Rs {string value: package}`
 
 - Search the package database for a keyword:
 
-`trizen -Ss {any something}`
+`trizen -Ss {string value: keyword}`
 
 - Show information about a package:
 
-`trizen -Si {any something}`
+`trizen -Si {string value: package}`
 
 - List installed packages and versions:
 

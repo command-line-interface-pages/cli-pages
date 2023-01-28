@@ -18,11 +18,11 @@
 
 - Display only specific fields:
 
-`vgs -o {any something},{any something}`
+`vgs -o {string value: field_name_1},{string value: field_name_2}`
 
 - Append field to default display:
 
-`vgs -o +{any something}`
+`vgs -o +{string value: field_name}`
 
 - Suppress heading line:
 

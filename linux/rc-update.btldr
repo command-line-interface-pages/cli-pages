@@ -10,12 +10,12 @@
 
 - Add a service to a runlevel:
 
-`sudo rc-update add {any something} {any something}`
+`sudo rc-update add {string value: service_name} {string value: runlevel}`
 
 - Delete a service from a runlevel:
 
-`sudo rc-update delete {any something} {any something}`
+`sudo rc-update delete {string value: service_name} {string value: runlevel}`
 
 - Delete a service from all runlevels:
 
-`sudo rc-update --all delete {any something}`
+`sudo rc-update --all delete {string value: service_name}`

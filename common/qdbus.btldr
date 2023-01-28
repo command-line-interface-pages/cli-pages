@@ -9,27 +9,27 @@
 
 - List object paths for a specific service:
 
-`qdbus {any something}`
+`qdbus {string value: service_name}`
 
 - List methods, signals and properties available on a specific object:
 
-`qdbus {any something} {any something}`
+`qdbus {string value: service_name} {string value: /path/to/object}`
 
 - Execute a specific method passing arguments and display the returned value:
 
-`qdbus {any something} {any something} {any something} {any something} {any something}`
+`qdbus {string value: service_name} {string value: /path/to/object} {string value: method_name} {string value: argument1} {string value: argument2}`
 
 - Display the current brightness value in a KDE Plasma session:
 
-`qdbus {any something} {any something} {any something}`
+`qdbus {string value: org.kde.Solid.PowerManagement} {string value: /org/kde/Solid/PowerManagement/Actions/BrightnessControl} {string value: org.kde.Solid.PowerManagement.Actions.BrightnessControl.brightness}`
 
 - Set a specific brightness to a KDE Plasma session:
 
-`qdbus {any something} {any something} {any something} {int number: 5000}`
+`qdbus {string value: org.kde.Solid.PowerManagement} {string value: /org/kde/Solid/PowerManagement/Actions/BrightnessControl} {string value: org.kde.Solid.PowerManagement.Actions.BrightnessControl.setBrightness} {int value: 5000}`
 
 - Invoke volume up shortcut in a KDE Plasma session:
 
-`qdbus {any something} {any something} {any something} "{any something}"`
+`qdbus {string value: org.kde.kglobalaccel} {string value: /component/kmix} {string value: invokeShortcut} "{string value: increase_volume}"`
 
 - Display help:
 

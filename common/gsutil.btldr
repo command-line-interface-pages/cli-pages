@@ -10,24 +10,24 @@
 
 - List the objects in a bucket:
 
-`gsutil ls -r 'gs://{any something}/{any something}**'`
+`gsutil ls -r 'gs://{string value: bucket_name}/{string value: prefix}**'`
 
 - Download an object from a bucket:
 
-`gsutil cp gs://{any something}/{any something} {any something}`
+`gsutil cp gs://{string value: bucket_name}/{string value: object_name} {string value: path/to/save_location}`
 
 - Upload an object to a bucket:
 
-`gsutil cp {any something} gs://{any something}/`
+`gsutil cp {string value: object_location} gs://{string value: destination_bucket_name}/`
 
 - Rename or move objects in a bucket:
 
-`gsutil mv gs://{any something}/{any something} gs://{any something}/{any something}`
+`gsutil mv gs://{string value: bucket_name}/{string value: old_object_name} gs://{string value: bucket_name}/{string value: new_object_name}`
 
 - Create a new bucket in the project you are logged into:
 
-`gsutil mb gs://{any something}`
+`gsutil mb gs://{string value: bucket_name}`
 
 - Delete a bucket and remove all the objects in it:
 
-`gsutil rm -r gs://{any something}`
+`gsutil rm -r gs://{string value: bucket_name}`

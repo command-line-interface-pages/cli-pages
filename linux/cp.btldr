@@ -5,28 +5,28 @@
 
 - Copy a file to another location:
 
-`cp {file something: source} {file something: target}`
+`cp {file value: source.ext} {file value: target.ext}`
 
 - Copy a file into another directory, keeping the filename:
 
-`cp {file something: source} {directory something: target_parent}`
+`cp {file value: source.ext} {directory value: target_parent}`
 
 - Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
-`cp -r {directory something: source} {directory something: target}`
+`cp -r {directory value: source} {directory value: target}`
 
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
-`cp -vr {directory something: source} {directory something: target}`
+`cp -vr {directory value: source} {directory value: target}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {any something} {directory something: target}`
+`cp -i {string value: *.txt} {directory value: target}`
 
 - Follow symbolic links before copying:
 
-`cp -L {any something} {directory something: target}`
+`cp -L {string value: link} {directory value: target}`
 
 - Use the full path of source files, creating any missing intermediate directories when copying:
 
-`cp --parents {any something} {file something: target}`
+`cp --parents {string value: source/path/to/file} {file value: target}`

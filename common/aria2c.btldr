@@ -10,28 +10,28 @@
 
 - Download a file from a URI with a specific output name:
 
-`aria2c --out={file something} "{string url}"`
+`aria2c --out={file value} "{string url}"`
 
 - Download multiple different files in parallel:
 
-`aria2c --force-sequential {bool flag: false} "{any something}"`
+`aria2c --force-sequential {bool flag: false} "{string value: url1 url2 ...}"`
 
 - Download from multiple sources with each URI pointing to the same file:
 
-`aria2c "{any something}"`
+`aria2c "{string value: url1 url2 ...}"`
 
 - Download the URIs listed in a file with a specific number of parallel downloads:
 
-`aria2c --input-file={file something} --max-concurrent-downloads={any something}`
+`aria2c --input-file={file value} --max-concurrent-downloads={string value: number_of_downloads}`
 
 - Download with multiple connections:
 
-`aria2c --split={any something} "{string url}"`
+`aria2c --split={string value: number_of_connections} "{string url}"`
 
 - FTP download with username and password:
 
-`aria2c --ftp-user={string user} --ftp-passwd={any something} "{string url}"`
+`aria2c --ftp-user={string user} --ftp-passwd={string value: password} "{string url}"`
 
 - Limit download speed in bytes/s:
 
-`aria2c --max-download-limit={any something} "{string url}"`
+`aria2c --max-download-limit={string value: speed} "{string url}"`

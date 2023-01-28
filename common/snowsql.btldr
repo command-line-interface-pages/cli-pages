@@ -5,20 +5,20 @@
 
 - Connect to a specific instance at <https://account.snowflakecomputing.com> (password can be provided in prompt or configuration file):
 
-`snowsql --accountname {any something} --username {string user} --dbname {any something} --schemaname {any something}`
+`snowsql --accountname {string value: account} --username {string user} --dbname {string value: database} --schemaname {string value: schema}`
 
 - Connect to an instance specified by a specific configuration file (defaults to `~/.snowsql/config`):
 
-`snowsql --config {file something: configuration}`
+`snowsql --config {file value: configuration}`
 
 - Connect to the default instance using a token for multi-factor authentication:
 
-`snowsql --mfa-passcode {any something}`
+`snowsql --mfa-passcode {string value: token}`
 
 - Execute a single SQL query or SnowSQL command on the default connection (useful in shell scripts):
 
-`snowsql --query '{any something}'`
+`snowsql --query '{string value: query}'`
 
 - Execute commands from a specific file on the default connection:
 
-`snowsql --filename {file something}`
+`snowsql --filename {file value: sample.sql}`

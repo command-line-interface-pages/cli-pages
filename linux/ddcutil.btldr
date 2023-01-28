@@ -10,12 +10,12 @@
 
 - Change the brightness (option 0x10) of display 1 to 50%:
 
-`ddcutil --display {int number: 1} setvcp {int number: 10} {int number: 50}`
+`ddcutil --display {int value: 1} setvcp {int value: 10} {int value: 50}`
 
 - Increase the contrast (option 0x12) of display 1 by 5%:
 
-`ddcutil -d {int number: 1} setvcp {int number: 12} {any something} {int number: 5}`
+`ddcutil -d {int value: 1} setvcp {int value: 12} {string value: +} {int value: 5}`
 
 - Read the settings of display 1:
 
-`ddcutil -d {int number: 1} getvcp {any something}`
+`ddcutil -d {int value: 1} getvcp {string value: ALL}`

@@ -10,11 +10,11 @@
 
 - Start a job:
 
-`aws glue start-job-run --job-name {any something}`
+`aws glue start-job-run --job-name {string value: job_name}`
 
 - Start running a workflow:
 
-`aws glue start-workflow-run --name {any something}`
+`aws glue start-workflow-run --name {string value: workflow_name}`
 
 - List triggers:
 
@@ -22,8 +22,8 @@
 
 - Start a trigger:
 
-`aws glue start-trigger --name {any something}`
+`aws glue start-trigger --name {string value: trigger_name}`
 
 - Create a dev endpoint:
 
-`aws glue create-dev-endpoint --endpoint-name {any something} --role-arn {any something}`
+`aws glue create-dev-endpoint --endpoint-name {string value: name} --role-arn {string value: role_arn_used_by_endpoint}`

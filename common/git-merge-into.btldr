@@ -6,8 +6,8 @@
 
 - Merge a source branch into a specific destination branch:
 
-`git merge-into {any something} {any something}`
+`git merge-into {string value: source_branch} {string value: destination_branch}`
 
 - Merge current branch into a specific destination branch:
 
-`git merge-into {any something}`
+`git merge-into {string value: destination_branch}`

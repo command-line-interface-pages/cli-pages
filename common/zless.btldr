@@ -5,4 +5,4 @@
 
 - Page through a `gzip` compressed file with `less`:
 
-`zless {any something}`
+`zless {string value: file.txt.gz}`

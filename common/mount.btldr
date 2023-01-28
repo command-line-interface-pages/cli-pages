@@ -9,19 +9,19 @@
 
 - Mount a device to a directory:
 
-`mount -t {any something} {file something: device} {directory something: target}`
+`mount -t {string value: filesystem_type} {file value: device} {directory value: target}`
 
 - Create a specific directory if it does not exist and mount a device to it:
 
-`mount --mkdir {file something: device} {directory something: target}`
+`mount --mkdir {file value: device} {directory value: target}`
 
 - Mount a device to a directory for a specific user:
 
-`mount -o uid={any something},gid={any something} {file something: device} {directory something: target}`
+`mount -o uid={string value: user_id},gid={string value: group_id} {file value: device} {directory value: target}`
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 
-`mount -t {any something} -o ro {any something} {any something}`
+`mount -t {string value: iso9660} -o ro {string value: /dev/cdrom} {string value: /cdrom}`
 
 - Mount all the filesystem defined in `/etc/fstab`:
 
@@ -29,8 +29,8 @@
 
 - Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /my_drive ext2 defaults 0 2`):
 
-`mount {any something}`
+`mount {string value: /my_drive}`
 
 - Mount a directory to another directory:
 
-`mount --bind {directory something: old} {directory something: new}`
+`mount --bind {directory value: old} {directory value: new}`

@@ -5,24 +5,24 @@
 
 - Tag a specific file with multiple tags:
 
-`tmsu tag {file something} {any something} {any something} {any something}`
+`tmsu tag {file value: sample.mp3} {string value: music} {string value: big-jazz} {string value: mp3}`
 
 - Tag multiple files:
 
-`tmsu tag --tags "{any something}" {any something}`
+`tmsu tag --tags "{string value: music mp3}" {string value: *.mp3}`
 
 - List tags of specified file(s):
 
-`tmsu tags {any something}`
+`tmsu tags {string value: *.mp3}`
 
 - List files with specified tag(s):
 
-`tmsu files {any something} {any something}`
+`tmsu files {string value: big-jazz} {string value: music}`
 
 - List files with tags matching boolean expression:
 
-`tmsu files "{any something} and {any something}"`
+`tmsu files "{string value: (year >= 1990 and year <= 2000)} and {string value: grunge}"`
 
 - Mount tmsu virtual filesystem to an existing directory:
 
-`tmsu mount {directory something}`
+`tmsu mount {directory value}`

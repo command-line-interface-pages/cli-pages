@@ -5,23 +5,23 @@
 
 - Check the style of a file:
 
-`vale {file something}`
+`vale {file value}`
 
 - Check the style of a file with a specified configuration:
 
-`vale --config='{any something}' {file something}`
+`vale --config='{string value: path/to/.vale.ini}' {file value}`
 
 - Output the results in JSON format:
 
-`vale --output=JSON {file something}`
+`vale --output=JSON {file value}`
 
 - Check style issues at the specific severity and higher:
 
-`vale --minAlertLeve={any something} {file something}`
+`vale --minAlertLeve={string value: suggestion|warning|error} {file value}`
 
 - Check the style from stdin, specifying markup format:
 
-`cat {file something} | vale --ext=.md`
+`cat {file value: sample.md} | vale --ext=.md`
 
 - List the current configuration:
 

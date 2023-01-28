@@ -6,8 +6,8 @@
 
 - Reduce a volume's size to 120 GB:
 
-`lvreduce --size {any something} {any something}`
+`lvreduce --size {string value: 120G} {string value: logical_volume}`
 
 - Reduce a volume's size by 40 GB as well as the underlying filesystem:
 
-`lvreduce --size -{any something} -r {any something}`
+`lvreduce --size -{string value: 40G} -r {string value: logical_volume}`

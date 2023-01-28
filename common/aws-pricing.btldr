@@ -5,20 +5,20 @@
 
 - List service codes of a specific region:
 
-`aws pricing describe-services --region {any something}`
+`aws pricing describe-services --region {string value: us-east-1}`
 
 - List attributes for a given service code in a specific region:
 
-`aws pricing describe-services --service-code {any something} --region {any something}`
+`aws pricing describe-services --service-code {string value: AmazonEC2} --region {string value: us-east-1}`
 
 - Print pricing information for a service code in a specific region:
 
-`aws pricing get-products --service-code {any something} --region {any something}`
+`aws pricing get-products --service-code {string value: AmazonEC2} --region {string value: us-east-1}`
 
 - List values for a specific attribute for a service code in a specific region:
 
-`aws pricing get-attribute-values --service-code {any something} --attribute-name {any something} --region {any something}`
+`aws pricing get-attribute-values --service-code {string value: AmazonEC2} --attribute-name {string value: instanceType} --region {string value: us-east-1}`
 
 - Print pricing information for a service code using filters for instance type and location:
 
-`aws pricing get-products --service-code {any something} --filters "{any something}" "{any something}" --region {any something}`
+`aws pricing get-products --service-code {string value: AmazonEC2} --filters "{string value: Type=TERM_MATCH,Field=instanceType,Value=m5.xlarge}" "{string value: Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)}" --region {string value: us-east-1}`

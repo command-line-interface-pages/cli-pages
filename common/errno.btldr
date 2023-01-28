@@ -5,7 +5,7 @@
 
 - Lookup errno description by name or code:
 
-`errno {any something}`
+`errno {string value: name|code}`
 
 - List all errno names, codes, and descriptions:
 
@@ -13,8 +13,8 @@
 
 - Search for code whose description contains all of the given text:
 
-`errno --search {any something}`
+`errno --search {string value: text}`
 
 - Search for code whose description contains all of the given text (all locales):
 
-`errno --search-all-locales {any something}`
+`errno --search-all-locales {string value: text}`

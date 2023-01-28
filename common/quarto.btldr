@@ -5,20 +5,20 @@
 
 - Create a new project:
 
-`quarto create-project {directory something: destination} --type {any something}`
+`quarto create-project {directory value: destination} --type {string value: book|default|website}`
 
 - Create a new blog website:
 
-`quarto create-project {directory something: destination} --type {any something} --template {any something}`
+`quarto create-project {directory value: destination} --type {string value: website} --template {string value: blog}`
 
 - Render input file(s) to different formats:
 
-`quarto render {{path/to/file.{any something}}} --to {any something}`
+`quarto render {{path/to/file.{string value: qmd|rmd|ipynb}}} --to {string value: html|pdf|docx}`
 
 - Render and preview a document or a website:
 
-`quarto preview {any something}`
+`quarto preview {string value: path/to/destination_directory|path/to/file}`
 
 - Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify:
 
-`quarto publish {any something}`
+`quarto publish {string value: quarto-pub|gh-pages|connect|netlify}`

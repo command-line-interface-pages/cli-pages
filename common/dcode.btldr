@@ -6,16 +6,16 @@
 
 - Recursively detect and decode a string:
 
-`dcode "{any something}"`
+`dcode "{string value: NjM3YTQyNzQ1YTQ0NGUzMg==}"`
 
 - Rotate a string by the specified offset:
 
-`dcode -rot {int number: 11} "{any something}"`
+`dcode -rot {int value: 11} "{string value: spwwz hzcwo}"`
 
 - Rotate a string by all 26 possible offsets:
 
-`dcode -rot {any something} "{any something}"`
+`dcode -rot {string value: all} "{string value: bpgkta xh qtiitg iwpc sr}"`
 
 - Reverse a string:
 
-`dcode -rev "{any something}"`
+`dcode -rev "{string value: hello world}"`

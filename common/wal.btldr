@@ -5,23 +5,23 @@
 
 - Preview color scheme:
 
-`wal --preview {any something}`
+`wal --preview {string value: image.png}`
 
 - Create color scheme:
 
-`wal -i {any something}`
+`wal -i {string value: image.png}`
 
 - Create a light color scheme:
 
-`wal -i {any something} -l`
+`wal -i {string value: image.png} -l`
 
 - Skip setting the desktop wallpaper:
 
-`wal -i {any something} -n`
+`wal -i {string value: image.png} -n`
 
 - Skip setting the terminal colors:
 
-`wal -i {any something} -s`
+`wal -i {string value: image.png} -s`
 
 - Restore the previously generated color scheme and wallpaper:
 

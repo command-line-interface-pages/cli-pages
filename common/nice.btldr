@@ -6,4 +6,4 @@
 
 - Launch a program with altered priority:
 
-`nice -n {any something} {any something}`
+`nice -n {string value: niceness_value} {string value: command}`

@@ -10,12 +10,12 @@
 
 - Open specific archives:
 
-`engrampa {any something}`
+`engrampa {string value: path/to/archive1.tar path/to/archive2.tar ...}`
 
 - Archive specific files and/or directories recursively:
 
-`engrampa --add-to={any something} {path* something}`
+`engrampa --add-to={string value: path/to/compressed.tar} {path* value}`
 
 - Extract files and/or directories from archives to a specific path:
 
-`engrampa --extract-to={directory something} {any something}`
+`engrampa --extract-to={directory value} {string value: path/to/archive1.tar path/to/archive2.tar ...}`

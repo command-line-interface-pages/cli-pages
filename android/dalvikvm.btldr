@@ -5,4 +5,4 @@
 
 - Start a specific Java program:
 
-`dalvikvm -classpath {file something} {any something}`
+`dalvikvm -classpath {file value: sample.jar} {string value: classname}`

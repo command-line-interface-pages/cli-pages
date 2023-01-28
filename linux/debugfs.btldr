@@ -5,15 +5,15 @@
 
 - Open the filesystem in read only mode:
 
-`debugfs {any something}`
+`debugfs {string value: /dev/sdXN}`
 
 - Open the filesystem in read write mode:
 
-`debugfs -w {any something}`
+`debugfs -w {string value: /dev/sdXN}`
 
 - Read commands from a specified file, execute them and then exit:
 
-`debugfs -f {file something: cmd} {any something}`
+`debugfs -f {file value: cmd} {string value: /dev/sdXN}`
 
 - View the filesystem stats in debugfs console:
 

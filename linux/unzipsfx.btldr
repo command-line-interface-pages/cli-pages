@@ -5,20 +5,20 @@
 
 - Create a self-extracting binary file of a `zip` archive:
 
-`cat unzipsfx {any something} > {any something} && chmod 755 {any something}`
+`cat unzipsfx {string value: path/to/archive.zip} > {file value} && chmod 755 {file value}`
 
 - Extract a self-extracting binary in the current directory:
 
-`{any something}`
+`{string value: ./path/to/binary)}`
 
 - Test a self-extracting binary for errors:
 
-`{any something} -t`
+`{string value: ./path/to/binary)} -t`
 
 - Print content of a file in the self-extracting binary without extraction:
 
-`{any something} -c {file something}`
+`{string value: ./path/to/binary)} -c {file value}`
 
 - Print comments on `zip` archive in the self-extracting binary:
 
-`{any something} -z`
+`{string value: ./path/to/binary)} -z`

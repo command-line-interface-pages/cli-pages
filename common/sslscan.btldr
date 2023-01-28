@@ -5,12 +5,12 @@
 
 - Test a server on port 443:
 
-`sslscan {any something}`
+`sslscan {string value: example.com}`
 
 - Test a specified port:
 
-`sslscan {any something}:{int number: 465}`
+`sslscan {string value: example.com}:{int value: 465}`
 
 - Show certificate information:
 
-`testssl --show-certificate {any something}`
+`testssl --show-certificate {string value: example.com}`

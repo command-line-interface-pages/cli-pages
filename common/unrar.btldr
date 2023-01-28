@@ -5,20 +5,20 @@
 
 - Extract files with original directory structure:
 
-`unrar x {any something}`
+`unrar x {string value: compressed.rar}`
 
 - Extract files to a specified path with the original directory structure:
 
-`unrar x {any something} {any something}`
+`unrar x {string value: compressed.rar} {string value: path/to/extract}`
 
 - Extract files into current directory, losing directory structure in the archive:
 
-`unrar e {any something}`
+`unrar e {string value: compressed.rar}`
 
 - Test integrity of each file inside the archive file:
 
-`unrar t {any something}`
+`unrar t {string value: compressed.rar}`
 
 - List files inside the archive file without decompressing it:
 
-`unrar l {any something}`
+`unrar l {string value: compressed.rar}`

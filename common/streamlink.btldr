@@ -5,32 +5,32 @@
 
 - Attempt to extract streams from the URL specified, and if it's successful, print out a list of available streams to choose from:
 
-`streamlink {any something}`
+`streamlink {string value: example.com/stream}`
 
 - Open a stream with the specified quality:
 
-`streamlink {any something} {any something}`
+`streamlink {string value: example.com/stream} {string value: 720p60}`
 
 - Select the highest or lowest available quality:
 
-`streamlink {any something} {any something}`
+`streamlink {string value: example.com/stream} {string value: best|worst}`
 
 - Specify which player to use to feed stream data to (VLC is used by default if found):
 
-`streamlink --player={any something} {any something} {any something}`
+`streamlink --player={string value: mpv} {string value: example.com/stream} {string value: best}`
 
 - Specify the amount of time to skip from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
-`streamlink --hls-start-offset {any something} {any something} {any something}`
+`streamlink --hls-start-offset {string value: [HH:]MM:SS} {string value: example.com/stream} {string value: best}`
 
 - Skip to the beginning of a live stream, or as far back as possible:
 
-`streamlink --hls-live-restart {any something} {any something}`
+`streamlink --hls-live-restart {string value: example.com/stream} {string value: best}`
 
 - Write stream data to a file instead of playing it:
 
-`streamlink --output {file something} {any something} {any something}`
+`streamlink --output {file value: sample.ts} {string value: example.com/stream} {string value: best}`
 
 - Open the stream in the player, while at the same time writing it to a file:
 
-`streamlink --record {file something} {any something} {any something}`
+`streamlink --record {file value: sample.ts} {string value: example.com/stream} {string value: best}`

@@ -6,11 +6,11 @@
 
 - Convert a graph from `gv` to `gxl` format:
 
-`gv2gxl -o {any something} {any something}`
+`gv2gxl -o {string value: output.gxl} {string value: input.gv}`
 
 - Convert a graph using stdin and stdout:
 
-`cat {any something} | gv2gxl > {any something}`
+`cat {string value: input.gv} | gv2gxl > {string value: output.gxl}`
 
 - Display help:
 

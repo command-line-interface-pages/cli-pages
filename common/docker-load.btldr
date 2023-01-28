@@ -5,12 +5,12 @@
 
 - Load a Docker image from stdin:
 
-`docker load < {file something: image}`
+`docker load < {file value: image.tar}`
 
 - Load a Docker image from a specific file:
 
-`docker load --input {file something: image}`
+`docker load --input {file value: image.tar}`
 
 - Load a Docker image from a specific file in quiet mode:
 
-`docker load --quiet --input {file something: image}`
+`docker load --quiet --input {file value: image.tar}`

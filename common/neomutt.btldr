@@ -5,20 +5,20 @@
 
 - Open the specified mailbox:
 
-`neomutt -f {any something}`
+`neomutt -f {string value: path/to/mailbox}`
 
 - Start writing an email and specify a subject and a `cc` recipient:
 
-`neomutt -s "{any something}" -c {any something} {any something}`
+`neomutt -s "{string value: subject}" -c {string value: cc@example.com} {string value: recipient@example.com}`
 
 - Send an email with files attached:
 
-`neomutt -a {any something} -- {any something}`
+`neomutt -a {file* value} -- {string value: recipient@example.com}`
 
 - Specify a file to include as the message body:
 
-`neomutt -i {file something} {any something}`
+`neomutt -i {file value} {string value: recipient@example.com}`
 
 - Specify a draft file containing the header and the body of the message, in RFC 5322 format:
 
-`neomutt -H {file something} {any something}`
+`neomutt -H {file value} {string value: recipient@example.com}`

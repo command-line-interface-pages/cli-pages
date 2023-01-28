@@ -5,8 +5,8 @@
 
 - Start the partition manipulator with a specific device:
 
-`cfdisk {/file something: device}`
+`cfdisk {/file value: device}`
 
 - Create a new partition table for a specific device and manage it:
 
-`cfdisk --zero {/file something: device}`
+`cfdisk --zero {/file value: device}`

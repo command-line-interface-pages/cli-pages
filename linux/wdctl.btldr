@@ -13,4 +13,4 @@
 
 - Display only specific watchdog flags (list is driver specific):
 
-`wdctl --flags {any something}`
+`wdctl --flags {string value: flag_list}`

@@ -5,7 +5,7 @@
 
 - Add a Java version to jEnv:
 
-`jenv add {any something}`
+`jenv add {string value: path/to/jdk_home}`
 
 - Display the current JDK version used:
 
@@ -17,12 +17,12 @@
 
 - Set the global JDK version:
 
-`jenv global {any something}`
+`jenv global {string value: java_version}`
 
 - Set the JDK version for the current shell session:
 
-`jenv shell {any something}`
+`jenv shell {string value: java_version}`
 
 - Enable a jEnv plugin:
 
-`jenv enable-plugin {any something}`
+`jenv enable-plugin {string value: plugin_name}`

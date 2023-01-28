@@ -5,16 +5,16 @@
 
 - Remove unused variables from a single file and display the diff:
 
-`autoflake --remove-unused-variables {file something}`
+`autoflake --remove-unused-variables {file value: sample.py}`
 
 - Remove unused imports from multiple files and display the diffs:
 
-`autoflake --remove-all-unused-imports {any something} {any something} {any something}`
+`autoflake --remove-all-unused-imports {string value: file1.py} {string value: file2.py} {string value: file3.py}`
 
 - Remove unused variables from a file, overwriting the file:
 
-`autoflake --remove-unused-variables --in-place {file something}`
+`autoflake --remove-unused-variables --in-place {file value: sample.py}`
 
 - Remove unused variables recursively from all files in a directory, overwriting each file:
 
-`autoflake --remove-unused-variables --in-place --recursive {directory something}`
+`autoflake --remove-unused-variables --in-place --recursive {directory value}`

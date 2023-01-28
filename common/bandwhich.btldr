@@ -17,8 +17,8 @@
 
 - Show the network utilization for a specific network interface:
 
-`bandwhich --interface {any something}`
+`bandwhich --interface {string value: eth0}`
 
 - Show DNS queries with a given DNS server:
 
-`bandwhich --show-dns --dns-server {any something}`
+`bandwhich --show-dns --dns-server {string value: dns_server_ip}`

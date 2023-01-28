@@ -6,7 +6,7 @@
 
 - List all the suboptions for a specific option:
 
-`virt-xml --{any something}=?`
+`virt-xml --{string value: option}=?`
 
 - List all the suboptions for disk, network, and boot:
 
@@ -14,16 +14,16 @@
 
 - Edit a value for a specific domain:
 
-`virt-xml {any something} --edit --{any something} {any something}={any something}`
+`virt-xml {string value: domain} --edit --{string value: option} {string value: suboption}={string value: new_value}`
 
 - Change the description for a specific domain:
 
-`virt-xml {any something} --edit --metadata description="{any something}"`
+`virt-xml {string value: domain} --edit --metadata description="{string value: new_description}"`
 
 - Enable/Disable the boot device menu for a specific domain:
 
-`virt-xml {any something} --edit --boot bootmenu={any something}`
+`virt-xml {string value: domain} --edit --boot bootmenu={string value: on|off}`
 
 - Attach host USB hub to a running VM (See: tldr lsusb):
 
-`virt-xml {any something} --update --add-device --hostdev {any something}.{any something}`
+`virt-xml {string value: domain} --update --add-device --hostdev {string value: bus}.{string value: device}`

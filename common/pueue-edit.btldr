@@ -5,12 +5,12 @@
 
 - Edit a task, see `pueue status` to get the task ID:
 
-`pueue edit {any something}`
+`pueue edit {string value: task_id}`
 
 - Edit the path from which a task is executed:
 
-`pueue edit {any something} --path`
+`pueue edit {string value: task_id} --path`
 
 - Edit a command with the specified editor:
 
-`EDITOR={any something} pueue edit {any something}`
+`EDITOR={string value: nano} pueue edit {string value: task_id}`

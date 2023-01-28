@@ -5,12 +5,12 @@
 
 - Convert a Slim file to HTML:
 
-`slimrb {any something} {any something}`
+`slimrb {string value: input.slim} {string value: output.html}`
 
 - Convert a Slim file and output to prettified HTML:
 
-`slimrb --pretty {any something} {any something}`
+`slimrb --pretty {string value: input.slim} {string value: output.html}`
 
 - Convert a Slim file to ERB:
 
-`slimrb --erb {any something} {any something}`
+`slimrb --erb {string value: input.slim} {string value: output.erb}`

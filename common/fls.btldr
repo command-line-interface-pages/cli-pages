@@ -5,12 +5,12 @@
 
 - Build a recursive fls list over a device, output paths will start with C:
 
-`fls -r -m {any something} {any something}`
+`fls -r -m {string value: C:} {string value: /dev/loop1p1}`
 
 - Analyze a single partition, providing the sector offset at which the filesystem starts in the image:
 
-`fls -r -m {any something} -o {any something} {file something: image}`
+`fls -r -m {string value: C:} -o {string value: sector} {file value: image}`
 
 - Analyze a single partition, providing the timezone of the original system:
 
-`fls -r -m {any something} -z {any something} {any something}`
+`fls -r -m {string value: C:} -z {string value: timezone} {string value: /dev/loop1p1}`

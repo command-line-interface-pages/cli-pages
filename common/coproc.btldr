@@ -5,23 +5,23 @@
 
 - Run a subshell asynchronously:
 
-`coproc { {any something}; }`
+`coproc { {string value: command1; command2; ...}; }`
 
 - Create a coprocess with a specific name:
 
-`coproc {any something} { {any something}; }`
+`coproc {string value: name} { {string value: command1; command2; ...}; }`
 
 - Write to a specific coprocess stdin:
 
-`echo "{any something}" >&"${{any something}[1]}"`
+`echo "{string value: input}" >&"${{string value: name}[1]}"`
 
 - Read from a specific coprocess stdout:
 
-`read {any something} <&"${{any something}[0]}"`
+`read {string value: variable} <&"${{string value: name}[0]}"`
 
 - Create a coprocess which repeatedly reads stdin and runs some commands on the input:
 
-`coproc {any something} {  while read line; do {any something}; done }`
+`coproc {string value: name} {  while read line; do {string value: command1; command2; ...}; done }`
 
 - Create and use a coprocess running `bc`:
 

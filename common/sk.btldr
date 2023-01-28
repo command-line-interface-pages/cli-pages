@@ -6,7 +6,7 @@
 
 - Start skim on all files in the specified directory:
 
-`find {directory something} -type f | sk`
+`find {directory value} -type f | sk`
 
 - Start skim for running processes:
 
@@ -14,8 +14,8 @@
 
 - Start skim with a specified query:
 
-`sk --query "{any something}"`
+`sk --query "{string value: query}"`
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {directory something} -type f | sk --multi > {file something}`
+`find {directory value} -type f | sk --multi > {file value}`

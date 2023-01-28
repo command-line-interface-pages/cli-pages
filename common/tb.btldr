@@ -5,19 +5,19 @@
 
 - Add a new task to a board:
 
-`tb --task {any something} @{any something}`
+`tb --task {string value: task_description} @{string value: board_name}`
 
 - Add a new note to a board:
 
-`tb --note {any something} @{any something}`
+`tb --note {string value: note_description} @{string value: board_name}`
 
 - Edit item's priority:
 
-`tb --priority @{any something} {any something}`
+`tb --priority @{string value: item_id} {string value: priority}`
 
 - Check/uncheck item:
 
-`tb --check {any something}`
+`tb --check {string value: item_id}`
 
 - Archive all checked items:
 
@@ -25,4 +25,4 @@
 
 - Move item to a board:
 
-`tb --move @{any something} {any something}`
+`tb --move @{string value: item_id} {string value: board_name}`

@@ -6,20 +6,20 @@
 
 - Download a blob to a file path:
 
-`az storage blob download --account-name {any something} --account-key {any something} -c {any something} -n {any something} -f {file something: local}`
+`az storage blob download --account-name {string value: storage_account_name} --account-key {string value: storage_account_key} -c {string value: container_name} -n {string value: path/to/blob} -f {file value: local}`
 
 - Download blobs from a blob container recursively:
 
-`az storage blob download-batch --account-name {any something} --account-key {any something} -s {any something} -d {any something} --pattern {any something} --destination {any something}`
+`az storage blob download-batch --account-name {string value: storage_account_name} --account-key {string value: storage_account_key} -s {string value: container_name} -d {string value: path/to/remote} --pattern {string value: filename_regex} --destination {string value: path/to/destination}`
 
 - Upload a local file to blob storage:
 
-`az storage blob upload --account-name {any something} --account-key {any something} -c {any something} -n {any something} -f {file something: local}`
+`az storage blob upload --account-name {string value: storage_account_name} --account-key {string value: storage_account_key} -c {string value: container_name} -n {string value: path/to/blob} -f {file value: local}`
 
 - Delete a blob object:
 
-`az storage blob delete --account-name {any something} --account-key {any something} -c {any something} -n {any something}`
+`az storage blob delete --account-name {string value: storage_account_name} --account-key {string value: storage_account_key} -c {string value: container_name} -n {string value: path/to/blob}`
 
 - Generate a shared access signature for a blob:
 
-`az storage blob generate-sas --account-name {any something} --account-key {any something} -c {any something} -n {any something} --permissions {any something} --expiry {any something} --https-only`
+`az storage blob generate-sas --account-name {string value: storage_account_name} --account-key {string value: storage_account_key} -c {string value: container_name} -n {string value: path/to/blob} --permissions {string value: permission_set} --expiry {string value: Y-m-d'T'H:M'Z'} --https-only`

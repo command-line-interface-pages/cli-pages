@@ -6,15 +6,15 @@
 
 - Rank a mirror list:
 
-`rankmirrors {any something}`
+`rankmirrors {string value: /etc/pacman.d/mirrorlist}`
 
 - Output only a given number of the top ranking servers:
 
-`rankmirrors -n {any something} {any something}`
+`rankmirrors -n {string value: number} {string value: /etc/pacman.d/mirrorlist}`
 
 - Be verbose when generating the mirrorlist:
 
-`rankmirrors -v {any something}`
+`rankmirrors -v {string value: /etc/pacman.d/mirrorlist}`
 
 - Test only a specific URL:
 
@@ -22,4 +22,4 @@
 
 - Output only the response times instead of a full mirrorlist:
 
-`rankmirrors --times {any something}`
+`rankmirrors --times {string value: /etc/pacman.d/mirrorlist}`

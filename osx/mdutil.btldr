@@ -5,16 +5,16 @@
 
 - Show the indexing status of the startup volume:
 
-`mdutil -s {any something}`
+`mdutil -s {string value: /}`
 
 - Turn on/off the Spotlight indexing for a given volume:
 
-`mdutil -i {any something} {any something}`
+`mdutil -i {string value: on|off} {string value: path/to/volume}`
 
 - Turn on/off indexing for all volumes:
 
-`mdutil -a -i {any something}`
+`mdutil -a -i {string value: on|off}`
 
 - Erase the metadata stores and restart the indexing process:
 
-`mdutil -E {any something}`
+`mdutil -E {string value: path/to/volume}`

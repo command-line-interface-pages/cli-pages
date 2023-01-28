@@ -5,16 +5,16 @@
 
 - Display information about a given file:
 
-`GetFileInfo {file something}`
+`GetFileInfo {file value}`
 
 - Display the date and time a given file was created:
 
-`GetFileInfo -d {file something}`
+`GetFileInfo -d {file value}`
 
 - Display the date and time a given file was last modified:
 
-`GetFileInfo -m {file something}`
+`GetFileInfo -m {file value}`
 
 - Display the creator of a given file:
 
-`GetFileInfo -c {file something}`
+`GetFileInfo -c {file value}`

@@ -6,12 +6,12 @@
 
 - Check tags for a GPG signature:
 
-`git verify-tag {any something}`
+`git verify-tag {string value: tag1 optional_tag2 ...}`
 
 - Check tags for a GPG signature and show details for each tag:
 
-`git verify-tag {any something} --verbose`
+`git verify-tag {string value: tag1 optional_tag2 ...} --verbose`
 
 - Check tags for a GPG signature and print the raw details:
 
-`git verify-tag {any something} --raw`
+`git verify-tag {string value: tag1 optional_tag2 ...} --raw`

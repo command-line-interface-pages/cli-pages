@@ -9,11 +9,11 @@
 
 - Print all events scheduled in personal calendar for the next seven days:
 
-`khal list -a {any something} {any something} {any something}`
+`khal list -a {string value: personal} {string value: today} {string value: 7d}`
 
 - Print all events scheduled not in personal calendar for tomorrow at 10:00:
 
-`khal at -d {any something} {any something} {any something}`
+`khal at -d {string value: personal} {string value: tomorrow} {string value: 10:00}`
 
 - Print a calendar with a list of events for the next three months:
 
@@ -21,4 +21,4 @@
 
 - Add new event to personal calendar:
 
-`khal new -a {any something} {any something} {any something} {any something} "{any something}"`
+`khal new -a {string value: personal} {string value: 2020-09-08} {string value: 18:00} {string value: 18:30} "{string value: Dentist appointment}"`

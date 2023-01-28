@@ -9,19 +9,19 @@
 
 - Output the name of a device, returning its MAC address:
 
-`hcitool name {any something}`
+`hcitool name {string value: bdaddr}`
 
 - Fetch information about a remote Bluetooth device:
 
-`hcitool info {any something}`
+`hcitool info {string value: bdaddr}`
 
 - Check the link quality to a Bluetooth device:
 
-`hcitool lq {any something}`
+`hcitool lq {string value: bdaddr}`
 
 - Modify the transmit power level:
 
-`hcitool tpl {any something} {any something}`
+`hcitool tpl {string value: bdaddr} {string value: 0|1}`
 
 - Display the link policy:
 
@@ -29,7 +29,7 @@
 
 - Request authentication with a specific device:
 
-`hcitool auth {any something}`
+`hcitool auth {string value: bdaddr}`
 
 - Display local devices:
 

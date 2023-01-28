@@ -9,11 +9,11 @@
 
 - Install a package, or update it to the latest available version:
 
-`wajig install {any something}`
+`wajig install {string value: package}`
 
 - Remove a package and its configuration files:
 
-`wajig purge {any something}`
+`wajig purge {string value: package}`
 
 - Perform an update and then a dist-upgrade:
 
@@ -33,4 +33,4 @@
 
 - Display packages which have some form of dependency on the given package:
 
-`wajig dependents {any something}`
+`wajig dependents {string value: package}`

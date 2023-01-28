@@ -9,7 +9,7 @@
 
 - Show status of a particular job:
 
-`jobs %{any something}`
+`jobs %{string value: job_id}`
 
 - Show status and process IDs of all jobs:
 

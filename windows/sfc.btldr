@@ -17,16 +17,16 @@
 
 - Scan a specific file and, if possible, repair any problems:
 
-`sfc /scanfile={file something}`
+`sfc /scanfile={file value}`
 
 - Scan a specific file without attempting to repair it:
 
-`sfc /verifyfile={file something}`
+`sfc /verifyfile={file value}`
 
 - When repairing offline, specify the boot directory:
 
-`sfc /offbootdir={directory something}`
+`sfc /offbootdir={directory value}`
 
 - When repairing offline, specify the Windows directory:
 
-`sfc /offwindir={directory something}`
+`sfc /offwindir={directory value}`

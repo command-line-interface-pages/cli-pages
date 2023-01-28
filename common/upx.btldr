@@ -5,11 +5,11 @@
 
 - Compress executable:
 
-`upx {file something}`
+`upx {file value}`
 
 - Decompress executable:
 
-`upx -d {file something}`
+`upx -d {file value}`
 
 - Detailed help:
 

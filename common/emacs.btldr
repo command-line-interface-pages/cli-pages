@@ -6,15 +6,15 @@
 
 - Start Emacs and open a file:
 
-`emacs {file something}`
+`emacs {file value}`
 
 - Open a file at a specified line number:
 
-`emacs +{any something} {file something}`
+`emacs +{string value: line_number} {file value}`
 
 - Run an Emacs Lisp file as a script:
 
-`emacs --script {file something}`
+`emacs --script {file value: sample.el}`
 
 - Start Emacs in console mode (without an X window):
 

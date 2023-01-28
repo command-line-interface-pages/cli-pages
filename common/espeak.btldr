@@ -9,12 +9,12 @@
 
 - Speak a file aloud:
 
-`espeak -f {file something}`
+`espeak -f {file value}`
 
 - Save output to a WAV audio file, rather than speaking it directly:
 
-`espeak -w {any something} "It's GNU plus Linux"`
+`espeak -w {file value: sample.wav} "It's GNU plus Linux"`
 
 - Use a different voice:
 
-`espeak -v {any something}`
+`espeak -v {string value: voice}`

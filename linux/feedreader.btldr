@@ -9,16 +9,16 @@
 
 - Add a URL for a feed to follow:
 
-`feedreader --addFeed={any something}`
+`feedreader --addFeed={string value: feed_url}`
 
 - Grab a specific article using its URL:
 
-`feedreader --grabArticle={any something}`
+`feedreader --grabArticle={string value: article_url}`
 
 - Download all images from a specific article:
 
-`feedreader --url={any something} --grabImages={any something}`
+`feedreader --url={string value: feed_url} --grabImages={string value: article_path}`
 
 - Play media from a URL:
 
-`feedreader --playMedia={any something}`
+`feedreader --playMedia={string value: article_url}`

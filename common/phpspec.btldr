@@ -5,7 +5,7 @@
 
 - Create a specification for a class:
 
-`phpspec describe {any something}`
+`phpspec describe {string value: class_name}`
 
 - Run all specifications in the "spec" directory:
 
@@ -13,15 +13,15 @@
 
 - Run a single specification:
 
-`phpspec run {file something: class_specification}`
+`phpspec run {file value: class_specification}`
 
 - Run specifications using a specific configuration file:
 
-`phpspec run -c {file something: configuration}`
+`phpspec run -c {file value: configuration}`
 
 - Run specifications using a specific bootstrap file:
 
-`phpspec run -b {file something: bootstrap}`
+`phpspec run -b {file value: bootstrap}`
 
 - Disable code generation prompts:
 

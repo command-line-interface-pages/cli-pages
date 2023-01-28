@@ -5,16 +5,16 @@
 
 - Add a timestamp to the beginning of each line:
 
-`{any something} | ts`
+`{string value: some_command} | ts`
 
 - Add timestamps with microsecond precision:
 
-`{any something} | ts "{any something}"`
+`{string value: some_command} | ts "{string value: %b %d %H:%M:%.S}"`
 
 - Add [i]ncremental timestamps with microsecond precision, starting from zero:
 
-`{any something} | ts -i "{any something}"`
+`{string value: some_command} | ts -i "{string value: %H:%M:%.S}"`
 
 - Convert existing timestamps in a text file (eg. a log file) into [r]elative format:
 
-`cat {file something} | ts -r`
+`cat {file value} | ts -r`

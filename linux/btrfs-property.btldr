@@ -5,20 +5,20 @@
 
 - List available properties (and descriptions) for the given btrfs object:
 
-`sudo btrfs property list {any something}`
+`sudo btrfs property list {string value: path/to/btrfs_object}`
 
 - Get all properties for the given btrfs object:
 
-`sudo btrfs property get {any something}`
+`sudo btrfs property get {string value: path/to/btrfs_object}`
 
 - Get the `label` property for the given btrfs filesystem or device:
 
-`sudo btrfs property get {any something} label`
+`sudo btrfs property get {string value: path/to/btrfs_filesystem} label`
 
 - Get all object type-specific properties for the given btrfs filesystem or device:
 
-`sudo btrfs property get -t {any something} {any something}`
+`sudo btrfs property get -t {string value: subvol|filesystem|inode|device} {string value: path/to/btrfs_filesystem}`
 
 - Set the `compression` property for a given btrfs inode (either a file or directory):
 
-`sudo btrfs property set {any something} compression {any something}`
+`sudo btrfs property set {string value: path/to/btrfs_inode} compression {string value: zstd|zlib|lzo|none}`

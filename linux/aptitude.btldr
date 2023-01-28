@@ -9,19 +9,19 @@
 
 - Install a new package and its dependencies:
 
-`aptitude install {any something}`
+`aptitude install {string value: package}`
 
 - Search for a package:
 
-`aptitude search {any something}`
+`aptitude search {string value: package}`
 
 - Search for an installed package (`?installed` is an aptitude search term):
 
-`aptitude search '?installed({any something})'`
+`aptitude search '?installed({string value: package})'`
 
 - Remove a package and all packages depending on it:
 
-`aptitude remove {any something}`
+`aptitude remove {string value: package}`
 
 - Upgrade installed packages to the newest available versions:
 
@@ -33,4 +33,4 @@
 
 - Put an installed package on hold to prevent it from being automatically upgraded:
 
-`aptitude hold '?installed({any something})'`
+`aptitude hold '?installed({string value: package})'`

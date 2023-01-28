@@ -30,8 +30,8 @@
 
 - Clean and then package the code with a given build profile:
 
-`mvn clean -P{any something} package`
+`mvn clean -P{string value: profile} package`
 
 - Run a class with a main method:
 
-`mvn exec:java -Dexec.mainClass="{any something}" -Dexec.args="{any something}"`
+`mvn exec:java -Dexec.mainClass="{string value: com.example.Main}" -Dexec.args="{string value: arg1 arg2}"`

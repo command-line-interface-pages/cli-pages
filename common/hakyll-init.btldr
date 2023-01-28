@@ -5,7 +5,7 @@
 
 - Generate a new Hakyll sample blog:
 
-`hakyll-init {directory something}`
+`hakyll-init {directory value}`
 
 - Show help for `hakyll-init`:
 

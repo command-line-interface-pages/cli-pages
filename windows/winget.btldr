@@ -5,15 +5,15 @@
 
 - Install a package:
 
-`winget install {any something}`
+`winget install {string value: package}`
 
 - Display information about a package:
 
-`winget show {any something}`
+`winget show {string value: package}`
 
 - Search for a package:
 
-`winget search {any something}`
+`winget search {string value: package}`
 
 - Upgrade all packages to latest versions:
 

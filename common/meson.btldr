@@ -5,15 +5,15 @@
 
 - Generate a C project with a given name and version:
 
-`meson init --language={any something} --name={any something} --version={float number: 0.1}`
+`meson init --language={string value: c} --name={string value: myproject} --version={float value: 0.1}`
 
 - Configure the `builddir` with default values:
 
-`meson setup {any something}`
+`meson setup {string value: build_dir}`
 
 - Build the project:
 
-`meson compile -C {directory something: build}`
+`meson compile -C {directory value: build}`
 
 - Run all tests in the project:
 

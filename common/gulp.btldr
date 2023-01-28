@@ -10,4 +10,4 @@
 
 - Run individual tasks:
 
-`gulp {any something} {any something}`
+`gulp {string value: task} {string value: othertask}`

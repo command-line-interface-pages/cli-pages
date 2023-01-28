@@ -5,11 +5,11 @@
 
 - Create a wordlist file from the given URL up to 2 links depth:
 
-`cewl --depth {int number: 2} --write {any something} {string url}`
+`cewl --depth {int value: 2} --write {string value: path/to/wordlist.txt} {string url}`
 
 - Output an alphanumeric wordlist from the given URL with words of minimum 5 characters:
 
-`cewl --with-numbers --min_word_length {int number: 5} {string url}`
+`cewl --with-numbers --min_word_length {int value: 5} {string url}`
 
 - Output a wordlist from the given URL in debug mode including email addresses:
 
@@ -17,8 +17,8 @@
 
 - Output a wordlist from the given URL using HTTP Basic or Digest authentication:
 
-`cewl --auth_type {any something} --auth_user {string user} --auth_pass {any something} {string url}`
+`cewl --auth_type {string value: basic|digest} --auth_user {string user} --auth_pass {string value: password} {string url}`
 
 - Output a wordlist from the given URL through a proxy:
 
-`cewl --proxy_host {any something} --proxy_port {any something} {string url}`
+`cewl --proxy_host {string value: host} --proxy_port {string value: port} {string url}`

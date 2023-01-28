@@ -5,20 +5,20 @@
 
 - Compress a WebP file with default settings (q = 75) to the [o]utput file:
 
-`cwebp {file something: image} -o {any something}`
+`cwebp {file value: image} -o {string value: path/to/output.webp}`
 
 - Compress a WebP file with the best [q]uality and largest file size:
 
-`cwebp {file something: image} -o {any something} -q {int number: 100}`
+`cwebp {file value: image} -o {string value: path/to/output.webp} -q {int value: 100}`
 
 - Compress a WebP file with the worst [q]uality and smallest file size:
 
-`cwebp {file something: image} -o {any something} -q {int number: 0}`
+`cwebp {file value: image} -o {string value: path/to/output.webp} -q {int value: 0}`
 
 - Compress a WebP file and apply resize to image:
 
-`cwebp {file something: image} -o {any something} -resize {any something} {any something}`
+`cwebp {file value: image} -o {string value: path/to/output.webp} -resize {string value: width} {string value: height}`
 
 - Compress a WebP file and drop alpha channel information:
 
-`cwebp {file something: image} -o {any something} -noalpha`
+`cwebp {file value: image} -o {string value: path/to/output.webp} -noalpha`

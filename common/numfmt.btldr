@@ -5,12 +5,12 @@
 
 - Convert 1.5K (SI Units) to 1500:
 
-`numfmt --from={any something} {any something}`
+`numfmt --from={string value: si} {string value: 1.5K}`
 
 - Convert 5th field (1-indexed) to IEC Units without converting header:
 
-`ls -l | numfmt --header={int number: 1} --field={int number: 5} --to={any something}`
+`ls -l | numfmt --header={int value: 1} --field={int value: 5} --to={string value: iec}`
 
 - Convert to IEC units, pad with 5 characters, left aligned:
 
-`du -s * | numfmt --to={any something} --format="{any something}"`
+`du -s * | numfmt --to={string value: iec} --format="{string value: %-5f}"`

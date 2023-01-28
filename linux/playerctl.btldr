@@ -21,12 +21,12 @@
 
 - Send a command to a specific player:
 
-`playerctl --player={any something} {any something}`
+`playerctl --player={string value: player_name} {string value: command}`
 
 - Send a command to all players:
 
-`playerctl --all-players {any something}`
+`playerctl --all-players {string value: command}`
 
 - Show now playing:
 
-`playerctl metadata --format "Now playing: {any something} - {any something} - {any something}"`
+`playerctl metadata --format "Now playing: {string value: artist} - {string value: album} - {string value: title}"`

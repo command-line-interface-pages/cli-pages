@@ -9,19 +9,19 @@
 
 - Run one or more specific space-separated task(s):
 
-`grunt {any something}`
+`grunt {string value: task_name}`
 
 - Specify an alternative configuration file:
 
-`grunt --gruntfile {file something}`
+`grunt --gruntfile {file value}`
 
 - Specify an alternative base path for relative files:
 
-`grunt --base {directory something}`
+`grunt --base {directory value}`
 
 - Specify an additional directory to scan for tasks in:
 
-`grunt --tasks {directory something}`
+`grunt --tasks {directory value}`
 
 - Perform a dry-run without writing any files:
 

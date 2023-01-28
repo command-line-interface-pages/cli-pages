@@ -9,23 +9,23 @@
 
 - Download and run `rustup-init` and pass arguments to it:
 
-`curl https://sh.rustup.rs -sSf | sh -s -- {any something}`
+`curl https://sh.rustup.rs -sSf | sh -s -- {string value: arguments}`
 
 - Run `rustup-init` and specify additional components or targets to install:
 
-`rustup-init.sh --target {any something} --component {any something}`
+`rustup-init.sh --target {string value: target} --component {string value: component}`
 
 - Run `rustup-init` and specify the default toolchain to install:
 
-`rustup-init.sh --default-toolchain {any something}`
+`rustup-init.sh --default-toolchain {string value: toolchain}`
 
 - Run `rustup-init` and do not install any toolchain:
 
-`rustup-init.sh --default-toolchain {any something}`
+`rustup-init.sh --default-toolchain {string value: none}`
 
 - Run `rustup-init` and specify an installation profile:
 
-`rustup-init.sh --profile {any something}`
+`rustup-init.sh --profile {string value: minimal|default|complete}`
 
 - Run `rustup-init` without asking for confirmation:
 

@@ -13,7 +13,7 @@
 
 - Run tests annotated with the given group:
 
-`pest --group {any something}`
+`pest --group {string value: name}`
 
 - Run tests and print the coverage report to stdout:
 
@@ -21,4 +21,4 @@
 
 - Run tests with coverage and fail if the coverage is less than the minimum percentage:
 
-`pest --coverage --min={int number: 80}`
+`pest --coverage --min={int value: 80}`

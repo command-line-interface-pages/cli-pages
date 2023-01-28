@@ -6,7 +6,7 @@
 
 - Connect to a server:
 
-`cradle connect {any something}`
+`cradle connect {string value: server_name}`
 
 - Display general help:
 
@@ -14,8 +14,8 @@
 
 - Display help for a specific command:
 
-`cradle {any something} help`
+`cradle {string value: command} help`
 
 - Execute a Cradle command:
 
-`cradle {any something}`
+`cradle {string value: command}`

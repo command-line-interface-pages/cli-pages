@@ -9,7 +9,7 @@
 
 - Display users belonging to a specific group:
 
-`lslogins --groups={any something}`
+`lslogins --groups={string value: groups}`
 
 - Display user accounts:
 

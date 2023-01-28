@@ -9,20 +9,20 @@
 
 - Write one record to a Kinesis stream:
 
-`aws kinesis put-record --stream-name {any something} --partition-key {any something} --data {any something}`
+`aws kinesis put-record --stream-name {string value: name} --partition-key {string value: key} --data {string value: base64_encoded_message}`
 
 - Write a record to a Kinesis stream with inline base64 encoding:
 
-`aws kinesis put-record --stream-name {any something} --partition-key {any something} --data "$( echo "{any something}" | base64 )"`
+`aws kinesis put-record --stream-name {string value: name} --partition-key {string value: key} --data "$( echo "{string value: my raw message}" | base64 )"`
 
 - List the shards available on a stream:
 
-`aws kinesis list-shards --stream-name {any something}`
+`aws kinesis list-shards --stream-name {string value: name}`
 
 - Get a shard iterator for reading from the oldest message in a stream's shard:
 
-`aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {any something} --shard-id {any something}`
+`aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {string value: name} --shard-id {string value: id}`
 
 - Read records from a shard, using a shard iterator:
 
-`aws kinesis get-records --shard-iterator {any something}`
+`aws kinesis get-records --shard-iterator {string value: iterator}`

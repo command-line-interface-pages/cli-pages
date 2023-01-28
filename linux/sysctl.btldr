@@ -9,7 +9,7 @@
 
 - Set a changeable kernel state variable:
 
-`sysctl -w {any something}={any something}`
+`sysctl -w {string value: section.tunable}={string value: value}`
 
 - Get currently open file handlers:
 

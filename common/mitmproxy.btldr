@@ -9,4 +9,4 @@
 
 - Start mitmproxy bound to custom address and port:
 
-`mitmproxy -b {any something} -p {any something}`
+`mitmproxy -b {string value: ip_address} -p {string value: port}`

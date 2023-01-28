@@ -5,16 +5,16 @@
 
 - View information about an MP3 file:
 
-`eyeD3 {any something}`
+`eyeD3 {file value: sample.mp3}`
 
 - Set the title of an MP3 file:
 
-`eyeD3 --title "{any something}" {any something}`
+`eyeD3 --title "{string value: A Title}" {file value: sample.mp3}`
 
 - Set the album of all the MP3 files in a directory:
 
-`eyeD3 --album "{any something}" {any something}`
+`eyeD3 --album "{string value: Album Name}" {string value: *.mp3}`
 
 - Set the front cover art for an MP3 file:
 
-`eyeD3 --add-image {any something}:FRONT_COVER: {any something}`
+`eyeD3 --add-image {string value: front_cover.jpeg}:FRONT_COVER: {file value: sample.mp3}`

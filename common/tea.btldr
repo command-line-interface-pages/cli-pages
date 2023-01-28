@@ -5,7 +5,7 @@
 
 - Log into a Gitea server:
 
-`tea login add --name "{any something}" --url "{string url}" --token "{any something}"`
+`tea login add --name "{string value: name}" --url "{string url}" --token "{string value: token}"`
 
 - Display all repositories:
 
@@ -17,11 +17,11 @@
 
 - Display a list of issues for a specific repository:
 
-`tea issues ls --repo "{any something}"`
+`tea issues ls --repo "{string value: repository}"`
 
 - Create a new issue:
 
-`tea issues create --title "{any something}" --body "{any something}"`
+`tea issues create --title "{string value: title}" --body "{string value: body}"`
 
 - Display a list of open pull requests:
 

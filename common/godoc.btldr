@@ -5,20 +5,20 @@
 
 - Display help for package "fmt":
 
-`godoc {any something}`
+`godoc {string value: fmt}`
 
 - Display help for the function "Printf" of "fmt" package:
 
-`godoc {any something} {any something}`
+`godoc {string value: fmt} {string value: Printf}`
 
 - Serve documentation as a web server on port 6060:
 
-`godoc -http=:{int number: 6060}`
+`godoc -http=:{int value: 6060}`
 
 - Create an index file:
 
-`godoc -write_index -index_files={file something}`
+`godoc -write_index -index_files={file value}`
 
 - Use the given index file to search the docs:
 
-`godoc -http=:{int number: 6060} -index -index_files={file something}`
+`godoc -http=:{int value: 6060} -index -index_files={file value}`

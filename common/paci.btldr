@@ -13,12 +13,12 @@
 
 - Search for a given package:
 
-`paci search {any something}`
+`paci search {string value: package}`
 
 - Install a package:
 
-`paci install {any something}`
+`paci install {string value: package}`
 
 - Update a package:
 
-`paci update {any something}`
+`paci update {string value: package}`

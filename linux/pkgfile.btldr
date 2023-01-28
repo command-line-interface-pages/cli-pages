@@ -10,28 +10,28 @@
 
 - Search for a package that owns a specific file:
 
-`pkgfile {any something}`
+`pkgfile {file value}`
 
 - List all files provided by a package:
 
-`pkgfile --list {any something}`
+`pkgfile --list {string value: package_name}`
 
 - List only files provided by a package located within the `bin` or `sbin` directory:
 
-`pkgfile --list --binaries {any something}`
+`pkgfile --list --binaries {string value: package_name}`
 
 - Search for a package that owns a specific file using case-insensitive matching:
 
-`pkgfile --ignorecase {any something}`
+`pkgfile --ignorecase {file value}`
 
 - Search for a package that owns a specific file in the `bin` or `sbin` directory:
 
-`pkgfile --binaries {any something}`
+`pkgfile --binaries {file value}`
 
 - Search for a package that owns a specific file, displaying the package version:
 
-`pkgfile --verbose {any something}`
+`pkgfile --verbose {file value}`
 
 - Search for a package that owns a specific file in a specific repository:
 
-`pkgfile --repo {any something} {any something}`
+`pkgfile --repo {string value: repository_name} {file value}`

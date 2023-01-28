@@ -6,7 +6,7 @@
 
 - Open a file:
 
-`zathura {file something}`
+`zathura {file value}`
 
 - Navigate left/up/down/right:
 
@@ -22,11 +22,11 @@
 
 - Search for text by a given string:
 
-`/{any something}`
+`/{string value: string}`
 
 - Create/delete bookmarks:
 
-`:{any something} {any something}`
+`:{string value: bmark|bdelete} {string value: bookmark_name}`
 
 - List bookmarks:
 

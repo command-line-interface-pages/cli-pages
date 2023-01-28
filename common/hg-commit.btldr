@@ -9,19 +9,19 @@
 
 - Commit a specific file or directory:
 
-`hg commit {file something|path something}`
+`hg commit {path value}`
 
 - Commit with a specific message:
 
-`hg commit --message {any something}`
+`hg commit --message {string value: message}`
 
 - Commit all files matching a specified pattern:
 
-`hg commit --include {any something}`
+`hg commit --include {string value: pattern}`
 
 - Commit all files, excluding those that match a specified pattern:
 
-`hg commit --exclude {any something}`
+`hg commit --exclude {string value: pattern}`
 
 - Commit using the interactive mode:
 

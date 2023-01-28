@@ -9,24 +9,24 @@
 
 - List layers of a data source:
 
-`ogrinfo {any something}`
+`ogrinfo {string value: path/to/input.gpkg}`
 
 - Get detailed information about a specific layer of a data source:
 
-`ogrinfo {any something} {any something}`
+`ogrinfo {string value: path/to/input.gpkg} {string value: layer_name}`
 
 - Show summary information about a specific layer of a data source:
 
-`ogrinfo -so {any something} {any something}`
+`ogrinfo -so {string value: path/to/input.gpkg} {string value: layer_name}`
 
 - Show summary of all layers of the data source:
 
-`ogrinfo -so -al {any something}`
+`ogrinfo -so -al {string value: path/to/input.gpkg}`
 
 - Show detailed information of features matching a condition:
 
-`ogrinfo -where '{any something}' {any something} {any something}`
+`ogrinfo -where '{string value: attribute_name > 42}' {string value: path/to/input.gpkg} {string value: layer_name}`
 
 - Update a layer in the data source with SQL:
 
-`ogrinfo {any something} -dialect SQLite -sql "{any something}"`
+`ogrinfo {string value: path/to/input.geojson} -dialect SQLite -sql "{string value: UPDATE input SET attribute_name = 'foo'}"`

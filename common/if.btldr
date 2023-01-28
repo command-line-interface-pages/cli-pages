@@ -6,31 +6,31 @@
 
 - Execute the specified commands if the condition command's exit status is zero:
 
-`if {any something}; then {any something}; fi`
+`if {string value: condition_command}; then {string value: echo "Condition is true"}; fi`
 
 - Execute the specified commands if the condition command's exit status is not zero:
 
-`if ! {any something}; then {any something}; fi`
+`if ! {string value: condition_command}; then {string value: echo "Condition is true"}; fi`
 
 - Execute the first specified commands if the condition command's exit status is zero otherwise execute the second specified commands:
 
-`if {any something}; then {any something}; else {any something}; fi`
+`if {string value: condition_command}; then {string value: echo "Condition is true"}; else {string value: echo "Condition is false"}; fi`
 
 - Check whether a [f]ile exists:
 
-`if [[ -f {file something} ]]; then {any something}; fi`
+`if [[ -f {file value} ]]; then {string value: echo "Condition is true"}; fi`
 
 - Check whether a [d]irectory exists:
 
-`if [[ -d {directory something} ]]; then {any something}; fi`
+`if [[ -d {directory value} ]]; then {string value: echo "Condition is true"}; fi`
 
 - Check whether a file or directory [e]xists:
 
-`if [[ -e {file something|path something} ]]; then {any something}; fi`
+`if [[ -e {path value} ]]; then {string value: echo "Condition is true"}; fi`
 
 - Check whether a variable is defined:
 
-`if [[ -n "${any something}" ]]; then {any something}; fi`
+`if [[ -n "${string value: variable}" ]]; then {string value: echo "Condition is true"}; fi`
 
 - List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
 

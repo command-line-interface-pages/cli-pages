@@ -5,7 +5,7 @@
 
 - Import bookmarks from HTML Netscape bookmark format file:
 
-`shiori import {any something}`
+`shiori import {string value: path/to/bookmarks.html}`
 
 - Save the specified URL as bookmark:
 
@@ -17,8 +17,8 @@
 
 - Open the saved bookmark in a browser:
 
-`shiori open {any something}`
+`shiori open {string value: bookmark_id}`
 
 - Start the web interface for managing bookmarks at port 8181:
 
-`shiori serve --port {int number: 8181}`
+`shiori serve --port {int value: 8181}`

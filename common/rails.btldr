@@ -6,7 +6,7 @@
 
 - Create a new rails project:
 
-`rails new "{any something}"`
+`rails new "{string value: project_name}"`
 
 - Start local server for current project on port 3000:
 
@@ -14,7 +14,7 @@
 
 - Start local server for current project on a specified port:
 
-`rails server -p "{any something}"`
+`rails server -p "{string value: port}"`
 
 - Open console to interact with application from command-line:
 

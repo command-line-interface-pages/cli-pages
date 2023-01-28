@@ -5,16 +5,16 @@
 
 - Revert the most recent commit:
 
-`git revert {any something}`
+`git revert {string value: HEAD}`
 
 - Revert the 5th last commit:
 
-`git revert HEAD~{int number: 4}`
+`git revert HEAD~{int value: 4}`
 
 - Revert multiple commits:
 
-`git revert {any something}`
+`git revert {string value: branch_name~5..branch_name~2}`
 
 - Don't create new commits, just change the working tree:
 
-`git revert -n {any something}`
+`git revert -n {string value: 0c01a9..9a1743}`

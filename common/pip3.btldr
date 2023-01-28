@@ -5,32 +5,32 @@
 
 - Find available packages:
 
-`pip3 search {any something}`
+`pip3 search {string value: package_name}`
 
 - Install a package:
 
-`pip3 install {any something}`
+`pip3 install {string value: package_name}`
 
 - Install a specific version of a package:
 
-`pip3 install {any something}=={any something}`
+`pip3 install {string value: package_name}=={string value: package_version}`
 
 - Upgrade a package:
 
-`pip3 install --upgrade {any something}`
+`pip3 install --upgrade {string value: package_name}`
 
 - Uninstall a package:
 
-`pip3 uninstall {any something}`
+`pip3 uninstall {string value: package_name}`
 
 - Save the list of installed packages to a file:
 
-`pip3 freeze > {any something}`
+`pip3 freeze > {string value: requirements.txt}`
 
 - Install packages from a file:
 
-`pip3 install --requirement {any something}`
+`pip3 install --requirement {string value: requirements.txt}`
 
 - Show installed package info:
 
-`pip3 show {any something}`
+`pip3 show {string value: package_name}`

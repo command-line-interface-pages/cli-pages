@@ -5,16 +5,16 @@
 
 - Estimate the number and the size of all emails on your Gmail account:
 
-`gyb --email {any something} --action estimate`
+`gyb --email {string value: email@gmail.com} --action estimate`
 
 - Backup a Gmail account to a specific directory:
 
-`gyb --email {any something} --action backup --local-folder {directory something}`
+`gyb --email {string value: email@gmail.com} --action backup --local-folder {directory value}`
 
 - Backup only important or starred emails from a Gmail account to the default local folder:
 
-`gyb --email {any something} --search "{any something}"`
+`gyb --email {string value: email@gmail.com} --search "{string value: is:important OR is:starred}"`
 
 - Restore from a local folder to a Gmail account:
 
-`gyb --email {any something} --action restore --local-folder {directory something}`
+`gyb --email {string value: email@gmail.com} --action restore --local-folder {directory value}`

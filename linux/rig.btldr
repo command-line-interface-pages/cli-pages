@@ -9,16 +9,16 @@
 
 - Display a [m]ale (or [f]emale) random name and address:
 
-`rig -{any something}`
+`rig -{string value: m|f}`
 
 - Use data files from a specific directory (default is `/usr/share/rig`):
 
-`rig -d {directory something}`
+`rig -d {directory value}`
 
 - Display a specific number of identities:
 
-`rig -c {any something}`
+`rig -c {string value: number}`
 
 - Display a specific number of female identities:
 
-`rig -f -c {any something}`
+`rig -f -c {string value: number}`

@@ -6,15 +6,15 @@
 
 - Boot from image emulating i386 architecture:
 
-`qemu-system-i386 -hda {any something}`
+`qemu-system-i386 -hda {string value: image_name.img}`
 
 - Boot from image emulating x64 architecture:
 
-`qemu-system-x86_64 -hda {any something}`
+`qemu-system-x86_64 -hda {string value: image_name.img}`
 
 - Boot QEMU instance with a live ISO image:
 
-`qemu-system-i386 -hda {any something} -cdrom {any something} -boot d`
+`qemu-system-i386 -hda {string value: image_name.img} -cdrom {string value: os_image.iso} -boot d`
 
 - Specify amount of RAM for instance:
 
@@ -22,4 +22,4 @@
 
 - Boot from physical device (e.g. from USB to test bootable medium):
 
-`qemu-system-i386 -hda /dev/{any something}`
+`qemu-system-i386 -hda /dev/{string value: storage_device}`

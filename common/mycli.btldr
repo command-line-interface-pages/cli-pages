@@ -5,12 +5,12 @@
 
 - Connect to a local database on port 3306, using the current user's username:
 
-`mycli {any something}`
+`mycli {string value: database_name}`
 
 - Connect to a database (user will be prompted for a password):
 
-`mycli -u {string user} {any something}`
+`mycli -u {string user} {string value: database_name}`
 
 - Connect to a database on another host:
 
-`mycli -h {any something} -P {any something} -u {string user} {any something}`
+`mycli -h {string value: database_host} -P {string value: port} -u {string user} {string value: database_name}`

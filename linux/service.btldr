@@ -10,12 +10,12 @@
 
 - Start/Stop/Restart/Reload service (start/stop should always be available):
 
-`service {any something} {any something}`
+`service {string value: service_name} {string value: start|stop|restart|reload}`
 
 - Do a full restart (runs script twice with start and stop):
 
-`service {any something} --full-restart`
+`service {string value: service_name} --full-restart`
 
 - Show the current status of a service:
 
-`service {any something} status`
+`service {string value: service_name} status`

@@ -9,20 +9,20 @@
 
 - Show information about a specific network interface:
 
-`ip link show {any something}`
+`ip link show {string value: ethN}`
 
 - Bring a network interface up or down:
 
-`ip link set {any something} {any something}`
+`ip link set {string value: ethN} {string value: up|down}`
 
 - Give a meaningful name to a network interface:
 
-`ip link set {any something} alias "{any something}"`
+`ip link set {string value: ethN} alias "{string value: LAN Interface}"`
 
 - Change the MAC address of a network interface:
 
-`ip link set {any something} address {any something}`
+`ip link set {string value: ethN} address {string value: ff:ff:ff:ff:ff:ff}`
 
 - Change the MTU size for a network interface to use jumbo frames:
 
-`ip link set {any something} mtu {int number: 9000}`
+`ip link set {string value: ethN} mtu {int value: 9000}`

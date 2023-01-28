@@ -5,7 +5,7 @@
 
 - Install a package, automatically installing dependencies:
 
-`raco pkg install --auto {any something}`
+`raco pkg install --auto {string value: package_source}`
 
 - Install the current directory as a package:
 
@@ -13,15 +13,15 @@
 
 - Build (or rebuild) bytecode, documentation, executables, and metadata indexes for collections:
 
-`raco setup {any something}`
+`raco setup {string value: collection1 collection2 ...}`
 
 - Run tests in files:
 
-`raco test {any something}`
+`raco test {string value: path/to/tests1.rkt path/to/tests2.rkt ...}`
 
 - Search local documentation:
 
-`raco docs {any something}`
+`raco docs {string value: search_terms ...}`
 
 - Display help:
 

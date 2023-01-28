@@ -5,16 +5,16 @@
 
 - Create a universal file from two single-architecture files:
 
-`lipo {any something} {any something} -create -output {any something}`
+`lipo {string value: path/to/binary.x86_64} {string value: path/to/binary.arm64e} -create -output {string value: path/to/binary}`
 
 - List all architectures contained in a universal file:
 
-`lipo {any something} -archs`
+`lipo {string value: path/to/binary} -archs`
 
 - Display detailed information about a universal file:
 
-`lipo {any something} -detailed_info`
+`lipo {string value: path/to/binary} -detailed_info`
 
 - Extract a single-architecture file from a universal file:
 
-`lipo {any something} -thin {any something} -output {any something}`
+`lipo {string value: path/to/binary} -thin {string value: arm64e} -output {string value: path/to/binary.arm64e}`

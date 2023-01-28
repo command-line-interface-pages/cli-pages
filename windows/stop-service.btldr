@@ -6,12 +6,12 @@
 
 - Stop a service on the local computer:
 
-`Stop-Service -Name {any something}`
+`Stop-Service -Name {string value: service_name}`
 
 - Stop a service by using the display name:
 
-`Stop-Service -DisplayName "{any something}"`
+`Stop-Service -DisplayName "{string value: name}"`
 
 - Stop a service that has dependent services:
 
-`Stop-Service -Name {any something} -Force -Confirm`
+`Stop-Service -Name {string value: service_name} -Force -Confirm`

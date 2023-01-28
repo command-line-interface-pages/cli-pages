@@ -9,7 +9,7 @@
 
 - Display a specified number of decimal digits of Archimedes' constant Pi:
 
-`pi {any something}`
+`pi {string value: number}`
 
 - Display help:
 

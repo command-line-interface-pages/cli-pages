@@ -5,16 +5,16 @@
 
 - Display the completed import source file:
 
-`goimports {file something}.go`
+`goimports {file value}.go`
 
 - Write the result back to the source file instead of the stdout:
 
-`goimports -w {file something}.go`
+`goimports -w {file value}.go`
 
 - Display diffs and write the result back to the source file:
 
-`goimports -w -d {file something}.go`
+`goimports -w -d {file value}.go`
 
 - Set the import prefix string after 3rd-party packages (comma-separated list):
 
-`goimports -local {any something} {file something}.go`
+`goimports -local {string value: path/to/package} {file value}.go`

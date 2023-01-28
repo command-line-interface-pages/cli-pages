@@ -9,8 +9,8 @@
 
 - Launch a VNC Server with specific screen geometry:
 
-`vncserver --geometry {any something}x{any something}`
+`vncserver --geometry {string value: width}x{string value: height}`
 
 - Kill an instance of VNC Server running on a specific display:
 
-`vncserver --kill :{any something}`
+`vncserver --kill :{string value: display_number}`

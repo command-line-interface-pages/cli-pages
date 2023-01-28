@@ -9,11 +9,11 @@
 
 - Set the `init.lisp` file path:
 
-`nyxt --init {file something}`
+`nyxt --init {file value}`
 
 - Change the path to the auto-config file:
 
-`nyxt --auto-config {file something}`
+`nyxt --auto-config {file value}`
 
 - Print system information:
 

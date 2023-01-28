@@ -6,8 +6,8 @@
 
 - Rename the branch you are currently on:
 
-`git rename-branch {any something}`
+`git rename-branch {string value: new_branch_name}`
 
 - Rename a specific branch:
 
-`git rename-branch {any something} {any something}`
+`git rename-branch {string value: old_branch_name} {string value: new_branch_name}`

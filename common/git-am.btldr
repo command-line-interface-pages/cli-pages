@@ -6,7 +6,7 @@
 
 - Apply a patch file:
 
-`git am {file something}`
+`git am {file value: sample.patch}`
 
 - Abort the process of applying a patch file:
 
@@ -14,4 +14,4 @@
 
 - Apply as much of a patch file as possible, saving failed hunks to reject files:
 
-`git am --reject {file something}`
+`git am --reject {file value: sample.patch}`

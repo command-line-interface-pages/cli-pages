@@ -5,12 +5,12 @@
 
 - Convert single images and/or whole directories containing valid image formats:
 
-`imgp -x {any something} {directory something} {file something}`
+`imgp -x {string value: 1366x1000} {directory value} {file value}`
 
 - Scale an image by 75% and overwrite the source image to a target resolution:
 
-`imgp -x {int number: 75} -w {file something}`
+`imgp -x {int value: 75} -w {file value}`
 
 - Rotate an image clockwise by 90 degrees:
 
-`imgp -o {int number: 90} {file something}`
+`imgp -o {int value: 90} {file value}`

@@ -13,8 +13,8 @@
 
 - Only show specified devices or mount points:
 
-`duf {directory* something}`
+`duf {directory* value}`
 
 - Sort the output by a specified criteria:
 
-`duf --sort {any something}`
+`duf --sort {string value: size|used|avail|usage}`

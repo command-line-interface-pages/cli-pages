@@ -5,12 +5,12 @@
 
 - Get all mirrors, sort for download speed and save them:
 
-`sudo reflector --sort {any something} --save {any something}`
+`sudo reflector --sort {string value: rate} --save {string value: /etc/pacman.d/mirrorlist}`
 
 - Only get German HTTPS mirrors:
 
-`reflector --country {any something} --protocol {any something}`
+`reflector --country {string value: Germany} --protocol {string value: https}`
 
 - Only get the 10 recently sync'd mirrors:
 
-`reflector --latest {int number: 10}`
+`reflector --latest {int value: 10}`

@@ -6,7 +6,7 @@
 
 - Terminate a program using the default SIGTERM (terminate) signal:
 
-`kill {any something}`
+`kill {string value: process_id}`
 
 - List available signal names (to be used without the `SIG` prefix):
 
@@ -14,24 +14,24 @@
 
 - Terminate a background job:
 
-`kill %{any something}`
+`kill %{string value: job_id}`
 
 - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
-`kill -{any something} {any something}`
+`kill -{string value: 1|HUP} {string value: process_id}`
 
 - Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
 
-`kill -{any something} {any something}`
+`kill -{string value: 2|INT} {string value: process_id}`
 
 - Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
 
-`kill -{any something} {any something}`
+`kill -{string value: 9|KILL} {string value: process_id}`
 
 - Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
 
-`kill -{any something} {any something}`
+`kill -{string value: 17|STOP} {string value: process_id}`
 
 - Send a `SIGUSR1` signal to all processes with the given GID (group id):
 
-`kill -{any something} -{any something}`
+`kill -{string value: SIGUSR1} -{string value: group_id}`

@@ -5,20 +5,20 @@
 
 - Turn on Redshift with 5700K temperature during day and 3600K at night:
 
-`redshift -t {int number: 5700}:{int number: 3600}`
+`redshift -t {int value: 5700}:{int value: 3600}`
 
 - Turn on Redshift with a manually specified custom location:
 
-`redshift -l {any something}:{any something}`
+`redshift -l {string value: latitude}:{string value: longitude}`
 
 - Turn on Redshift with 70% screen brightness during day and 40% brightness at night:
 
-`redshift -b {float number: 0.7}:{float number: 0.4}`
+`redshift -b {float value: 0.7}:{float value: 0.4}`
 
 - Turn on Redshift with custom gamma levels (between 0 and 1):
 
-`redshift -g {any something}:{any something}:{any something}`
+`redshift -g {string value: red}:{string value: green}:{string value: blue}`
 
 - Turn on Redshift with a constant unchanging color temperature:
 
-`redshift -O {any something}`
+`redshift -O {string value: temperature}`

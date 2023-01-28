@@ -5,7 +5,7 @@
 
 - Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:
 
-`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {any something}.{any something}'`
+`bq query --nouse_legacy_sql 'SELECT COUNT(*) FROM {string value: DATASET_NAME}.{string value: TABLE_NAME}'`
 
 - Run a parameterized query:
 
@@ -13,19 +13,19 @@
 
 - Create a new dataset or table in the US location:
 
-`bq mk --location=US {any something}.{any something}`
+`bq mk --location=US {string value: dataset_name}.{string value: table_name}`
 
 - List all datasets in a project:
 
-`bq ls --filter labels.{any something}:{any something} --max_results {any something} --format=prettyjson --project_id {any something}`
+`bq ls --filter labels.{string value: key}:{string value: value} --max_results {string value: integer} --format=prettyjson --project_id {string value: project_id}`
 
 - Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
-`bq load --location={any something} --source_format={any something} {any something}.{any something} {any something}`
+`bq load --location={string value: location} --source_format={string value: CSV|JSON|PARQUET|AVRO} {string value: dataset}.{string value: table} {string value: path_to_source}`
 
 - Copy one table to another:
 
-`bq cp {any something}.{any something} {any something}.{any something}`
+`bq cp {string value: dataset}.{string value: OLD_TABLE} {string value: dataset}.{string value: new_table}`
 
 - Print help:
 

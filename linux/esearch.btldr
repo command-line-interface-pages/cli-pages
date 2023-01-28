@@ -6,15 +6,15 @@
 
 - Search the pubmed database for selective serotonin reuptake inhibitor:
 
-`esearch -db pubmed -query "{any something}"`
+`esearch -db pubmed -query "{string value: selective serotonin reuptake inhibitor}"`
 
 - Search the protein database using a query and regexp:
 
-`esearch -db {any something} -query {any something}`
+`esearch -db {string value: protein} -query {string value: 'Escherichia*'}`
 
 - Search the nucleotide database for sequences whose metadata contain insulin and rodents:
 
-`esearch -db nuccore -query "{any something}"`
+`esearch -db nuccore -query "{string value: insulin [PROT] AND rodents [ORGN]}"`
 
 - Display [h]elp:
 

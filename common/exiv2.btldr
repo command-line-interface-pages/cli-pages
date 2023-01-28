@@ -5,24 +5,24 @@
 
 - Print a summary of the image Exif metadata:
 
-`exiv2 {file something}`
+`exiv2 {file value}`
 
 - Print all metadata (Exif, IPTC, XMP) with interpreted values:
 
-`exiv2 -P kt {file something}`
+`exiv2 -P kt {file value}`
 
 - Print all metadata with raw values:
 
-`exiv2 -P kv {file something}`
+`exiv2 -P kv {file value}`
 
 - Delete all metadata from an image:
 
-`exiv2 -d a {file something}`
+`exiv2 -d a {file value}`
 
 - Delete all metadata, preserving the file timestamp:
 
-`exiv2 -d a -k {file something}`
+`exiv2 -d a -k {file value}`
 
 - Rename the file, prepending the date and time from metadata (not from the file timestamp):
 
-`exiv2 -r {any something} {file something}`
+`exiv2 -r {string value: '%Y%m%d_%H%M%S_:basename:'} {file value}`

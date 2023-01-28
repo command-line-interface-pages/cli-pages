@@ -6,20 +6,20 @@
 
 - Resolve the pathnames specified as the argument parameters:
 
-`namei {any something} {any something} {any something}`
+`namei {string value: path/to/a} {string value: path/to/b} {string value: path/to/c}`
 
 - Display the results in a long-listing format:
 
-`namei --long {any something} {any something} {any something}`
+`namei --long {string value: path/to/a} {string value: path/to/b} {string value: path/to/c}`
 
 - Show the mode bits of each file type in the style of `ls`:
 
-`namei --modes {any something} {any something} {any something}`
+`namei --modes {string value: path/to/a} {string value: path/to/b} {string value: path/to/c}`
 
 - Show owner and group name of each file:
 
-`namei --owners {any something} {any something} {any something}`
+`namei --owners {string value: path/to/a} {string value: path/to/b} {string value: path/to/c}`
 
 - Don't follow symlinks while resolving:
 
-`namei --nosymlinks {any something} {any something} {any something}`
+`namei --nosymlinks {string value: path/to/a} {string value: path/to/b} {string value: path/to/c}`

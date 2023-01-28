@@ -6,16 +6,16 @@
 
 - Apply a commit to the current branch:
 
-`git cherry-pick {any something}`
+`git cherry-pick {string value: commit}`
 
 - Apply a range of commits to the current branch (see also `git rebase --onto`):
 
-`git cherry-pick {any something}~..{any something}`
+`git cherry-pick {string value: start_commit}~..{string value: end_commit}`
 
 - Apply multiple (non-sequential) commits to the current branch:
 
-`git cherry-pick {any something} {any something}`
+`git cherry-pick {string value: commit_1} {string value: commit_2}`
 
 - Add the changes of a commit to the working directory, without creating a commit:
 
-`git cherry-pick -n {any something}`
+`git cherry-pick -n {string value: commit}`

@@ -5,20 +5,20 @@
 
 - Parse the contents of a URL or file:
 
-`nokogiri {any something}`
+`nokogiri {string value: url|path/to/file}`
 
 - Parse as a specific type:
 
-`nokogiri {any something} --type {any something}`
+`nokogiri {string value: url|path/to/file} --type {string value: xml|html}`
 
 - Load a specific initialization file before parsing:
 
-`nokogiri {any something} -C {file something: config}`
+`nokogiri {string value: url|path/to/file} -C {file value: config}`
 
 - Parse using a specific encoding:
 
-`nokogiri {any something} --encoding {any something}`
+`nokogiri {string value: url|path/to/file} --encoding {string value: encoding}`
 
 - Validate using a RELAX NG file:
 
-`nokogiri {any something} --rng {any something}`
+`nokogiri {string value: url|path/to/file} --rng {string value: url|path/to/file}`

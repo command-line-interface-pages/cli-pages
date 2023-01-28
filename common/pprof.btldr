@@ -5,20 +5,20 @@
 
 - Generate a text report from a specific profiling file, on fibbo binary:
 
-`pprof -top {any something} {any something}`
+`pprof -top {string value: ./fibbo} {string value: ./fibbo-profile.pb.gz}`
 
 - Generate a graph and open it on a web browser:
 
-`pprof -svg {any something} {any something}`
+`pprof -svg {string value: ./fibbo} {string value: ./fibbo-profile.pb.gz}`
 
 - Run pprof in interactive mode to be able to manually launch `pprof` on a file:
 
-`pprof {any something} {any something}`
+`pprof {string value: ./fibbo} {string value: ./fibbo-profile.pb.gz}`
 
 - Run a web server that serves a web interface on top of `pprof`:
 
-`pprof -http={any something} {any something} {any something}`
+`pprof -http={string value: localhost:8080} {string value: ./fibbo} {string value: ./fibbo-profile.pb.gz}`
 
 - Fetch a profile from an HTTP server and generate a report:
 
-`pprof {any something}`
+`pprof {string value: http://localhost:8080/debug/pprof}`

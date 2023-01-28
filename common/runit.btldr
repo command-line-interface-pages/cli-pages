@@ -9,4 +9,4 @@
 
 - Shut down runit:
 
-`kill --CONT {any something}`
+`kill --CONT {string value: runit_pid}`

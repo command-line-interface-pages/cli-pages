@@ -9,15 +9,15 @@
 
 - Open a URL in the default browser:
 
-`xdg-open {any something}`
+`xdg-open {string value: https://example.com}`
 
 - Open an image in the default image viewer:
 
-`xdg-open {any something}`
+`xdg-open {string value: path/to/image}`
 
 - Open a PDF in the default PDF viewer:
 
-`xdg-open {any something}`
+`xdg-open {string value: path/to/pdf}`
 
 - Display help:
 

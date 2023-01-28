@@ -10,15 +10,15 @@
 
 - Search for packages:
 
-`opam search {any something}`
+`opam search {string value: package_name}`
 
 - Install a package and all of its dependencies:
 
-`opam install {any something}`
+`opam install {string value: package_name}`
 
 - Display detailed information about a package:
 
-`opam show {any something}`
+`opam show {string value: package_name}`
 
 - List all installed packages:
 

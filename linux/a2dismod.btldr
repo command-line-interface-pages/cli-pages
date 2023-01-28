@@ -5,8 +5,8 @@
 
 - Disable a module:
 
-`sudo a2dismod {any something}`
+`sudo a2dismod {string value: module}`
 
 - Don't show informative messages:
 
-`sudo a2dismod --quiet {any something}`
+`sudo a2dismod --quiet {string value: module}`

@@ -17,16 +17,16 @@
 
 - Create an instance:
 
-`aws lightsail create-instances --instance-names {any something} --availability-zone {any something} --bundle-id {any something} --blueprint-id {any something}`
+`aws lightsail create-instances --instance-names {string value: name} --availability-zone {string value: region} --bundle-id {string value: nano_2_0} --blueprint-id {string value: blueprint_id}`
 
 - Print the state of a specific instance:
 
-`aws lightsail get-instance-state --instance-name {any something}`
+`aws lightsail get-instance-state --instance-name {string value: name}`
 
 - Stop a specific instance:
 
-`aws lightsail stop-instance --instance-name {any something}`
+`aws lightsail stop-instance --instance-name {string value: name}`
 
 - Delete a specific instance:
 
-`aws lightsail delete-instance --instance-name {any something}`
+`aws lightsail delete-instance --instance-name {string value: name}`

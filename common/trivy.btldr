@@ -5,16 +5,16 @@
 
 - Scan an image:
 
-`trivy image {any something}`
+`trivy image {string value: image:tag}`
 
 - Scan the filesystem for vulnerabilities and misconfigurations:
 
-`trivy fs --security-checks {any something} {directory something: project}`
+`trivy fs --security-checks {string value: vuln,config} {directory value: project}`
 
 - Scan a directory for misconfigurations:
 
-`trivy config {directory something: iac}`
+`trivy config {directory value: iac}`
 
 - Generate output with a SARIF template:
 
-`trivy image --format {any something} --template {any something} -o {any something} {any something}`
+`trivy image --format {string value: template} --template {string value: "@sarif.tpl"} -o {string value: path/to/report.sarif} {string value: image:tag}`

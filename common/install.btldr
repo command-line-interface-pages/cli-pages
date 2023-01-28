@@ -6,24 +6,24 @@
 
 - Copy files to the destination:
 
-`install {any something} {any something}`
+`install {file* value: source} {string value: path/to/destination}`
 
 - Copy files to the destination, setting their ownership:
 
-`install --owner {any something} {any something} {any something}`
+`install --owner {string value: user} {file* value: source} {string value: path/to/destination}`
 
 - Copy files to the destination, setting their group ownership:
 
-`install --group {any something} {any something} {any something}`
+`install --group {string value: user} {file* value: source} {string value: path/to/destination}`
 
 - Copy files to the destination, setting their `mode`:
 
-`install --mode {any something} {any something} {any something}`
+`install --mode {string value: +x} {file* value: source} {string value: path/to/destination}`
 
 - Copy files and apply access/modification times of source to the destination:
 
-`install --preserve-timestamps {any something} {any something}`
+`install --preserve-timestamps {file* value: source} {string value: path/to/destination}`
 
 - Copy files and create the directories at the destination if they don't exist:
 
-`install -D {any something} {any something}`
+`install -D {file* value: source} {string value: path/to/destination}`

@@ -9,7 +9,7 @@
 
 - Enqueue a specific directory of audio files:
 
-`audacious --enqueue {directory something}`
+`audacious --enqueue {directory value}`
 
 - Start or stop playback:
 
@@ -17,7 +17,7 @@
 
 - Skip forwards or backwards in the playlist:
 
-`audacious --{any something}`
+`audacious --{string value: fwd|rew}`
 
 - Stop playback:
 

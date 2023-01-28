@@ -5,15 +5,15 @@
 
 - Move a file from local to a specified bucket:
 
-`aws s3 mv {file something: local} s3://{any something}/{file something: remote}`
+`aws s3 mv {file value: local} s3://{string value: bucket_name}/{file value: remote}`
 
 - Move a specific S3 object into another bucket:
 
-`aws s3 mv s3://{any something}/{file something} s3://{any something}/{any something}`
+`aws s3 mv s3://{string value: bucket_name1}/{file value} s3://{string value: bucket_name2}/{string value: path/to/target}`
 
 - Move a specific S3 object into another bucket keeping the original name:
 
-`aws s3 mv s3://{any something}/{file something} s3://{any something}`
+`aws s3 mv s3://{string value: bucket_name1}/{file value} s3://{string value: bucket_name2}`
 
 - Display help:
 

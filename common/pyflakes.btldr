@@ -5,16 +5,16 @@
 
 - Check a single Python file:
 
-`pyflakes check {file something}.py`
+`pyflakes check {file value}.py`
 
 - Check Python files in a specific directory:
 
-`pyflakes checkPath {directory something}`
+`pyflakes checkPath {directory value}`
 
 - Check Python files in a directory recursively:
 
-`pyflakes checkRecursive {directory something}`
+`pyflakes checkRecursive {directory value}`
 
 - Check all Python files found in multiple directories:
 
-`pyflakes iterSourceCode {any something} {any something}`
+`pyflakes iterSourceCode {string value: path/to/directory_1} {string value: path/to/directory_2}`

@@ -5,12 +5,12 @@
 
 - Print the content of the first member in a `.zip` archive:
 
-`funzip {any something}`
+`funzip {string value: path/to/archive.zip}`
 
 - Print the content in a `.gz` archive:
 
-`funzip {any something}`
+`funzip {string value: path/to/archive.gz}`
 
 - Decrypt a `.zip` or `.gz` archive and print the content:
 
-`funzip -password {any something} {any something}`
+`funzip -password {string value: password} {string value: path/to/archive}`

@@ -6,16 +6,16 @@
 
 - Generate a binding between C++ and Python:
 
-`swig -c++ -python -o {any something} {file something: swig}`
+`swig -c++ -python -o {string value: path/to/output_wrapper.cpp} {file value: swig.i}`
 
 - Generate a binding between C++ and Go:
 
-`swig -go -cgo -intgosize 64 -c++ {file something: swig}`
+`swig -go -cgo -intgosize 64 -c++ {file value: swig.i}`
 
 - Generate a binding between C and Java:
 
-`swig -java {file something: swig}`
+`swig -java {file value: swig.i}`
 
 - Generate a binding between C and Ruby and prefix the Ruby module with {{foo::bar::}}:
 
-`swig -ruby -prefix "{any something}" {file something: swig}`
+`swig -ruby -prefix "{string value: foo::bar::}" {file value: swig.i}`

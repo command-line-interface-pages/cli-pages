@@ -9,7 +9,7 @@
 
 - Use a specific `composer.lock` file:
 
-`security-checker security:check {any something}`
+`security-checker security:check {string value: path/to/composer.lock}`
 
 - Return results as a JSON object:
 

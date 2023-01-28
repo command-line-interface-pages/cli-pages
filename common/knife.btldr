@@ -5,7 +5,7 @@
 
 - Bootstrap a new node:
 
-`knife bootstrap {any something}`
+`knife bootstrap {string value: fqdn_or_ip}`
 
 - List all registered nodes:
 
@@ -13,20 +13,20 @@
 
 - Show a node:
 
-`knife node show {any something}`
+`knife node show {string value: node_name}`
 
 - Edit a node:
 
-`knife node edit {any something}`
+`knife node edit {string value: node_name}`
 
 - Edit a role:
 
-`knife role edit {any something}`
+`knife role edit {string value: role_name}`
 
 - View a data bag:
 
-`knife data bag show {any something} {any something}`
+`knife data bag show {string value: data_bag_name} {string value: data_bag_item}`
 
 - Upload a local cookbook to the Chef server:
 
-`knife cookbook upload {any something}`
+`knife cookbook upload {string value: cookbook_name}`

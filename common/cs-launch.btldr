@@ -5,16 +5,16 @@
 
 - Launch a specific application with arguments:
 
-`cs launch {any something} -- {any something}`
+`cs launch {string value: application_name} -- {string value: arg1 arg2 ...}`
 
 - Launch a specific application version with arguments:
 
-`cs launch {any something}:{any something} -- {any something}`
+`cs launch {string value: application_name}:{string value: application_version} -- {string value: arg1 arg2 ...}`
 
 - Launch a specific version of an application specifying which is the main file:
 
-`cs launch {any something}:{any something}:{any something} --main-class {file something: main_class}`
+`cs launch {string value: group_id}:{string value: artifact_id}:{string value: artifact_version} --main-class {file value: main_class}`
 
 - Launch an application with specific java options and a jvm memory ones:
 
-`cs launch --java-opt {any something} --java-opt {any something} {any something}`
+`cs launch --java-opt {string value: -Doption_name1:option_value1 -Doption_name2:option_value2 ...} --java-opt {string value: -Xjvm_option1 -Xjvm_option2 ...} {string value: application_name}`

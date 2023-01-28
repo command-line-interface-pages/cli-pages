@@ -5,28 +5,28 @@
 
 - Analyze a directory and print the result:
 
-`phploc {directory something}`
+`phploc {directory value}`
 
 - Include only specific files from a comma-separated list (globs are allowed):
 
-`phploc {directory something} --names {any something}`
+`phploc {directory value} --names {file* value}`
 
 - Exclude specific files from a comma-separated list (globs are allowed):
 
-`phploc {directory something} --names-exclude {any something}`
+`phploc {directory value} --names-exclude {file* value}`
 
 - Exclude a specific directory from analysis:
 
-`phploc {directory something} --exclude {directory something: exclude}`
+`phploc {directory value} --exclude {directory value: exclude}`
 
 - Log the results to a specific CSV file:
 
-`phploc {directory something} --log-csv {file something}`
+`phploc {directory value} --log-csv {file value}`
 
 - Log the results to a specific XML file:
 
-`phploc {directory something} --log-xml {file something}`
+`phploc {directory value} --log-xml {file value}`
 
 - Count PHPUnit test case classes and test methods:
 
-`phploc {directory something} --count-tests`
+`phploc {directory value} --count-tests`

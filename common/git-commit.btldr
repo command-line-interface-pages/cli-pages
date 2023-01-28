@@ -5,19 +5,19 @@
 
 - Commit staged files to the repository with a message:
 
-`git commit -m "{any something}"`
+`git commit -m "{string value: message}"`
 
 - Commit staged files with a message read from a file:
 
-`git commit --file {file something: commit_message}`
+`git commit --file {file value: commit_message}`
 
 - Auto stage all modified files and commit with a message:
 
-`git commit -a -m "{any something}"`
+`git commit -a -m "{string value: message}"`
 
 - Commit staged files and [S]ign them with the GPG key defined in `~/.gitconfig`:
 
-`git commit -S -m "{any something}"`
+`git commit -S -m "{string value: message}"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 
@@ -25,8 +25,8 @@
 
 - Commit only specific (already staged) files:
 
-`git commit {any something} {any something}`
+`git commit {string value: path/to/file1} {string value: path/to/file2}`
 
 - Create a commit, even if there are no staged files:
 
-`git commit -m "{any something}" --allow-empty`
+`git commit -m "{string value: message}" --allow-empty`

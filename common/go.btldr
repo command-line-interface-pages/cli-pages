@@ -6,15 +6,15 @@
 
 - Download and install a package, specified by its import path:
 
-`go get {any something}`
+`go get {string value: package_path}`
 
 - Compile and run a source file (it has to contain a `main` package):
 
-`go run {file something}.go`
+`go run {file value}.go`
 
 - Compile a source file into a named executable:
 
-`go build -o {any something} {file something}.go`
+`go build -o {string value: executable} {file value}.go`
 
 - Compile the package present in the current directory:
 
@@ -30,4 +30,4 @@
 
 - Initialize a new module in the current directory:
 
-`go mod init {any something}`
+`go mod init {string value: module_name}`

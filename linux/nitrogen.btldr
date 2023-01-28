@@ -5,11 +5,11 @@
 
 - View and set the wallpapers from a specific directory:
 
-`nitrogen {directory something}`
+`nitrogen {directory value}`
 
 - Set the wallpaper with automatic size settings:
 
-`nitrogen --set-auto {file something}`
+`nitrogen --set-auto {file value}`
 
 - Restore the previous wallpaper:
 

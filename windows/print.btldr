@@ -5,8 +5,8 @@
 
 - Print a text file to the default printer:
 
-`print {file something}`
+`print {file value}`
 
 - Print a text file to a specific printer:
 
-`print /d:{any something} {file something}`
+`print /d:{string value: printer} {file value}`

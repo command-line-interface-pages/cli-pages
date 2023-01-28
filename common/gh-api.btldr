@@ -13,24 +13,24 @@
 
 - Create a reaction for a specific issue:
 
-`gh api --header {any something} --raw-field '{any something}' {any something}`
+`gh api --header {string value: Accept:application/vnd.github.squirrel-girl-preview+json} --raw-field '{string value: content=+1}' {string value: repos/:owner/:repo/issues/123/reactions}`
 
 - Display the result of a GraphQL query in JSON format:
 
-`gh api graphql --field {any something} --raw-field '{any something}'`
+`gh api graphql --field {string value: name=':repo'} --raw-field '{string value: query}'`
 
 - Send a request using a custom HTTP method:
 
-`gh api --method {any something} {any something}`
+`gh api --method {string value: POST} {string value: endpoint}`
 
 - Include the HTTP response headers in the output:
 
-`gh api --include {any something}`
+`gh api --include {string value: endpoint}`
 
 - Do not print the response body:
 
-`gh api --silent {any something}`
+`gh api --silent {string value: endpoint}`
 
 - Send a request to a specific GitHub Enterprise Server:
 
-`gh api --hostname {any something} {any something}`
+`gh api --hostname {string value: github.example.com} {string value: endpoint}`

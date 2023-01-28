@@ -5,7 +5,7 @@
 
 - Start a new VPN session:
 
-`openvpn3 session-start --config {any something}`
+`openvpn3 session-start --config {string value: path/to/config.conf}`
 
 - List established sessions:
 
@@ -13,11 +13,11 @@
 
 - Disconnect the currently established session started with given configuration:
 
-`openvpn3 session-manage --config {any something} --disconnect`
+`openvpn3 session-manage --config {string value: path/to/config.conf} --disconnect`
 
 - Import VPN configuration:
 
-`openvpn3 config-import --config {any something}`
+`openvpn3 config-import --config {string value: path/to/config.conf}`
 
 - List imported configurations:
 

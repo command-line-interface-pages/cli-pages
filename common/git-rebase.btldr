@@ -6,11 +6,11 @@
 
 - Rebase the current branch on top of another specified branch:
 
-`git rebase {any something}`
+`git rebase {string value: new_base_branch}`
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
-`git rebase -i {any something}`
+`git rebase -i {string value: target_base_branch_or_commit_hash}`
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 
@@ -26,12 +26,12 @@
 
 - Move part of the current branch onto a new base, providing the old base to start from:
 
-`git rebase --onto {any something} {any something}`
+`git rebase --onto {string value: new_base} {string value: old_base}`
 
 - Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
 
-`git rebase -i {any something}`
+`git rebase -i {string value: HEAD~5}`
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
-`git rebase -X theirs {any something}`
+`git rebase -X theirs {string value: branch_name}`

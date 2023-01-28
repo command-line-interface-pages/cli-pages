@@ -5,8 +5,8 @@
 
 - Convert a specific PNG image to AVIF:
 
-`avifenc {any something} {any something}`
+`avifenc {string value: path/to/image.png} {string value: path/to/image.avif}`
 
 - Encode with a specific speed, where 0=slowest, 10=fastest, and 6=default:
 
-`avifenc --speed {int number: 2} {any something} {any something}`
+`avifenc --speed {int value: 2} {string value: path/to/image.png} {string value: path/to/image.avif}`

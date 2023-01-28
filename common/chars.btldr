@@ -5,16 +5,16 @@
 
 - Look up a character by its value:
 
-`chars '{any something}'`
+`chars '{string value: ß}'`
 
 - Look up a character by its Unicode code point:
 
-`chars {any something}`
+`chars {string value: U+1F63C}`
 
 - Look up possible characters given an ambiguous code point:
 
-`chars {int number: 10}`
+`chars {int value: 10}`
 
 - Look up a control character:
 
-`chars "{any something}"`
+`chars "{string value: ^C}"`

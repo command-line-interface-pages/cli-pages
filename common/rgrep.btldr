@@ -6,20 +6,20 @@
 
 - Recursively search for a pattern in the current working directory:
 
-`rgrep "{any something}"`
+`rgrep "{string value: search_pattern}"`
 
 - Recursively search for a case-insensitive pattern in the current working directory:
 
-`rgrep --ignore-case "{any something}"`
+`rgrep --ignore-case "{string value: search_pattern}"`
 
 - Recursively search for an extended regular expression pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory:
 
-`rgrep --extended-regexp "{any something}"`
+`rgrep --extended-regexp "{string value: search_pattern}"`
 
 - Recursively search for an exact string (disables regular expressions) in the current working directory:
 
-`rgrep --fixed-strings "{any something}"`
+`rgrep --fixed-strings "{string value: exact_string}"`
 
 - Recursively search for a pattern in a specified directory (or file):
 
-`rgrep "{any something}" {file something|path something}`
+`rgrep "{string value: search_pattern}" {path value}`

@@ -5,8 +5,8 @@
 
 - Dump the `/var/log/wtmp` file to the stdout as plain text:
 
-`utmpdump {any something}`
+`utmpdump {string value: /var/log/wtmp}`
 
 - Load a previously dumped file into `/var/log/wtmp`:
 
-`utmpdump -r {any something} > {any something}`
+`utmpdump -r {string value: dumpfile} > {string value: /var/log/wtmp}`

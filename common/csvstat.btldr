@@ -6,20 +6,20 @@
 
 - Show all stats for all columns:
 
-`csvstat {any something}`
+`csvstat {string value: data.csv}`
 
 - Show all stats for columns 2 and 4:
 
-`csvstat -c {any something} {any something}`
+`csvstat -c {string value: 2,4} {string value: data.csv}`
 
 - Show sums for all columns:
 
-`csvstat --sum {any something}`
+`csvstat --sum {string value: data.csv}`
 
 - Show the max value length for column 3:
 
-`csvstat -c {int number: 3} --len {any something}`
+`csvstat -c {int value: 3} --len {string value: data.csv}`
 
 - Show the number of unique values in the "name" column:
 
-`csvstat -c {any something} --unique {any something}`
+`csvstat -c {string value: name} --unique {string value: data.csv}`

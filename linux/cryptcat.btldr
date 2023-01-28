@@ -5,20 +5,20 @@
 
 - [l]isten on a specified [p]ort and print any data received:
 
-`cryptcat -k {any something} -l -p {any something}`
+`cryptcat -k {string value: password} -l -p {string value: port}`
 
 - Connect to a certain port:
 
-`cryptcat -k {any something} {any something} {any something}`
+`cryptcat -k {string value: password} {string value: ip_address} {string value: port}`
 
 - Set a timeout [w]:
 
-`cryptcat -k {any something} -w {any something} {any something} {any something}`
+`cryptcat -k {string value: password} -w {string value: timeout_in_seconds} {string value: ip_address} {string value: port}`
 
 - Scan [z] the open ports of a specified host:
 
-`cryptcat -v -z {any something} {any something}`
+`cryptcat -v -z {string value: ip_address} {string value: port}`
 
 - Act as proxy and forward data from a local TCP port to the given remote host:
 
-`cryptcat -k {any something} -l -p {any something} | cryptcat -k {any something} {any something} {any something}`
+`cryptcat -k {string value: password} -l -p {string value: local_port} | cryptcat -k {string value: password} {string value: hostname} {string value: remote_port}`

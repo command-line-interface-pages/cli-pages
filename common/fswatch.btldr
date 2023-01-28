@@ -5,16 +5,16 @@
 
 - Run a Bash command on file creation, update or deletion:
 
-`fswatch {file something} | xargs -n 1 {any something}`
+`fswatch {file value} | xargs -n 1 {string value: bash_command}`
 
 - Watch one or more files and/or directories:
 
-`fswatch {file something} {directory something} {any something} | xargs -n 1 {any something}`
+`fswatch {file value} {directory value} {string value: path/to/another_directory/**/*.js} | xargs -n 1 {string value: bash_command}`
 
 - Print the absolute paths of the changed files:
 
-`fswatch {directory something} | xargs -n 1 -I {} echo {}`
+`fswatch {directory value} | xargs -n 1 -I {} echo {}`
 
 - Filter by event type:
 
-`fswatch --event {any something} {directory something} | xargs -n 1 {any something}`
+`fswatch --event {string value: Updated|Deleted|Created} {directory value} | xargs -n 1 {string value: bash_command}`

@@ -9,7 +9,7 @@
 
 - Set the default Java environment:
 
-`archlinux-java set {any something}`
+`archlinux-java set {string value: java_environment}`
 
 - Unset the default Java environment:
 

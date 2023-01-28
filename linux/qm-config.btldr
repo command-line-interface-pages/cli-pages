@@ -5,12 +5,12 @@
 
 - Display the virtual machine configuration:
 
-`qm config {any something}`
+`qm config {string value: vm_id}`
 
 - Display the current configuration values instead of pending values for the virtual machine:
 
-`qm config --current {bool flag: true} {any something}`
+`qm config --current {bool flag: true} {string value: vm_id}`
 
 - Fetch the configuration values from the given snapshot:
 
-`qm config --snapshot {any something} {any something}`
+`qm config --snapshot {string value: snapshot_name} {string value: vm_id}`

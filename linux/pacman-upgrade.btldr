@@ -5,23 +5,23 @@
 
 - Install one or more packages from files:
 
-`sudo pacman --upgrade {any something} {any something}`
+`sudo pacman --upgrade {string value: path/to/package1.pkg.tar.zst} {string value: path/to/package2.pkg.tar.zst}`
 
 - Install a package without prompting:
 
-`sudo pacman --upgrade --noconfirm {any something}`
+`sudo pacman --upgrade --noconfirm {string value: path/to/package.pkg.tar.zst}`
 
 - Overwrite conflicting files during a package installation:
 
-`sudo pacman --upgrade --overwrite {file something} {any something}`
+`sudo pacman --upgrade --overwrite {file value} {string value: path/to/package.pkg.tar.zst}`
 
 - Install a package, skipping the dependency version checks:
 
-`sudo pacman --upgrade --nodeps {any something}`
+`sudo pacman --upgrade --nodeps {string value: path/to/package.pkg.tar.zst}`
 
 - List packages that would be affected (does not install any packages):
 
-`pacman --upgrade --print {any something}`
+`pacman --upgrade --print {string value: path/to/package.pkg.tar.zst}`
 
 - Display help:
 

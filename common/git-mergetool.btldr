@@ -13,7 +13,7 @@
 
 - Launch the merge tool identified by a name:
 
-`git mergetool --tool {any something}`
+`git mergetool --tool {string value: tool_name}`
 
 - Don't prompt before each invocation of the merge tool:
 

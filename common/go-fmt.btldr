@@ -10,11 +10,11 @@
 
 - Format a specific Go package in your import path (`$GOPATH/src`):
 
-`go fmt {any something}`
+`go fmt {string value: path/to/package}`
 
 - Format the package in the current directory and all subdirectories (note the `...`):
 
-`go fmt {any something}`
+`go fmt {string value: ./...}`
 
 - Print what format commands would've been run, without modifying anything:
 

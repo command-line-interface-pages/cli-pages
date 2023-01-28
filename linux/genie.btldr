@@ -14,4 +14,4 @@
 
 - Run a specified command inside the bottle:
 
-`genie -c {any something}`
+`genie -c {string value: command}`

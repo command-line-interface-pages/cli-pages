@@ -5,7 +5,7 @@
 
 - Search for a video:
 
-`youtube-viewer {any something}`
+`youtube-viewer {string value: search_term}`
 
 - Log in to your YouTube account:
 
@@ -13,8 +13,8 @@
 
 - Watch a video with a specific URL in VLC:
 
-`youtube-viewer --player={any something} {any something}`
+`youtube-viewer --player={string value: vlc} {string value: https://youtube.com/watch?v=dQw4w9WgXcQ}`
 
 - Display a search prompt and play the selected video in 720p:
 
-`youtube-viewer -{int number: 7}`
+`youtube-viewer -{int value: 7}`

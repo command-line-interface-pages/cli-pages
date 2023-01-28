@@ -9,7 +9,7 @@
 
 - Load values (e.g. style rules) from a resource file:
 
-`xrdb -load {any something}`
+`xrdb -load {string value: ~/.Xresources}`
 
 - Query the resource database and print currently set values:
 

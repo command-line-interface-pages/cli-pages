@@ -5,4 +5,4 @@
 
 - Compare two specific files:
 
-`xzcmp {any something} {any something}`
+`xzcmp {string value: path/to/file1} {string value: path/to/file2}`

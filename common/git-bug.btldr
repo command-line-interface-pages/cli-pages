@@ -26,8 +26,8 @@
 
 - Filter and sort bugs using a query:
 
-`git bug ls "{any something}:{any something} {any something}:{any something}"`
+`git bug ls "{string value: status}:{string value: open} {string value: sort}:{string value: edit}"`
 
 - Search for bugs by text content:
 
-`git bug ls "{any something}" baz`
+`git bug ls "{string value: search_query}" baz`

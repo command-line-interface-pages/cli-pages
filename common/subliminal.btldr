@@ -5,4 +5,4 @@
 
 - Download English subtitles for a video:
 
-`subliminal download -l {any something} {any something}`
+`subliminal download -l {string value: en} {string value: video.ext}`

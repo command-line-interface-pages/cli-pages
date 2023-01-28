@@ -5,12 +5,12 @@
 
 - Create a database owned by the current user:
 
-`createdb {any something}`
+`createdb {string value: database_name}`
 
 - Create a database owned by a specific user with a description:
 
-`createdb --owner={string user} {any something} '{any something}'`
+`createdb --owner={string user} {string value: database_name} '{string value: description}'`
 
 - Create a database from a template:
 
-`createdb --template={any something} {any something}`
+`createdb --template={string value: template_name} {string value: database_name}`

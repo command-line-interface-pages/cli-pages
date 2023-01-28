@@ -10,28 +10,28 @@
 
 - Add a new table with family "inet" and table "filter":
 
-`sudo nft add table {any something} {any something}`
+`sudo nft add table {string value: inet} {string value: filter}`
 
 - Add a new chain to accept all inbound traffic:
 
-`sudo nft add chain {any something} {any something} {any something} \{ type {any something} hook {any something} priority {int number: 0} \; policy {any something} \}`
+`sudo nft add chain {string value: inet} {string value: filter} {string value: input} \{ type {string value: filter} hook {string value: input} priority {int value: 0} \; policy {string value: accept} \}`
 
 - Add a new rule to accept several TCP ports:
 
-`sudo nft add rule {any something} {any something} {any something} {any something} {{dport \{ telnet, ssh, http, https \} accept}}`
+`sudo nft add rule {string value: inet} {string value: filter} {string value: input} {string value: tcp} {{dport \{ telnet, ssh, http, https \} accept}}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
-`sudo nft add rule {any something} {any something} ip saddr {any something} {any something}`
+`sudo nft add rule {string value: nat} {string value: postrouting} ip saddr {string value: 192.168.0.0/24} {string value: masquerade}`
 
 - Show rule handles:
 
-`sudo nft --handle --numeric list chain {any something} {any something} {any something}`
+`sudo nft --handle --numeric list chain {string value: family} {string value: table} {string value: chain}`
 
 - Delete a rule:
 
-`sudo nft delete rule {any something} {any something} {any something} handle {int number: 3}`
+`sudo nft delete rule {string value: inet} {string value: filter} {string value: input} handle {int value: 3}`
 
 - Save current configuration:
 
-`sudo nft list ruleset > {any something}`
+`sudo nft list ruleset > {string value: /etc/nftables.conf}`

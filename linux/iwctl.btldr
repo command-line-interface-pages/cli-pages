@@ -17,12 +17,12 @@
 
 - Start looking for networks with a station:
 
-`iwctl station {any something} scan`
+`iwctl station {string value: station} scan`
 
 - Display the networks found by a station:
 
-`iwctl station {any something} get-networks`
+`iwctl station {string value: station} get-networks`
 
 - Connect to a network with a station, if credentials are needed they will be asked:
 
-`iwctl station {any something} connect {any something}`
+`iwctl station {string value: station} connect {string value: network_name}`

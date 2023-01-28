@@ -5,12 +5,12 @@
 
 - Apply a function that performs autocompletion to a command:
 
-`complete -F {any something} {any something}`
+`complete -F {string value: function} {string value: command}`
 
 - Apply a command that performs autocompletion to another command:
 
-`complete -C {any something} {any something}`
+`complete -C {string value: autocomplete_command} {string value: command}`
 
 - Apply autocompletion without appending a space to the completed word:
 
-`complete -o nospace -F {any something} {any something}`
+`complete -o nospace -F {string value: function} {string value: command}`

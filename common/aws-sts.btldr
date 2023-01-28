@@ -5,7 +5,7 @@
 
 - Get temporary security credentials to access specific AWS resources:
 
-`aws sts assume-role --role-arn {any something}`
+`aws sts assume-role --role-arn {string value: aws_role_arn}`
 
 - Get an IAM user or role whose credentials are used to call the operation:
 

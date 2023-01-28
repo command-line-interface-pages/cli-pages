@@ -5,11 +5,11 @@
 
 - Grant a user access to a resource:
 
-`pio access grant {any something} {string user} {any something}`
+`pio access grant {string value: guest|maintainer|admin} {string user} {string value: resource_urn}`
 
 - Remove a user's access to a resource:
 
-`pio access revoke {string user} {any something}`
+`pio access revoke {string user} {string value: resource_urn}`
 
 - Show all resources that a user or team has access to and the access level:
 
@@ -17,8 +17,8 @@
 
 - Restrict access to a resource to specific users or team members:
 
-`pio access private {any something}`
+`pio access private {string value: resource_urn}`
 
 - Allow all users access to a resource:
 
-`pio access public {any something}`
+`pio access public {string value: resource_urn}`

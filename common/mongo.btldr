@@ -5,16 +5,16 @@
 
 - Connect to a database:
 
-`mongo {any something}`
+`mongo {string value: database}`
 
 - Connect to a database running on a given host on a given port:
 
-`mongo --host {any something} --port {any something} {any something}`
+`mongo --host {string value: host} --port {string value: port} {string value: database}`
 
 - Connect to a database with a given username; user will be prompted for password:
 
-`mongo --username {string user} {any something} --password`
+`mongo --username {string user} {string value: database} --password`
 
 - Evaluate a JavaScript expression on the database:
 
-`mongo --eval '{any something}' {any something}`
+`mongo --eval '{string value: JSON.stringify(db.foo.findOne())}' {string value: database}`

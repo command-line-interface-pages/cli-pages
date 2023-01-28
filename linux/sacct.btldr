@@ -13,8 +13,8 @@
 
 - Display the allocations of a job:
 
-`sacct --jobs {any something} --allocations`
+`sacct --jobs {string value: job_id} --allocations`
 
 - Display elapsed time, job name, number of requested CPUs, and memory requested of a job:
 
-`sacct --jobs {any something} --format={any something},{any something},{any something},{any something}`
+`sacct --jobs {string value: job_id} --format={string value: elapsed},{string value: jobname},{string value: reqcpus},{string value: reqmem}`

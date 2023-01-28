@@ -6,11 +6,11 @@
 
 - Create a new Ember application:
 
-`ember new {any something}`
+`ember new {string value: my_new_app}`
 
 - Create a new Ember addon:
 
-`ember addon {any something}`
+`ember addon {string value: my_new_addon}`
 
 - Build the project:
 
@@ -30,8 +30,8 @@
 
 - Run a blueprint to generate something like a route or component:
 
-`ember generate {any something} {any something}`
+`ember generate {string value: type} {string value: name}`
 
 - Install an ember-cli addon:
 
-`ember install {any something}`
+`ember install {string value: name_of_addon}`

@@ -9,8 +9,8 @@
 
 - Checkout the latest version of a specified target:
 
-`dvc checkout {any something}`
+`dvc checkout {string value: target}`
 
 - Checkout a specific version of a target from a different Git commit/tag/branch:
 
-`git checkout {any something} {any something} && dvc checkout {any something}`
+`git checkout {string value: commit_hash|tag|branch} {string value: target} && dvc checkout {string value: target}`

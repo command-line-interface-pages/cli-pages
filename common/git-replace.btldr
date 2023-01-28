@@ -5,12 +5,12 @@
 
 - Replace any commit with a different one, leaving other commits unchanged:
 
-`git replace {any something} {any something}`
+`git replace {string value: object} {string value: replacement}`
 
 - Delete existing replace refs for the given objects:
 
-`git replace --delete {any something}`
+`git replace --delete {string value: object}`
 
 - Edit an object’s content interactively:
 
-`git replace --edit {any something}`
+`git replace --edit {string value: object}`

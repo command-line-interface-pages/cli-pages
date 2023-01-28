@@ -14,7 +14,7 @@
 
 - Create a screenshot and save it to a specific path:
 
-`flameshot gui --path {directory something}`
+`flameshot gui --path {directory value}`
 
 - Create a screenshot interactively in a simplified mode:
 
@@ -22,7 +22,7 @@
 
 - Create a screenshot from a specific monitor:
 
-`flameshot screen --number {int number: 2}`
+`flameshot screen --number {int value: 2}`
 
 - Create a screenshot and print it to the stdout:
 
@@ -34,4 +34,4 @@
 
 - Create a screenshot with a specific delay in milliseconds:
 
-`flameshot full --delay {int number: 5000}`
+`flameshot full --delay {int value: 5000}`

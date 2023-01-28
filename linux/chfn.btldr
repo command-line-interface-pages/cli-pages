@@ -5,16 +5,16 @@
 
 - Update a user's "Name" field in the output of `finger`:
 
-`chfn -f {any something} {string user}`
+`chfn -f {string value: new_display_name} {string user}`
 
 - Update a user's "Office Room Number" field for the output of `finger`:
 
-`chfn -o {any something} {string user}`
+`chfn -o {string value: new_office_room_number} {string user}`
 
 - Update a user's "Office Phone Number" field for the output of `finger`:
 
-`chfn -p {any something} {string user}`
+`chfn -p {string value: new_office_telephone_number} {string user}`
 
 - Update a user's "Home Phone Number" field for the output of `finger`:
 
-`chfn -h {any something} {string user}`
+`chfn -h {string value: new_home_telephone_number} {string user}`

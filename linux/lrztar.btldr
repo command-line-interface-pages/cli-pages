@@ -6,20 +6,20 @@
 
 - Archive a directory with `tar`, then compress:
 
-`lrztar {directory something}`
+`lrztar {directory value}`
 
 - Same as above, with ZPAQ - extreme compression, but very slow:
 
-`lrztar -z {directory something}`
+`lrztar -z {directory value}`
 
 - Specify the output file:
 
-`lrztar -o {file something} {directory something}`
+`lrztar -o {file value} {directory value}`
 
 - Override the number of processor threads to use:
 
-`lrztar -p {int number: 8} {directory something}`
+`lrztar -p {int value: 8} {directory value}`
 
 - Force overwriting of existing files:
 
-`lrztar -f {directory something}`
+`lrztar -f {directory value}`

@@ -5,7 +5,7 @@
 
 - Initialize the email database, optionally specifying the Maildir directory and email addresses:
 
-`mu init --maildir={directory something} --my-address={any something}`
+`mu init --maildir={directory value} --my-address={string value: name@example.com}`
 
 - Index new emails:
 
@@ -13,20 +13,20 @@
 
 - Find messages using a specific keyword (in message body, subject, sender, ...):
 
-`mu find {any something}`
+`mu find {string value: keyword}`
 
 - Find messages to Alice with subject `jellyfish` containing the words `apples` or `oranges`:
 
-`mu find to:{any something} subject:{any something} {any something} OR {any something}`
+`mu find to:{string value: alice} subject:{string value: jellyfish} {string value: apples} OR {string value: oranges}`
 
 - Find unread messages about words starting with `soc` (the `*` only works at the end of the search term) in the Sent Items folder:
 
-`mu find 'subject:{any something}*' flag:{any something} maildir:'/{any something}'`
+`mu find 'subject:{string value: soc}*' flag:{string value: unread} maildir:'/{string value: Sent Items}'`
 
 - Find messages from Sam with attached images, between 2 KiB and 2 MiB, written in 2021:
 
-`mu find 'mime:{any something} size:{any something} date:{int number: 20210101..20211231} from:{any something}`
+`mu find 'mime:{string value: image/*} size:{string value: 2k..2m} date:{int range: 20210101..20211231} from:{string value: sam}`
 
 - List contacts with `Bob` in either name or email address:
 
-`mu cfind {any something}`
+`mu cfind {string value: Bob}`

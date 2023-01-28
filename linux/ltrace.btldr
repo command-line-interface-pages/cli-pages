@@ -5,16 +5,16 @@
 
 - Print (trace) library calls of a program binary:
 
-`ltrace ./{any something}`
+`ltrace ./{string value: program}`
 
 - Count library calls. Print a handy summary at the bottom:
 
-`ltrace -c {any something}`
+`ltrace -c {string value: path/to/program}`
 
 - Trace calls to malloc and free, omit those done by libc:
 
-`ltrace -e malloc+free-@libc.so* {any something}`
+`ltrace -e malloc+free-@libc.so* {string value: path/to/program}`
 
 - Write to file instead of terminal:
 
-`ltrace -o {file something} {any something}`
+`ltrace -o {file value} {string value: path/to/program}`

@@ -5,20 +5,20 @@
 
 - Add files to a changelist, creating the changelist if it does not exist:
 
-`svn changelist {any something} {any something} {any something}`
+`svn changelist {string value: changelist_name} {string value: path/to/file1} {string value: path/to/file2}`
 
 - Remove files from a changelist:
 
-`svn changelist --remove {any something} {any something}`
+`svn changelist --remove {string value: path/to/file1} {string value: path/to/file2}`
 
 - Remove the whole changelist at once:
 
-`svn changelist --remove --recursive --changelist {any something} .`
+`svn changelist --remove --recursive --changelist {string value: changelist_name} .`
 
 - Add the contents of a space-separated list of directories to a changelist:
 
-`svn changelist --recursive {any something} {any something} {any something}`
+`svn changelist --recursive {string value: changelist_name} {string value: path/to/directory1} {string value: path/to/directory2}`
 
 - Commit a changelist:
 
-`svn commit --changelist {any something}`
+`svn commit --changelist {string value: changelist_name}`

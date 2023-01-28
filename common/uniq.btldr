@@ -6,20 +6,20 @@
 
 - Display each line once:
 
-`sort {file something} | uniq`
+`sort {file value} | uniq`
 
 - Display only unique lines:
 
-`sort {file something} | uniq -u`
+`sort {file value} | uniq -u`
 
 - Display only duplicate lines:
 
-`sort {file something} | uniq -d`
+`sort {file value} | uniq -d`
 
 - Display number of occurrences of each line along with that line:
 
-`sort {file something} | uniq -c`
+`sort {file value} | uniq -c`
 
 - Display number of occurrences of each line, sorted by the most frequent:
 
-`sort {file something} | uniq -c | sort -nr`
+`sort {file value} | uniq -c | sort -nr`

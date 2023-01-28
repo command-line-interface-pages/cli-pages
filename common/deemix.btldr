@@ -6,16 +6,16 @@
 
 - Download a track or playlist:
 
-`deemix {any something}`
+`deemix {string value: https://www.deezer.com/us/track/00000000}`
 
 - Download track / playlist at a specific bitrate:
 
-`deemix --bitrate {any something} {string url}`
+`deemix --bitrate {string value: FLAC|MP3} {string url}`
 
 - Download to a specific path:
 
-`deemix --bitrate {any something} --path {any something} {string url}`
+`deemix --bitrate {string value: bitrate} --path {string value: path} {string url}`
 
 - Create a portable deemix config in the current directory:
 
-`deemix --portable --bitrate {any something} --path {any something} {string url}`
+`deemix --portable --bitrate {string value: bitrate} --path {string value: path} {string url}`

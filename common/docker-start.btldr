@@ -9,12 +9,12 @@
 
 - Start a docker container:
 
-`docker start {any something}`
+`docker start {string value: container}`
 
 - Start a container, attaching stdout and stderr and forwarding signals:
 
-`docker start --attach {any something}`
+`docker start --attach {string value: container}`
 
 - Start one or more space-separated containers:
 
-`docker start {any something}`
+`docker start {string value: container(s)}`

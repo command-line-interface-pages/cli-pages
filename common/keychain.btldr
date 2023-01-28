@@ -9,7 +9,7 @@
 
 - Also check for gpg-agent:
 
-`keychain --agents "{any something}"`
+`keychain --agents "{string value: gpg,ssh}"`
 
 - List signatures of all active keys:
 
@@ -21,4 +21,4 @@
 
 - Add a timeout for identities added to the agent, in minutes:
 
-`keychain --timeout {any something}`
+`keychain --timeout {string value: minutes}`

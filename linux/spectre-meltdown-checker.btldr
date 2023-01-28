@@ -13,11 +13,11 @@
 
 - Check for specific variants (defaults to all):
 
-`sudo spectre-meltdown-checker --variant {any something}`
+`sudo spectre-meltdown-checker --variant {string value: 1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}`
 
 - Display output using a specific output format:
 
-`sudo spectre-meltdown-checker --batch {any something}`
+`sudo spectre-meltdown-checker --batch {string value: text|json|nrpe|prometheus|short}`
 
 - Don't use the `/sys` interface even if present:
 
@@ -25,4 +25,4 @@
 
 - Check a non-running kernel:
 
-`sudo spectre-meltdown-checker --kernel {file something: kernel}`
+`sudo spectre-meltdown-checker --kernel {file value: kernel}`

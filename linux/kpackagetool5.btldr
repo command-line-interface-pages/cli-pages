@@ -9,11 +9,11 @@
 
 - Install the package from a directory:
 
-`kpackagetool5 --type {any something} --install {directory something}`
+`kpackagetool5 --type {string value: package_type} --install {directory value}`
 
 - Update installed package from a directory:
 
-`kpackagetool5 --type {any something} --upgrade {directory something}`
+`kpackagetool5 --type {string value: package_type} --upgrade {directory value}`
 
 - List installed plasmoids (--global for all users):
 
@@ -21,4 +21,4 @@
 
 - Remove a plasmoid by name:
 
-`kpackagetool5 --type Plasma/Applet --remove "{any something}"`
+`kpackagetool5 --type Plasma/Applet --remove "{string value: name}"`

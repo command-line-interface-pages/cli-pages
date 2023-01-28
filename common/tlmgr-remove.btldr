@@ -6,19 +6,19 @@
 
 - Uninstall a TeX Live package:
 
-`sudo tlmgr remove {any something}`
+`sudo tlmgr remove {string value: package}`
 
 - Simulate uninstalling a package without making any changes:
 
-`tlmgr remove --dry-run {any something}`
+`tlmgr remove --dry-run {string value: package}`
 
 - Uninstall a package without its dependencies:
 
-`sudo tlmgr remove --no-depends {any something}`
+`sudo tlmgr remove --no-depends {string value: package}`
 
 - Uninstall a package and back it up to a specific directory:
 
-`sudo tlmgr remove --backupdir {directory something} {any something}`
+`sudo tlmgr remove --backupdir {directory value} {string value: package}`
 
 - Uninstall all of TeX Live, asking for confirmation:
 

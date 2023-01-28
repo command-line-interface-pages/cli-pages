@@ -9,12 +9,12 @@
 
 - Start the Deluge daemon on a specific port:
 
-`deluged -p {any something}`
+`deluged -p {string value: port}`
 
 - Start the Deluge daemon using a specific configuration file:
 
-`deluged -c {file something: configuration}`
+`deluged -c {file value: configuration}`
 
 - Start the Deluge daemon and output the log to a file:
 
-`deluged -l {file something: log}`
+`deluged -l {file value: log}`

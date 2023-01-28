@@ -5,15 +5,15 @@
 
 - Mark a package as automatically installed:
 
-`sudo apt-mark auto {any something}`
+`sudo apt-mark auto {string value: package_name}`
 
 - Hold a package at its current version and prevent updates to it:
 
-`sudo apt-mark hold {any something}`
+`sudo apt-mark hold {string value: package_name}`
 
 - Allow a package to be updated again:
 
-`sudo apt-mark unhold {any something}`
+`sudo apt-mark unhold {string value: package_name}`
 
 - Show manually installed packages:
 

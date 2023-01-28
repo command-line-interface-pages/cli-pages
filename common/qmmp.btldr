@@ -13,7 +13,7 @@
 
 - Seek forwards or backward a specific amount of time in seconds:
 
-`qmmp --seek-{any something} {any something}`
+`qmmp --seek-{string value: fwd|bwd} {string value: time_in_seconds}`
 
 - Play the next audio file:
 
@@ -29,4 +29,4 @@
 
 - Increase or decrease the volume of the currently playing audio by 5 steps:
 
-`qmmp --volume-{any something}`
+`qmmp --volume-{string value: inc|dec}`

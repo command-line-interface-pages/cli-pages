@@ -5,8 +5,8 @@
 
 - Show the difference between the last two enumerations of the specified domain:
 
-`amass track -dir {directory something: database} -d {any something} -last 2`
+`amass track -dir {directory value: database} -d {string value: domain_name} -last 2`
 
 - Show the difference between a certain point in time and the last enumeration:
 
-`amass track -dir {directory something: database} -d {any something} -since {any something}`
+`amass track -dir {directory value: database} -d {string value: domain_name} -since {string value: 01/02 15:04:05 2006 MST}`

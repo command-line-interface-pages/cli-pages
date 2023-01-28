@@ -10,12 +10,12 @@
 
 - Execute specific commands:
 
-`nu --commands "{any something}"`
+`nu --commands "{string value: echo 'nu is executed'}"`
 
 - Execute a specific script:
 
-`nu {any something}`
+`nu {string value: path/to/script.nu}`
 
 - Execute a specific script with logging:
 
-`nu --loglevel {any something} {any something}`
+`nu --loglevel {string value: error|warn|info|debug|trace} {string value: path/to/script.nu}`

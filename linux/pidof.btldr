@@ -5,16 +5,16 @@
 
 - List all process IDs with given name:
 
-`pidof {any something}`
+`pidof {string value: bash}`
 
 - List a single process ID with given name:
 
-`pidof -s {any something}`
+`pidof -s {string value: bash}`
 
 - List process IDs including scripts with given name:
 
-`pidof -x {any something}`
+`pidof -x {string value: script.py}`
 
 - Kill all processes with given name:
 
-`kill $(pidof {any something})`
+`kill $(pidof {string value: name})`

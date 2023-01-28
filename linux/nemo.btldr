@@ -9,15 +9,15 @@
 
 - Open specific directories in separate windows:
 
-`nemo {directory* something}`
+`nemo {directory* value}`
 
 - Open specific directories in tabs:
 
-`nemo --tabs {directory* something}`
+`nemo --tabs {directory* value}`
 
 - Open a directory with a specific window size:
 
-`nemo --geometry={int number: 600}x{int number: 400} {directory something}`
+`nemo --geometry={int value: 600}x{int value: 400} {directory value}`
 
 - Close all windows:
 

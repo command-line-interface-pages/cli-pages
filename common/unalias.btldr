@@ -5,7 +5,7 @@
 
 - Remove an alias:
 
-`unalias {any something}`
+`unalias {string value: alias_name}`
 
 - Remove all aliases:
 

@@ -6,7 +6,7 @@
 
 - Filter aliases by its name:
 
-`Get-Alias | Where-Object -{any something} {any something} -{any something} {any something}`
+`Get-Alias | Where-Object -{string value: Property} {string value: Name} -{string value: eq} {string value: name}`
 
 - Get a list of all services that are currently stopped. The `$_` automatic variable represents each object that is passed to the `Where-Object` cmdlet:
 

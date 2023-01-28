@@ -5,20 +5,20 @@
 
 - Recompress a directory of FLAC files:
 
-`reflac {directory something}`
+`reflac {directory value}`
 
 - Enable maximum compression (very slow):
 
-`reflac --best {directory something}`
+`reflac --best {directory value}`
 
 - Display filenames as they are processed:
 
-`reflac --verbose {directory something}`
+`reflac --verbose {directory value}`
 
 - Recurse into subdirectories:
 
-`reflac --recursive {directory something}`
+`reflac --recursive {directory value}`
 
 - Preserve file modification times:
 
-`reflac --preserve {directory something}`
+`reflac --preserve {directory value}`

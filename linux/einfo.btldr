@@ -9,12 +9,12 @@
 
 - Print all information of the protein database in XML format:
 
-`einfo -db {any something}`
+`einfo -db {string value: protein}`
 
 - Print all fields of the nuccore database:
 
-`einfo -db {any something} -fields`
+`einfo -db {string value: nuccore} -fields`
 
 - Print all links of the protein database:
 
-`einfo -db {any something} -links`
+`einfo -db {string value: protein} -links`

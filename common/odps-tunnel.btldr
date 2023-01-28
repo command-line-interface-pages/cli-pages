@@ -6,16 +6,16 @@
 
 - Download table to local file:
 
-`tunnel download {any something} {file something};`
+`tunnel download {string value: table_name} {file value};`
 
 - Upload local file to a table partition:
 
-`tunnel upload {file something} {any something}/{any something};`
+`tunnel upload {file value} {string value: table_name}/{string value: partition_spec};`
 
 - Upload table specifying field and record delimiters:
 
-`tunnel upload {file something} {any something} -fd {any something} -rd {any something};`
+`tunnel upload {file value} {string value: table_name} -fd {string value: field_delim} -rd {string value: record_delim};`
 
 - Upload table using multiple threads:
 
-`tunnel upload {file something} {any something} -threads {any something};`
+`tunnel upload {file value} {string value: table_name} -threads {string value: num};`

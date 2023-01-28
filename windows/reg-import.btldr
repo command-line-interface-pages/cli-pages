@@ -5,4 +5,4 @@
 
 - Import all keys, subkeys and values from a file:
 
-`reg import {file something}`
+`reg import {file value: sample.reg}`

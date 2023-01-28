@@ -5,20 +5,20 @@
 
 - Output local customizations:
 
-`semanage -S {any something} -o {file something: output}`
+`semanage -S {string value: store} -o {file value: output}`
 
 - Take a set of commands from a specified file and load them in a single transaction:
 
-`semanage -S {any something} -i {file something: input}`
+`semanage -S {string value: store} -i {file value: input}`
 
 - Manage booleans. Booleans allow the administrator to modify the confinement of processes based on the current configuration:
 
-`semanage boolean -S {any something} {any something} {any something} -F {file something: boolean|boolean}`
+`semanage boolean -S {string value: store} {string value: --delete|--modify|--list|--noheading|--deleteall} {string value: -on|-off} -F {file value: boolean|boolean}`
 
 - Manage policy modules:
 
-`semanage module -S {any something} {any something} {any something} {any something}`
+`semanage module -S {string value: store} {string value: --add|--delete|--list|--modify} {string value: --enable|--disable} {string value: module_name}`
 
 - Disable/Enable dontaudit rules in policy:
 
-`semanage dontaudit -S {any something} {any something}`
+`semanage dontaudit -S {string value: store} {string value: on|off}`

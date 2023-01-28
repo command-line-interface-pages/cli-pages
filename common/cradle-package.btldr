@@ -9,24 +9,24 @@
 
 - Search for a package:
 
-`cradle package search {any something}`
+`cradle package search {string value: package}`
 
 - Install a package from Packagist:
 
-`cradle package install {any something}`
+`cradle package install {string value: package}`
 
 - Install a specific version of a package:
 
-`cradle package install {any something} {any something}`
+`cradle package install {string value: package} {string value: version}`
 
 - Update a package:
 
-`cradle package update {any something}`
+`cradle package update {string value: package}`
 
 - Update a package to a specific version:
 
-`cradle package update {any something} {any something}`
+`cradle package update {string value: package} {string value: version}`
 
 - Remove a specific package:
 
-`cradle package remove {any something}`
+`cradle package remove {string value: package}`

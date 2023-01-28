@@ -9,16 +9,16 @@
 
 - Remove metadata from a file:
 
-`mat2 {file something}`
+`mat2 {file value}`
 
 - Remove metadata from a file and print detailed output to the console:
 
-`mat2 --verbose {file something}`
+`mat2 --verbose {file value}`
 
 - Show metadata in a file without removing it:
 
-`mat2 --show {file something}`
+`mat2 --show {file value}`
 
 - Partially remove metadata from a file:
 
-`mat2 --lightweight {file something}`
+`mat2 --lightweight {file value}`

@@ -6,15 +6,15 @@
 
 - Search and list packages from Hackage:
 
-`cabal list {any something}`
+`cabal list {string value: search_string}`
 
 - Show information about a package:
 
-`cabal info {any something}`
+`cabal info {string value: package_name}`
 
 - Download and install a package:
 
-`cabal install {any something}`
+`cabal install {string value: package_name}`
 
 - Create a new Haskell project in the current directory:
 

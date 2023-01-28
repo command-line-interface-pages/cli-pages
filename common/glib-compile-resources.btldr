@@ -6,16 +6,16 @@
 
 - Compile resources referenced in `file.gresource.xml` to a .gresource binary:
 
-`glib-compile-resources {any something}`
+`glib-compile-resources {string value: file.gresource.xml}`
 
 - Compile resources referenced in `file.gresource.xml` to a C source file:
 
-`glib-compile-resources --generate-source {any something}`
+`glib-compile-resources --generate-source {string value: file.gresource.xml}`
 
 - Compile resources in `file.gresource.xml` to a chosen target file, with `.c`, `.h` or `.gresource` extension:
 
-`glib-compile-resources --generate --target={file something} {any something}`
+`glib-compile-resources --generate --target={file value: sample.ext} {string value: file.gresource.xml}`
 
 - Print a list of resource files referenced in `file.gresource.xml`:
 
-`glib-compile-resources --generate-dependencies {any something}`
+`glib-compile-resources --generate-dependencies {string value: file.gresource.xml}`

@@ -5,8 +5,8 @@
 
 - Analyze a Composer JSON file:
 
-`composer-require-checker check {any something}`
+`composer-require-checker check {string value: path/to/composer.json}`
 
 - Analyze a Composer JSON file with a specific configuration:
 
-`composer-require-checker check --config-file {any something} {any something}`
+`composer-require-checker check --config-file {string value: path/to/config.json} {string value: path/to/composer.json}`

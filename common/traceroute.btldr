@@ -5,20 +5,20 @@
 
 - Traceroute to a host:
 
-`traceroute {any something}`
+`traceroute {string value: host}`
 
 - Disable IP address and host name mapping:
 
-`traceroute -n {any something}`
+`traceroute -n {string value: host}`
 
 - Specify wait time for response:
 
-`traceroute -w {float number: 0.5} {any something}`
+`traceroute -w {float value: 0.5} {string value: host}`
 
 - Specify number of queries per hop:
 
-`traceroute -q {int number: 5} {any something}`
+`traceroute -q {int value: 5} {string value: host}`
 
 - Specify size in bytes of probing packet:
 
-`traceroute {any something} {int number: 42}`
+`traceroute {string value: host} {int value: 42}`

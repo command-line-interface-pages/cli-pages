@@ -5,11 +5,11 @@
 
 - Initialize an (empty) repository:
 
-`vcsh init {any something}`
+`vcsh init {string value: repository_name}`
 
 - Clone a repository into a custom directory name:
 
-`vcsh clone {any something} {any something}`
+`vcsh clone {string value: git_url} {string value: repository_name}`
 
 - List all managed repositories:
 
@@ -17,12 +17,12 @@
 
 - Execute a Git command on a managed repository:
 
-`vcsh {any something} {any something}`
+`vcsh {string value: repository_name} {string value: git_command}`
 
 - Push/pull all managed repositories to/from remotes:
 
-`vcsh {any something}`
+`vcsh {string value: push|pull}`
 
 - Write a custom `.gitignore` file for a managed repository:
 
-`vcsh write-gitignore {any something}`
+`vcsh write-gitignore {string value: repository_name}`

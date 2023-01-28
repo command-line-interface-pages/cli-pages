@@ -5,8 +5,8 @@
 
 - Save a registry key, its sub keys and values to a specific file:
 
-`reg save {any something} {file something}`
+`reg save {string value: key_name} {file value}`
 
 - Forcefully overwrite an existing file without a prompt:
 
-`reg save {any something} {file something} /y`
+`reg save {string value: key_name} {file value} /y`

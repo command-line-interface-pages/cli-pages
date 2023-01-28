@@ -10,4 +10,4 @@
 
 - Open the current repository's CI configuration on its upstream website for a specific remote:
 
-`git browse-ci {any something}`
+`git browse-ci {string value: remote}`

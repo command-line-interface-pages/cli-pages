@@ -5,7 +5,7 @@
 
 - Convert a text file to PO file:
 
-`po4a-gettextize --format {any something} --master {any something} --po {any something}`
+`po4a-gettextize --format {string value: text} --master {string value: path/to/master.txt} --po {string value: path/to/result.po}`
 
 - Get a list of available formats:
 
@@ -13,4 +13,4 @@
 
 - Convert a text file along with a translated document to a PO file (`-l` option can be provided multiple times):
 
-`po4a-gettextize --format {any something} --master {any something} --localized {any something} --po {any something}`
+`po4a-gettextize --format {string value: text} --master {string value: path/to/master.txt} --localized {string value: path/to/translated.txt} --po {string value: path/to/result.po}`

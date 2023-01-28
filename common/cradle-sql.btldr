@@ -9,7 +9,7 @@
 
 - Rebuild the database schema for a specific package:
 
-`cradle sql build {any something}`
+`cradle sql build {string value: package_name}`
 
 - Empty the entire database:
 
@@ -17,7 +17,7 @@
 
 - Empty the database tables for a specific package:
 
-`cradle sql flush {any something}`
+`cradle sql flush {string value: package_name}`
 
 - Populate the tables for all packages:
 
@@ -25,4 +25,4 @@
 
 - Populate the tables for a specific package:
 
-`cradle sql populate {any something}`
+`cradle sql populate {string value: package_name}`

@@ -9,16 +9,16 @@
 
 - Render a Markdown file to the terminal:
 
-`glow {file something}`
+`glow {file value}`
 
 - View a Markdown file using a paginator:
 
-`glow -p {file something}`
+`glow -p {file value}`
 
 - View a file from a URL:
 
-`glow {any something}`
+`glow {string value: https://example.com/file.md}`
 
 - View a GitHub/GitLab README:
 
-`glow {any something}`
+`glow {string value: github.com/owner/repository}`

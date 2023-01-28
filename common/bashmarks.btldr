@@ -9,16 +9,16 @@
 
 - Save the current directory as "bookmark_name":
 
-`s {any something}`
+`s {string value: bookmark_name}`
 
 - Go to a bookmarked directory:
 
-`g {any something}`
+`g {string value: bookmark_name}`
 
 - Print a bookmarked directory's contents:
 
-`p {any something}`
+`p {string value: bookmark_name}`
 
 - Delete a bookmark:
 
-`d {any something}`
+`d {string value: bookmark_name}`

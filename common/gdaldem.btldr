@@ -5,12 +5,12 @@
 
 - Compute the hillshade of a DEM:
 
-`gdaldem hillshade {any something} {any something}`
+`gdaldem hillshade {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Compute the slope of a DEM:
 
-`gdaldem slope {any something} {any something}`
+`gdaldem slope {string value: path/to/input.tif} {string value: path/to/output.tif}`
 
 - Compute the aspect of a DEM:
 
-`gdaldem aspect {any something} {any something}`
+`gdaldem aspect {string value: path/to/input.tif} {string value: path/to/output.tif}`

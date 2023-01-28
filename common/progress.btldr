@@ -13,8 +13,8 @@
 
 - Launch and monitor a single long-running command:
 
-`{any something} & progress --monitor --pid $!`
+`{string value: command} & progress --monitor --pid $!`
 
 - Include an estimate of time remaining for completion:
 
-`progress --wait --command {any something}`
+`progress --wait --command {string value: firefox}`

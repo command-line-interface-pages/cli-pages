@@ -5,15 +5,15 @@
 
 - Display the man page for a command:
 
-`man {any something}`
+`man {string value: command}`
 
 - Display the man page for a command from section 7:
 
-`man {int number: 7} {any something}`
+`man {int value: 7} {string value: command}`
 
 - List all available sections for a command:
 
-`man -f {any something}`
+`man -f {string value: command}`
 
 - Display the path searched for manpages:
 
@@ -21,12 +21,12 @@
 
 - Display the location of a manpage rather than the manpage itself:
 
-`man -w {any something}`
+`man -w {string value: command}`
 
 - Display the man page using a specific locale:
 
-`man {any something} --locale={any something}`
+`man {string value: command} --locale={string value: locale}`
 
 - Search for manpages containing a search string:
 
-`man -k "{any something}"`
+`man -k "{string value: search_string}"`

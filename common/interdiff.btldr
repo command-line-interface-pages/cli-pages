@@ -5,8 +5,8 @@
 
 - Compare diff files:
 
-`interdiff {file something: old} {file something: new}`
+`interdiff {file value: old} {file value: new}`
 
 - Compare diff files, ignoring whitespace:
 
-`interdiff -w {file something: old} {file something: new}`
+`interdiff -w {file value: old} {file value: new}`

@@ -9,12 +9,12 @@
 
 - Ping the web server on `host` and `port`:
 
-`httping -h {any something} -p {any something}`
+`httping -h {string value: host} -p {string value: port}`
 
 - Ping the web server on `host` using a TLS connection:
 
-`httping -l -g https://{any something}`
+`httping -l -g https://{string value: host}`
 
 - Ping the web server on `host` using HTTP basic authentication:
 
-`httping -g http://{any something} -U {string user} -P {any something}`
+`httping -g http://{string value: host} -U {string user} -P {string value: password}`

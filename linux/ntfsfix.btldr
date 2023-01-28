@@ -5,4 +5,4 @@
 
 - Fix a given NTFS partition:
 
-`sudo ntfsfix {any something}`
+`sudo ntfsfix {string value: /dev/sdXN}`

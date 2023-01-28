@@ -5,16 +5,16 @@
 
 - Scan for available wireless networks:
 
-`iw dev {any something} scan`
+`iw dev {string value: wlp} scan`
 
 - Join an open wireless network:
 
-`iw dev {any something} connect {any something}`
+`iw dev {string value: wlp} connect {string value: SSID}`
 
 - Close the current connection:
 
-`iw dev {any something} disconnect`
+`iw dev {string value: wlp} disconnect`
 
 - Show information about the current connection:
 
-`iw dev {any something} link`
+`iw dev {string value: wlp} link`

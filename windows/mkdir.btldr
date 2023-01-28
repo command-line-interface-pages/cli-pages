@@ -5,8 +5,8 @@
 
 - Create a directory:
 
-`mkdir {directory something}`
+`mkdir {directory value}`
 
 - Create a nested directory tree recursively:
 
-`mkdir {directory something: sub}`
+`mkdir {directory value: sub}`

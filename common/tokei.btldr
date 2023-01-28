@@ -5,16 +5,16 @@
 
 - Get a report on the code in a directory and all subdirectories:
 
-`tokei {directory something}`
+`tokei {directory value}`
 
 - Get a report for a directory excluding `.min.js` files:
 
-`tokei {directory something} -e {any something}`
+`tokei {directory value} -e {string value: *.min.js}`
 
 - Print out statistics for individual files in a directory:
 
-`tokei {directory something} --files`
+`tokei {directory value} --files`
 
 - Get a report for all files of type Rust and Markdown:
 
-`tokei {directory something} -t={any something},{any something}`
+`tokei {directory value} -t={string value: Rust},{string value: Markdown}`

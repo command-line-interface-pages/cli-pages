@@ -10,24 +10,24 @@
 
 - Show information about a particular virtual machine:
 
-`VBoxManage showvminfo {any something}`
+`VBoxManage showvminfo {string value: name|uuid}`
 
 - Start a virtual machine:
 
-`VBoxManage startvm {any something}`
+`VBoxManage startvm {string value: name|uuid}`
 
 - Start a virtual machine in headless mode:
 
-`VBoxManage startvm {any something} --type headless`
+`VBoxManage startvm {string value: name|uuid} --type headless`
 
 - Shutdown the virtual machine and save its current state:
 
-`VBoxManage controlvm {any something} savestate`
+`VBoxManage controlvm {string value: name|uuid} savestate`
 
 - Shutdown down the virtual machine without saving its state:
 
-`VBoxManage controlvm {any something} poweroff`
+`VBoxManage controlvm {string value: name|uuid} poweroff`
 
 - Update VBox extension packs:
 
-`VBoxManage extpack install --replace {any something}`
+`VBoxManage extpack install --replace {string value: VboxExtensionPackFileName}`

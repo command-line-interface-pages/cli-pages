@@ -6,7 +6,7 @@
 
 - Search for an exploit, shellcode, or paper:
 
-`searchsploit {any something}`
+`searchsploit {string value: search_terms}`
 
 - Search for a known specific version, e.g. sudo version 1.8.27:
 
@@ -14,15 +14,15 @@
 
 - Show the exploit-db link to the found resources:
 
-`searchsploit --www {any something}`
+`searchsploit --www {string value: search_terms}`
 
 - Make a copy of the resource to the current directory (requires the number of the exploit):
 
-`searchsploit --mirror {any something}`
+`searchsploit --mirror {string value: exploit_number}`
 
 - Open the resource to read with the pager defined in the `$PAGER` environment variable:
 
-`searchsploit --explore {any something}`
+`searchsploit --explore {string value: exploit_number}`
 
 - Update the local exploit database:
 

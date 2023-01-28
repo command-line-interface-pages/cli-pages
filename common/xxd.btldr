@@ -5,28 +5,28 @@
 
 - Generate a hexdump from a binary file and display the output:
 
-`xxd {file something: input}`
+`xxd {file value: input}`
 
 - Generate a hexdump from a binary file and save it as a text file:
 
-`xxd {file something: input} {file something: output}`
+`xxd {file value: input} {file value: output}`
 
 - Display a more compact output, replacing consecutive zeros (if any) with a star:
 
-`xxd -a {file something: input}`
+`xxd -a {file value: input}`
 
 - Display the output with 10 columns of one octet (byte) each:
 
-`xxd -c {int number: 10} {file something: input}`
+`xxd -c {int value: 10} {file value: input}`
 
 - Display output only up to a length of 32 bytes:
 
-`xxd -l {int number: 32} {file something: input}`
+`xxd -l {int value: 32} {file value: input}`
 
 - Display the output in plain mode, without any gaps between the columns:
 
-`xxd -p {file something: input}`
+`xxd -p {file value: input}`
 
 - Revert a plaintext hexdump back into binary, and save it as a binary file:
 
-`xxd -r -p {file something: input} {file something: output}`
+`xxd -r -p {file value: input} {file value: output}`

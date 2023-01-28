@@ -6,20 +6,20 @@
 
 - Display information about a specific undo file:
 
-`e2undo -h {file something: undo} {any something}`
+`e2undo -h {file value: undo} {string value: /dev/sdXN}`
 
 - Perform a dry-run and display the candidate blocks for replaying:
 
-`e2undo -nv {file something: undo} {any something}`
+`e2undo -nv {file value: undo} {string value: /dev/sdXN}`
 
 - Perform an undo operation:
 
-`e2undo {file something: undo} {any something}`
+`e2undo {file value: undo} {string value: /dev/sdXN}`
 
 - Perform an undo operation and display verbose information:
 
-`e2undo -v {file something: undo} {any something}`
+`e2undo -v {file value: undo} {string value: /dev/sdXN}`
 
 - Write the old contents of the block to an undo file before overwriting a file system block:
 
-`e2undo -z {file something} {file something: undo} {any something}`
+`e2undo -z {file value: sample.e2undo} {file value: undo} {string value: /dev/sdXN}`

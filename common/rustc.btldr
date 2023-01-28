@@ -6,19 +6,19 @@
 
 - Compile a single file:
 
-`rustc {file something}`
+`rustc {file value: sample.rs}`
 
 - Compile with high optimization:
 
-`rustc -O {file something}`
+`rustc -O {file value: sample.rs}`
 
 - Compile with debugging information:
 
-`rustc -g {file something}`
+`rustc -g {file value: sample.rs}`
 
 - Compile with architecture-specific optimizations for the current CPU:
 
-`rustc -C target-cpu=native {file something}`
+`rustc -C target-cpu=native {file value: sample.rs}`
 
 - Display architecture-specific optimizations for the current CPU:
 
@@ -30,4 +30,4 @@
 
 - Compile for a specific target:
 
-`rustc --target {any something} {file something}`
+`rustc --target {string value: target_triple} {file value: sample.rs}`

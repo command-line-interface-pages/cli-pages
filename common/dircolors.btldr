@@ -9,7 +9,7 @@
 
 - Output commands to set LS_COLOR using colors from a file:
 
-`dircolors {file something}`
+`dircolors {file value}`
 
 - Output commands for Bourne shell:
 

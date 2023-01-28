@@ -5,8 +5,8 @@
 
 - Analyze logs for a range of dates at a certain level of detail:
 
-`logwatch --range {any something} --detail {any something}'`
+`logwatch --range {string value: yesterday|today|all|help} --detail {string value: low|medium|others}'`
 
 - Restrict report to only include information for a selected service:
 
-`logwatch --range {any something} --service {any something}`
+`logwatch --range {string value: all} --service {string value: apache|pam_unix|etc}`

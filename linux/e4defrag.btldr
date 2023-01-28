@@ -5,12 +5,12 @@
 
 - Defragment the filesystem:
 
-`e4defrag {any something}`
+`e4defrag {string value: /dev/sdXN}`
 
 - See how fragmented a filesystem is:
 
-`e4defrag -c {any something}`
+`e4defrag -c {string value: /dev/sdXN}`
 
 - Print errors and the fragmentation count before and after each file:
 
-`e4defrag -v {any something}`
+`e4defrag -v {string value: /dev/sdXN}`

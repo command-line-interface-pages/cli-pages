@@ -5,15 +5,15 @@
 
 - Run a Shadowsocks proxy by specifying the host, server port, local port, password, and encryption method:
 
-`ss-local -s {any something} -p {any something} -l {any something} -k {any something} -m {any something}`
+`ss-local -s {string value: host} -p {string value: server_port} -l {string value: local port} -k {string value: password} -m {string value: encrypt_method}`
 
 - Run a Shadowsocks proxy by specifying the config file:
 
-`ss-local -c {any something}`
+`ss-local -c {string value: path/to/config/file.json}`
 
 - Use a plugin to run the proxy client:
 
-`ss-local --plugin {any something} --plugin-opts {any something}`
+`ss-local --plugin {string value: plugin_name} --plugin-opts {string value: plugin_options}`
 
 - Enable TCP fast open:
 

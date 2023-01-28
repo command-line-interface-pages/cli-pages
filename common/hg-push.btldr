@@ -9,7 +9,7 @@
 
 - Push changes to a specified remote repository:
 
-`hg push {any something}`
+`hg push {string value: path/to/destination_repository}`
 
 - Push a new branch if it does not exist (disabled by default):
 
@@ -17,12 +17,12 @@
 
 - Specify a specific revision changeset to push:
 
-`hg push --rev {any something}`
+`hg push --rev {string value: revision}`
 
 - Specify a specific branch to push:
 
-`hg push --branch {any something}`
+`hg push --branch {string value: branch}`
 
 - Specify a specific bookmark to push:
 
-`hg push --bookmark {any something}`
+`hg push --bookmark {string value: bookmark}`

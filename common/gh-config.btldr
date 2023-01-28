@@ -9,24 +9,24 @@
 
 - Set protocol to SSH:
 
-`gh config set git_protocol {any something}`
+`gh config set git_protocol {string value: ssh}`
 
 - Use `delta` in side-by-side mode as the default pager for all `gh` commands:
 
-`gh config set pager '{any something}'`
+`gh config set pager '{string value: delta --side-by-side}'`
 
 - Set text editor to Vim:
 
-`gh config set editor {any something}`
+`gh config set editor {string value: vim}`
 
 - Reset to default text editor:
 
-`gh config set editor {any something}`
+`gh config set editor {string value: ""}`
 
 - Disable interactive prompts:
 
-`gh config set prompt {any something}`
+`gh config set prompt {string value: disabled}`
 
 - Set a specific configuration value:
 
-`gh config set {any something} {any something}`
+`gh config set {string value: key} {string value: value}`

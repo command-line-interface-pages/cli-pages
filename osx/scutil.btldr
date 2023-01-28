@@ -18,7 +18,7 @@
 
 - Set computer name:
 
-`sudo scutil --set ComputerName {any something}`
+`sudo scutil --set ComputerName {string value: computer_name}`
 
 - Get hostname:
 
@@ -26,4 +26,4 @@
 
 - Set hostname:
 
-`scutil --set HostName {any something}`
+`scutil --set HostName {string value: hostname}`

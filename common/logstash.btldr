@@ -6,11 +6,11 @@
 
 - Check validity of a Logstash configuration:
 
-`logstash --configtest --config {any something}`
+`logstash --configtest --config {string value: logstash_config.conf}`
 
 - Run Logstash using configuration:
 
-`sudo logstash --config {any something}`
+`sudo logstash --config {string value: logstash_config.conf}`
 
 - Run Logstash with the most basic inline configuration string:
 

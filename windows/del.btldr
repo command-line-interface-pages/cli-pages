@@ -5,23 +5,23 @@
 
 - Delete one or more space-separated files or patterns:
 
-`del {any something}`
+`del {string value: file_pattern}`
 
 - Prompt for confirmation before deleting each file:
 
-`del {any something} /p`
+`del {string value: file_pattern} /p`
 
 - Force the deletion of read-only files:
 
-`del {any something} /f`
+`del {string value: file_pattern} /f`
 
 - Recursively delete file(s) from all subdirectories:
 
-`del {any something} /s`
+`del {string value: file_pattern} /s`
 
 - Do not prompt when deleting files based on a global wildcard:
 
-`del {any something} /q`
+`del {string value: file_pattern} /q`
 
 - Display the help and list available attributes:
 
@@ -29,4 +29,4 @@
 
 - Delete files based on specified attributes:
 
-`del {any something} /a {any something}`
+`del {string value: file_pattern} /a {string value: attribute}`

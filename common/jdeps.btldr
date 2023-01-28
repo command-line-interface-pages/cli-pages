@@ -5,19 +5,19 @@
 
 - Analyze the dependencies of a `.jar` or `.class` file:
 
-`jdeps {file something}`
+`jdeps {file value: sample.class}`
 
 - Print a summary of all dependencies of a specific `.jar` file:
 
-`jdeps {file something} -summary`
+`jdeps {file value: sample.jar} -summary`
 
 - Print all class-level dependencies of a `.jar` file:
 
-`jdeps {file something} -verbose`
+`jdeps {file value: sample.jar} -verbose`
 
 - Output the results of the analysis in a DOT file into a specific directory:
 
-`jdeps {file something} -dotoutput {directory something}`
+`jdeps {file value: sample.jar} -dotoutput {directory value}`
 
 - Display help:
 

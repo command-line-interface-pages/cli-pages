@@ -9,7 +9,7 @@
 
 - Run a web extension from a specific directory in Firefox:
 
-`web-ext run --source-dir {directory something}`
+`web-ext run --source-dir {directory value}`
 
 - Display verbose execution output:
 
@@ -33,4 +33,4 @@
 
 - Sign a package for self-hosting:
 
-`web-ext sign --api-key {any something} --api-secret {any something}`
+`web-ext sign --api-key {string value: api_key} --api-secret {string value: api_secret}`

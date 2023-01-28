@@ -10,12 +10,12 @@
 
 - Convert the specified package:
 
-`debtap {any something}`
+`debtap {string value: path/to/package.deb}`
 
 - Convert the specified package bypassing all questions, except for editing metadata files:
 
-`debtap --quiet {any something}`
+`debtap --quiet {string value: path/to/package.deb}`
 
 - Generate a PKGBUILD file:
 
-`debtap --pkgbuild {any something}`
+`debtap --pkgbuild {string value: path/to/package.deb}`

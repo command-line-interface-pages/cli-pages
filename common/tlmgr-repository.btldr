@@ -9,19 +9,19 @@
 
 - List all packages available in a specific repository:
 
-`tlmgr repository list {any something}`
+`tlmgr repository list {string value: path|url|tag}`
 
 - Add a new repository with a specific tag (the tag is not required):
 
-`sudo tlmgr repository add {any something} {any something}`
+`sudo tlmgr repository add {string value: path|url} {string value: tag}`
 
 - Remove a specific repository:
 
-`sudo tlmgr repository remove {any something}`
+`sudo tlmgr repository remove {string value: path|url|tag}`
 
 - Set a new list of repositories, overwriting the previous list:
 
-`sudo tlmgr repository set {any something}#{any something} {any something}#{any something} {any something}`
+`sudo tlmgr repository set {string value: path|url|tag}#{string value: tag} {string value: path|url|tag}#{string value: tag} `
 
 - Show the verification status of all configured repositories:
 

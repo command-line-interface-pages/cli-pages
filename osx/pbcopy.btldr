@@ -5,7 +5,7 @@
 
 - Place the contents of a specific file in the clipboard:
 
-`pbcopy < {file something}`
+`pbcopy < {file value}`
 
 - Place the results of a specific command in the clipboard:
 

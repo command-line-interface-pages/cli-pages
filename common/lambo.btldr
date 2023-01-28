@@ -6,7 +6,7 @@
 
 - Create a new Laravel application:
 
-`lambo new {any something}`
+`lambo new {string value: app_name}`
 
 - Open the configuration in your default editor:
 
@@ -14,7 +14,7 @@
 
 - Open the configuration in a specific editor:
 
-`lambo edit-config --editor="{any something}"`
+`lambo edit-config --editor="{string value: path/to/editor}"`
 
 - Open the configuration file that is run after new applications have been scaffolded:
 

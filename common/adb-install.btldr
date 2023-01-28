@@ -5,24 +5,24 @@
 
 - Push an Android application to an emulator/device:
 
-`adb install {file something}`
+`adb install {file value: sample.apk}`
 
 - Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`):
 
-`adb -s {any something} install {file something}`
+`adb -s {string value: serial_number} install {file value: sample.apk}`
 
 - Reinstall an existing app, keeping its data:
 
-`adb install -r {file something}`
+`adb install -r {file value: sample.apk}`
 
 - Push an Android application allowing version code downgrade (debuggable packages only):
 
-`adb install -d {file something}`
+`adb install -d {file value: sample.apk}`
 
 - Grant all permissions listed in the app manifest:
 
-`adb install -g {file something}`
+`adb install -g {file value: sample.apk}`
 
 - Quickly update an installed package by only updating the parts of the APK that changed:
 
-`adb install --fastdeploy {file something}`
+`adb install --fastdeploy {file value: sample.apk}`

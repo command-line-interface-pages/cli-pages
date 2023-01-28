@@ -5,4 +5,4 @@
 
 - Change the committer and author of a commit:
 
-`git blame-someone-else "{any something}" {any something}`
+`git blame-someone-else "{string value: author <someone@example.com>}" {string value: commit}`

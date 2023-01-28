@@ -5,4 +5,4 @@
 
 - Merge a specific patch into CVS:
 
-`git cvsexportcommit -v -c -w {any something} {any something}`
+`git cvsexportcommit -v -c -w {string value: path/to/project_cvs_checkout} {string value: commit_sha1}`

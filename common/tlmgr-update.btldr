@@ -13,11 +13,11 @@
 
 - Update a specific package:
 
-`sudo tlmgr update {any something}`
+`sudo tlmgr update {string value: package}`
 
 - Update all except a specific package:
 
-`sudo tlmgr update --all --exclude {any something}`
+`sudo tlmgr update --all --exclude {string value: package}`
 
 - Update all packages, making a backup of the current packages:
 
@@ -25,7 +25,7 @@
 
 - Update a specific package without updating its dependencies:
 
-`sudo tlmgr update --no-depends {any something}`
+`sudo tlmgr update --no-depends {string value: package}`
 
 - Simulate updating all packages without making any changes:
 

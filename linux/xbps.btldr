@@ -5,19 +5,19 @@
 
 - Install packages and synchronize them with the remote repository:
 
-`xbps-install --sync {any something} {any something}`
+`xbps-install --sync {string value: package_name1} {string value: package_name2}`
 
 - Search for a package in the remote repository:
 
-`xbps-query --repository -s {any something}`
+`xbps-query --repository -s {string value: package_name}`
 
 - Remove a package, leaving all of its dependencies installed:
 
-`xbps-remove {any something}`
+`xbps-remove {string value: package_name}`
 
 - Remove a package and all of its dependencies recursively that are not required by other packages:
 
-`xbps-remove --recursive {any something}`
+`xbps-remove --recursive {string value: package_name}`
 
 - Synchronize your repository databases and update your system and dependencies:
 

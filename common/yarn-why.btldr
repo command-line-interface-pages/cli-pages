@@ -5,4 +5,4 @@
 
 - Show why a Yarn package is installed:
 
-`yarn-why {any something}`
+`yarn-why {string value: package_name}`

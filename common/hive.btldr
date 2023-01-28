@@ -9,12 +9,12 @@
 
 - Run HiveQL:
 
-`hive -e "{any something}"`
+`hive -e "{string value: hiveql_query}"`
 
 - Run a HiveQL file with a variable substitution:
 
-`hive --define {any something}={any something} -f {file something}`
+`hive --define {string value: key}={string value: value} -f {file value: sample.sql}`
 
 - Run a HiveQL with HiveConfig (e.g. `mapred.reduce.tasks=32`):
 
-`hive --hiveconf {any something}={any something}`
+`hive --hiveconf {string value: conf_name}={string value: conf_value}`

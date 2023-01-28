@@ -9,7 +9,7 @@
 
 - Display all set attributes of files in a specific directory:
 
-`attrib {any something}`
+`attrib {string value: path\to\directory}`
 
 - Display all set attributes of files and [d]irectories in the current directory:
 
@@ -21,8 +21,8 @@
 
 - Add the `[r]ead-only` or `[a]rchive` or `[s]ystem` or `[h]idden` or `not content [i]ndexed` attribute to files or directories:
 
-`attrib +{any something} {any something}`
+`attrib +{string value: r|a|s|h|i} {string value: path\to\file_or_directory1 path\to\file_or_directory2 ...}`
 
 - Remove a specific attribute of files or directories:
 
-`attrib -{any something} {any something}`
+`attrib -{string value: r|a|s|h|i} {string value: path\to\file_or_directory1 path\to\file_or_directory2 ...}`

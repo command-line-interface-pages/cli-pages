@@ -5,16 +5,16 @@
 
 - Generate a new StrongNaming key:
 
-`sn -k {any something}`
+`sn -k {string value: path/to/key.snk}`
 
 - Re-sign an assembly with the specified private key:
 
-`sn -R {any something} {any something}`
+`sn -R {string value: path/to/assembly.dll} {string value: path/to/key_pair.snk}`
 
 - Show the public key of the private key that was used to sign an assembly:
 
-`sn -T {any something}`
+`sn -T {string value: path/to/assembly.exe}`
 
 - Extract the public key to a file:
 
-`sn -e {any something} {any something}`
+`sn -e {string value: path/to/assembly.dll} {string value: path/to/output.pub}`

@@ -9,4 +9,4 @@
 
 - Display the root location of the specified repository:
 
-`hg root --cwd {directory something}`
+`hg root --cwd {directory value}`

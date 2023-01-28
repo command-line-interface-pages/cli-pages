@@ -6,24 +6,24 @@
 
 - Encrypt a file:
 
-`sops -e {any something} > {any something}`
+`sops -e {string value: path/to/myfile.json} > {string value: path/to/myfile.enc.json}`
 
 - Decrypt a file to the stdout:
 
-`sops -d {any something}`
+`sops -d {string value: path/to/myfile.enc.json}`
 
 - Rotate data keys for a sops file:
 
-`sops -r {any something}`
+`sops -r {string value: path/to/myfile.enc.yaml}`
 
 - Change the extension of the file once encrypted:
 
-`sops -d --input-type json {any something}`
+`sops -d --input-type json {string value: path/to/myfile.enc.json}`
 
 - Extract keys by naming them, and array elements by numbering them:
 
-`sops -d --extract '["an_array"][1]' {any something}`
+`sops -d --extract '["an_array"][1]' {string value: path/to/myfile.enc.json}`
 
 - Show the difference between two sops files:
 
-`diff <(sops -d {any something}) <(sops -d {any something})`
+`diff <(sops -d {string value: path/to/secret1.enc.yaml}) <(sops -d {string value: path/to/secret2.enc.yaml})`

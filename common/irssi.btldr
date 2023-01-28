@@ -5,11 +5,11 @@
 
 - Open Irssi and connect to a server with a nickname:
 
-`irssi -n {any something} -c {any something}`
+`irssi -n {string value: nickname} -c {string value: irc.example.com}`
 
 - Open Irssi and connect with a specific server on a given port:
 
-`irssi -c {any something} -p {any something}`
+`irssi -c {string value: irc.example.com} -p {string value: port}`
 
 - View the help:
 
@@ -17,11 +17,11 @@
 
 - Join a channel:
 
-`/join {any something}`
+`/join {string value: #channelname}`
 
 - Change active window (starts at 1):
 
-`/win {any something}`
+`/win {string value: window_number}`
 
 - Exit the application cleanly and quitting any server(s):
 

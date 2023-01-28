@@ -14,8 +14,8 @@
 
 - Execute specific [c]ommands:
 
-`csh -c "{any something}"`
+`csh -c "{string value: echo 'csh is executed'}"`
 
 - Execute a specific script:
 
-`csh {any something}`
+`csh {string value: path/to/script.csh}`

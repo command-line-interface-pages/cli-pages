@@ -18,11 +18,11 @@
 
 - Display only specific fields:
 
-`pvs -o {any something},{any something}`
+`pvs -o {string value: field_name_1},{string value: field_name_2}`
 
 - Append field to default display:
 
-`pvs -o +{any something}`
+`pvs -o +{string value: field_name}`
 
 - Suppress heading line:
 
@@ -30,4 +30,4 @@
 
 - Use separator to separate fields:
 
-`pvs --separator {any something}`
+`pvs --separator {string value: special_character}`

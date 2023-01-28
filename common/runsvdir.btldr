@@ -5,12 +5,12 @@
 
 - Start and manage all services in a directory as the current user:
 
-`runsvdir {any something}`
+`runsvdir {string value: path/to/services}`
 
 - Start and manage all services in a directory as root:
 
-`sudo runsvdir {any something}`
+`sudo runsvdir {string value: path/to/services}`
 
 - Start services in separate sessions:
 
-`runsvdir -P {any something}`
+`runsvdir -P {string value: path/to/services}`

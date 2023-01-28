@@ -5,20 +5,20 @@
 
 - Try to enumerate using all methods:
 
-`enum4linux -a {any something}`
+`enum4linux -a {string value: remote_host}`
 
 - Enumerate using given login credentials:
 
-`enum4linux -u {string user} -p {any something} {any something}`
+`enum4linux -u {string user} -p {string value: password} {string value: remote_host}`
 
 - List usernames from a given host:
 
-`enum4linux -U {any something}`
+`enum4linux -U {string value: remote_host}`
 
 - List shares:
 
-`enum4linux -S {any something}`
+`enum4linux -S {string value: remote_host}`
 
 - Get OS information:
 
-`enum4linux -o {any something}`
+`enum4linux -o {string value: remote_host}`

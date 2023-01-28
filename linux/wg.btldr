@@ -13,12 +13,12 @@
 
 - Generate a public key from a private key:
 
-`wg pubkey < {any something} > {any something}`
+`wg pubkey < {string value: path/to/private_key} > {string value: path/to/public_key}`
 
 - Generate a public and private key:
 
-`wg genkey | tee {any something} | wg pubkey > {any something}`
+`wg genkey | tee {string value: path/to/private_key} | wg pubkey > {string value: path/to/public_key}`
 
 - Show the current configuration of a wireguard interface:
 
-`wg showconf {any something}`
+`wg showconf {string value: wg0}`

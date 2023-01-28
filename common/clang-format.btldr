@@ -5,20 +5,20 @@
 
 - Format a file and print the result to stdout:
 
-`clang-format {file something}`
+`clang-format {file value}`
 
 - Format a file in-place:
 
-`clang-format -i {file something}`
+`clang-format -i {file value}`
 
 - Format a file using a predefined coding style:
 
-`clang-format --style={any something} {file something}`
+`clang-format --style={string value: LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit} {file value}`
 
 - Format a file using the `.clang-format` file in one of the parent directories of the source file:
 
-`clang-format --style=file {file something}`
+`clang-format --style=file {file value}`
 
 - Generate a custom `.clang-format` file:
 
-`clang-format --style={any something} --dump-config > {any something}`
+`clang-format --style={string value: LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit} --dump-config > {string value: .clang-format}`

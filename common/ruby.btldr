@@ -9,15 +9,15 @@
 
 - Execute a Ruby script:
 
-`ruby {any something}`
+`ruby {string value: script.rb}`
 
 - Execute a single Ruby command in the command-line:
 
-`ruby -e {any something}`
+`ruby -e {string value: command}`
 
 - Check for syntax errors on a given Ruby script:
 
-`ruby -c {any something}`
+`ruby -c {string value: script.rb}`
 
 - Show the version of Ruby you are using:
 

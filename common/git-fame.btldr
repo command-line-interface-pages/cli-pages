@@ -9,15 +9,15 @@
 
 - Exclude files/directories that match the specified regular expression:
 
-`git fame --excl "{any something}"`
+`git fame --excl "{string value: regular_expression}"`
 
 - Calculate contributions made after the specified date:
 
-`git fame --since "{any something}"`
+`git fame --since "{string value: 3 weeks ago|2021-05-13}"`
 
 - Display contributions in the specified format:
 
-`git fame --format {any something}`
+`git fame --format {string value: pipe|yaml|json|csv|tsv}`
 
 - Display contributions per file extension:
 

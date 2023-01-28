@@ -9,16 +9,16 @@
 
 - Compile a Kotlin file:
 
-`kotlinc {file something}`
+`kotlinc {file value: sample.kt}`
 
 - Compile several Kotlin files:
 
-`kotlinc {any something}`
+`kotlinc {file* value: sample.kt}`
 
 - Execute a specific Kotlin Script file:
 
-`kotlinc -script {file something}`
+`kotlinc -script {file value: sample.kts}`
 
 - Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included:
 
-`kotlinc {file something} -include-runtime -d {file something}`
+`kotlinc {file value: sample.kt} -include-runtime -d {file value: sample.jar}`

@@ -1,20 +1,21 @@
 # am
 
 > Android activity manager
+> See also: gimp, d, awk
 > More information: https://developer.android.com/studio/command-line/adb#am
 
-- Start a specific activity:
+- Start a specific activity stdin:
 
-`am start -n {any something}`
+`am start -n {string value: com.android.settings/.Settings}`
 
 - Start an activity and pass [d]ata to it:
 
-`am start -a {any something} -d {any something}`
+`am start -a {string value: android.intent.action.VIEW} -d {string value: tel:123}`
 
 - Start an activity matching a specific action and [c]ategory:
 
-`am start -a {any something} -c {any something}`
+`am start -a {string value: android.intent.action.MAIN} -c {string value: android.intent.category.HOME}`
 
 - Convert an intent to a URI:
 
-`am to-uri -a {any something} -d {any something}`
+`am to-uri -a {string value: android.intent.action.VIEW} -d {string value: tel:123}`

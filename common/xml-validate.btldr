@@ -5,19 +5,19 @@
 
 - Validate one or more XML documents for well-formedness only:
 
-`xml validate {any something} {any something}`
+`xml validate {string value: path/to/input1.xml|URI} {string value: input2.xml ...}`
 
 - Validate one or more XML documents against a Document Type Definition (DTD):
 
-`xml validate --dtd {any something} {any something} {any something}`
+`xml validate --dtd {string value: path/to/schema.dtd} {string value: path/to/input1.xml|URI} {string value: input2.xml ...}`
 
 - Validate one or more XML documents against an XML Schema Definition (XSD):
 
-`xml validate --xsd {any something} {any something} {any something}`
+`xml validate --xsd {string value: path/to/schema.xsd} {string value: path/to/input1.xml|URI} {string value: input2.xml ...}`
 
 - Validate one or more XML documents against a Relax NG schema (RNG):
 
-`xml validate --relaxng {any something} {any something} {any something}`
+`xml validate --relaxng {string value: path/to/schema.rng} {string value: path/to/input1.xml|URI} {string value: input2.xml ...}`
 
 - Display help for the `validate` subcommand:
 

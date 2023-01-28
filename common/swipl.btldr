@@ -9,11 +9,11 @@
 
 - Execute a command without showing any output:
 
-`swipl --quiet -t "{any something}"`
+`swipl --quiet -t "{string value: command}"`
 
 - Execute a script:
 
-`swipl {file something}`
+`swipl {file value: sample.pl}`
 
 - Print all shell configuration variables:
 

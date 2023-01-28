@@ -21,4 +21,4 @@
 
 - See all available commands/aliases starting with 'ls':
 
-`compgen -ac {any something}`
+`compgen -ac {string value: ls}`

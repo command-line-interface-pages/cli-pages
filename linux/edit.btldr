@@ -6,8 +6,8 @@
 
 - Edit action can be used to view any file on default mailcap explorer:
 
-`edit {any something}`
+`edit {file value}`
 
 - With `run-mailcap`:
 
-`run-mailcap --action=edit {any something}`
+`run-mailcap --action=edit {file value}`

@@ -5,7 +5,7 @@
 
 - Install one or more space-separated versions of Ruby:
 
-`rvm install {any something}`
+`rvm install {string value: version(s)}`
 
 - Display a list of installed versions:
 
@@ -13,23 +13,23 @@
 
 - Use a specific version of Ruby:
 
-`rvm use {any something}`
+`rvm use {string value: version}`
 
 - Set the default Ruby version:
 
-`rvm --default use {any something}`
+`rvm --default use {string value: version}`
 
 - Upgrade a version of Ruby to a new version:
 
-`rvm upgrade {any something} {any something}`
+`rvm upgrade {string value: current_version} {string value: new_version}`
 
 - Uninstall a version of Ruby and keep its sources:
 
-`rvm uninstall {any something}`
+`rvm uninstall {string value: version}`
 
 - Remove a version of Ruby and its sources:
 
-`rvm remove {any something}`
+`rvm remove {string value: version}`
 
 - Show specific dependencies for your OS:
 

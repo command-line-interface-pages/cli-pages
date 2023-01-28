@@ -6,7 +6,7 @@
 
 - Convert a translated PO file back to a document:
 
-`po4a-translate --format {any something} --master {any something} --po {any something} --localized {any something}`
+`po4a-translate --format {string value: text} --master {string value: path/to/master.doc} --po {string value: path/to/result.po} --localized {string value: path/to/translated.txt}`
 
 - Get a list of available formats:
 

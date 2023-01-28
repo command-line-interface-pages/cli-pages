@@ -14,4 +14,4 @@
 
 - Create a UUIDv5 of the name with a specified namespace prefix:
 
-`uuidgen --sha1 --namespace {any something} --name {any something}`
+`uuidgen --sha1 --namespace {string value: @dns|@url|@oid|@x500} --name {string value: object_name}`

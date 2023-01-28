@@ -5,20 +5,20 @@
 
 - Format a Haskell source file and print the result to stdout:
 
-`brittany {file something}`
+`brittany {file value: sample.hs}`
 
 - Format all Haskell source files in the current directory in-place:
 
-`brittany --write-mode=inplace {any something}`
+`brittany --write-mode=inplace {string value: *.hs}`
 
 - Check whether a Haskell source file needs changes and indicate the result through the programme's exit code:
 
-`brittany --check-mode {file something}`
+`brittany --check-mode {file value: sample.hs}`
 
 - Format a Haskell source file using the specified amount of spaces per indentation level and line length:
 
-`brittany --indent {int number: 4} --columns {int number: 100} {file something}`
+`brittany --indent {int value: 4} --columns {int value: 100} {file value: sample.hs}`
 
 - Format a Haskell source file according to the style defined in the specified config file:
 
-`brittany --config-file {any something} {file something}`
+`brittany --config-file {string value: path/to/config.yaml} {file value: sample.hs}`

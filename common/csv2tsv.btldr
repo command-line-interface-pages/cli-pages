@@ -5,12 +5,12 @@
 
 - Convert from CSV to TSV:
 
-`csv2tsv {any something} > {any something}`
+`csv2tsv {string value: path/to/input_csv1 path/to/input_csv2 ...} > {string value: path/to/output_tsv}`
 
 - Convert field delimiter separated CSV to TSV:
 
-`csv2tsv -c'{any something}' {any something}`
+`csv2tsv -c'{string value: field_delimiter}' {string value: path/to/input_csv}`
 
 - Convert semicolon separated CSV to TSV:
 
-`csv2tsv -c';' {any something}`
+`csv2tsv -c';' {string value: path/to/input_csv}`

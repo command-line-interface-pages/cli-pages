@@ -17,15 +17,15 @@
 
 - Locate the bundle where a wanted package exists:
 
-`swupd search -b {any something}`
+`swupd search -b {string value: package}`
 
 - Install a new bundle:
 
-`sudo swupd bundle-add {any something}`
+`sudo swupd bundle-add {string value: bundle}`
 
 - Remove a bundle:
 
-`sudo swupd bundle-remove {any something}`
+`sudo swupd bundle-remove {string value: bundle}`
 
 - Correct broken or missing files:
 

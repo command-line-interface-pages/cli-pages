@@ -5,12 +5,12 @@
 
 - Split zipfile into pieces that are no larger than a particular size [n]:
 
-`zipsplit -n {any something} {any something}`
+`zipsplit -n {string value: size} {string value: path/to/archive.zip}`
 
 - [p]ause between the creation of each split zipfile:
 
-`zipsplit -p -n {any something} {any something}`
+`zipsplit -p -n {string value: size} {string value: path/to/archive.zip}`
 
 - Output the split zipfiles into the `archive` directory:
 
-`zipsplit -b {any something} -n {any something} {any something}`
+`zipsplit -b {string value: archive} -n {string value: size} {string value: path/to/archive.zip}`

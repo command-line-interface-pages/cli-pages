@@ -5,11 +5,11 @@
 
 - Lint a single CSS file:
 
-`csslint {file something}`
+`csslint {file value: sample.css}`
 
 - Lint multiple CSS files:
 
-`csslint {any something} {any something} {any something}`
+`csslint {string value: file1.css} {string value: file2.css} {string value: file3.css}`
 
 - List all possible style rules:
 
@@ -17,12 +17,12 @@
 
 - Specify certain rules as errors (which result in a non-zero exit code):
 
-`csslint --errors={any something} {file something}`
+`csslint --errors={string value: errors,universal-selector,imports} {file value: sample.css}`
 
 - Specify certain rules as warnings:
 
-`csslint --warnings={any something} {file something}`
+`csslint --warnings={string value: box-sizing,selector-max,floats} {file value: sample.css}`
 
 - Specify certain rules to ignore:
 
-`csslint --ignore={any something} {file something}`
+`csslint --ignore={string value: ids,rules-count,shorthand} {file value: sample.css}`

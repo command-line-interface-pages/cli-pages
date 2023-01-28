@@ -14,11 +14,11 @@
 
 - Install a specific application:
 
-`cs install {any something}`
+`cs install {string value: application_name}`
 
 - Uninstall a specific application:
 
-`cs uninstall {any something}`
+`cs uninstall {string value: application_name}`
 
 - Setup machine for the Scala development:
 

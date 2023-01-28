@@ -9,28 +9,28 @@
 
 - Execute a specific Python file:
 
-`python {file something}`
+`python {file value: sample.py}`
 
 - Execute a specific Python file and start a REPL:
 
-`python -i {file something}`
+`python -i {file value: sample.py}`
 
 - Execute a Python expression:
 
-`python -c "{any something}"`
+`python -c "{string value: expression}"`
 
 - Run the script of the specified library module:
 
-`python -m {any something} {any something}`
+`python -m {string value: module} {string value: arguments}`
 
 - Install a package using `pip`:
 
-`python -m {any something} install {any something}`
+`python -m {string value: pip} install {string value: package_name}`
 
 - Interactively debug a Python script:
 
-`python -m {any something} {file something}`
+`python -m {string value: pdb} {file value: sample.py}`
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 
-`python -m {any something}`
+`python -m {string value: http.server}`

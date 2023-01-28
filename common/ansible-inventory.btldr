@@ -10,7 +10,7 @@
 
 - Display a custom inventory:
 
-`ansbile-inventory --list --inventory {directory something: file_or_script_or}`
+`ansbile-inventory --list --inventory {directory value: file_or_script_or}`
 
 - Display the default inventory in YAML:
 
@@ -18,4 +18,4 @@
 
 - Dump the default inventory to a file:
 
-`ansible-inventory --list --output {file something}`
+`ansible-inventory --list --output {file value}`

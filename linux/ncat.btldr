@@ -5,12 +5,12 @@
 
 - Listen for input on the specified port and write it to the specified file:
 
-`ncat -l {any something} > {file something}`
+`ncat -l {string value: port} > {file value}`
 
 - Accept multiple connections and keep ncat open after they have been closed:
 
-`ncat -lk {any something}`
+`ncat -lk {string value: port}`
 
 - Write output of specified file to the specified host on the specified port:
 
-`ncat {any something} {any something} < {file something}`
+`ncat {string value: address} {string value: port} < {file value}`

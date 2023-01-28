@@ -6,11 +6,11 @@
 
 - Create a new feed database that sends email to an email address:
 
-`r2e new {any something}`
+`r2e new {string value: email_address}`
 
 - Subscribe to a feed:
 
-`r2e add {any something} {any something}`
+`r2e add {string value: feed_name} {string value: feed_URI}`
 
 - Send new stories to an email address:
 
@@ -22,4 +22,4 @@
 
 - Delete a feed at a specified index:
 
-`r2e delete {any something}`
+`r2e delete {string value: index}`

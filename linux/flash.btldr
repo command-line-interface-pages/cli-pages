@@ -21,4 +21,4 @@
 
 - Change the previewer from default `bat` to `cat`:
 
-`flash -p {any something}`
+`flash -p {string value: cat}`

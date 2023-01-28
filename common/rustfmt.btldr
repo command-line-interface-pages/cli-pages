@@ -5,12 +5,12 @@
 
 - Format a file, overwriting the original file in-place:
 
-`rustfmt {any something}`
+`rustfmt {string value: path/to/source.rs}`
 
 - Check a file for formatting and display any changes on the console:
 
-`rustfmt --check {any something}`
+`rustfmt --check {string value: path/to/source.rs}`
 
 - Backup any modified files before formatting (the original file is renamed with a `.bk` extension):
 
-`rustfmt --backup {any something}`
+`rustfmt --backup {string value: path/to/source.rs}`

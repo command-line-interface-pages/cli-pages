@@ -5,8 +5,8 @@
 
 - Match a variable against string literals to decide which command to run:
 
-`case {any something} in {any something}) {any something}; ;; {any something}) {any something}; ;; esac`
+`case {string value: $tocount} in {string value: words}) {string value: wc -w README}; ;; {string value: lines}) {string value: wc -l README}; ;; esac`
 
 - Combine patterns with |, use * as a fallback pattern:
 
-`case {any something} in {any something}) {any something}; ;; {any something}) {any something}; ;; *) {any something}; ;; esac`
+`case {string value: $tocount} in {string value: [wW]|words}) {string value: wc -w README}; ;; {string value: [lL]|lines}) {string value: wc -l README}; ;; *) {string value: echo "what?"}; ;; esac`

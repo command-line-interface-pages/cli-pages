@@ -10,16 +10,16 @@
 
 - Transpile using one or more comma-separated transformations:
 
-`lebab --transform {any something}`
+`lebab --transform {string value: transformation}`
 
 - Transpile a file to stdout:
 
-`lebab {file something: input}`
+`lebab {file value: input}`
 
 - Transpile a file to the specified output file:
 
-`lebab {file something: input} --out-file {file something: output}`
+`lebab {file value: input} --out-file {file value: output}`
 
 - Replace all `.js` files in-place in the specified directory, glob or file:
 
-`lebab --replace {any something}`
+`lebab --replace {string value: directory|glob|file}`

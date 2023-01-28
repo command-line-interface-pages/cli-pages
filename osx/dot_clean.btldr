@@ -5,24 +5,24 @@
 
 - Merge all `._*` files recursively:
 
-`dot_clean {directory something}`
+`dot_clean {directory value}`
 
 - Don't recursively merge all `._*` in a directory (flat merge):
 
-`dot_clean -f {directory something}`
+`dot_clean -f {directory value}`
 
 - Merge and delete all `._*` files:
 
-`dot_clean -m {directory something}`
+`dot_clean -m {directory value}`
 
 - Only delete `._*` files if there's a matching native file:
 
-`dot_clean -n {directory something}`
+`dot_clean -n {directory value}`
 
 - Follow symlinks:
 
-`dot_clean -s {directory something}`
+`dot_clean -s {directory value}`
 
 - Print verbose output:
 
-`dot_clean -v {directory something}`
+`dot_clean -v {directory value}`

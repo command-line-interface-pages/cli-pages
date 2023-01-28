@@ -10,7 +10,7 @@
 
 - Start the partition manipulator:
 
-`sudo fdisk {/file something: device}`
+`sudo fdisk {/file value: device}`
 
 - Once partitioning a disk, create a partition:
 

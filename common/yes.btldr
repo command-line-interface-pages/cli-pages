@@ -6,7 +6,7 @@
 
 - Repeatedly output "message":
 
-`yes {any something}`
+`yes {string value: message}`
 
 - Repeatedly output "y":
 
@@ -14,4 +14,4 @@
 
 - Accept everything prompted by the `apt-get` command:
 
-`yes | sudo apt-get install {any something}`
+`yes | sudo apt-get install {string value: program}`

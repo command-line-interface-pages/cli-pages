@@ -6,20 +6,20 @@
 
 - Search for an exact string in a file:
 
-`zfgrep {any something} {file something}`
+`zfgrep {string value: search_string} {file value}`
 
 - Count the number of lines that match the given string in a file:
 
-`zfgrep --count {any something} {file something}`
+`zfgrep --count {string value: search_string} {file value}`
 
 - Show the line number in the file along with the matching lines:
 
-`zfgrep --line-number {any something} {file something}`
+`zfgrep --line-number {string value: search_string} {file value}`
 
 - Display all lines except those that contain the search string:
 
-`zfgrep --invert-match {any something} {file something}`
+`zfgrep --invert-match {string value: search_string} {file value}`
 
 - List only filenames whose content matches the search string at least once:
 
-`zfgrep --files-with-matches {any something} {any something}`
+`zfgrep --files-with-matches {string value: search_string} {file* value}`

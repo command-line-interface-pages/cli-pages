@@ -5,11 +5,11 @@
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 
-`xdotool search --onlyvisible --name {any something}`
+`xdotool search --onlyvisible --name {string value: firefox}`
 
 - Click the right mouse button:
 
-`xdotool click {int number: 3}`
+`xdotool click {int value: 3}`
 
 - Get the ID of the currently active window:
 
@@ -17,12 +17,12 @@
 
 - Focus on the window with ID of 12345:
 
-`xdotool windowfocus --sync {int number: 12345}`
+`xdotool windowfocus --sync {int value: 12345}`
 
 - Type a message, with a 500ms delay for each letter:
 
-`xdotool type --delay {int number: 500} "Hello world"`
+`xdotool type --delay {int value: 500} "Hello world"`
 
 - Press the enter key:
 
-`xdotool key {any something}`
+`xdotool key {string value: KP_Enter}`

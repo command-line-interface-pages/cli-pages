@@ -21,8 +21,8 @@
 
 - Restore a specific snapshot:
 
-`sudo timeshift --restore --snapshot '{any something}'`
+`sudo timeshift --restore --snapshot '{string value: snapshot}'`
 
 - Delete a specific snapshot:
 
-`sudo timeshift --delete --snapshot '{any something}'`
+`sudo timeshift --delete --snapshot '{string value: snapshot}'`

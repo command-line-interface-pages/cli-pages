@@ -6,11 +6,11 @@
 
 - Adjust one or more directed graphs to improve the layout aspect ratio:
 
-`unflatten {any something} {any something} > {any something}`
+`unflatten {string value: path/to/input1.gv} {string value: path/to/input2.gv ...} > {string value: path/to/output.gv}`
 
 - Use `unflatten` as a preprocessor for `dot` layout to improve aspect ratio:
 
-`unflatten {any something} | dot -T {any something} {any something}`
+`unflatten {string value: path/to/input.gv} | dot -T {string value: png} {string value: path/to/output.png}`
 
 - Display help for `unflatten`:
 

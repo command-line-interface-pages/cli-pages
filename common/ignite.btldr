@@ -5,16 +5,16 @@
 
 - Create a new React Native project:
 
-`ignite new {any something}`
+`ignite new {string value: project_name}`
 
 - Generate file from a plugin:
 
-`ignite generate {any something} {file something}`
+`ignite generate {string value: plugin_name} {file value}`
 
 - Add an Ignite plugin to the project:
 
-`ignite add {any something}`
+`ignite add {string value: plugin_name}`
 
 - Remove an Ignite plugin from the project:
 
-`ignite remove {any something}`
+`ignite remove {string value: plugin_name}`

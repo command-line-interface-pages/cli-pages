@@ -9,7 +9,7 @@
 
 - Create a project under the given directory:
 
-`meteor create {directory something}`
+`meteor create {directory value}`
 
 - Display the list of packages the project is currently using:
 
@@ -17,12 +17,12 @@
 
 - Add a package to the project:
 
-`meteor add {any something}`
+`meteor add {string value: package_name}`
 
 - Remove a package from the project:
 
-`meteor remove {any something}`
+`meteor remove {string value: package_name}`
 
 - Create a production build of the project as a tarball under the given directory:
 
-`meteor build {directory something}`
+`meteor build {directory value}`

@@ -6,8 +6,8 @@
 
 - Fork and clone a GitHub repository by its URL:
 
-`git fork {any something}`
+`git fork {string value: https://github.com/tldr-pages/tldr}`
 
 - Fork and clone a GitHub repository by its slug:
 
-`git fork {any something}`
+`git fork {string value: tldr-pages/tldr}`

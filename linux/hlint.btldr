@@ -5,20 +5,20 @@
 
 - Display suggestions for a given file:
 
-`hlint {file something} options`
+`hlint {file value} options`
 
 - Check all Haskell files and generate a report:
 
-`hlint {directory something} --report`
+`hlint {directory value} --report`
 
 - Automatically apply most suggestions:
 
-`hlint {file something} --refactor`
+`hlint {file value} --refactor`
 
 - Display additional options:
 
-`hlint {file something} --refactor-options`
+`hlint {file value} --refactor-options`
 
 - Generate a settings file ignoring all outstanding hints:
 
-`hlint {file something} --default > {any something}`
+`hlint {file value} --default > {string value: .hlint.yaml}`

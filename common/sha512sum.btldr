@@ -5,24 +5,24 @@
 
 - Calculate the SHA512 checksum for a file:
 
-`sha512sum {file something}`
+`sha512sum {file value}`
 
 - Calculate SHA512 checksums for multiple files:
 
-`sha512sum {any something} {any something}`
+`sha512sum {string value: path/to/file1} {string value: path/to/file2}`
 
 - Calculate and save the list of SHA512 checksums to a file:
 
-`sha512sum {any something} {any something} > {file something}`
+`sha512sum {string value: path/to/file1} {string value: path/to/file2} > {file value: sample.sha512}`
 
 - Read a file of SHA512 sums and verify all files have matching checksums:
 
-`sha512sum --check {file something}`
+`sha512sum --check {file value: sample.sha512}`
 
 - Only show a message for missing files or when verification fails:
 
-`sha512sum --check --quiet {file something}`
+`sha512sum --check --quiet {file value: sample.sha512}`
 
 - Only show a message for files for which verification fails, ignoring missing files:
 
-`sha512sum --ignore-missing --check --quiet {file something}`
+`sha512sum --ignore-missing --check --quiet {file value: sample.sha512}`

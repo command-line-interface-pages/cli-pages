@@ -9,15 +9,15 @@
 
 - Print all direct production/development dependencies:
 
-`npm query ':root > .{any something}'`
+`npm query ':root > .{string value: prod|dev}'`
 
 - Print dependencies with a specific name:
 
-`npm query '#{any something}'`
+`npm query '#{string value: package_name}'`
 
 - Print dependencies with a specific name and within a semantic versioning range:
 
-`npm query #{any something}@{any something}`
+`npm query #{string value: package_name}@{string value: semantic_version}`
 
 - Print dependencies which have no dependencies:
 

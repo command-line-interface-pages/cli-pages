@@ -14,11 +14,11 @@
 
 - Connect to a given network:
 
-`nmtui connect {any something}`
+`nmtui connect {string value: name|uuid|device|SSID}`
 
 - Edit/Add/Delete a given network:
 
-`nmtui edit {any something}`
+`nmtui edit {string value: name|id}`
 
 - Set the system hostname:
 

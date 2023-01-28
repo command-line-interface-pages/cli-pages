@@ -9,11 +9,11 @@
 
 - Start diskonaut in a specific directory:
 
-`diskonaut {directory something}`
+`diskonaut {directory value}`
 
 - Show file sizes rather than their block usage on the disk:
 
-`diskonaut --apparent-size {directory something}`
+`diskonaut --apparent-size {directory value}`
 
 - Disable deletion confirmation:
 

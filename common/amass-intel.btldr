@@ -5,24 +5,24 @@
 
 - Find root domains in an IP address range:
 
-`amass intel -addr {any something}`
+`amass intel -addr {string value: 192.168.0.1-254}`
 
 - Use active recon methods:
 
-`amass intel -active -addr {any something}`
+`amass intel -active -addr {string value: 192.168.0.1-254}`
 
 - Find root domains related to a domain:
 
-`amass intel -whois -d {any something}`
+`amass intel -whois -d {string value: domain_name}`
 
 - Find ASNs belonging to an organisation:
 
-`amass intel -org {any something}`
+`amass intel -org {string value: organisation_name}`
 
 - Find root domains belonging to a given Autonomous System Number:
 
-`amass intel -asn {any something}`
+`amass intel -asn {string value: asn}`
 
 - Save results to a text file:
 
-`amass intel -o {file something: output} -whois -d {any something}`
+`amass intel -o {file value: output} -whois -d {string value: domain_name}`

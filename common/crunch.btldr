@@ -5,32 +5,32 @@
 
 - Output a list of words of length 1 to 3 with only lowercase characters:
 
-`crunch {int number: 1} {int number: 3}`
+`crunch {int value: 1} {int value: 3}`
 
 - Output a list of hexadecimal words of length 8:
 
-`crunch {int number: 8} {int number: 8} {any something}`
+`crunch {int value: 8} {int value: 8} {string value: 0123456789abcdef}`
 
 - Output a list of all permutations of abc (lengths are not processed):
 
-`crunch {int number: 1} {int number: 1} -p {any something}`
+`crunch {int value: 1} {int value: 1} -p {string value: abc}`
 
 - Output a list of all permutations of the given strings (lengths are not processed):
 
-`crunch {int number: 1} {int number: 1} -p {any something} {any something} {any something}`
+`crunch {int value: 1} {int value: 1} -p {string value: abc} {string value: def} {string value: ghi}`
 
 - Output a list of words generated according to the given pattern and a maximum number of duplicate letters:
 
-`crunch {int number: 5} {int number: 5} {any something} -t {any something} -d 2@`
+`crunch {int value: 5} {int value: 5} {string value: abcde123} -t {string value: @@@12} -d 2@`
 
 - Write a list of words in chunk files of a given size, starting with the given string:
 
-`crunch {int number: 3} {int number: 5} -o {any something} -b {any something} -s {any something}`
+`crunch {int value: 3} {int value: 5} -o {string value: START} -b {string value: 10kb} -s {string value: abc}`
 
 - Write a list of words stopping with the given string and inverting the wordlist:
 
-`crunch {int number: 1} {int number: 5} -o {any something} -e {any something} -i`
+`crunch {int value: 1} {int value: 5} -o {string value: START} -e {string value: abcde} -i`
 
 - Write a list of words in compressed chunk files with a specified number of words:
 
-`crunch {int number: 1} {int number: 5} -o {any something} -c {int number: 1000} -z {any something}`
+`crunch {int value: 1} {int value: 5} -o {string value: START} -c {int value: 1000} -z {string value: gzip|bzip2|lzma|7z}`

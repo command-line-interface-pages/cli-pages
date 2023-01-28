@@ -13,11 +13,11 @@
 
 - Take a screenshot of the entire screen and save it in the specified directory:
 
-`xfce4-screenshooter --fullscreen --save {directory something}`
+`xfce4-screenshooter --fullscreen --save {directory value}`
 
 - Wait some time before taking the screenshot:
 
-`xfce4-screenshooter --delay {any something}`
+`xfce4-screenshooter --delay {string value: seconds}`
 
 - Take a screenshot of a region of the screen (select using the mouse):
 
@@ -29,4 +29,4 @@
 
 - Take a screenshot of the active window, and open it with a chosen program:
 
-`xfce4-screenshooter --window --open {any something}`
+`xfce4-screenshooter --window --open {string value: gimp}`

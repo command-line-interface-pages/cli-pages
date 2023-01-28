@@ -5,11 +5,11 @@
 
 - Execute the binary from a given npm module:
 
-`pnpx {any something}`
+`pnpx {string value: module_name}`
 
 - Execute a specific binary from a given npm module, in case the module has multiple binaries:
 
-`pnpx --package {any something} {any something}`
+`pnpx --package {string value: package_name} {string value: module_name}`
 
 - Display help:
 

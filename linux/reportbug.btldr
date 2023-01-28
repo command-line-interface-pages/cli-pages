@@ -5,7 +5,7 @@
 
 - Generate a bug report about a specific package, then send it by e-mail:
 
-`reportbug {any something}`
+`reportbug {string value: package}`
 
 - Report a bug that is not about a specific package (general problem, infrastructure, etc.):
 
@@ -13,4 +13,4 @@
 
 - Write the bug report to a file instead of sending it by e-mail:
 
-`reportbug -o {any something} {any something}`
+`reportbug -o {file value} {string value: package}`

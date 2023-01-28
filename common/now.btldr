@@ -14,11 +14,11 @@
 
 - Display information related to a deployment:
 
-`now inspect {any something}`
+`now inspect {string value: deployment_url}`
 
 - Remove a deployment:
 
-`now remove {any something}`
+`now remove {string value: deployment_id}`
 
 - Log in into an account or create a new one:
 

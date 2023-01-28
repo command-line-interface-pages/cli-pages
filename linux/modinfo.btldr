@@ -5,8 +5,8 @@
 
 - List all attributes of a kernel module:
 
-`modinfo {any something}`
+`modinfo {string value: kernel_module}`
 
 - List the specified attribute only:
 
-`modinfo -F {any something} {any something}`
+`modinfo -F {string value: author|description|license|parm|filename} {string value: kernel_module}`

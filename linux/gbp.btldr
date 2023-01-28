@@ -5,7 +5,7 @@
 
 - Convert an existing Debian package to gbp:
 
-`gbp import-dsc {any something}`
+`gbp import-dsc {string value: path/to/package.dsc}`
 
 - Build the package in the current directory using the default builder (`debuild`):
 
@@ -13,12 +13,12 @@
 
 - Build a package in a `pbuilder` environment for Debian Bullseye:
 
-`DIST={any something} ARCH={any something} gbp buildpackage -jauto -us -uc --git-builder={any something}`
+`DIST={string value: bullseye} ARCH={string value: amd64} gbp buildpackage -jauto -us -uc --git-builder={string value: git-pbuilder}`
 
 - Specify a package to be a source-only upload in the `.changes` file (see https://wiki.debian.org/SourceOnlyUpload):
 
-`gbp buildpackage -jauto -us -uc --changes-options={any something}`
+`gbp buildpackage -jauto -us -uc --changes-options={string value: -S}`
 
 - Import a new upstream release:
 
-`gbp import-orig --pristine-tar {any something}`
+`gbp import-orig --pristine-tar {string value: path/to/package.tar.gz}`

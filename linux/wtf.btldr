@@ -5,8 +5,8 @@
 
 - Expand a given acronym:
 
-`wtf {any something}`
+`wtf {string value: IMO}`
 
 - Specify a computer related search type:
 
-`wtf -t {any something} {any something}`
+`wtf -t {string value: comp} {string value: WWW}`

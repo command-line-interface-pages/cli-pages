@@ -6,4 +6,4 @@
 
 - Clean up resources:
 
-`qm cleanup {any something} {any something} {any something}`
+`qm cleanup {string value: vm_id} {string value: clean-shutdown} {string value: guest-requested}`

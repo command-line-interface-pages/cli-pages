@@ -5,19 +5,19 @@
 
 - Incorporate changes from the named commits into the current branch:
 
-`dolt merge {any something}`
+`dolt merge {string value: branch_name}`
 
 - Incorporate changes from the named commits into the current branch without updating the commit history:
 
-`dolt merge --squash {any something}`
+`dolt merge --squash {string value: branch_name}`
 
 - Merge a branch and create a merge commit even when the merge resolves as a fast-forward:
 
-`dolt merge --no-ff {any something}`
+`dolt merge --no-ff {string value: branch_name}`
 
 - Merge a branch and create a merge commit with a specific commit message:
 
-`dolt merge --no-ff -m "{any something}" {any something}`
+`dolt merge --no-ff -m "{string value: message}" {string value: branch_name}`
 
 - Abort the current conflict resolution process:
 

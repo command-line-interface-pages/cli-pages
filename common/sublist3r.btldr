@@ -5,15 +5,15 @@
 
 - Find subdomains for a domain:
 
-`sublist3r --domain {any something}`
+`sublist3r --domain {string value: domain_name}`
 
 - Find subdomains for a domain, also enabling brute force search:
 
-`sublist3r --domain {any something} --bruteforce`
+`sublist3r --domain {string value: domain_name} --bruteforce`
 
 - Save the found subdomains to a text file:
 
-`sublist3r --domain {any something} --output {file something: output}`
+`sublist3r --domain {string value: domain_name} --output {file value: output}`
 
 - Output all available options:
 

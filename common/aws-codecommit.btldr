@@ -5,7 +5,7 @@
 
 - Display help for a specific command:
 
-`aws codecommit {any something} help`
+`aws codecommit {string value: command} help`
 
 - Display help:
 

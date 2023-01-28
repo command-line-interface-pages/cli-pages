@@ -6,15 +6,15 @@
 
 - Open a URL:
 
-`w3m {any something}`
+`w3m {string value: http://example.com}`
 
 - Open a URL in monochrome mode:
 
-`w3m {any something} -M`
+`w3m {string value: http://example.com} -M`
 
 - Open a URL without mouse support:
 
-`w3m {any something} --no-mouse`
+`w3m {string value: http://example.com} --no-mouse`
 
 - Open a new browser tab:
 

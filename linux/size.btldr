@@ -5,16 +5,16 @@
 
 - Display the size of sections in a given object or executable file:
 
-`size {file something}`
+`size {file value}`
 
 - Display the size of sections in a given object or executable file in [o]ctal:
 
-`size {any something} {file something}`
+`size {string value: -o|--radix=8} {file value}`
 
 - Display the size of sections in a given object or executable file in [d]ecimal:
 
-`size {any something} {file something}`
+`size {string value: -d|--radix=10} {file value}`
 
 - Display the size of sections in a given object or executable file in he[x]adecimal:
 
-`size {any something} {file something}`
+`size {string value: -x|--radix=16} {file value}`

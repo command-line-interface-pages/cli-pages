@@ -5,15 +5,15 @@
 
 - Create a new Hugo site:
 
-`hugo new site {any something}`
+`hugo new site {string value: path/to/site}`
 
 - Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/):
 
-`hugo new theme {any something}`
+`hugo new theme {string value: theme_name}`
 
 - Create a new page:
 
-`hugo new {any something}/{file something}`
+`hugo new {string value: section_name}/{file value}`
 
 - Build a site to the `./public/` directory:
 
@@ -25,7 +25,7 @@
 
 - Build a site to a given directory:
 
-`hugo --destination {any something}`
+`hugo --destination {string value: path/to/destination}`
 
 - Build a site, start up a webserver to serve it, and automatically reload when pages are edited:
 

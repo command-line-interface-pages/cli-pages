@@ -13,7 +13,7 @@
 
 - List pending updates using a specific pacman database:
 
-`CHECKUPDATES_DB={directory something} checkupdates`
+`CHECKUPDATES_DB={directory value} checkupdates`
 
 - Display help:
 

@@ -6,20 +6,20 @@
 
 - Test random reads:
 
-`sudo fio --filename={file something} --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={any something} --eta-newline=1 --readonly`
+`sudo fio --filename={file value} --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={string value: job_name} --eta-newline=1 --readonly`
 
 - Test sequential reads:
 
-`sudo fio --filename={file something} --direct=1 --rw=read --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={any something} --eta-newline=1 --readonly`
+`sudo fio --filename={file value} --direct=1 --rw=read --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={string value: job_name} --eta-newline=1 --readonly`
 
 - Test random read/write:
 
-`sudo fio --filename={file something} --size=500GB --direct=1 --rw=randrw --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={any something} --eta-newline=1`
+`sudo fio --filename={file value} --size=500GB --direct=1 --rw=randrw --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={string value: job_name} --eta-newline=1`
 
 - Test with parameters from a job file:
 
-`sudo fio {file something: job}`
+`sudo fio {file value: job}`
 
 - Convert a specific job file to command-line options:
 
-`fio --showcmd {file something: job}`
+`fio --showcmd {file value: job}`

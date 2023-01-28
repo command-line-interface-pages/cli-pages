@@ -5,8 +5,8 @@
 
 - View a presentation:
 
-`tpp {file something}`
+`tpp {file value}`
 
 - Output a presentation:
 
-`tpp -t {any something} -o {any something} {file something}`
+`tpp -t {string value: type} -o {string value: path/to/output} {file value}`

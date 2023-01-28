@@ -5,12 +5,12 @@
 
 - Fake the time to this evening, before printing the result of `date`:
 
-`faketime '{any something}' {any something}`
+`faketime '{string value: today 23:30}' {string value: date}`
 
 - Open a new `bash` shell, which uses yesterday as the current date:
 
-`faketime '{any something}' {any something}`
+`faketime '{string value: yesterday}' {string value: bash}`
 
 - Simulate how a program would act next Friday night:
 
-`faketime '{any something}' {any something}`
+`faketime '{string value: next Friday 1 am}' {string value: path/to/program}`

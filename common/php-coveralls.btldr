@@ -9,11 +9,11 @@
 
 - Send coverage information to Coveralls for a specific directory:
 
-`php-coveralls --root_dir {directory something}`
+`php-coveralls --root_dir {directory value}`
 
 - Send coverage information to Coveralls with a specific config:
 
-`php-coveralls --config {any something}`
+`php-coveralls --config {string value: path/to/.coveralls.yml}`
 
 - Send coverage information to Coveralls with verbose output:
 
@@ -25,12 +25,12 @@
 
 - Send coverage information to Coveralls with a specific environment name:
 
-`php-coveralls --env {any something}`
+`php-coveralls --env {string value: test|dev|prod}`
 
 - Specify multiple Coverage Clover XML files to upload:
 
-`php-coveralls --coverage_clover {any something} --coverage_clover {any something}`
+`php-coveralls --coverage_clover {string value: path/to/first_clover.xml} --coverage_clover {string value: path/to/second_clover.xml}`
 
 - Output the JSON that will be sent to Coveralls to a specific file:
 
-`php-coveralls --json_path {any something}`
+`php-coveralls --json_path {string value: path/to/coveralls-upload.json}`

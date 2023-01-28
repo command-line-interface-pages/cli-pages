@@ -5,20 +5,20 @@
 
 - Build a Flatpak and export it to a new repository:
 
-`flatpak-builder {directory something: build} {any something}`
+`flatpak-builder {directory value: build} {string value: path/to/manifest}`
 
 - Build a Flatpak and export it to the specified repository:
 
-`flatpak-builder --repo={any something} {directory something: build} {any something}`
+`flatpak-builder --repo={string value: repository_name} {directory value: build} {string value: path/to/manifest}`
 
 - Build a Flatpak and install it locally:
 
-`flatpak-builder --install {directory something: build} {any something}`
+`flatpak-builder --install {directory value: build} {string value: path/to/manifest}`
 
 - Build and sign a Flatpak and export it to the specified repository:
 
-`flatpak-builder --gpg-sign={any something} --repo={any something} {any something}`
+`flatpak-builder --gpg-sign={string value: key_id} --repo={string value: repository_name} {string value: path/to/manifest}`
 
 - Run a shell inside of an application sandbox without installing it:
 
-`flatpak-builder --run {directory something: build} {any something} {any something}`
+`flatpak-builder --run {directory value: build} {string value: path/to/manifest} {string value: sh}`

@@ -6,12 +6,12 @@
 
 - Display the serialVersionUID of a class:
 
-`serialver {any something}`
+`serialver {string value: classnames}`
 
 - Display the serialVersionUID for a colon-separated list of classes and resources:
 
-`serialver -classpath {directory something} {any something}`
+`serialver -classpath {directory value} {string value: classname1:classname2:...}`
 
 - Use a specific option from reference page of Java application launcher to the Java Virtual Machine:
 
-`serialver -Joption {any something}`
+`serialver -Joption {string value: classnames}`

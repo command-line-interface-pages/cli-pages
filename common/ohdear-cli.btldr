@@ -17,4 +17,4 @@
 
 - Display details about a specific site:
 
-`ohdear-cli sites:show {any something}`
+`ohdear-cli sites:show {string value: site_id}`

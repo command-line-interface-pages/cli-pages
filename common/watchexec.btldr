@@ -5,16 +5,16 @@
 
 - Call `ls -la` when any file in the current directory changes:
 
-`watchexec -- {any something}`
+`watchexec -- {string value: ls -la}`
 
 - Run `make` when any JavaScript, CSS and HTML files in the current directory change:
 
-`watchexec --exts {any something} make`
+`watchexec --exts {string value: js,css,html} make`
 
 - Run `make` when any file in the `lib` or `src` subdirectories change:
 
-`watchexec --watch {any something} --watch {any something} {any something}`
+`watchexec --watch {string value: lib} --watch {string value: src} {string value: make}`
 
 - Call/restart `my_server` when any file in the current directory change, sending `SIGKILL` to stop the child process:
 
-`watchexec --restart --signal {any something} {any something}`
+`watchexec --restart --signal {string value: SIGKILL} {string value: my_server}`

@@ -5,20 +5,20 @@
 
 - Format a specific Snakefile:
 
-`snakefmt {any something}`
+`snakefmt {string value: path/to/snakefile}`
 
 - Format all Snakefiles recursively in a specific directory:
 
-`snakefmt {directory something}`
+`snakefmt {directory value}`
 
 - Format a file using a specific configuration file:
 
-`snakefmt --config {any something} {any something}`
+`snakefmt --config {string value: path/to/config.toml} {string value: path/to/snakefile}`
 
 - Format a file using a specific maximum line length:
 
-`snakefmt --line-length {int number: 100} {any something}`
+`snakefmt --line-length {int value: 100} {string value: path/to/snakefile}`
 
 - Display the changes that would be performed without performing them (dry-run):
 
-`snakefmt --diff {any something}`
+`snakefmt --diff {string value: path/to/snakefile}`

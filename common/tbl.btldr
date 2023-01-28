@@ -6,8 +6,8 @@
 
 - Process input with tables, saving the output for future typesetting with groff to PostScript:
 
-`tbl {file something: input} > {any something}`
+`tbl {file value: input} > {string value: path/to/output.roff}`
 
 - Typeset input with tables to PDF using the [me] macro package:
 
-`tbl -T {any something} {any something} | groff -{any something} -T {any something} > {any something}`
+`tbl -T {string value: pdf} {string value: path/to/input.tbl} | groff -{string value: me} -T {string value: pdf} > {string value: path/to/output.pdf}`

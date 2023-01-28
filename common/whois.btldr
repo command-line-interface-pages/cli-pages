@@ -5,12 +5,12 @@
 
 - Get information about a domain name:
 
-`whois {any something}`
+`whois {string value: example.com}`
 
 - Get information about an IP address:
 
-`whois {any something}`
+`whois {string value: 8.8.8.8}`
 
 - Get abuse contact for an IP address:
 
-`whois -b {any something}`
+`whois -b {string value: 8.8.8.8}`

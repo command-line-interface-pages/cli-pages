@@ -5,11 +5,11 @@
 
 - Build an appliance:
 
-`kiwi-ng system build --description={directory something} --target-dir={directory something}`
+`kiwi-ng system build --description={directory value} --target-dir={directory value}`
 
 - Show build result of built appliance:
 
-`kiwi-ng result list --target-dir={directory something}`
+`kiwi-ng result list --target-dir={directory value}`
 
 - Display help:
 

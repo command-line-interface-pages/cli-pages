@@ -6,7 +6,7 @@
 
 - Display a cow saying "hello, world":
 
-`xcowsay "{any something}"`
+`xcowsay "{string value: hello, world}"`
 
 - Display a cow with output from another command:
 
@@ -14,11 +14,11 @@
 
 - Display a cow at the specified X and Y coordinates:
 
-`xcowsay --at={any something},{any something}`
+`xcowsay --at={string value: X},{string value: Y}`
 
 - Display a different sized cow:
 
-`xcowsay --cow-size={any something}`
+`xcowsay --cow-size={string value: small|med|large}`
 
 - Display a thought bubble instead of a speech bubble:
 
@@ -26,4 +26,4 @@
 
 - Display a different image instead of the default cow:
 
-`xcowsay --image={file something}`
+`xcowsay --image={file value}`

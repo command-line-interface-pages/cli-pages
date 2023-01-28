@@ -9,20 +9,20 @@
 
 - Create a new docker machine with specific name:
 
-`docker-machine create {any something}`
+`docker-machine create {string value: name}`
 
 - Get the status of a machine:
 
-`docker-machine status {any something}`
+`docker-machine status {string value: name}`
 
 - Start a machine:
 
-`docker-machine start {any something}`
+`docker-machine start {string value: name}`
 
 - Stop a machine:
 
-`docker-machine stop {any something}`
+`docker-machine stop {string value: name}`
 
 - Inspect information about a machine:
 
-`docker-machine inspect {any something}`
+`docker-machine inspect {string value: name}`

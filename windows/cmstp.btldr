@@ -5,32 +5,32 @@
 
 - Install a specific profile:
 
-`cmstp "{any something}"`
+`cmstp "{string value: path/to/profile}"`
 
 - Install without creating a desktop shortcut:
 
-`cmstp /ns "{any something}"`
+`cmstp /ns "{string value: path/to/profile}"`
 
 - Install without checking for dependencies:
 
-`cmstp /nf "{any something}"`
+`cmstp /nf "{string value: path/to/profile}"`
 
 - Only install for the current user:
 
-`cmstp /su "{any something}"`
+`cmstp /su "{string value: path/to/profile}"`
 
 - Install for all users (requires administrator privileges):
 
-`cmstp /au "{any something}"`
+`cmstp /au "{string value: path/to/profile}"`
 
 - Install silently without any prompts:
 
-`cmstp /s "{any something}"`
+`cmstp /s "{string value: path/to/profile}"`
 
 - Uninstall a specific profile:
 
-`cmstp /u "{any something}"`
+`cmstp /u "{string value: path/to/profile}"`
 
 - Uninstall silently without a confirmation prompt:
 
-`cmstp /u /s "{any something}"`
+`cmstp /u /s "{string value: path/to/profile}"`

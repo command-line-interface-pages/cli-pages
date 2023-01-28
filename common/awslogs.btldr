@@ -9,16 +9,16 @@
 
 - List existing streams for the specified group:
 
-`awslogs streams {any something}`
+`awslogs streams {string value: /var/log/syslog}`
 
 - Get logs for any streams in the specified group between 1 and 2 hours ago:
 
-`awslogs get {any something} --start='{any something}' --end='{any something}'`
+`awslogs get {string value: /var/log/syslog} --start='{string value: 2h ago}' --end='{string value: 1h ago}'`
 
 - Get logs that match a specific CloudWatch Logs Filter pattern:
 
-`awslogs get {any something} --filter-pattern='{any something}'`
+`awslogs get {string value: /aws/lambda/my_lambda_group} --filter-pattern='{string value: ERROR}'`
 
 - Watch logs for any streams in the specified group:
 
-`awslogs get {any something} ALL --watch`
+`awslogs get {string value: /var/log/syslog} ALL --watch`

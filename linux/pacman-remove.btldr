@@ -5,15 +5,15 @@
 
 - Remove a package and its dependencies:
 
-`sudo pacman --remove --recursive {any something}`
+`sudo pacman --remove --recursive {string value: package_name}`
 
 - Remove a package and both its dependencies and configuration files:
 
-`sudo pacman --remove --recursive --nosave {any something}`
+`sudo pacman --remove --recursive --nosave {string value: package_name}`
 
 - Remove a package without prompting:
 
-`sudo pacman --remove --noconfirm {any something}`
+`sudo pacman --remove --noconfirm {string value: package_name}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
@@ -21,11 +21,11 @@
 
 - Remove a package and all packages that depend on it:
 
-`sudo pacman --remove --cascade {any something}`
+`sudo pacman --remove --cascade {string value: package_name}`
 
 - List packages that would be affected (does not remove any packages):
 
-`pacman --remove --print {any something}`
+`pacman --remove --print {string value: package_name}`
 
 - Display help for this subcommand:
 

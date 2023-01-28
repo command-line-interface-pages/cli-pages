@@ -5,12 +5,12 @@
 
 - Serve a directory:
 
-`miniserve {directory something}`
+`miniserve {directory value}`
 
 - Serve a single file:
 
-`miniserve {file something}`
+`miniserve {file value}`
 
 - Serve a directory using HTTP basic authentication:
 
-`miniserve --auth {string user}:{any something} {directory something}`
+`miniserve --auth {string user}:{string value: password} {directory value}`

@@ -5,8 +5,8 @@
 
 - Build a Nix expression:
 
-`nix-build '<nixpkgs>' --attr {any something}`
+`nix-build '<nixpkgs>' --attr {string value: firefox}`
 
 - Build a sandboxed Nix expression (on non-NixOS):
 
-`nix-build '<nixpkgs>' --attr {any something} --option sandbox true`
+`nix-build '<nixpkgs>' --attr {string value: firefox} --option sandbox true`

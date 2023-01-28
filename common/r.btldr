@@ -17,16 +17,16 @@
 
 - Execute a file:
 
-`R -f {file something}`
+`R -f {file value: sample.R}`
 
 - Execute an R expression and then exit:
 
-`R -e {any something}`
+`R -e {string value: expr}`
 
 - Run R with a debugger:
 
-`R -d {any something}`
+`R -d {string value: debugger}`
 
 - Check R packages from package sources:
 
-`R CMD check {any something}`
+`R CMD check {string value: path/to/package_source}`

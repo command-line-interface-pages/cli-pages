@@ -10,15 +10,15 @@
 
 - Compile a single file:
 
-`ghc {file something}`
+`ghc {file value: sample.hs}`
 
 - Compile using extra optimization:
 
-`ghc -O {file something}`
+`ghc -O {file value: sample.hs}`
 
 - Stop compilation after generating object files (.o):
 
-`ghc -c {file something}`
+`ghc -c {file value: sample.hs}`
 
 - Start a REPL (interactive shell):
 
@@ -26,4 +26,4 @@
 
 - Evaluate a single expression:
 
-`ghc -e {any something}`
+`ghc -e {string value: expression}`

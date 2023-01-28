@@ -5,20 +5,20 @@
 
 - Trigger a run manually:
 
-`logrotate {any something} --force`
+`logrotate {string value: path/to/logrotate.conf} --force`
 
 - Run using a specific command to mail reports:
 
-`logrotate {any something} --mail {any something}`
+`logrotate {string value: path/to/logrotate.conf} --mail {string value: /usr/bin/mail_command}`
 
 - Run without using a state (lock) file:
 
-`logrotate {any something} --state /dev/null`
+`logrotate {string value: path/to/logrotate.conf} --state /dev/null`
 
 - Run and skip the state (lock) file check:
 
-`logrotate {any something} --skip-state-lock`
+`logrotate {string value: path/to/logrotate.conf} --skip-state-lock`
 
 - Tell `logrotate` to log verbose output into the log file:
 
-`logrotate {any something} --log {file something: log}`
+`logrotate {string value: path/to/logrotate.conf} --log {file value: log}`

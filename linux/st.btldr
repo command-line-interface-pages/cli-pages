@@ -9,16 +9,16 @@
 
 - Open a terminal with a specific title:
 
-`st -T {any something}`
+`st -T {string value: title}`
 
 - Open a terminal, execute a given command, and write the output to a file:
 
-`st -o {file something} -e {any something}`
+`st -o {file value} -e {string value: command argument1 argument2}`
 
 - Increase/decrease the font size:
 
-`Ctrl + Shift + {any something}`
+`Ctrl + Shift + {string value: Page Up|Page Down}`
 
 - Copy/paste from the clipboard:
 
-`Ctrl + Shift + {any something}`
+`Ctrl + Shift + {string value: C|V}`

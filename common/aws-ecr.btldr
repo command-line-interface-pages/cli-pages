@@ -5,32 +5,32 @@
 
 - Authenticate Docker with the default registry (username is AWS):
 
-`aws ecr get-login-password --region {any something} | {any something} --username AWS --password-stdin {any something}.dkr.ecr.{any something}.amazonaws.com`
+`aws ecr get-login-password --region {string value: region} | {string value: docker login} --username AWS --password-stdin {string value: aws_account_id}.dkr.ecr.{string value: region}.amazonaws.com`
 
 - Create a repository:
 
-`aws ecr create-repository --repository-name {any something} --image-scanning-configuration scanOnPush={any something} --region {any something}`
+`aws ecr create-repository --repository-name {string value: repository} --image-scanning-configuration scanOnPush={string value: true|false} --region {string value: region}`
 
 - Tag a local image for ECR:
 
-`docker tag {any something}:{any something} {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+`docker tag {string value: container_name}:{string value: tag} {string value: aws_account_id}.dkr.ecr.{string value: region}.amazonaws.com/{string value: container_name}:{string value: tag}`
 
 - Push an image to a repository:
 
-`docker push {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+`docker push {string value: aws_account_id}.dkr.ecr.{string value: region}.amazonaws.com/{string value: container_name}:{string value: tag}`
 
 - Pull an image from a repository:
 
-`docker pull {any something}.dkr.ecr.{any something}.amazonaws.com/{any something}:{any something}`
+`docker pull {string value: aws_account_id}.dkr.ecr.{string value: region}.amazonaws.com/{string value: container_name}:{string value: tag}`
 
 - Delete an image from a repository:
 
-`aws ecr batch-delete-image  --repository-name {any something} --image-ids imageTag={any something}`
+`aws ecr batch-delete-image  --repository-name {string value: repository} --image-ids imageTag={string value: latest}`
 
 - Delete a repository:
 
-`aws ecr delete-repository --repository-name {any something} --force`
+`aws ecr delete-repository --repository-name {string value: repository} --force`
 
 - List images within a repository:
 
-`aws ecr list-images --repository-name {any something}`
+`aws ecr list-images --repository-name {string value: repository}`

@@ -17,7 +17,7 @@
 
 - Query cached instance metadata for data:
 
-`cloud-init query {any something}`
+`cloud-init query {string value: dot_delimited_variable_path}`
 
 - Clean logs and artifacts to allow cloud-init to rerun:
 

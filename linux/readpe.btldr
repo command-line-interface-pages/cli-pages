@@ -5,24 +5,24 @@
 
 - Display all information about a PE file:
 
-`readpe {any something}`
+`readpe {string value: path/to/executable}`
 
 - Display all the headers present in a PE file:
 
-`readpe --all-headers {any something}`
+`readpe --all-headers {string value: path/to/executable}`
 
 - Display all the sections present in a PE file:
 
-`readpe --all-sections {any something}`
+`readpe --all-sections {string value: path/to/executable}`
 
 - Display a specific header from a PE file:
 
-`readpe --header {any something} {any something}`
+`readpe --header {string value: dos|coff|optional} {string value: path/to/executable}`
 
 - List all imported functions:
 
-`readpe --imports {any something}`
+`readpe --imports {string value: path/to/executable}`
 
 - List all exported functions:
 
-`readpe --exports {any something}`
+`readpe --exports {string value: path/to/executable}`

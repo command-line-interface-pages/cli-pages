@@ -5,15 +5,15 @@
 
 - Delete a specific S3 object:
 
-`aws s3 rm s3://{any something}/{file something}`
+`aws s3 rm s3://{string value: bucket_name}/{file value}`
 
 - Preview the deletion of a specific S3 object without deleting it (dry-run):
 
-`aws s3 rm s3://{any something}/{file something} --dryrun`
+`aws s3 rm s3://{string value: bucket_name}/{file value} --dryrun`
 
 - Delete an object from a specific S3 access point:
 
-`aws s3 rm s3://arn:aws:s3:{any something}:{any something}:{any something}/{any something}/{any something}`
+`aws s3 rm s3://arn:aws:s3:{string value: region}:{string value: account_id}:{string value: access_point}/{string value: access_point_name}/{string value: object_key}`
 
 - Display help:
 

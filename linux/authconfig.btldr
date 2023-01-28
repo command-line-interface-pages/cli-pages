@@ -9,7 +9,7 @@
 
 - Configure the server to use a different password hashing algorithm:
 
-`authconfig --update --passalgo={any something}`
+`authconfig --update --passalgo={string value: algorithm}`
 
 - Enable LDAP authentication:
 

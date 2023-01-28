@@ -6,20 +6,20 @@
 
 - Search for a package:
 
-`eix {any something}`
+`eix {string value: package_name}`
 
 - Search for installed packages:
 
-`eix --installed {any something}`
+`eix --installed {string value: package_name}`
 
 - Search in package descriptions:
 
-`eix --description "{any something}"`
+`eix --description "{string value: description}"`
 
 - Search by package license:
 
-`eix --license {any something}`
+`eix --license {string value: license}`
 
 - Exclude results from search:
 
-`eix --not --license {any something}`
+`eix --not --license {string value: license}`

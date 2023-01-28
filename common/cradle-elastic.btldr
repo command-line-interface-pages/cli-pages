@@ -9,7 +9,7 @@
 
 - Truncate the Elasticsearch index for a specific package:
 
-`cradle elastic flush {any something}`
+`cradle elastic flush {string value: package_name}`
 
 - Submit the Elasticsearch schema:
 
@@ -17,7 +17,7 @@
 
 - Submit the Elasticsearch schema for a specific package:
 
-`cradle elastic map {any something}`
+`cradle elastic map {string value: package_name}`
 
 - Populate the Elasticsearch indices for all packages:
 
@@ -25,4 +25,4 @@
 
 - Populate the Elasticsearch indices for a specific package:
 
-`cradle elastic populate {any something}`
+`cradle elastic populate {string value: package_name}`

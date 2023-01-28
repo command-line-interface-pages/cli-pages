@@ -13,8 +13,8 @@
 
 - Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged):
 
-`umask {any something}`
+`umask {string value: a+r}`
 
 - Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else:
 
-`umask {int number: 077}`
+`umask {int value: 077}`

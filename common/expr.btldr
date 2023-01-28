@@ -5,20 +5,20 @@
 
 - Get string length:
 
-`expr length {any something}`
+`expr length {string value: string}`
 
 - Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped:
 
-`expr {any something} {any something} {any something}`
+`expr {string value: first_argument} {string value: operator} {string value: second_argument}`
 
 - Get position of the first character in 'string' that matches 'substring':
 
-`echo $(expr index {any something} {any something})`
+`echo $(expr index {string value: string} {string value: substring})`
 
 - Extract part of the string:
 
-`echo $(expr substr {any something} {any something} {any something}`
+`echo $(expr substr {string value: string} {string value: position_to_start} {string value: number_of_characters}`
 
 - Extract part of the string which matches a regular expression:
 
-`echo $(expr {any something} : '\({any something}\)')`
+`echo $(expr {string value: string} : '\({string value: regular_expression}\)')`

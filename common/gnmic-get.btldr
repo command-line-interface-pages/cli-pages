@@ -5,16 +5,16 @@
 
 - Get a snapshot of the device state at a specific path:
 
-`gnmic --address {any something} get --path {any something}`
+`gnmic --address {string value: ip:port} get --path {string value: path}`
 
 - Query the device state at multiple paths:
 
-`gnmic -a {any something} get --path {any something} --path {any something}`
+`gnmic -a {string value: ip:port} get --path {string value: path1} --path {string value: path2}`
 
 - Query the device state at multiple paths with a common prefix:
 
-`gnmic -a {any something} get --prefix {any something} --path {any something} --path {any something}`
+`gnmic -a {string value: ip:port} get --prefix {string value: prefix} --path {string value: path1} --path {string value: path2}`
 
 - Query the device state and specify reponse encoding (json_ietf):
 
-`gnmic -a {any something} get --path {any something} --encoding json_ietf`
+`gnmic -a {string value: ip:port} get --path {string value: path} --encoding json_ietf`

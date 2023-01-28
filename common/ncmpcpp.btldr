@@ -5,7 +5,7 @@
 
 - Connect to a music player daemon on a given host and port:
 
-`ncmpcpp --host {string ip} --port {any something}`
+`ncmpcpp --host {string ip} --port {string value: port}`
 
 - Display metadata of the current song to console:
 
@@ -13,8 +13,8 @@
 
 - Use a specified configuration file:
 
-`ncmpcpp --config {file something}`
+`ncmpcpp --config {file value}`
 
 - Use a different set of key bindings from a file:
 
-`ncmpcpp --bindings {file something}`
+`ncmpcpp --bindings {file value}`

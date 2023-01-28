@@ -9,7 +9,7 @@
 
 - Print lines of code in the target directory:
 
-`loc {directory something}`
+`loc {directory value}`
 
 - Print lines of code with stats for individual files:
 

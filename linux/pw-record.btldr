@@ -9,12 +9,12 @@
 
 - Record a sample recording using the default target:
 
-`pw-record {file something}`
+`pw-record {file value: sample.wav}`
 
 - Record a sample recording at a different volume level:
 
-`pw-record --volume={float number: 0.1} {file something}`
+`pw-record --volume={float value: 0.1} {file value: sample.wav}`
 
 - Record a sample recording using a different sample rate:
 
-`pw-record --rate={int number: 6000} {file something}`
+`pw-record --rate={int value: 6000} {file value: sample.wav}`

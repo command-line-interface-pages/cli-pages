@@ -5,24 +5,24 @@
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
 
-`bzegrep "{any something}" {file something}`
+`bzegrep "{string value: search_pattern}" {file value}`
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-insensitive):
 
-`bzegrep --ignore-case "{any something}" {file something}`
+`bzegrep --ignore-case "{string value: search_pattern}" {file value}`
 
 - Search for lines that do not match a pattern:
 
-`bzegrep --invert-match "{any something}" {file something}`
+`bzegrep --invert-match "{string value: search_pattern}" {file value}`
 
 - Print file name and line number for each match:
 
-`bzegrep --with-filename --line-number "{any something}" {file something}`
+`bzegrep --with-filename --line-number "{string value: search_pattern}" {file value}`
 
 - Search for lines matching a pattern, printing only the matched text:
 
-`bzegrep --only-matching "{any something}" {file something}`
+`bzegrep --only-matching "{string value: search_pattern}" {file value}`
 
 - Recursively search files in a bzip2 compressed tar archive for a pattern:
 
-`bzegrep --recursive "{any something}" {file something}`
+`bzegrep --recursive "{string value: search_pattern}" {file value}`

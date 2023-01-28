@@ -13,7 +13,7 @@
 
 - Add all dotfiles except specified programs:
 
-`tuckr add \* -e {any something},{any something}`
+`tuckr add \* -e {string value: program1},{string value: program2}`
 
 - Remove all dotfiles from the system:
 
@@ -21,4 +21,4 @@
 
 - Add a program dotfile and run its setup script:
 
-`tuckr set {any something}`
+`tuckr set {string value: program}`

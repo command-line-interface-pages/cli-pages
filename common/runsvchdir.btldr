@@ -5,4 +5,4 @@
 
 - Switch `runsvdir` directories:
 
-`sudo runsvchdir {directory something}`
+`sudo runsvchdir {directory value}`

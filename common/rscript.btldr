@@ -5,15 +5,15 @@
 
 - Run a script:
 
-`Rscript {file something}`
+`Rscript {file value: sample.R}`
 
 - Run a script in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
-`Rscript --vanilla {file something}`
+`Rscript --vanilla {file value: sample.R}`
 
 - Execute one or more R expressions:
 
-`Rscript -e {any something} -e {any something}`
+`Rscript -e {string value: expression1} -e {string value: expression2}`
 
 - Display R version:
 

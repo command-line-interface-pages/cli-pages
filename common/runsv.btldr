@@ -5,8 +5,8 @@
 
 - Start a runit service as the current user:
 
-`runsv {any something}`
+`runsv {string value: path/to/service}`
 
 - Start a runit service as root:
 
-`sudo runsv {any something}`
+`sudo runsv {string value: path/to/service}`

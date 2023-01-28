@@ -18,7 +18,7 @@
 
 - Switch to a different branch:
 
-`sudo pacman-mirrors --api --set-branch {any something}`
+`sudo pacman-mirrors --api --set-branch {string value: stable|unstable|testing}`
 
 - Generate a mirrorlist, only using mirrors in your country:
 

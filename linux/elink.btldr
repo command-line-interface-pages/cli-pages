@@ -6,8 +6,8 @@
 
 - Search pubmed then find related sequences:
 
-`esearch -db pubmed -query "{any something}" | elink -target nuccore`
+`esearch -db pubmed -query "{string value: selective serotonin reuptake inhibitor}" | elink -target nuccore`
 
 - Search nucleotide then find related biosamples:
 
-`esearch -db nuccore -query "{any something}" | elink -target biosample`
+`esearch -db nuccore -query "{string value: insulin [PROT] AND rodents [ORGN]}" | elink -target biosample`

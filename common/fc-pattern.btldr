@@ -5,8 +5,8 @@
 
 - Display default information about a font:
 
-`fc-pattern --default '{any something}'`
+`fc-pattern --default '{string value: DejaVu Serif}'`
 
 - Display config information about a font:
 
-`fc-pattern --config '{any something}'`
+`fc-pattern --config '{string value: DejaVu Serif}'`

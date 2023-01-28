@@ -6,8 +6,8 @@
 
 - Change the group name:
 
-`sudo groupmod --new-name {any something} {string group}`
+`sudo groupmod --new-name {string value: new_group} {string group}`
 
 - Change the group id:
 
-`sudo groupmod --gid {any something} {string group}`
+`sudo groupmod --gid {string value: new_id} {string group}`

@@ -9,12 +9,12 @@
 
 - Change the lock screen background:
 
-`betterlockscreen -u {any something}`
+`betterlockscreen -u {string value: path/to/image.png}`
 
 - Lock the screen, showing some custom text:
 
-`betterlockscreen -l pixel -t "{any something}"`
+`betterlockscreen -l pixel -t "{string value: custom lock screen text}"`
 
 - Lock the screen, with a custom monitor off timeout in seconds:
 
-`betterlockscreen --off {int number: 5} -l`
+`betterlockscreen --off {int value: 5} -l`

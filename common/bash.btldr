@@ -14,20 +14,20 @@
 
 - Execute specific [c]ommands:
 
-`bash -c "{any something}"`
+`bash -c "{string value: echo 'bash is executed'}"`
 
 - Execute a specific script:
 
-`bash {any something}`
+`bash {string value: path/to/script.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`bash -x {any something}`
+`bash -x {string value: path/to/script.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`bash -e {any something}`
+`bash -e {string value: path/to/script.sh}`
 
 - Execute specific commands from stdin:
 
-`{any something} | bash`
+`{string value: echo "echo 'bash is executed'"} | bash`

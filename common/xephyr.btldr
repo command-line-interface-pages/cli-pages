@@ -5,8 +5,8 @@
 
 - Create a black window with display ID ":2":
 
-`Xephyr -br -ac -noreset -screen {any something} {any something}`
+`Xephyr -br -ac -noreset -screen {string value: 800x600} {string value: :2}`
 
 - Start an X application on the new screen:
 
-`DISPLAY=:2 {any something}`
+`DISPLAY=:2 {string value: command_name}`

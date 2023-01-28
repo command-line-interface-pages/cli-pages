@@ -5,7 +5,7 @@
 
 - Add a table to the list of staged tables (stage a table):
 
-`dolt add {any something}`
+`dolt add {string value: table}`
 
 - Stage all tables:
 

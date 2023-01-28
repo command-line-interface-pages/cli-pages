@@ -10,23 +10,23 @@
 
 - Execute specific [c]ommands:
 
-`zsh -c "{any something}"`
+`zsh -c "{string value: echo Hello world}"`
 
 - Execute a specific script:
 
-`zsh {any something}`
+`zsh {string value: path/to/script.zsh}`
 
 - Check a specific script for syntax errors without executing it:
 
-`zsh --no-exec {any something}`
+`zsh --no-exec {string value: path/to/script.zsh}`
 
 - Execute specific commands from stdin:
 
-`{any something} | zsh`
+`{string value: echo Hello world} | zsh`
 
 - Execute a specific script, printing each command in the script before executing it:
 
-`zsh --xtrace {any something}`
+`zsh --xtrace {string value: path/to/script.zsh}`
 
 - Start an interactive shell session in verbose mode, printing each command before executing it:
 
@@ -34,4 +34,4 @@
 
 - Execute a specific command inside `zsh` with disabled glob patterns:
 
-`noglob {any something}`
+`noglob {string value: command}`

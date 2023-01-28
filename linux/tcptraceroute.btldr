@@ -5,24 +5,24 @@
 
 - Trace the route to a host:
 
-`tcptraceroute {any something}`
+`tcptraceroute {string value: host}`
 
 - Specify the destination port and packet length in bytes:
 
-`tcptraceroute {any something} {any something} {any something}`
+`tcptraceroute {string value: host} {string value: destination_port} {string value: packet_length}`
 
 - Specify the local source port and source address:
 
-`tcptraceroute {any something} -p {any something} -s {any something}`
+`tcptraceroute {string value: host} -p {string value: source_port} -s {string value: source_address}`
 
 - Set the first and maximum TTL:
 
-`tcptraceroute {any something} -f {any something} -m {any something}`
+`tcptraceroute {string value: host} -f {string value: first_ttl} -m {string value: max_ttl}`
 
 - Specify the wait time and number of queries per hop:
 
-`tcptraceroute {any something} -w {any something} -q {any something}`
+`tcptraceroute {string value: host} -w {string value: wait_time} -q {string value: number_of_queries}`
 
 - Specify the interface:
 
-`tcptraceroute {any something} -i {any something}`
+`tcptraceroute {string value: host} -i {string value: interface}`

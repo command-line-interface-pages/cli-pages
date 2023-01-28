@@ -10,28 +10,28 @@
 
 - Sign `doc.txt` without encryption (writes output to `doc.txt.asc`):
 
-`gpg --clearsign {any something}`
+`gpg --clearsign {string value: doc.txt}`
 
 - Encrypt and sign `doc.txt` for alice@example.com and bob@example.com (output to `doc.txt.gpg`):
 
-`gpg --encrypt --sign --recipient {any something} --recipient {any something} {any something}`
+`gpg --encrypt --sign --recipient {string value: alice@example.com} --recipient {string value: bob@example.com} {string value: doc.txt}`
 
 - Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`):
 
-`gpg --symmetric {any something}`
+`gpg --symmetric {string value: doc.txt}`
 
 - Decrypt `doc.txt.gpg` (output to stdout):
 
-`gpg --decrypt {any something}`
+`gpg --decrypt {string value: doc.txt.gpg}`
 
 - Import a public key:
 
-`gpg --import {any something}`
+`gpg --import {string value: public.gpg}`
 
 - Export public key for alice@example.com (output to stdout):
 
-`gpg --export --armor {any something}`
+`gpg --export --armor {string value: alice@example.com}`
 
 - Export private key for alice@example.com (output to stdout):
 
-`gpg --export-secret-keys --armor {any something}`
+`gpg --export-secret-keys --armor {string value: alice@example.com}`

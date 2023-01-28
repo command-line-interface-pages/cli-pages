@@ -13,19 +13,19 @@
 
 - Permanently move the interface into the block zone, effectively blocking all communication:
 
-`firewall-cmd --permanent --zone={any something} --change-interface={any something}`
+`firewall-cmd --permanent --zone={string value: block} --change-interface={string value: enp1s0}`
 
 - Permanently open the port for a service in the specified zone (like port 443 when in the `public` zone):
 
-`firewall-cmd --permanent --zone={any something} --add-service={any something}`
+`firewall-cmd --permanent --zone={string value: public} --add-service={string value: https}`
 
 - Permanently close the port for a service in the specified zone (like port 80 when in the `public` zone):
 
-`firewall-cmd --permanent --zone={any something} --remove-service={any something}`
+`firewall-cmd --permanent --zone={string value: public} --remove-service={string value: http}`
 
 - Permanently open two arbitrary ports in the specified zone:
 
-`firewall-cmd --permanent --zone={any something} --add-port={any something} --add-port={any something}`
+`firewall-cmd --permanent --zone={string value: public} --add-port={string value: 25565/tcp} --add-port={string value: 19132/udp}`
 
 - Reload firewalld to force rule changes to take effect:
 

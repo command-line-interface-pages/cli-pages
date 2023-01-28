@@ -5,15 +5,15 @@
 
 - Print the package names of the dependencies that aren't installed:
 
-`pacman --deptest {any something} {any something}`
+`pacman --deptest {string value: package_name1} {string value: package_name2}`
 
 - Check if the installed package satisfies the given minimum version:
 
-`pacman --deptest "{any something}"`
+`pacman --deptest "{string value: bash>=5}"`
 
 - Check if a later version of a package is installed:
 
-`pacman --deptest "{any something}"`
+`pacman --deptest "{string value: bash>5}"`
 
 - Display help:
 

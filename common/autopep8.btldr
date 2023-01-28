@@ -5,16 +5,16 @@
 
 - Format a file to stdout, with a custom maximum line length:
 
-`autopep8 {file something} --max-line-length {any something}`
+`autopep8 {file value: sample.py} --max-line-length {string value: length}`
 
 - Format a file, displaying a diff of the changes:
 
-`autopep8 --diff {file something}`
+`autopep8 --diff {file value}`
 
 - Format a file in-place and save the changes:
 
-`autopep8 --in-place {file something}`
+`autopep8 --in-place {file value: sample.py}`
 
 - Recursively format all files in a directory in-place and save changes:
 
-`autopep8 --in-place --recursive {directory something}`
+`autopep8 --in-place --recursive {directory value}`

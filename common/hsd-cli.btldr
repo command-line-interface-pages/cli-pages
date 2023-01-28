@@ -9,7 +9,7 @@
 
 - Broadcast a local transaction:
 
-`hsd-cli broadcast {any something}`
+`hsd-cli broadcast {string value: transaction_hex}`
 
 - Retrieve a mempool snapshot:
 
@@ -17,20 +17,20 @@
 
 - View a transaction by address or hash:
 
-`hsd-cli tx {any something}`
+`hsd-cli tx {string value: address_or_hash}`
 
 - View a coin by its hash index or address:
 
-`hsd-cli coin {any something}`
+`hsd-cli coin {string value: hash_index_or_address}`
 
 - View a block by height or hash:
 
-`hsd-cli block {any something}`
+`hsd-cli block {string value: height_or_hash}`
 
 - Reset the chain to the specified block:
 
-`hsd-cli reset {any something}`
+`hsd-cli reset {string value: height_or_hash}`
 
 - Execute an RPC command:
 
-`hsd-cli rpc {any something} {any something}`
+`hsd-cli rpc {string value: command} {string value: args}`

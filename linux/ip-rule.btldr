@@ -5,23 +5,23 @@
 
 - Display the routing policy:
 
-`ip rule {any something}`
+`ip rule {string value: show|list}`
 
 - Add a new rule based on packet source addresses:
 
-`sudo ip rule add from {any something}`
+`sudo ip rule add from {string value: 192.168.178.2/32}`
 
 - Add a new rule based on packet destination addresses:
 
-`sudo ip rule add to {any something}`
+`sudo ip rule add to {string value: 192.168.178.2/32}`
 
 - Delete a rule based on packet source addresses:
 
-`sudo ip rule delete from {any something}`
+`sudo ip rule delete from {string value: 192.168.178.2/32}`
 
 - Delete a rule based on packet destination addresses:
 
-`sudo ip rule delete to {any something}`
+`sudo ip rule delete to {string value: 192.168.178.2/32}`
 
 - Flush all deleted rules:
 
@@ -29,8 +29,8 @@
 
 - Save all rules to a file:
 
-`ip rule save > {any something}`
+`ip rule save > {string value: path/to/ip_rules.dat}`
 
 - Restore all rules from a file:
 
-`ip rule restore < {any something}`
+`ip rule restore < {string value: path/to/ip_rules.dat}`

@@ -5,12 +5,12 @@
 
 - Uninstall a package:
 
-`pip uninstall {any something}`
+`pip uninstall {string value: package_name}`
 
 - Uninstall packages listed in a specific file:
 
-`pip uninstall --requirement {any something}`
+`pip uninstall --requirement {string value: path/to/requirements.txt}`
 
 - Uninstall package without asking for confirmation:
 
-`pip uninstall --yes {any something}`
+`pip uninstall --yes {string value: package_name}`

@@ -5,20 +5,20 @@
 
 - Get a running process' CPU affinity by PID:
 
-`taskset --pid --cpu-list {any something}`
+`taskset --pid --cpu-list {string value: pid}`
 
 - Set a running process' CPU affinity by PID:
 
-`taskset --pid --cpu-list {any something} {any something}`
+`taskset --pid --cpu-list {string value: cpu_id} {string value: pid}`
 
 - Start a new process with affinity for a single CPU:
 
-`taskset --cpu-list {any something} {any something}`
+`taskset --cpu-list {string value: cpu_id} {string value: command}`
 
 - Start a new process with affinity for multiple non-sequential CPUs:
 
-`taskset --cpu-list {any something},{any something},{any something}`
+`taskset --cpu-list {string value: cpu_id_1},{string value: cpu_id_2},{string value: cpu_id_3}`
 
 - Start a new process with affinity for CPUs 1 through 4:
 
-`taskset --cpu-list {any something}-{any something}`
+`taskset --cpu-list {string value: cpu_id_1}-{string value: cpu_id_4}`

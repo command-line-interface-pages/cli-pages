@@ -9,20 +9,20 @@
 
 - List information about a specific raster dataset:
 
-`gdalinfo {any something}`
+`gdalinfo {string value: path/to/input.tif}`
 
 - List information about a specific raster dataset in JSON format:
 
-`gdalinfo -json {any something}`
+`gdalinfo -json {string value: path/to/input.tif}`
 
 - Show histogram values of a specific raster dataset:
 
-`gdalinfo -hist {any something}`
+`gdalinfo -hist {string value: path/to/input.tif}`
 
 - List information about a Web Map Service (WMS):
 
-`gdalinfo WMS:{any something}`
+`gdalinfo WMS:{string value: https://services.meggsimum.de/geoserver/ows}`
 
 - List information about a specific dataset of a Web Map Service (WMS):
 
-`gdalinfo WMS:{any something} -sd {int number: 4}`
+`gdalinfo WMS:{string value: https://services.meggsimum.de/geoserver/ows} -sd {int value: 4}`

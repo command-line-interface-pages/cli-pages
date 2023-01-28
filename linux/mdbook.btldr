@@ -9,7 +9,7 @@
 
 - Create a mdbook project in a specific directory:
 
-`mdbook init {directory something}`
+`mdbook init {directory value}`
 
 - Clean the directory with the generated book:
 

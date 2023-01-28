@@ -9,15 +9,15 @@
 
 - Build Caddy server with a specific version (defaults to latest):
 
-`xcaddy build {any something}`
+`xcaddy build {string value: version}`
 
 - Build Caddy with a specific module:
 
-`xcaddy build --with {any something}`
+`xcaddy build --with {string value: module_name}`
 
 - Build Caddy and output to a specific file:
 
-`xcaddy build --output {file something}`
+`xcaddy build --output {file value}`
 
 - Build and run Caddy for a development plugin in the current directory:
 
@@ -25,4 +25,4 @@
 
 - Build and run Caddy for a development plugin using a specific Caddy config:
 
-`xcaddy run --config {file something}`
+`xcaddy run --config {file value}`

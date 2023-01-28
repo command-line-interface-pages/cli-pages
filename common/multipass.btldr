@@ -9,7 +9,7 @@
 
 - Launch a new instance, set its name and use a cloud-init configuration file:
 
-`multipass launch -n {any something} --cloud-init {file something: configuration}`
+`multipass launch -n {string value: instance_name} --cloud-init {file value: configuration}`
 
 - List all the created instances and some of their properties:
 
@@ -17,20 +17,20 @@
 
 - Start a specific instance by name:
 
-`multipass start {any something}`
+`multipass start {string value: instance_name}`
 
 - Show the properties of an instance:
 
-`multipass info {any something}`
+`multipass info {string value: instance_name}`
 
 - Open a shell prompt on a specific instance by name:
 
-`multipass shell {any something}`
+`multipass shell {string value: instance_name}`
 
 - Delete an instance by name:
 
-`multipass delete {any something}`
+`multipass delete {string value: instance_name}`
 
 - Mount a directory into a specific instance:
 
-`multipass mount {any something} {any something}:{any something}`
+`multipass mount {string value: path/to/local/directory} {string value: instance_name}:{string value: path/to/target/directory}`

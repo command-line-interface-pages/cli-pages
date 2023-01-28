@@ -9,11 +9,11 @@
 
 - Tell chezmoi to manage a dotfile:
 
-`chezmoi add {file something}`
+`chezmoi add {file value}`
 
 - Edit the source state of a tracked dotfile:
 
-`chezmoi edit {file something}`
+`chezmoi edit {file value}`
 
 - See changes chezmoi would make:
 
@@ -25,7 +25,7 @@
 
 - Set chezmoi up on another machine by downloading existing dotfiles from a Git repository:
 
-`chezmoi init {any something}`
+`chezmoi init {string value: https://example.com/path/to/repository.git}`
 
 - Fetch the latest changes from a remote repository:
 

@@ -21,7 +21,7 @@
 
 - Remove unused data created more than a specified amount of time in the past:
 
-`docker system prune --filter="until={any something}h{any something}m"`
+`docker system prune --filter="until={string value: hours}h{string value: minutes}m"`
 
 - Display real-time events from the Docker daemon:
 
@@ -29,7 +29,7 @@
 
 - Display real-time events from containers streamed as valid JSON Lines:
 
-`docker system events --filter 'type=container' --format '{any something}'`
+`docker system events --filter 'type=container' --format '{string value: json .}'`
 
 - Display system-wide information:
 

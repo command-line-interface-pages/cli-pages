@@ -10,12 +10,12 @@
 
 - Specify the domain to run a command in:
 
-`runcon -t {any something}_t {any something}`
+`runcon -t {string value: domain}_t {string value: command}`
 
 - Specify the context role to run a command with:
 
-`runcon -r {any something}_r {any something}`
+`runcon -r {string value: role}_r {string value: command}`
 
 - Specify the full context to run a command with:
 
-`runcon {any something}_u:{any something}_r:{any something}_t {any something}`
+`runcon {string value: user}_u:{string value: role}_r:{string value: domain}_t {string value: command}`

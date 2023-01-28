@@ -5,8 +5,8 @@
 
 - Generate a QR code:
 
-`echo "{any something}" | qr`
+`echo "{string value: data}" | qr`
 
 - Specify the error correction level (defaults to M):
 
-`echo "{any something}" | qr --error-correction={any something}`
+`echo "{string value: data}" | qr --error-correction={string value: L|M|Q|H}`

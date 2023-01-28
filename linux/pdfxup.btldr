@@ -6,12 +6,12 @@
 
 - Create a 2-up PDF:
 
-`pdfxup -o {any something} {any something}`
+`pdfxup -o {string value: path/to/output.pdf} {string value: path/to/input.pdf}`
 
 - Create a PDF with 3 columns and 2 lines per page:
 
-`pdfxup -x {int number: 3} -y {int number: 2} -o {any something} {any something}`
+`pdfxup -x {int value: 3} -y {int value: 2} -o {string value: path/to/output.pdf} {string value: path/to/input.pdf}`
 
 - Create a PDF in booklet mode (2-up, and pages are sorted to form a book when folded):
 
-`pdfxup -b -o {any something} {any something}`
+`pdfxup -b -o {string value: path/to/output.pdf} {string value: path/to/input.pdf}`

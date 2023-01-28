@@ -5,11 +5,11 @@
 
 - Search for videos on YouTube with thumbnail previews:
 
-`ytfzf --show-thumbnails {any something}`
+`ytfzf --show-thumbnails {string value: search_pattern}`
 
 - Play only the audio of the first item in a loop:
 
-`ytfzf --audio-only --auto-select --loop {any something}`
+`ytfzf --audio-only --auto-select --loop {string value: search_pattern}`
 
 - Download a video from the history:
 
@@ -17,12 +17,12 @@
 
 - Play all the music found in a search:
 
-`ytfzf --audio-only --select-all {any something}`
+`ytfzf --audio-only --select-all {string value: search_pattern}`
 
 - See the trending videos in an external menu:
 
-`ytfzf --trending --ext-menu {any something}`
+`ytfzf --trending --ext-menu {string value: search_pattern}`
 
 - Search on PeerTube instead of YouTube:
 
-`ytfzf --peertube {any something}`
+`ytfzf --peertube {string value: search_pattern}`

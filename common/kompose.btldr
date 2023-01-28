@@ -5,12 +5,12 @@
 
 - Deploy a dockerized application to Kubernetes:
 
-`kompose up -f {any something}`
+`kompose up -f {string value: docker-compose.yml}`
 
 - Delete instantiated services/deployments from Kubernetes:
 
-`kompose down -f {any something}`
+`kompose down -f {string value: docker-compose.yml}`
 
 - Convert a docker-compose file into Kubernetes resources file:
 
-`kompose convert -f {any something}`
+`kompose convert -f {string value: docker-compose.yml}`

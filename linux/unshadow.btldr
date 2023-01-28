@@ -9,4 +9,4 @@
 
 - Combine two arbitrary shadow and password files:
 
-`sudo unshadow {any something} {any something}`
+`sudo unshadow {string value: path/to/passwd} {string value: path/to/shadow}`

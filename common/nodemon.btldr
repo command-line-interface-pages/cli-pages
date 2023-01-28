@@ -5,7 +5,7 @@
 
 - Execute the specified file and watch a specific file for changes:
 
-`nodemon {file something}`
+`nodemon {file value: sample.js}`
 
 - Manually restart nodemon (note nodemon must already be active for this to work):
 
@@ -13,20 +13,20 @@
 
 - Ignore specific files:
 
-`nodemon --ignore {file something|path something}`
+`nodemon --ignore {path value}`
 
 - Pass arguments to the node application:
 
-`nodemon {file something} {any something}`
+`nodemon {file value: sample.js} {string value: arguments}`
 
 - Pass arguments to node itself if they're not nodemon arguments already (e.g. `--inspect`):
 
-`nodemon {any something} {file something}`
+`nodemon {string value: arguments} {file value: sample.js}`
 
 - Run an arbitrary non-node script:
 
-`nodemon --exec "{any something} {any something}" {any something}`
+`nodemon --exec "{string value: command_to_run_script} {string value: options}" {string value: path/to/script}`
 
 - Run a Python script:
 
-`nodemon --exec "python {any something}" {file something}`
+`nodemon --exec "python {string value: options}" {file value: sample.py}`

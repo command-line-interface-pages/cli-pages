@@ -5,11 +5,11 @@
 
 - Play the specified mp3 files:
 
-`mpg123 {any something}`
+`mpg123 {file* value: sample.mp3}`
 
 - Play the mp3 from stdin:
 
-`cat {file something} | mpg123 -`
+`cat {file value: sample.mp3} | mpg123 -`
 
 - Jump forward to the next song:
 

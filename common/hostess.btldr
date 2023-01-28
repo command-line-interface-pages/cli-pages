@@ -9,12 +9,12 @@
 
 - Add a domain pointing to your machine to your hosts file:
 
-`hostess add {any something} {any something}`
+`hostess add {string value: local.example.com} {string value: 127.0.0.1}`
 
 - Remove a domain from your hosts file:
 
-`hostess del {any something}`
+`hostess del {string value: local.example.com}`
 
 - Disable a domain (but don't remove it):
 
-`hostess off {any something}`
+`hostess off {string value: local.example.com}`

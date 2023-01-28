@@ -5,15 +5,15 @@
 
 - Visit a website:
 
-`links {any something}`
+`links {string value: https://example.com}`
 
 - Apply restrictions for anonymous account:
 
-`links -anonymous {any something}`
+`links -anonymous {string value: https://example.com}`
 
 - Enable Cookies (`1` to enable):
 
-`links -enable-cookies {any something} {any something}`
+`links -enable-cookies {string value: 0|1} {string value: https://example.com}`
 
 - Navigate forwards and backwards through the links on a page:
 

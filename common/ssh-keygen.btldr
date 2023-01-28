@@ -9,28 +9,28 @@
 
 - Specify file in which to save the key:
 
-`ssh-keygen -f {any something}`
+`ssh-keygen -f {string value: ~/.ssh/filename}`
 
 - Generate an ed25519 key with 100 key derivation function rounds:
 
-`ssh-keygen -t {any something} -a {int number: 100}`
+`ssh-keygen -t {string value: ed25519} -a {int value: 100}`
 
 - Generate an RSA 4096-bit key with email as a comment:
 
-`ssh-keygen -t {any something} -b {int number: 4096} -C "{any something}"`
+`ssh-keygen -t {string value: dsa|ecdsa|ed25519|rsa} -b {int value: 4096} -C "{string value: comment|email}"`
 
 - Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
-`ssh-keygen -R {any something}`
+`ssh-keygen -R {string value: remote_host}`
 
 - Retrieve the fingerprint of a key in MD5 Hex:
 
-`ssh-keygen -l -E {any something} -f {any something}`
+`ssh-keygen -l -E {string value: md5} -f {string value: ~/.ssh/filename}`
 
 - Change the password of a key:
 
-`ssh-keygen -p -f {any something}`
+`ssh-keygen -p -f {string value: ~/.ssh/filename}`
 
 - Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
 
-`ssh-keygen -p -N "" -m {any something} -f {any something}`
+`ssh-keygen -p -N "" -m {string value: PEM} -f {string value: ~/.ssh/OpenSSH_private_key}`

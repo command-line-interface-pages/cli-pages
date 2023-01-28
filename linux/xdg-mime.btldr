@@ -5,16 +5,16 @@
 
 - Display the MIME type of a file:
 
-`xdg-mime query filetype {file something}`
+`xdg-mime query filetype {file value}`
 
 - Display the default application for opening PNGs:
 
-`xdg-mime query default {any something}`
+`xdg-mime query default {string value: image/png}`
 
 - Display the default application for opening a specific file:
 
-`xdg-mime query default $(xdg-mime query filetype {file something})`
+`xdg-mime query default $(xdg-mime query filetype {file value})`
 
 - Set imv as the default application for opening PNG and JPEG images:
 
-`xdg-mime default {any something} {any something} {any something}`
+`xdg-mime default {string value: imv.desktop} {string value: image/png} {string value: image/jpeg}`

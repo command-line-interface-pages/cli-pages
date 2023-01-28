@@ -9,8 +9,8 @@
 
 - Add route rule:
 
-`sudo route add -net {any something} netmask {any something} gw {any something}`
+`sudo route add -net {string value: ip_address} netmask {string value: netmask_address} gw {string value: gw_address}`
 
 - Delete route rule:
 
-`sudo route del -net {any something} netmask {any something} dev {any something}`
+`sudo route del -net {string value: ip_address} netmask {string value: netmask_address} dev {string value: gw_address}`

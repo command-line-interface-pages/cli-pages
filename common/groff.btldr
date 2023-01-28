@@ -5,20 +5,20 @@
 
 - Format output for a PostScript printer, saving the output to a file:
 
-`groff {any something} > {any something}`
+`groff {string value: path/to/input.roff} > {string value: path/to/output.ps}`
 
 - Render a man page using the ASCII output device, and display it using a pager:
 
-`groff -man -T ascii {any something} | less --RAW-CONTROL-CHARS`
+`groff -man -T ascii {string value: path/to/manpage.1} | less --RAW-CONTROL-CHARS`
 
 - Render a man page into an HTML file:
 
-`groff -man -T html {any something} > {any something}`
+`groff -man -T html {string value: path/to/manpage.1} > {string value: path/to/manpage.html}`
 
 - Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
 
-`groff {any something} {any something} -{any something} -T {any something} {any something} > {any something}`
+`groff {string value: -t} {string value: -p} -{string value: me} -T {string value: pdf} {string value: path/to/input.me} > {string value: path/to/output.pdf}`
 
 - Run a `groff` command with preprocessor and macro options guessed by the `grog` utility:
 
-`eval "$(grog -T utf8 {any something})"`
+`eval "$(grog -T utf8 {string value: path/to/input.me})"`

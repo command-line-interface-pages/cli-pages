@@ -13,7 +13,7 @@
 
 - Read a Funtoo wiki page by name:
 
-`ego doc {any something}`
+`ego doc {string value: wiki_page}`
 
 - Print current profile:
 
@@ -21,8 +21,8 @@
 
 - Enable/Disable mix-ins:
 
-`ego profile mix-in +{any something} -{any something}`
+`ego profile mix-in +{string value: gnome} -{string value: kde-plasma-5}`
 
 - Query Funtoo bugs, related to a specified package:
 
-`ego query bug {any something}`
+`ego query bug {string value: package}`

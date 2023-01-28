@@ -9,28 +9,28 @@
 
 - Show information about a given commit:
 
-`git show {any something}`
+`git show {string value: commit}`
 
 - Show information about the commit associated with a given tag:
 
-`git show {any something}`
+`git show {string value: tag}`
 
 - Show information about the 3rd commit from the HEAD of a branch:
 
-`git show {any something}~{int number: 3}`
+`git show {string value: branch}~{int value: 3}`
 
 - Show a commit's message in a single line, suppressing the diff output:
 
-`git show --oneline -s {any something}`
+`git show --oneline -s {string value: commit}`
 
 - Show only statistics (added/removed characters) about the changed files:
 
-`git show --stat {any something}`
+`git show --stat {string value: commit}`
 
 - Show only the list of added, renamed or deleted files:
 
-`git show --summary {any something}`
+`git show --summary {string value: commit}`
 
 - Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
 
-`git show {any something}:{file something}`
+`git show {string value: revision}:{file value}`

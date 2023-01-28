@@ -5,20 +5,20 @@
 
 - Print a text message. Note: quotes are optional:
 
-`echo "{any something}"`
+`echo "{string value: Hello World}"`
 
 - Print a message with environment variables:
 
-`echo "{any something}"`
+`echo "{string value: My path is $PATH}"`
 
 - Print a message without the trailing newline:
 
-`echo -n "{any something}"`
+`echo -n "{string value: Hello World}"`
 
 - Append a message to the file:
 
-`echo "{any something}" >> {file something}`
+`echo "{string value: Hello World}" >> {file value: sample.txt}`
 
 - Enable interpretation of backslash escapes (special characters):
 
-`echo -e "{any something}"`
+`echo -e "{string value: Column 1\tColumn 2}"`

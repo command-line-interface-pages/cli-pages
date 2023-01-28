@@ -5,19 +5,19 @@
 
 - Search the package database for a package name:
 
-`pacstall --search {any something}`
+`pacstall --search {string value: package_name}`
 
 - Install a package:
 
-`pacstall --install {any something}`
+`pacstall --install {string value: package_name}`
 
 - Remove a package:
 
-`pacstall --remove {any something}`
+`pacstall --remove {string value: package_name}`
 
 - Add a repository to the database (only GitHub and GitLab are supported):
 
-`pacstall --add-repo {any something}`
+`pacstall --add-repo {string value: remote_repository_location}`
 
 - Update pacstall's scripts:
 
@@ -29,7 +29,7 @@
 
 - Display information about a package:
 
-`pacstall --query-info {any something}`
+`pacstall --query-info {string value: package_name}`
 
 - List all installed packages:
 

@@ -9,8 +9,8 @@
 
 - Run a JavaScript file:
 
-`d8 {file something}`
+`d8 {file value: sample.js}`
 
 - Evaluate a JavaScript expression:
 
-`d8 -e "{any something}`
+`d8 -e "{string value: code}`

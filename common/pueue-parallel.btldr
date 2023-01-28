@@ -5,8 +5,8 @@
 
 - Set the maximum number of tasks allowed to run in parallel, in the default group:
 
-`pueue parallel {any something}`
+`pueue parallel {string value: max_number_of_parallel_tasks}`
 
 - Set the maximum number of tasks allowed to run in parallel, in a specific group:
 
-`pueue parallel --group {string group} {any something}`
+`pueue parallel --group {string group} {string value: maximum_number_of_parallel_tasks}`

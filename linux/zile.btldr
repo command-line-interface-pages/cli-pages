@@ -9,7 +9,7 @@
 
 - Open a file:
 
-`zile {file something}`
+`zile {file value}`
 
 - Save a file:
 
@@ -21,7 +21,7 @@
 
 - Open a file at a specified line number:
 
-`zile +{any something} {file something}`
+`zile +{string value: line_number} {file value}`
 
 - Undo changes:
 

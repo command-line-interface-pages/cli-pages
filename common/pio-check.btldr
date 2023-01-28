@@ -9,15 +9,15 @@
 
 - Perform a basic analysis check on a specific project:
 
-`pio check --project-dir {any something}`
+`pio check --project-dir {string value: project_dir}`
 
 - Perform an analysis check for a specific environment:
 
-`pio check --environment {any something}`
+`pio check --environment {string value: environment}`
 
 - Perform an analysis check and only report a specified defect severity type:
 
-`pio check --severity {any something}`
+`pio check --severity {string value: low|medium|high}`
 
 - Perform an analysis check and show detailed information when processing environments:
 

@@ -5,4 +5,4 @@
 
 - Update packages to use new APIs:
 
-`go fix {any something}`
+`go fix {string value: packages}`

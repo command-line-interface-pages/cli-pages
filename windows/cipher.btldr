@@ -5,16 +5,16 @@
 
 - Display information about a specific encrypted file or directory:
 
-`cipher /c:{file something|path something}`
+`cipher /c:{path value}`
 
 - [e]ncrypt a file or directory (files added later to the directory are also encrypted as the directory is marked):
 
-`cipher /e:{file something|path something}`
+`cipher /e:{path value}`
 
 - [d]ecrypt a file or directory:
 
-`cipher /d:{file something|path something}`
+`cipher /d:{path value}`
 
 - Securely remove a file or directory:
 
-`cipher /w:{file something|path something}`
+`cipher /w:{path value}`

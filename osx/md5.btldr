@@ -5,16 +5,16 @@
 
 - Calculate the MD5 checksum for a file:
 
-`md5 {any something}`
+`md5 {file value}`
 
 - Calculate MD5 checksums for multiple files:
 
-`md5 {any something} {any something}`
+`md5 {string value: filename1} {string value: filename2}`
 
 - Output only the md5 checksum (no filename):
 
-`md5 -q {any something}`
+`md5 -q {file value}`
 
 - Print a checksum of the given string:
 
-`md5 -s "{any something}"`
+`md5 -s "{string value: string}"`

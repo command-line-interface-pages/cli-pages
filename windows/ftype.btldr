@@ -9,8 +9,8 @@
 
 - Display the associated program for a specific file type:
 
-`ftype {any something}`
+`ftype {string value: file_type}`
 
 - Set the associated program for a specific file type:
 
-`ftype {any something}="{any something}"`
+`ftype {string value: file_type}="{string value: path/to/executable_command}"`

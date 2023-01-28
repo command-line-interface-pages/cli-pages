@@ -5,20 +5,20 @@
 
 - Convert `filename.pdf` to plain text and print it to stdout:
 
-`pdftotext {any something} -`
+`pdftotext {file value: sample.pdf} -`
 
 - Convert `filename.pdf` to plain text and save it as `filename.txt`:
 
-`pdftotext {any something}`
+`pdftotext {file value: sample.pdf}`
 
 - Convert `filename.pdf` to plain text and preserve the layout:
 
-`pdftotext -layout {any something}`
+`pdftotext -layout {file value: sample.pdf}`
 
 - Convert `input.pdf` to plain text and save it as `output.txt`:
 
-`pdftotext {any something} {any something}`
+`pdftotext {string value: input.pdf} {string value: output.txt}`
 
 - Convert pages 2, 3 and 4 of `input.pdf` to plain text and save them as `output.txt`:
 
-`pdftotext -f {int number: 2} -l {int number: 4} {any something} {any something}`
+`pdftotext -f {int value: 2} -l {int value: 4} {string value: input.pdf} {string value: output.txt}`

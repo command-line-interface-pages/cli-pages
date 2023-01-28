@@ -5,4 +5,4 @@
 
 - Print the status of a specific PID:
 
-`qm guest exec-status {any something} {any something}`
+`qm guest exec-status {string value: vm_id} {string value: pid}`

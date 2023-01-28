@@ -5,24 +5,24 @@
 
 - Compile a TypeScript file `foobar.ts` into a JavaScript file `foobar.js`:
 
-`tsc {any something}`
+`tsc {string value: foobar.ts}`
 
 - Compile a TypeScript file into JavaScript using a specific target syntax (default is `ES3`):
 
-`tsc --target {any something} {any something}`
+`tsc --target {string value: ES5|ES2015|ES2016|ES2017|ES2018|ESNEXT} {string value: foobar.ts}`
 
 - Compile a TypeScript file into a JavaScript file with a custom name:
 
-`tsc --outFile {any something} {any something}`
+`tsc --outFile {string value: output.js} {string value: input.ts}`
 
 - Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file:
 
-`tsc --build {any something}`
+`tsc --build {string value: tsconfig.json}`
 
 - Run the compiler using command-line options and arguments fetched from a text file:
 
-`tsc @{any something}`
+`tsc @{string value: args.txt}`
 
 - Type-check multiple JavaScript files, and output only the errors:
 
-`tsc --allowJs --checkJs --noEmit {any something}`
+`tsc --allowJs --checkJs --noEmit {string value: src/**/*.js}`

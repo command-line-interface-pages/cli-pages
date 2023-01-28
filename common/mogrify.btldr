@@ -6,20 +6,20 @@
 
 - Resize all JPEG images in the directory to 50% of their initial size:
 
-`mogrify -resize {any something} {any something}`
+`mogrify -resize {string value: 50%} {string value: *.jpg}`
 
 - Resize all images starting with "DSC" to 800x600:
 
-`mogrify -resize {any something} {any something}`
+`mogrify -resize {string value: 800x600} {string value: DSC*}`
 
 - Convert all PNGs in the directory to JPEG:
 
-`mogrify -format {any something} {any something}`
+`mogrify -format {string value: jpg} {string value: *.png}`
 
 - Halve the saturation of all image files in the current directory:
 
-`mogrify -modulate {any something} {any something}`
+`mogrify -modulate {string value: 100,50} {string value: *}`
 
 - Double the brightness of all image files in the current directory:
 
-`mogrify -modulate {int number: 200} {any something}`
+`mogrify -modulate {int value: 200} {string value: *}`

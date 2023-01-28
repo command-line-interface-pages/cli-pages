@@ -5,16 +5,16 @@
 
 - Search for all available versions of a particular package:
 
-`mamba repoquery search {any something}`
+`mamba repoquery search {string value: package_name}`
 
 - Search for all packages satisfying specific constraints:
 
-`mamba repoquery search {any something}`
+`mamba repoquery search {string value: sphinx<5}`
 
 - List the dependencies of a package installed in the currently activated environment, in a tree format:
 
-`mamba repoquery depends --tree {any something}`
+`mamba repoquery depends --tree {string value: scipy}`
 
 - Print packages in the current environment that require a particular package to be installed (i.e. inverse of `depends`):
 
-`mamba repoquery whoneeds {any something}`
+`mamba repoquery whoneeds {string value: ipython}`

@@ -9,4 +9,4 @@
 
 - Print the completion options for given command:
 
-`compopt {any something}`
+`compopt {string value: command}`

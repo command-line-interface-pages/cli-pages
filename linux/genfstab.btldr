@@ -5,16 +5,16 @@
 
 - Display an fstab compatible output based on a volume label:
 
-`genfstab -L {any something}`
+`genfstab -L {string value: path/to/mount_point}`
 
 - Display an fstab compatible output based on a volume UUID:
 
-`genfstab -U {any something}`
+`genfstab -U {string value: path/to/mount_point}`
 
 - A usual way to generate an fstab file, requires root permissions:
 
-`genfstab -U {any something} >> {any something}`
+`genfstab -U {string value: /mnt} >> {string value: /mnt/etc/fstab}`
 
 - Append a volume into an fstab file to mount it automatically:
 
-`genfstab -U {any something} | sudo tee -a /etc/fstab`
+`genfstab -U {string value: path/to/mount_point} | sudo tee -a /etc/fstab`

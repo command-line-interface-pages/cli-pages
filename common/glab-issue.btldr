@@ -5,11 +5,11 @@
 
 - Display a specific issue:
 
-`glab issue view {any something}`
+`glab issue view {string value: issue_number}`
 
 - Display a specific issue in the default web browser:
 
-`glab issue view {any something} --web`
+`glab issue view {string value: issue_number} --web`
 
 - Create a new issue in the default web browser:
 
@@ -17,7 +17,7 @@
 
 - List the last 10 issues with the `bug` label:
 
-`glab issue list --per-page {int number: 10} --label "{any something}"`
+`glab issue list --per-page {int value: 10} --label "{string value: bug}"`
 
 - List closed issues made by a specific user:
 
@@ -25,4 +25,4 @@
 
 - Reopen a specific issue:
 
-`glab issue reopen {any something}`
+`glab issue reopen {string value: issue_number}`

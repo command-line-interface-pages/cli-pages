@@ -13,8 +13,8 @@
 
 - Set policy to define which network interface(s) is/are displayed:
 
-`bmon -p {any something}`
+`bmon -p {string value: interface_1,interface_2,interface_3}`
 
 - Set interval (in seconds) in which rate per counter is calculated:
 
-`bmon -R {float number: 2.0}`
+`bmon -R {float value: 2.0}`

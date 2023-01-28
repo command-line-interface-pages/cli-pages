@@ -5,20 +5,20 @@
 
 - Display all bookmarks matching "keyword" and with "privacy" tag:
 
-`buku {any something} --stag {any something}`
+`buku {string value: keyword} --stag {string value: privacy}`
 
 - Add bookmark with tags "search engine" and "privacy":
 
-`buku --add {any something} {any something}, {any something}`
+`buku --add {string value: https://example.com} {string value: search engine}, {string value: privacy}`
 
 - Delete a bookmark:
 
-`buku --delete {any something}`
+`buku --delete {string value: bookmark_id}`
 
 - Open editor to edit a bookmark:
 
-`buku --write {any something}`
+`buku --write {string value: bookmark_id}`
 
 - Remove "search engine" tag from a bookmark:
 
-`buku --update {any something} --tag {any something} {any something}`
+`buku --update {string value: bookmark_id} --tag {string value: -} {string value: search engine}`

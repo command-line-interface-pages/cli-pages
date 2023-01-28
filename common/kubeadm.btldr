@@ -9,11 +9,11 @@
 
 - Bootstrap a Kubernetes worker node and join it to a cluster:
 
-`kubeadm join --token {any something}`
+`kubeadm join --token {string value: token}`
 
 - Create a new bootstrap token with a TTL of 12 hours:
 
-`kubeadm token create --ttl {any something}`
+`kubeadm token create --ttl {string value: 12h0m0s}`
 
 - Check if the Kubernetes cluster is upgradeable and which versions are available:
 
@@ -21,7 +21,7 @@
 
 - Upgrade Kubernetes cluster to a specified version:
 
-`kubeadm upgrade apply {any something}`
+`kubeadm upgrade apply {string value: version}`
 
 - View the kubeadm ConfigMap containing the cluster's configuration:
 

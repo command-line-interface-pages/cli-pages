@@ -5,11 +5,11 @@
 
 - Get the commit hash of a branch:
 
-`git rev-parse {any something}`
+`git rev-parse {string value: branch_name}`
 
 - Get the current branch name:
 
-`git rev-parse --abbrev-ref {any something}`
+`git rev-parse --abbrev-ref {string value: HEAD}`
 
 - Get the absolute path to the root directory:
 

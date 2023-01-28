@@ -5,31 +5,31 @@
 
 - Connect to a remote FTP server interactively:
 
-`ftp {any something}`
+`ftp {string value: host}`
 
 - Log in as an anonymous user:
 
-`ftp -A {any something}`
+`ftp -A {string value: host}`
 
 - Disable automatic login upon initial connection:
 
-`ftp -n {any something}`
+`ftp -n {string value: host}`
 
 - Run a file containing a list of FTP commands:
 
-`ftp -s:{file something} {any something}`
+`ftp -s:{file value} {string value: host}`
 
 - Download multiple files (glob expression):
 
-`mget {any something}`
+`mget {string value: *.png}`
 
 - Upload multiple files (glob expression):
 
-`mput {any something}`
+`mput {string value: *.zip}`
 
 - Delete multiple files on the remote server:
 
-`mdelete {any something}`
+`mdelete {string value: *.txt}`
 
 - Display detailed help:
 

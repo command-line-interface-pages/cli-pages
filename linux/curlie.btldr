@@ -5,16 +5,16 @@
 
 - Send a GET request:
 
-`curlie {any something}`
+`curlie {string value: httpbin.org/get}`
 
 - Send a POST request:
 
-`curlie post {any something} {any something} {any something}`
+`curlie post {string value: httpbin.org/post} {string value: name=john} {string value: age:=25}`
 
 - Send a GET request with query parameters (e.g. `first_param=5&second_param=true`):
 
-`curlie get {any something} {any something} {any something}`
+`curlie get {string value: httpbin.org/get} {string value: first_param==5} {string value: second_param==true}`
 
 - Send a GET request with a custom header:
 
-`curlie get {any something} {any something}`
+`curlie get {string value: httpbin.org/get} {string value: header-name:header-value}`

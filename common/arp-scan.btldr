@@ -9,12 +9,12 @@
 
 - Scan an IP network with a custom bitmask:
 
-`arp-scan {any something}/{int number: 24}`
+`arp-scan {string value: 192.168.1.1}/{int value: 24}`
 
 - Scan an IP network within a custom range:
 
-`arp-scan {any something}-{any something}`
+`arp-scan {string value: 127.0.0.0}-{string value: 127.0.0.31}`
 
 - Scan an IP network with a custom net mask:
 
-`arp-scan {any something}:{any something}`
+`arp-scan {string value: 10.0.0.0}:{string value: 255.255.255.0}`

@@ -29,8 +29,8 @@
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {any something} {/file something}`
+`loadkeys --console {string value: /dev/ttyN} {/file value}`
 
 - Use standard names for keymaps of different locales:
 
-`loadkeys --console {any something} {any something}`
+`loadkeys --console {string value: /dev/ttyN} {string value: uk}`

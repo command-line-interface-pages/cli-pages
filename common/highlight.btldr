@@ -5,20 +5,20 @@
 
 - Produce a complete HTML document from a source code file:
 
-`highlight --out-format={any something} --style {any something} --syntax {any something} {any something}`
+`highlight --out-format={string value: html} --style {string value: theme_name} --syntax {string value: language} {string value: path/to/source_code}`
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
-`highlight --out-format={any something} --fragment --syntax {any something} {file something: source}`
+`highlight --out-format={string value: html} --fragment --syntax {string value: language} {file value: source}`
 
 - Inline the CSS styling in every tag:
 
-`highlight --out-format={any something} --inline-css --syntax {any something} {file something: source}`
+`highlight --out-format={string value: html} --inline-css --syntax {string value: language} {file value: source}`
 
 - List all supported languages, themes, or plugins:
 
-`highlight --list-scripts {any something}`
+`highlight --list-scripts {string value: langs|themes|plugins}`
 
 - Print a CSS stylesheet for a theme:
 
-`highlight --out-format={any something} --print-style --style {any something} --syntax {any something}] --stdout`
+`highlight --out-format={string value: html} --print-style --style {string value: theme_name} --syntax {string value: language}] --stdout`

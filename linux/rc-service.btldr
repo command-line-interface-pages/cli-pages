@@ -6,28 +6,28 @@
 
 - Show a service's status:
 
-`rc-service {any something} status`
+`rc-service {string value: service_name} status`
 
 - Start a service:
 
-`sudo rc-service {any something} start`
+`sudo rc-service {string value: service_name} start`
 
 - Stop a service:
 
-`sudo rc-service {any something} stop`
+`sudo rc-service {string value: service_name} stop`
 
 - Restart a service:
 
-`sudo rc-service {any something} restart`
+`sudo rc-service {string value: service_name} restart`
 
 - Simulate running a service's custom command:
 
-`sudo rc-service --dry-run {any something} {any something}`
+`sudo rc-service --dry-run {string value: service_name} {string value: command_name}`
 
 - Actually run a service's custom command:
 
-`sudo rc-service {any something} {any something}`
+`sudo rc-service {string value: service_name} {string value: command_name}`
 
 - Resolve the location of a service definition on disk:
 
-`sudo rc-service --resolve {any something}`
+`sudo rc-service --resolve {string value: service_name}`

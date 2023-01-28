@@ -6,32 +6,32 @@
 
 - Save RAW data from a frequency (specified in Hz) to a file:
 
-`rtl_sdr -f {int number: 100000000} {file something}`
+`rtl_sdr -f {int value: 100000000} {file value}`
 
 - Pipe data to another program:
 
-`rtl_sdr -f {int number: 100000000} - | {any something}`
+`rtl_sdr -f {int value: 100000000} - | {string value: aplay}`
 
 - Read a specified number of samples:
 
-`rtl_sdr -f {int number: 100000000} -n {int number: 20} -`
+`rtl_sdr -f {int value: 100000000} -n {int value: 20} -`
 
 - Specify the sample rate in Hz (ranges 225001-300000 and 900001-3200000):
 
-`rtl_sdr -f {int number: 100000000} -s {int number: 2400000} -`
+`rtl_sdr -f {int value: 100000000} -s {int value: 2400000} -`
 
 - Specify the device by its index:
 
-`rtl_sdr -f {int number: 100000000} -d {int number: 0} -`
+`rtl_sdr -f {int value: 100000000} -d {int value: 0} -`
 
 - Specify the gain:
 
-`rtl_sdr -f {int number: 100000000} -g {int number: 20} -`
+`rtl_sdr -f {int value: 100000000} -g {int value: 20} -`
 
 - Specify the output block size:
 
-`rtl_sdr -f {int number: 100000000} -b {int number: 9999999} -`
+`rtl_sdr -f {int value: 100000000} -b {int value: 9999999} -`
 
 - Use synchronous output:
 
-`rtl_sdr -f {int number: 100000000} -S -`
+`rtl_sdr -f {int value: 100000000} -S -`

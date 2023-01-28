@@ -9,7 +9,7 @@
 
 - List enrolled fingerprints for a space-separated list of users:
 
-`fprintd-list {any something}`
+`fprintd-list {string value: username1 username2 ...}`
 
 - Display help:
 

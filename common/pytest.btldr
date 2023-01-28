@@ -5,11 +5,11 @@
 
 - Run tests from specific files:
 
-`pytest {any something}`
+`pytest {file* value: test.py}`
 
 - Run tests with names matching a specific [k]eyword expression:
 
-`pytest -k {any something}`
+`pytest -k {string value: expression}`
 
 - Exit as soon as a test fails or encounters an error:
 
@@ -17,7 +17,7 @@
 
 - Run tests matching or excluding markers:
 
-`pytest -m {any something}`
+`pytest -m {string value: marker_name1 and not marker_name2}`
 
 - Run until a test failure, continuing from the last failing test:
 

@@ -9,7 +9,7 @@
 
 - Update to the specified revision:
 
-`hg update --rev {any something}`
+`hg update --rev {string value: revision}`
 
 - Update and discard uncommitted changes:
 
@@ -17,4 +17,4 @@
 
 - Update to the last commit matching a specified date:
 
-`hg update --date {any something}`
+`hg update --date {string value: dd-mm-yyyy}`

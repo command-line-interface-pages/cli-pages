@@ -5,15 +5,15 @@
 
 - Create an 'fsdax' mode namespace:
 
-`ndctl create-namespace --mode={any something}`
+`ndctl create-namespace --mode={string value: fsdax}`
 
 - Change the mode of a namespace to 'raw':
 
-`ndctl create-namespace --reconfigure={any something} --mode={any something}`
+`ndctl create-namespace --reconfigure={string value: namespaceX.Y} --mode={string value: raw}`
 
 - Check a sector mode namespace for consistency, and repair if needed:
 
-`ndctl check-namespace --repair {any something}`
+`ndctl check-namespace --repair {string value: namespaceX.Y}`
 
 - List all namespaces, regions, and buses (including disabled ones):
 
@@ -21,12 +21,12 @@
 
 - List a specific namespace and include lots of additional information:
 
-`ndctl list -vvv --namespace={any something}`
+`ndctl list -vvv --namespace={string value: namespaceX.Y}`
 
 - Run a monitor to watch for SMART health events for NVDIMMs on the 'ACPI.NFIT' bus:
 
-`ndctl monitor --bus={any something}`
+`ndctl monitor --bus={string value: ACPI.NFIT}`
 
 - Remove a namespace (when applicable) or reset it to an initial state:
 
-`ndctl destroy-namespace --force {any something}`
+`ndctl destroy-namespace --force {string value: namespaceX.Y}`

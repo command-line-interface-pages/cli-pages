@@ -6,12 +6,12 @@
 
 - Create a new group:
 
-`cgcreate -g {any something}:{string group}`
+`cgcreate -g {string value: group_type}:{string group}`
 
 - Create a new group with multiple cgroup types:
 
-`cgcreate -g {any something},{any something}:{string group}`
+`cgcreate -g {string value: group_type1},{string value: group_type2}:{string group}`
 
 - Create a subgroup:
 
-`mkdir /sys/fs/cgroup/{any something}/{string group}/{any something}`
+`mkdir /sys/fs/cgroup/{string value: group_type}/{string group}/{string value: subgroup_name}`

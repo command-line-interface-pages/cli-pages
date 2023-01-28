@@ -5,12 +5,12 @@
 
 - Set creation date for specific files:
 
-`setfile -d "{any something}" {any something}`
+`setfile -d "{string value: MM/DD/YYYY HH:MM:SS}" {file* value}`
 
 - Set modification date for specific files:
 
-`setfile -m "{any something}" {any something}`
+`setfile -m "{string value: MM/DD/YYYY HH:MM:SS}" {file* value}`
 
 - Set modification date for symlink file (not to linked file itself):
 
-`setfile -P -m "{any something}" {any something}`
+`setfile -P -m "{string value: MM/DD/YYYY HH:MM:SS}" {file* value}`

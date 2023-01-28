@@ -6,16 +6,16 @@
 
 - Replace environment variables in stdin and output to stdout:
 
-`echo '{any something}' | envsubst`
+`echo '{string value: $HOME}' | envsubst`
 
 - Replace environment variables in an input file and output to stdout:
 
-`envsubst < {file something: input}`
+`envsubst < {file value: input}`
 
 - Replace environment variables in an input file and output to a file:
 
-`envsubst < {file something: input} > {file something: output}`
+`envsubst < {file value: input} > {file value: output}`
 
 - Replace environment variables in an input file from a space-separated list:
 
-`envsubst '{any something}' < {file something: input}`
+`envsubst '{string value: $USER $SHELL $HOME}' < {file value: input}`

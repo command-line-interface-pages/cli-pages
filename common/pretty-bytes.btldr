@@ -5,11 +5,11 @@
 
 - Convert numeric bytes value to a human-readable string:
 
-`pretty-bytes {int number: 1337}`
+`pretty-bytes {int value: 1337}`
 
 - Convert numeric bytes value from stdin to a human-readable string:
 
-`echo {int number: 1337} | pretty-bytes`
+`echo {int value: 1337} | pretty-bytes`
 
 - Display help and usage information:
 

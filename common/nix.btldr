@@ -5,11 +5,11 @@
 
 - Search for a package via its name or description:
 
-`nix search {any something}`
+`nix search {string value: search_term}`
 
 - Start a Nix shell with the specified packages available:
 
-`nix run {any something}`
+`nix run {string value: nixpkgs.pkg1 nixpkgs.pkg2 nixpkgs.pkg3...}`
 
 - Optimise Nix store disk usage by combining duplicate files:
 

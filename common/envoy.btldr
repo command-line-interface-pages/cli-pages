@@ -5,24 +5,24 @@
 
 - Initialize a configuration file:
 
-`envoy init {any something}`
+`envoy init {string value: host_name}`
 
 - Run a task:
 
-`envoy run {any something}`
+`envoy run {string value: task_name}`
 
 - Run a task from a specific project:
 
-`envoy run --path {directory something} {any something}`
+`envoy run --path {directory value} {string value: task_name}`
 
 - Run a task and continue on failure:
 
-`envoy run --continue {any something}`
+`envoy run --continue {string value: task_name}`
 
 - Dump a task as a Bash script for inspection:
 
-`envoy run --pretend {any something}`
+`envoy run --pretend {string value: task_name}`
 
 - Connect to the specified server via SSH:
 
-`envoy ssh {any something}`
+`envoy ssh {string value: server_name}`

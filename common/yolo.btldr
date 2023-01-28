@@ -9,4 +9,4 @@
 
 - Train the object detection, instance segment, or classification model with the specified configuration file:
 
-`yolo task={any something} mode=train cfg={any something}`
+`yolo task={string value: detect|segment|classify} mode=train cfg={string value: path/to/config.yaml}`

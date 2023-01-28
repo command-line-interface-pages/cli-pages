@@ -25,12 +25,12 @@
 
 - Display changes in the working directory compared to a specified changeset:
 
-`hg status --rev {any something}`
+`hg status --rev {string value: revision}`
 
 - Display only files matching a specified glob pattern:
 
-`hg status --include {any something}`
+`hg status --include {string value: pattern}`
 
 - Display files, excluding those that match a specified glob pattern:
 
-`hg status --exclude {any something}`
+`hg status --exclude {string value: pattern}`

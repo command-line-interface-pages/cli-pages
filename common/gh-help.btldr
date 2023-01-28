@@ -29,8 +29,8 @@
 
 - Display help for a subcommand:
 
-`gh help {any something}`
+`gh help {string value: subcommand}`
 
 - Display help for a subcommand action:
 
-`gh help {any something} {any something}`
+`gh help {string value: pr} {string value: create}`

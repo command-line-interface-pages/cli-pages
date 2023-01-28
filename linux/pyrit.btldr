@@ -13,19 +13,19 @@
 
 - Set [e]SSID:
 
-`pyrit -e "{any something}" create_essid`
+`pyrit -e "{string value: ESSID}" create_essid`
 
 - [r]ead and analyze a specific packet capture file:
 
-`pyrit -r {any something} analyze`
+`pyrit -r {string value: path/to/file.cap|path/to/file.pcap} analyze`
 
 - Read and [i]mport passwords to the current database:
 
-`pyrit -i {file something} {any something}`
+`pyrit -i {file value} {string value: import_unique_passwords|unique_passwords|import_passwords}`
 
 - Exp[o]rt passwords from database to a specific file:
 
-`pyrit -o {file something} export_passwords`
+`pyrit -o {file value} export_passwords`
 
 - Translate passwords with Pired Master Keys:
 
@@ -33,4 +33,4 @@
 
 - [r]ead the capture file and crack the password:
 
-`pyrit -r {file something} attack_db`
+`pyrit -r {file value} attack_db`

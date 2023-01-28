@@ -9,20 +9,20 @@
 
 - Show the current [s]tatus of a specific [a]dapter:
 
-`wondershaper -s -a {any something}`
+`wondershaper -s -a {string value: adapter_name}`
 
 - Clear limits from a specific [a]dapter:
 
-`wondershaper -c -a {any something}`
+`wondershaper -c -a {string value: adapter_name}`
 
 - Set a specific maximum [d]ownload rate (in Kbps):
 
-`wondershaper -a {any something} -d {int number: 1024}`
+`wondershaper -a {string value: adapter_name} -d {int value: 1024}`
 
 - Set a specific maximum [u]pload rate (in Kbps):
 
-`wondershaper -a {any something} -u {int number: 512}`
+`wondershaper -a {string value: adapter_name} -u {int value: 512}`
 
 - Set a specific maximum [d]ownload rate and [u]pload rate (in Kpbs):
 
-`wondershaper -a {any something} -d {int number: 1024} -u {int number: 512}`
+`wondershaper -a {string value: adapter_name} -d {int value: 1024} -u {int value: 512}`

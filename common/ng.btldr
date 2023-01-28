@@ -5,19 +5,19 @@
 
 - Create a new Angular application inside a directory:
 
-`ng new {any something}`
+`ng new {string value: project_name}`
 
 - Add a new component to one's application:
 
-`ng generate component {any something}`
+`ng generate component {string value: component_name}`
 
 - Add a new class to one's application:
 
-`ng generate class {any something}`
+`ng generate class {string value: class_name}`
 
 - Add a new directive to one's application:
 
-`ng generate directive {any something}`
+`ng generate directive {string value: directive_name}`
 
 - Run the application with the following command in its root directory:
 

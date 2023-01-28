@@ -9,24 +9,24 @@
 
 - Add a tag for all messages matching a search term:
 
-`notmuch tag +{any something} "{any something}"`
+`notmuch tag +{string value: custom_tag} "{string value: search_term}"`
 
 - Remove a tag for all messages matching a search term:
 
-`notmuch tag -{any something} "{any something}"`
+`notmuch tag -{string value: custom_tag} "{string value: search_term}"`
 
 - Count messages matching the given search term:
 
-`notmuch count --output={any something} "{any something}"`
+`notmuch count --output={string value: messages|threads} "{string value: search_term}"`
 
 - Search for messages matching the given search term:
 
-`notmuch search --format={any something} --output={any something} "{any something}"`
+`notmuch search --format={string value: json|text} --output={string value: summary|threads|messages|files|tags} "{string value: search_term}"`
 
 - Limit the number of search results to X:
 
-`notmuch search --format={any something} --output={any something} --limit={any something} "{any something}"`
+`notmuch search --format={string value: json|text} --output={string value: summary|threads|messages|files|tags} --limit={string value: X} "{string value: search_term}"`
 
 - Create a reply template for a set of messages:
 
-`notmuch reply --format={any something} --reply-to={any something} "{any something}"`
+`notmuch reply --format={string value: default|headers-only} --reply-to={string value: sender|all} "{string value: search_term}"`

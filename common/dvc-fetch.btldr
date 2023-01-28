@@ -9,11 +9,11 @@
 
 - Fetch changes from a specific remote upstream repository:
 
-`dvc fetch --remote {any something}`
+`dvc fetch --remote {string value: remote_name}`
 
 - Fetch the latest changes for a specific target/s:
 
-`dvc fetch {any something}`
+`dvc fetch {string value: target/s}`
 
 - Fetch changes for all branch and tags:
 

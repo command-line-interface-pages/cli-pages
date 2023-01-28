@@ -5,12 +5,12 @@
 
 - Display statistics for a PDF file:
 
-`pdf-parser --stats {file something}`
+`pdf-parser --stats {file value: sample.pdf}`
 
 - Display objects of type `/Font` in a PDF file:
 
-`pdf-parser --type={any something} {file something}`
+`pdf-parser --type={string value: /Font} {file value: sample.pdf}`
 
 - Search for strings in indirect objects:
 
-`pdf-parser --search={any something} {file something}`
+`pdf-parser --search={string value: search_string} {file value: sample.pdf}`

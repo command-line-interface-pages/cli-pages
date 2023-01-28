@@ -21,4 +21,4 @@
 
 - Load a module into the currently running daemon with the specified arguments:
 
-`pulseaudio --load="{any something} {any something}"`
+`pulseaudio --load="{string value: module_name} {string value: arguments}"`

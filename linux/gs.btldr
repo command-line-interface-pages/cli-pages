@@ -5,24 +5,24 @@
 
 - To view a file:
 
-`gs -dQUIET -dBATCH {file something}`
+`gs -dQUIET -dBATCH {file value: sample.pdf}`
 
 - Reduce PDF file size to 150 dpi images for reading on a e-book device:
 
-`gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={any something} {any something}`
+`gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={string value: output.pdf} {string value: input.pdf}`
 
 - Convert PDF file (pages 1 through 3) to an image with 150 dpi resolution:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage={int number: 1} -dLastPage={int number: 3} -sOutputFile={any something} {any something}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage={int value: 1} -dLastPage={int value: 3} -sOutputFile={string value: output_%d.jpg} {string value: input.pdf}`
 
 - Extract pages from a PDF file:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={string value: output.pdf} {string value: input.pdf}`
 
 - Merge PDF files:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something} {any something}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={string value: output.pdf} {string value: input1.pdf} {string value: input2.pdf}`
 
 - Convert from PostScript file to PDF file:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={any something} {any something}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={string value: output.pdf} {string value: input.ps}`

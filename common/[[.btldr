@@ -6,32 +6,32 @@
 
 - Test if a given variable is equal/not equal to the specified string:
 
-`[[ ${any something} {any something} "{any something}" ]]`
+`[[ ${string value: variable} {string value: ==|!=} "{string value: string}" ]]`
 
 - Test if a given string conforms the specified glob/regex:
 
-`[[ ${any something} {any something} {any something} ]]`
+`[[ ${string value: variable} {string value: ==|=~} {string value: pattern} ]]`
 
 - Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number:
 
-`[[ ${any something} -{any something} {any something} ]]`
+`[[ ${string value: variable} -{string value: eq|ne|gt|lt|ge|le} {string value: integer} ]]`
 
 - Test if the specified variable has a [n]on-empty value:
 
-`[[ -n ${any something} ]]`
+`[[ -n ${string value: variable} ]]`
 
 - Test if the specified variable has an empty value:
 
-`[[ -z ${any something} ]]`
+`[[ -z ${string value: variable} ]]`
 
 - Test if the specified [f]ile exists:
 
-`[[ -f {file something} ]]`
+`[[ -f {file value} ]]`
 
 - Test if the specified [d]irectory exists:
 
-`[[ -d {directory something} ]]`
+`[[ -d {directory value} ]]`
 
 - Test if the specified file or directory [e]xists:
 
-`[[ -e {file something|path something} ]]`
+`[[ -e {path value} ]]`

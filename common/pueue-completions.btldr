@@ -5,12 +5,12 @@
 
 - Generate completions for Bash:
 
-`sudo pueue completions bash {any something}`
+`sudo pueue completions bash {string value: /usr/share/bash-completion/completions/pueue.bash}`
 
 - Generate completions for zsh:
 
-`sudo pueue completions zsh {any something}`
+`sudo pueue completions zsh {string value: /usr/share/zsh/site-functions}`
 
 - Generate completions for fish:
 
-`sudo pueue completions fish {any something}`
+`sudo pueue completions fish {string value: /usr/share/fish/completions}`

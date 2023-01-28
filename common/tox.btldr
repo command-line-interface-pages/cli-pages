@@ -18,8 +18,8 @@
 
 - Run tests on a specific environment (e.g. python 3.6):
 
-`tox -e {any something}`
+`tox -e {string value: py36}`
 
 - Force the virtual environment to be recreated:
 
-`tox --recreate -e {any something}`
+`tox --recreate -e {string value: py27}`

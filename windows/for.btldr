@@ -5,20 +5,20 @@
 
 - Execute given commands for the specified set:
 
-`for %{any something} in ({any something}) do ({any something})`
+`for %{string value: variable} in ({string value: item_a item_b item_c}) do ({string value: echo Loop is executed})`
 
 - Iterate over a given range of numbers:
 
-`for /l %{any something} in ({any something}, {any something}, {any something}) do ({any something})`
+`for /l %{string value: variable} in ({string value: from}, {string value: step}, {string value: to}) do ({string value: echo Loop is executed})`
 
 - Iterate over a given list of files:
 
-`for %{any something} in ({any something}) do ({any something})`
+`for %{string value: variable} in ({string value: file_a.ext file_b.ext file_c.ext}) do ({string value: echo Loop is executed})`
 
 - Iterate over a given list of directories:
 
-`for /d %{any something} in ({any something}) do ({any something})`
+`for /d %{string value: variable} in ({string value: directory_a/ directory_b/ directory_c/}) do ({string value: echo Loop is executed})`
 
 - Perform a given command in every directory:
 
-`for /d %{any something} in (*) do (if exist %{any something} {any something})`
+`for /d %{string value: variable} in (*) do (if exist %{string value: variable} {string value: echo Loop is executed})`

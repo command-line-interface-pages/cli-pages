@@ -5,24 +5,24 @@
 
 - Archive 1 or more files:
 
-`rar a {any something} {any something} {any something} {any something}`
+`rar a {string value: path/to/archive_name.rar} {string value: path/to/file1} {string value: path/to/file2} {string value: path/to/file3}`
 
 - Archive a directory:
 
-`rar a {any something} {directory something}`
+`rar a {string value: path/to/archive_name.rar} {directory value}`
 
 - Split the archive into parts of equal size (50M):
 
-`rar a -v{any something} -R {any something} {file something|path something}`
+`rar a -v{string value: 50M} -R {string value: path/to/archive_name.rar} {path value}`
 
 - Password protect the resulting archive:
 
-`rar a -p{any something} {any something} {file something|path something}`
+`rar a -p{string value: password} {string value: path/to/archive_name.rar} {path value}`
 
 - Encrypt file data and headers with password:
 
-`rar a -hp{any something} {any something} {file something|path something}`
+`rar a -hp{string value: password} {string value: path/to/archive_name.rar} {path value}`
 
 - Use a specific compression level (0-5):
 
-`rar a -m{any something} {any something} {file something|path something}`
+`rar a -m{string value: compression_level} {string value: path/to/archive_name.rar} {path value}`

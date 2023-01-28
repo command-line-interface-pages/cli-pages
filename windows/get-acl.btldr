@@ -6,8 +6,8 @@
 
 - Display the ACL for a specific directory:
 
-`Get-Acl {directory something}`
+`Get-Acl {directory value}`
 
 - Get an ACL for a registry key:
 
-`Get-Acl -Path {any something} | Format-List`
+`Get-Acl -Path {string value: HKLM:\System\CurrentControlSet\Control} | Format-List`

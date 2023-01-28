@@ -5,19 +5,19 @@
 
 - Print the dependency tree of a specific package:
 
-`pactree {any something}`
+`pactree {string value: package}`
 
 - Print what packages depend on a specific package:
 
-`pactree --reverse {any something}`
+`pactree --reverse {string value: package}`
 
 - Dump dependencies one per line, skipping duplicates:
 
-`pactree --unique {any something}`
+`pactree --unique {string value: package}`
 
 - Include optional dependencies of a specific package and colorize the output:
 
-`pactree --optional --color {any something}`
+`pactree --optional --color {string value: package}`
 
 - Display help:
 

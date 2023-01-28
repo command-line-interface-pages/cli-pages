@@ -9,20 +9,20 @@
 
 - Start a REPL with a custom prompt:
 
-`carp --prompt "{any something}"`
+`carp --prompt "{string value: > }"`
 
 - Build a `carp` file:
 
-`carp -b {file something}`
+`carp -b {file value: sample.carp}`
 
 - Build and run a file:
 
-`carp -x {file something}`
+`carp -x {file value: sample.carp}`
 
 - Build a file with optimizations enabled:
 
-`carp -b --optimize {file something}`
+`carp -b --optimize {file value: sample.carp}`
 
 - Transpile a file to C code:
 
-`carp --generate-only {file something}`
+`carp --generate-only {file value: sample.carp}`

@@ -5,20 +5,20 @@
 
 - Play a file:
 
-`vlc {file something}`
+`vlc {file value}`
 
 - Play in fullscreen:
 
-`vlc --fullscreen {file something}`
+`vlc --fullscreen {file value}`
 
 - Play muted:
 
-`vlc --no-audio {file something}`
+`vlc --no-audio {file value}`
 
 - Play repeatedly:
 
-`vlc --loop {file something}`
+`vlc --loop {file value}`
 
 - Play video from a URL:
 
-`vlc {any something}`
+`vlc {string value: https://www.youtube.com/watch?v=oHg5SJYRHA0}`

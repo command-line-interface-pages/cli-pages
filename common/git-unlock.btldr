@@ -6,4 +6,4 @@
 
 - Enable the ability to commit changes of a previously-locked local file:
 
-`git unlock {file something}`
+`git unlock {file value}`

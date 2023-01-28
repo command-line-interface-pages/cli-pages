@@ -9,19 +9,19 @@
 
 - Create a user-defined network:
 
-`docker network create --driver {any something} {any something}`
+`docker network create --driver {string value: driver_name} {string value: network_name}`
 
 - Display detailed information of a space-separated list of networks:
 
-`docker network inspect {any something}`
+`docker network inspect {string value: network_name}`
 
 - Connect a container to a network using a name or ID:
 
-`docker network connect {any something} {any something}`
+`docker network connect {string value: network_name} {string value: container_name|ID}`
 
 - Disconnect a container from a network:
 
-`docker network disconnect {any something} {any something}`
+`docker network disconnect {string value: network_name} {string value: container_name|ID}`
 
 - Remove all unused (not referenced by any container) networks:
 
@@ -29,4 +29,4 @@
 
 - Remove a space-separated list of unused networks:
 
-`docker network rm {any something}`
+`docker network rm {string value: network_name}`

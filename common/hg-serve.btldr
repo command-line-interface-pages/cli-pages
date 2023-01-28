@@ -9,20 +9,20 @@
 
 - Start a web server instance on the specified port:
 
-`hg serve --port {any something}`
+`hg serve --port {string value: port}`
 
 - Start a web server instance on the specified listening address:
 
-`hg serve --address {any something}`
+`hg serve --address {string value: address}`
 
 - Start a web server instance with a specific identifier:
 
-`hg serve --name {any something}`
+`hg serve --name {string value: name}`
 
 - Start a web server instance using the specified theme (see the templates directory):
 
-`hg serve --style {any something}`
+`hg serve --style {string value: style}`
 
 - Start a web server instance using the specified SSL certificate bundle:
 
-`hg serve --certificate {any something}`
+`hg serve --certificate {string value: path/to/certificate}`

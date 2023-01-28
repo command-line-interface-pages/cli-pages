@@ -6,8 +6,8 @@
 
 - Load a CSV file into a `CSVKitReader` object:
 
-`csvpy {any something}`
+`csvpy {string value: data.csv}`
 
 - Load a CSV file into a `CSVKitDictReader` object:
 
-`csvpy --dict {any something}`
+`csvpy --dict {string value: data.csv}`

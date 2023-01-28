@@ -10,8 +10,8 @@
 
 - Open a specific presentation:
 
-`calligrastage {any something}`
+`calligrastage {string value: path/to/presentation}`
 
 - Display help or version:
 
-`calligrastage --{any something}`
+`calligrastage --{string value: help|version}`

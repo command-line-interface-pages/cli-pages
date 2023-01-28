@@ -5,16 +5,16 @@
 
 - Identify all duplicates in a given directory and output a summary:
 
-`rdfind -dryrun true {directory something}`
+`rdfind -dryrun true {directory value}`
 
 - Replace all duplicates with hardlinks:
 
-`rdfind -makehardlinks true {directory something}`
+`rdfind -makehardlinks true {directory value}`
 
 - Replace all duplicates with symlinks/soft links:
 
-`rdfind -makesymlinks true {directory something}`
+`rdfind -makesymlinks true {directory value}`
 
 - Delete all duplicates and do not ignore empty files:
 
-`rdfind -deleteduplicates true -ignoreempty false {directory something}`
+`rdfind -deleteduplicates true -ignoreempty false {directory value}`

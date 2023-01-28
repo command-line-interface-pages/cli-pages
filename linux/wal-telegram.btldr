@@ -9,7 +9,7 @@
 
 - Generate with wal's palette and a specified background image:
 
-`wal-telegram --background={any something}`
+`wal-telegram --background={string value: path/to/image}`
 
 - Generate with wal's palette and a colored background based on the palette:
 
@@ -21,7 +21,7 @@
 
 - Specify a location for the generated theme (default is `$XDG_CACHE_HOME/wal-telegram` or `~/.cache/wal-telegram`):
 
-`wal-telegram --destination={any something}`
+`wal-telegram --destination={string value: path/to/destination}`
 
 - Restart the telegram app after generation:
 

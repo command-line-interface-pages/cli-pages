@@ -14,11 +14,11 @@
 
 - View the detailed status of a specific partition:
 
-`sinfo --partition {any something}`
+`sinfo --partition {string value: partition_name}`
 
 - View information about idle nodes:
 
-`sinfo --states {any something}`
+`sinfo --states {string value: idle}`
 
 - Summarise dead nodes:
 

@@ -5,12 +5,12 @@
 
 - Check filesystem `/dev/sdXN`, reporting any damaged blocks:
 
-`sudo fsck {any something}`
+`sudo fsck {string value: /dev/sdXN}`
 
 - Check filesystem `/dev/sdXN`, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
-`sudo fsck -r {any something}`
+`sudo fsck -r {string value: /dev/sdXN}`
 
 - Check filesystem `/dev/sdXN`, reporting any damaged blocks and automatically repairing them:
 
-`sudo fsck -a {any something}`
+`sudo fsck -a {string value: /dev/sdXN}`

@@ -9,24 +9,24 @@
 
 - List a specific secret as a base64-encoded string:
 
-`k8sec list {any something} --base64`
+`k8sec list {string value: secret_name} --base64`
 
 - Set a secret's value:
 
-`k8sec set {any something} {any something}`
+`k8sec set {string value: secret_name} {string value: key=value}`
 
 - Set a base64-encoded value:
 
-`k8sec set --base64 {any something} {any something}`
+`k8sec set --base64 {string value: secret_name} {string value: key=encoded_value}`
 
 - Unset a secret:
 
-`k8sec unset {any something}`
+`k8sec unset {string value: secret_name}`
 
 - Load secrets from a file:
 
-`k8sec load -f {file something} {any something}`
+`k8sec load -f {file value} {string value: secret_name}`
 
 - Dump secrets to a file:
 
-`k8sec dump -f {file something} {any something}`
+`k8sec dump -f {file value} {string value: secret_name}`

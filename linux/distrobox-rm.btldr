@@ -5,8 +5,8 @@
 
 - Remove a distrobox:
 
-`distrobox-rm {any something}`
+`distrobox-rm {string value: container_name}`
 
 - Remove a distrobox forcefully:
 
-`distrobox-rm {any something} --force`
+`distrobox-rm {string value: container_name} --force`

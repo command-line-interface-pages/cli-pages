@@ -5,11 +5,11 @@
 
 - Capture a screenshot and save it to the given path:
 
-`maim {any something}`
+`maim {string value: path/to/screenshot.png}`
 
 - Capture a screenshot of the selected region:
 
-`maim --select {any something}`
+`maim --select {string value: path/to/screenshot.png}`
 
 - Capture a screenshot of the selected region and save it in the clipboard (requires `xclip`):
 
@@ -17,4 +17,4 @@
 
 - Capture a screenshot of the current active window (requires `xdotool`):
 
-`maim --window $(xdotool getactivewindow) {any something}`
+`maim --window $(xdotool getactivewindow) {string value: path/to/screenshot.png}`

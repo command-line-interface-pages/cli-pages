@@ -6,16 +6,16 @@
 
 - Package an application for the current architecture and platform:
 
-`electron-packager "{any something}" "{any something}"`
+`electron-packager "{string value: path/to/app}" "{string value: app_name}"`
 
 - Package an application for all architectures and platforms:
 
-`electron-packager "{any something}" "{any something}" --all`
+`electron-packager "{string value: path/to/app}" "{string value: app_name}" --all`
 
 - Package an application for 64-bit Linux:
 
-`electron-packager "{any something}" "{any something}" --platform="{any something}" --arch="{any something}"`
+`electron-packager "{string value: path/to/app}" "{string value: app_name}" --platform="{string value: linux}" --arch="{string value: x64}"`
 
 - Package an application for ARM macOS:
 
-`electron-packager "{any something}" "{any something}" --platform="{any something}" --arch="{any something}"`
+`electron-packager "{string value: path/to/app}" "{string value: app_name}" --platform="{string value: darwin}" --arch="{string value: arm64}"`

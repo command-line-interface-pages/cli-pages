@@ -6,4 +6,4 @@
 
 - Delete a specific submodule:
 
-`git delete-submodule {any something}`
+`git delete-submodule {string value: path/to/submodule}`

@@ -7,12 +7,12 @@
 
 - Set I/O scheduling class of a running process:
 
-`ionice -c {any something} -p {any something}`
+`ionice -c {string value: scheduling_class} -p {string value: pid}`
 
 - Run a command with custom I/O scheduling class and priority:
 
-`ionice -c {any something} -n {any something} {any something}`
+`ionice -c {string value: scheduling_class} -n {string value: priority} {string value: command}`
 
 - Print the I/O scheduling class and priority of a running process:
 
-`ionice -p {any something}`
+`ionice -p {string value: pid}`

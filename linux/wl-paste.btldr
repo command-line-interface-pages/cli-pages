@@ -10,8 +10,8 @@
 
 - Write the contents of the clipboard to a file:
 
-`wl-paste > {file something}`
+`wl-paste > {file value}`
 
 - Pipe the contents of the clipboard to a command:
 
-`wl-paste | {any something}`
+`wl-paste | {string value: command}`

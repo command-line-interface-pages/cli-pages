@@ -9,11 +9,11 @@
 
 - Kill a specific task:
 
-`pueue kill {any something}`
+`pueue kill {string value: task_id}`
 
 - Kill a task and terminate all its child processes:
 
-`pueue kill --children {any something}`
+`pueue kill --children {string value: task_id}`
 
 - Kill all tasks in a group and pause the group:
 

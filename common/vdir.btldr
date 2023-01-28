@@ -30,4 +30,4 @@
 
 - Recursively list all files and directories in a specific directory:
 
-`vdir --recursive {directory something}`
+`vdir --recursive {directory value}`

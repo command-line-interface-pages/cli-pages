@@ -6,20 +6,20 @@
 
 - Save output to a file:
 
-`httpry -o {file something}`
+`httpry -o {file value: sample.log}`
 
 - Listen on a specific interface and save output to a binary pcap format file:
 
-`httpry {any something} -b {file something}`
+`httpry {string value: eth0} -b {file value: sample.pcap}`
 
 - Filter output by a comma-separated list of HTTP verbs:
 
-`httpry -m {any something}`
+`httpry -m {string value: get|post|put|head|options|delete|trace|connect|patch}`
 
 - Read from an input capture file and filter by IP:
 
-`httpry -r {file something} '{any something}'`
+`httpry -r {file value: sample.log} '{string value: host 192.168.5.25}'`
 
 - Run as daemon process:
 
-`httpry -d -o {file something}`
+`httpry -d -o {file value: sample.log}`

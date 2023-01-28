@@ -17,7 +17,7 @@
 
 - List attributes of a device:
 
-`sudo udevadm info --attribute-walk --path {any something}`
+`sudo udevadm info --attribute-walk --path {string value: /dev/sda1}`
 
 - Reload all `udev` rules:
 

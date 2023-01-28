@@ -6,4 +6,4 @@
 
 - Initialize a running toolbox:
 
-`toolbox init-container --gid {any something} --home {any something} --home-link --media-link --mnt-link --monitor-host --shell {any something} --uid {any something} --user {any something}`
+`toolbox init-container --gid {string value: gid} --home {string value: home} --home-link --media-link --mnt-link --monitor-host --shell {string value: shell} --uid {string value: uid} --user {string value: user}`

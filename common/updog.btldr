@@ -10,15 +10,15 @@
 
 - Start a HTTP server for a specified directory:
 
-`updog --directory {/directory something}`
+`updog --directory {/directory value}`
 
 - Start a HTTP server on a specified port:
 
-`updog --port {any something}`
+`updog --port {string value: port}`
 
 - Start a HTTP server with a password (To log in, leave the username blank and enter the password in the password field):
 
-`updog --password {any something}`
+`updog --password {string value: password}`
 
 - Enable transport encryption via SSL:
 

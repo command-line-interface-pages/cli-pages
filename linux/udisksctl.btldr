@@ -9,19 +9,19 @@
 
 - Show detailed information about a device:
 
-`udisksctl info --block-device {/file something: device}`
+`udisksctl info --block-device {/file value: device}`
 
 - Show detailed information about a device partition:
 
-`udisksctl info --block-device {any something}`
+`udisksctl info --block-device {string value: /dev/sdXN}`
 
 - Mount a device partition and prints the mount point:
 
-`udisksctl mount --block-device {any something}`
+`udisksctl mount --block-device {string value: /dev/sdXN}`
 
 - Unmount a device partition:
 
-`udisksctl unmount --block-device {any something}`
+`udisksctl unmount --block-device {string value: /dev/sdXN}`
 
 - Monitor the daemon for events:
 

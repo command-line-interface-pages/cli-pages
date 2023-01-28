@@ -9,11 +9,11 @@
 
 - Launch the GNOME Software GUI if it's not open, and navigate to the specified page:
 
-`gnome-software --mode {any something}`
+`gnome-software --mode {string value: updates|updated|installed|overview}`
 
 - Launch the GNOME Software GUI if it's not open, and view the specified package:
 
-`gnome-software --details {any something}`
+`gnome-software --details {string value: package_name}`
 
 - Display the version:
 

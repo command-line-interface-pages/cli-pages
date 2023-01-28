@@ -10,11 +10,11 @@
 
 - Unstage specific file(s):
 
-`git reset {any something}`
+`git reset {file* value}`
 
 - Interactively unstage portions of a file:
 
-`git reset --patch {file something}`
+`git reset --patch {file value}`
 
 - Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem:
 
@@ -30,4 +30,4 @@
 
 - Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then:
 
-`git reset --hard {any something}`
+`git reset --hard {string value: commit}`

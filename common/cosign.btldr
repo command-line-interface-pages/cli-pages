@@ -9,28 +9,28 @@
 
 - Sign a container and store the signature in the registry:
 
-`cosign sign -key {any something} {any something}`
+`cosign sign -key {string value: cosign.key} {string value: image}`
 
 - Sign a container image with a key pair stored in a Kubernetes secret:
 
-`cosign sign -key k8s://{any something}/{any something} {any something}`
+`cosign sign -key k8s://{string value: namespace}/{string value: key} {string value: image}`
 
 - Sign a blob with a local key pair file:
 
-`cosign sign-blob --key {any something} {file something}`
+`cosign sign-blob --key {string value: cosign.key} {file value}`
 
 - Verify a container against a public key:
 
-`cosign verify -key {any something} {any something}`
+`cosign verify -key {string value: cosign.pub} {string value: image}`
 
 - Verify images with a public key in a Dockerfile:
 
-`cosign dockerfile verify -key {any something} {any something}`
+`cosign dockerfile verify -key {string value: cosign.pub} {string value: path/to/Dockerfile}`
 
 - Verify an image with a public key stored in a Kubernetes secret:
 
-`cosign verify -key k8s://{any something}/{any something} {any something}`
+`cosign verify -key k8s://{string value: namespace}/{string value: key} {string value: image}`
 
 - Copy a container image and its signatures:
 
-`cosign copy {any something} {any something}`
+`cosign copy {string value: example.com/src:latest} {string value: example.com/dest:latest}`

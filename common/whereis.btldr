@@ -5,19 +5,19 @@
 
 - Locate binary, source and man pages for ssh:
 
-`whereis {any something}`
+`whereis {string value: ssh}`
 
 - Locate binary and man pages for ls:
 
-`whereis -bm {any something}`
+`whereis -bm {string value: ls}`
 
 - Locate source of gcc and man pages for Git:
 
-`whereis -s {any something} -m {any something}`
+`whereis -s {string value: gcc} -m {string value: git}`
 
 - Locate binaries for gcc in `/usr/bin/` only:
 
-`whereis -b -B {any something} -f {any something}`
+`whereis -b -B {string value: /usr/bin/} -f {string value: gcc}`
 
 - Locate unusual binaries (those that have more or less than one binary on the system):
 

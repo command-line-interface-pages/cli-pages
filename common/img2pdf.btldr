@@ -5,20 +5,20 @@
 
 - Convert multiple images to a single PDF, each image being on its own page:
 
-`img2pdf {any something} {any something} --output {file something}`
+`img2pdf {string value: path/to/image1.jpg} {string value: path/to/image2.jpg} --output {file value: sample.pdf}`
 
 - Convert only the first frame of a multi-frame image to PDF:
 
-`img2pdf {file something} --first-frame-only --output {file something}`
+`img2pdf {file value: sample.gif} --first-frame-only --output {file value: sample.pdf}`
 
 - Auto orient the image, use a page size of A4 in landscape mode, and set a border of 2cm horizontally and 5.1cm vertically:
 
-`img2pdf {file something} --auto-orient --pagesize {any something} --border {any something}:{any something} --output {file something}`
+`img2pdf {file value: sample.jpg} --auto-orient --pagesize {string value: A4^T} --border {string value: 2cm}:{string value: 5.1cm} --output {file value: sample.pdf}`
 
 - Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page:
 
-`img2pdf {file something} --pagesize {any something}x{any something} --imgsize {any something}x{any something} --fit {any something} --output {file something}`
+`img2pdf {file value: sample.tiff} --pagesize {string value: 30cm}x{string value: 20cm} --imgsize {string value: 10cm}x{string value: 15cm} --fit {string value: shrink} --output {file value: sample.pdf}`
 
 - Convert an image to PDF, and specify metadata for the resulting file:
 
-`img2pdf {file something} --title {any something} --author {any something} --creationdate {any something} --keywords {any something} --subject {any something} --output {file something}`
+`img2pdf {file value: sample.png} --title {string value: title} --author {string value: author} --creationdate {string value: 1970-01-31} --keywords {string value: keyword1 keyword2} --subject {string value: subject} --output {file value: sample.pdf}`

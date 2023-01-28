@@ -9,7 +9,7 @@
 
 - View RBAC bindings that match a given expression:
 
-`rbac-lookup {any something}`
+`rbac-lookup {string value: search_term}`
 
 - View all RBAC bindings along with the source role binding:
 
@@ -17,7 +17,7 @@
 
 - View all RBAC bindings filtered by subject:
 
-`rbac-lookup -k {any something}`
+`rbac-lookup -k {string value: user|group|serviceaccount}`
 
 - View all RBAC bindings along with IAM roles (if you are using GKE):
 

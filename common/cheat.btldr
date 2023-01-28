@@ -5,11 +5,11 @@
 
 - Show example usage of a command:
 
-`cheat {any something}`
+`cheat {string value: command}`
 
 - Edit the cheat sheet for a command:
 
-`cheat -e {any something}`
+`cheat -e {string value: command}`
 
 - List the available cheat sheets:
 
@@ -17,7 +17,7 @@
 
 - Search available the cheat sheets for a specified command name:
 
-`cheat -s {any something}`
+`cheat -s {string value: command}`
 
 - Get the current cheat version:
 

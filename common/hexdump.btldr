@@ -5,16 +5,16 @@
 
 - Print the hexadecimal representation of a file, replacing duplicate lines by '*':
 
-`hexdump {file something}`
+`hexdump {file value}`
 
 - Display the input offset in hexadecimal and its ASCII representation in two columns:
 
-`hexdump -C {file something}`
+`hexdump -C {file value}`
 
 - Display the hexadecimal representation of a file, but interpret only n bytes of the input:
 
-`hexdump -C -n{any something} {file something}`
+`hexdump -C -n{string value: number_of_bytes} {file value}`
 
 - Don't replace duplicate lines with '*':
 
-`hexdump --no-squeezing {file something}`
+`hexdump --no-squeezing {file value}`

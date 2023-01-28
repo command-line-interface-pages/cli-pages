@@ -5,12 +5,12 @@
 
 - Resolve a hostname to an IP address:
 
-`resolveip {any something}`
+`resolveip {string value: example.org}`
 
 - Resolve an IP address to a hostname:
 
-`resolveip {any something}`
+`resolveip {string value: 1.1.1.1}`
 
 - Silent mode. Produces less output:
 
-`resolveip --silent {any something}`
+`resolveip --silent {string value: example.org}`

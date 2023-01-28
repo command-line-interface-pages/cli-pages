@@ -13,8 +13,8 @@
 
 - Switch to a specific user, showing an authentication prompt if required:
 
-`dm-tool switch-to-user {string user} {any something}`
+`dm-tool switch-to-user {string user} {string value: session}`
 
 - Add a dynamic seat from within a running LightDM session:
 
-`dm-tool add-seat {any something} {any something}={any something}`
+`dm-tool add-seat {string value: xlocal} {string value: name}={string value: value}`

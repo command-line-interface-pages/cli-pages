@@ -6,28 +6,28 @@
 
 - Print a file to the default printer:
 
-`lpr {file something}`
+`lpr {file value}`
 
 - Print 2 copies:
 
-`lpr -# {int number: 2} {file something}`
+`lpr -# {int value: 2} {file value}`
 
 - Print to a named printer:
 
-`lpr -P {any something} {file something}`
+`lpr -P {string value: printer} {file value}`
 
 - Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
 
-`lpr -o page-ranges={any something} {file something}`
+`lpr -o page-ranges={string value: 2|2-16} {file value}`
 
 - Print double-sided either in portrait (long) or in landscape (short):
 
-`lpr -o sides={any something} {file something}`
+`lpr -o sides={string value: two-sided-long-edge|two-sided-short-edge} {file value}`
 
 - Set page size (more options may be available depending on setup):
 
-`lpr -o media={any something} {file something}`
+`lpr -o media={string value: a4|letter|legal} {file value}`
 
 - Print multiple pages per sheet:
 
-`lpr -o number-up={any something} {file something}`
+`lpr -o number-up={string value: 2|4|6|9|16} {file value}`

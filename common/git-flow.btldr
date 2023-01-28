@@ -9,16 +9,16 @@
 
 - Start developing on a feature branch based on `develop`:
 
-`git flow feature start {any something}`
+`git flow feature start {string value: feature}`
 
 - Finish development on a feature branch, merging it into the `develop` branch and deleting it:
 
-`git flow feature finish {any something}`
+`git flow feature finish {string value: feature}`
 
 - Publish a feature to the remote server:
 
-`git flow feature publish {any something}`
+`git flow feature publish {string value: feature}`
 
 - Get a feature published by another user:
 
-`git flow feature pull origin {any something}`
+`git flow feature pull origin {string value: feature}`

@@ -6,11 +6,11 @@
 
 - Make a directed graph acyclic by reversing some edges:
 
-`acyclic {any something} > {any something}`
+`acyclic {string value: path/to/input.gv} > {string value: path/to/output.gv}`
 
 - Print if a graph is acyclic, has a cycle, or is undirected, producing no output graph:
 
-`acyclic -v -n {any something}`
+`acyclic -v -n {string value: path/to/input.gv}`
 
 - Display help for `acyclic`:
 

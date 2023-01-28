@@ -5,16 +5,16 @@
 
 - Split a file, each split having 10 lines (except the last split):
 
-`split -l {int number: 10} {file something}`
+`split -l {int value: 10} {file value}`
 
 - Split a file into 5 files. File is split such that each split has same size (except the last split):
 
-`split -n {int number: 5} {file something}`
+`split -n {int value: 5} {file value}`
 
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
-`split -b {int number: 512} {file something}`
+`split -b {int value: 512} {file value}`
 
 - Split a file with at most 512 bytes in each split without breaking lines:
 
-`split -C {int number: 512} {file something}`
+`split -C {int value: 512} {file value}`

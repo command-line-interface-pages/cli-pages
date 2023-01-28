@@ -5,8 +5,8 @@
 
 - Join a protected wireless network:
 
-`wpa_supplicant -i {any something} -c {any something}`
+`wpa_supplicant -i {string value: interface} -c {string value: path/to/wpa_supplicant_conf.conf}`
 
 - Join a protected wireless network and run it in a daemon:
 
-`wpa_supplicant -B -i {any something} -c {any something}`
+`wpa_supplicant -B -i {string value: interface} -c {string value: path/to/wpa_supplicant_conf.conf}`

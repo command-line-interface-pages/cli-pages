@@ -5,4 +5,4 @@
 
 - Concatenate all PDF files into one:
 
-`sam2p *.pdf {any something}`
+`sam2p *.pdf {string value: path/to/output.pdf}`

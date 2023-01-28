@@ -17,7 +17,7 @@
 
 - Run a program from a file:
 
-`sudo bpftrace {file something}`
+`sudo bpftrace {file value}`
 
 - Trace a program by PID:
 
@@ -25,4 +25,4 @@
 
 - Do a dry run and display the output in eBPF format:
 
-`sudo bpftrace -d -e '{any something}'`
+`sudo bpftrace -d -e '{string value: one_line_program}'`

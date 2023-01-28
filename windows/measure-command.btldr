@@ -6,7 +6,7 @@
 
 - Measure the time it takes to run a command:
 
-`Measure-Command { {any something} }`
+`Measure-Command { {string value: command} }`
 
 - Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter):
 

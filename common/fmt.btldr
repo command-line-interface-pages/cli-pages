@@ -5,16 +5,16 @@
 
 - Reformat a file:
 
-`fmt {file something}`
+`fmt {file value}`
 
 - Reformat a file producing output lines of (at most) `n` characters:
 
-`fmt -w {any something} {file something}`
+`fmt -w {string value: n} {file value}`
 
 - Reformat a file without joining lines shorter than the given width together:
 
-`fmt -s {file something}`
+`fmt -s {file value}`
 
 - Reformat a file with uniform spacing (1 space between words and 2 spaces between paragraphs):
 
-`fmt -u {file something}`
+`fmt -u {file value}`
