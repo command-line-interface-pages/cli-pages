@@ -25,4 +25,4 @@
 
 - Run a program and pass an argument to it:
 
-`stack exec {string value: program_name} -- {string value: argument}`
+`stack exec {file value} -- {string value: argument}`

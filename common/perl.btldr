@@ -5,11 +5,11 @@
 
 - Parse and execute a Perl script:
 
-`perl {string value: script.pl}`
+`perl {file value: sample.pl}`
 
 - Check syntax errors on a Perl script:
 
-`perl -c {string value: script.pl}`
+`perl -c {file value: sample.pl}`
 
 - Parse and execute a Perl statement:
 
@@ -17,7 +17,7 @@
 
 - Run a Perl script in debug mode, using `perldebug`:
 
-`perl -d {string value: script.pl}`
+`perl -d {file value: sample.pl}`
 
 - Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
 

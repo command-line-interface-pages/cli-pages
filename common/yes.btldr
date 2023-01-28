@@ -14,4 +14,4 @@
 
 - Accept everything prompted by the `apt-get` command:
 
-`yes | sudo apt-get install {string value: program}`
+`yes | sudo apt-get install {file value}`

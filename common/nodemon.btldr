@@ -25,7 +25,7 @@
 
 - Run an arbitrary non-node script:
 
-`nodemon --exec "{string value: command_to_run_script} {string value: options}" {string value: path/to/script}`
+`nodemon --exec "{file value: command_to_run} {string value: options}" {string value: path/to/script}`
 
 - Run a Python script:
 

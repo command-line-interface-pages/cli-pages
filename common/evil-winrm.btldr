@@ -30,7 +30,7 @@
 
 - Load a PowerShell script from the `--scripts` directory:
 
-`PS > {string value: script.ps1}`
+`PS > {file value: sample.ps1}`
 
 - Invoke a binary on the host from the `--executables` directory:
 

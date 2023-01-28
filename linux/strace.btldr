@@ -21,8 +21,8 @@
 
 - Start tracing a program by executing it:
 
-`strace {string value: program}`
+`strace {file value}`
 
 - Start tracing file operations of a program:
 
-`strace -e trace=file {string value: program}`
+`strace -e trace=file {file value}`

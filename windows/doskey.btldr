@@ -13,7 +13,7 @@
 
 - Create a new macro for a specific executable:
 
-`doskey /exename={string value: executable} {string value: name} = "{string value: command}"`
+`doskey /exename={file value} {string value: name} = "{string value: command}"`
 
 - Remove a macro:
 

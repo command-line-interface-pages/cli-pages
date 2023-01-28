@@ -17,8 +17,8 @@
 
 - Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
 
-`meshlabserver -i {string value: input.ply} -o {string value: output.ply} -s {string value: filter_script.mlx}`
+`meshlabserver -i {string value: input.ply} -o {string value: output.ply} -s {file value: filter.mlx}`
 
 - Process a 3D file using a filter script, writing the output of the filters into a log file:
 
-`meshlabserver -i {string value: input.x3d} -o {string value: output.x3d} -s {string value: filter_script.mlx} -l {string value: logfile}`
+`meshlabserver -i {string value: input.x3d} -o {string value: output.x3d} -s {file value: filter.mlx} -l {string value: logfile}`

@@ -18,7 +18,7 @@
 
 - Execute a program to interact with users:
 
-`psexec \\{string value: remote_host} -d -i {string value: program_name}`
+`psexec \\{string value: remote_host} -d -i {file value}`
 
 - Display the IP configuration of the remote host:
 

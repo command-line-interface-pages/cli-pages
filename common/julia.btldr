@@ -9,11 +9,11 @@
 
 - Execute a Julia program and exit:
 
-`julia {string value: program.jl}`
+`julia {file value: sample.jl}`
 
 - Execute a Julia program that takes arguments:
 
-`julia {string value: program.jl} {string value: arguments}`
+`julia {file value: sample.jl} {string value: arguments}`
 
 - Evaluate a string containing Julia code:
 

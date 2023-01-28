@@ -13,7 +13,7 @@
 
 - Execute a Scala script:
 
-`scala {string value: script.scala}`
+`scala {file value: sample.scala}`
 
 - Execute a `.jar` program:
 

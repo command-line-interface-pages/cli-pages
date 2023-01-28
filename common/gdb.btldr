@@ -5,7 +5,7 @@
 
 - Debug an executable:
 
-`gdb {string value: executable}`
+`gdb {file value}`
 
 - Attach a process to gdb:
 
@@ -13,12 +13,12 @@
 
 - Debug with a core file:
 
-`gdb -c {string value: core} {string value: executable}`
+`gdb -c {string value: core} {file value}`
 
 - Execute given GDB commands upon start:
 
-`gdb -ex "{string value: commands}" {string value: executable}`
+`gdb -ex "{string value: commands}" {file value}`
 
 - Start gdb and pass arguments to the executable:
 
-`gdb --args {string value: executable} {string value: argument1} {string value: argument2}`
+`gdb --args {file value} {string value: argument1} {string value: argument2}`

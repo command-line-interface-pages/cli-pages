@@ -9,7 +9,7 @@
 
 - Compile source file(s) and create an executable with a custom name:
 
-`c99 -o {string value: executable_name} {file value: sample.c}`
+`c99 -o {file value} {file value: sample.c}`
 
 - Compile source file(s) and create object file(s):
 

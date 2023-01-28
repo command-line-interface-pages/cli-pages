@@ -10,7 +10,7 @@
 
 - Analyze live traffic from a network interface and load custom scripts:
 
-`sudo zeek --iface {string value: interface} {string value: script1} {string value: script2}`
+`sudo zeek --iface {string value: interface} {file value} {file value}`
 
 - Analyze live traffic from a network interface, without loading any scripts:
 

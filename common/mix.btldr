@@ -5,7 +5,7 @@
 
 - Execute a particular file:
 
-`mix run {string value: my_script.exs}`
+`mix run {file value: my.exs}`
 
 - Create a new project:
 

@@ -6,12 +6,12 @@
 
 - Compile a source file to a native binary and link with packages:
 
-`ocamlfind ocamlopt -package {string value: package1},{string value: package2} -linkpkg -o {string value: executable} {file value: source.ml}`
+`ocamlfind ocamlopt -package {string value: package1},{string value: package2} -linkpkg -o {file value} {file value: source.ml}`
 
 - Compile a source file to a bytecode binary and link with packages:
 
-`ocamlfind ocamlc -package {string value: package1},{string value: package2} -linkpkg -o {string value: executable} {file value: source.ml}`
+`ocamlfind ocamlc -package {string value: package1},{string value: package2} -linkpkg -o {file value} {file value: source.ml}`
 
 - Cross-compile for a different platform:
 
-`ocamlfind -toolchain {string value: cross-toolchain} ocamlopt -o {string value: executable} {file value: source.ml}`
+`ocamlfind -toolchain {string value: cross-toolchain} ocamlopt -o {file value} {file value: source.ml}`

@@ -13,7 +13,7 @@
 
 - List process IDs including scripts with given name:
 
-`pidof -x {string value: script.py}`
+`pidof -x {file value: sample.py}`
 
 - Kill all processes with given name:
 

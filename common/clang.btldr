@@ -5,15 +5,15 @@
 
 - Compile a source code file into an executable binary:
 
-`clang {string value: input_source.c} -o {string value: output_executable}`
+`clang {string value: input_source.c} -o {file value: output}`
 
 - Activate output of all errors and warnings:
 
-`clang {string value: input_source.c} -Wall -o {string value: output_executable}`
+`clang {string value: input_source.c} -Wall -o {file value: output}`
 
 - Include libraries located at a different path than the source file:
 
-`clang {string value: input_source.c} -o {string value: output_executable} -I{string value: header_path} -L{string value: library_path} -l{string value: library_name}`
+`clang {string value: input_source.c} -o {file value: output} -I{string value: header_path} -L{string value: library_path} -l{string value: library_name}`
 
 - Compile source code into LLVM Intermediate Representation (IR):
 

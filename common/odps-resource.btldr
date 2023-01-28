@@ -22,7 +22,7 @@
 
 - Add .py resource:
 
-`add py {string value: script.py};`
+`add py {file value: sample.py};`
 
 - Delete resource:
 

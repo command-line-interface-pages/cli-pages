@@ -6,7 +6,7 @@
 
 - Compile binary with gprof information and run it to get `gmon.out`:
 
-`gcc -pg {string value: program.c} && {string value: ./a.out}`
+`gcc -pg {file value: sample.c} && {string value: ./a.out}`
 
 - Run gprof to obtain profile output:
 

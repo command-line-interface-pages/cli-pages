@@ -6,16 +6,16 @@
 
 - Use the (default) Memcheck tool to show a diagnostic of memory usage by `program`:
 
-`valgrind {string value: program}`
+`valgrind {file value}`
 
 - Use Memcheck to report all possible memory leaks of `program` in full detail:
 
-`valgrind --leak-check=full --show-leak-kinds=all {string value: program}`
+`valgrind --leak-check=full --show-leak-kinds=all {file value}`
 
 - Use the Cachegrind tool to profile and log CPU cache operations of `program`:
 
-`valgrind --tool=cachegrind {string value: program}`
+`valgrind --tool=cachegrind {file value}`
 
 - Use the Massif tool to profile and log heap memory and stack usage of `program`:
 
-`valgrind --tool=massif --stacks=yes {string value: program}`
+`valgrind --tool=massif --stacks=yes {file value}`

@@ -9,11 +9,11 @@
 
 - Run a scheme program (with no REPL output):
 
-`scheme --quiet < {string value: script.scm}`
+`scheme --quiet < {file value: sample.scm}`
 
 - Load a scheme program into the REPL:
 
-`scheme --load {string value: script.scm}`
+`scheme --load {file value: sample.scm}`
 
 - Load scheme expressions into the REPL:
 

@@ -13,7 +13,7 @@
 
 - Run a specific script for every package that contains it in its `package.json`:
 
-`lerna run {string value: script}`
+`lerna run {file value}`
 
 - Execute an arbitrary shell command in every package:
 

@@ -25,4 +25,4 @@
 
 - Do a dry run and display the output in eBPF format:
 
-`sudo bpftrace -d -e '{string value: one_line_program}'`
+`sudo bpftrace -d -e '{file value: one_line}'`

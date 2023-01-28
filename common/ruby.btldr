@@ -9,7 +9,7 @@
 
 - Execute a Ruby script:
 
-`ruby {string value: script.rb}`
+`ruby {file value: sample.rb}`
 
 - Execute a single Ruby command in the command-line:
 
@@ -17,7 +17,7 @@
 
 - Check for syntax errors on a given Ruby script:
 
-`ruby -c {string value: script.rb}`
+`ruby -c {file value: sample.rb}`
 
 - Show the version of Ruby you are using:
 

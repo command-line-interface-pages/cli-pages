@@ -5,8 +5,8 @@
 
 - Search the PATH environment variable and display the location of any matching executables:
 
-`which {string value: executable}`
+`which {file value}`
 
 - If there are multiple executables which match, display all:
 
-`which -a {string value: executable}`
+`which -a {file value}`

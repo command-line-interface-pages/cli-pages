@@ -13,8 +13,8 @@
 
 - Call a specific program on a remote computer using TCP:
 
-`rpcinfo /t {string value: computer_name} {string value: program_name}`
+`rpcinfo /t {string value: computer_name} {file value}`
 
 - Call a specific program on a remote computer using UDP:
 
-`rpcinfo /u {string value: computer_name} {string value: program_name}`
+`rpcinfo /u {string value: computer_name} {file value}`

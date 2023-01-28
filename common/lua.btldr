@@ -9,7 +9,7 @@
 
 - Execute a Lua script:
 
-`lua {string value: script_name.lua} {string value: --optional-argument}`
+`lua {file value: sample.lua} {string value: --optional-argument}`
 
 - Execute a Lua expression:
 

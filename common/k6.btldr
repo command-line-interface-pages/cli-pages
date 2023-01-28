@@ -5,27 +5,27 @@
 
 - Run load test locally:
 
-`k6 run {string value: script.js}`
+`k6 run {file value: sample.js}`
 
 - Run load test locally with a given number of virtual users and duration:
 
-`k6 run --vus {int value: 10} --duration {string value: 30s} {string value: script.js}`
+`k6 run --vus {int value: 10} --duration {string value: 30s} {file value: sample.js}`
 
 - Run load test locally with a given environment variable:
 
-`k6 run -e {string value: HOSTNAME=example.com} {string value: script.js}`
+`k6 run -e {string value: HOSTNAME=example.com} {file value: sample.js}`
 
 - Run load test locally using InfluxDB to store results:
 
-`k6 run --out influxdb={string value: http://localhost:8086/k6db} {string value: script.js}`
+`k6 run --out influxdb={string value: http://localhost:8086/k6db} {file value: sample.js}`
 
 - Run load test locally and discard response bodies (significantly faster):
 
-`k6 run --discard-response-bodies {string value: script.js}`
+`k6 run --discard-response-bodies {file value: sample.js}`
 
 - Run load test locally using the base JavaScript compatibility mode (significantly faster):
 
-`k6 run --compatibility-mode=base {string value: script.js}`
+`k6 run --compatibility-mode=base {file value: sample.js}`
 
 - Log in to cloud service using secret token:
 
@@ -33,4 +33,4 @@
 
 - Run load test on cloud infrastructure:
 
-`k6 cloud {string value: script.js}`
+`k6 cloud {file value: sample.js}`

@@ -14,7 +14,7 @@
 
 - Create a Python function using a `.py` resource:
 
-`create function {string value: func_name} as {string value: script.Func} using '{string value: script.py}';`
+`create function {string value: func_name} as {file value: sample.Func} using '{file value: sample.py}';`
 
 - Delete a function:
 

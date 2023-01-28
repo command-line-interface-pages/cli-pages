@@ -9,7 +9,7 @@
 
 - Execute the script in a given Scheme file:
 
-`guile {string value: script.scm}`
+`guile {file value: sample.scm}`
 
 - Execute a Scheme expression:
 

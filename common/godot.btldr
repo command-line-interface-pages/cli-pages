@@ -21,4 +21,4 @@
 
 - Execute a standalone GDScript file (the script must inherit from `SceneTree` or `MainLoop`):
 
-`godot -s {string value: script.gd}`
+`godot -s {file value: sample.gd}`
