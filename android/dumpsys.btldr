@@ -10,20 +10,20 @@
 
 - Get diagnostic output for a specific system service:
 
-`dumpsys {string value: service}`
+`dumpsys {string service}`
 
 - List all services `dumpsys` can give information about:
 
 `dumpsys -l`
 
-- List service-specific arguments for a service:
+- List all arguments for a specific service:
 
-`dumpsys {string value: service} -h`
+`dumpsys {string service} -h`
 
-- Exclude a specific service from the diagnostic output:
+- Exclude a specific service from a diagnostic output:
 
-`dumpsys --skip {string value: service}`
+`dumpsys --skip {string service}`
 
-- Specify a timeout period in seconds (defaults to 10s):
+- Use a specific a timeout period in seconds:
 
-`dumpsys -t {string value: seconds}`
+`dumpsys -t {string seconds: 10s}`

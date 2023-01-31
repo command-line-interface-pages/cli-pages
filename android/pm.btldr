@@ -7,18 +7,18 @@
 
 `pm list packages`
 
-- List all installed system apps:
+- List all installed [s]ystem apps:
 
 `pm list packages -s`
 
-- List all installed 3rd-Party apps:
+- List all installed [3]rd-Party apps:
 
 `pm list packages -3`
 
 - List apps matching specific keywords:
 
-`pm list packages {string value: keyword1 keyword2 ...}`
+`pm list packages {string+ keyword}`
 
 - Display a path of the APK of a specific app:
 
-`pm path {string value: app}`
+`pm path {string application}`

@@ -7,26 +7,6 @@
 
 `getprop`
 
-- Display information about a specific property:
+- Display information about a specific property like an SDK API level, Android version, Android device model, OEM unlock status, or MAC address of the Android's Wi-Fi card:
 
-`getprop {string value: prop}`
-
-- Display the SDK API level:
-
-`getprop {string value: ro.build.version.sdk}`
-
-- Display the Android version:
-
-`getprop {string value: ro.build.version.release}`
-
-- Display the Android device model:
-
-`getprop {string value: ro.vendor.product.model}`
-
-- Display the OEM unlock status:
-
-`getprop {string value: ro.oem_unlock_supported}`
-
-- Display the MAC address of the Android's Wi-Fi card:
-
-`getprop {string value: ro.boot.wifimacaddr}`
+`getprop {string property: ro.build.version.sdk, ro.build.version.release, ro.vendor.product.model, ro.oem_unlock_supported, ro.boot.wifimacaddr}`
