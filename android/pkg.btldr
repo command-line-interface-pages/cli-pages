@@ -7,18 +7,18 @@
 
 `pkg upgrade`
 
-- Install a package:
+- Install a specific package:
 
-`pkg install {string value: package}`
+`pkg install {string package}`
 
-- Uninstall a package:
+- Uninstall a specific package:
 
-`pkg uninstall {string value: package}`
+`pkg uninstall {string package}`
 
-- Reinstall a package:
+- Reinstall a specific package:
 
-`pkg reinstall {string value: package}`
+`pkg reinstall {string package}`
 
-- Search for a package:
+- Search for a specific package:
 
-`pkg search {string value: package}`
+`pkg search {string package}`
