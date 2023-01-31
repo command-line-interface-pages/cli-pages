@@ -7,10 +7,10 @@
 
 `logcat`
 
-- Write system logs to a file:
+- Write system logs to a specific file:
 
-`logcat -f {file value}`
+`logcat -f {file output}`
 
-- Display lines that match a regular expression:
+- Display lines matching a specific regular expression:
 
-`logcat --regex {string value: regular_expression}`
+`logcat --regex {string regular expression}`
