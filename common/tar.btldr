@@ -4,34 +4,34 @@
 > Often combined with a compression method, such as gzip or bzip2
 > More information: https://www.gnu.org/software/tar
 
-- [c]reate an archive and write it to a [f]ile:
+- [c]reate an archive and write it to a specific [f]ile:
 
-`tar cf {string value: target.tar} {file value} {file value} {file value}`
+`tar cf {file output archive: target.tar} {file+ input}`
 
-- [c]reate a g[z]ipped archive and write it to a [f]ile:
+- [c]reate a g[z]ipped archive and write it to a specific [f]ile:
 
-`tar czf {string value: target.tar.gz} {file value} {file value} {file value}`
+`tar czf {file output archive: target.tar.gz} {file+ input}`
 
-- [c]reate a g[z]ipped archive from a directory using relative paths:
+- [c]reate a g[z]ipped archive from a specific directory using relative paths:
 
-`tar czf {string value: target.tar.gz} --directory={directory value} .`
+`tar czf {file output archive: target.tar.gz} --directory={directory input} .`
 
-- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
+- E[x]tract a compressed archive [f]ile into the current directory [v]erbosely:
 
-`tar xvf {string value: source.tar[.gz|.bz2|.xz]}`
+`tar xvf {file output archive: source.tar.gz source.tar.bz2, source.tar.xz}`
 
-- E[x]tract a (compressed) archive [f]ile into the target directory:
+- E[x]tract a compressed archive [f]ile into a specific directory:
 
-`tar xf {string value: source.tar[.gz|.bz2|.xz]} --directory={directory value}`
+`tar xf {file output archive: source.tar.gz source.tar.bz2, source.tar.xz} --directory={directory input}`
 
-- [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
+- [c]reate a specific compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
-`tar caf {string value: target.tar.xz} {file value} {file value} {file value}`
+`tar caf {file output archive: target.tar.xz} {file+ input}`
 
-- Lis[t] the contents of a tar [f]ile [v]erbosely:
+- Lis[t] contents of a specific tar [f]ile [v]erbosely:
 
-`tar tvf {file value: sample.tar}`
+`tar tvf {file output archive: sample.tar}`
 
-- E[x]tract files matching a pattern from an archive [f]ile:
+- E[x]tract files matching a specific pattern from an archive [f]ile:
 
-`tar xf {file value: sample.tar} --wildcards "{string value: *.html}"`
+`tar xf {file output archive: sample.tar} --wildcards "{string pattern: *.html}"`
