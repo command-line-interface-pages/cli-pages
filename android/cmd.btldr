@@ -9,8 +9,8 @@
 
 - Call a specific service:
 
-`cmd {string value: service}`
+`cmd {string service}`
 
 - Call a service with specific arguments:
 
-`cmd {string value: service} {string value: arg1 arg2 ...}`
+`cmd {string service} {any* value}`
