@@ -11,3 +11,6 @@ Get more details with Better TlDr:
 than TlDr can provide:
 
 ![tar-tldr](./tar-tldr.jpg)
+
+See not just a concrete example, but also what kind of arguments and how many of
+them are expected. 😸
