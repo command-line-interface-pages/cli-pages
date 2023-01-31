@@ -6,20 +6,20 @@
 
 - Send an event code for a single character to an Android device:
 
-`input keyevent {string value: event_code}`
+`input keyevent {string event code}`
 
 - Send a text to an Android device (`%s` represents spaces):
 
-`input text "{string value: text}"`
+`input text "{string text}"`
 
 - Send a single tap to an Android device:
 
-`input tap {string value: x_pos} {string value: y_pos}`
+`input tap {int x position} {int y position}`
 
 - Send a swipe gesture to an Android device:
 
-`input swipe {string value: x_start} {string value: y_start} {string value: x_end} {string value: y_end} {string value: duration_in_ms}`
+`input swipe {int x start} {int y start} {int x end} {int y end} {int duration in milliseconds}`
 
 - Send a long press to an Android device using a swipe gesture:
 
-`input swipe {string value: x_pos} {string value: y_pos} {string value: x_pos} {string value: y_pos} {string value: duration_in_ms}`
+`input swipe {int first x position} {int first y position} {int second x position} {int second y position} {int duration in milliseconds}`
