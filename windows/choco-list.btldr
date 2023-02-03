@@ -3,26 +3,26 @@
 > Display a list of packages with Chocolatey
 > More information: https://chocolatey.org/docs/commands-list
 
-- Display all available packages:
+- List all available packages:
 
 `choco list`
 
-- Display all locally installed packages:
+- List all locally installed packages:
 
 `choco list --local-only`
 
-- Display a list including local programs:
+- List all packages including local programs:
 
 `choco list --include-programs`
 
-- Display only approved packages:
+- List only all approved packages:
 
 `choco list --approved-only`
 
-- Specify a custom source to display packages from:
+- Specify a source to display packages from:
 
-`choco list --source {string value: source_url|alias}`
+`choco list --source {string source url|string alias}`
 
-- Provide a username and password for authentication:
+- Provide a specific username and password for authentication:
 
-`choco list --user {string user} --password {string value: password}`
+`choco list --user {string user} --password {string password}`
