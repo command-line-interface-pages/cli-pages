@@ -9,15 +9,15 @@
 
 - List all attributes of files in a specific directory or in the current if omitted:
 
-`attrib {directory? input}`
+`attrib {/?directory? input}`
 
 - List all attributes of files and [d]irectories in a specific directory or in the current if omitted:
 
-`attrib /d {directory? input}`
+`attrib /d {/?directory? input}`
 
 - List all attributes of files in a specific directory (or in the current if omitted) and [s]ub-directories:
 
-`attrib /s {directory? input}`
+`attrib /s {/?directory? input}`
 
 - Add a [r]ead-only/[a]rchive/[s]ystem/[h]idden/not content [i]ndexed attribute to specific files and directories:
 
