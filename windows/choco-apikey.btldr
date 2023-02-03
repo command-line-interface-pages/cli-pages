@@ -3,18 +3,18 @@
 > Manage API keys for Chocolatey sources
 > More information: https://chocolatey.org/docs/commands-apikey
 
-- Display a list of sources and their API keys:
+- List all sources and their API keys:
 
 `choco apikey`
 
 - Display a specific source and its API key:
 
-`choco apikey --source "{string value: source_url}"`
+`choco apikey --source "{string source url}"`
 
-- Set an API key for a source:
+- Set a specific API key for a source:
 
-`choco apikey --source "{string value: source_url}" --key "{string value: api_key}"`
+`choco apikey --source "{string source url}" --key "{string api key}"`
 
-- Remove an API key for a source:
+- Remove an API key for a specific source:
 
-`choco apikey --source "{string value: source_url}" --remove`
+`choco apikey --source "{string source url}" --remove`
