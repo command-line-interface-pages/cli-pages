@@ -3,21 +3,21 @@
 > Uninstall one or more packages with Chocolatey
 > More information: https://chocolatey.org/docs/commands-uninstall
 
-- Uninstall one or more space-separated packages:
+- Uninstall specific packages:
 
-`choco uninstall {string value: package(s)}`
+`choco uninstall {string+ package}`
 
 - Uninstall a specific version of a package:
 
-`choco uninstall {string value: package} --version {string value: version}`
+`choco uninstall {string package} --version {string version}`
 
 - Confirm all prompts automatically:
 
-`choco uninstall {string value: package} --yes`
+`choco uninstall {string package} --yes`
 
 - Remove all dependencies when uninstalling:
 
-`choco uninstall {string value: package} --remove-dependencies`
+`choco uninstall {string package} --remove-dependencies`
 
 - Uninstall all packages:
 
