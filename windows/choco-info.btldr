@@ -3,18 +3,18 @@
 > Display detailed information about a package with Chocolatey
 > More information: https://chocolatey.org/docs/commands-info
 
-- Display information on a specific package:
+- Display information about a specific package:
 
-`choco info {string value: package}`
+`choco info {string package}`
 
-- Display information for a local package only:
+- Display information for a specific local package only:
 
-`choco info {string value: package} --local-only`
+`choco info {string package} --local-only`
 
 - Specify a custom source to receive packages information from:
 
-`choco info {string value: package} --source {string value: source_url|alias}`
+`choco info {string package} --source {string source url|string alias}`
 
-- Provide a username and password for authentication:
+- Provide a specific username and password for authentication:
 
-`choco info {string value: package} --user {string user} --password {string value: password}`
+`choco info {string package} --user {string user} --password {string password}`
