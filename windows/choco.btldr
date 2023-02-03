@@ -6,16 +6,16 @@
 
 - Execute Chocolatey command:
 
-`choco {string value: command}`
-
-- Call general help:
-
-`choco -?`
+`choco {string command: list}`
 
 - Call help on a specific command:
 
-`choco {string value: command} -?`
+`choco {string command: list} -?`
 
-- Check the Chocolatey version:
+- Display help:
+
+`choco -?`
+
+- Display version:
 
 `choco --version`

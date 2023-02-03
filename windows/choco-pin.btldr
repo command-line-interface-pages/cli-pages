@@ -4,18 +4,18 @@
 > Pinned packages are skipped automatically when upgrading
 > More information: https://chocolatey.org/docs/commands-pin
 
-- Display a list of pinned packages and their versions:
+- List all pinned packages and their versions:
 
 `choco pin list`
 
-- Pin a package at its current version:
+- Pin a specific package at its current version:
 
-`choco pin add --name {string value: package}`
+`choco pin add --name {string package}`
 
 - Pin a package at a specific version:
 
-`choco pin add --name {string value: package} --version {string value: version}`
+`choco pin add --name {string package} --version {string version}`
 
 - Remove a pin for a specific package:
 
-`choco pin remove --name {string value: package}`
+`choco pin remove --name {string package}`

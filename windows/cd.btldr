@@ -3,10 +3,6 @@
 > Display the current working directory or move to a different directory
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cd
 
-- Display the path of the current directory:
-
-`cd`
-
 - Go to root of current drive:
 
 `cd \`
@@ -15,10 +11,10 @@
 
 `cd ..`
 
-- Go to a specific directory in the same drive:
+- Go to a specific directory in the same drive (or to the root of the current drive if omitted):
 
-`cd {string value: path\to\directory}`
+`cd {/?directory? input}`
 
 - Go to a specific directory in a different [d]rive:
 
-`cd /d {string value: C}:{string value: path\to\directory}`
+`cd /d {char drive: C}:{/?directory input}`

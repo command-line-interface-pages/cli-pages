@@ -7,21 +7,21 @@
 
 `azopy login`
 
-- Upload a local file:
+- Upload a specific local file:
 
-`azcopy copy '{string value: path/to/source/file}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}/{string value: blob_name}'`
+`azcopy copy '{file local input}' 'https://{string remote storage account}.blob.core.windows.net/{string remote container}/{string blob}'`
 
-- Upload files with `.txt` and `.jpg` extensions:
+- Upload files with specific extensions like .txt and .jpg:
 
-`azcopy copy '{file value}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}' --include-pattern '{string value: *.txt;*.jpg}'`
+`azcopy copy '{file local input}' 'https://{string remote storage account}.blob.core.windows.net/{string remote container}' --include-pattern '{string pattern: *.txt;*.jpg}'`
 
-- Copy a container directly between two Azure storage accounts:
+- Copy a specific container directly between two Azure storage accounts:
 
-`azcopy copy 'https://{string value: source_storage_account_name}.blob.core.windows.net/{string value: container_name}' 'https://{string value: destination_storage_account_name}.blob.core.windows.net/{string value: container_name}'`
+`azcopy copy 'https://{string source storage account}.blob.core.windows.net/{string container}' 'https://{string destination destination storage account}.blob.core.windows.net/{string container}'`
 
-- Synchronize a local directory and delete files in the destination if they no longer exist in the source:
+- Synchronize a specific local directory and delete files in the destination if they no longer exist in the source:
 
-`azcopy sync '{file value}' 'https://{string value: storage_account_name}.blob.core.windows.net/{string value: container_name}' --recursive --delete-destination=true`
+`azcopy sync '{file local input}' 'https://{string remote storage account}.blob.core.windows.net/{string remote container}' --recursive --delete-destination=true`
 
 - Display detailed usage information:
 

@@ -3,14 +3,14 @@
 > Interact with features with Chocolatey
 > More information: https://chocolatey.org/docs/commands-feature
 
-- Display a list of available features:
+- List all available features:
 
 `choco feature list`
 
-- Enable a feature:
+- Enable a specific feature:
 
-`choco feature enable --name {string value: name}`
+`choco feature enable --name {string feature}`
 
-- Disable a feature:
+- Disable a specific feature:
 
-`choco feature disable --name {string value: name}`
+`choco feature disable --name {string feature}`

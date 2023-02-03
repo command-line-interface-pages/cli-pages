@@ -3,26 +3,26 @@
 > Search for a local or remote package with Chocolatey
 > More information: https://chocolatey.org/docs/commands-search
 
-- Search for a package:
+- Search for a specific package:
 
-`choco search {string value: query}`
+`choco search {string query}`
 
-- Search for a package locally:
+- Search for a specific package locally:
 
-`choco search {string value: query} --local-only`
+`choco search {string query} --local-only`
 
-- Only include exact matches in the results:
+- Only include exact matches in results:
 
-`choco search {string value: query} --exact`
+`choco search {string query} --exact`
 
 - Confirm all prompts automatically:
 
-`choco search {string value: query} --yes`
+`choco search {string query} --yes`
 
-- Specify a custom source to search for packages in:
+- Specify a source to search for packages in:
 
-`choco search {string value: query} --source {string value: source_url|alias}`
+`choco search {string query} --source {string source url|string alias}`
 
-- Provide a username and password for authentication:
+- Provide a specific username and password for authentication:
 
-`choco search {string value: query} --user {string user} --password {string value: password}`
+`choco search {string query} --user {string user} --password {string password}`

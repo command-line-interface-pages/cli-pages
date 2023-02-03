@@ -3,13 +3,13 @@
 > Upgrade one or more packages with Chocolatey
 > More information: https://chocolatey.org/docs/commands-upgrade
 
-- Upgrade one or more space-separated packages:
+- Upgrade specific packages:
 
-`choco upgrade {string value: package(s)}`
+`choco upgrade {string+ package}`
 
 - Upgrade to a specific version of a package:
 
-`choco upgrade {string value: package} --version {string value: version}`
+`choco upgrade {string package} --version {string version}`
 
 - Upgrade all packages:
 
@@ -17,16 +17,16 @@
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "{string value: package(s)}"`
+`choco upgrade all --except "{string packages}"`
 
 - Confirm all prompts automatically:
 
-`choco upgrade {string value: package} --yes`
+`choco upgrade {string package} --yes`
 
-- Specify a custom source to receive packages from:
+- Specify a source to receive packages from:
 
-`choco upgrade {string value: package} --source {string value: source_url|alias}`
+`choco upgrade {string package} --source {string source url|string alias}`
 
-- Provide a username and password for authentication:
+- Provide a specific username and password for authentication:
 
-`choco upgrade {string value: package} --user {string user} --password {string value: password}`
+`choco upgrade {string package} --user {string user} --password {string password}`
