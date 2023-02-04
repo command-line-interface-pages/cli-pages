@@ -4,14 +4,18 @@
 > See also: awk, ed
 > More information: https://www.gnu.org/software/sed/manual/sed.html
 
-- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to stdout:
+- Replace all specific strings (basic regex) with another one (basic regex) in all input lines:
 
-`{string value: command} | sed 's/apple/mango/g'`
+`{string input: command} | sed 's/{string replacable string: apple}/{string replacement string: mango}/g'`
 
-- Execute a specific script [f]ile and print the result to stdout:
+- Replace all specific strings (extended regex) with another one (extended regex) in all input lines:
 
-`{string value: command} | sed -f {file value: sample.sed}`
+`{string input: command} | sed {option: --regexp-extended, -E} 's/{string replacable string: apple}/{string replacement string: mango}/g'`
 
-- Print just a first line to stdout:
+- Execute a specific script [f]ile:
 
-`{string value: command} | sed -n '1p'`
+`{string input: command} | sed {option: --file, -f} {/?file script: sample.sed}`
+
+- Display a specific line:
+
+`{string input: command} | sed {option: --silent, -n} '{int line: 1}p'`
