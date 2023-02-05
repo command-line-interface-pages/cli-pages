@@ -3,35 +3,37 @@
 > Archiving utility
 > Often combined with a compression method, such as gzip or bzip2
 > More information: https://www.gnu.org/software/tar
+> Version: --version
+> Help: --help
 
-- [c]reate an archive and write it to a specific [f]ile:
+- [c]reate an archive and write it to a [f]ile:
 
-`tar cf {file output archive: target.tar} {file+ input}`
+`tar {option mode: --create, -c} {option: --file, -f} {/?file archive: target.tar} {/?path+ input}`
 
-- [c]reate a g[z]ipped archive and write it to a specific [f]ile:
+- [c]reate a gzipped archive and write it to a [f]ile:
 
-`tar czf {file output archive: target.tar.gz} {file+ input}`
+`tar {option mode: --create, -c} --gzip {option: --file, -f} {/?file archive: target.tar.gz} {/?path+ input}`
 
-- [c]reate a g[z]ipped archive from a specific directory using relative paths:
+- [c]reate a gzipped archive from a directory using relative paths:
 
-`tar czf {file output archive: target.tar.gz} --directory={directory input} .`
+`tar {option mode: --create, -c} --gzip {option: --file, -f} {/?file archive: target.tar.gz} --directory={directory input} .`
 
-- E[x]tract a compressed archive [f]ile into the current directory [v]erbosely:
+- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xvf {file output archive: source.tar.gz source.tar.bz2, source.tar.xz}`
+`tar {option mode: --extract, -x} {option enable verbose mode: --verbose, -v} {option: --file, -f} {/?file archive: source.tar.gz, source.tar.bz2, source.tar.xz}`
 
-- E[x]tract a compressed archive [f]ile into a specific directory:
+- E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {file output archive: source.tar.gz source.tar.bz2, source.tar.xz} --directory={directory input}`
+`tar {option mode: --extract, -x} {option: --file, -f} {/?file archive: source.tar.gz, source.tar.bz2, source.tar.xz} --directory={directory target}`
 
-- [c]reate a specific compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
+- [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
-`tar caf {file output archive: target.tar.xz} {file+ input}`
+`tar {option mode: --create, -c} {option use archive suffix to determine compression program: --auto-compress, -a} {option: --file, -f} {/?file archive: target.tar.xz} {/?path+ input}`
 
-- Lis[t] contents of a specific tar [f]ile [v]erbosely:
+- Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar tvf {file output archive: sample.tar}`
+`tar {option mode: --list, -t} {option enable verbose mode: --verbose, -v} {option: --file, -f} {/?file archive: source.tar}`
 
-- E[x]tract files matching a specific pattern from an archive [f]ile:
+- E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar xf {file output archive: sample.tar} --wildcards "{string pattern: *.html}"`
+`tar {option mode: --extract, -x} {option: --file, -f} {/?file archive: source.tar} --wildcards "{string glob: *.html}"`
