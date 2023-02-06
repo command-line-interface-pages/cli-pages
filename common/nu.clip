@@ -1,6 +1,6 @@
 # nu
 
-> Nushell ("a new type of shell") takes a modern, structured approach to your command-line
+> [NU]shell
 > See also: elvish
 > More information: https://www.nushell.sh
 
@@ -10,12 +10,12 @@
 
 - Execute specific commands:
 
-`nu --commands "{string value: echo 'nu is executed'}"`
+`nu --commands {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`nu {file value: sample.nu}`
+`nu {/?file script: sample.nu}`
 
 - Execute a specific script with logging:
 
-`nu --loglevel {string value: error|warn|info|debug|trace} {file value: sample.nu}`
+`nu --loglevel {string value: error, warn, info, debug, trace} {/?file script: sample.nu}`
