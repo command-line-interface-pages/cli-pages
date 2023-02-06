@@ -20,4 +20,4 @@
 
 - Execute a specific script:
 
-`csh {/?file script: sample.sh}`
+`csh {/?file script: sample.csh}`
