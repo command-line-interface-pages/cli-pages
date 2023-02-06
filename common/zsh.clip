@@ -1,6 +1,6 @@
 # zsh
 
-> Z SHell, a Bash-compatible command-line interpreter
+> [Z] [SH]ell
 > See also: bash, dash, csh, tcsh, ksh, fish
 > Help: --help
 > Version: --version
@@ -12,28 +12,24 @@
 
 - Execute specific [c]ommands:
 
-`zsh -c "{string value: echo Hello world}"`
+`zsh -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`zsh {file value: sample.zsh}`
+`zsh {/?file script: sample.zsh}`
 
 - Check a specific script for syntax errors without executing it:
 
-`zsh --no-exec {file value: sample.zsh}`
+`zsh --no-exec {/?file script: sample.zsh}`
 
 - Execute specific commands from stdin:
 
-`{string value: echo Hello world} | zsh`
+`{string command: echo "echo 'Hello world'"} | zsh`
 
-- Execute a specific script, printing each command in the script before executing it:
+- Execute a specific script while printing each command before executing it:
 
-`zsh --xtrace {file value: sample.zsh}`
+`zsh --xtrace {/?file script: sample.zsh}`
 
-- Start an interactive shell session in verbose mode, printing each command before executing it:
+- Start an interactive shell session in verbose mode while printing each command before executing it:
 
 `zsh --verbose`
-
-- Execute a specific command inside `zsh` with disabled glob patterns:
-
-`noglob {string value: command}`
