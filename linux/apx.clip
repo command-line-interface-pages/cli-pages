@@ -1,33 +1,33 @@
 # apx
 
 > Package management utility for Vanilla OS
-> Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf flags in all commands)
+> Install packages inside managed containers from multiple sources (`apx` supports `--aur,--dnf` flags in all commands)
 > More information: https://github.com/Vanilla-OS/apx
 
-- Initialize the container:
+- [init]ialize the container:
 
 `apx init`
 
-- Install specific packages in the container:
+- [install] specific packages in the current container:
 
-`apx install {string value: package1 package2 ...}`
+`apx install {string+ package}`
 
-- Remove specific packages from the container:
-
-`apx remove {string value: package1 package2 ...}`
-
-- Search for specific packages:
-
-`apx search {string value: package1 package2 ...}`
-
-- Enter the managed container shell to execute commands (type `exit` to exit the container):
-
-`apx enter`
-
-- Update the list of available packages in the container:
+- [update] a list of all available packages in the current container:
 
 `apx update`
 
-- Upgrade all installed packages in the container to their newest available version:
+- [upgrade] all installed packages in the current container to their latest version:
 
 `apx upgrade`
+
+- [remove] specific packages from the current container:
+
+`apx remove {string+ package}`
+
+- Search for specific packages:
+
+`apx search {string+ package}`
+
+- Enter a managed container shell to execute commands (type `exit` to exit the container):
+
+`apx enter`
