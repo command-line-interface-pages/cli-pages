@@ -2,36 +2,24 @@
 
 > Check file types and compare values
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false
-> More information: https://www.gnu.org/software/bash/manual/bash.html#index-_005b_005b
+> More information: https://www.gnu.org/software/bash/manual/bash.html#index-test
 
-- Test if a given variable is equal/not equal to the specified string:
+- Test if a specific variable is equal/not equal to a string:
 
-`[[ ${string value: variable} {string value: ==|!=} "{string value: string}" ]]`
+`[[ "${string variable: foo}" {string operator: ==, !=} "{string string: Hello world!}" ]]`
 
-- Test if a given string conforms the specified glob/regex:
+- Test if a specific variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to a number:
 
-`[[ ${string value: variable} {string value: ==|=~} {string value: pattern} ]]`
+`[[ "${string variable: foo}" {string operator: -eq, -ne, -gt, -lt, -ge, -le} {string number: 1} ]]`
 
-- Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number:
+- Test if a specific variable has an empty/[n]on-empty value:
 
-`[[ ${string value: variable} -{string value: eq|ne|gt|lt|ge|le} {string value: integer} ]]`
+`[[ {string operator: -z, -n} "${string variable: foo}" ]]`
 
-- Test if the specified variable has a [n]on-empty value:
+- Test if a specific [f]ile/[d]irectory exists:
 
-`[[ -n ${string value: variable} ]]`
+`[[ {string operator: -f, -d} {/?file some: ~/.bashrc} ]]`
 
-- Test if the specified variable has an empty value:
+- Test if a specific file or directory [e]xists:
 
-`[[ -z ${string value: variable} ]]`
-
-- Test if the specified [f]ile exists:
-
-`[[ -f {file value} ]]`
-
-- Test if the specified [d]irectory exists:
-
-`[[ -d {directory value} ]]`
-
-- Test if the specified file or directory [e]xists:
-
-`[[ -e {path value} ]]`
+`[[ -e {/?path some: ~/.bashrc} ]]`
