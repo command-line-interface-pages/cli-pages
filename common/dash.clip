@@ -1,6 +1,7 @@
 # dash
 
 > Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible)
+> See also: bash, csh, tcsh, ksh, fish, zsh
 > More information: https://manned.org/dash
 
 - Start an interactive shell session:

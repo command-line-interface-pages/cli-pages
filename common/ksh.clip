@@ -1,7 +1,7 @@
 # ksh
 
 > Korn Shell, a Bash-compatible command-line interpreter
-> See also: histexpand
+> See also: bash, dash, csh, tcsh, fish, zsh
 > More information: http://kornshell.com
 
 - Start an interactive shell session:
