@@ -2,6 +2,8 @@
 
 > C shell with file name completion and command line editing
 > See also: bash, dash, csh, ksh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: https://manned.org/tcsh
 
 - Start an interactive shell session:

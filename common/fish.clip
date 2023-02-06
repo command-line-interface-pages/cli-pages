@@ -2,6 +2,8 @@
 
 > The Friendly Interactive SHell, a command-line interpreter designed to be user friendly
 > See also: bash, dash, csh, tcsh, ksh, zsh
+> Help: --help
+> Version: --version
 > More information: https://fishshell.com
 
 - Start an interactive shell session:

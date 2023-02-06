@@ -2,6 +2,8 @@
 
 > The shell (command interpreter) with C-like syntax
 > See also: bash, dash, tcsh, ksh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: https://www.mkssoftware.com/docs/man1/csh.1.asp
 
 - Start an interactive shell session:

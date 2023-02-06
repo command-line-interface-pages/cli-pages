@@ -2,6 +2,8 @@
 
 > Bourne-Again SHell, an `sh`-compatible command-line interpreter
 > See also: dash, csh, tcsh, ksh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: https://gnu.org/software/bash/
 
 - Start an interactive shell session:

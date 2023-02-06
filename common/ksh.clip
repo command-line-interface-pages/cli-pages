@@ -2,6 +2,8 @@
 
 > Korn Shell, a Bash-compatible command-line interpreter
 > See also: bash, dash, csh, tcsh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: http://kornshell.com
 
 - Start an interactive shell session:
