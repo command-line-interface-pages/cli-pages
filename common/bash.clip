@@ -1,6 +1,7 @@
 # bash
 
-> Bourne-Again SHell, an `sh`-compatible command-line interpreter
+> GNU [B]ourne-[A]gain [SH]ell
+> [B]ourne [S]hell-compatible
 > See also: dash, csh, tcsh, ksh, fish, zsh
 > Help: --help
 > Version: --version
@@ -16,20 +17,20 @@
 
 - Execute specific [c]ommands:
 
-`bash -c "{string value: echo 'bash is executed'}"`
+`bash -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`bash {file value: sample.sh}`
+`bash {/?file script: sample.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`bash -x {file value: sample.sh}`
+`bash -x {/?file script: sample.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`bash -e {file value: sample.sh}`
+`bash -e {/?file script: sample.sh}`
 
 - Execute specific commands from stdin:
 
-`{string value: echo "echo 'bash is executed'"} | bash`
+`{string command: echo "echo 'Hello world'"} | bash`
