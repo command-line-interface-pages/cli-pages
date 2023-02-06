@@ -8,9 +8,9 @@
 
 `nu`
 
-- Execute specific commands:
+- Execute specific [c]ommands:
 
-`nu --commands {string command: "echo 'Hello world!'"}`
+`nu {option: --commands, -c} {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
