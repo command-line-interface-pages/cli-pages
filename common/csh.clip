@@ -1,6 +1,6 @@
 # csh
 
-> The shell (command interpreter) with C-like syntax
+> [C] [SH]ell
 > See also: bash, dash, tcsh, ksh, fish, zsh
 > Help: --help
 > Version: --version
@@ -16,8 +16,8 @@
 
 - Execute specific [c]ommands:
 
-`csh -c "{string value: echo 'csh is executed'}"`
+`csh -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`csh {file value: sample.csh}`
+`csh {/?file script: sample.sh}`
