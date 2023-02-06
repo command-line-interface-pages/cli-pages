@@ -1,6 +1,6 @@
 # elvish
 
-> Expressive programming language and a versatile interactive shell
+> [ELVISH]
 > See also: nu
 > More information: https://elv.sh
 
@@ -10,8 +10,8 @@
 
 - Execute specific [c]ommands:
 
-`elvish -c "{string value: echo 'elvish is executed'}"`
+`elvish -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`elvish {file value: sample.elv}`
+`elvish {/?file script: sample.elv}`

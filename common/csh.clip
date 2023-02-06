@@ -1,7 +1,9 @@
 # csh
 
-> The shell (command interpreter) with C-like syntax
-> See also: tcsh
+> [C] [SH]ell
+> See also: bash, dash, tcsh, ksh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: https://www.mkssoftware.com/docs/man1/csh.1.asp
 
 - Start an interactive shell session:
@@ -14,8 +16,8 @@
 
 - Execute specific [c]ommands:
 
-`csh -c "{string value: echo 'csh is executed'}"`
+`csh -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`csh {file value: sample.csh}`
+`csh {/?file script: sample.csh}`

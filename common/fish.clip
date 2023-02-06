@@ -1,6 +1,9 @@
 # fish
 
-> The Friendly Interactive SHell, a command-line interpreter designed to be user friendly
+> [F]riendly [I]nteractive [SH]ell
+> See also: bash, dash, csh, tcsh, ksh, zsh
+> Help: --help
+> Version: --version
 > More information: https://fishshell.com
 
 - Start an interactive shell session:
@@ -9,28 +12,24 @@
 
 - Start an interactive shell session without loading startup configs:
 
-`fish --no-config`
+`fish {option: --no-config, -N}`
 
-- Execute specific commands:
+- Execute specific [c]ommands:
 
-`fish --command "{string value: echo 'fish is executed'}"`
+`fish {option: --command, -c} {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`fish {file value: sample.fish}`
+`fish {/?file script: sample.fish}`
 
 - Check a specific script for syntax errors:
 
-`fish --no-execute {file value: sample.fish}`
+`fish {option: --no-execute, -n} {/?file script: sample.fish}`
 
 - Execute specific commands from stdin:
 
-`{string value: echo "echo 'fish is executed'"} | fish`
+`{string command: echo "echo 'Hello world'"} | fish`
 
-- Start an interactive shell session in private mode, where the shell does not access old history or save new history:
+- Start an interactive shell session in [P]rivate mode, where the shell does not access old history or save new history:
 
-`fish --private`
-
-- Define and export an environmental variable that persists across shell restarts (builtin):
-
-`set --universal --export {string value: variable_name} {string value: variable_value}`
+`fish {option: --private, -P}`

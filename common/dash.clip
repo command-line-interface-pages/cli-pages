@@ -1,6 +1,7 @@
 # dash
 
-> Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible)
+> [D]ebian [A]lmquist [SH]ell
+> See also: bash, csh, tcsh, ksh, fish, zsh
 > More information: https://manned.org/dash
 
 - Start an interactive shell session:
@@ -9,24 +10,24 @@
 
 - Execute specific [c]ommands:
 
-`dash -c "{string value: echo 'dash is executed'}"`
+`dash -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`dash {file value: sample.sh}`
+`dash {/?file script: sample.sh}`
 
 - Check a specific script for syntax errors:
 
-`dash -n {file value: sample.sh}`
+`dash -n {/?file script: sample.sh}`
 
 - Execute a specific script while printing each command before executing it:
 
-`dash -x {file value: sample.sh}`
+`dash -x {/?file script: sample.sh}`
 
 - Execute a specific script and stop at the first [e]rror:
 
-`dash -e {file value: sample.sh}`
+`dash -e {/?file script: sample.sh}`
 
 - Execute specific commands from stdin:
 
-`{string value: echo "echo 'dash is executed'"} | dash`
+`{string command: echo "echo 'Hello world'"} | dash`

@@ -1,7 +1,9 @@
 # ksh
 
-> Korn Shell, a Bash-compatible command-line interpreter
-> See also: histexpand
+> [K]orn [SH]ell
+> See also: bash, dash, csh, tcsh, fish, zsh
+> Help: --help
+> Version: --version
 > More information: http://kornshell.com
 
 - Start an interactive shell session:
@@ -10,16 +12,16 @@
 
 - Execute specific [c]ommands:
 
-`ksh -c "{string value: echo 'ksh is executed'}"`
+`ksh -c {string command: "echo 'Hello world!'"}`
 
 - Execute a specific script:
 
-`ksh {file value: sample.ksh}`
+`ksh {/?file script: sample.ksh}`
 
 - Check a specific script for syntax errors without executing it:
 
-`ksh -n {file value: sample.ksh}`
+`ksh -n {/?file script: sample.ksh}`
 
-- Execute a specific script, printing each command in the script before executing it:
+- Execute a specific script while printing each command before executing it:
 
-`ksh -x {file value: sample.ksh}`
+`ksh -x {/?file script: sample.ksh}`
