@@ -16,9 +16,13 @@
 
 `[ {string operator: -z, -n} "${string variable: foo}" ]`
 
-- Test if a specific [f]ile/[d]irectory exists:
+- Test if a specific [f]ile exists:
 
-`[ {string operator: -f, -d} {/?file some: ~/.bashrc} ]`
+`[ -f {/?file some: ~/.bashrc} ]`
+
+- Test if a specific [d]irectory exists:
+
+`[ -d {/?directory some: images} ]`
 
 - Test if a specific file or directory [e]xists:
 
