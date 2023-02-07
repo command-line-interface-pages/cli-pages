@@ -1,0 +1,9 @@
+header:
+  prefix: "[ "
+  suffix: " ]"
+summary:
+  description:
+    prefix: "What is it? "
+  tag:
+    more-information:
+      prefix: "Want to learn more? "
