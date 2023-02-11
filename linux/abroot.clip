@@ -4,7 +4,7 @@
 > It also allows on-demand transactions via a transactional shell
 > Help: --help
 > Version: --version
-> More information: https://github.com/Vanilla-OS/ABRoot
+> More information: https://documentation.vanillaos.org/docs/ABRoot/
 
 - Output the current or future root partition state:
 
