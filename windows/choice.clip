@@ -2,27 +2,24 @@
 
 > Prompt user to select a choice and return the selected choice index
 > More information: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice
+> Help: /?
 
-- Prompt the current user to select a `Y` or `N` choice:
+- Prompt to select a "Y" or "N" choice:
 
 `choice`
 
-- Prompt the current user to select a [c]hoice from a specific set:
+- Prompt to select a [c]hoice from a specific set:
 
-`choice /c {string value: AB}`
+`choice /c {string characters: AB}`
 
-- Prompt the current user to select a choice with a specific [m]essage:
+- Prompt to select a choice with a specific [m]essage:
 
-`choice /m "{string value: message}"`
+`choice /m "{string message}"`
 
-- Prompt the current user to select a [c]ase-[s]ensitive [c]hoice from a specific set:
+- Prompt to select a [c]ase-[s]ensitive [c]hoice from a specific set:
 
-`choice /cs /c {string value: Ab}`
+`choice /cs /c {string characters: AB}`
 
-- Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
+- Prompt to select a choice and prefer the [d]efault choice in a specific [t]ime:
 
-`choice /t {int value: 5} /d {string value: N}`
-
-- Display help:
-
-`choice /?`
+`choice /t {int time: 5} /d {char default: N}`
