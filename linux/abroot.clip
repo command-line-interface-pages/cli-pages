@@ -10,11 +10,11 @@
 
 `sudo abroot get {string time: present, future}`
 
-- Enter a transactional shell in a future root partition and switch root on the next boot:
+- Enter a transactional shell in the future root partition and switch root on the next boot:
 
 `sudo abroot shell`
 
-- [exec]ute a specific command in the transactional shell in a future root partition and switch to it on the next boot:
+- [exec]ute a specific command in the transactional shell in the future root partition and switch to it on the next boot:
 
 `sudo abroot exec "{string command}"`
 
