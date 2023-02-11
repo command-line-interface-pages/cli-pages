@@ -4,7 +4,7 @@
 > Install packages inside managed containers from multiple sources (`apx` supports `--aur,--dnf` flags in all commands)
 > Help: --help
 > Version: --version
-> More information: https://github.com/Vanilla-OS/apx
+> More information: https://documentation.vanillaos.org/docs/apx/
 
 - [init]ialize the container:
 
