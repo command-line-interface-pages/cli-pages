@@ -1,7 +1,7 @@
 # apx
 
 > Package management utility for Vanilla OS
-> Install packages inside managed containers from multiple sources (`apx` supports `--aur,--dnf` flags in all commands)
+> Install packages inside managed containers from multiple sources (`apx` supports `apk,aur,dnf,xbps,zypper` flags in all commands)
 > Help: --help
 > Version: --version
 > More information: https://documentation.vanillaos.org/docs/apx/
