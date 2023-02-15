@@ -2,19 +2,12 @@
 
 > Copy input content to the Windows clipboard
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/clip
+> Help: /?
 
-- Pipe command-line output to the Windows clipboard:
+- Pipe command output to the clipboard:
 
-`{directory value} | clip`
+`{command input} | clip`
 
-- Copy the contents of a file to the Windows clipboard:
+- Copy contents of a specific file to the clipboard:
 
-`clip < {file value: sample.ext}`
-
-- Copy text with a trailing newline to the Windows clipboard:
-
-`echo {string value: some text} | clip`
-
-- Copy text without a trailing newline to the Windows clipboard:
-
-`echo | set /p="some text" | clip`
+`clip < {file input: sample.ext}`
