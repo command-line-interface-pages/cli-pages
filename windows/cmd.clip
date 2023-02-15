@@ -1,23 +1,25 @@
 # cmd
 
 > The Windows command interpreter
+> See also: pwsh
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cmd
 
 - Start an interactive shell session:
 
 `cmd`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`cmd /c "{string value: command}"`
+`cmd /c "{string command: echo Hello world!}"`
 
-- Execute a script:
+- Execute a specific script:
 
-`cmd {file value: sample.bat}`
+`cmd {/?file value: sample.bat}`
 
-- Execute a command and then enter an interactive shell:
+- Execute a specific command and then enter an interactive shell:
 
-`cmd /k "{string value: command}"`
+`cmd /k "{string command: echo Hello world!}"`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
@@ -25,12 +27,12 @@
 
 - Start an interactive shell session with delayed [v]ariable expansion enabled or disabled:
 
-`cmd /v:{string value: on|off}`
+`cmd /v:{bool whether delayed expansion is enabled: on, off}`
 
 - Start an interactive shell session with command [e]xtensions enabled or disabled:
 
-`cmd /e:{string value: on|off}`
+`cmd /e:{bool whether command extensions are enabled: on, off}`
 
-- Start an interactive shell session with used Unicode encoding:
+- Start an interactive shell session with used [u]nicode encoding:
 
 `cmd /u`
