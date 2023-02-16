@@ -5,11 +5,11 @@
 
 - Take a screenshot and save it to a file:
 
-`screencapture {file value: sample.png}`
+`screencapture {file file with mandatory .png extension}`
 
 - Take a screenshot including the mouse cursor:
 
-`screencapture -C {file value: sample.png}`
+`screencapture -C {file file with mandatory .png extension}`
 
 - Take a screenshot and open it in Preview, instead of saving:
 
@@ -17,12 +17,12 @@
 
 - Take a screenshot of a selected rectangular area:
 
-`screencapture -i {file value: sample.png}`
+`screencapture -i {file file with mandatory .png extension}`
 
 - Take a screenshot after a delay:
 
-`screencapture -T {string value: seconds} {file value: sample.png}`
+`screencapture -T {string some description: seconds} {file file with mandatory .png extension}`
 
 - Make a screen recording and save it to a file:
 
-`screencapture -v {file value: sample.mp4}`
+`screencapture -v {file file with mandatory .mp4 extension}`

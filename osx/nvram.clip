@@ -13,11 +13,11 @@
 
 - Modify the value of a firmware variable:
 
-`sudo nvram {string value: name}="{string value: value}"`
+`sudo nvram {string some description: name}="{string some description: value}"`
 
 - [d]elete a firmware variable:
 
-`sudo nvram -d {string value: name}`
+`sudo nvram -d {string some description: name}`
 
 - [c]lear all the firmware variables:
 
@@ -25,4 +25,4 @@
 
 - Set a firmware variable from a specific [x]ML [f]ile:
 
-`sudo nvram -xf {file value: sample.xml}`
+`sudo nvram -xf {file file with mandatory .xml extension}`

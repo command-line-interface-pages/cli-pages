@@ -14,16 +14,16 @@
 
 - Calculate an expression:
 
-`bc --expression='{string value: 5 / 3}'`
+`bc --expression='{string some description 3: 5 / }'`
 
 - Execute a script:
 
-`bc {file value: sample.bc}`
+`bc {string some description: path/to/script.bc}`
 
-- Calculate an expression with the specified scale:
+- Calculate an expression with a specific scale:
 
-`bc --expression='scale = {int value: 10}; {string value: 5 / 3}'`
+`bc --expression='scale = {int some description: 10}; {string some description 3: 5 / }'`
 
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
-`bc --mathlib --expression='{string value: s|c|a|l|e}({int value: 1})'`
+`bc --mathlib --expression='{string some description: s|c|a|l|e}({int some description: 1})'`

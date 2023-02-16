@@ -6,16 +6,16 @@
 
 - Restore a disk image to a target volume:
 
-`sudo asr restore --source {string value: image_name}.dmg --target {string value: path/to/volume}`
+`sudo asr restore --source {string some description: image_name}.dmg --target {string some description: path/to/volume}`
 
 - Erase the target volume before restoring:
 
-`sudo asr restore --source {string value: image_name}.dmg --target {string value: path/to/volume} --erase`
+`sudo asr restore --source {string some description: image_name}.dmg --target {string some description: path/to/volume} --erase`
 
 - Skip verification after restoring:
 
-`sudo asr restore --source {string value: image_name}.dmg --target {string value: path/to/volume} --noverify`
+`sudo asr restore --source {string some description: image_name}.dmg --target {string some description: path/to/volume} --noverify`
 
 - Clone volumes without the use of an intermediate disk image:
 
-`sudo asr restore --source {string value: path/to/volume} --target {string value: path/to/cloned_volume}`
+`sudo asr restore --source {string some description: path/to/volume} --target {string some description: path/to/cloned_volume}`

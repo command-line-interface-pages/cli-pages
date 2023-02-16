@@ -5,11 +5,11 @@
 
 - Prevent from sleeping for 1 hour (3600 seconds):
 
-`caffeinate -u -t {int value: 3600}`
+`caffeinate -u -t {int some description: 3600}`
 
 - Prevent from sleeping until a command completes:
 
-`caffeinate -s "{string value: command}"`
+`caffeinate -s "{string some description: command}"`
 
 - Prevent from sleeping (use `Ctrl + C` to exit):
 

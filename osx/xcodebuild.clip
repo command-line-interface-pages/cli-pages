@@ -5,11 +5,11 @@
 
 - Build workspace:
 
-`xcodebuild -workspace {string value: workspace_name.workspace} -scheme {string value: scheme_name} -configuration {string value: configuration_name} clean build SYMROOT={string value: SYMROOT_path}`
+`xcodebuild -workspace {string some description: workspace_name.workspace} -scheme {string some description: scheme_name} -configuration {string some description: configuration_name} clean build SYMROOT={string some description: SYMROOT_path}`
 
 - Build project:
 
-`xcodebuild -target {string value: target_name} -configuration {string value: configuration_name} clean build SYMROOT={string value: SYMROOT_path}`
+`xcodebuild -target {string some description: target_name} -configuration {string some description: configuration_name} clean build SYMROOT={string some description: SYMROOT_path}`
 
 - Show SDKs:
 

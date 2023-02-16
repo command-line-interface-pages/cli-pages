@@ -5,8 +5,8 @@
 
 - Transform an XML file with a specific XSLT stylesheet:
 
-`xsltproc --output {string value: output.html} {string value: stylesheet.xslt} {string value: xmlfile.xml}`
+`xsltproc --output {file output file with mandatory .html extension} {file stylesheet file with mandatory .xslt extension} {file xmlfile file with mandatory .xml extension}`
 
 - Pass a value to a parameter in the stylesheet:
 
-`xsltproc --output {string value: output.html} --stringparam "{string value: name}" "{string value: value}" {string value: stylesheet.xslt} {string value: xmlfile.xml}`
+`xsltproc --output {file output file with mandatory .html extension} --stringparam "{string some description: name}" "{string some description: value}" {file stylesheet file with mandatory .xslt extension} {file xml file with mandatory .xml extension}`

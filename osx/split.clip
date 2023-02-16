@@ -5,12 +5,12 @@
 
 - Split a file, each split having 10 lines (except the last split):
 
-`split -l {int value: 10} {file value}`
+`split -l {int some description: 10} {file some description}`
 
 - Split a file by a regular expression. The matching line will be the first line of the next output file:
 
-`split -p {string value: cat|^[dh]og} {file value}`
+`split -p {string some description: cat|^[dh]og} {file some description}`
 
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
-`split -b {int value: 512} {file value}`
+`split -b {int some description: 512} {file some description}`

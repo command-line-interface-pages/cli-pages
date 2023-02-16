@@ -6,16 +6,16 @@
 
 - Assemble a file, writing the output to `a.out`:
 
-`as {file value: sample.s}`
+`as {file file with mandatory .s extension}`
 
-- Assemble the output to a given file:
+- Assemble the output to a specific file:
 
-`as {file value: sample.s} -o {string value: out.o}`
+`as {file file with mandatory .s extension} -o {string some description: out.o}`
 
 - Generate output faster by skipping whitespace and comment preprocessing. (Should only be used for trusted compilers):
 
-`as -f {file value: sample.s}`
+`as -f {file file with mandatory .s extension}`
 
-- Include a given path to the list of directories to search for files specified in `.include` directives:
+- Include a specific path to the list of directories to search for files specified in `.include` directives:
 
-`as -I {directory value} {file value: sample.s}`
+`as -I {directory some description} {file file with mandatory .s extension}`

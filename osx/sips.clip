@@ -6,24 +6,24 @@
 
 - Specify an output directory so that originals do not get modified:
 
-`sips --out {directory value: out}`
+`sips --out {directory out directory}`
 
 - Resample image at specified size, Image aspect ratio may be altered:
 
-`sips --resampleHeightWidth {int value: 1920} {int value: 300} {string value: image.ext}`
+`sips --resampleHeightWidth {int some description: 1920} {int some description: 300} {file image file with mandatory .ext extension}`
 
 - Resample image so height and width aren't greater than specified size (notice the capital Z):
 
-`sips --resampleHeightWidthMax {int value: 1920} {int value: 300} {string value: image.ext}`
+`sips --resampleHeightWidthMax {int some description: 1920} {int some description: 300} {file image file with mandatory .ext extension}`
 
 - Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
 
-`sips --resampleWidth {int value: 960} {string value: path/to/images}`
+`sips --resampleWidth {int some description: 960} {string some description: path/to/images}`
 
 - Convert an image from CMYK to RGB:
 
-`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {string value: path/to/image.ext} {directory value: out}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {string some description: path/to/image.ext} {directory out directory}`
 
 - Remove ColorSync ICC profile from an image:
 
-`sips --deleteProperty profile --deleteColorManagementProperties {string value: path/to/image.ext}`
+`sips --deleteProperty profile --deleteColorManagementProperties {file image file with mandatory .ext extension}`

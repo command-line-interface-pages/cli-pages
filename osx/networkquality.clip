@@ -11,9 +11,9 @@
 
 `networkQuality -s`
 
-- Test a specified network interface:
+- Test a specific network interface:
 
-`networkQuality -I {string value: en0}`
+`networkQuality -I {string some description 0: en}`
 
 - Test the network quality with verbose output:
 

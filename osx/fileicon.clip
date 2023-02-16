@@ -5,16 +5,16 @@
 
 - Set a custom icon for a specific file or directory:
 
-`fileicon set {path value} {string value: path/to/icon.png}`
+`fileicon set {path some description} {file icon file with mandatory .png extension}`
 
 - Remove a custom icon from a specific file or directory:
 
-`fileicon rm {path value}`
+`fileicon rm {path some description}`
 
 - Save the custom icon of a file or directory as a `.icns` file into the current directory:
 
-`fileicon get {path value}`
+`fileicon get {path some description}`
 
 - Test if a specific file or directory has a custom icon:
 
-`fileicon test {path value}`
+`fileicon test {path some description}`

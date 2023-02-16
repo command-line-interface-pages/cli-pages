@@ -3,26 +3,26 @@
 > Send ICMP ECHO_REQUEST packets to network hosts
 > More information: https://ss64.com/osx/ping.html
 
-- Ping the specified host:
+- Ping a specific host:
 
-`ping "{string value: hostname}"`
+`ping "{string some description: hostname}"`
 
 - Ping a host a specific number of times:
 
-`ping -c {string value: count} "{string value: host}"`
+`ping -c {string some description: count} "{string some description: host}"`
 
 - Ping `host`, specifying the interval in `seconds` between requests (default is 1 second):
 
-`ping -i {string value: seconds} "{string value: host}"`
+`ping -i {string some description: seconds} "{string some description: host}"`
 
 - Ping `host` without trying to lookup symbolic names for addresses:
 
-`ping -n "{string value: host}"`
+`ping -n "{string some description: host}"`
 
 - Ping `host` and ring the bell when a packet is received (if your terminal supports it):
 
-`ping -a "{string value: host}"`
+`ping -a "{string some description: host}"`
 
 - Ping `host` and prints the time a packet was received (this option is an Apple addition):
 
-`ping --apple-time "{string value: host}"`
+`ping --apple-time "{string some description: host}"`

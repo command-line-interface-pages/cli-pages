@@ -9,12 +9,12 @@
 
 - Verify cryptographic signatures of a package file:
 
-`pkgutil --check-signature {file value: sample.pkg}`
+`pkgutil --check-signature {file file with mandatory .pkg extension}`
 
 - List all the files for an installed package given its ID:
 
-`pkgutil --files {string value: com.microsoft.Word}`
+`pkgutil --files {string some description: com.microsoft.Word}`
 
 - Extract the contents of a package file into a directory:
 
-`pkgutil --expand-full {file value: sample.pkg} {directory value}`
+`pkgutil --expand-full {file file with mandatory .pkg extension} {directory some description}`

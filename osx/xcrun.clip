@@ -5,19 +5,19 @@
 
 - Find and run a tool from the active developer directory:
 
-`xcrun {string value: tool} {string value: arguments}`
+`xcrun {string some description: tool} {any* argument}`
 
 - Show verbose output:
 
-`xcrun {string value: tool} {string value: arguments} --verbose`
+`xcrun {string some description: tool} {any* argument} --verbose`
 
-- Find a tool for a given SDK:
+- Find a tool for a specific SDK:
 
-`xcrun --sdk {string value: sdk_name}`
+`xcrun --sdk {string some description: sdk_name}`
 
-- Find a tool for a given toolchain:
+- Find a tool for a specific toolchain:
 
-`xcrun --toolchain {string value: name}`
+`xcrun --toolchain {string some description: name}`
 
 - Display help:
 

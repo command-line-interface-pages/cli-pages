@@ -5,11 +5,11 @@
 
 - Find a song by name and play it:
 
-`spotify play {string value: song_name}`
+`spotify play {string some description: song_name}`
 
 - Find a playlist by name and play it:
 
-`spotify play list {string value: playlist_name}`
+`spotify play list {string some description: playlist_name}`
 
 - Pause (or resume) playback:
 
@@ -21,7 +21,7 @@
 
 - Change volume:
 
-`spotify vol {string value: up|down|value}`
+`spotify vol {string some description: up|down|value}`
 
 - Show the playback status and song details:
 

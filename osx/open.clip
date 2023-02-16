@@ -5,15 +5,15 @@
 
 - Open a file with the associated application:
 
-`open {file value: sample.ext}`
+`open {file file with mandatory .ext extension}`
 
 - Run a graphical macOS [a]pplication:
 
-`open -a "{string value: Application}"`
+`open -a "{string some description: Application}"`
 
 - Run a graphical macOS app based on the [b]undle identifier (refer to `osascript` for an easy way to get this):
 
-`open -b {string value: com.domain.application}`
+`open -b {string some description: com.domain.application}`
 
 - Open the current directory in Finder:
 
@@ -21,12 +21,12 @@
 
 - [R]eveal a file in Finder:
 
-`open -R {file value}`
+`open -R {file some description}`
 
-- Open all the files of a given extension in the current directory with the associated application:
+- Open all the files of a specific extension in the current directory with the associated application:
 
-`open {string value: *.ext}`
+`open {string some description: *.ext}`
 
 - Open a [n]ew instance of an application specified via [b]undle identifier:
 
-`open -n -b {string value: com.domain.application}`
+`open -n -b {string some description: com.domain.application}`

@@ -5,23 +5,23 @@
 
 - Pull a remote VM image:
 
-`tart pull {string value: acme.io/org/name:tag}`
+`tart pull {string some description: acme.io/org/name:tag}`
 
 - Clone a VM from a local or remote image source:
 
-`tart clone {string value: source-vm} {string value: vm-name}`
+`tart clone {string some description: source-vm} {string some description: vm-name}`
 
 - Create a new Mac VM from a specific ipsw file:
 
-`tart create --from-ipsw={string value: latest|path/to/file.ipsw} {string value: vm-name}`
+`tart create --from-ipsw={string some description: latest|path/to/file.ipsw} {string some description: vm-name}`
 
 - Run an existing VM:
 
-`tart run {string value: vm-name}`
+`tart run {string some description: vm-name}`
 
 - Run an existing VM with a specific mounted directory:
 
-`tart run --dir={directory value}:{/directory value: local} {string value: vm-name}`
+`tart run --dir={directory some description}:{/directory local directory} {string some description: vm-name}`
 
 - List VMs:
 
@@ -29,8 +29,8 @@
 
 - Get IP address of a running VM:
 
-`tart ip {string value: vm-name}`
+`tart ip {string some description: vm-name}`
 
 - Change a VM's display resolution:
 
-`tart set {string value: vm-name} --display {string value: width}x{string value: height}`
+`tart set {string some description: vm-name} --display {int some description: 640}x{int some description: 400}`

@@ -5,16 +5,16 @@
 
 - Encode a file:
 
-`base64 --input={file value: plain}`
+`base64 --input={file plain file}`
 
 - Decode a file:
 
-`base64 --decode --input={file value: base64}`
+`base64 --decode --input={file base64 file}`
 
 - Encode from stdin:
 
-`echo -n "{string value: plain_text}" | base64`
+`echo -n "{string some description: plain_text}" | base64`
 
 - Decode from stdin:
 
-`echo -n {string value: base64_text} | base64 --decode`
+`echo -n {string some description: base64_text} | base64 --decode`

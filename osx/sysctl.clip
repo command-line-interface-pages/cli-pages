@@ -21,4 +21,4 @@
 
 - Set a changeable kernel state variable:
 
-`sysctl -w {string value: section.tunable}={string value: value}`
+`sysctl -w {string some description: section.tunable}={string some description: value}`

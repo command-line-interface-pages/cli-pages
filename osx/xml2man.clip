@@ -5,12 +5,12 @@
 
 - Compile an MPGL file to a viewable man page:
 
-`xml2man {string value: path/to/command.mxml}`
+`xml2man {file command file with mandatory .mxml extension}`
 
 - Compile an MPGL file to a specific output file:
 
-`xml2man {string value: path/to/service.mxml} {string value: path/to/service.7}`
+`xml2man {file service file with mandatory .mxml extension} {file service file with mandatory .7 extension}`
 
 - Compile an MPGL file to a specific output file, overwriting if it already exists:
 
-`xml2man -f {string value: path/to/function.mxml} {string value: path/to/function.3}`
+`xml2man -f {file function file with mandatory .mxml extension} {file function file with mandatory .3 extension}`

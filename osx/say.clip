@@ -5,15 +5,15 @@
 
 - Say a phrase aloud:
 
-`say "{string value: I like to ride my bike.}"`
+`say "{string some description: I like to ride my bike.}"`
 
 - Read a file aloud:
 
-`say --input-file={file value: sample.txt}`
+`say --input-file={file file with mandatory .txt extension}`
 
 - Say a phrase with a custom voice and speech rate:
 
-`say --voice={string value: voice} --rate={string value: words_per_minute} "{string value: I'm sorry Dave, I can't let you do that.}"`
+`say --voice={string some description: voice} --rate={string some description: words_per_minute} "{string some description: I'm sorry Dave, I can't let you do that.}"`
 
 - List the available voices (different voices speak in different languages):
 
@@ -21,8 +21,8 @@
 
 - Say something in Polish:
 
-`say --voice={string value: Zosia} "{string value: Litwo, ojczyzno moja!}"`
+`say --voice={string some description: Zosia} "{string some description: Litwo, ojczyzno moja!}"`
 
 - Create an audio file of the spoken text:
 
-`say --output-file={file value: sample.aiff} "{string value: Here's to the Crazy Ones.}"`
+`say --output-file={file file with mandatory .aiff extension} "{string some description: Here's to the Crazy Ones.}"`

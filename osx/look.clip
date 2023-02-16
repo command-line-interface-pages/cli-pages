@@ -3,10 +3,10 @@
 > Look for lines in sorted file
 > More information: https://manned.org/look
 
-- Look for lines which begins with the given prefix:
+- Look for lines which begins with a specific prefix:
 
-`look {string value: prefix} {file value}`
+`look {string some description: prefix} {file some description}`
 
 - Look for lines ignoring case:
 
-`look --ignore-case {string value: prefix} {file value}`
+`look --ignore-case {string some description: prefix} {file some description}`

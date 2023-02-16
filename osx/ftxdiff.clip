@@ -5,7 +5,7 @@
 
 - Output differences to a specific text file:
 
-`ftxdiff --output {string value: path/to/fontdiff.txt} {string value: path/to/font1.ttc} {string value: path/to/font2.ttc}`
+`ftxdiff --output {file fontdiff file with mandatory .txt extension} {file font file 1 with mandatory .ttc extension} {file font file 2 with mandatory .ttc extension}`
 
 - Include glyph names in output:
 

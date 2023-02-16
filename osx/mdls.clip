@@ -5,8 +5,8 @@
 
 - Display the list of metadata attributes for file:
 
-`mdls {file value}`
+`mdls {file some description}`
 
 - Display a specific metadata attribute:
 
-`mdls -name {string value: attribute} {file value}`
+`mdls -name {string some description: attribute} {file some description}`

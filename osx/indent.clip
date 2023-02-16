@@ -5,8 +5,8 @@
 
 - Format C/C++ source according to the Berkeley style:
 
-`indent {file value: sample.c} {file value: indented.c} -nbad -nbap -bc -br -c33 -cd33 -cdb -ce -ci4 -cli0 -di16 -fc1 -fcb -i4 -ip -l75 -lp -npcs -nprs -psl -sc -nsob -ts8`
+`indent {file source file with mandatory .c extension} {file indented file with mandatory .c extension} -nbad -nbap -bc -br -c33 -cd33 -cdb -ce -ci4 -cli0 -di16 -fc1 -fcb -i4 -ip -l75 -lp -npcs -nprs -psl -sc -nsob -ts8`
 
 - Format C/C++ source according to the style of Kernighan & Ritchie (K&R):
 
-`indent {file value: sample.c} {file value: indented.c} -nbad -bap -nbc -br -c33 -cd33 -ncdb -ce -ci4 -cli0 -cs -d0 -di1 -nfc1 -nfcb -i4 -nip -l75 -lp -npcs -nprs -npsl -nsc -nsob`
+`indent {file source file with mandatory .c extension} {file indented file with mandatory .c extension} -nbad -bap -nbc -br -c33 -cd33 -ncdb -ce -ci4 -cli0 -cs -d0 -di1 -nfc1 -nfcb -i4 -nip -l75 -lp -npcs -nprs -npsl -nsc -nsob`
