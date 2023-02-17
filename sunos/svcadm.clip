@@ -5,20 +5,20 @@
 
 - Enable a service in the service database:
 
-`svcadm enable {string value: service_name}`
+`svcadm enable {string some description: service_name}`
 
 - Disable service:
 
-`svcadm disable {string value: service_name}`
+`svcadm disable {string some description: service_name}`
 
 - Restart a running service:
 
-`svcadm restart {string value: service_name}`
+`svcadm restart {string some description: service_name}`
 
 - Command service to re-read configuration files:
 
-`svcadm refresh {string value: service_name}`
+`svcadm refresh {string some description: service_name}`
 
 - Clear a service from maintenance state and command it to start:
 
-`svcadm clear {string value: service_name}`
+`svcadm clear {string some description: service_name}`
