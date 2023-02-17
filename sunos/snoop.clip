@@ -6,7 +6,7 @@
 
 - Capture packets on a specific network interface:
 
-`snoop -d {string some description 0: e1000g}`
+`snoop -d {string some description: e1000g}`
 
 - Save captured packets in a file instead of displaying them:
 
