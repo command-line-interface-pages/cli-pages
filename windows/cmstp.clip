@@ -1,36 +1,37 @@
 # cmstp
 
 > A command-line tool for managing connection service profiles
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp
 
 - Install a specific profile:
 
-`cmstp "{string value: path/to/profile}"`
+`cmstp "{/?file profile}"`
 
 - Install without creating a desktop shortcut:
 
-`cmstp /ns "{string value: path/to/profile}"`
+`cmstp /ns "{/?file profile}"`
 
 - Install without checking for dependencies:
 
-`cmstp /nf "{string value: path/to/profile}"`
+`cmstp /nf "{/?file profile}"`
 
 - Only install for the current user:
 
-`cmstp /su "{string value: path/to/profile}"`
+`cmstp /su "{/?file profile}"`
 
-- Install for all users (requires administrator privileges):
+- Install for [a]ll [u]sers (requires administrator privileges):
 
-`cmstp /au "{string value: path/to/profile}"`
+`cmstp /au "{/?file profile}"`
 
-- Install silently without any prompts:
+- Install [s]ilently without any prompts:
 
-`cmstp /s "{string value: path/to/profile}"`
+`cmstp /s "{/?file profile}"`
 
 - Uninstall a specific profile:
 
-`cmstp /u "{string value: path/to/profile}"`
+`cmstp /u "{/?file profile}"`
 
-- Uninstall silently without a confirmation prompt:
+- Uninstall [s]ilently without a confirmation prompt:
 
-`cmstp /u /s "{string value: path/to/profile}"`
+`cmstp /u /s "{/?file profile}"`
