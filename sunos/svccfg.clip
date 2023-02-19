@@ -5,12 +5,12 @@
 
 - Validate configuration file:
 
-`svccfg validate {string value: smf.xml}`
+`svccfg validate {file smf file with mandatory .xml extension}`
 
 - Export service configurations to file:
 
-`svccfg export {string value: servicename} > {string value: smf.xml}`
+`svccfg export {string some description: servicename} > {file smf file with mandatory .xml extension}`
 
 - Import/update service configurations from file:
 
-`svccfg import {string value: smf.xml}`
+`svccfg import {file smf file with mandatory .xml extension}`
