@@ -17,9 +17,13 @@
 
 `comp {string wildcard 1} {string wildcard 2}`
 
-- Display differences in [d]ecimal/[a]SCII format:
+- Display differences in [d]ecimal format:
 
-`comp {string decimal format: /d|string ASCII format: /a} {/?file file 1} {/?file file 2}`
+`comp /d {/?file file 1} {/?file file 2}`
+
+- Display differences in [a]SCII format:
+
+`comp /a {/?file file 1} {/?file file 2}`
 
 - Display [l]ine numbers for differences:
 
