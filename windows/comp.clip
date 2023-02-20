@@ -2,36 +2,33 @@
 
 > Compare the contents of two files or sets of files
 > Use wildcards (*) to compare sets of files
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/comp
 
 - Compare files interactively:
 
 `comp`
 
-- Compare two specified files:
+- Compare two specific files:
 
-`comp {file value} {file value}`
+`comp {/?file file 1} {/?file file 2}`
 
 - Compare two sets of files:
 
-`comp {string value: path/to/directory_1/*} {string value: path/to/directory_2/*}`
+`comp {string wildcard 1} {string wildcard 2}`
 
-- Display differences in decimal format:
+- Display differences in [d]ecimal/[a]SCII format:
 
-`comp /d {file value} {file value}`
+`comp {string decimal format: /d|string ASCII format: /a} {/?file file 1} {/?file file 2}`
 
-- Display differences in ASCII format:
+- Display [l]ine numbers for differences:
 
-`comp /a {file value} {file value}`
+`comp /l {/?file file 1} {/?file file 2}`
 
-- Display line numbers for differences:
+- Compare specific files case-insensitively:
 
-`comp /l {file value} {file value}`
+`comp /c {/?file file 1} {/?file file 2}`
 
-- Compare files case-insensitively:
+- Compare only first specific line count of files:
 
-`comp /c {file value} {file value}`
-
-- Compare only the first 5 lines of each file:
-
-`comp /n={int value: 5} {file value} {file value}`
+`comp /n={int line count: 5} {/?file file 1} {/?file file 2}`
