@@ -1,6 +1,7 @@
 # date
 
 > Displays or sets the system date
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/date
 
 - Display the current system date and prompt to enter a new date (leave empty to keep unchanged):
@@ -13,4 +14,4 @@
 
 - Change the current system date to a specific date:
 
-`date {string value: month}-{string value: day}-{string value: year}`
+`date {string month}-{string day}-{string year}`
