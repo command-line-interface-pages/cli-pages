@@ -1,6 +1,7 @@
 # wsl
 
 > Manage the Windows Subsystem for Linux from the command-line
+> Help: --help
 > More information: https://learn.microsoft.com/windows/wsl/reference
 
 - Start a Linux shell (in the default distribution):

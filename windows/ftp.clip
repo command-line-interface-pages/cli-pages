@@ -1,6 +1,7 @@
 # ftp
 
 > Interactively transfer files between a local and remote FTP server
+> Help: -?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/ftp
 
 - Connect to a remote FTP server interactively:
@@ -30,7 +31,3 @@
 - Delete multiple files on the remote server:
 
 `mdelete {string value: *.txt}`
-
-- Display detailed help:
-
-`ftp --help`

@@ -1,6 +1,7 @@
 # xcopy
 
 > Copy files and directory trees
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy
 
 - Copy the file(s) to the specified destination:
@@ -30,7 +31,3 @@
 - Disable the prompt when the file exists in the destination:
 
 `xcopy {path value} {string value: path/to/destination} /y`
-
-- Display detailed usage information:
-
-`xcopy /?`

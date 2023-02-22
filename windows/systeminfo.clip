@@ -1,6 +1,7 @@
 # systeminfo
 
 > Display operating system configuration for a local or remote machine
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo
 
 - Display system configuration for the local machine:
@@ -14,7 +15,3 @@
 - Display system configuration for a remote machine:
 
 `systeminfo /s {string value: remote_name} /u {string user} /p {string value: password}`
-
-- Display detailed usage information:
-
-`systeminfo /?`

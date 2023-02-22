@@ -1,6 +1,7 @@
 # pathping
 
 > A trace route tool combining features of `ping` and `tracert`
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/pathping
 
 - Ping and trace the route to a host:
@@ -30,7 +31,3 @@
 - Force IPV6 usage:
 
 `pathping {string value: hostname} -6`
-
-- Display detailed usage information:
-
-`pathping /?`
