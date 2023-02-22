@@ -1,6 +1,7 @@
 # kmutil
 
 > Utility for managing kernel extensions (kexts) and kext collections on disk
+> Help: -h
 > More information: https://keith.github.io/xcode-man-pages/kmutil.8.html
 
 - Find kexts available on the operating system:
