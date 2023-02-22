@@ -1,6 +1,7 @@
 # systemsetup
 
 > Configure System Preferences machine settings
+> Help: -help
 > More information: https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac
 
 - Enable remote login (SSH):

@@ -1,6 +1,7 @@
 # csrutil
 
 > Manage the System Integrity Protection configuration
+> Help: help
 > More information: https://ss64.com/osx/csrutil.html
 
 - Display the System Integrity Protection status:

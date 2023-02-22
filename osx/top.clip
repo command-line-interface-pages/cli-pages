@@ -18,7 +18,3 @@
 - Start top displaying only processes owned by given user:
 
 `top -user {string user}`
-
-- Get help about interactive commands:
-
-`?`
