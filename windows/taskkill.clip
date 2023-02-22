@@ -1,6 +1,7 @@
 # taskkill
 
 > Terminate a process by its process ID or name
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill
 
 - Terminate a process by its ID:
@@ -22,7 +23,3 @@
 - Terminate a process on a remote machine:
 
 `taskkill /pid {string value: process_id} /s {string value: remote_name}`
-
-- Display information about the usage of the command:
-
-`taskkill /?`

@@ -1,6 +1,7 @@
 # more
 
 > Display paginated output from `stdin` or a file
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/more
 
 - Display paginated output from stdin:
@@ -26,7 +27,3 @@
 - Enable extended interactive mode (see help for usage):
 
 `more {file value} /e`
-
-- Display full usage information:
-
-`more /?`

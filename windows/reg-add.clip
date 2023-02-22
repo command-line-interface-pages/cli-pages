@@ -1,6 +1,7 @@
 # reg add
 
 > Add new keys and their values to the registry
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add
 
 - Add a new registry key:

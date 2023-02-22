@@ -2,6 +2,7 @@
 
 > Replace files
 > See also: robocopy, move, copy, and del
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/replace
 
 - Replace the destination file with the one from the source directory:
@@ -31,7 +32,3 @@
 - Replace only files in the destination directory which are older than the files in the source directory:
 
 `replace {path value} {string value: path/to/destination} /u`
-
-- Display detailed usage information:
-
-`replace /?`

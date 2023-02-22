@@ -1,11 +1,8 @@
 # sfc
 
 > Scans the integrity of Windows system files
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/sfc
-
-- Display information about the usage of the command:
-
-`sfc`
 
 - Scan all system files and, if possible, repair any problems:
 

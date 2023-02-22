@@ -1,6 +1,7 @@
 # mkdir
 
 > Creates a directory
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir
 
 - Create a directory:

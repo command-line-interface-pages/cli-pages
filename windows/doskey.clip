@@ -1,6 +1,7 @@
 # doskey
 
 > Manage macros, windows commands and command-lines
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/doskey
 
 - List available macros:

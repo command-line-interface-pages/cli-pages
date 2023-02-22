@@ -1,6 +1,7 @@
 # for
 
 > Conditionally execute a command several times
+> Help: /?
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/for
 
 - Execute given commands for the specified set:
