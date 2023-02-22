@@ -6,4 +6,4 @@
 
 - Expand the archive into the current working directory:
 
-`xip --expand {file value: sample.xip}`
+`xip --expand {file file with mandatory .xip extension}`

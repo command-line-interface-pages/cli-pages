@@ -9,7 +9,7 @@
 
 - Specify timezone, NTP Server and enable network time:
 
-`systemsetup -settimezone "{string value: US/Pacific}" -setnetworktimeserver {string value: us.pool.ntp.org} -setusingnetworktime on`
+`systemsetup -settimezone "{string some description: US/Pacific}" -setnetworktimeserver {string some description: us.pool.ntp.org} -setusingnetworktime on`
 
 - Make the machine never sleep and automatically restart on power failure or kernel panic:
 
@@ -21,4 +21,4 @@
 
 - Specify a new startup disk:
 
-`systemsetup -setstartupdisk {string value: path}`
+`systemsetup -setstartupdisk {directory some description}`

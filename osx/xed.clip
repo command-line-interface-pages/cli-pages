@@ -5,12 +5,12 @@
 
 - Open file in Xcode:
 
-`xed {file value}`
+`xed {file some description 1}`
 
 - Open file(s) in Xcode, create if it doesn't exist:
 
-`xed --create {file value}`
+`xed --create {file some description 1}`
 
 - Open a file in Xcode and jump to line number 75:
 
-`xed --line 75 {file value}`
+`xed --line 75 {file some description}`

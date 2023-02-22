@@ -9,7 +9,7 @@
 
 - Open specific files:
 
-`cot {file* value}`
+`cot {file* some description}`
 
 - Open a new blank document:
 
@@ -17,8 +17,8 @@
 
 - Open a specific file and block the terminal until it is closed:
 
-`cot --wait {file value}`
+`cot --wait {file some description}`
 
 - Open a specific file with the cursor at a specific line and column:
 
-`cot --line {string value: line_number} --column {string value: column_number} {file value}`
+`cot --line {string some description: line_number} --column {string some description: column_number} {file some description}`

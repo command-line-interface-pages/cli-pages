@@ -3,22 +3,22 @@
 > Utility to work with extended filesystem attributes
 > More information: https://ss64.com/osx/xattr.html
 
-- List key:value extended attributes for a given file:
+- List key:value extended attributes for a specific file:
 
-`xattr -l {file value}`
+`xattr -l {file some description}`
 
-- Write an attribute for a given file:
+- Write an attribute for a specific file:
 
-`xattr -w {string value: attribute_key} {string value: attribute_value} {file value}`
+`xattr -w {string some description: attribute_key} {string some description: attribute_value} {file some description}`
 
-- Delete an attribute from a given file:
+- Delete an attribute from a specific file:
 
-`xattr -d {string value: com.apple.quarantine} {file value}`
+`xattr -d {string some description: com.apple.quarantine} {file some description}`
 
-- Delete all extended attributes from a given file:
+- Delete all extended attributes from a specific file:
 
-`xattr -c {file value}`
+`xattr -c {file some description}`
 
-- Recursively delete an attribute in a given directory:
+- Recursively delete an attribute in a specific directory:
 
-`xattr -rd {string value: attribute_key} {directory value}`
+`xattr -rd {string some description: attribute_key} {directory some description}`

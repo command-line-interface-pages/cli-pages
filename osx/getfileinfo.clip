@@ -3,18 +3,18 @@
 > Get information about a file in an HFS+ directory
 > More information: https://www.unix.com/man-page/osx/1/GetFileInfo/
 
-- Display information about a given file:
+- Display information about a specific file:
 
-`GetFileInfo {file value}`
+`GetFileInfo {file some description}`
 
-- Display the date and time a given file was created:
+- Display the date and time a specific file was created:
 
-`GetFileInfo -d {file value}`
+`GetFileInfo -d {file some description}`
 
-- Display the date and time a given file was last modified:
+- Display the date and time a specific file was last modified:
 
-`GetFileInfo -m {file value}`
+`GetFileInfo -m {file some description}`
 
-- Display the creator of a given file:
+- Display the creator of a specific file:
 
-`GetFileInfo -c {file value}`
+`GetFileInfo -c {file some description}`

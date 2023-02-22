@@ -3,6 +3,6 @@
 > Rename a file or group of files with a regular expression
 > More information: https://www.manpagez.com/man/2/rename/
 
-- Replace `from` with `to` in the filenames of the specified files:
+- Replace `from` with `to` in the filenames of a specific files:
 
-`rename 's/{string value: from}/{string value: to}/' {string value: *.txt}`
+`rename 's/{string some description: from}/{string some description: to}/' {string some description: *.txt}`

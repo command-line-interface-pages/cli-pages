@@ -5,24 +5,24 @@
 
 - Run an AppleScript command:
 
-`osascript -e "{string value: say 'Hello world'}"`
+`osascript -e "{string some description: say 'Hello world'}"`
 
 - Run multiple AppleScript commands:
 
-`osascript -e "{string value: say 'Hello'}" -e "{string value: say 'world'}"`
+`osascript -e "{string some description: say 'Hello'}" -e "{string some description: say 'world'}"`
 
 - Run a compiled (`*.scpt`), bundled (`*.scptd`), or plaintext (`*.applescript`) AppleScript file:
 
-`osascript {string value: path/to/apple.scpt}`
+`osascript {string some description: path/to/apple.scpt}`
 
 - Get the bundle identifier of an application (useful for `open -b`):
 
-`osascript -e 'id of app "{string value: Application}"'`
+`osascript -e 'id of app "{string some description: Application}"'`
 
 - Run a JavaScript command:
 
-`osascript -l JavaScript -e "{string value: console.log('Hello world');}"`
+`osascript -l JavaScript -e "{string some description: console.log('Hello world');}"`
 
 - Run a JavaScript file:
 
-`osascript -l JavaScript {file value: sample.js}`
+`osascript -l JavaScript {string some description: path/to/script.js}`

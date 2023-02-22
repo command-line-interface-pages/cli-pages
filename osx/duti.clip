@@ -5,24 +5,24 @@
 
 - Set Safari as the default handler for HTML documents:
 
-`duti -s {string value: com.apple.Safari} {string value: public.html} all`
+`duti -s {string some description: com.apple.Safari} {string some description: public.html} all`
 
 - Set VLC as the default viewer for files with `.m4v` extensions:
 
-`duti -s {string value: org.videolan.vlc} {string value: m4v} viewer`
+`duti -s {string some description: org.videolan.vlc} {string some description: m4v} viewer`
 
 - Set Finder as the default handler for the ftp:// URL scheme:
 
-`duti -s {string value: com.apple.Finder} "{string value: ftp}"`
+`duti -s {string some description: com.apple.Finder} "{string some description: ftp}"`
 
-- Display information about the default application for a given extension:
+- Display information about the default application for a specific extension:
 
-`duti -x {string value: ext}`
+`duti -x {string some description: ext}`
 
-- Display the default handler for a given UTI:
+- Display the default handler for a specific UTI:
 
-`duti -d {string value: uti}`
+`duti -d {string some description: uti}`
 
-- Display all handlers of a given UTI:
+- Display all handlers of a specific UTI:
 
-`duti -l {string value: uti}`
+`duti -l {string some description: uti}`

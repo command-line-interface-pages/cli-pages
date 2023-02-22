@@ -5,20 +5,20 @@
 
 - Interpret {{command}}, with expansion if defined as an `alias` (similar to the `command -v` builtin):
 
-`whence "{string value: command}"`
+`whence "{string some description: command}"`
 
 - Display type of {{command}}, with location if defined as a function, or binary (equivalent to the `type` and `command -V` builtins):
 
-`whence -v "{string value: command}"`
+`whence -v "{string some description: command}"`
 
 - Same as above, except display content of shell functions instead of location (equivalent to `which` builtin):
 
-`whence -c "{string value: command}"`
+`whence -c "{string some description: command}"`
 
 - Same as above, but show all occurrences on command path (equivalent to the `where` builtin):
 
-`whence -ca "{string value: command}"`
+`whence -ca "{string some description: command}"`
 
 - Search only the `PATH` for {{command}}, ignoring builtins, aliases or shell functions (equivalent to the `where` command):
 
-`whence -p "{string value: command}"`
+`whence -p "{string some description: command}"`

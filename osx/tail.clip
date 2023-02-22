@@ -6,24 +6,24 @@
 
 - Show last 'count' lines in file:
 
-`tail -n {string value: count} {file value}`
+`tail -n {int some description: 8} {file some description}`
 
 - Print a file from a specific line number:
 
-`tail -n +{string value: count} {file value}`
+`tail -n +{int some description: 8} {file some description}`
 
-- Print a specific count of bytes from the end of a given file:
+- Print a specific count of bytes from the end of a specific file:
 
-`tail -c {string value: count} {file value}`
+`tail -c {int some description: 8} {file some description}`
 
-- Print the last lines of a given file and keep reading file until `Ctrl + C`:
+- Print the last lines of a specific file and keep reading file until `Ctrl + C`:
 
-`tail -f {file value}`
+`tail -f {file some description}`
 
 - Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
-`tail -F {file value}`
+`tail -F {file some description}`
 
 - Show last 'count' lines in 'file' and refresh every 'seconds' seconds:
 
-`tail -n {string value: count} -s {string value: seconds} -f {file value}`
+`tail -n {int some description: 8} -s {int some description: 10} -f {file some description}`

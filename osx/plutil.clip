@@ -5,20 +5,20 @@
 
 - Display the contents of one or more plist files in human-readable format:
 
-`plutil -p {string value: file1.plist file2.plist ...}`
+`plutil -p {file* file with mandatory .plist extension}`
 
 - Convert one or more plist files to XML format, overwriting the original files in-place:
 
-`plutil -convert xml1 {string value: file1.plist file2.plist ...}`
+`plutil -convert xml1 {file* file with mandatory .plist extension}`
 
 - Convert one or more plist files to binary format, overwriting the original files in-place:
 
-`plutil -convert binary1 {string value: file1.plist file2.plist ...}`
+`plutil -convert binary1 {file* file with mandatory .plist extension}`
 
 - Convert a plist file to a different format, writing to a new file:
 
-`plutil -convert {string value: xml1|binary1|json|swift|objc} {file value: sample.plist} -o {file value: new.plist}`
+`plutil -convert {string some description: xml1|binary1|json|swift|objc} {file file with mandatory .plist extension} -o {file new file with mandatory .plist extension}`
 
 - Convert a plist file to a different format, writing to stdout:
 
-`plutil -convert {string value: xml1|binary1|json|swift|objc} {file value: sample.plist} -o -`
+`plutil -convert {string some description: xml1|binary1|json|swift|objc} {file file with mandatory .plist extension} -o -`

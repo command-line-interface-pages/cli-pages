@@ -5,20 +5,20 @@
 
 - Show file properties such as size, permissions, creation and access dates among others:
 
-`stat {file value}`
+`stat {file some description}`
 
 - Same as above but verbose (more similar to Linux's `stat`):
 
-`stat -x {file value}`
+`stat -x {file some description}`
 
 - Show only octal file permissions:
 
-`stat -f %Mp%Lp {file value}`
+`stat -f %Mp%Lp {file some description}`
 
 - Show owner and group of the file:
 
-`stat -f "%Su %Sg" {file value}`
+`stat -f "%Su %Sg" {file some description}`
 
 - Show the size of the file in bytes:
 
-`stat -f "%z %N" {file value}`
+`stat -f "%z %N" {file some description}`

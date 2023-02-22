@@ -17,12 +17,12 @@
 
 - Reboot in 5 minutes:
 
-`shutdown -r "+{int value: 5}"`
+`shutdown -r "+{int some description: 5}"`
 
 - Power off (halt) at 1:00 pm (Uses 24h clock):
 
-`shutdown -h {int value: 1300}`
+`shutdown -h {int some description: 1300}`
 
 - Reboot on May 10th 2042 at 11:30 am (Input format: YYMMDDHHMM):
 
-`shutdown -r {int value: 4205101130}`
+`shutdown -r {int some description: 4205101130}`

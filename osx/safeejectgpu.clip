@@ -13,16 +13,16 @@
 
 - List apps using a GPU:
 
-`SafeEjectGPU gpuid {string value: GPU_ID} apps`
+`SafeEjectGPU gpuid {string some description: GPU_ID} apps`
 
 - Get the status of a GPU:
 
-`SafeEjectGPU gpuid {string value: GPU_ID} status`
+`SafeEjectGPU gpuid {string some description: GPU_ID} status`
 
 - Eject a GPU:
 
-`SafeEjectGPU gpuid {string value: GPU_ID} Eject`
+`SafeEjectGPU gpuid {string some description: GPU_ID} Eject`
 
 - Launch an app on a GPU:
 
-`SafeEjectGPU gpuid {string value: GPU_ID} LaunchOnGPU {string value: path/to/App.app}`
+`SafeEjectGPU gpuid {string some description: GPU_ID} LaunchOnGPU {string some description: path/to/App.app}`

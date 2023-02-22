@@ -5,11 +5,11 @@
 
 - Connect to multiple hosts:
 
-`csshX {string value: hostname1} {string value: hostname2}`
+`csshX {string some description 1: hostname} {string some description 2: hostname}`
 
-- Connect to multiple hosts with a given SSH key:
+- Connect to multiple hosts with a specific SSH key:
 
-`csshX {string value: user@hostname1} {string value: user@hostname2} --ssh_args "-i {string value: path/to/ssh_key.pem}"`
+`csshX {string some description 1: user@hostname} {string some description 2: user@hostname} --ssh_args "-i {file key file with mandatory .pem extension}"`
 
 - Connect to a pre-defined cluster from `/etc/clusters`:
 

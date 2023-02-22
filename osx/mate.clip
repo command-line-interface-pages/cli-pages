@@ -9,16 +9,16 @@
 
 - Open specific files:
 
-`mate {file* value}`
+`mate {file* some description}`
 
 - Specify the filetype of a file:
 
-`mate --type {string value: filetype} {file value}`
+`mate --type {string some description: filetype} {file some description}`
 
 - Open and wait until finished editing a specific file:
 
-`mate --wait {file value}`
+`mate --wait {file some description}`
 
 - Open a file with the cursor at a specific line and column:
 
-`mate --line {string value: line_number}:{string value: column_number} {file value}`
+`mate --line {string some description: line_number}:{string some description: column_number} {file some description}`

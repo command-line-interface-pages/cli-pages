@@ -15,10 +15,10 @@
 
 `icalBuddy --formatOutput --separateByCalendar eventsToday`
 
-- Show tasks for a specified number of days:
+- Show tasks for a specific number of days:
 
-`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{string value: days}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{int some description: 8}"`
 
 - Show events in a time range:
 
-`icalBuddy eventsFrom:{string value: start_date} to:{string value: end_date}`
+`icalBuddy eventsFrom:{string some description: start_date} to:{string some description: end_date}`

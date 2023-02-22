@@ -5,20 +5,20 @@
 
 - Count lines in file:
 
-`wc -l {file value}`
+`wc -l {file some description}`
 
 - Count words in file:
 
-`wc -w {file value}`
+`wc -w {file some description}`
 
 - Count characters (bytes) in file:
 
-`wc -c {file value}`
+`wc -c {file some description}`
 
 - Count characters in file (taking multi-byte character sets into account):
 
-`wc -m {file value}`
+`wc -m {file some description}`
 
 - Use stdin to count lines, words and characters (bytes) in that order:
 
-`{string value: find .} | wc`
+`{string some description: find .} | wc`

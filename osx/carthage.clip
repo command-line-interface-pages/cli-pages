@@ -21,4 +21,4 @@
 
 - Rebuild a specific dependency:
 
-`carthage build {string value: dependency}`
+`carthage build {string some description: dependency}`

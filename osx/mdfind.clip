@@ -5,12 +5,12 @@
 
 - Find a file by its name:
 
-`mdfind -name {file value}`
+`mdfind -name {file some description}`
 
 - Find a file by its content:
 
-`mdfind "{string value: query}"`
+`mdfind "{string some description: query}"`
 
-- Find a file containing a string, in a given directory:
+- Find a file containing a string, in a specific directory:
 
-`mdfind -onlyin {directory value} "{string value: query}"`
+`mdfind -onlyin {directory some description} "{string some description: query}"`

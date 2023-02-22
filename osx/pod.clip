@@ -25,8 +25,8 @@
 
 - Update a specific (previously installed) pod to its newest version:
 
-`pod update {string value: pod_name}`
+`pod update {string some description: pod_name}`
 
 - Remove CocoaPods from a Xcode project:
 
-`pod deintegrate {string value: xcode_project}`
+`pod deintegrate {string some description: xcode_project}`

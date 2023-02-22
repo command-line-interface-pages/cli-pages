@@ -8,13 +8,13 @@
 
 `xcode-select --install`
 
-- Select a given path as the active developer directory:
+- Select a specific path as the active developer directory:
 
-`xcode-select --switch {string value: path/to/Xcode.app/Contents/Developer}`
+`xcode-select --switch {string some description: path/to/Xcode.app/Contents/Developer}`
 
-- Select a given Xcode instance and use its developer directory as the active one:
+- Select a specific Xcode instance and use its developer directory as the active one:
 
-`xcode-select --switch {string value: path/to/Xcode.app}`
+`xcode-select --switch {file Xcode file with mandatory .app extension}`
 
 - Print the currently selected developer directory:
 

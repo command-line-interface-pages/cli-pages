@@ -13,7 +13,7 @@
 
 - Display a calendar for a specific month (1-12 or name):
 
-`cal -m {string value: month}`
+`cal -m {string some description: month}`
 
 - Display a calendar for the current year:
 
@@ -21,12 +21,12 @@
 
 - Display a calendar for a specific year (4 digits):
 
-`cal {string value: year}`
+`cal {string some description: year}`
 
 - Display a calendar for a specific month and year:
 
-`cal {string value: month} {string value: year}`
+`cal {string some description: month} {string some description: year}`
 
-- Display date of Easter (Western Christian churches) in a given year:
+- Display date of Easter (Western Christian churches) in a specific year:
 
-`ncal -e {string value: year}`
+`ncal -e {string some description: year}`

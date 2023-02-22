@@ -5,12 +5,12 @@
 
 - Print a specific character/field range of each line:
 
-`{string value: command} | cut -{string value: c|f} {string value: 1|1,10|1-10|1-|-10}`
+`{string some description: command} | cut -{string some description: c|f} {string some description 0: 1|1,10|1-10|1-|-1}`
 
 - Print a range of each line with a specific delimiter:
 
-`{string value: command} | cut -d "{string value: ,}" -{string value: c} {int value: 1}`
+`{string some description: command} | cut -d "{char some description: ,}" -{char some description: c} {int some description: 1}`
 
 - Print a range of each line of a specific file:
 
-`cut -{string value: c} {int value: 1} {file value}`
+`cut -{char some description: c} {int some description: 1} {file some description}`

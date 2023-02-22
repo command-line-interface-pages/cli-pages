@@ -10,7 +10,7 @@
 
 - Add a rule to allow an application to run (labeling of rule is optional):
 
-`spctl --add --label {string value: rule_name} {file value}`
+`spctl --add --label {string some description: rule_name} {file some description}`
 
 - Turn on Gatekeeper:
 

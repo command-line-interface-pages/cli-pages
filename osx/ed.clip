@@ -18,8 +18,8 @@
 
 - Edit a specific file (this shows the byte count of the loaded file):
 
-`ed {file value}`
+`ed {file some description}`
 
 - Replace a string with a specific replacement for all lines:
 
-`,s/{string value: regular_expression}/{string value: replacement}/g`
+`,s/{string some description: regular_expression}/{string some description: replacement}/g`
