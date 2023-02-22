@@ -1,7 +1,7 @@
 # timed
 
 > Service that synchronizes system time (e.g. using NTP)
-> It should not be invoked manually
+> Internal: true
 > More information: https://manned.org/timed
 
 - Start the daemon:

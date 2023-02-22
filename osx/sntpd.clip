@@ -1,7 +1,7 @@
 # sntpd
 
 > An SNTP server
-> It should not be invoked manually
+> Internal: true
 > Help: --help
 > More information: https://linux.die.net/man/8/snmpd
 
