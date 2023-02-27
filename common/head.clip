@@ -1,20 +1,26 @@
 # head
 
-> Output the first part of files
+> Display the first part of files
+> See also: tail
+> Help: --help
 > More information: https://www.gnu.org/software/coreutils/head
 
-- Output the first few lines of a file:
+- Display first lines of a specific file:
 
-`head --lines {string value: count} {file value}`
+`head {option mode: --lines, -n} {string count: 8} {/?file file}`
 
-- Output the first few bytes of a file:
+- Display first bytes of a specific file:
 
-`head --bytes {string value: count} {file value}`
+`head {option mode: --bytes, -c} {string count: 8} {/?file file}`
 
-- Output everything but the last few lines of a file:
+- Display everything but last lines of a specific file:
 
-`head --lines -{string value: count} {file value}`
+`head {option mode: --lines, -n} -{string count: 8} {/?file file}`
 
-- Output everything but the last few bytes of a file:
+- Display everything but last bytes of a specific file:
 
-`head --bytes -{string value: count} {file value}`
+`head {option mode: --bytes, -c} -{string count: 8} {/?file file}`
+
+- Display a specific filename:
+
+`head {string+ argument: --lines, --bytes} {option mode: --verbose, -v} {string count: 8} {/?file file}`
