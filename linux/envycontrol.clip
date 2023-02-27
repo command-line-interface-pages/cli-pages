@@ -6,7 +6,7 @@
 > Version: -v
 > More information: https://github.com/bayasdev/envycontrol
 
-- Display manager:
+- Specify a display manager interactively:
 
 `envycontrol --dm`
 
