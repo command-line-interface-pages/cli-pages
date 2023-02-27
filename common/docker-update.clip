@@ -1,0 +1,29 @@
+# docker update
+
+> Update configuration of Docker containers
+> This command is not supported for Windows containers
+> More information: https://docs.docker.com/engine/reference/commandline/update/
+
+- Update restart policy to apply when a specific container exits:
+
+`docker update --restart={string mode: always, no, on-failure, unless-stopped} {string container}`
+
+- Update policy to restart up to specific number of times a container when it exits with a non-zero exit status:
+
+`docker update --restart=on-failure:{int count: 3} {string container}`
+
+- Update a number of CPUs available to a specific container:
+
+`docker update --cpus {string count} {string container}`
+
+- Update the memory limit in [M]egabytes for a specific container:
+
+`docker update --memory {string limit}M {string container}`
+
+- Update maximum number of process IDs allowed inside a specific container (use -1 for unlimited):
+
+`docker update --pids-limit {string limit: -1} {string container}`
+
+- Update an amount of memory in [M]egabytes a specific container can swap to disk (use -1 for unlimited):
+
+`docker update --memory-swap {string limit: -1}M {string container}`
