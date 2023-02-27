@@ -1,0 +1,31 @@
+# envycontrol
+
+> Switch between NVIDIA Graphic and Integrated graphics
+> Search for package using `envycontrol`
+> Help: -h
+> Version: -v
+> More information: https://github.com/bayasdev/envycontrol
+
+- Display manager:
+
+`envycontrol --dm`
+
+- Reset:
+
+`sudo envycontrol --reset`
+
+- Check the current graphic mode:
+
+`sudo envycontrol --query`
+
+- Switch to NVIDIA graphics:
+
+`sudo envycontrol -s nvidia`
+
+- Switch to Integrated graphics:
+
+`sudo envycontrol -s integrated`
+
+- Switch to hybrid graphics:
+
+`sudo envycontrol -s hybrid`
