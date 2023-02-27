@@ -8,20 +8,20 @@
 
 - Display first lines of a specific file:
 
-`head {option mode: --lines, -n} {string count: 8} {/?file file}`
+`head {option mode: --lines, -n} {string count: 8} {/?file file: ~/.bashrc}`
 
 - Display first bytes of a specific file:
 
-`head {option mode: --bytes, -c} {string count: 8} {/?file file}`
+`head {option mode: --bytes, -c} {string count: 8} {/?file file: ~/.bashrc}`
 
 - Display everything but last lines of a specific file:
 
-`head {option mode: --lines, -n} -{string count: 8} {/?file file}`
+`head {option mode: --lines, -n} -{string count: 8} {/?file file: ~/.bashrc}`
 
 - Display everything but last bytes of a specific file:
 
-`head {option mode: --bytes, -c} -{string count: 8} {/?file file}`
+`head {option mode: --bytes, -c} -{string count: 8} {/?file file: ~/.bashrc}`
 
 - Display a specific filename:
 
-`head {string+ argument: --lines, --bytes} {option mode: --verbose, -v} {string count: 8} {/?file file}`
+`head {string+ argument: --lines, --bytes} {option mode: --verbose, -v} {string count: 8} {/?file file: ~/.bashrc}`
