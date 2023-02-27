@@ -1,24 +1,22 @@
 # cat
 
-> Print and concatenate files
+> Display files
+> Help: --help
+> Version: --version
 > More information: https://www.gnu.org/software/coreutils/cat
 
-- Print the contents of a file to the stdout:
+- Display content of specific files:
 
-`cat {file value}`
+`cat {/?file+ file: ~/.bashrc}`
 
-- Concatenate several files into an output file:
+- Display content of specific files with all non-print[A]ble characters:
 
-`cat {file* value} > {file value: output}`
+`cat {option enable non-printable characters: --show-all, -A} {/?file+ file: ~/.bashrc}`
 
-- Append several files to an output file:
+- Display content of specific files with line [n]umbers:
 
-`cat {file* value} >> {file value: output}`
+`cat {option enable line numbers: --number, -n} {/?file+ file: ~/.bashrc}`
 
-- Copy the contents of a file into an output file without buffering:
+- Read stdin and write it to a specific file:
 
-`cat -u {string value: /dev/tty12} > {string value: /dev/tty13}`
-
-- Write stdin to a file:
-
-`cat - > {file value}`
+`cat - > {/?file file: ~/.bashrc}`
