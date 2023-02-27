@@ -2,6 +2,7 @@
 
 > Core Audio related daemon
 > Internal: true
+> More information: https://www.manpagez.com/man/1/systemsoundserverd/
 
 - Start the daemon:
 
