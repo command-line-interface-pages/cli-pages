@@ -1,0 +1,13 @@
+# tcc
+
+> A tiny C compiler that can run C source files as scripts and otherwise has command line options similar to `gcc`
+> See also: gcc
+> More information: https://bellard.org/tcc/tcc-doc.html
+
+- Compile and link specific files to generate an executable:
+
+`tcc -o {string executable} {/?file+ C source file}`
+
+- Directly run specific file like a script and pass arguments to it:
+
+`tcc -run {/?file C source file} {any* argument}`
