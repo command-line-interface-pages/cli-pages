@@ -8,6 +8,6 @@
 
 `tcc -o {string executable} {/?file+ C source file}`
 
-- Directly run specific file like a script and pass arguments to it:
+- Run a specific file and pass arguments to it:
 
 `tcc -run {/?file C source file} {any* argument}`
