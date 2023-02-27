@@ -3,6 +3,7 @@
 > Display the last part of a file
 > See also: head
 > Help: --help
+> Version: --version
 > More information: https://www.gnu.org/software/coreutils/tail
 
 - Display last lines of a specific file:
