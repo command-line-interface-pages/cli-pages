@@ -9,11 +9,11 @@
 
 `cat {/?file+ file: ~/.bashrc}`
 
-- Display content of specific files with all non-printable characters:
+- Display content of specific files with all non-print[A]ble characters:
 
 `cat {option enable non-printable characters: --show-all, -A} {/?file+ file: ~/.bashrc}`
 
-- Display content of specific files with line numbers:
+- Display content of specific files with line [n]umbers:
 
 `cat {option enable line numbers: --number, -n} {/?file+ file: ~/.bashrc}`
 
