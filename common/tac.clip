@@ -14,14 +14,14 @@
 
 `tac - > {/?file file: ~/.bashrc}`
 
-- Use a specific [s]eparator:
+- Display content of files in reversed order while using a specific [s]eparator:
 
 `tac {option separator: --separator, -s} {string separator: ;} {/?file file: ~/.bashrc}`
 
-- Use a specific [r]egex as a [s]eparator:
+- Display content of files in reversed order while using a specific [r]egex [s]eparator:
 
 `tac {option enable regex for separator: --regex, -r} {string separator: [!@#$]} {/?file file: ~/.bashrc}`
 
-- Use a separator [b]efore each file:
+- Display content of files in reversed order while using a specific separator [b]efore each file:
 
 `tac {option enable separator to be before: --before, -b} {/?file file: ~/.bashrc}`
