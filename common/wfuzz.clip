@@ -1,0 +1,22 @@
+# wfuzz
+
+> A web application bruteforcer
+> Help: --help
+> Version: --version
+> More information: https://wfuzz.readthedocs.io/en/latest/user/basicusage.html
+
+- Directory and file bruteforce using a specific [w]ordlist and also [p]roxying the traffic:
+
+`wfuzz -w {/?file file} -p {string ip: 127.0.0.1:808} {string url: http://example.com/FUZZ}`
+
+- Save the results to a specific [f]ile:
+
+`wfuzz -w {/?file file} -f {/?file file} {string url: http://example.com/FUZZ}`
+
+- Display [c]olorized output while only showing the declared response codes:
+
+`wfuzz -c -w {/?file file} --sc {string responce codes: 200,301,30} {string url: http://example.com/FUZZ}`
+
+- Use a custom header to fuzz subdomains while hiding specific response codes and word counts. Increase the threads to 100 and include the target ip/domain:
+
+`wfuzz -w {/?file file} -H {string url 1: "Host: FUZZ.example.com"} --hc {int responce codes: 301} --hw {int hidden words: 222} -t {int thread count: 100} {string url 2: example.com}`
