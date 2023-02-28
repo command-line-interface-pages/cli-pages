@@ -1,21 +1,19 @@
 # base64
 
-> Encode and decode using Base64 representation
+> Display content of files in encoded Base64 or decoded Base64 format
 > Help: --help
-> More information: https://www.unix.com/man-page/osx/1/base64/
+> Version: --version
+> See also: cat, tac, nl, od, base32, basenc
+> More information: https://www.gnu.org/software/coreutils/base64
 
-- Encode a file:
+- Display content of a specific file in encoded Base64 format:
 
-`base64 --input={file plain file}`
+`base64 {/?file file: ~/.bashrc}`
 
-- Decode a file:
+- Display content of a specific file in decoded Base64 format:
 
-`base64 --decode --input={file base64 file}`
+`base64 {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
 
-- Encode from stdin:
+- Read stdin and write it to a specific file in encoded Base64 format:
 
-`echo -n "{string some description: plain_text}" | base64`
-
-- Decode from stdin:
-
-`echo -n {string some description: base64_text} | base64 --decode`
+`base64`

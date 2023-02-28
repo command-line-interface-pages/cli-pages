@@ -1,20 +1,19 @@
 # base32
 
-> Encode or decode file or standard input to/from Base32, to standard output
+> Display content of files in encoded Base32 or decoded Base32 format
+> Help: --help
+> Version: --version
+> See also: cat, tac, nl, od, base64, basenc
 > More information: https://www.gnu.org/software/coreutils/base32
 
-- Encode a file:
+- Display content of a specific file in encoded Base32 format:
 
-`base32 {file value}`
+`base32 {/?file file: ~/.bashrc}`
 
-- Decode a file:
+- Display content of a specific file in decoded Base32 format:
 
-`base32 --decode {file value}`
+`base32 {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
 
-- Encode from stdin:
+- Read stdin and write it to a specific file in encoded Base32 format:
 
-`{string value: somecommand} | base32`
-
-- Decode from stdin:
-
-`{string value: somecommand} | base32 --decode`
+`base32`
