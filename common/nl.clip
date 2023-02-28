@@ -10,7 +10,7 @@
 
 `nl {/?file file: ~/.bashrc}`
 
-- Display content of specific files with line numbers in all lines:
+- Display content of specific files with line numbers in [a]ll lines:
 
 `nl {option numbering style: --body-numbering, -b} a {/?file file: ~/.bashrc}`
 
