@@ -1,16 +1,18 @@
 # sleep
 
 > Delay for a specified amount of time
+> Help: --help
+> Version: --version
 > More information: https://www.gnu.org/software/coreutils/sleep
 
 - Delay in seconds:
 
-`sleep {string value: seconds}`
+`sleep {int seconds}`
 
-- Delay in minutes:
+- Delay in [m]inutes:
 
-`sleep {string value: minutes}m`
+`sleep {int minutes}m`
 
-- Delay in hours:
+- Delay in [h]ours:
 
-`sleep {string value: hours}h`
+`sleep {int hours}h`
