@@ -3,6 +3,7 @@
 > Display files
 > Help: --help
 > Version: --version
+> See also: tac, nl, od, base32, base64, basenc
 > More information: https://www.gnu.org/software/coreutils/cat
 
 - Display content of specific files:
