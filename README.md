@@ -1,6 +1,6 @@
-# CLI pages
+# Command Line Interface (CLI) pages
 
-CLI pages.
+Command Line Interface (CLI) pages.
 
 ## Current goals :checkered_flag:
 
