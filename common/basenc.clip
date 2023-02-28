@@ -10,7 +10,7 @@
 
 `basenc --base64url {/?file file: ~/.bashrc}`
 
-- Display content of a specific file in decoded url-safe Base64 format:
+- Display content of a specific file in [d]ecoded url-safe Base64 format:
 
 `basenc --base64url {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
 
