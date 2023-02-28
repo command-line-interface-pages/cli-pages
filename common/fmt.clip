@@ -1,20 +1,23 @@
 # fmt
 
-> Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default)
+> Display content of files in reformatted way
+> Help: --help
+> Version: --version
+> See also: pr, fold
 > More information: https://www.gnu.org/software/coreutils/fmt
 
-- Reformat a file:
+- Display content of specific files in reformatted way:
 
-`fmt {file value}`
+`fmt {/?file+ file: ~/.bashrc}`
 
-- Reformat a file producing output lines of (at most) `n` characters:
+- Display content of files in reformatted way while limiting each line to a specific character count:
 
-`fmt -w {string value: n} {file value}`
+`fmt {option width: --width, -w} {int character count: 10} {/?file+ file: ~/.bashrc}`
 
-- Reformat a file without joining lines shorter than the given width together:
+- Display content of files in reformatted way without joining lines shorter than a specific character count:
 
-`fmt -s {file value}`
+`fmt {option just split lines: --split-only, -s} {/?file+ file: ~/.bashrc}`
 
-- Reformat a file with uniform spacing (1 space between words and 2 spaces between paragraphs):
+- Display content of files in reformatted way with 1 space between words and 2 spaces between paragraphs:
 
-`fmt -u {file value}`
+`fmt {option enable spacing unification: --uniform-spacing, -u} {/?file+ file: ~/.bashrc}`
