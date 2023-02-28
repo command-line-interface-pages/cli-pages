@@ -1,6 +1,6 @@
 # cat
 
-> Display files
+> Display content of files
 > Help: --help
 > Version: --version
 > See also: tac, nl, od, base32, base64, basenc
