@@ -8,20 +8,20 @@
 
 - Display content of specific files with line numbers:
 
-`nl {/?file file: ~/.bashrc}`
+`nl {/\?file+ file: ~/.bashrc}`
 
 - Display content of specific files with line numbers in [a]ll lines:
 
-`nl {option numbering style: --body-numbering, -b} a {/?file file: ~/.bashrc}`
+`nl {option numbering style: --body-numbering, -b} a {/\?file+ file: ~/.bashrc}`
 
 - Display content of specific files with line numbers in all non-empty lines:
 
-`nl {option numbering style: --body-numbering, -b} t {/?file file: ~/.bashrc}`
+`nl {option numbering style: --body-numbering, -b} t {/\?file+ file: ~/.bashrc}`
 
 - Display content of files with line numbers in all lines matching a specific regular expression:
 
-`nl {option numbering style: --body-numbering, -b} p{string basic regular expression: foobar[0-9]} {/?file file: ~/.bashrc}`
+`nl {option numbering style: --body-numbering, -b} p{string basic regular expression: foobar[0-9]} {/\?file+ file: ~/.bashrc}`
 
 - Read stdin and write it to a specific file:
 
-`nl - > {/?file file: ~/.bashrc}`
+`nl - > {/\?file+ file: ~/.bashrc}`
