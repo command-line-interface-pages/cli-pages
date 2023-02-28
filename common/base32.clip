@@ -1,6 +1,6 @@
 # base32
 
-> Display content of files in encoded Base32 or decoded Base32 format
+> Display content of file in encoded Base32 or decoded Base32 format
 > Help: --help
 > Version: --version
 > See also: cat, tac, nl, od, base64, basenc

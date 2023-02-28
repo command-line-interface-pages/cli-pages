@@ -1,6 +1,6 @@
 # base64
 
-> Display content of files in encoded Base64 or decoded Base64 format
+> Display content of file in encoded Base64 or decoded Base64 format
 > Help: --help
 > Version: --version
 > See also: cat, tac, nl, od, base32, basenc
