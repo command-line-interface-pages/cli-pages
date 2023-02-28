@@ -1,28 +1,35 @@
 # pr
 
-> Paginate or columnate files for printing
+> Display content of files paginated or columnated
+> Help: --help
+> Version: --version
+> See also: fmt, fold
 > More information: https://www.gnu.org/software/coreutils/pr
 
-- Print multiple files with a default header and footer:
+- Display content of specific files with a header and footer:
 
-`pr {file value} {file value} {file value}`
+`pr {/?file+ file: ~/.bashrc}`
 
-- Print with a custom centered header:
+- Display content of files with a specific header:
 
-`pr -h "{string value: header}" {file value} {file value} {file value}`
+`pr {option header: --header, -h} {string header: Hello world} {/?file+ file: ~/.bashrc}`
 
-- Print with numbered lines and a custom date format:
+- Display content of files with line numbers from a specific number:
 
-`pr -n -D "{string value: format}" {file value} {file value} {file value}`
+`pr {option enable line numbers: --number-lines, -n} {option first line number: --first-line-number, -N} {int number: 10} {/?file+ file: ~/.bashrc}`
 
-- Print all files together, one in each column, without a header or footer:
+- Display content of files with a specific date format:
 
-`pr -m -T {file value} {file value} {file value}`
+`pr {option date format: --date-format, -D} {string date: %Y-%m-%d %H:%M} {/?file+ file: ~/.bashrc}`
 
-- Print, beginning at page 2 up to page 5, with a given page length (including header and footer):
+- Display content of files placing each in a separate column:
 
-`pr +{int value: 2}:{int value: 5} -l {string value: page_length} {file value} {file value} {file value}`
+`pr {option enable merging: --merge, -m} {/?file+ file: ~/.bashrc}`
 
-- Print with an offset for each line and a truncating custom page width:
+- Display content of files beginning and ending at specific pages:
 
-`pr -o {string value: offset} -W {string value: width} {file value} {file value} {file value}`
+`pr --pages {int from: 2}:{int to: 5} {/?file+ file: ~/.bashrc}`
+
+- Display content of files with a specific page offset and width:
+
+`pr {option indent: --indent, -o} {string offset: 2} {option page width: --width, -w} {string width: 80} {/?file+ file: ~/.bashrc}`
