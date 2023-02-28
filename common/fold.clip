@@ -1,16 +1,19 @@
 # fold
 
-> Wraps each line in an input file to fit a specified width and prints it to the standard output
+> Display content of files wrapped
+> Help: --help
+> Version: --version
+> See also: fmt, pr
 > More information: https://www.gnu.org/software/coreutils/fold
 
-- Wrap each line to default width (80 characters):
+- Display content of specific files with lines wrapped at 80 characters:
 
-`fold {file value}`
+`fold {/?file+ file: ~/.bashrc}`
 
-- Wrap each line to width "30":
+- Display content of files with lines wrapped at specific character count:
 
-`fold -w30 {file value}`
+`fold {option width: --width, -w} {int width: 30} {/?file+ file: ~/.bashrc}`
 
-- Wrap each line to width "5" and break the line at spaces (puts each space separated word in a new line, words with length > 5 are wrapped):
+- Display content of specific files with lines wrapped at word boundaries:
 
-`fold -w5 -s {file value}`
+`fold {option enable wrapping at word boundaries: --spaces, -s} {/?file+ file: ~/.bashrc}`
