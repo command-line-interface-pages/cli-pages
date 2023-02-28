@@ -8,11 +8,11 @@
 
 - Display content of a specific file in encoded Base32 format:
 
-`base32 {/?file file: ~/.bashrc}`
+`base32 {/?file file}`
 
 - Display content of a specific file in [d]ecoded Base32 format:
 
-`base32 {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
+`base32 {option enable decode mode: --decode, -d} {/?file file}`
 
 - Read stdin and write it to a specific file in encoded Base32 format:
 

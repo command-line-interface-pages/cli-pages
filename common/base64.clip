@@ -8,11 +8,11 @@
 
 - Display content of a specific file in encoded Base64 format:
 
-`base64 {/?file file: ~/.bashrc}`
+`base64 {/?file file}`
 
 - Display content of a specific file in [d]ecoded Base64 format:
 
-`base64 {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
+`base64 {option enable decode mode: --decode, -d} {/?file file}`
 
 - Read stdin and write it to a specific file in encoded Base64 format:
 

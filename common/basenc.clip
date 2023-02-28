@@ -8,11 +8,11 @@
 
 - Display content of a specific file in encoded url-safe Base64 format:
 
-`basenc --base64url {/?file file: ~/.bashrc}`
+`basenc --base64url {/?file file}`
 
 - Display content of a specific file in [d]ecoded url-safe Base64 format:
 
-`basenc --base64url {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
+`basenc --base64url {option enable decode mode: --decode, -d} {/?file file}`
 
 - Read stdin and write it to a specific file in encoded url-safe Base64 format:
 

@@ -9,24 +9,24 @@
 
 - Display content of specific files in octal format. 8 bytes per line, byte offsets in octal, and duplicate lines replaced with *:
 
-`od {/?file+ file: ~/.bashrc}`
+`od {/?file+ file}`
 
 - Display content of specific files in octal format while not replacing duplicate lines with *:
 
-`od {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
+`od {option enable verbose mode: --verbose, -v} {/?file+ file}`
 
 - Display content of specific files in he[x]adecimal format (2-byte units), with byte offsets in decimal format:
 
-`od {option format: --format, -t} x {option radix: --address-radix, -A} d {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
+`od {option format: --format, -t} x {option radix: --address-radix, -A} d {option enable verbose mode: --verbose, -v} {/?file+ file}`
 
 - Display content of specific files in he[x]adecimal format (1-byte units), and 4 bytes per line:
 
-`od {option format: --format, -t} x --width={int byte count: 4} {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
+`od {option format: --format, -t} x --width={int byte count: 4} {option enable verbose mode: --verbose, -v} {/?file+ file}`
 
 - Display content of specific files in hexadecimal format along with its character representation, and do not print byte offsets:
 
-`od {option format: --format, -t} xz {option radix: --address-radix, -A} n {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
+`od {option format: --format, -t} xz {option radix: --address-radix, -A} n {option enable verbose mode: --verbose, -v} {/?file+ file}`
 
 - Display content of specific files while reading only 100 bytes and starting from the 500th byte:
 
-`od {option byte count: --read-bytes, -N} {int count: 100} {option byte count: --skip-bytes, -j} {int count: 500} {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
+`od {option byte count: --read-bytes, -N} {int count: 100} {option byte count: --skip-bytes, -j} {int count: 500} {option enable verbose mode: --verbose, -v} {/?file+ file}`
