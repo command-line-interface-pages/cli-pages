@@ -10,15 +10,15 @@
 
 `pr {/?file+ file: ~/.bashrc}`
 
-- Display content of files with a specific header:
+- Display content of files with a specific [h]eader:
 
 `pr {option header: --header, -h} {string header: Hello world} {/?file+ file: ~/.bashrc}`
 
-- Display content of files with line numbers from a specific number:
+- Display content of files with line [n]umbers from a specific [N]umber:
 
 `pr {option enable line numbers: --number-lines, -n} {option first line number: --first-line-number, -N} {int number: 10} {/?file+ file: ~/.bashrc}`
 
-- Display content of files with a specific date format:
+- Display content of files with a specific [D]ate format:
 
 `pr {option date format: --date-format, -D} {string date: %Y-%m-%d %H:%M} {/?file+ file: ~/.bashrc}`
 
@@ -30,6 +30,6 @@
 
 `pr --pages {int from: 2}:{int to: 5} {/?file+ file: ~/.bashrc}`
 
-- Display content of files with a specific page offset and width:
+- Display content of files with a specific page [o]ffset and [w]idth:
 
 `pr {option indent: --indent, -o} {string offset: 2} {option page width: --width, -w} {string width: 80} {/?file+ file: ~/.bashrc}`
