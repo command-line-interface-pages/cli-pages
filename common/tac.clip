@@ -20,7 +20,7 @@
 
 - Use a specific [r]egex as a [s]eparator:
 
-`tac {option enable regex for separator: --regex, -r} {string separator: ;} {/?file file: ~/.bashrc}`
+`tac {option enable regex for separator: --regex, -r} {string separator: [!@#$]} {/?file file: ~/.bashrc}`
 
 - Use a separator [b]efore each file:
 
