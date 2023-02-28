@@ -1,0 +1,19 @@
+# basenc
+
+> Display content of file in encoded or decoded format
+> Help: --help
+> Version: --version
+> See also: cat, tac, nl, od, base32, base64
+> More information: https://www.gnu.org/software/coreutils/basenc
+
+- Display content of a specific file in encoded url-safe Base64 format:
+
+`basenc --base64url {/?file file: ~/.bashrc}`
+
+- Display content of a specific file in decoded url-safe Base64 format:
+
+`basenc --base64url {option enable decode mode: --decode, -d} {/?file file: ~/.bashrc}`
+
+- Read stdin and write it to a specific file in encoded url-safe Base64 format:
+
+`basenc --base64url`
