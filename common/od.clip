@@ -1,29 +1,32 @@
 # od
 
-> Display file contents in octal, decimal or hexadecimal format
+> Display content of files in octal, decimal or hexadecimal format
 > Optionally display the byte offsets and/or printable representation for each line
+> Help: --help
+> Version: --version
+> See also: cat, tac, nl, base32, base64, basenc
 > More information: https://www.gnu.org/software/coreutils/od
 
-- Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
+- Display content of specific files in octal format. 8 bytes per line, byte offsets in octal, and duplicate lines replaced with *:
 
-`od {file value}`
+`od {/?file+ file: ~/.bashrc}`
 
-- Display file in verbose mode, i.e. without replacing duplicate lines with `*`:
+- Display content of specific files in octal format while not replacing duplicate lines with *:
 
-`od -v {file value}`
+`od {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
 
-- Display file in hexadecimal format (2-byte units), with byte offsets in decimal format:
+- Display content of specific files in he[x]adecimal format (2-byte units), with byte offsets in decimal format:
 
-`od --format={string value: x} --address-radix={string value: d} -v {file value}`
+`od {option format: --format, -t} x {option radix: --address-radix, -A} d {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
 
-- Display file in hexadecimal format (1-byte units), and 4 bytes per line:
+- Display content of specific files in he[x]adecimal format (1-byte units), and 4 bytes per line:
 
-`od --format={string value: x1} --width={int value: 4} -v {file value}`
+`od {option format: --format, -t} x --width={int byte count: 4} {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
 
-- Display file in hexadecimal format along with its character representation, and do not print byte offsets:
+- Display content of specific files in hexadecimal format along with its character representation, and do not print byte offsets:
 
-`od --format={string value: xz} --address-radix={string value: n} -v {file value}`
+`od {option format: --format, -t} xz {option radix: --address-radix, -A} n {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
 
-- Read only 100 bytes of a file starting from the 500th byte:
+- Display content of specific files while reading only 100 bytes and starting from the 500th byte:
 
-`od --read-bytes {int value: 100} --skip-bytes={int value: 500} -v {file value}`
+`od {option byte count: --read-bytes, -N} {int count: 100} {option byte count: --skip-bytes, -j} {int count: 500} {option enable verbose mode: --verbose, -v} {/?file+ file: ~/.bashrc}`
