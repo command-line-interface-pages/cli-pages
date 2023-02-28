@@ -8,15 +8,19 @@ Command Line Interface (CLI) pages.
   features like availability of `--help`/`--version` options everywhere, switching
   between long/short options
 
-## Screenshots
+## Quick introduction :rocket:
 
-Get more details:
+To get help for `cat` command type `clip-view cat`. If you need a more beautiful
+output you can use [this](https://github.com/command-line-interface-pages/themes/tree/main/awesome)
+theme like this: ``clip-view --theme awesome cat`
 
-![tar](./tar.jpg)
+![clip page](./clip-page.png)
 
-than TlDr can provide:
+Theme is a YAML file itself.
 
-![tar-tldr](./tar-tldr.jpg)
+## Similar projects :books:
 
-See not just a concrete example, but also what kind of arguments and how many of
-them are expected. 😸
+- [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with much less expressive syntax.
+  Here is a `cat` page in TlDr:
+
+  ![tldr page](./tldr-page.png)
