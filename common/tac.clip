@@ -1,25 +1,27 @@
 # tac
 
-> Display and concatenate files with lines in reversed order
-> See also: cat
+> Display content of files in reversed order
+> Help: --help
+> Version: --version
+> See also: cat, nl, od, base32, base64, basenc
 > More information: https://www.gnu.org/software/coreutils/tac
 
-- Concatenate specific files in reversed order:
+- Display content of specific files in reversed order:
 
-`tac {file* value}`
+`tac {/?file+ file: ~/.bashrc}`
 
-- Display stdin in reversed order:
+- Read stdin and write it to a specific file in reversed order:
 
-`{string value: cat path/to/file} | tac`
+`tac - > {/?file file: ~/.bashrc}`
 
 - Use a specific [s]eparator:
 
-`tac -s {string value: separator} {file* value}`
+`tac {option separator: --separator, -s} {string separator: ;} {/?file file: ~/.bashrc}`
 
 - Use a specific [r]egex as a [s]eparator:
 
-`tac -r -s {string value: separator} {file* value}`
+`tac {option enable regex for separator: --regex, -r} {string separator: ;} {/?file file: ~/.bashrc}`
 
 - Use a separator [b]efore each file:
 
-`tac -b {file* value}`
+`tac {option enable separator to be before: --before, -b} {/?file file: ~/.bashrc}`
