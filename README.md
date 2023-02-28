@@ -20,8 +20,8 @@ Theme is a YAML file itself.
 
 ## Similar projects :books:
 
-- [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with much less expressive syntax.
-  Here is a `cat` page in TlDr:
+- [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with
+  much less expressive syntax. Here is a `cat` page in TlDr:
 
   ![tldr page](./tldr-page.png)
 
