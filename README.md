@@ -18,6 +18,10 @@ theme like this: `clip-view --theme awesome cat`
 
 Theme is a YAML file itself.
 
+## Writing pages :hammer_and_wrench:
+
+Read [this](./CONTRIBUTING.md) guide for details.
+
 ## Similar projects :books:
 
 - [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with
