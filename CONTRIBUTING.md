@@ -43,6 +43,6 @@ Given already mentioned page above:
 
 Here we can see that the first line is a page header. All lines starting with an
 opening angle bracket explain common command properties like what it does (at
-first), how to get help, version and full documentation. Code examples are written
-down below. Their explanations start with one single dash, while code itself is
-surrounded with backticks.
+first), how to get help, version and complete documentation. Code examples are written
+down below. Their explanations start with one single dash, while backticks surround
+the code itself.
