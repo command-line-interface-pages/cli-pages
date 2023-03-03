@@ -1,0 +1,27 @@
+# csplit
+
+> Split a file into pieces
+> See also: head, tail, split
+> Help: --help
+> Version: --version
+> More information: https://www.gnu.org/software/coreutils/csplit
+
+- Split a file at specific lines:
+
+`csplit {/?file file: ~/.bashrc} {int+ line: 5}`
+
+- Split a file by a specific line count if it's divisible by this count:
+
+`csplit {/?file file: ~/.bashrc} {int line count: 5} '{*}'`
+
+- Split a file by a specific line count ignoring exact-division error:
+
+`csplit {option whether to keep files on error: --keep-files, -k} {/?file file: ~/.bashrc} {int line count: 5} '{*}'`
+
+- Split a file and use a specific prefix for output files:
+
+`csplit {/?file file: ~/.bashrc} {int+ line: 5} {option prefix: --prefix, -f} {string prefix}`
+
+- Split a file at lines matching a specific specific regular expression:
+
+`csplit {/?file file: ~/.bashrc} /{string regular expression: ^---}/`

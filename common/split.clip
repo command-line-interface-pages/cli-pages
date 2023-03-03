@@ -1,20 +1,19 @@
 # split
 
 > Split a file into pieces
-> More information: https://www.gnu.org/software/coreutils/split
+> See also: head, tail, csplit
+> Help: --help
+> Version: --version
+> More information: https://ss64.com/osx/split.html
 
-- Split a file, each split having 10 lines (except the last split):
+- Split a specific file to several ones having 1000 lines except last possibly:
 
-`split -l {int value: 10} {file value}`
+`split {/?file file: ~/.bashrc}`
 
-- Split a file into 5 files. File is split such that each split has same size (except the last split):
+- Split a file to several ones having a specific line count except last possibly:
 
-`split -n {int value: 5} {file value}`
+`split {option line count: --lines, -l} {int line count: 10} {/?file file: ~/.bashrc}`
 
-- Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
+- Split a file by specific byte/kilobyte count in several files except last possibly:
 
-`split -b {int value: 512} {file value}`
-
-- Split a file with at most 512 bytes in each split without breaking lines:
-
-`split -C {int value: 512} {file value}`
+`split {option count: --bytes, -b} {int count: 512, 512KB} {/?file file: ~/.bashrc}`
