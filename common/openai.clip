@@ -1,0 +1,20 @@
+# openai
+
+> Access to the OpenAI API
+> More information: https://github.com/openai/openai-python
+
+- List all models:
+
+`openai api models.list`
+
+- Create a completion:
+
+`openai api completions.create --model {string model: ada} --prompt {string prompt: "Hello world"}`
+
+- Create a chat completion:
+
+`openai api chat_completions.create --model {string model: gpt-3.5-turbo} --message {string message: user "Hello world"}`
+
+- Generate images via DALL·E API:
+
+`openai api image.create --prompt {string prompt: "two dogs playing chess, cartoon"} --num-images {int count: 1}`
