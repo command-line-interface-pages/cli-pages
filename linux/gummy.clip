@@ -1,0 +1,29 @@
+# gummy
+
+> Change screen brightness/temperature manager for Linux/X11
+> Help: -h
+> More information: https://github.com/Fushko/gummy
+
+- Set a screen [t]emperature to a specific value:
+
+`gummy {option temperature: --temperature, -t} {int temperature: 3000}`
+
+- Set a screen [b]acklight to a specific percent value:
+
+`gummy {option backlight: --backlight, -b} {int backlight: 50}`
+
+- Set a screen [B]rightness to a specific percent value:
+
+`gummy {option brightness: --brightness, -B} {int brightness: 45}`
+
+- Increase a screen [B]rightness by a specific percent value:
+
+`gummy {option brightness: --brightness, -B} +{int brightness: 10}`
+
+- Decrease a screen [B]rightness by a specific percent value:
+
+`gummy {option brightness: --brightness, -B} -{int brightness: 10}`
+
+- Set options for a specific screen:
+
+`gummy --screen {int screen: 1} {string+ option: --brightness 45}`
