@@ -26,4 +26,4 @@
 
 - Convert a specific audio file to all file formats being in verbose mode:
 
-`whisper {/?file mp3 audio} --verbose {bool whether to enable verbose mode: True, False}`
+`whisper {/?file mp3 audio} --verbose True`
