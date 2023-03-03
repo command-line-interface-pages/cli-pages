@@ -1,0 +1,29 @@
+# whisper
+
+> Convert audio files to txt,vtt,srt,tsv,json
+> Help: --help
+> More information: https://github.com/openai/whisper
+
+- Convert a specific audio file to all file formats:
+
+`whisper {/?file mp3 audio}`
+
+- Convert an audio file to a specific file format:
+
+`whisper {/?file mp3 audio} --output-format {string format: txt}`
+
+- Convert an audio file to all file formats with a specific conversion model:
+
+`whisper {/?file mp3 audio} --model {string model: tiny.en, tiny, base.en, base, small.en, small, medium.en, medium, large-v1, large-v2, large}`
+
+- Convert an audio file to all file formats with a specific language:
+
+`whisper {/?file mp3 audio} --language {string language: english}`
+
+- Convert an audio file to all file formats to a specific directory:
+
+`whisper {/?file mp3 audio} --output_dir "{string some description: path/to/output}"`
+
+- Convert a specific audio file to all file formats being in verbose mode:
+
+`whisper {/?file mp3 audio} --verbose {bool whether to enable verbose mode: True, False}`
