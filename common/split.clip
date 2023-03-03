@@ -4,7 +4,7 @@
 > See also: head, tail, csplit
 > Help: --help
 > Version: --version
-> More information: https://ss64.com/osx/split.html
+> More information: https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html
 
 - Split a specific file to several ones having 1000 lines except last possibly:
 
