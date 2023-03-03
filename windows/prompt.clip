@@ -1,0 +1,21 @@
+# prompt
+
+> Change the default DOS style prompt in a command window
+> Help: /?
+> More information: https://learn.microsoft.com/windows-server/administration/windows-commands/prompt
+
+- Reset a prompt to the default one:
+
+`prompt`
+
+- Set a specific prompt:
+
+`prompt {string prompt: $d $p$g}`
+
+- Set a prompt to display the current date first:
+
+`prompt $d $p$g`
+
+- Set a prompt to display the current time first:
+
+`prompt $t $p$g`
