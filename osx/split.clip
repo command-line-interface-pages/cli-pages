@@ -1,16 +1,19 @@
 # split
 
 > Split a file into pieces
+> See also: head, tail, csplit
+> Help: --help
+> Version: --version
 > More information: https://ss64.com/osx/split.html
 
-- Split a file, each split having 10 lines (except the last split):
+- Split a specific file to several ones having 1000 lines except last possibly:
 
-`split -l {int some description: 10} {file some description}`
+`split {/?file file: ~/.bashrc}`
 
-- Split a file by a regular expression. The matching line will be the first line of the next output file:
+- Split a file to several ones having a specific line count except last possibly:
 
-`split -p {string some description: cat|^[dh]og} {file some description}`
+`split {option line count: --lines, -l} {int line count: 10} {/?file file: ~/.bashrc}`
 
-- Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
+- Split a file by specific byte/kilobyte count in several files except last possibly:
 
-`split -b {int some description: 512} {file some description}`
+`split {option count: --bytes, -b} {int count: 512, 512KB} {/?file file: ~/.bashrc}`
