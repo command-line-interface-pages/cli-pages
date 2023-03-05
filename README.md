@@ -36,7 +36,7 @@ Read [this](./CONTRIBUTING.md) guide for details.
 
   ![cheat page](./cheat-page.png)
 
-## Why to use this project :qustion:
+## Why to use this project :question:
 
 From page writer perspective:
 
