@@ -36,3 +36,8 @@ Read [this](./CONTRIBUTING.md) guide for details.
     is no need to type them manually.
   - Placeholder types have strict inevitable semantic which all pages follow.
   - Switching between long/short options available.
+
+- [Cheat](https://github.com/cheat/cheat) cheat allows you to create and view
+  interactive cheatsheets on the command-line. Here is a `cat` page in TlDr:
+
+  ![cheat page](./cheat-page.png)
