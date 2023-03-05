@@ -38,6 +38,6 @@ Read [this](./CONTRIBUTING.md) guide for details.
   - Switching between long/short options available.
 
 - [Cheat](https://github.com/cheat/cheat) cheat allows you to create and view
-  interactive cheatsheets on the command-line. Here is a `cat` page in TlDr:
+  interactive cheatsheets on the command-line. Here is a `cat` page in Cheat:
 
   ![cheat page](./cheat-page.png)
