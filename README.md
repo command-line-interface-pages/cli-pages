@@ -51,7 +51,7 @@ From page writer perspective:
   - Define strict placeholder interpretation and type. Don't guess what some file
     with some extension is in example, know it's meaning directly from code.
 - Permit user to use their preferences:
-  - Don't use the most appropriate option's style from your opinion. Let user chose
+  - Don't use the most appropriate option's style from others opinion. Let user chose
     what option's style is the best for them while switching between GNU-style
     long and short options.
 - Write in parsable format:
