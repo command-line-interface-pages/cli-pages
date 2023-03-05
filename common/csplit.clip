@@ -10,7 +10,7 @@
 
 `csplit {/?file file: ~/.bashrc} {int+ line: 5}`
 
-- Split a file by a specific line count if it's divisible by this count:
+- Split a file by a specific line count if it's divisible by this number:
 
 `csplit {/?file file: ~/.bashrc} {int line count: 5} '{*}'`
 
