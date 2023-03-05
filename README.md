@@ -24,6 +24,8 @@ Read [this](./CONTRIBUTING.md) guide for details.
 
 ## Similar projects :books:
 
+> :bell: Default render settings and official clients are used.
+
 - [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with
   much less expressive syntax. Here is a `cat` page in TlDr:
 
@@ -36,3 +38,8 @@ Read [this](./CONTRIBUTING.md) guide for details.
     is no need to type them manually.
   - Placeholder types have strict inevitable semantic which all pages follow.
   - Switching between long/short options available.
+
+- [Cheat](https://github.com/cheat/cheat) cheat allows you to create and view
+  interactive cheatsheets on the command-line. Here is a `cat` page in Cheat:
+
+  ![cheat page](./cheat-page.png)
