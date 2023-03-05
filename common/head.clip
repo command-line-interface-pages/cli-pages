@@ -1,10 +1,10 @@
 # head
 
-> Display the first part of files
-> See also: tail
+> Display first lines or bytes of file content
+> See also: tail, split, csplit
 > Help: --help
 > Version: --version
-> More information: https://www.gnu.org/software/coreutils/head
+> More information: https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html
 
 - Display first li[n]es of a specific file:
 
