@@ -24,6 +24,8 @@ Read [this](./CONTRIBUTING.md) guide for details.
 
 ## Similar projects :books:
 
+> :bell: default render settings and official clients are used.
+
 - [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with
   much less expressive syntax. Here is a `cat` page in TlDr:
 
