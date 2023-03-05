@@ -38,30 +38,30 @@ Read [this](./CONTRIBUTING.md) guide for details.
 
 ## Why to use this project :question:
 
-From page writer perspective:
+From the page writer's perspective:
 
 - Write less, gain more:
-  - Just mention how to get help or version of some command and get automatically
+  - Just mention how to get help or a version of some command and get automatically
     generated code examples for these options.
-  - Just mention that command is not intended for a direct usage or is deprecated
+  - Just mention that the command is not intended for direct usage or is deprecated
     and get automatically generated note about it.
-- Write using unambiguous syntax:
-  - Define when some command and when uses some I/O stream and be sure that
+- Write using the unambiguous syntax:
+  - Define when some command uses some I/O stream and be sure that
     code explanations have just one possible interpretation.
   - Define strict placeholder interpretation and type. Don't guess what some file
-    with some extension is in example, know it's meaning directly from code.
-- Permit user to use their preferences:
-  - Don't use the most appropriate option's style from others opinion. Let user chose
-    what option's style is the best for them while switching between GNU-style
+    with some extension is, for example, know its meaning directly from code.
+- Permit users to use their preferences:
+  - Don't use the most appropriate option's style from other's opinions. Let users choose
+    what style is the best for them while switching between GNU-style
     long and short options.
-- Write in parsable format:
-  - Be able to automatically extract information from pages and be sure about it's
-    semantic.
+- Write in the parsable format:
+  - To be able to automatically extract information from pages and be sure about its
+    semantics.
 
-From the end user perspective:
+From the end-user perspective:
 
-- Know how to get software builtin help or version.
-- Be aware when and what commands to use and what not.
-- Know when command uses and what I/O stream.
-- Don't google what some not familiar file is, see it's description right here.
+- Know how to get software built-in help or version.
+- Be aware of when and what commands to use and what not.
+- Know when the command uses and what I/O stream.
+- Don't google what some not-familiar file is, see its description right here.
 - Be yourself, and not the other person. Chose your code option's style.
