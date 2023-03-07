@@ -3,7 +3,7 @@
 > Display content of file in encoded Base32 or decoded Base32 format
 > Help: --help
 > Version: --version
-> See also: cat, tac, nl, od, base64, basenc
+> See also: tac, od, nl, cat, basenc, base64
 > More information: https://www.gnu.org/software/coreutils/base32
 
 - Display content of a specific file in encoded Base32 format:

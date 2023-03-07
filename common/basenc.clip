@@ -3,7 +3,7 @@
 > Display content of file in encoded or decoded format
 > Help: --help
 > Version: --version
-> See also: cat, tac, nl, od, base32, base64
+> See also: tac, od, nl, cat, base64, base32
 > More information: https://www.gnu.org/software/coreutils/basenc
 
 - Display content of a specific file in encoded url-safe Base64 format:

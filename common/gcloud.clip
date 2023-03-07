@@ -17,7 +17,7 @@
 
 - SSH into a virtual machine instance:
 
-`gcloud compute ssh {string value: user}@{string value: instance} `
+`gcloud compute ssh {string value: user}@{string value: instance}`
 
 - Display all Google Compute Engine instances in a project. Instances from all zones are listed by default:
 

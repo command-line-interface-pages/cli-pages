@@ -1,9 +1,9 @@
 # zsh
 
 > [Z] [SH]ell
-> See also: bash, dash, csh, tcsh, ksh, fish
 > Help: --help
 > Version: --version
+> See also: tcsh, ksh, fish, dash, csh, bash
 > More information: https://www.zsh.org
 
 - Start an interactive shell session:

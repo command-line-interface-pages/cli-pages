@@ -1,9 +1,9 @@
 # split
 
 > Split a file into pieces
-> See also: head, tail, csplit
 > Help: --help
 > Version: --version
+> See also: tail, head, csplit
 > More information: https://www.gnu.org/software/coreutils/manual/html_node/split-invocation.html
 
 - Split a specific file to several ones having 1000 lines except last possibly:

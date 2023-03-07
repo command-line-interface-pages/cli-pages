@@ -1,9 +1,9 @@
 # csh
 
 > [C] [SH]ell
-> See also: bash, dash, tcsh, ksh, fish, zsh
 > Help: --help
 > Version: --version
+> See also: zsh, tcsh, ksh, fish, dash, bash
 > More information: https://www.mkssoftware.com/docs/man1/csh.1.asp
 
 - Start an interactive shell session:

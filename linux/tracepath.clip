@@ -9,7 +9,7 @@
 
 - Specify the initial destination port, useful with non-standard firewall settings:
 
-`tracepath -p {string value: destination_port} {string value: host} `
+`tracepath -p {string value: destination_port} {string value: host}`
 
 - Print both hostnames and numerical IP addresses:
 

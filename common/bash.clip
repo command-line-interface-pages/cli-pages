@@ -1,9 +1,9 @@
 # bash
 
 > GNU [B]ourne-[A]gain [SH]ell
-> See also: dash, csh, tcsh, ksh, fish, zsh
 > Help: --help
 > Version: --version
+> See also: zsh, tcsh, ksh, fish, dash, csh
 > More information: https://gnu.org/software/bash/
 
 - Start an interactive shell session:

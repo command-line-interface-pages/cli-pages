@@ -1,7 +1,6 @@
 # graphml2gv
 
 > Convert a graph from `graphml` to `gv` format
-> Converters: `gml2gv`, `gv2gml`, `gv2gxl`, `gxl2gv`, `graphml2gv` & `mm2gv`
 > More information: https://graphviz.org/pdf/graphml2gv.1.pdf
 
 - Convert a graph from `gml` to `gv` format:
