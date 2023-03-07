@@ -1,9 +1,9 @@
 # tail
 
 > Display last lines or bytes of file content
-> See also: head, split, csplit
 > Help: --help
 > Version: --version
+> See also: split, head, csplit
 > More information: https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html
 
 - Display last li[n]es of a specific file:

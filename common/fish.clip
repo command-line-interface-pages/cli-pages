@@ -1,9 +1,9 @@
 # fish
 
 > [F]riendly [I]nteractive [SH]ell
-> See also: bash, dash, csh, tcsh, ksh, zsh
 > Help: --help
 > Version: --version
+> See also: zsh, tcsh, ksh, dash, csh, bash
 > More information: https://fishshell.com
 
 - Start an interactive shell session:

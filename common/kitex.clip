@@ -10,7 +10,7 @@
 
 - Generate client codes when a project is not in `$GOPATH`:
 
-` kitex -module {string value: github.com/xx-org/xx-name} {file value: IDL.thrift}`
+`kitex -module {string value: github.com/xx-org/xx-name} {file value: IDL.thrift}`
 
 - Generate client codes with protobuf IDL:
 

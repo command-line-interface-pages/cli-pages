@@ -1,8 +1,8 @@
 # cmd
 
 > The Windows command interpreter
-> See also: pwsh
 > Help: /?
+> See also: pwsh
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/cmd
 
 - Start an interactive shell session:

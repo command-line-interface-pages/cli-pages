@@ -1,9 +1,9 @@
 # ksh
 
 > [K]orn [SH]ell
-> See also: bash, dash, csh, tcsh, fish, zsh
 > Help: --help
 > Version: --version
+> See also: zsh, tcsh, fish, dash, csh, bash
 > More information: http://kornshell.com
 
 - Start an interactive shell session:

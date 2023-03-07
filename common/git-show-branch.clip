@@ -33,4 +33,4 @@
 
 - Keep going a given number of commits past the common ancestor:
 
-`git show-branch --more {int value: 5} {string value: commit|branch_name|ref} {string value: commit|branch_name|ref} `
+`git show-branch --more {int value: 5} {string value: commit|branch_name|ref} {string value: commit|branch_name|ref}`

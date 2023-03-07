@@ -1,7 +1,6 @@
 # podman build
 
 > Daemonless tool for building container images
-> Podman provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`
 > More information: https://docs.podman.io/en/latest/markdown/podman-build.1.html
 
 - Create an image using a `Dockerfile` or `Containerfile` in the specified directory:

@@ -1,7 +1,7 @@
 # dash
 
 > [D]ebian [A]lmquist [SH]ell
-> See also: bash, csh, tcsh, ksh, fish, zsh
+> See also: zsh, tcsh, ksh, fish, csh, bash
 > More information: https://manned.org/dash
 
 - Start an interactive shell session:

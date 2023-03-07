@@ -21,7 +21,7 @@
 
 - Set a new list of repositories, overwriting the previous list:
 
-`sudo tlmgr repository set {string value: path|url|tag}#{string value: tag} {string value: path|url|tag}#{string value: tag} `
+`sudo tlmgr repository set {string value: path|url|tag}#{string value: tag} {string value: path|url|tag}#{string value: tag}`
 
 - Show the verification status of all configured repositories:
 

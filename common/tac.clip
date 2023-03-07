@@ -3,7 +3,7 @@
 > Display content of files in reversed order
 > Help: --help
 > Version: --version
-> See also: cat, nl, od, base32, base64, basenc
+> See also: od, nl, cat, basenc, base64, base32
 > More information: https://www.gnu.org/software/coreutils/tac
 
 - Display content of specific files in reversed order:

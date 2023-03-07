@@ -1,8 +1,8 @@
 # replace
 
 > Replace files
-> See also: robocopy, move, copy, and del
 > Help: /?
+> See also: robocopy, move, copy, and del
 > More information: https://learn.microsoft.com/windows-server/administration/windows-commands/replace
 
 - Replace the destination file with the one from the source directory:

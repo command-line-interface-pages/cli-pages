@@ -4,7 +4,7 @@
 > Optionally display the byte offsets and/or printable representation for each line
 > Help: --help
 > Version: --version
-> See also: cat, tac, nl, base32, base64, basenc
+> See also: tac, nl, cat, basenc, base64, base32
 > More information: https://www.gnu.org/software/coreutils/od
 
 - Display content of specific files in octal format. 8 bytes per line, byte offsets in octal, and duplicate lines replaced with *:

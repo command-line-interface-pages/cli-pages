@@ -3,7 +3,7 @@
 > Display content of files with line numbers
 > Help: --help
 > Version: --version
-> See also: cat, tac, od, base32, base64, basenc
+> See also: tac, od, cat, basenc, base64, base32
 > More information: https://www.gnu.org/software/coreutils/nl
 
 - Display content of specific files with line numbers:

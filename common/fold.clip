@@ -3,7 +3,7 @@
 > Display content of files wrapped
 > Help: --help
 > Version: --version
-> See also: fmt, pr
+> See also: pr, fmt
 > More information: https://www.gnu.org/software/coreutils/fold
 
 - Display content of specific files with lines wrapped at 80 characters:

@@ -17,7 +17,7 @@
 
 - Publish message by reading from stdin:
 
-` echo {string value: message} | kcat -P -t {string value: topic} -b {string value: brokers}`
+`echo {string value: message} | kcat -P -t {string value: topic} -b {string value: brokers}`
 
 - Publish messages by reading from a file:
 

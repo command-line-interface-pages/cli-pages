@@ -3,7 +3,7 @@
 > Display content of files paginated or columnated
 > Help: --help
 > Version: --version
-> See also: fmt, fold
+> See also: fold, fmt
 > More information: https://www.gnu.org/software/coreutils/pr
 
 - Display content of specific files with a header and footer:

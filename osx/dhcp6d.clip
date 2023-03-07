@@ -1,7 +1,8 @@
 # dhcp6d
 
-> Stateless DHCPv6 server. See also: InternetSharing
+> Stateless DHCPv6 server
 > Internal: true
+> See also: InternetSharing
 > More information: https://www.manpagez.com/man/8/dhcp6d/
 
 - Start the daemon:
