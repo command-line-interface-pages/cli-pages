@@ -5,4 +5,4 @@
 
 - View documentation for the original command:
 
-`tldr apport-bug`
+`clip-view -os linux apport-bug`

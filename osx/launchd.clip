@@ -10,4 +10,4 @@
 
 - View documentation for interacting with launchd using launchctl:
 
-`tldr launchctl`
+`clip-view -os osx launchctl`

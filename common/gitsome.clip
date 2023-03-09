@@ -22,7 +22,7 @@
 
 - View the recent activity feed of a given GitHub repository:
 
-`gh feed {string value: tldr-pages/tldr}`
+`gh feed {string value: command-line-interface-pages/cli-pages}`
 
 - View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
 

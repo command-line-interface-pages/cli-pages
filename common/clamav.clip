@@ -4,14 +4,14 @@
 > ClamAV isn't a command, but a set of commands
 > More information: https://www.clamav.net
 
-- Show the tldr page for scan files using the `clamd` daemon:
+- Show the clip-view page for scan files using the `clamd` daemon:
 
-`tldr clamdscan`
+`clip-view clamdscan`
 
-- Show the tldr page for scan files without the `clamd` daemon running:
+- Show the clip-view page for scan files without the `clamd` daemon running:
 
-`tldr clamscan`
+`clip-view clamscan`
 
-- Show the tldr page for update the virus definitions:
+- Show the clip-view page for update the virus definitions:
 
-`tldr freshclam`
+`clip-view freshclam`

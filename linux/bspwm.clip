@@ -9,4 +9,4 @@
 
 - View documentation for `bspc`:
 
-`tldr bspc`
+`clip-view -os linux bspc`

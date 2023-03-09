@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux sha1sum`
+`clip-view sha1sum`

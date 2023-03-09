@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux mknod`
+`clip-view -os linux mknod`

@@ -5,12 +5,12 @@
 
 - Scan a repository:
 
-`astronomer {string value: tldr-pages/tldr-node-client}`
+`astronomer {string value: command-line-interface-pages/cli-pages}`
 
 - Scan the maximum amount of stars in the repository:
 
-`astronomer {string value: tldr-pages/tldr-node-client} --stars {int value: 50}`
+`astronomer {string value: command-line-interface-pages/cli-pages} --stars {int value: 50}`
 
 - Scan a repository including comparative reports:
 
-`astronomer {string value: tldr-pages/tldr-node-client} --verbose`
+`astronomer {string value: command-line-interface-pages/cli-pages} --verbose`

@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux sha512sum`
+`clip-view sha512sum`
