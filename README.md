@@ -1,12 +1,8 @@
 # Command Line Interface (CLI) pages
 
+[![chat](https://img.shields.io/badge/Current-goals-a32236?labelColor=ed425c&style=flat-square)](https://command-line-interface-pages.github.io/site.github.io/goals/#cli-pagescli-pages-)
+
 Command Line Interface (CLI) pages.
-
-## Current goals :checkered_flag:
-
-- Update all coreutils pages to support all [v2.7.0 syntax](https://github.com/command-line-interface-pages/syntax/blob/main/base.md)
-  features like availability of `--help`/`--version` options everywhere, switching
-  between long/short options
 
 ## Quick introduction :rocket:
 
