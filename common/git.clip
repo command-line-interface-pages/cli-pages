@@ -13,7 +13,7 @@
 
 `git -C {/?directory repository} {string subcommand: clone, add, push}`
 
-- Execute a subcommand with specific configuration parameter overrides:
+- Execute a subcommand with specific [c]onfiguration parameter overrides:
 
 `git -c {string+ pair: key=value} {string subcommand}`
 
