@@ -17,6 +17,6 @@
 
 `git -c {string+ pair: key=value} {string subcommand}`
 
-- Display (help) for a specific subcommand:
+- Display [help] for a specific subcommand:
 
 `git {string subcommand: clone, add, push} --help`
