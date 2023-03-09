@@ -7,8 +7,8 @@ Command Line Interface (CLI) pages.
 ## Quick introduction :rocket:
 
 To get help for `cat` command type `clip-view cat`. If you need a more beautiful
-output you can use [this][awesome-theme]
-theme like this: `clip-view --theme awesome cat`
+output you can use [this][awesome-theme] theme like this:
+`clip-view --theme awesome cat`
 
 ![clip page](./clip-page.png)
 
