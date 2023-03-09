@@ -5,18 +5,18 @@
 > Version: --version
 > More information: https://git-scm.com/
 
-- Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
+- Execute a subcommand:
 
-`git help {string value: subcommand}`
+`git {string subcommand: clone, add, push}`
 
-- Execute a Git subcommand:
+- Execute a subcommand for a specific repository:
 
-`git {string value: subcommand}`
+`git -C {/?directory repository} {string subcommand: clone, add, push}`
 
-- Execute a Git subcommand on a custom repository root path:
+- Execute a subcommand with specific configuration parameter overrides:
 
-`git -C {string value: path/to/repo} {string value: subcommand}`
+`git -c {string+ pair: key=value} {string subcommand}`
 
-- Execute a Git subcommand with a given configuration set:
+- Display (help) for a specific subcommand:
 
-`git -c '{string value: config.key}={string value: value}' {string value: subcommand}`
+`git {string subcommand: clone, add, push} --help`
