@@ -1,18 +1,14 @@
 # Command Line Interface (CLI) pages
 
+[![chat](https://img.shields.io/badge/Current-goals-a32236?labelColor=ed425c&style=flat-square)][goals]
+
 Command Line Interface (CLI) pages.
-
-## Current goals :checkered_flag:
-
-- Update all coreutils pages to support all [v2.7.0 syntax](https://github.com/command-line-interface-pages/syntax/blob/main/base.md)
-  features like availability of `--help`/`--version` options everywhere, switching
-  between long/short options
 
 ## Quick introduction :rocket:
 
 To get help for `cat` command type `clip-view cat`. If you need a more beautiful
-output you can use [this](https://github.com/command-line-interface-pages/themes/tree/main/awesome)
-theme like this: `clip-view --theme awesome cat`
+output you can use [this][awesome-theme] theme like this:
+`clip-view --theme awesome cat`
 
 ![clip page](./clip-page.png)
 
@@ -26,13 +22,13 @@ Read [this](./CONTRIBUTING.md) guide for details.
 
 > :bell: Default render settings and official clients are used.
 
-- [TlDr](https://github.com/tldr-pages/tldr) project with similar goal but with
+- [TlDr][tldr] project with similar goal but with
   much less expressive syntax. Here is a `cat` page in TlDr:
 
   ![tldr page](./tldr-page.png)
 
-- [Cheat](https://github.com/cheat/cheat) cheat allows you to create and view
-  interactive cheatsheets on the command-line. Here is a `cat` page in Cheat:
+- [Cheat][cheat] cheat allows you to create and view
+  interactive cheat sheets on the command-line. Here is a `cat` page in Cheat:
 
   ![cheat page](./cheat-page.png)
 
@@ -41,22 +37,23 @@ Read [this](./CONTRIBUTING.md) guide for details.
 From the page writer's perspective:
 
 - Write less, gain more:
-  - Just mention how to get help or a version of some command and get automatically
-    generated code examples for these options.
-  - Just mention that the command is not intended for direct usage or is deprecated
-    and get automatically generated note about it.
+  - Just mention how to get help or a version of some command and get
+    automatically generated code examples for these options.
+  - Just mention that the command is not intended for direct usage or is
+    deprecated and get automatically generated note about it.
 - Write using the unambiguous syntax:
   - Define when some command uses some I/O stream and be sure that
     code explanations have just one possible interpretation.
-  - Define strict placeholder interpretation and type. Don't guess what some file
-    with some extension is, for example, know its meaning directly from code.
+  - Define strict placeholder interpretation and type. Don't guess what some
+    file with some extension is, for example, know its meaning directly from
+    code.
 - Permit users to use their preferences:
-  - Don't use the most appropriate option's style from other's opinions. Let users choose
-    what style is the best for them while switching between GNU-style
-    long and short options.
+  - Don't use the most appropriate option's style from other's opinions. Let
+    users choose what style is the best for them while switching between
+    GNU-style long and short options.
 - Write in the parsable format:
-  - To be able to automatically extract information from pages and be sure about its
-    semantics.
+  - To be able to automatically extract information from pages and be sure about
+    its semantics.
 
 From the end-user perspective:
 
@@ -65,3 +62,8 @@ From the end-user perspective:
 - Know when the command uses and what I/O stream.
 - Don't google what some not-familiar file is, see its description right here.
 - Be yourself, and not the other person. Chose your code option's style.
+
+[awesome-theme]: https://github.com/command-line-interface-pages/themes/tree/main/awesome
+[tldr]: https://github.com/tldr-pages/tldr
+[cheat]: https://github.com/cheat/cheat
+[goals]: https://command-line-interface-pages.github.io/site.github.io/goals/#cli-pagescli-pages-
