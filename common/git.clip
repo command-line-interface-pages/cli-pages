@@ -1,29 +1,22 @@
 # git
 
 > Distributed version control system
-> Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation, accessible via `tldr git subcommand`
+> Help: --help
+> Version: --version
 > More information: https://git-scm.com/
 
-- Check the Git version:
+- Execute a subcommand:
 
-`git --version`
+`git {string subcommand: clone, add, push}`
 
-- Show general help:
+- Execute a subcommand for a specific repository:
 
-`git --help`
+`git -C {/?directory repository} {string subcommand: clone, add, push}`
 
-- Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
+- Execute a subcommand with specific [c]onfiguration parameter overrides:
 
-`git help {string value: subcommand}`
+`git -c {string+ pair: key=value} {string subcommand}`
 
-- Execute a Git subcommand:
+- Display [help] for a specific subcommand:
 
-`git {string value: subcommand}`
-
-- Execute a Git subcommand on a custom repository root path:
-
-`git -C {string value: path/to/repo} {string value: subcommand}`
-
-- Execute a Git subcommand with a given configuration set:
-
-`git -c '{string value: config.key}={string value: value}' {string value: subcommand}`
+`git {string subcommand: clone, add, push} --help`
