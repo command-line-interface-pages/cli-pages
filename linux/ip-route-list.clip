@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr ip-route-show`
+`clip-view -os linux ip-route-show`

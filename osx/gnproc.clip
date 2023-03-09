@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux nproc`
+`clip-view nproc`

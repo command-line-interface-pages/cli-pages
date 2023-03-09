@@ -5,4 +5,4 @@
 
 - View documentation for the original command:
 
-`tldr update-alternatives`
+`clip-view -os linux update-alternatives`

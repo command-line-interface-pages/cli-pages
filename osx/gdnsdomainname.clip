@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux dnsdomainname`
+`clip-view -os osx dnsdomainname`
