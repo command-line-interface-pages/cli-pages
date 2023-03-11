@@ -1,0 +1,14 @@
+# forkrun
+
+> Parallelize loops in much the same way that xargs -P or parallel does only faster
+> See also: xargs, parallel
+> Help: -h
+> More information: https://github.com/jkool702/forkrun
+
+- Run a specific command in parallel for each line read from stdin:
+
+`forkrun {string command: sha256sum}`
+
+- Run a specific command in parallel for each input NULL-separated record read from stdin:
+
+`forkrun -z {string command: sha256sum}`
