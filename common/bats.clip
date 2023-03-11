@@ -1,0 +1,18 @@
+# bats
+
+> Execute unit tests for shell scripts
+> Help: --help
+> Version: --version
+> More information: https://bats-core.readthedocs.io/en/stable/usage.html
+
+- Run all unit tests in specific files:
+
+`bats {/?file+ test suite: converter.bats}`
+
+- Run all unit tests in files with specific tags:
+
+`bats --filter-tags {string tags: correct, invalid} {/?file+ test suite: converter.bats}`
+
+- Run all unit tests in specific files displaying output from failed tests:
+
+`bats --print-output-on-failure {/?file+ test suite: converter.bats}`
