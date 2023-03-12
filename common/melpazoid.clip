@@ -1,0 +1,16 @@
+# melpazoid
+
+> Check Emacs packages
+> More information: https://github.com/riscy/melpazoid
+
+- Check a specific pull request sent in MELPA repository:
+
+`ELPA_PR_URL=https://github.com/melpa/melpa/pull/{int pull request identifier: 6718} make`
+
+- Check a recipe in a specific repository:
+
+`RECIPE='(shx :repo "{string repository: iriscy/shx-for-emacs}" :fetcher {string fetcher: github})' make`
+
+- Check a recipe in a specific repository branch:
+
+`RECIPE='(shx :repo "{string repository: iriscy/shx-for-emacs}" :fetcher {string fetcher: github} :branch {string fetcher: develop})' make`
