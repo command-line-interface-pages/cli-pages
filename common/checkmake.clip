@@ -1,0 +1,14 @@
+# checkmake
+
+> Check makefiles
+> Help: --help
+> Version: --version
+> More information: https://github.com/mrtazz/checkmake
+
+- Check specific makefiles:
+
+`checkmake {/?file+ makefile: fixtures/missing_phony.make}`
+
+- List all checked rules:
+
+`checkmake --list-rules`
