@@ -5,7 +5,7 @@
 
 - Check a specific pull request sent in MELPA repository:
 
-`ELPA_PR_URL=https://github.com/melpa/melpa/pull/{int pull request identifier: 6718} make`
+`MELPA_PR_URL=https://github.com/melpa/melpa/pull/{int pull request identifier: 6718} make`
 
 - Check a recipe in a specific repository:
 
