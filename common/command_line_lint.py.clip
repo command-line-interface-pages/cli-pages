@@ -1,0 +1,16 @@
+# command_line_lint.py
+
+> Check shell history
+> More information: https://github.com/riscy/command_line_lint
+
+- Lint a specific history file:
+
+`python command_line_lint.py {/?file history: ~/.bash_history}`
+
+- Lint a history file related to a specific shell:
+
+`SHELL={string shell: zsh} python command_line_lint.py {/?file history: ~/.zsh_history}`
+
+- Lint a specific history file and produce not colored output:
+
+`NO_COLOR=1 python command_line_lint.py {/?file history: ~/.bash_history}`
