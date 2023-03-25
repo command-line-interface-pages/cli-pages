@@ -1,0 +1,14 @@
+# commitlint
+
+> Lint commit messages
+> Help: --help
+> Version: --version
+> More information: https://commitlint.js.org/
+
+- Lint a last message:
+
+`commitlint {option whether to line COMMITMSG: --edit, -e}`
+
+- Lint a specific message from stdin:
+
+`commitlint`
