@@ -1,0 +1,4 @@
+default: true
+no-trailing-punctuation:
+  punctuation: .,;!。，；：！
+no-inline-html: false
