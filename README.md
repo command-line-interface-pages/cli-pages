@@ -1,7 +1,7 @@
 # Command Line Interface (CLI) pages
 
 ![ci-status](https://img.shields.io/github/actions/workflow/status/command-line-interface-pages/cli-pages/ci.yaml?style=flat-square)
-[![help-wanted-issues](https://img.shields.io/github/issues/command-line-interface-pages/<Repository>/help%20wanted?color=orange&style=flat-square)][help-wanted-issues]
+[![help-wanted-issues](https://img.shields.io/github/issues/command-line-interface-pages/cli-pages/help%20wanted?color=orange&style=flat-square)][help-wanted-issues]
 [![goals](https://img.shields.io/badge/Current-goals-a32236?labelColor=ed425c&style=flat-square)][goals]
 
 Command Line Interface (CLI) pages.
