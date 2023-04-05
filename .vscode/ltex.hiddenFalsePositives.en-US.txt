@@ -1,2 +1,3 @@
 {"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QCheat cheat allows you to create and view interactive cheatsheets on the command-line.\\E$"}
 {"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QCheat cheat allows you to create and view interactive cheat sheets on the command-line.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qci-status help-wanted-issues goals\\E$"}
