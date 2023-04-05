@@ -1,0 +1,9 @@
+version: 3
+
+tasks:
+  default:
+    deps: [lint-with-markdownlint]
+  
+  lint-with-markdownlint:
+    cmds:
+      - markdownlint **/*.md
