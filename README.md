@@ -18,6 +18,8 @@ output you can use [this][awesome-theme] theme like this:
 
 Theme is a YAML file itself.
 
+[awesome-theme]: https://github.com/command-line-interface-pages/themes/tree/main/awesome
+
 ## Writing pages :hammer_and_wrench:
 
 Read [this](./CONTRIBUTING.md) guide for details.
