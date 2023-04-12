@@ -1,0 +1,12 @@
+# mate-appearance-properties
+
+> Manage appearance settings MATE desktop environment
+> More information: https://manned.org/mate-appearance-properties
+
+- Install a specific theme:
+
+`mate-appearance-properties {option: --install-theme, -i}={/?file theme}`
+
+- Display a specific setting's page:
+
+`mate-appearance-properties {option: --show-page, -p}={string page: theme, background, fonts, interface}`
