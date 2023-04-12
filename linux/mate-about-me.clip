@@ -1,0 +1,8 @@
+# mate-about-me
+
+> Display user logo in MATE desktop environment
+> More information: https://manned.org/mate-about
+
+- Display the current user logo:
+
+`mate-about-me`
