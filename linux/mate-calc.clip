@@ -1,12 +1,11 @@
 # mate-calc
 
-> Calculate mathematic expressions in MATE desktop environment
-> More information: https://manned.org/mate-calc
+> Calculate mathematic expression in MATE desktop environment
+> Aliases: mate-calculator
+> Help: --help
+> Version: --version
+> More information: https://manned.org/mate-calc.1
 
-- Start the calculator:
+- Display a calculation result:
 
-`mate-calc`
-
-- Calculate a specific mathematic expression:
-
-`mate-calc --solve {string value: 2 + 5}`
+`mate-calc {option: --solve, -s} {string expression: 2 + 2}`
