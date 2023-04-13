@@ -1,12 +1,8 @@
 # mate-calc-cmd
 
-> Calculate mathematic expressions in MATE desktop environment in terminal
+> Calculate mathematic expressions in terminal in MATE desktop environment
 > More information: https://manned.org/mate-calc-cmd
 
 - Start an interactive calculator session:
 
 `mate-calc-cmd`
-
-- Calculate a specific mathematic expression:
-
-`{string value: 2 + 5}`
