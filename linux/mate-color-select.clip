@@ -1,0 +1,8 @@
+# mate-color-select
+
+> Select color in MATE desktop environment
+> More information: https://manned.org/mate-color-select.1
+
+- Select a color:
+
+`mate-color-select`
